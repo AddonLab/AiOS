@@ -1,0 +1,21 @@
+<!ENTITY page.label "Էջ">
+<!ENTITY page.tooltip "Բացել էջը այս վահանակում">
+<!ENTITY page.ssr.label "Փոքր էջ">
+<!ENTITY page.ssr100.label "Հարմարեցնել վահանակի լայնությանը">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Ցույց է տալիս ծրագրի մասին տարբեր տեղեկություն">
+<!ENTITY about.config.tooltip "Ցույց տալ բոլոր նախընտրանքների ուղղակի փոփոխման ինտերֆեյսը">
+<!ENTITY about.plugins.tooltip "Ցույց տալ տեղեկություն տեղադրված լայնացումների մասին (plugins)">
+<!ENTITY about.support.tooltip "Ցույց է տալիս ծրագրի հիմունքները, ավելացումները, եւ փոփոխված ընտրանքները">
+<!ENTITY about.cache.tooltip "Ցույց տալ տեղեկություն քեշի մասին` կոշտ սկավառակի վրա և հիշողության մեջ">
+<!ENTITY about.cache.disk.tooltip "Ցույց տալ միայն դիսկի քեշը">
+<!ENTITY about.cache.memory.tooltip "Ցույց տալ միայն հիշողության քեշը">
+<!ENTITY about.cache.offline.tooltip "Ցույց տալ քեշում եղածը">
+<!ENTITY about.crashes.tooltip "Ցույց տալ սխալների ընդունված զեկույցները">
+<!ENTITY about.buildconfig.tooltip "Ցույց տալ ծրագրի կառուցման արգումենտները և նախընտրանքները">
+<!ENTITY about.about.tooltip "Ցույց տալ տարբերակը և հեղինակային իրավունքները">
+<!ENTITY about.robots.tooltip "Գխկ!Կլաատու բարադա գիկու!">
+<!ENTITY about.credits.tooltip "Ցույց տալ Mozillaի ստեղծման մասնակիցների ցուցակը">
+<!ENTITY about.license.tooltip "Ցույց տալ Mozilla Public License-ը">
+<!ENTITY about.mozilla.tooltip "Ցույց տալ մտածածին Book of Mozilla գրքի էջը">
+<!ENTITY tools.remlast.label "Հիշել վերջին ցուցադրված պարունակությունը">

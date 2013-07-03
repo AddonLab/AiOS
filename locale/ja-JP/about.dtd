@@ -1,0 +1,56 @@
+<!ENTITY title "All-in-One Sidebar について">
+<!ENTITY version "バージョン">
+<!ENTITY settings "設定">
+<!ENTITY close "閉じる">
+<!ENTITY tab.about "About">
+<!ENTITY tab.contrib "貢献者">
+<!ENTITY tab.trans "翻訳者">
+<!ENTITY create.desc "作成者： Ingo Wennemaring, ハンブルク [ドイツ]">
+<!ENTITY about1.name "ホームページ - あらゆる情報を掲載">
+<!ENTITY about2.name "特徴 - All-in-One Sidebar のすべて">
+<!ENTITY about3.name "FAQ - よくある質問と回答">
+<!ENTITY about4.name "既知の問題 - 問題解説とトラブルシューティング">
+<!ENTITY about5.name "フォーラム - 質疑応答、バグレポート、テーマフィックス、その他">
+<!ENTITY about6.name "更新履歴 - 更新とその履歴">
+<!ENTITY about7.name "プランニング - 新機能と改良の計画">
+<!ENTITY contrib.desc "インスピレーションとコード部分について以下の開発者に感謝します (アルファベット順)">
+<!ENTITY contrib.thanks "フォーラムに開発版のテスト結果やバグ報告をして助けてくれたり、アイデアや提案を共有したり、楽しいコメントを寄せてくれる多くのユーザに感謝します。ありがとうございます！">
+<!ENTITY trans.desc "All-in-One Sidebar の言語翻訳者の皆さん (アルファベット順/英語表記名)">
+<!ENTITY trans.ar-SA.lang "アラビア語">
+<!ENTITY trans.be-BY.lang "ベラルーシ語">
+<!ENTITY trans.cs-CZ.lang "チェコ語">
+<!ENTITY trans.da-DK.lang "デンマーク語">
+<!ENTITY trans.de-DE.lang "ドイツ語">
+<!ENTITY trans.el-GR.lang "ギリシア語">
+<!ENTITY trans.en-GB.lang "英語 (イギリス)">
+<!ENTITY trans.en-US.lang "英語 (アメリカ)">
+<!ENTITY trans.es-AR.lang "スペイン語 (アルゼンチン)">
+<!ENTITY trans.es-ES.lang "スペイン語 (スペイン)">
+<!ENTITY trans.et-EE.lang "エストニア語">
+<!ENTITY trans.fi-FI.lang "フィンランド語">
+<!ENTITY trans.fr-FR.lang "フランス語">
+<!ENTITY trans.he-IL.lang "ヘブライ語">
+<!ENTITY trans.hr-HR.lang "クロアチア語">
+<!ENTITY trans.hu-HU.lang "ハンガリー語">
+<!ENTITY trans.hy-AM.lang "アルメニア語 (アルメニア)">
+<!ENTITY trans.it-IT.lang "イタリア語">
+<!ENTITY trans.ja-JP.lang "日本語">
+<!ENTITY trans.ko-KR.lang "韓国語">
+<!ENTITY trans.lt-LT.lang "リトアニア語">
+<!ENTITY trans.nb-NO.lang "ノルウェー語 (ボクモール)">
+<!ENTITY trans.nl-NL.lang "オランダ語">
+<!ENTITY trans.pl-PL.lang "ポーランド語">
+<!ENTITY trans.pt-BR.lang "ポルトガル語 (ブラジル)">
+<!ENTITY trans.pt-PT.lang "ポルトガル語 (ポルトガル)">
+<!ENTITY trans.ro-RO.lang "ルーマニア語">
+<!ENTITY trans.ru-RU.lang "ロシア語">
+<!ENTITY trans.sk-SK.lang "スロバキア語">
+<!ENTITY trans.sq-AL.lang "アルバニア語">
+<!ENTITY trans.sr-RS.lang "セルビア語 (キリル文字)">
+<!ENTITY trans.sv-SE.lang "スウェーデン語">
+<!ENTITY trans.tr-TR.lang "トルコ語">
+<!ENTITY trans.uk-UA.lang "ウクライナ語">
+<!ENTITY trans.vi-VN.lang "ベトナム語 (ベトナム)">
+<!ENTITY trans.zh-CN.lang "中国語 (中国)">
+<!ENTITY trans.zh-TW.lang "中国語 (台湾)">
+<!ENTITY trans.thanks "BabelZilla.org チームの偉大な功績に感謝します！">

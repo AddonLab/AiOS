@@ -1,0 +1,52 @@
+<!ENTITY loading.label "加载面板…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar 选项…">
+<!ENTITY menu.togglebar.label "侧栏切换柄">
+<!ENTITY menu.grippy.label "侧栏控制柄">
+<!ENTITY toolbar.name "All-in-One Sidebar 工具栏">
+<!ENTITY sbhtoolbar.name "Sidebarheader 工具栏">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "开关受 All-in-One Sidebar 控制的元素">
+<!ENTITY button.switch.tooltip1 "开关侧栏和工具栏">
+<!ENTITY button.switch.tooltip2 "开关工具栏">
+<!ENTITY button.switch.tooltip3 "开关侧栏">
+<!ENTITY sidebar.open.label "打开侧栏">
+<!ENTITY sidebar.close.label "关闭侧栏">
+<!ENTITY sidebar.width.min "最小宽度">
+<!ENTITY sidebar.width.def "标准宽度">
+<!ENTITY sidebar.width.max "最大宽度">
+<!ENTITY button.menu.label "侧栏面板">
+<!ENTITY button.menu.tooltip "全部可用侧栏面板">
+<!ENTITY button.toolbar.label "AiOS 工具栏">
+<!ENTITY button.toolbar.tooltip "切换AiOS工具栏">
+<!ENTITY button.paneltab.label "面板标签页">
+<!ENTITY button.paneltab.tooltip1 "在侧栏查看当前标签页">
+<!ENTITY button.paneltab.tooltip2 "使用新标签页查看当前面板">
+<!ENTITY button.paneltab.tooltip3 "在窗口中查看当前面板">
+<!ENTITY button.paneltab.menu1.label "在侧栏打开标签页">
+<!ENTITY button.paneltab.menu2.label "在标签页打开侧栏">
+<!ENTITY button.autohide.label "侧栏自动控制">
+<!ENTITY button.autohide.tooltip "自动显示/隐藏侧栏">
+<!ENTITY button.tooltip.sidebar "在侧栏中打开">
+<!ENTITY button.tooltip.window "在新建窗口中打开">
+<!ENTITY button.tooltip.tab "在新标签页打开">
+<!ENTITY button.addons.label "附加软件">
+<!ENTITY button.addons.tooltip "显示已安装的扩展和主题">
+<!ENTITY button.multipanel.label "多用面板">
+<!ENTITY button.multipanel.tooltip "显示多种信息，例如访问网站，查看源代码或浏览器信息等等">
+<!ENTITY button.pageinfo.tooltip "查看页面信息">
+<!ENTITY button.console.label "JavaScript 控制台">
+<!ENTITY button.console.tooltip "打开 JavaScript 控制台，JavaScript 控制台可以跟踪 JavaScript 代码出现的问题">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "侧栏左侧">
+<!ENTITY toolbar.pos.sidebarright.label "侧栏右侧">
+<!ENTITY toolbar.pos.sidebartop.label "侧栏顶端">
+<!ENTITY toolbar.pos.headerbottom.label "侧栏标题下方">
+<!ENTITY toolbar.pos.sidebarbottom.label "侧栏底端">
+<!ENTITY toolbar.mode.flexbuttons.label "可调整按钮">

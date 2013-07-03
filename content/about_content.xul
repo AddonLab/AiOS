@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+
+<!-- locale -->
+<!DOCTYPE overlay [
+	<!ENTITY % aiosDTD SYSTEM "chrome://aios/content/aios.dtd"> %aiosDTD;
+	<!ENTITY % aboutDTD SYSTEM "chrome://aios/locale/about.dtd"> %aboutDTD;
+]>
+
+<overlay id="aiosAboutOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    
+    <script type="application/x-javascript" src="chrome://aios/content/about.js" />
+    
+    <prefpane id="aiosAbout" onpaneload="AiOS_About.initialize();" style="min-height:310px;">
+
+        <dialogheader id="aboutHeader" title="" description="" />
+        
+        <hbox id="aboutHeaderMac">
+            <label id="macTitle" value="" />
+            <label id="macVersion" value="" />
+        </hbox>
+
+        <tabbox flex="1">
+
+            <tabs>
+                <tab label="&tab.about;" />
+                <tab label="&tab.help;" />
+                <tab label="&tab.contrib;" />
+                <tab label="&tab.trans;" />
+            </tabs>
+
+            <tabpanels flex="1">
+
+<!-- ABOUT -->
+                <tabpanel orient="vertical">
+
+                    <description width="100%">&about.desc;</description>
+                    
+                    <separator class="groove" />
+
+                    <hbox id="paypal" align="center" onclick="aios_addTab('http://firefox.exxile.net/paypal.php');">
+                        <description value="&create.desc;" />
+                        <spacer flex="1" />
+                        <image src="chrome://aios/skin/img/paypal.gif" />
+                    </hbox>
+                </tabpanel>
+                
+<!-- HELP -->
+                <tabpanel orient="vertical">
+                    
+                    <description width="100%">&help.desc;</description>
+                    
+                    <separator class="groove" />
+
+                    <vbox class="indent websites">
+                        <toolbarbutton label="&about1.name;" onclick="aios_addTab('&about1.link;');" />
+                        <toolbarbutton label="&about2.name;" onclick="aios_addTab('&about2.link;');" />
+                        <toolbarbutton label="&about3.name;" onclick="aios_addTab('&about3.link;');" />
+                        <toolbarbutton label="&about4.name;" onclick="aios_addTab('&about4.link;');" />
+                        <toolbarbutton label="&about6.name;" onclick="aios_addTab('&about6.link;');" />
+                        <toolbarbutton label="&about7.name;" onclick="aios_addTab('&about7.link;');" />
+                        <toolbarbutton label="&about5.name;" onclick="aios_addTab('&about5.link;');" />
+                    </vbox>
+
+                </tabpanel>
+
+<!-- CONTRIBUTORS -->
+                <tabpanel orient="vertical">
+
+                    <description width="100%">&contrib.desc;</description>
+
+                    <separator class="groove" />
+                    
+                    <grid flex="1">
+                        <columns>
+                            <column flex="1" />
+                            <column flex="1" />
+                        </columns>
+
+                        <rows>
+                            <row>
+                                <text value="&contrib1.name;" />
+                                <text value="&contrib1.ext;" class="link" onclick="aios_addTab('&contrib1.link;');" />
+                            </row>
+                            <row>
+                                <text value="&contrib2.name;" />
+                                <text value="&contrib2.ext;" class="link" onclick="aios_addTab('&contrib2.link;');" />
+                            </row>
+                            <row>
+                                <text value="&contrib3.name;" />
+                                <text value="&contrib3.ext;" class="link" onclick="aios_addTab('&contrib3.link;');" />
+                            </row>
+                            <row>
+                                <text value="&contrib4.name;" />
+                                <text value="&contrib4.ext;" class="link" onclick="aios_addTab('&contrib4.link;');" />
+                            </row>
+                            <row>
+                                <text value="&contrib5.name;" />
+                                <text value="&contrib5.ext;" class="link" onclick="aios_addTab('&contrib5.link;');" />
+                            </row>
+
+                            <separator class="groove" />
+
+                            <description width="100%">&contrib.thanks;</description>
+                        </rows>
+                    </grid>
+                </tabpanel>
+
+<!-- TRANSLATORS -->
+                <tabpanel orient="vertical">
+                    
+                    <description width="100%">&trans.desc;</description>
+
+                    <separator class="groove" />
+
+                    <box style="overflow: auto; height: 135px;">
+                        <grid flex="1">
+                            <columns>
+                                <column flex="1" />
+                                <column flex="1" />
+                                <column flex="1" />
+                            </columns>
+
+                            <rows>
+                                <row>
+                                    <text value="&trans.ar-SA.lang;" />
+                                    <text value="ar-SA" />
+                                    <text value="&trans.ar-SA.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.be-BY.lang;" />
+                                    <text value="be-BY" />
+                                    <text value="&trans.be-BY.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.cs-CZ.lang;" />
+                                    <text value="cs-CZ" />
+                                    <text value="&trans.cs-CZ.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.da-DK.lang;" />
+                                    <text value="da" />
+                                    <text value="&trans.da.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.de-DE.lang;" />
+                                    <text value="de" />
+                                    <text value="&trans.de.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.el-GR.lang;" />
+                                    <text value="el" />
+                                    <text value="&trans.el.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.en-GB.lang;" />
+                                    <text value="en-GB" />
+                                    <text value="&trans.en-GB.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.en-US.lang;" />
+                                    <text value="en-US" />
+                                    <text value="&trans.en-US.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.es-AR.lang;" />
+                                    <text value="es-AR" />
+                                    <text value="&trans.es-AR.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.es-ES.lang;" />
+                                    <text value="es-ES" />
+                                    <text value="&trans.es-ES.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.et-EE.lang;" />
+                                    <text value="et-EE" />
+                                    <text value="&trans.et-EE.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.fi-FI.lang;" />
+                                    <text value="fi-FI" />
+                                    <text value="&trans.fi-FI.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.fr-FR.lang;" />
+                                    <text value="fr" />
+                                    <text value="&trans.fr.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.he-IL.lang;" />
+                                    <text value="he-IL" />
+                                    <text value="&trans.he.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.hr-HR.lang;" />
+                                    <text value="hr-HR" />
+                                    <text value="&trans.hr-HR.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.hu-HU.lang;" />
+                                    <text value="hu-HU" />
+                                    <text value="&trans.hu-HU.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.hy-AM.lang;" />
+                                    <text value="hy-AM" />
+                                    <text value="&trans.hy-AM.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.it-IT.lang;" />
+                                    <text value="it" />
+                                    <text value="&trans.it.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.ja-JP.lang;" />
+                                    <text value="ja-JP" />
+                                    <text value="&trans.ja-JP.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.ko-KR.lang;" />
+                                    <text value="ko-KR" />
+                                    <text value="&trans.ko-KR.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.lt-LT.lang;" />
+                                    <text value="lt-LT" />
+                                    <text value="&trans.lt-LT.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.nb-NO.lang;" />
+                                    <text value="nb-NO" />
+                                    <text value="&trans.nb-NO.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.nl-NL.lang;" />
+                                    <text value="nl" />
+                                    <text value="&trans.nl.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.pl-PL.lang;" />
+                                    <text value="pl" />
+                                    <text value="&trans.pl.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.pt-BR.lang;" />
+                                    <text value="pt-BR" />
+                                    <text value="&trans.pt-BR.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.pt-PT.lang;" />
+                                    <text value="pt-PT" />
+                                    <text value="&trans.pt-PT.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.ro-RO.lang;" />
+                                    <text value="ro" />
+                                    <text value="&trans.ro.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.ru-RU.lang;" />
+                                    <text value="ru-RU" />
+                                    <text value="&trans.ru-RU.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.sk-SK.lang;" />
+                                    <text value="sk-SK" />
+                                    <text value="&trans.sk-SK.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.sq-AL.lang;" />
+                                    <text value="sq-AL" />
+                                    <text value="&trans.sq-AL.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.sr-RS.lang;" />
+                                    <text value="sr" />
+                                    <text value="&trans.sr.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.sv-SE.lang;" />
+                                    <text value="sv-SE" />
+                                    <text value="&trans.sv-SE.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.tr-TR.lang;" />
+                                    <text value="tr-TR" />
+                                    <text value="&trans.tr-TR.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.uk-UA.lang;" />
+                                    <text value="uk-UA" />
+                                    <text value="&trans.uk-UA.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.vi-VN.lang;" />
+                                    <text value="vi" />
+                                    <text value="&trans.vi.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.zh-CN.lang;" />
+                                    <text value="zh-CN" />
+                                    <text value="&trans.zh-CN.name;" />
+                                </row>
+                                <row>
+                                    <text value="&trans.zh-TW.lang;" />
+                                    <text value="zh-TW" />
+                                    <text value="&trans.zh-TW.name;" />
+                                </row>
+                            </rows>
+                        </grid>
+                    </box>
+
+                    <separator class="groove" />
+
+                    <description width="100%">&trans.thanks;</description>
+
+                </tabpanel>
+
+            </tabpanels>
+        </tabbox>
+    </prefpane>
+</overlay>

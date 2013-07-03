@@ -1,0 +1,50 @@
+<!ENTITY title "關於 All-in-One Sidebar">
+<!ENTITY version "版本">
+<!ENTITY settings "選項…">
+<!ENTITY close "關閉">
+<!ENTITY tab.about "關於">
+<!ENTITY tab.contrib "貢獻者">
+<!ENTITY tab.trans "翻譯人員">
+<!ENTITY create.desc "套件作者為：Ingo Wennemaring, Hamburg [Germany]">
+<!ENTITY about1.name "產品首頁 - 您可以在這裡找到 AIO-Sidebar 所有的相關資訊">
+<!ENTITY about2.name "軟體介紹 - All-in-One Sidebar 產品特色、功能的說明">
+<!ENTITY about3.name "常見問題 - 經常被詢問到的問題及其解答">
+<!ENTITY about4.name "已知問題 - 已知的問題及其相關解決方案">
+<!ENTITY about5.name "用戶論壇 - 軟體使用相關討論、錯誤回報、佈景主題修正…">
+<!ENTITY about6.name "更新紀錄 - 各個版本間的變動、改進項目以及版本歷史">
+<!ENTITY about7.name "未來展望 - 計畫加入的新功能與改善項目">
+<!ENTITY contrib.desc "感謝下列人士的啟發與貢獻程式碼（依姓名字順序排列）：">
+<!ENTITY contrib.thanks "最後（但並非最不重要），我感謝所有協助測試開發版本的使用者，除了在論壇回報 bugs 之外，也分享他們的意見與建議（或是只寫了一些不錯的評語），總之非常感謝你們！">
+<!ENTITY trans.desc "感謝以下人士的翻譯（依語系英文字順序排列）：">
+<!ENTITY trans.ar-SA.lang "阿拉伯文">
+<!ENTITY trans.be-BY.lang "白俄羅斯文">
+<!ENTITY trans.cs-CZ.lang "捷克文（捷克）">
+<!ENTITY trans.da-DK.lang "丹麥文">
+<!ENTITY trans.de-DE.lang "德文">
+<!ENTITY trans.el-GR.lang "希臘文">
+<!ENTITY trans.en-GB.lang "英文（英國）">
+<!ENTITY trans.en-US.lang "英文（美國）">
+<!ENTITY trans.es-AR.lang "西班牙文（阿根廷）">
+<!ENTITY trans.es-ES.lang "西班牙文（西班牙）">
+<!ENTITY trans.fi-FI.lang "芬蘭文">
+<!ENTITY trans.fr-FR.lang "法文">
+<!ENTITY trans.he-IL.lang "希伯來文">
+<!ENTITY trans.hr-HR.lang "克羅埃西亞文">
+<!ENTITY trans.hu-HU.lang "匈牙利文">
+<!ENTITY trans.it-IT.lang "義大利文">
+<!ENTITY trans.ja-JP.lang "日文">
+<!ENTITY trans.ko-KR.lang "韓文">
+<!ENTITY trans.lt-LT.lang "立陶宛文">
+<!ENTITY trans.nb-NO.lang "挪威文">
+<!ENTITY trans.nl-NL.lang "荷蘭文">
+<!ENTITY trans.pl-PL.lang "波蘭文">
+<!ENTITY trans.pt-BR.lang "葡萄牙文（巴西）">
+<!ENTITY trans.pt-PT.lang "葡萄牙文（葡萄牙）">
+<!ENTITY trans.ru-RU.lang "俄文">
+<!ENTITY trans.sk-SK.lang "斯洛伐克文">
+<!ENTITY trans.sv-SE.lang "瑞典文">
+<!ENTITY trans.tr-TR.lang "土耳其文">
+<!ENTITY trans.uk-UA.lang "烏克蘭文">
+<!ENTITY trans.zh-CN.lang "簡體中文（中國）">
+<!ENTITY trans.zh-TW.lang "正體中文（台灣）">
+<!ENTITY trans.thanks "我也感謝這個翻譯團隊在 BabelZilla.org 所作的努力。">

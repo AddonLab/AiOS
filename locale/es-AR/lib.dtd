@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Click-Izquierdo">
+<!ENTITY rightclick "Click-Derecho">
+<!ENTITY doubleclick "Doble-click">
+<!ENTITY middleclick "Click-Central">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Herramientas">
+<!ENTITY closeFolder.label "Cerrar Todas las Carpetas">
+<!ENTITY show.closeFolder.label "Botón para &apos;Cerrar Todas las Carpetasapos;">
+<!ENTITY enable.autoClose.label "Cerrar Automáticamente Otras Carpetas">
+<!ENTITY enable.scrollToFolder.label "Desplazar Automáticamente a la Carpeta Selecionada">
+<!ENTITY enable.rememberFolder.label "Recordar y Enfocar la Última Carpeta Seleccionada">

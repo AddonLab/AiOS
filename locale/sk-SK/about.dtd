@@ -1,0 +1,19 @@
+<!ENTITY title "O rozšírení All-in-One Sidebar">
+<!ENTITY version "verzia">
+<!ENTITY settings "Možnosti…">
+<!ENTITY close "Zatvoriť">
+<!ENTITY tab.about "O rozšírení">
+<!ENTITY tab.contrib "Prispievatelia">
+<!ENTITY tab.trans "Lokalizátori">
+<!ENTITY create.desc "vytvoril Ingo Wennemaring, Hamburg [Nemecko]">
+<!ENTITY about1.name "Domovská stránka - viac informácií">
+<!ENTITY about2.name "Súčasti - všetky súčasti All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - často kladené otázky">
+<!ENTITY about4.name "Známe problémy - popis a riešenie">
+<!ENTITY about5.name "Fórum - diskusie, hlásenie chýb…">
+<!ENTITY about6.name "Prehľad zmien">
+<!ENTITY about7.name "Plánované vylepšenia">
+<!ENTITY contrib.desc "Ďakujem nasledujúcim tvorcom za inšpiráciu [abecedné poradie]:">
+<!ENTITY contrib.thanks "Naposledy, ale nie najmenej, ďakujem všetkým užívateľim, ktorý mi pomohli s testovaním vývojových verzií, hlásili chyby, podelili sa o svoje nápady alebo napísali pekný komentár. :-) Ďakujem veľmi pekne!">
+<!ENTITY trans.desc "Lokalizátori All-in-One Sidebar [zoradené abecedne podľa jazyka]:">
+<!ENTITY trans.thanks "Ďakujem aj týmu BabelZilla.org za ich skvelú prácu!">

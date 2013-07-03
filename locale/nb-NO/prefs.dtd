@@ -1,0 +1,88 @@
+<!ENTITY title "All-in-One Sidebar – Innstillinger">
+<!ENTITY restart "Endringer krever omstart av nettleseren">
+<!ENTITY settings "Innstillinger">
+<!ENTITY settings.default "Gjenopprett standardvalg">
+<!ENTITY settings.advanced "Avansert modus">
+<!ENTITY settings.import "Imorter innstillinger…">
+<!ENTITY settings.export "Eksporter innstillinger…">
+<!ENTITY apply "Bruk">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Generelt">
+<!ENTITY tab.gen.appearance "Opptreden">
+<!ENTITY tab.gen.behavior "Oppførsel">
+<!ENTITY tab.gen.fullscreen "Fullskjerm modus">
+<!ENTITY tab.gen.special "Spesielt">
+<!ENTITY tab.panels "Paneler">
+<!ENTITY tab.panels.places "Bokmerker/Historikk">
+<!ENTITY tab.panels.other1 "Andre I">
+<!ENTITY tab.panels.other2 "Andre II">
+<!ENTITY tab.panels.paneltab "Panelfane">
+<!ENTITY tab.menus "Menyer">
+<!ENTITY tab.menus.sidebar "Sidestolpe">
+<!ENTITY tab.keys "Snarveier">
+<!ENTITY gen.orient.caption "Orientering">
+<!ENTITY gen.orient.label "Vis sidestolpe på">
+<!ENTITY gen.orient.left "venstre side">
+<!ENTITY gen.orient.right "høyre side">
+<!ENTITY gen.width.caption "Størrelse">
+<!ENTITY gen.width.px "pixler">
+<!ENTITY gen.width.perc "prosent">
+<!ENTITY gen.width.current "sett til nåværende bredde">
+<!ENTITY gen.width.current.tip "Bruk nåværende bredde">
+<!ENTITY gen.width.min.hint "[Skift + dobbeltklikk] på sidestolpens tittel">
+<!ENTITY gen.width.def.hint "[Dobbeltklikk] på sidestolpens tittel">
+<!ENTITY gen.width.max.hint "[Ctrl+dobbeltklikk] eller [Alt+dobbeltklikk] på sidestolpens tittel">
+<!ENTITY gen.init.caption "Nettleseroppstart">
+<!ENTITY gen.init.label "Sidestolpe">
+<!ENTITY gen.init.toolbar.label "Verktøylinje">
+<!ENTITY gen.init.toolbar.show.label "Vis verktøylinje">
+<!ENTITY gen.init.toolbar.hide.label "Skjul verktøylinje">
+<!ENTITY gen.init.switch.show.label "Vis sidestolpebryter">
+<!ENTITY gen.init.switch.hide.label "Skjul sidestolpebryter">
+<!ENTITY gen.init.mode1 "Gjenopprett lagret tilstand">
+<!ENTITY gen.init.sidebar "Åpne sidestolpen (Sidestolpebryter, Valgknapp, Snarvei)">
+<!ENTITY gen.init.sidebar.restore "Gjenopprett lagret panel">
+<!ENTITY gen.switch.autoshow "Vis/skjul sidestolpen automatisk (musekontakt istedenfor museklikk)">
+<!ENTITY gen.switch.onlymax "Kun hvis nettleseren er maksimert eller i fullskjermmodus">
+<!ENTITY gen.switch.delay "Forsinkelse">
+<!ENTITY gen.switch.delayUnit "millisekunder">
+<!ENTITY gen.switch.hide "Skjul sidestolpen hvis musepekeren…">
+<!ENTITY gen.switch.hideBar "blir flyttet tilbake til websiden">
+<!ENTITY gen.switch.hidePage "blir holdt på sidestolpebryteren">
+<!ENTITY gen.switch.thin "Aktiver tynn sidestolpebryter">
+<!ENTITY gen.switch.width "Bredden til sidestolpebryteren">
+<!ENTITY gen.switch.twidth "Bredden til den tynne sidestolpebryteren">
+<!ENTITY cmode.caption "Håndter sidestolpe">
+<!ENTITY cmode.desc "Tilpass elementene som skal berøres hvis sidestolpen blir åpnet eller lukket med forskjellig metoder.">
+<!ENTITY cmode.key.label "Snarvei (F4)">
+<!ENTITY cmode.tbb.label "AiOS Knapp">
+<!ENTITY cmode.close.label "Lukkeknapp">
+<!ENTITY cmode.mode1.label "Kun sidestolpen">
+<!ENTITY cmode.mode2.label "Sidestolpen og verktøylinjen">
+<!ENTITY cmode.mode3.label "Sidestolpen, verktøylinjen og sidestolpebryteren">
+<!ENTITY cmode.mode4.label "Opera&apos;s oppførsel">
+<!ENTITY gen.fs.off "Gjenopprett tilstanden hvis fullskjermmodus avbrytes">
+<!ENTITY keyconfig.keyid "Navn">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Bruk">
+<!ENTITY keyconfig.disable "Deaktiver">
+<!ENTITY keyconfig.reset "Nullstill">
+<!ENTITY keyconfig.warn "Endringer vil kun ha virkning på nye vinduer">
+<!ENTITY keyconfig.onreset "Nettleseren må omstartes">
+<!ENTITY keyconfig.unrecognized "Ukjent (&amp;1)">
+<!ENTITY keyconfig.used "Denne nøkkelen brukes allerede av: \\n\\n\\t$1\\n\\nVil kanskje virke…">
+<!ENTITY menus.sidebar.desc "Tilpass elementene i menyen “Vis &gt; Sidestolpe” og i rullegardinmenyene i sidestolpevalgene.">
+<!ENTITY menus.icons.label "Vis ikoner">
+<!ENTITY menus.entries.label "Vis elementer">
+<!ENTITY menus.sidebar.entrydeac "Deaktiver elementer på den aktive sidestolpen">
+<!ENTITY misc.enablesidebar.label "Åpne i sidestolpen">
+<!ENTITY misc.layout.label "Forbedre sidestolpens utseende">
+<!ENTITY misc.colors.label "Aktiver farget bakgrunn basert på nåværende tilstand">
+<!ENTITY misc.count.label "Vis nummer på elementene">
+<!ENTITY misc.enablelink.tooltip "Klikk her for mer informasjon (lenke til FAQ&apos;s)">
+<!ENTITY misc.paneltab.reverse "Bytt venstreklikk og midtklikk handling">
+<!ENTITY misc.bm.paneltab.desc "Knappen “Paneltab” kan åpne bokmerkehåndtereren i en ny fane istedenfor i bokmerkepanelet.">
+<!ENTITY misc.bm.paneltab "Aktiver bokmerkehåndtereren i ny fane">
+<!ENTITY special.collapsing.caption "Sidestolpesammenslåing">
+<!ENTITY special.collapsing.label "Aktiver Sidestolpesammenslåing">
+<!ENTITY special.collapsing.desc "Sidestolpen kan slå seg sammen istedenfor å lukkes. Fordelen er at innholdet i sidestolpen ikke må lastes på nytt hver gang og den lastes dermed fortere.">

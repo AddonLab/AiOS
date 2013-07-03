@@ -1,0 +1,21 @@
+<!ENTITY page.label "Seite">
+<!ENTITY page.tooltip "Öffnet die Webseite im MultiPanel">
+<!ENTITY page.ssr.label "Darstellung für kleine Bildschirme">
+<!ENTITY page.ssr100.label "An Breite der Sidebar anpassen">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Zeigt verschiedene Informationen über den Browser">
+<!ENTITY about.config.tooltip "Zeigt eine Benutzeroberfläche, anhand derer man diverse Einstellungen vornehmen kann">
+<!ENTITY about.plugins.tooltip "Zeigt Informationen über alle installierten Plugins">
+<!ENTITY about.support.tooltip "Zeigt allgemeine Informationen, installierte Erweiterungen und modifzierte Einstellungen">
+<!ENTITY about.cache.tooltip "Zeigt Informationen über den Speicher-, Festplatten und Offline-Cache">
+<!ENTITY about.cache.disk.tooltip "Zeigt Informationen über den Festplatten-Cache">
+<!ENTITY about.cache.memory.tooltip "Zeigt Informationen über den Speicher-Cache">
+<!ENTITY about.cache.offline.tooltip "Zeigt Informationen über den Offline-Cache">
+<!ENTITY about.crashes.tooltip "Zeigt gesendete Absturzmeldungen">
+<!ENTITY about.buildconfig.tooltip "Zeigt u.a. die Optionen, die zum Kompilieren dieser Version genutzt wurden">
+<!ENTITY about.about.tooltip "Zeigt Versions- und Copyright-Informationen">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Zeigt eine Liste aller Mitwirkenden">
+<!ENTITY about.license.tooltip "Zeigt die Lizenzinformationen">
+<!ENTITY about.mozilla.tooltip "Zeigt eine Seite aus dem fiktiven „The Book of Mozilla”">
+<!ENTITY tools.remlast.label "Zuletzt gezeigten Inhalt merken">

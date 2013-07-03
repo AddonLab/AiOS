@@ -1,0 +1,52 @@
+<!ENTITY loading.label "chargement du panneau…">
+<!ENTITY menu.prefs.label "Options de All-in-One Sidebar…">
+<!ENTITY menu.togglebar.label "Activer/désactiver le panneau latéral">
+<!ENTITY menu.grippy.label "'Poignées' pour le panneau latéral">
+<!ENTITY toolbar.name "Barre d'outils d'All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "En-tête de la barre d'outils All-in-One Sidebar">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Activer/désactiver les éléments contrôlés par All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Permuter panneau latéral et barre d'outils">
+<!ENTITY button.switch.tooltip2 "Afficher/cacher la barre d'outils">
+<!ENTITY button.switch.tooltip3 "Afficher/cacher le panneau latéral">
+<!ENTITY sidebar.open.label "Ouvrir le panneau latéral">
+<!ENTITY sidebar.close.label "Fermer le panneau latéral">
+<!ENTITY sidebar.width.min "Largeur minimum">
+<!ENTITY sidebar.width.def "Largeur standard">
+<!ENTITY sidebar.width.max "Largeur maximum">
+<!ENTITY button.menu.label "Panneaux latéraux">
+<!ENTITY button.menu.tooltip "Tous les panneaux latéraux disponibles">
+<!ENTITY button.toolbar.label "Barre d'AIOS">
+<!ENTITY button.toolbar.tooltip "Afficher/cacher la barre d'AIOS">
+<!ENTITY button.paneltab.label "Onglet du panneau">
+<!ENTITY button.paneltab.tooltip1 "Ouvre le contenu de l'onglet dans le panneau latéral">
+<!ENTITY button.paneltab.tooltip2 "Ouvre le contenu du panneau latéral dans un nouvel onglet">
+<!ENTITY button.paneltab.tooltip3 "Ouvre le contenu du panneau latéral dans une fenêtre">
+<!ENTITY button.paneltab.menu1.label "Ouvrir l'onglet dans le panneau latéral">
+<!ENTITY button.paneltab.menu2.label "Ouvrir le panneau latéral dans un onglet">
+<!ENTITY button.autohide.label "PanneauAutoContrôle">
+<!ENTITY button.autohide.tooltip "Montrer/cacher automatiquement le panneau latéral">
+<!ENTITY button.tooltip.sidebar "Ouvrir dans le panneau latéral">
+<!ENTITY button.tooltip.window "Ouvrir dans une fenêtre">
+<!ENTITY button.tooltip.tab "Ouvrir dans un nouvel onglet">
+<!ENTITY button.addons.label "Modules complémentaires">
+<!ENTITY button.addons.tooltip "Afficher les extensions et les thèmes installés">
+<!ENTITY button.multipanel.label "MultiPanneau">
+<!ENTITY button.multipanel.tooltip "Affiche des infos sur les sites Web et le navigateur">
+<!ENTITY button.pageinfo.tooltip "Affiche des informations étendues sur la page Web">
+<!ENTITY button.console.label "Console d'erreur">
+<!ENTITY button.console.tooltip "Ouvre la console d'erreur, montrant les problèmes et le code source">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "À gauche près du panneau latéral">
+<!ENTITY toolbar.pos.sidebarright.label "À droite près du panneau latéral">
+<!ENTITY toolbar.pos.sidebartop.label "Au-dessus du panneau latéral">
+<!ENTITY toolbar.pos.headerbottom.label "En-dessous du titre du panneau latéral">
+<!ENTITY toolbar.pos.sidebarbottom.label "En-dessous du panneau latéral">
+<!ENTITY toolbar.mode.flexbuttons.label "Boutons paramétrables">

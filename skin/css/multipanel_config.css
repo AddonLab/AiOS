@@ -1,0 +1,5 @@
+window[aios-appDefTheme="true"]{border-top:1px solid ThreedHighlight;}window[aios-appDefTheme="true"] #filterRow{-moz-appearance:toolbox;margin:0;padding-right:1px;padding-bottom:1px;}
+window[aios-appDefTheme="true"] #configTree{-moz-appearance:none;margin:0;border:none;}window[aios-appDefTheme="true"] #configTree treechildren{margin-left:5px;}
+window[aios-appDefTheme="true"][aios-appOSVersion="Windows NT 5.1"] #filterRow{border-bottom:1px solid ThreedShadow;}
+window[aios-appDefTheme="true"]:-moz-system-metric(windows-default-theme){}window[aios-appDefTheme="true"]:-moz-system-metric(windows-default-theme)[aios-appOSVersion="Windows NT 5.1"] #filterRow{-moz-appearance:none;background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));}
+window[aios-appDefTheme="true"][aios-appOS="Darwin"] #filterRow{padding-bottom:5px;background-color:#D4DDE5;background-image:none;}window[aios-appDefTheme="true"][aios-appOS="Darwin"] #filterRow:-moz-window-inactive{background-color:#e8e8e8;}

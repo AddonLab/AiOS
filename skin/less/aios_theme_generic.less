@@ -1,0 +1,53 @@
+
+window[aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
+
+    /* @group Sidebar Switch */
+    #aios-toggle-toolbar {
+        border-top: none;
+        border-right: 1px solid ThreedShadow;
+    }
+    
+    &[aiosOrient="right"] #aios-toggle-toolbar {
+        border-left: none;
+        border-left: 1px solid ThreedShadow;
+    }
+    /* @end */
+    
+    
+    /* @group AiOS-Toolbar */
+    #aios-toolbox-left,
+    #aios-toolbox-right,
+    #aios-toolbox-sidebartop,
+    #aios-toolbox-sidebartop2,
+    #aios-toolbox-sidebarbottom,
+    #aios-toolbar,
+    #aios-toolbar[posMode="1"],
+    #aios-toolbar[posMode="2"],
+    #aios-toolbar[posMode="3"],
+    #aios-toolbar[posMode="4"],
+    #aios-toolbar[posMode="5"] {
+        border: none;
+    }
+    
+    #aios-toolbar[posMode="3"],
+    #aios-toolbar[posMode="5"] {
+        border: none !important;
+    }
+    
+    &[aiosOrient="left"] #aios-toolbar[posMode="2"] {
+        border-right: 1px solid ThreedShadow;
+    }
+    
+    &[aiosOrient="right"] #aios-toolbar[posMode="1"] {
+        border-left: 1px solid ThreedShadow;
+    }
+    /* @end */
+    
+    
+    /* @group Splitter */
+    #sidebar-splitter[orient="horizontal"] {
+        border: none !important;
+    }
+    /* @end */
+
+}

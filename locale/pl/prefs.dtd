@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar – ustawienia">
+<!ENTITY restart "Aby zmiany zostały zastosowane należy ponownie uruchomić przeglądarkę">
+<!ENTITY settings "Ustawienia">
+<!ENTITY settings.default "Przywróć ustawienia domyślne">
+<!ENTITY settings.advanced "Tryb zaawansowany">
+<!ENTITY settings.import "Importuj ustawienia">
+<!ENTITY settings.export "Eksportuj ustawienia">
+<!ENTITY settings.copy "Kopiuj ustawienia do schowka">
+<!ENTITY apply "Zastosuj">
+<!ENTITY gen.column1 "155">
+<!ENTITY tab.gen "Ogólne">
+<!ENTITY tab.gen.appearance "Wygląd">
+<!ENTITY tab.gen.behavior "Zachowanie">
+<!ENTITY tab.gen.fullscreen "Tryb pełnoekranowy">
+<!ENTITY tab.gen.special "Specjalne">
+<!ENTITY tab.panels "Panele">
+<!ENTITY tab.panels.places "Zakładki/Historia">
+<!ENTITY tab.panels.other1 "Różne I">
+<!ENTITY tab.panels.other2 "Różne II">
+<!ENTITY tab.panels.paneltab "PanelTab">
+<!ENTITY tab.menus "Menu">
+<!ENTITY tab.menus.sidebar "Panel boczny">
+<!ENTITY tab.keys "Skróty">
+<!ENTITY gen.orient.caption "Położenie panela">
+<!ENTITY gen.orient.label "Wyświetlaj panel boczny po">
+<!ENTITY gen.orient.left "lewej stronie">
+<!ENTITY gen.orient.right "prawej stronie">
+<!ENTITY gen.width.caption "Szerokość panelu">
+<!ENTITY gen.width.px "pikseli">
+<!ENTITY gen.width.perc "procent">
+<!ENTITY gen.width.current "Aktualna">
+<!ENTITY gen.width.current.tip "Stosuje aktualną szerokość panelu bocznego">
+<!ENTITY gen.width.min.hint "[Shift]+dwukrotne kliknięcie tytułu panelu">
+<!ENTITY gen.width.def.hint "Dwukrotne kliknięcie tytułu panelu">
+<!ENTITY gen.width.max.hint "[Ctrl] lub [Alt]+dwukrotne kliknięcie tytułu panelu">
+<!ENTITY gen.init.caption "Uruchamianie przeglądarki, a zachowanie panelu bocznego">
+<!ENTITY gen.init.label "Zachowanie panelu">
+<!ENTITY gen.init.toolbar.label "Pasek narzędzi">
+<!ENTITY gen.init.toolbar.show.label "Wyświetlaj pasek narzędzi">
+<!ENTITY gen.init.toolbar.hide.label "Ukryj pasek narzędzi">
+<!ENTITY gen.init.switch.show.label "Wyświetlaj przełącznik panelu bocznego">
+<!ENTITY gen.init.switch.hide.label "Ukryj przełącznik panelu bocznego">
+<!ENTITY gen.init.mode1 "Odtwarzaj zapamiętany stan panelu">
+<!ENTITY gen.init.sidebar "Otwieranie panelu bocznego (przełącznik, przycisk, skrót klawiaturowy)">
+<!ENTITY gen.init.sidebar.restore "Odtwarzaj zapamiętany stan panelu">
+<!ENTITY gen.switch.autoshow "Wyświetlaj/ukrywaj panel boczny po wskazaniu/cofnięciu kursora myszy">
+<!ENTITY gen.switch.onlymax "Tylko, gdy przeglądarka jest zmaksymalizowana lub jest w trybie pełnoekranowym">
+<!ENTITY gen.switch.delay "Opóźnienie">
+<!ENTITY gen.switch.delayUnit "ms">
+<!ENTITY gen.switch.hide "Ukrywaj panel boczny, gdy kursor myszy">
+<!ENTITY gen.switch.hideBar "został przesunięty poza panel">
+<!ENTITY gen.switch.hidePage "został zatrzymany na przełączniku panelu">
+<!ENTITY gen.switch.thin "Włącz wąski przełącznik panelu">
+<!ENTITY gen.switch.width "Szerokość przełącznika panelu">
+<!ENTITY gen.switch.twidth "Szerokość wąskiego przełącznika panelu">
+<!ENTITY cmode.caption "Przełączanie panelu bocznego">
+<!ENTITY cmode.desc "Wybierz, które elementy będą otwierane/zamykane w zależności od zastosowanego sposobu.">
+<!ENTITY cmode.key.label "Skrót (F4)">
+<!ENTITY cmode.tbb.label "Przycisk AiOS">
+<!ENTITY cmode.close.label "Przycisk „Zamknij”">
+<!ENTITY cmode.mode1.label "tylko panel boczny">
+<!ENTITY cmode.mode2.label "panel boczny i pasek narzędzi">
+<!ENTITY cmode.mode3.label "panel boczny, pasek narzędzi i przełącznik panelu bocznego">
+<!ENTITY cmode.mode4.label "reakcja jak w Operze">
+<!ENTITY gen.fs.off "Odtwarzaj poprzedni stan przy opuszczaniu trybu pełnoekranowego">
+<!ENTITY keyconfig.keyid "Nazwa">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Zastosuj">
+<!ENTITY keyconfig.disable "Wyłącz">
+<!ENTITY keyconfig.reset "Przywróć">
+<!ENTITY keyconfig.warn "Zmiany zostaną zastosowane w nowo otwieranych oknach">
+<!ENTITY keyconfig.onreset "Zmiany zostaną zastosowane po ponownym uruchomieniu przeglądarki">
+<!ENTITY keyconfig.unrecognized "Nie rozpoznano ($1)">
+<!ENTITY keyconfig.used "Ten klawisz jest używany przez: \\n\\n\\t$1\\n\\nPomimo tego mógłby nadal działać">
+<!ENTITY menus.sidebar.desc "Określ elementy wyświetlane w elemencie „Panel boczny” z menu „Widok” oraz w rozwijanych menu przycisków panelu bocznego">
+<!ENTITY menus.icons.label "Wyświetlaj ikony">
+<!ENTITY menus.entries.label "Wyświetlaj elementy">
+<!ENTITY menus.sidebar.entrydeac "Wyłącz elementy aktywnego paska bocznego">
+<!ENTITY misc.enablesidebar.label "Otwórz w panelu bocznym">
+<!ENTITY misc.layout.label "Optymalizuj wygląd dla panelu bocznego">
+<!ENTITY misc.dm.overlay "Zmień opcje zachowania się panelu bocznego">
+<!ENTITY misc.dm.autoopen.label "Wyświetlaj panel pobierania podczas pobierania pliku">
+<!ENTITY misc.dm.autoclose.label "Zamknij po zakończeniu pobierania">
+<!ENTITY misc.colors.label "Włącz kolorowe tła w oparciu o aktualny stan">
+<!ENTITY misc.count.label "Wyświetlaj ilość elementów">
+<!ENTITY misc.enablelink.tooltip "Kliknij tutaj, aby uzyskać więcej informacji (odnośnik do FAQ-ów)">
+<!ENTITY misc.paneltab.reverse "Zamień działanie kliknięcia l.p.m. z p.p.m.">
+<!ENTITY misc.bm.paneltab.desc "Przycisk „PanelTab” może otwierać menedżera zakładek w nowej karcie zamiast w panelu bocznym.">
+<!ENTITY misc.bm.paneltab "Otwieraj menedżera zakładek w nowej karcie">
+<!ENTITY special.collapsing.caption "Zwijanie panelu bocznego">
+<!ENTITY special.collapsing.label "Włącz zwijanie panelu bocznego">
+<!ENTITY special.collapsing.desc "Panel boczny może być zwijany zamiast zamykania go. Zaletą tej opcji jest to, że zawartość panelu nie musi być ponownie wczytywana po jego ponownym otworzeniu.">

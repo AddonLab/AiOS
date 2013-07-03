@@ -1,0 +1,88 @@
+<!ENTITY title "All-in-One Sidebar - Možnosti">
+<!ENTITY restart "Zmeny vyžadujú reštart prehliadača">
+<!ENTITY settings "Nastavenia">
+<!ENTITY settings.default "Obnoviť predvolené…">
+<!ENTITY settings.advanced "Režim pre pokročilých">
+<!ENTITY settings.import "Importovať nastavenia…">
+<!ENTITY settings.export "Exportovať nastavenia">
+<!ENTITY apply "Použiť">
+<!ENTITY gen.column1 "200">
+<!ENTITY tab.gen "Všeobecné">
+<!ENTITY tab.gen.appearance "Vzhľad">
+<!ENTITY tab.gen.behavior "Chovanie">
+<!ENTITY tab.gen.fullscreen "Režim celej obrazovky">
+<!ENTITY tab.gen.special "Špeciality">
+<!ENTITY tab.panels "Karty">
+<!ENTITY tab.panels.places "Záložky/História">
+<!ENTITY tab.panels.other1 "Iné 1">
+<!ENTITY tab.panels.other2 "Iné 2">
+<!ENTITY tab.panels.paneltab "Otvoriť bočný panel v karte">
+<!ENTITY tab.menus "Ponuky">
+<!ENTITY tab.menus.sidebar "Bočný panel">
+<!ENTITY tab.keys "Klávesové skratky">
+<!ENTITY gen.orient.caption "Umiestnenie">
+<!ENTITY gen.orient.label "Zobraziť bočný panel">
+<!ENTITY gen.orient.left "vľavo">
+<!ENTITY gen.orient.right "vpravo">
+<!ENTITY gen.width.caption "Veľkosť">
+<!ENTITY gen.width.px "pixelov">
+<!ENTITY gen.width.perc "percent">
+<!ENTITY gen.width.current "nastaviť na aktuálnu šírku">
+<!ENTITY gen.width.current.tip "Použiť aktuálnu šírku postrannej lišty">
+<!ENTITY gen.width.min.hint "[Shift+dvojklik] na titulok bočného panela">
+<!ENTITY gen.width.def.hint "[Dvojklik] na titulok bočného panela">
+<!ENTITY gen.width.max.hint "[Ctrl+dvojklik] alebo [Alt+dvojklik] na titulok bočného panela">
+<!ENTITY gen.init.caption "Pri štarte prehliadača">
+<!ENTITY gen.init.label "Bočný panel">
+<!ENTITY gen.init.toolbar.label "Panel nástrojov">
+<!ENTITY gen.init.toolbar.show.label "Zobraziť panel nástrojov">
+<!ENTITY gen.init.toolbar.hide.label "Skryť panel nástrojov">
+<!ENTITY gen.init.switch.show.label "Zobraziť prepínač zobrazenia bočného panela">
+<!ENTITY gen.init.switch.hide.label "Skryť prepínač zobrazenia bočného panela">
+<!ENTITY gen.init.mode1 "Obnoviť stav zobrazenia z minulého spustenia">
+<!ENTITY gen.init.sidebar "Otvoriť bočný panel">
+<!ENTITY gen.init.sidebar.restore "Obnoviť zapamätaný panel">
+<!ENTITY gen.switch.autoshow "Zobraziť/skryť bočný panel automaticky (kontakt myšou namiesto kliknutia myšou)">
+<!ENTITY gen.switch.onlymax "Len keď je prehliadač maximalizovaný alebo v režime celej obrazovky">
+<!ENTITY gen.switch.delay "Oneskorenie">
+<!ENTITY gen.switch.delayUnit "milisekúnd">
+<!ENTITY gen.switch.hide "Skryť bočný panel, ak sa kurzor myši…">
+<!ENTITY gen.switch.hideBar "presunie späť na stránku">
+<!ENTITY gen.switch.hidePage "zastavi na prepínači bočného panela">
+<!ENTITY gen.switch.thin "Zúžiť prepínač len v maximalizovanom stave alebo v režime celej obrazovky">
+<!ENTITY gen.switch.width "Šírka prepínača bočného panela">
+<!ENTITY gen.switch.twidth "Šírka zúženého prepínača bočného panela">
+<!ENTITY cmode.caption "Zobraziť/Skryť bočný panel">
+<!ENTITY cmode.desc "Vyberte prvky, ktoré budú spolu s bočnými panelmi skrývané alebo zobrazované v závislosti na spôsobe akým bola daná operácia vyvolaná.">
+<!ENTITY cmode.key.label "Skratka(F4)">
+<!ENTITY cmode.tbb.label "AiOS Tlačidlo">
+<!ENTITY cmode.close.label "Zatváracím tlačidlom">
+<!ENTITY cmode.mode1.label "Len bočný panel">
+<!ENTITY cmode.mode2.label "Bočný panel a panel nástrojov">
+<!ENTITY cmode.mode3.label "Bočný panel, panel nástrojov a prepínač zobrazenia">
+<!ENTITY cmode.mode4.label "Ako v prehliadači Opera">
+<!ENTITY gen.fs.off "Obnoviť pôvodný stav po vypnutí režimu na celú obrazovku">
+<!ENTITY keyconfig.keyid "Udalosť">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Použiť">
+<!ENTITY keyconfig.disable "Zakázať">
+<!ENTITY keyconfig.reset "Predvolené">
+<!ENTITY keyconfig.warn "Zmeny sa prejavia až na nových oknách">
+<!ENTITY keyconfig.onreset "Zmeny si vyžadujú reštart prehliadača">
+<!ENTITY keyconfig.unrecognized "Nerozpoznané ($1)">
+<!ENTITY keyconfig.used "Táto klávesová skratka už je používaná pre: \\n\\n\\t$1\\n\\n">
+<!ENTITY menus.sidebar.desc "Nastavenie položiek v ponuke &quot;Zobraziť &gt; Bočný panel&quot; a v miestnych ponukách líšt s nástrojmi.">
+<!ENTITY menus.icons.label "Zobraziť ikony">
+<!ENTITY menus.entries.label "Zobraziť položky">
+<!ENTITY menus.sidebar.entrydeac "Zakázať položky práve zobrazeného bočného panela.">
+<!ENTITY misc.enablesidebar.label "Otvoriť v bočnom paneli">
+<!ENTITY misc.layout.label "Optimalizovať vzhľad pre bočný panel">
+<!ENTITY misc.colors.label "Povoliť farebné pozadia založené na súčasnom stave">
+<!ENTITY misc.count.label "Zobraziť počet položiek">
+<!ENTITY misc.enablelink.tooltip "Kliknite sem pre viac informácií">
+<!ENTITY misc.paneltab.reverse "Zameniť akcie pre ľavé a pravé tlačidlo myši">
+<!ENTITY misc.bm.paneltab.desc "Tlačidlom &quot;Otvoriť bočný panel v novej karte&quot; otvárať v paneli pokročilého správcu záložiek">
+<!ENTITY misc.bm.paneltab "Otvárať správcu záložiek do novej karty">
+<!ENTITY special.collapsing.caption "Odsúvanie bočného panela">
+<!ENTITY special.collapsing.label "Povoliť odsúvanie bočného panela">
+<!ENTITY special.collapsing.desc "Bočný panel môže byť odsunutí namiesto zatvorenia. Výhoda odsunutia je v tom, že obsah panela sa nestratí a to vám ušetrí čas.">

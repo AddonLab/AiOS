@@ -1,0 +1,52 @@
+<!ENTITY loading.label "carregando painel…">
+<!ENTITY menu.prefs.label "Opções do All-in-One Sidebar…">
+<!ENTITY menu.togglebar.label "Alternador do painel">
+<!ENTITY menu.grippy.label "Pegador do painel">
+<!ENTITY toolbar.name "All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "Barra de ferramentas de cabeçalho de painel">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Ativa/desativa elementos controlados pelo All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Ativa/desativa a barra lateral e de ferramentas">
+<!ENTITY button.switch.tooltip2 "Ativa/desativa a barra de ferramentas">
+<!ENTITY button.switch.tooltip3 "Ativa/desativa a barra lateral">
+<!ENTITY sidebar.open.label "Abrir painel">
+<!ENTITY sidebar.close.label "Fechar painel">
+<!ENTITY sidebar.width.min "Largura mínima">
+<!ENTITY sidebar.width.def "Largura padrão">
+<!ENTITY sidebar.width.max "Largura máxima">
+<!ENTITY button.menu.label "Painéis laterais">
+<!ENTITY button.menu.tooltip "Todos os painéis laterais disponíveis">
+<!ENTITY button.toolbar.label "AiOS">
+<!ENTITY button.toolbar.tooltip "Ativa/desativa a Barra de Ferramentas do AiOS">
+<!ENTITY button.paneltab.label "PainelAba">
+<!ENTITY button.paneltab.tooltip1 "Abrir conteúdo da aba no painel lateral">
+<!ENTITY button.paneltab.tooltip2 "Abrir conteúdo do painel em uma nova aba">
+<!ENTITY button.paneltab.tooltip3 "Abre o conteúdo do painel lateral em uma janela">
+<!ENTITY button.paneltab.menu1.label "Abrir aba no painel lateral">
+<!ENTITY button.paneltab.menu2.label "Abrir painel lateral na aba">
+<!ENTITY button.autohide.label "SidebarAutomatic">
+<!ENTITY button.autohide.tooltip "Exibir/ocultar automaticamente o painel lateral">
+<!ENTITY button.tooltip.sidebar "Abre no painel lateral">
+<!ENTITY button.tooltip.window "Abrir em uma janela">
+<!ENTITY button.tooltip.tab "Abrir em uma nova aba">
+<!ENTITY button.addons.label "Complementos">
+<!ENTITY button.addons.tooltip "Exibir extensões e temas instalados">
+<!ENTITY button.multipanel.label "Multipainel">
+<!ENTITY button.multipanel.tooltip "Exibe, por exemplo, um site, o código fonte e as informações do navegador">
+<!ENTITY button.pageinfo.tooltip "Mostra informações, formulários, links, mídia e segurança">
+<!ENTITY button.console.label "Console de erros">
+<!ENTITY button.console.tooltip "Abre o console de erros, que procura problemas com o código fonte">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "À esquerda do painel">
+<!ENTITY toolbar.pos.sidebarright.label "À direita do painel">
+<!ENTITY toolbar.pos.sidebartop.label "Acima do painel">
+<!ENTITY toolbar.pos.headerbottom.label "Abaixo do título do painel">
+<!ENTITY toolbar.pos.sidebarbottom.label "Abaixo do painel">
+<!ENTITY toolbar.mode.flexbuttons.label "Botões flexíveis">

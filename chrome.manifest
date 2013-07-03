@@ -1,0 +1,88 @@
+
+content         aios                            content/                   contentaccessible=yes
+skin            aios            global          skin/
+
+locale          aios            en-US           locale/en-US/
+locale          aios            ar-SA           locale/ar-SA/
+locale          aios            be-BY           locale/be-BY/
+locale          aios            cs-CZ           locale/cs-CZ/
+locale          aios            da              locale/da/
+locale          aios            de              locale/de/
+locale          aios            el           	locale/el/
+locale          aios            en-GB           locale/en-GB/
+locale          aios            es-AR           locale/es-AR/
+locale          aios            es-ES           locale/es-ES/
+locale          aios            et-EE           locale/et-EE/
+locale          aios            fi              locale/fi/
+locale          aios            fr              locale/fr/
+locale          aios            he              locale/he/
+locale          aios            hr-HR           locale/hr-HR/
+locale          aios            hu-HU           locale/hu-HU/
+locale          aios            hy-AM           locale/hy-AM/
+locale          aios            it              locale/it/
+locale          aios            ja-JP           locale/ja-JP/
+locale          aios            ko-KR           locale/ko-KR/
+locale          aios            lt-LT           locale/lt-LT/
+locale          aios            nb-NO           locale/nb-NO/
+locale          aios            nl              locale/nl/
+locale          aios            pl              locale/pl/
+locale          aios            pt-BR           locale/pt-BR/
+locale          aios            pt-PT           locale/pt-PT/
+locale          aios            ro              locale/ro/
+locale          aios            ru              locale/ru/
+locale          aios            sk-SK           locale/sk-SK/
+locale          aios            sq-AL           locale/sq-AL/
+locale          aios            sr              locale/sr/
+locale          aios            sv-SE           locale/sv-SE/
+locale          aios            tr              locale/tr/
+locale          aios            uk              locale/uk/
+locale          aios            vi              locale/vi/
+locale          aios            zh-CN           locale/zh-CN/
+locale          aios            zh-TW           locale/zh-TW/
+
+overlay         chrome://browser/content/browser.xul                       chrome://aios/content/aios.xul
+style           chrome://browser/content/browser.xul                       chrome://aios/skin/css/aios.css
+style           chrome://browser/content/browser.xul                       chrome://aios/skin/css/aios_theme_generic.css
+style           chrome://browser/content/browser.xul                       chrome://aios/skin/css/aios_theme_winnt.css         os=WINNT
+style           chrome://browser/content/browser.xul                       chrome://aios/skin/css/aios_theme_darwin.css        os=Darwin
+style           chrome://browser/content/browser.xul                       chrome://aios/skin/css/aios_buttons_generic.css
+style           chrome://browser/content/browser.xul                       chrome://aios/skin/css/aios_buttons_winnt.css       os=WINNT
+style           chrome://browser/content/browser.xul                       chrome://aios/skin/css/aios_buttons_darwin.css      os=Darwin
+
+
+overlay         chrome://global/content/customizeToolbar.xul               chrome://aios/content/aios_customize.xul
+style           chrome://global/content/customizeToolbar.xul               chrome://aios/skin/css/aios_buttons_generic.css
+style           chrome://global/content/customizeToolbar.xul               chrome://aios/skin/css/aios_buttons_winnt.css       os=WINNT
+style           chrome://global/content/customizeToolbar.xul               chrome://aios/skin/css/aios_buttons_darwin.css      os=Darwin
+
+
+overlay         chrome://browser/content/bookmarks/bookmarksPanel.xul      chrome://aios/content/places.xul
+style           chrome://browser/content/bookmarks/bookmarksPanel.xul      chrome://aios/skin/css/places.css
+
+overlay         chrome://browser/content/history/history-panel.xul         chrome://aios/content/places.xul
+style           chrome://browser/content/history/history-panel.xul         chrome://aios/skin/css/places.css
+
+overlay         about:addons                                               chrome://aios/content/addons.xul
+style           about:addons                                               chrome://aios/skin/css/addons.css
+style           about:addons                                               chrome://browser/skin/browser.css
+
+overlay         chrome://mozapps/content/xpinstall/xpinstallConfirm.xul    chrome://aios/content/addons_xpinstall.xul
+
+overlay         chrome://mozapps/content/downloads/downloads.xul           chrome://aios/content/downloads.xul
+overlay         chrome://global/content/alerts/alert.xul                   chrome://aios/content/downloads_alert.xul
+
+overlay         chrome://browser/content/web-panels.xul                    chrome://aios/content/multipanel.xul
+style           chrome://browser/content/web-panels.xul                    chrome://aios/skin/css/multipanel.css
+
+overlay         chrome://global/content/config.xul                         chrome://aios/content/multipanel_config.xul
+style           chrome://global/content/config.xul                         chrome://aios/skin/css/multipanel_config.css
+
+overlay         chrome://browser/content/pageinfo/pageInfo.xul             chrome://aios/content/pageinfo.xul
+style           chrome://browser/content/pageinfo/pageInfo.xul             chrome://aios/skin/css/pageinfo.css
+
+overlay         chrome://global/content/console.xul                        chrome://aios/content/console.xul
+overlay         chrome://console2/content/console2.xul                     chrome://aios/content/console.xul
+
+overlay         chrome://browser/content/preferences/main.xul              chrome://aios/content/prefs/overlay_main.xul
+
+style           chrome://aios/content/about.xul                            chrome://aios/skin/css/prefs.css

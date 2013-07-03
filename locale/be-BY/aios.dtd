@@ -1,0 +1,49 @@
+<!ENTITY loading.label "загрузка панэлі…">
+<!ENTITY menu.prefs.label "Налады All-in-One Sidebar…">
+<!ENTITY menu.togglebar.label "Перамыкач бакавой панэлі">
+<!ENTITY menu.grippy.label "Кнопка “Згарнуць/Разгарнуць”">
+<!ENTITY toolbar.name "Бакавая панэль прылад">
+<!ENTITY button.toggle.label "Выклік бакавой панэлі">
+<!ENTITY button.toggle.tooltip "Адкрыць/Зачыніць бакавую панэль">
+<!ENTITY button.switch.tooltip1 "Адчыніць Sidebar і Toolbar">
+<!ENTITY button.switch.tooltip2 "Адчыніць Toolbar">
+<!ENTITY button.switch.tooltip3 "Адчыніць Sidebar">
+<!ENTITY sidebar.open.label "Адкрыць бакавую панэль">
+<!ENTITY sidebar.close.label "Зачыніць бакавую панэль">
+<!ENTITY sidebar.width.min "Мінімальная шырыня">
+<!ENTITY sidebar.width.def "Стандартная шырыня">
+<!ENTITY sidebar.width.max "Максімальная шырыня">
+<!ENTITY button.menu.label "Бакавая панэль">
+<!ENTITY button.menu.tooltip "Спіс бакавых панэляў">
+<!ENTITY button.paneltab.label "Адкрыць ва ўкладцы">
+<!ENTITY button.paneltab.tooltip1 "Адкрыць змесціва ўкладкі ў бакавой панэлі">
+<!ENTITY button.paneltab.tooltip2 "Адкрыць змесціва бакавой панэлі ў новай укладцы">
+<!ENTITY button.paneltab.tooltip3 "Адкрыць змесціва бакавой панэлі ў асобным акне">
+<!ENTITY button.paneltab.menu1.label "Адкрыць укладку ў бакавой панэлі">
+<!ENTITY button.paneltab.menu2.label "Адкрыць бакавую панэль ва ўкладцы">
+<!ENTITY button.autohide.label "Автоконтроль бакавой панэлі">
+<!ENTITY button.autohide.tooltip "Аўтаматычна адчыняць/зачыняць бакавую панэль">
+<!ENTITY button.tooltip.sidebar "Адкрыць у бакавой панэлі">
+<!ENTITY button.tooltip.window "Адкрыць у асобным акне">
+<!ENTITY button.tooltip.tab "Адкрыць у новай укладцы">
+<!ENTITY button.addons.label "Дадаткі">
+<!ENTITY button.addons.tooltip "Паказаць усталяваныя пашырэнні і тэмы">
+<!ENTITY button.multipanel.label "Мультипанель">
+<!ENTITY button.multipanel.tooltip "Паказаць вэб-сайт, зыходны код старонкі або інфармацыю аб браўзэры">
+<!ENTITY button.pageinfo.tooltip "Паказаць усю інфармацыю аб дадзенай старонцы">
+<!ENTITY button.console.label "Кансоль памылак">
+<!ENTITY button.console.tooltip "Адкрыць кансоль, якая адлюстроўвае праблемы зыходнага кода">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Размясціць злева ад бакавой панэлі">
+<!ENTITY toolbar.pos.sidebarright.label "Размясціць справа ад бакавой панэлі">
+<!ENTITY toolbar.pos.sidebartop.label "Размясціць над бакавой панэллю">
+<!ENTITY toolbar.pos.headerbottom.label "Размясціць пад загалоўкам бакавой панэлі">
+<!ENTITY toolbar.pos.sidebarbottom.label "Размясціць пад бакавой панэллю">
+<!ENTITY toolbar.mode.flexbuttons.label "Пластычныя кнопкі">

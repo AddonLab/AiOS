@@ -1,0 +1,13 @@
+<!ENTITY leftclick "왼쪽 클릭">
+<!ENTITY rightclick "오른쪽 클릭">
+<!ENTITY doubleclick "두번 클릭">
+<!ENTITY middleclick "가운데 클릭">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "도구">
+<!ENTITY closeFolder.label "모든 폴더 닫기">
+<!ENTITY show.closeFolder.label "\'모든 폴더 닫기\' 버튼">
+<!ENTITY enable.autoClose.label "다른 폴더 자동으로 닫기">
+<!ENTITY enable.scrollToFolder.label "선택한 폴더로 자동으로 스크롤하기">
+<!ENTITY enable.rememberFolder.label "마지막으로 선택한 폴더를 기억하고 활성화하기">

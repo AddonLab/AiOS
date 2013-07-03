@@ -1,0 +1,13 @@
+<!ENTITY leftclick "לחיצה-שמאלית">
+<!ENTITY rightclick "לחיצה-ימנית">
+<!ENTITY doubleclick "לחיצה-כפולה">
+<!ENTITY middleclick "לחיצה-אמצעית">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "כלים">
+<!ENTITY closeFolder.label "סגירת כל התיקיות">
+<!ENTITY show.closeFolder.label "כפתור \'סגירת כל התיקיות\'">
+<!ENTITY enable.autoClose.label "סגירה אוטומטית של תיקיות אחרות">
+<!ENTITY enable.scrollToFolder.label "גלילה אוטומטית לתיקייה הנבחרת">
+<!ENTITY enable.rememberFolder.label "זכור והתמקד בתיקייה שנבחרה אחרונה">

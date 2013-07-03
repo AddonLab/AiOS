@@ -1,0 +1,57 @@
+<!ENTITY title "Tietoa All-in-One Sidebar lisäosasta">
+<!ENTITY version "versio">
+<!ENTITY settings "Asetukset…">
+<!ENTITY close "Sulje">
+<!ENTITY tab.about "Tietoa">
+<!ENTITY tab.contrib "Kehittäjät">
+<!ENTITY tab.trans "Kääntäjät">
+<!ENTITY about.desc "AIOS -sivupalkki mahdollistaa erinäisten ikkunoitten avaamisen paneeleina sivupalkissa ja nopean siirtymisen niiden välillä. Se on siis piste ikkunakaaokselle! Kirjanmerkkien ja sivuhistorian lisäksi voidaan avata esimerkiksi lataukset ja laajennukset ikkuna.">
+<!ENTITY create.desc "luonut Ingo Wennemaring, Hampuri [Saksa]">
+<!ENTITY about1.name "Kotisivu - paljon tietoa yhdessä paikassa">
+<!ENTITY about2.name "Ominaisuudet - kaikki All-in-One Sidebarin ominaisuudet">
+<!ENTITY about3.name "UKK - usein kysyttyjä kysymyksiä ja vastauksia">
+<!ENTITY about4.name "Tunnetut viat - kuvaukset ja ongelmanratkaisu">
+<!ENTITY about5.name "Foorumi - keskusteluja, vika raportteja, ja teema korjauksia muitten asioiden lisäksi">
+<!ENTITY about6.name "Muutosloki - historia ja muutokset">
+<!ENTITY about7.name "Tehtävänä - suunnitellut ominaisuudet ja parannukset">
+<!ENTITY contrib.desc "Kiitän seuraavia ohjemoijia innoituksesta ja tilkuista [aakkos järjestys]:">
+<!ENTITY contrib.thanks "Viimeisenä muttei vähäisimpinä kiitän kaikkia käyttäjiä jotka auttoivat testaamalla kehitysversioita, vikojen raportoinnista foorumilla, ideoittensa jakamisesta tai mukavien kommenttien kirjoittamisesta :-) Kiitos paljon teille!">
+<!ENTITY trans.desc "All-in-One Sidebarin kääntäjät [aakkosjärjestyksessä kieli koodin mukaan]">
+<!ENTITY trans.ar-SA.lang "Arabia">
+<!ENTITY trans.be-BY.lang "Valkovenäjä">
+<!ENTITY trans.cs-CZ.lang "Tsekki">
+<!ENTITY trans.da-DK.lang "Tanska">
+<!ENTITY trans.de-DE.lang "Saksa">
+<!ENTITY trans.el-GR.lang "Kreikka">
+<!ENTITY trans.en-GB.lang "Englanti (Iso Britannia)">
+<!ENTITY trans.en-US.lang "Englanti (Yhdysvallat)">
+<!ENTITY trans.es-AR.lang "Espanja (Argentiina)">
+<!ENTITY trans.es-ES.lang "Espanja (Espanja)">
+<!ENTITY trans.et-EE.lang "Viro">
+<!ENTITY trans.fi-FI.lang "Suomi">
+<!ENTITY trans.fr-FR.lang "Ranska">
+<!ENTITY trans.he-IL.lang "Heprea">
+<!ENTITY trans.hr-HR.lang "Kroatia">
+<!ENTITY trans.hu-HU.lang "Unkari">
+<!ENTITY trans.hy-AM.lang "Armenia">
+<!ENTITY trans.it-IT.lang "Italia">
+<!ENTITY trans.ja-JP.lang "Japani">
+<!ENTITY trans.ko-KR.lang "Korea">
+<!ENTITY trans.lt-LT.lang "Liettua">
+<!ENTITY trans.nb-NO.lang "Norja (Bokmål)">
+<!ENTITY trans.nl-NL.lang "Hollanti">
+<!ENTITY trans.pl-PL.lang "Puola">
+<!ENTITY trans.pt-BR.lang "Portugali (Brasilia)">
+<!ENTITY trans.pt-PT.lang "Portugali (Portugali)">
+<!ENTITY trans.ro-RO.lang "Romania">
+<!ENTITY trans.ru-RU.lang "Venäjä">
+<!ENTITY trans.sk-SK.lang "Slovakki">
+<!ENTITY trans.sq-AL.lang "Albania">
+<!ENTITY trans.sr-RS.lang "Serbia (kyrillinen)">
+<!ENTITY trans.sv-SE.lang "Ruotsi">
+<!ENTITY trans.tr-TR.lang "Turkki">
+<!ENTITY trans.uk-UA.lang "Ukraina">
+<!ENTITY trans.vi-VN.lang "Vietnam (Vietnam)">
+<!ENTITY trans.zh-CN.lang "Kiina (Yksinkertaistettu)">
+<!ENTITY trans.zh-TW.lang "Kiina (Perinteinen)">
+<!ENTITY trans.thanks "Kiitän ehdottomasti myös BabelZilla.org tiimiä mahtavasta työstä!">

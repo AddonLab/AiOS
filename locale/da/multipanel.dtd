@@ -1,0 +1,20 @@
+<!ENTITY page.label "Side">
+<!ENTITY page.tooltip "Åbn websiden i dette panel">
+<!ENTITY page.ssr.label "Lille skærm-rendering">
+<!ENTITY page.ssr100.label "Tilpas til sidebjælke-bredde">
+<!ENTITY about.label "om:">
+<!ENTITY about.tooltip "Viser diverse information om browseren">
+<!ENTITY about.config.tooltip "Viser en brugerflade for gennemsyn og indstilling af en bred vifte af konfigurationsvariabler">
+<!ENTITY about.plugins.tooltip "Viser information om alle installerede plug-ins">
+<!ENTITY about.cache.tooltip "Viser information om Cache Servicen for både hukommelse og disk-cache (mellemlagre)">
+<!ENTITY about.cache.disk.tooltip "Viser individuelle emner på disk">
+<!ENTITY about.cache.memory.tooltip "Viser individuelle emner i hukommelsen">
+<!ENTITY about.cache.offline.tooltip "Viser offline cache-elementer">
+<!ENTITY about.crashes.tooltip "Viser indsendte crash-rapporter">
+<!ENTITY about.buildconfig.tooltip "Viser argumenter og indstillinger brugt til at kompilere den aktive build">
+<!ENTITY about.about.tooltip "Viser versioninformation og copyrightinformation">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Viser en liste over alle dem der har bidraget til Mozilla">
+<!ENTITY about.license.tooltip "Viser Mozilla Public-licensen">
+<!ENTITY about.mozilla.tooltip "Viser en side fra den fiktive Mozilla Bog">
+<!ENTITY tools.remlast.label "Husk senest viste indhold">

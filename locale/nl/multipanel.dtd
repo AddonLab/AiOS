@@ -1,0 +1,21 @@
+<!ENTITY page.label "Pagina">
+<!ENTITY page.tooltip "De webpagina in dit paneel openen">
+<!ENTITY page.ssr.label "Kleinschermrendering">
+<!ENTITY page.ssr100.label "Aanpassen aan zijbalkbreedte">
+<!ENTITY about.label "over:">
+<!ENTITY about.tooltip "Toont verschillende informatie over de browser">
+<!ENTITY about.config.tooltip "Toont een omgeving voor het bekijken en instellen van veel verschillende configuratievariabelen">
+<!ENTITY about.plugins.tooltip "Toont informatie over alle geïnstalleerde plugins">
+<!ENTITY about.support.tooltip "Toont toepassingsbasics, extensies en aangepaste voorkeuren.">
+<!ENTITY about.cache.tooltip "Toont informatie over de bufferservice voor zowel geheugen- als schijfbuffer">
+<!ENTITY about.cache.disk.tooltip "Individuele items op de schijf tonen">
+<!ENTITY about.cache.memory.tooltip "Individuele items in het geheugen tonen">
+<!ENTITY about.cache.offline.tooltip "Offline bufferitems tonen">
+<!ENTITY about.crashes.tooltip "Toont Verzonden crashrapporten">
+<!ENTITY about.buildconfig.tooltip "Toont de argumenten en opties gebruikt om de gebruikte versie te compileren">
+<!ENTITY about.about.tooltip "Toont versie- en auteursrechtsinformatie">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Toont een lijst met iedereen die bijgedragen heeft aan Mozilla">
+<!ENTITY about.license.tooltip "Toont de Mozilla Public License">
+<!ENTITY about.mozilla.tooltip "Toont een pagina van het verzonnen Book of Mozilla">
+<!ENTITY tools.remlast.label "De laatst getoonde inhoud onthouden">

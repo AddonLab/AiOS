@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar – Seaded">
+<!ENTITY restart "Muudatuste rakendamiseks vajalik brauseri taaskäivitamine">
+<!ENTITY settings "Seaded">
+<!ENTITY settings.default "Taasta vaikesätted …">
+<!ENTITY settings.advanced "Edasijõudnutele">
+<!ENTITY settings.import "Impordi seaded …">
+<!ENTITY settings.export "Ekspordi seaded …">
+<!ENTITY settings.copy "Kopeeri seaded lõikelauale">
+<!ENTITY apply "Rakenda">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Üldist">
+<!ENTITY tab.gen.appearance "Välimus">
+<!ENTITY tab.gen.behavior "Käitumine">
+<!ENTITY tab.gen.fullscreen "Täisekraan">
+<!ENTITY tab.gen.special "Erilist">
+<!ENTITY tab.panels "Paneelid">
+<!ENTITY tab.panels.places "Järjehoidjad/Ajalugu">
+<!ENTITY tab.panels.other1 "Muud I">
+<!ENTITY tab.panels.other2 "Muud II">
+<!ENTITY tab.panels.paneltab "Paneeli tab">
+<!ENTITY tab.menus "Menüüd">
+<!ENTITY tab.menus.sidebar "Külgpaan">
+<!ENTITY tab.keys "Otseteed">
+<!ENTITY gen.orient.caption "Orientatsioon">
+<!ENTITY gen.orient.label "Näita külgpaani">
+<!ENTITY gen.orient.left "vasakul">
+<!ENTITY gen.orient.right "paremal">
+<!ENTITY gen.width.caption "Suurus">
+<!ENTITY gen.width.px "pikslit">
+<!ENTITY gen.width.perc "protsenti">
+<!ENTITY gen.width.current "seadista praegusele laiusele">
+<!ENTITY gen.width.current.tip "Rakendab külgpaani praeguse laiuse">
+<!ENTITY gen.width.min.hint "[Shift+topeltklõps] külgpaani pealkirjal">
+<!ENTITY gen.width.def.hint "[Topelklõps] külgpaani pealkirjal">
+<!ENTITY gen.width.max.hint "[Ctrl+topeltklõps] või [Alt+topeltklõps] külgpaani pealkirjal">
+<!ENTITY gen.init.caption "Brauseri alglaadimine">
+<!ENTITY gen.init.label "Külgpaan">
+<!ENTITY gen.init.toolbar.label "Tööriistariba">
+<!ENTITY gen.init.toolbar.show.label "Näita tööriistariba">
+<!ENTITY gen.init.toolbar.hide.label "Peida tööriistariba">
+<!ENTITY gen.init.switch.show.label "Näita külgpaani vahetajat">
+<!ENTITY gen.init.switch.hide.label "Peida külgpaani vahetaja">
+<!ENTITY gen.init.mode1 "Taasta salvestatud paigutus">
+<!ENTITY gen.init.sidebar "Ava külgpaan (Külgpaani vahetaja, Näita/Peida nupp, Otsetee)">
+<!ENTITY gen.init.sidebar.restore "Taasta salvestatud paneel">
+<!ENTITY gen.switch.autoshow "Näita/Peida külgpaan automaatselt (hiire kontakt klõpsu asemel)">
+<!ENTITY gen.switch.onlymax "Ainult kui brauser täissuuruses või täisekraanil">
+<!ENTITY gen.switch.delay "Viivitus">
+<!ENTITY gen.switch.delayUnit "millisekundit">
+<!ENTITY gen.switch.hide "Peida külgpaan kui hiire kursor …">
+<!ENTITY gen.switch.hideBar "liigub tagasi veebilehele">
+<!ENTITY gen.switch.hidePage "peatub külgpaani vahetajal">
+<!ENTITY gen.switch.thin "Võimalda õhuke külgpaani vahetaja">
+<!ENTITY gen.switch.width "Külgpaani vahetaja laius">
+<!ENTITY gen.switch.twidth "Õhukese külgpaani vahetaja laius">
+<!ENTITY cmode.caption "Näita/Peida külgpaan">
+<!ENTITY cmode.desc "Kohanda erinevate külgpaani avamise-sulgemise viiside mõju külgpaani osadele">
+<!ENTITY cmode.key.label "Otsetee (F4)">
+<!ENTITY cmode.tbb.label "AiOS nupp">
+<!ENTITY cmode.close.label "Sulgemise nupp">
+<!ENTITY cmode.mode1.label "Ainult külgpaan">
+<!ENTITY cmode.mode2.label "Külgpaan ja tööriistariba">
+<!ENTITY cmode.mode3.label "Külgpaan, tööriistariba ja külgpaani vahetaja">
+<!ENTITY cmode.mode4.label "Opera käitumine">
+<!ENTITY gen.fs.off "Taasta olukord kui suletakse täisekraani vaates">
+<!ENTITY keyconfig.keyid "Nimi">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Rakenda">
+<!ENTITY keyconfig.disable "Keela">
+<!ENTITY keyconfig.reset "Lähtesta">
+<!ENTITY keyconfig.warn "Muudatused puudutavad ainult uusi aknaid">
+<!ENTITY keyconfig.onreset "Vajalik brauseri taaskäivitamine">
+<!ENTITY keyconfig.unrecognized "Tundamutu ($1)">
+<!ENTITY keyconfig.used "Seda klahvi kasutab juba: \\n\\n\\t$1\\n\\nIt aga võib siiski töötada">
+<!ENTITY menus.sidebar.desc "Kohanda “Vaata &gt; Külgpaan” menüü kirjeid ja külgpaani nuppude kontekstmenüüsid.">
+<!ENTITY menus.icons.label "Näita ikoone">
+<!ENTITY menus.entries.label "Näita kirjeid">
+<!ENTITY menus.sidebar.entrydeac "Keela aktiivse külgpaani kirje">
+<!ENTITY misc.enablesidebar.label "Ava külgpaanis">
+<!ENTITY misc.layout.label "Optimeeri kujutamist külgpaani jaoks">
+<!ENTITY misc.dm.overlay "Muuda külgpaani käitumist">
+<!ENTITY misc.dm.autoopen.label "Näita tõmbamiste külgpaani kui faili tõmmatakse">
+<!ENTITY misc.dm.autoclose.label "Sulge see, kui kõik tõmbamised on lõpetatud">
+<!ENTITY misc.colors.label "Luba hetkeseisundil põhinevad värvilised taustad">
+<!ENTITY misc.count.label "Näita kirjete arvu">
+<!ENTITY misc.enablelink.tooltip "Lisateabeks klõpsa siia (link KKK juurde)">
+<!ENTITY misc.paneltab.reverse "Vaheta vasak- ja keskklõpsu tegevused">
+<!ENTITY misc.bm.paneltab.desc "“Paneeli tab” nupp võib avada järjehoidjate haldaja uuel vahelehel järjehoidjate paneeli asemel">
+<!ENTITY misc.bm.paneltab "Luba järjehoidjate haldajat uuel vahelehel">
+<!ENTITY special.collapsing.caption "Külgpaani kollapsimine">
+<!ENTITY special.collapsing.label "Luba külgpaani kollapsimine">
+<!ENTITY special.collapsing.desc "Külgpaan võib kollapsida sulgumise asemel. Eeliseks on uuesti laadimisest pääsemine ja seega kiirem töö.">

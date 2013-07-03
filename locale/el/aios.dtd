@@ -1,0 +1,52 @@
+<!ENTITY loading.label "Φόρτωση πλαισίου…">
+<!ENTITY menu.prefs.label "Επιλογές All-in-One Sidebar">
+<!ENTITY menu.togglebar.label "Διακόπτης πλευρικής στήλης">
+<!ENTITY menu.grippy.label "Λαβή πλευρικής στήλης">
+<!ENTITY toolbar.name "Εργαλειοθήκη All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "Εργαλειοθήκη κεφαλίδας πλευρικής στήλης">
+<!ENTITY button.toggle.label "AIOS">
+<!ENTITY button.toggle.tooltip "Εναλλαγή κατάστασης των στοιχείων που διαμορφώνει το All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Εναλλαγή πλευρικής στήλης και εργαλειοθήκης">
+<!ENTITY button.switch.tooltip2 "Εναλλαγή εργαλειοθήκης">
+<!ENTITY button.switch.tooltip3 "Εναλλαγή πλευρικής στήλης">
+<!ENTITY sidebar.open.label "Άνοιγμα πλευρικής στήλης">
+<!ENTITY sidebar.close.label "Κλείσιμο πλευρικής στήλης">
+<!ENTITY sidebar.width.min "Ελάχιστο πλάτος">
+<!ENTITY sidebar.width.def "Κανονικό πλάτος">
+<!ENTITY sidebar.width.max "Μέγιστο πλάτος">
+<!ENTITY button.menu.label "Πλαίσια πλευρικής στήλης">
+<!ENTITY button.menu.tooltip "Όλα τα διαθέσιμα πλαίσια πλευρικής στήλης">
+<!ENTITY button.toolbar.label "Εργαλειοθήκη - AIOS">
+<!ENTITY button.toolbar.tooltip "Εναλλαγή εργαλειοθήκης - AIOS">
+<!ENTITY button.paneltab.label "Καρτέλες πλαισίων">
+<!ENTITY button.paneltab.tooltip1 "Άνοιγμα καρτέλας σε πλευρική στήλη">
+<!ENTITY button.paneltab.tooltip2 "Άνοιγμα πλευρικής στήλης σε νέα καρτέλα">
+<!ENTITY button.paneltab.tooltip3 "Άνοιγμα περιεχομένου πλευρικής στήλης σε παράθυρο">
+<!ENTITY button.paneltab.menu1.label "Άνοιγμα καρτέλας σε πλευρική στήλη">
+<!ENTITY button.paneltab.menu2.label "Άνοιγμα πλευρικής στήλης σε καρτέλα">
+<!ENTITY button.autohide.label "Αυτόματη εμφάνιση πλευρικής στήλης">
+<!ENTITY button.autohide.tooltip "Αυτόματη εμφάνιση/απόκρυψη πλευρικής στήλης">
+<!ENTITY button.tooltip.sidebar "Άνοιγμα στην πλευρική στήλη">
+<!ENTITY button.tooltip.window "Άνοιγμα σε παράθυρο">
+<!ENTITY button.tooltip.tab "Άνοιγμα σε νέα καρτέλα">
+<!ENTITY button.addons.label "Πρόσθετα">
+<!ENTITY button.addons.tooltip "Εμφάνιση ήδη εγκατεστημένων επεκτάσεων και θεμάτων">
+<!ENTITY button.multipanel.label "Πολύπλευρο πλαίσιο">
+<!ENTITY button.multipanel.tooltip "Εμφάνιση ιστοσελίδων και πληροφοριών περιηγητή">
+<!ENTITY button.pageinfo.tooltip "Εμφάνιση περισσότερων πληροφοριών για ιστοσελίδες">
+<!ENTITY button.console.label "Κονσόλα σφαλμάτων">
+<!ENTITY button.console.tooltip "Άνοιγμα της κονσόλας σφαλμάτων, η οποία παρακολουθεί προβλήματα που υπάρχουν στον πηγαίο κώδικα">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "Π">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Αριστερά από την πλευρική στήλη">
+<!ENTITY toolbar.pos.sidebarright.label "Δεξιά από την πλευρική στήλη">
+<!ENTITY toolbar.pos.sidebartop.label "Πάνω από την πλευρική στήλη">
+<!ENTITY toolbar.pos.headerbottom.label "Κάτω από την κεφαλίδα πλευρικής στήλης">
+<!ENTITY toolbar.pos.sidebarbottom.label "Κάτω από την πλευρική στήλη">
+<!ENTITY toolbar.mode.flexbuttons.label "Ευέλικτα κουμπιά">

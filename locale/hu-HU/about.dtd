@@ -1,0 +1,59 @@
+<!ENTITY title "Az All-in-One Sidebar névjegye">
+<!ENTITY version "verzió">
+<!ENTITY settings "Beállítások…">
+<!ENTITY close "Bezárás">
+<!ENTITY tab.about "Névjegy">
+<!ENTITY tab.help "Súgó">
+<!ENTITY tab.contrib "Hozzájárulók">
+<!ENTITY tab.trans "Fordítók">
+<!ENTITY about.desc "Az All-in-One Sidebar számos ablakot oldalsávként nyit meg és lehetőséget biztosít a gyors váltásra. Ezzel vet véget az ablakok káoszának. A könyvjelzők és az előzmények továbbra is ablakban jelenhet meg, míg a letöltések, a bővítmények és a további ablakok oldalsávként.">
+<!ENTITY create.desc "Készítette: Ingo Wennemaring, Hamburg [Németország]">
+<!ENTITY help.desc "Erről a kiterjesztésről további információkat a következő weboldalon találhat:">
+<!ENTITY about1.name "Honlap - rengeteg információ">
+<!ENTITY about2.name "Szolgáltatások - az All-in-One Sidebar összes szolgáltatása">
+<!ENTITY about3.name "GYIK - Gyakran Ismételt Kérdések és a válaszok">
+<!ENTITY about4.name "Ismert problémák - leírások és hibajavítások">
+<!ENTITY about5.name "Fórum - eszmecserék, hibajelentések valamint beszélgetések egyéb témákról is">
+<!ENTITY about6.name "Változások - verziótörténet és változások">
+<!ENTITY about7.name "Tennivalók - tervezett szolgáltatások és fejlesztések">
+<!ENTITY contrib.desc "Köszönöm a következő fejlesztőknek az ötletekért és a forráskódokért (ábécé sorrendben):">
+<!ENTITY contrib.thanks "Végül, de nem utolsósorban szeretném megköszönni az összes felhasználónak a tesztelési munkát, akik tesztelték a fejlesztői változatokat, hibákat jelentettek be a fórumban, megosztották ötleteiket és javaslataikat és azoknak is akik remek hozzászólásokat írtak. :o) Nagyon szépen köszönöm!">
+<!ENTITY trans.desc "Az All-in-One Sidebar fordítói (nyelvkód szerinti ábécé sorrendben):">
+<!ENTITY trans.ar-SA.lang "Arab">
+<!ENTITY trans.be-BY.lang "Fehérorosz">
+<!ENTITY trans.cs-CZ.lang "Cseh">
+<!ENTITY trans.da-DK.lang "Dán">
+<!ENTITY trans.de-DE.lang "Német">
+<!ENTITY trans.el-GR.lang "Görög">
+<!ENTITY trans.en-GB.lang "Angol (Egyesült Királyság)">
+<!ENTITY trans.en-US.lang "Angol (Egyesült Államok)">
+<!ENTITY trans.es-AR.lang "Spanyol (Argentina)">
+<!ENTITY trans.es-ES.lang "Spanyol (Spanyolország)">
+<!ENTITY trans.et-EE.lang "Észt">
+<!ENTITY trans.fi-FI.lang "Finn">
+<!ENTITY trans.fr-FR.lang "Francia">
+<!ENTITY trans.he-IL.lang "Héber">
+<!ENTITY trans.hr-HR.lang "Horvát">
+<!ENTITY trans.hu-HU.lang "Magyar">
+<!ENTITY trans.hy-AM.lang "Örmény">
+<!ENTITY trans.it-IT.lang "Olasz">
+<!ENTITY trans.ja-JP.lang "Japán">
+<!ENTITY trans.ko-KR.lang "Koreai">
+<!ENTITY trans.lt-LT.lang "Litván">
+<!ENTITY trans.nb-NO.lang "Norvég (Bokmål)">
+<!ENTITY trans.nl-NL.lang "Holland">
+<!ENTITY trans.pl-PL.lang "Lengyel">
+<!ENTITY trans.pt-BR.lang "Portugál (Brazília)">
+<!ENTITY trans.pt-PT.lang "Portugál (Portugália)">
+<!ENTITY trans.ro-RO.lang "Román">
+<!ENTITY trans.ru-RU.lang "Orosz">
+<!ENTITY trans.sk-SK.lang "Szlovák">
+<!ENTITY trans.sq-AL.lang "Albán">
+<!ENTITY trans.sr-RS.lang "Szerb (Ciril)">
+<!ENTITY trans.sv-SE.lang "Svéd">
+<!ENTITY trans.tr-TR.lang "Török">
+<!ENTITY trans.uk-UA.lang "Ukrán">
+<!ENTITY trans.vi-VN.lang "Vietnámi">
+<!ENTITY trans.zh-CN.lang "Kínai (Egyszerűsített)">
+<!ENTITY trans.zh-TW.lang "Kínai (Hagyományos)">
+<!ENTITY trans.thanks "Köszönöm továbbá a BabelZilla.org csapatának remek munkáját.">

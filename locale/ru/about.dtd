@@ -1,0 +1,59 @@
+<!ENTITY title "О All-in-One Sidebar">
+<!ENTITY version "версия">
+<!ENTITY settings "Настройки…">
+<!ENTITY close "Закрыть">
+<!ENTITY tab.about "Информация о расширении">
+<!ENTITY tab.help "Справка">
+<!ENTITY tab.contrib "Участники проекта">
+<!ENTITY tab.trans "Переводчики">
+<!ENTITY about.desc "All-in-One Sidebar позволяет вам открывать различные окна в боковой панели и быстро переключаться между ними. Помимо закладок и истории посещений вы можете просматривать список загрузок, установленных дополнений и многое другое. Положите конец хаосу открытых окон!">
+<!ENTITY create.desc "Автор расширения: Ingo Wennemaring, Гамбург [Германия]">
+<!ENTITY help.desc "Вы можете найти больше информации об этом дополнении на сайте:">
+<!ENTITY about1.name "Домашняя страница, содержащая большое количество информации о расширении">
+<!ENTITY about2.name "Список всех возможностей расширения All-in-One Sidebar">
+<!ENTITY about3.name "Часто задаваемые вопросы (FAQ) и ответы">
+<!ENTITY about4.name "Известные проблемы и их описание; способы устранения проблем">
+<!ENTITY about5.name "Форум — обсуждения, сообщения об ошибках, прочая информация">
+<!ENTITY about6.name "Список изменений и история старых версий расширения">
+<!ENTITY about7.name "Планы на будущее — список планируемых новых возможностей и усовершенствований">
+<!ENTITY contrib.desc "Я благодарю следующих разработчиков за вдохновляющие идеи и фрагменты исходного кода (в алфавитном порядке):">
+<!ENTITY contrib.thanks "Последними, но не в последнюю очередь я благодарю всех пользователей, которые помогали в тестировании разрабатываемых сборок, сообщали об ошибках на форуме, делились своими идеями и предложениями или просто писали хорошие комментарии. :-) Большое спасибо!">
+<!ENTITY trans.desc "Переводчики All-in-One Sidebar:">
+<!ENTITY trans.ar-SA.lang "Арабский">
+<!ENTITY trans.be-BY.lang "Белорусский">
+<!ENTITY trans.cs-CZ.lang "Чешский">
+<!ENTITY trans.da-DK.lang "Датский">
+<!ENTITY trans.de-DE.lang "Немецкий">
+<!ENTITY trans.el-GR.lang "Греческий">
+<!ENTITY trans.en-GB.lang "Английский (Великобритания)">
+<!ENTITY trans.en-US.lang "Английский (США)">
+<!ENTITY trans.es-AR.lang "Испанский (Аргентина)">
+<!ENTITY trans.es-ES.lang "Испанский (Испания)">
+<!ENTITY trans.et-EE.lang "Эстонский">
+<!ENTITY trans.fi-FI.lang "Финский">
+<!ENTITY trans.fr-FR.lang "Французский">
+<!ENTITY trans.he-IL.lang "Иврит">
+<!ENTITY trans.hr-HR.lang "Хорватский">
+<!ENTITY trans.hu-HU.lang "Венгерский">
+<!ENTITY trans.hy-AM.lang "Армянский (Армения)">
+<!ENTITY trans.it-IT.lang "Итальянский">
+<!ENTITY trans.ja-JP.lang "Японский">
+<!ENTITY trans.ko-KR.lang "Корейский">
+<!ENTITY trans.lt-LT.lang "Литовский">
+<!ENTITY trans.nb-NO.lang "Норвежский (Букмол)">
+<!ENTITY trans.nl-NL.lang "Голландский">
+<!ENTITY trans.pl-PL.lang "Польский">
+<!ENTITY trans.pt-BR.lang "Португальский (Бразилия)">
+<!ENTITY trans.pt-PT.lang "Португальский (Португалия)">
+<!ENTITY trans.ro-RO.lang "Румынский">
+<!ENTITY trans.ru-RU.lang "Русский">
+<!ENTITY trans.sk-SK.lang "Словацкий">
+<!ENTITY trans.sq-AL.lang "Албанский">
+<!ENTITY trans.sr-RS.lang "Сербский (кириллица)">
+<!ENTITY trans.sv-SE.lang "Шведский">
+<!ENTITY trans.tr-TR.lang "Турецкий">
+<!ENTITY trans.uk-UA.lang "Украинский">
+<!ENTITY trans.vi-VN.lang "Вьетнамский (Вьетнам)">
+<!ENTITY trans.zh-CN.lang "Китайский (упрощённый)">
+<!ENTITY trans.zh-TW.lang "Китайский (традиционный)">
+<!ENTITY trans.thanks "Я благодарю команду BabelZilla.org за их прекрасную работу!">

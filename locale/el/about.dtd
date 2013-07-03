@@ -1,0 +1,59 @@
+<!ENTITY title "Περί All-in-One Sidebar">
+<!ENTITY version "έκδοση">
+<!ENTITY settings "Ρυθμίσεις…">
+<!ENTITY close "Κλείσιμο">
+<!ENTITY tab.about "Περί">
+<!ENTITY tab.help "Βοήθεια">
+<!ENTITY tab.contrib "Συντελεστές">
+<!ENTITY tab.trans "Μεταφραστές">
+<!ENTITY about.desc "Το All-in-One Sidebar σας επιτρέπει να ανοίξετε διαλόγους σε πλευρικές στήλες και να τις εναλλάσσετε γρήγορα. Βάζει έτσι τέλος στο χάος διαφόρων διαλόγων αφού ανοίγει σε πλευρική στήλη εκτός από σελιδοδείκτες και ιστορικό και διαλόγους όπως των λήψεων, των πρόσθετων και πολλών άλλων.">
+<!ENTITY create.desc "δημιουργήθηκε από τον Ingo Wennemaring, Αμβούργο (Γερμανία)">
+<!ENTITY help.desc "Θα βρείτε πολλές πληροφορίες για αυτό το πρόσθετο στη σελίδα:">
+<!ENTITY about1.name "Αρχική σελίδα - όλες οι πληροφορίες με μια ματιά">
+<!ENTITY about2.name "Χαρακτηριστικά - όλα τα χαρακτηριστικά του All-in-One Sidebar">
+<!ENTITY about3.name "Συχνές ερωτήσεις - συχνές ερωτήσεις και οι απαντήσεις τους">
+<!ENTITY about4.name "Γνωστά προβλήματα - περιγραφή και αντιμετώπιση">
+<!ENTITY about5.name "Φόρουμ -συζητήσεις, αναφορές προβλημάτων, διορθώσεις θεμάτων κ.α.">
+<!ENTITY about6.name "Ιστορικό αλλαγών - καταγραφή ιστορικού και αλλαγών">
+<!ENTITY about7.name "Υπόψη - βελτιώσεις και χαρακτηριστικά μελλοντικών εκδόσεων">
+<!ENTITY contrib.desc "Ευχαριστώ τους ακόλουθους δημιουργούς για την έμπνευση και τμήματα κώδικα (αλφαβητική σειρά)">
+<!ENTITY contrib.thanks "Τέλος, ευχαριστώ όλους τους χρήστες που βοήθησαν στον έλεγχο των υπό ανάπτυξη εκδόσεων, ανέφεραν προβλήματα στο φόρουμ, κατέθεσαν τις ιδέες και τις προτάσεις τους, ή απλά έγραψαν ένα καλό σχόλιο.:-) Σας ευχαριστώ πολύ!">
+<!ENTITY trans.desc "Οι μεταφραστές του All-in-One Sidebar (σε αλφαβητική σειρά γλώσσας):">
+<!ENTITY trans.ar-SA.lang "Αραβικά">
+<!ENTITY trans.be-BY.lang "Λευκορώσικα">
+<!ENTITY trans.cs-CZ.lang "Τσέχικα">
+<!ENTITY trans.da-DK.lang "Δανέζικα">
+<!ENTITY trans.de-DE.lang "Γερμανικά">
+<!ENTITY trans.el-GR.lang "Ελληνικά">
+<!ENTITY trans.en-GB.lang "Αγγλικά (Ην. Βασιλείου)">
+<!ENTITY trans.en-US.lang "Αγγλικά (ΗΠΑ)">
+<!ENTITY trans.es-AR.lang "Ισπανικά (Αργεντινής)">
+<!ENTITY trans.es-ES.lang "Ισπανικά (Ισπανίας)">
+<!ENTITY trans.et-EE.lang "Εσθονικά">
+<!ENTITY trans.fi-FI.lang "Φιλανδικά">
+<!ENTITY trans.fr-FR.lang "Γαλλικά">
+<!ENTITY trans.he-IL.lang "Εβραϊκά">
+<!ENTITY trans.hr-HR.lang "Κροατικά">
+<!ENTITY trans.hu-HU.lang "Ουγγρικά">
+<!ENTITY trans.hy-AM.lang "Αρμένικα (Αρμενίας)">
+<!ENTITY trans.it-IT.lang "Ιταλικά">
+<!ENTITY trans.ja-JP.lang "Γιαπωνέζικα">
+<!ENTITY trans.ko-KR.lang "Κορεάτικα">
+<!ENTITY trans.lt-LT.lang "Λιθουανικά">
+<!ENTITY trans.nb-NO.lang "Νορβηγικά (BokmÃ¥l)">
+<!ENTITY trans.nl-NL.lang "Ολλανδικά">
+<!ENTITY trans.pl-PL.lang "Πολωνικά">
+<!ENTITY trans.pt-BR.lang "Πορτογαλικά (Βραζιλίας)">
+<!ENTITY trans.pt-PT.lang "Πορτογαλικά (Πορτογαλίας)">
+<!ENTITY trans.ro-RO.lang "Ρουμανικά">
+<!ENTITY trans.ru-RU.lang "Ρώσικα">
+<!ENTITY trans.sk-SK.lang "Σλοβακικά">
+<!ENTITY trans.sq-AL.lang "Αλβανικά">
+<!ENTITY trans.sr-RS.lang "Σέρβικα (Κυριλικά)">
+<!ENTITY trans.sv-SE.lang "Σουηδικά">
+<!ENTITY trans.tr-TR.lang "Τούρκικα">
+<!ENTITY trans.uk-UA.lang "Ουκρανικά">
+<!ENTITY trans.vi-VN.lang "Βιετναμικά (Βιετνάμ)">
+<!ENTITY trans.zh-CN.lang "Κινέζικα(απλοποιημένα)">
+<!ENTITY trans.zh-TW.lang "Κινέζικα (παραδοσιακά)">
+<!ENTITY trans.thanks "Ευχαριστώ προφανώς και την ομάδα του BabelZilla.org για τη σπουδαία δουλειά που έκαναν!">

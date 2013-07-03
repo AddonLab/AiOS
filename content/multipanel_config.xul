@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<overlay id="aios_configOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+    <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
+	
+    <script><![CDATA[
+	
+		// fuer CSS-Zwecke speichern
+		aios_appInfo( document.getElementById("config") );
+		
+	]]>
+    </script>
+
+</overlay>

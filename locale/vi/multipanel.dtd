@@ -1,0 +1,20 @@
+<!ENTITY page.label "Trang">
+<!ENTITY page.tooltip "Mở trang web trong bảng này">
+<!ENTITY page.ssr.label "Render Màn hình Nhỏ">
+<!ENTITY page.ssr100.label "Căn chỉnh theo Độ rộng Thanh lề">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Hiện thông tin khác về trình duyệt">
+<!ENTITY about.config.tooltip "Hiện giao diện cho việc xem và thiết lập các biến cấu hình khác nhau">
+<!ENTITY about.plugins.tooltip "Hiện thông tin về tất cả các phần bổ trợ đã cài đặt">
+<!ENTITY about.cache.tooltip "Hiện thông tin về Dịch vụ Bộ đệm của cả bộ nhớ và ổ đĩa">
+<!ENTITY about.cache.disk.tooltip "Liệt kê các mục bộ đệm trên đĩa">
+<!ENTITY about.cache.memory.tooltip "Liệt kê các mục bộ đệm trong bộ nhớ">
+<!ENTITY about.cache.offline.tooltip "Liệt kê các mục bộ đệm ngoại tuyến">
+<!ENTITY about.crashes.tooltip "Hiện các báo cáo đổ vỡ được gửi">
+<!ENTITY about.buildconfig.tooltip "Hiện tham số và tùy chọn đã dùng để biên dịch phiên bản đang sử dụng">
+<!ENTITY about.about.tooltip "Hiện thông tin phiên bản và thông tin bản quyền">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Hiện danh sách tất cả những người đã đóng góp cho Mozilla">
+<!ENTITY about.license.tooltip "Hiện Giấy phép Công cộng Mozilla">
+<!ENTITY about.mozilla.tooltip "Hiện một trang từ Quyển sách của Mozilla">
+<!ENTITY tools.remlast.label "Ghi nhớ Nội dung Được hiển thị Cuối cùng">

@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Vänsterklick">
+<!ENTITY rightclick "Högerklick">
+<!ENTITY doubleclick "Dubbelklick">
+<!ENTITY middleclick "Mellanklick">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Skift">
+<!ENTITY menu.tools.label "Verktyg">
+<!ENTITY closeFolder.label "Stäng alla mappar">
+<!ENTITY show.closeFolder.label "&apos;Stäng alla mappar&apos; knapp">
+<!ENTITY enable.autoClose.label "Stäng övriga mappar automatiskt">
+<!ENTITY enable.scrollToFolder.label "Rulla automatiskt till vald mapp">
+<!ENTITY enable.rememberFolder.label "Kom ihåg samt fokusera på senast vald mapp">

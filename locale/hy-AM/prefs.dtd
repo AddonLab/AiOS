@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar Նախընտրանքներ">
+<!ENTITY restart "Փոփոխությունը պահանջում է ծրագրի վերբեռնում">
+<!ENTITY settings "Նախընտրանքներ">
+<!ENTITY settings.default "Նախընտրանքներ լռելիությամբ…">
+<!ENTITY settings.advanced "Ընդլայնված ռեժիմ">
+<!ENTITY settings.import "Ներմուծել Նախընտրանքներ…">
+<!ENTITY settings.export "Արտածել Նախընտրանքները…">
+<!ENTITY settings.copy "Ընտրանքները կրկնօրինակված են">
+<!ENTITY apply "Ընդունել">
+<!ENTITY gen.column1 "160">
+<!ENTITY tab.gen "Ընդհանուր">
+<!ENTITY tab.gen.appearance "Տեսք">
+<!ENTITY tab.gen.behavior "Վարք">
+<!ENTITY tab.gen.fullscreen "Ողջ էկրանով">
+<!ENTITY tab.gen.special "Հատուկ">
+<!ENTITY tab.panels "Վահանակներ">
+<!ENTITY tab.panels.places "Էջադիրներ/Պատմություն">
+<!ENTITY tab.panels.other1 "Այլ Ա">
+<!ENTITY tab.panels.other2 "Այլ Բ">
+<!ENTITY tab.panels.paneltab "Վահանակից Tab">
+<!ENTITY tab.menus "Մենյուներ">
+<!ENTITY tab.menus.sidebar "Կողավահանակ">
+<!ENTITY tab.keys "Կոճակներ">
+<!ENTITY gen.orient.caption "Դիրքը">
+<!ENTITY gen.orient.label "Կողավահանակը">
+<!ENTITY gen.orient.left "ձախից">
+<!ENTITY gen.orient.right "աջից">
+<!ENTITY gen.width.caption "Չափը">
+<!ENTITY gen.width.px "պիքսել (px)">
+<!ENTITY gen.width.perc "տոկոս  (&amp;#37;)">
+<!ENTITY gen.width.current "ընդունել ներկա չափը">
+<!ENTITY gen.width.current.tip "Վերցնում է վահանակի ներկա չափը">
+<!ENTITY gen.width.min.hint "[Shift+կրկնակի կլիկ] վահանակի անվան վրա">
+<!ENTITY gen.width.def.hint "[Կրկնակի կլիկ] վահանակի անվան վրա">
+<!ENTITY gen.width.max.hint "[Ctrl+կրկնակի կլիկ] կամ [Alt+կրկնակի կլիկ] վահանակի անվան վրա">
+<!ENTITY gen.init.caption "Միացման ժամանակ">
+<!ENTITY gen.init.label "Կողավահանակ">
+<!ENTITY gen.init.toolbar.label "Գործիքաշար">
+<!ENTITY gen.init.toolbar.show.label "Ցույց տալ գործիքաշարը">
+<!ENTITY gen.init.toolbar.hide.label "Թաքցնել գործիքաշարը">
+<!ENTITY gen.init.switch.show.label "Ցույց տալ Կողավահանակի Փոխանջատիչը">
+<!ENTITY gen.init.switch.hide.label "Թաքցնել Կողավահանակի Փոխանջատիչը">
+<!ENTITY gen.init.mode1 "Վերականգնել հիշած վիճակում">
+<!ENTITY gen.init.sidebar "Կողավահանակի բացման ժամանակ">
+<!ENTITY gen.init.sidebar.restore "Վերականգնել հիշած վահանակը">
+<!ENTITY gen.switch.autoshow "Ավտոմատ Ցույց տալ/Թաքցնել Կողավահանակը (կուրսորի հպումից)">
+<!ENTITY gen.switch.onlymax "Միայն եթե պատուհանը լրիվ բաց է, կամ ողջ էկրանով է">
+<!ENTITY gen.switch.delay "Հապաղում">
+<!ENTITY gen.switch.delayUnit "միլիվայրկյան">
+<!ENTITY gen.switch.hide "Թաքցնել Կողավահանակը, եթե կուրսորը…">
+<!ENTITY gen.switch.hideBar "վերադառնում է էջ">
+<!ENTITY gen.switch.hidePage "պահվում է փոխանջատիչ կոճակի վրա">
+<!ENTITY gen.switch.thin "Միացնել նեղ փոխանջատիչը">
+<!ENTITY gen.switch.width "Նորմալ փոխանջատիչի լայնությունը">
+<!ENTITY gen.switch.twidth "Նեղ փոխանջատիչի լայնությունը">
+<!ENTITY cmode.caption "Փակում/Բացում">
+<!ENTITY cmode.desc "Սահմանել ինչի վրա պիտի ազդի տարբեր մեթոդներով բացում/փակումը">
+<!ENTITY cmode.key.label "Ստեղնաշարից (F4)">
+<!ENTITY cmode.tbb.label "AiOS Կոճակով">
+<!ENTITY cmode.close.label "«Փակել» կոճակով">
+<!ENTITY cmode.mode1.label "Միայն կողավահանակի">
+<!ENTITY cmode.mode2.label "Կողավահանակի և Գործիքաշարի">
+<!ENTITY cmode.mode3.label "Կողավահանակի, Գործիքաշարի և Փոխանջատիչը">
+<!ENTITY cmode.mode4.label "Opera-ի նման">
+<!ENTITY gen.fs.off "Վերականգնել վիճակը Ողջ Էկրանային ռեժիմից դուրս գալիս">
+<!ENTITY keyconfig.keyid "Անուն">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Ընդունել">
+<!ENTITY keyconfig.disable "Անջատել">
+<!ENTITY keyconfig.reset "Զրոյացնել">
+<!ENTITY keyconfig.warn "Փոփոխությունները ազդում են միայն նոր պատուհանների վրա">
+<!ENTITY keyconfig.onreset "Պետք է վերբեռնել ծրագիրը">
+<!ENTITY keyconfig.unrecognized "Չհայտնաբերված ($1)">
+<!ENTITY keyconfig.used "Այդ կոճակը օգտագործված է` \\n\\n\\t$1\\n\\nՉնայած դա կաշխատի:">
+<!ENTITY menus.sidebar.desc "Փոփոխել «Տեսք &gt; Կողավահանակ» և կողավահանակի կոճակների մենյուների պարունակությունը:">
+<!ENTITY menus.icons.label "Ցույց տալ նկարները">
+<!ENTITY menus.entries.label "Մենյուում ավելացնել կոճակներ">
+<!ENTITY menus.sidebar.entrydeac "Ընթացիկ վահանակի կոճակը փակել">
+<!ENTITY misc.enablesidebar.label "Բացել կողավահանակում">
+<!ENTITY misc.layout.label "Հարմարեցնել տեսքը կողավահանակին">
+<!ENTITY misc.dm.overlay "Փոխել կողավահանակի վարքի ընտրանքները">
+<!ENTITY misc.dm.autoopen.label "Ցույց տալ պատուհանը քաշելու ժամանակ">
+<!ENTITY misc.dm.autoclose.label "Փակել ավարտից հետո">
+<!ENTITY misc.colors.label "Թույլտարել ֆոնի գունավորումը">
+<!ENTITY misc.count.label "Ցույց տալ հերթական համարները">
+<!ENTITY misc.enablelink.tooltip "Սեղմել ավելի շատ իմանալու համար (հղում դեպի անգլերեն ՀՏՀ)">
+<!ENTITY misc.paneltab.reverse "Մկնիկի ձախ և միջին կոճակների գործողությունները տեղերով փոխել">
+<!ENTITY misc.bm.paneltab.desc "«Վահանակից Tab» կոճակը կարող է նոր Tabում բացել Էջադիրների Խմբագիրը ոչ թե ցուցակը">
+<!ENTITY misc.bm.paneltab "Թույլատրել Էջադիրների Խմբագիրը նոր Tabում">
+<!ENTITY special.collapsing.caption "Կողավահանակի Սառեցում">
+<!ENTITY special.collapsing.label "Թույլատրել Կողավահանակի Սառեցումը">
+<!ENTITY special.collapsing.desc "Փակվելու ժամանակ կարելի է սառեցնել կողավահանակը: Մյուս անգամ նույն պարունակությունը բացելիս այն չի վերբեռնվելու, ինչը կարագացնի աշխատանքը:">

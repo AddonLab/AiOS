@@ -1,0 +1,19 @@
+<!ENTITY title "حول All-in-One Sidebar">
+<!ENTITY version "إصدار">
+<!ENTITY settings "إعدادات…">
+<!ENTITY close "إغلاق">
+<!ENTITY tab.about "حول">
+<!ENTITY tab.contrib "المساهمين">
+<!ENTITY tab.trans "المترجمين">
+<!ENTITY about.desc "The All-in-One Sidebar يمكنك من فتح نوافذ عدة كلوحة شريط جانبي, والتبديل بينهم بسرعة. بالإضافة إلى العلامات والتاريخ يمكنك من فتح نوافذ مثل التنزيلات الإضافات وأكثر في شريط جانبي.">
+<!ENTITY about1.name "الصفحة الرئيسية - كثير من المعلومات في مكان واحد">
+<!ENTITY about2.name "المميزات - جميع مميزات All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - الأسئلة والأجوبة الشائعة">
+<!ENTITY about4.name "أخطاء معروفة - وصف واستكشاف الأخطاء وإصلاحها">
+<!ENTITY about5.name "المنتدى - مناقشة, إبلاغ عن أخطاء, وتعديل السمات للتطبيق">
+<!ENTITY about6.name "Changelog - التعديلات على التطبيق">
+<!ENTITY about7.name "To-do - تطويرات للبرنامج">
+<!ENTITY contrib.desc "أشكر المطورين التالين على مساعدتهم وإلهامهم [بالترتيب الأبجدي]:">
+<!ENTITY trans.desc "المترجمين لـ All-in-One Sidebar [ترتيب أبجدي]:">
+<!ENTITY trans.ar-SA.lang "العربية">
+<!ENTITY trans.thanks "أشكر أيضا فريق BabelZilla.org لعملهم العظيم!">

@@ -1,0 +1,51 @@
+<!ENTITY loading.label "面板讀取中…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar 選項…">
+<!ENTITY menu.togglebar.label "側邊欄彈出鈕">
+<!ENTITY menu.grippy.label "側邊欄伸縮鈕">
+<!ENTITY toolbar.name "All-in-One Sidebar 工具列">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "由 All-in-One Sidebar 來控制開關">
+<!ENTITY button.switch.tooltip1 "開關側邊欄與工具列">
+<!ENTITY button.switch.tooltip2 "開關工具列">
+<!ENTITY button.switch.tooltip3 "開關側邊欄">
+<!ENTITY sidebar.open.label "開啟側邊欄">
+<!ENTITY sidebar.close.label "關閉側邊欄">
+<!ENTITY sidebar.width.min "最小寬度">
+<!ENTITY sidebar.width.def "標準寬度">
+<!ENTITY sidebar.width.max "最小寬度">
+<!ENTITY button.menu.label "側邊欄面板">
+<!ENTITY button.menu.tooltip "所有可用的側邊欄面板">
+<!ENTITY button.toolbar.label "AiOS 工具列">
+<!ENTITY button.toolbar.tooltip "開關 AiOS 工具列">
+<!ENTITY button.paneltab.label "側邊欄分頁">
+<!ENTITY button.paneltab.tooltip1 "將「分頁中的內容」開啟於側邊欄中">
+<!ENTITY button.paneltab.tooltip2 "將「側邊欄的內容」開啟於新分頁中">
+<!ENTITY button.paneltab.tooltip3 "將側邊欄內容開啟於新視窗">
+<!ENTITY button.paneltab.menu1.label "於側邊欄開啟目前分頁內容">
+<!ENTITY button.paneltab.menu2.label "於分頁開啟側邊欄">
+<!ENTITY button.autohide.label "側邊欄自動控制">
+<!ENTITY button.autohide.tooltip "自動 顯示／隱藏 側邊欄">
+<!ENTITY button.tooltip.sidebar "在側邊欄開啟">
+<!ENTITY button.tooltip.window "在新視窗開啟">
+<!ENTITY button.tooltip.tab "在新分頁開啟">
+<!ENTITY button.addons.label "Add-ons">
+<!ENTITY button.addons.tooltip "顯示已安裝的擴充套件和佈景主題">
+<!ENTITY button.multipanel.label "多功能面板">
+<!ENTITY button.multipanel.tooltip "顯示「網頁內容、原始碼及瀏覽器資訊」">
+<!ENTITY button.pageinfo.tooltip "檢視網頁的表單、鏈結、多媒體或是安全相關資訊">
+<!ENTITY button.console.label "Error 主控台">
+<!ENTITY button.console.tooltip "開啟 Error 主控台，追蹤原始碼的問題">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "側邊欄左側">
+<!ENTITY toolbar.pos.sidebarright.label "側邊欄右側">
+<!ENTITY toolbar.pos.sidebartop.label "側邊欄標題上方">
+<!ENTITY toolbar.pos.headerbottom.label "側邊欄標題下方">
+<!ENTITY toolbar.pos.sidebarbottom.label "側邊欄下方">
+<!ENTITY toolbar.mode.flexbuttons.label "彈性配置按鈕">

@@ -1,0 +1,93 @@
+<!ENTITY title "All-in-One Sidebar - Beállítások">
+<!ENTITY restart "A változtatások a böngésző újraindítását igénylik">
+<!ENTITY settings "Beállítások">
+<!ENTITY settings.default "Alaphelyzetbe állítás…">
+<!ENTITY settings.advanced "Haladó mód">
+<!ENTITY settings.import "Beállítások importálása…">
+<!ENTITY settings.export "Beállítások exportálása…">
+<!ENTITY settings.copy "Beállítások másolása a vágólapra">
+<!ENTITY apply "Alkalmaz">
+<!ENTITY gen.column1 "145">
+<!ENTITY tab.gen "Általános">
+<!ENTITY tab.gen.appearance "Megjelenés">
+<!ENTITY tab.gen.behavior "Viselkedés">
+<!ENTITY tab.gen.fullscreen "Teljesképernyős mód">
+<!ENTITY tab.gen.special "Speciális">
+<!ENTITY tab.panels "Panelek">
+<!ENTITY tab.panels.places "Könyvjelzők/Előzmények">
+<!ENTITY tab.panels.other1 "Egyéb I">
+<!ENTITY tab.panels.other2 "Egyéb II">
+<!ENTITY tab.panels.paneltab "Panellap">
+<!ENTITY tab.menus "Menük">
+<!ENTITY tab.menus.sidebar "Oldalsáv">
+<!ENTITY tab.keys "Gyorsbillentyűk">
+<!ENTITY tab.about "Névjegy/Súgó">
+<!ENTITY gen.orient.caption "Elhelyezkedés">
+<!ENTITY gen.orient.label "Az oldalsáv megjelenítése a">
+<!ENTITY gen.orient.left "bal oldalon">
+<!ENTITY gen.orient.right "jobb oldalon">
+<!ENTITY gen.width.caption "Méret">
+<!ENTITY gen.width.px "pixel">
+<!ENTITY gen.width.perc "százalék">
+<!ENTITY gen.width.current "Aktuális szélesség">
+<!ENTITY gen.width.current.tip "Az oldalsáv jelenlegi méretét alkalmazza">
+<!ENTITY gen.width.min.hint "[Shift+Dupla kattintás] az oldalsáv címsorán">
+<!ENTITY gen.width.def.hint "[Dupla kattintás] az oldalsáv címsorán">
+<!ENTITY gen.width.max.hint "[Ctrl+Dupla kattintás] vagy [Alt+Dupla kattintás] az oldalsáv címsorán">
+<!ENTITY gen.init.caption "Böngésző indulása">
+<!ENTITY gen.init.label "Oldalsáv">
+<!ENTITY gen.init.toolbar.label "Eszköztár">
+<!ENTITY gen.init.toolbar.show.label "Eszköztár megjelenítése">
+<!ENTITY gen.init.toolbar.hide.label "Eszköztár elrejtése">
+<!ENTITY gen.init.switch.show.label "Oldalsáv kapcsoló megjelenítése">
+<!ENTITY gen.init.switch.hide.label "Oldalsáv kapcsoló elrejtése">
+<!ENTITY gen.init.mode1 "Elmentett állapot visszaállítása">
+<!ENTITY gen.init.sidebar "Oldalsáv megnyitása (Oldalsáv kapcsoló, Váltógomb, Parancsikon)">
+<!ENTITY gen.init.sidebar.restore "Elmentett Panel visszaállítása">
+<!ENTITY gen.switch.autoshow "Automatikusan megjeleníti/elrejti az Oldalsávot (egér kattintás helyett egér érintéssel)">
+<!ENTITY gen.switch.onlymax "Csak ha a böngésző teljes méretben fut vagy teljes képernyős üzemmódban van">
+<!ENTITY gen.switch.delay "Késleltetés">
+<!ENTITY gen.switch.delayUnit "ezredmásodperc">
+<!ENTITY gen.switch.hide "Oldalsáv elrejtése ha az egérkurzor…">
+<!ENTITY gen.switch.hideBar "ismét a weboldal-terület felett van">
+<!ENTITY gen.switch.hidePage "az Oldalsáv Eszköztár felett áll">
+<!ENTITY gen.switch.thin "Vékony Oldalsáv kapcsoló">
+<!ENTITY gen.switch.width "Oldalsáv Eszköztár szélessége">
+<!ENTITY gen.switch.twidth "Vékony Oldalsáv Eszköztár szélessége">
+<!ENTITY cmode.caption "Oldalsáv váltás">
+<!ENTITY cmode.desc "Testreszabható, hogy melyik elem legyen érintett a különféle módú Oldalsáv megnyitáskor és bezáráskor.">
+<!ENTITY cmode.key.label "Gyorsbillentyű (F4)">
+<!ENTITY cmode.tbb.label "AiOS gomb">
+<!ENTITY cmode.close.label "Bezárás gomb">
+<!ENTITY cmode.mode1.label "Csak az Oldalsáv">
+<!ENTITY cmode.mode2.label "Oldalsáv és az Eszköztár">
+<!ENTITY cmode.mode3.label "Oldalsáv, Eszköztár és az Oldalsáv váltó">
+<!ENTITY cmode.mode4.label "Opera-szerű viselkedés">
+<!ENTITY gen.fs.off "Kilépve a teljesképernyős módból állítsa vissza az előző állapotot">
+<!ENTITY keyconfig.keyid "Név">
+<!ENTITY keyconfig.id "Azonosító">
+<!ENTITY keyconfig.apply "Alkalmazás">
+<!ENTITY keyconfig.disable "Letiltás">
+<!ENTITY keyconfig.reset "Visszaállítás">
+<!ENTITY keyconfig.warn "A változtatások csak az új ablakokat érintik">
+<!ENTITY keyconfig.onreset "A böngésző újraindítását igényli">
+<!ENTITY keyconfig.unrecognized "Ismeretlen ($1)">
+<!ENTITY keyconfig.used "Ezt a billentyűkombinációt már használja a következő: \\n\\n\\t$1\\n\\nBár ettől még működhet.">
+<!ENTITY menus.sidebar.desc "Testreszabhatja az elemeket a böngésző “Nézet &gt; Oldalsáv” menüjében és az Oldalsáv gombok legördülő menüiben is.">
+<!ENTITY menus.icons.label "Ikonok megjelenítése">
+<!ENTITY menus.entries.label "Menüelemek megjelenítése">
+<!ENTITY menus.sidebar.entrydeac "A nyitott oldalsáv menüelemének kikapcsolása">
+<!ENTITY misc.enablesidebar.label "Megnyitás Oldalsávon">
+<!ENTITY misc.layout.label "Oldalsáv optimalizálása">
+<!ENTITY misc.dm.overlay "Oldalsáv viselkedésének megváltoztatása">
+<!ENTITY misc.dm.autoopen.label "Fájl letöltésekor a Letöltések oldalsáv megjelenítése">
+<!ENTITY misc.dm.autoclose.label "Letöltések befejezése után zárja be az ablakot">
+<!ENTITY misc.colors.label "Színezett hátterek engedélyezése a jelenlegi állapot alapján">
+<!ENTITY misc.count.label "Elemek számának megjelenítése">
+<!ENTITY misc.enablelink.tooltip "További információkért kattintson ide (Gyakran Ismételt Kérdések)">
+<!ENTITY misc.paneltab.reverse "Bal- és jobbkattintás műveleteinek felcserélése">
+<!ENTITY misc.bm.paneltab.desc "A Panellap gombbal meg lehet nyitni a Könyvjelzőkezelőt új böngészőlapon a Könyvjelző oldalsáv helyett.">
+<!ENTITY misc.bm.paneltab "Könyvjelzőkezelő megnyitása új böngészőlapon">
+<!ENTITY special.collapsing.caption "Oldalsáv összezárás">
+<!ENTITY special.collapsing.label "Oldalsáv összezárás engedélyezése">
+<!ENTITY special.collapsing.desc "Az Oldalsáv összezárható a bezárás helyett. Ennek előnye, hogy az oldalsáv tartalmát nem kell újra betölteni az újbóli megnyitáskor.">

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+
+<!-- locale -->
+<!DOCTYPE overlay [ 
+        <!ENTITY % aiosDTD SYSTEM "chrome://aios/locale/aios.dtd"> %aiosDTD;
+	<!ENTITY % multipanelDTD SYSTEM "chrome://aios/locale/multipanel.dtd"> %multipanelDTD;
+	<!ENTITY % libDTD SYSTEM "chrome://aios/locale/lib.dtd"> %libDTD;
+]>
+
+<overlay id="aios_MultiPanelOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
+    <script type="application/x-javascript" src="chrome://aios/content/multipanel.js" />
+
+    <script><![CDATA[
+		// Listener fuer automatische Aktualisierung hinzufuegen u. entfernen
+		window.addEventListener("load", aios_init, false);
+
+		window.addEventListener("unload",function(e) {
+			if(top.gBrowser && top.gBrowser.removeProgressListener) top.gBrowser.removeProgressListener(aiosProgListener);
+			aios_unloadMultiPanel();
+		}, false);
+	]]>
+    </script>
+
+    <page id="webpanels-window" persist="width height screenX screenY" title="&button.multipanel.label;" windowtype="aiosGlobal:MultiPanel">
+
+        <hbox id="commandBar" position="1">
+
+            <toolbarbutton id="page-button" class="toolbarbutton-1 aios-tbutton" type="menu-button" checked="false"
+				label="&page.label;" tooltiptext="&page.tooltip;" oncommand="aios_setMultiPanel('page');">
+
+                <menupopup onpopupshowing="aios_getPageOptions();">
+
+                    <menuitem id="ssr-mitem" type="checkbox" checked="false" autocheck="false" persist="checked"
+	    			label="&page.ssr.label;" tooltiptext="&page.ssr.label;"
+    				oncommand="aios_toggleElement(this); aios_setSSR(); event.stopPropagation();" />
+
+                    <menuitem id="ssrSidebar-mitem" type="checkbox" checked="false" autocheck="false" persist="checked"
+	    			label="&page.ssr100.label;" tooltiptext="&page.ssr100.label;"
+    				oncommand="aios_toggleElement(this); aios_setSSR(); event.stopPropagation();" />
+
+                </menupopup>
+            </toolbarbutton>
+
+            <toolbarbutton id="about-button" class="toolbarbutton-1 aios-tbutton" type="menu-button" checked="false"
+				label="&about.label;" tooltiptext="&about.tooltip;" oncommand="aios_setMultiPanel('about:config');">
+
+                <menupopup id="aboutGroup">
+                    <menuitem type="radio" label="about:config" tooltiptext="&about.config.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:config'); event.stopPropagation();" />
+
+                    <menuseparator />
+
+                    <menuitem type="radio" label="about:plugins" tooltiptext="&about.plugins.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:plugins'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:support" tooltiptext="&about.support.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:support'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:cache" tooltiptext="&about.cache.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:cache'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:cache?device=disk" tooltiptext="&about.cache.disk.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:cache?device=disk'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:cache?device=memory" tooltiptext="&about.cache.memory.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:cache?device=memory'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:cache?device=offline" tooltiptext="&about.cache.offline.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:cache?device=offline'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:crashes" tooltiptext="&about.crashes.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:crashes'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:buildconfig" tooltiptext="&about.buildconfig.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:buildconfig'); event.stopPropagation();" />
+
+                    <menuseparator />
+
+                    <menuitem type="radio" label="about:" tooltiptext="&about.about.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:robots" tooltiptext="&about.robots.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:robots'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:credits" tooltiptext="&about.credits.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:credits'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:license" tooltiptext="&about.license.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:license'); event.stopPropagation();" />
+
+                    <menuitem type="radio" label="about:mozilla" tooltiptext="&about.mozilla.tooltip;" checked="false"
+						oncommand="aios_setMultiPanel('about:mozilla'); event.stopPropagation();" />
+                </menupopup>
+
+            </toolbarbutton>
+
+            <spacer flex="1" />
+
+            <toolbarbutton id="toolsButton" type="menu" label="&menu.tools.label;" tooltiptext="&menu.tools.label;">
+                <menupopup id="toolsPopUp">
+
+                    <menuitem id="aios-remMultiPanel" type="checkbox" checked="true" persist="checked" autocheck="false"
+						label="&tools.remlast.label;" tooltiptext="&tools.remlast.label;"
+						oncommand="aios_toggleElement(this); event.stopPropagation();" />
+
+                </menupopup>
+            </toolbarbutton>
+
+        </hbox>
+
+    </page>
+
+    <browser id="web-panels-browser" type="content" />
+
+</overlay>

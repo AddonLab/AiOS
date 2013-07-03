@@ -1,0 +1,52 @@
+<!ENTITY loading.label "wczytuję panel…">
+<!ENTITY menu.prefs.label "Opcje All-in-One Sidebar">
+<!ENTITY menu.togglebar.label "Przełącznik panelu bocznego">
+<!ENTITY menu.grippy.label "Panel boczny Grippy">
+<!ENTITY toolbar.name "Pasek narzędzi All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "Pasek narzędzi nagłówka panelu bocznego">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Wyświetla/ukrywa elementy kontrolowane przez All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Wyświetla/ukrywa panel boczny i pasek narzędzi">
+<!ENTITY button.switch.tooltip2 "Wyświetla/ukrywa pasek narzędzi">
+<!ENTITY button.switch.tooltip3 "Wyświetla/ukrywa panel boczny">
+<!ENTITY sidebar.open.label "Otwórz panel boczny">
+<!ENTITY sidebar.close.label "Zamknij panel boczny">
+<!ENTITY sidebar.width.min "Minimalna szerokość">
+<!ENTITY sidebar.width.def "Standardowa szerokość">
+<!ENTITY sidebar.width.max "Maksymalna szerokość">
+<!ENTITY button.menu.label "Panele boczne">
+<!ENTITY button.menu.tooltip "Wyświetla listę wszystkich dostępnych paneli bocznych">
+<!ENTITY button.toolbar.label "Pasek AIOS">
+<!ENTITY button.toolbar.tooltip "Wyświetla/ukrywa pasek narzędzi AIOS">
+<!ENTITY button.paneltab.label "Panel kart">
+<!ENTITY button.paneltab.tooltip1 "Otwórz zawartość karty w panelu bocznym">
+<!ENTITY button.paneltab.tooltip2 "Otwórz zawartość panelu bocznego w nowej karcie">
+<!ENTITY button.paneltab.tooltip3 "Otwórz zawartość panelu bocznego w oknie">
+<!ENTITY button.paneltab.menu1.label "Otwórz kartę w panelu bocznym">
+<!ENTITY button.paneltab.menu2.label "Otwórz panel boczny w karcie">
+<!ENTITY button.autohide.label "Kontrola panelu">
+<!ENTITY button.autohide.tooltip "Włącza/wyłącza automatyczne wyświetlanie/ukrywanie panelu bocznego">
+<!ENTITY button.tooltip.sidebar "Otwórz w panelu bocznym">
+<!ENTITY button.tooltip.window "Otwórz w oknie">
+<!ENTITY button.tooltip.tab "Otwórz w nowej karcie">
+<!ENTITY button.addons.label "Dodatki">
+<!ENTITY button.addons.tooltip "Wyświetla zainstalowane motywy i rozszerzenia">
+<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.tooltip "Wyświetla w panelu bocznym np. stronę, kod źródłowy, info o przeglądarce">
+<!ENTITY button.pageinfo.tooltip "Wyświetla informacje o aktywnej stronie">
+<!ENTITY button.console.label "Konsola błędów">
+<!ENTITY button.console.tooltip "Otwiera konsolę, która śledzi problemy i porównuje z kodem źródłowym">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "D">
+<!ENTITY keys.multipanel "B">
+<!ENTITY keys.pageinfo "F">
+<!ENTITY toolbar.pos.sidebarleft.label "Po lewej stronie panelu">
+<!ENTITY toolbar.pos.sidebarright.label "Po prawej stronie panelu">
+<!ENTITY toolbar.pos.sidebartop.label "Na górze panelu bocznego">
+<!ENTITY toolbar.pos.headerbottom.label "Pod nagłówkiem panelu bocznego">
+<!ENTITY toolbar.pos.sidebarbottom.label "Na dole panelu bocznego">
+<!ENTITY toolbar.mode.flexbuttons.label "Wyjustuj przyciski na pasku">

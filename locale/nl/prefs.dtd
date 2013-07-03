@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar – opties">
+<!ENTITY restart "Veranderingen hebben een herstart van de browser nodig">
+<!ENTITY settings "Instellingen">
+<!ENTITY settings.default "Standaardinstellingen herstellen…">
+<!ENTITY settings.advanced "Geavanceerde modus">
+<!ENTITY settings.import "Instellingen importeren…">
+<!ENTITY settings.export "Instellingen exporteren…">
+<!ENTITY settings.copy "Instellingen naar klembord kopiëren">
+<!ENTITY apply "Toepassen">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Algemeen">
+<!ENTITY tab.gen.appearance "Verschijning">
+<!ENTITY tab.gen.behavior "Gedrag">
+<!ENTITY tab.gen.fullscreen "Volledig-schermmodus">
+<!ENTITY tab.gen.special "Speciaal">
+<!ENTITY tab.panels "Panelen">
+<!ENTITY tab.panels.places "Bladwijzers/Geschiedenis">
+<!ENTITY tab.panels.other1 "Overige I">
+<!ENTITY tab.panels.other2 "Overige II">
+<!ENTITY tab.panels.paneltab "Paneeltabblad">
+<!ENTITY tab.menus "Menu’s">
+<!ENTITY tab.menus.sidebar "Zijbalk">
+<!ENTITY tab.keys "Sneltoetsen">
+<!ENTITY gen.orient.caption "Oriëntatie">
+<!ENTITY gen.orient.label "Zijbalk tonen aan">
+<!ENTITY gen.orient.left "linkerkant">
+<!ENTITY gen.orient.right "rechterkant">
+<!ENTITY gen.width.caption "Grootte">
+<!ENTITY gen.width.px "pixels">
+<!ENTITY gen.width.perc "procent">
+<!ENTITY gen.width.current "huidige breedte">
+<!ENTITY gen.width.current.tip "Past de huidige breedte van de zijbalk toe">
+<!ENTITY gen.width.min.hint "[Shift+dubbelklikken] op de zijbalktitel">
+<!ENTITY gen.width.def.hint "[Dubbelklikken] op de zijbalktitel">
+<!ENTITY gen.width.max.hint "[Ctrl+dubbelklikken] of [Alt+dubbelklikken] op de zijbalktitel">
+<!ENTITY gen.init.caption "Opstarten van browser">
+<!ENTITY gen.init.label "Zijbalk">
+<!ENTITY gen.init.toolbar.label "Werkbalk">
+<!ENTITY gen.init.toolbar.show.label "Werkbalk tonen">
+<!ENTITY gen.init.toolbar.hide.label "Werkbalk verbergen">
+<!ENTITY gen.init.switch.show.label "Zijbalkwisselaar tonen">
+<!ENTITY gen.init.switch.hide.label "Zijbalkwisselaar verbergen">
+<!ENTITY gen.init.mode1 "De onthouden staat herstellen">
+<!ENTITY gen.init.sidebar "Zijbalk openen (Zijbalkwisselaar, wisselknop, sneltoets)">
+<!ENTITY gen.init.sidebar.restore "Het onthouden paneel herstellen">
+<!ENTITY gen.switch.autoshow "De zijbalk automatisch tonen/verbergen (muiscontact in plaats van muisklik)">
+<!ENTITY gen.switch.onlymax "Alleen als de browser gemaximaliseerd of in volledig-schermmodus is">
+<!ENTITY gen.switch.delay "Vertraging">
+<!ENTITY gen.switch.delayUnit "milliseconden">
+<!ENTITY gen.switch.hide "De zijbalk verbergen als de muiscursor…">
+<!ENTITY gen.switch.hideBar "terugbewogen wordt naar de webpagina">
+<!ENTITY gen.switch.hidePage "op de zijbalkwisselaar wordt gehouden">
+<!ENTITY gen.switch.thin "Dunne zijbalkwisselaar inschakelen">
+<!ENTITY gen.switch.width "Breedte van de zijbalkwisselaar">
+<!ENTITY gen.switch.twidth "Breedte van de dunne zijbalkwisselaar">
+<!ENTITY cmode.caption "Zijbalk openen/sluiten">
+<!ENTITY cmode.desc "Aanpassen welke elementen beïnvloed moeten worden als de zijbalk geopend of gesloten wordt via verschillende methodes.">
+<!ENTITY cmode.key.label "Sneltoets (F4)">
+<!ENTITY cmode.tbb.label "AiOS-knop">
+<!ENTITY cmode.close.label "Sluitknop">
+<!ENTITY cmode.mode1.label "Alleen de zijbalk">
+<!ENTITY cmode.mode2.label "De zijbalk en de werkbalk">
+<!ENTITY cmode.mode3.label "De zijbalk, werkbalk en de zijbalkwisselaar">
+<!ENTITY cmode.mode4.label "Gedrag van Opera">
+<!ENTITY gen.fs.off "De staat herstellen bij het sluiten van de volledig-schermmodus">
+<!ENTITY keyconfig.keyid "Naam">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Toepassen">
+<!ENTITY keyconfig.disable "Uitschakelen">
+<!ENTITY keyconfig.reset "Herinitialiseren">
+<!ENTITY keyconfig.warn "Veranderingen alleen bij nieuwe vensters">
+<!ENTITY keyconfig.onreset "Herstart van de browser is noodzakelijk">
+<!ENTITY keyconfig.unrecognized "Niet herkend ($1)">
+<!ENTITY keyconfig.used "Deze toets wordt al gebruikt door: \\n\\n\\t$1\\n\\nZou eventueel wel kunnen werken.">
+<!ENTITY menus.sidebar.desc "De items in het menu “Beeld &gt; Zijbalk” aanpassen en de keuzemenu&apos;s van de zijbalkknoppen.">
+<!ENTITY menus.icons.label "Pictogrammen tonen">
+<!ENTITY menus.entries.label "Items tonen">
+<!ENTITY menus.sidebar.entrydeac "Alle items van de actieve zijbalk uitschakelen">
+<!ENTITY misc.enablesidebar.label "In de zijbalk openen">
+<!ENTITY misc.layout.label "Layout voor de zijbalk optimaliseren">
+<!ENTITY misc.dm.overlay "Opties veranderen voor zijbalkgedrag">
+<!ENTITY misc.dm.autoopen.label "Downloadzijbalk tonen tijdens het downloaden van een bestand">
+<!ENTITY misc.dm.autoclose.label "Sluiten wanneer alle downloads klaar zijn">
+<!ENTITY misc.colors.label "Gekleurde achtergronden gebaseerd op de huidige toestand inschakelen">
+<!ENTITY misc.count.label "Aantal items tonen">
+<!ENTITY misc.enablelink.tooltip "Klik hier voor meer informatie (koppeling naar de FAQ&apos;s)">
+<!ENTITY misc.paneltab.reverse "Linker- en middelklikacties omwisselen">
+<!ENTITY misc.bm.paneltab.desc "De paneeltabbladknop kan de bladwijzerbeheerder in een nieuw tabblad openen in plaats van het bladwijzerpaneel.">
+<!ENTITY misc.bm.paneltab "Bladwijzerbeheerder in nieuw tabblad inschakelen">
+<!ENTITY special.collapsing.caption "Zijbalkinschuiven">
+<!ENTITY special.collapsing.label "Zijbalkinschuiven inschakelen">
+<!ENTITY special.collapsing.desc "De zijbalk schuift in, in plaats van echt te sluiten. Het voordeel is dat de zijbalkinhoud niet herladen hoeft te worden na heropenen.">

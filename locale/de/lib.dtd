@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Linksklick">
+<!ENTITY rightclick "Rechtsklick">
+<!ENTITY doubleclick "Doppelklick">
+<!ENTITY middleclick "Mittelklick">
+<!ENTITY key.ctrl "Strg">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Umschalt">
+<!ENTITY menu.tools.label "Extras">
+<!ENTITY closeFolder.label "Alle Ordner schließen">
+<!ENTITY show.closeFolder.label "'Alle Ordner Schließen'-Schaltfläche">
+<!ENTITY enable.autoClose.label "Andere Ordner automatisch schließen">
+<!ENTITY enable.scrollToFolder.label "Automatisch zum geöffneten Ordner springen">
+<!ENTITY enable.rememberFolder.label "Zuletzt geöffneten Ordner markieren">

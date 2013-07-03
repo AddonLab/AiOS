@@ -1,0 +1,52 @@
+<!ENTITY loading.label "завантаження панелі…">
+<!ENTITY menu.prefs.label "Налаштування бічної панелі All-In-One…">
+<!ENTITY menu.togglebar.label "Вимикач бічної панелі">
+<!ENTITY menu.grippy.label "Кнопка “Згорнути/Розгорнути”">
+<!ENTITY toolbar.name "Бічна панель інструментів">
+<!ENTITY sbhtoolbar.name "Панель інструментів заголовка бічної панелі">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Переключити елементи, керовані All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Переключити бічну панель та панель інструментів">
+<!ENTITY button.switch.tooltip2 "Переключити панель інструментів">
+<!ENTITY button.switch.tooltip3 "Переключити бічну панель">
+<!ENTITY sidebar.open.label "Відкрити бічну панель">
+<!ENTITY sidebar.close.label "Закривати бічну панель">
+<!ENTITY sidebar.width.min "Мінімальна ширина">
+<!ENTITY sidebar.width.def "Стандартна ширина">
+<!ENTITY sidebar.width.max "Максимальна ширина">
+<!ENTITY button.menu.label "Бічні панелі">
+<!ENTITY button.menu.tooltip "Всі наявні бічні панелі">
+<!ENTITY button.toolbar.label "Панель інструментів AiOS">
+<!ENTITY button.toolbar.tooltip "Переключити панель інструментів AiOS">
+<!ENTITY button.paneltab.label "Вкладка панелі">
+<!ENTITY button.paneltab.tooltip1 "Відкрити вміст вкладки у бічній панелі">
+<!ENTITY button.paneltab.tooltip2 "Відкрити вміст бічної панелі у новій вкладці">
+<!ENTITY button.paneltab.tooltip3 "Відкрити вміст бічної панелі у вікні">
+<!ENTITY button.paneltab.menu1.label "Відкрити вкладку у бічній панелі">
+<!ENTITY button.paneltab.menu2.label "Відкрити бічну панель у вкладці">
+<!ENTITY button.autohide.label "Автоконтроль бічної панелі">
+<!ENTITY button.autohide.tooltip "Показувати/ховати бічну панель автоматично">
+<!ENTITY button.tooltip.sidebar "Відкрити у бічній панелі">
+<!ENTITY button.tooltip.window "Відкрити у новому вікні">
+<!ENTITY button.tooltip.tab "Відкрити у новій вкладці">
+<!ENTITY button.addons.label "Додатки">
+<!ENTITY button.addons.tooltip "Показати встановлені розширення та теми">
+<!ENTITY button.multipanel.label "МультиПанель">
+<!ENTITY button.multipanel.tooltip "Показати сайт, код сторінки та інформацію браузера">
+<!ENTITY button.pageinfo.tooltip "Показати розширену інформацію про веб-сторінку">
+<!ENTITY button.console.label "Консоль помилок">
+<!ENTITY button.console.tooltip "Відкрити консоль помилок, яка фіксує проблеми з кодом">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Зліва поруч з бічною панеллю">
+<!ENTITY toolbar.pos.sidebarright.label "Справа поруч з бічною панеллю">
+<!ENTITY toolbar.pos.sidebartop.label "Над бічною панеллю">
+<!ENTITY toolbar.pos.headerbottom.label "Під заголовком бічної панелі">
+<!ENTITY toolbar.pos.sidebarbottom.label "Під бічною панеллю">
+<!ENTITY toolbar.mode.flexbuttons.label "Рівномірне розташування кнопок">

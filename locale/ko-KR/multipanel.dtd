@@ -1,0 +1,20 @@
+<!ENTITY page.label "페이지">
+<!ENTITY page.tooltip "웹 페이지를 이 패널에 열기">
+<!ENTITY page.ssr.label "작은 화면 렌더링">
+<!ENTITY page.ssr100.label "탐색 창 너비에 맞추기">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "브라우저에 대한 또 다른 정보를 보여줍니다.">
+<!ENTITY about.config.tooltip "다양한 환경 설정 값을 보고 변경할 수 있는 화면을 보여줍니다.">
+<!ENTITY about.plugins.tooltip "모든 설치된 플러그인에 대한 정보를 보여줍니다.">
+<!ENTITY about.cache.tooltip "메모리와 디스크 캐시에 대한 정보를 보여줍니다.">
+<!ENTITY about.cache.disk.tooltip "디스크 캐시 목록입니다.">
+<!ENTITY about.cache.memory.tooltip "메모리 캐시 목록입니다.">
+<!ENTITY about.cache.offline.tooltip "오프라인 캐시 목록입니다.">
+<!ENTITY about.crashes.tooltip "전송한 충돌 보고서를 보여줍니다.">
+<!ENTITY about.buildconfig.tooltip "사용중인 배포판을 컴파일하는 데 사용된 인자값와 설정을 보여줍니다.">
+<!ENTITY about.about.tooltip "버전 정보와 저작권 정보를 보여줍니다.">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "모질라에 공헌한 모든 사람들의 목록을 보여줍니다.">
+<!ENTITY about.license.tooltip "모질라 퍼블릭 라이선스를 보여줍니다.">
+<!ENTITY about.mozilla.tooltip "가상의 책인 모질라 서의 한 페이지를 보여줍니다.">
+<!ENTITY tools.remlast.label "마지막에 봤던 내용 기억하기">

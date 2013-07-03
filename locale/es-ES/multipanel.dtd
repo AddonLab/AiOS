@@ -1,0 +1,21 @@
+<!ENTITY page.label "Página">
+<!ENTITY page.tooltip "Abrir la página en este panel">
+<!ENTITY page.ssr.label "Modo de pantalla pequeña">
+<!ENTITY page.ssr100.label "Adaptar al ancho del panel lateral">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Muestra diferente información acerca del navegador">
+<!ENTITY about.config.tooltip "Permite ver y establecer un amplio conjunto de variables de configuración">
+<!ENTITY about.plugins.tooltip "Muestra información de los plugins instalados">
+<!ENTITY about.support.tooltip "Mostrar aspectos generales, extensiones y opciones modificadas">
+<!ENTITY about.cache.tooltip "Muestra información sobre la caché, tanto para el disco como para la memoria">
+<!ENTITY about.cache.disk.tooltip "Mostrar las entradas individuales en el disco">
+<!ENTITY about.cache.memory.tooltip "Mostrar las entradas individuales en memoria">
+<!ENTITY about.cache.offline.tooltip "Listar las entradas de la caché sin conexión">
+<!ENTITY about.crashes.tooltip "Mostrar los informes de errores enviados">
+<!ENTITY about.buildconfig.tooltip "Muestra los parámetros y opciones que se usaron para compilar la versión que se está usando">
+<!ENTITY about.about.tooltip "Mostrar información de la versión e información de copyright">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Muestra una lista de todos los colaboradores de Mozilla">
+<!ENTITY about.license.tooltip "Mostrar la licencia pública de Mozilla">
+<!ENTITY about.mozilla.tooltip "Muestra una página con el libro ficticio de Mozilla">
+<!ENTITY tools.remlast.label "Recordar el último contenido mostrado">

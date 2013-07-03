@@ -1,0 +1,88 @@
+<!ENTITY title "All-in-One Kenar Çubuğu Tercihleri">
+<!ENTITY restart "Tarayıcınızı yeniden başlatmanız gerekmektedir">
+<!ENTITY settings "Tercihler">
+<!ENTITY settings.default "Öntanımlı ayarla dön…">
+<!ENTITY settings.advanced "Gelişmiş modus">
+<!ENTITY settings.import "Tercihleri içe aktar…">
+<!ENTITY settings.export "Tercihleri dışa aktar…">
+<!ENTITY apply "Uygula">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Genel">
+<!ENTITY tab.gen.appearance "Görünüm">
+<!ENTITY tab.gen.behavior "Davranış">
+<!ENTITY tab.gen.fullscreen "Tam ekran modusu">
+<!ENTITY tab.gen.special "Özel">
+<!ENTITY tab.panels "Paneller">
+<!ENTITY tab.panels.places "Yer İmleri/Geçmiş">
+<!ENTITY tab.panels.other1 "Diğer 1">
+<!ENTITY tab.panels.other2 "Diğer 2">
+<!ENTITY tab.panels.paneltab "Panel tab">
+<!ENTITY tab.menus "Menüler">
+<!ENTITY tab.menus.sidebar "Kenar çubuğu">
+<!ENTITY tab.keys "Kısayollar">
+<!ENTITY gen.orient.caption "Yönelim">
+<!ENTITY gen.orient.label "Kenar çubuğunun üstünde göster">
+<!ENTITY gen.orient.left "sol kenarda">
+<!ENTITY gen.orient.right "sağ kenarda">
+<!ENTITY gen.width.caption "Boyut">
+<!ENTITY gen.width.px "Piksel">
+<!ENTITY gen.width.perc "Yüzde">
+<!ENTITY gen.width.current "Güncel genişlik">
+<!ENTITY gen.width.current.tip "Kenar çubuğunun güncel olan genişlik değerini alır">
+<!ENTITY gen.width.min.hint "Kenar çubuğu başlığında [Shift+çift tıkla]">
+<!ENTITY gen.width.def.hint "Kenar çubuğu başlığında [çift tıkla]">
+<!ENTITY gen.width.max.hint "Kenar çubuğu başlığında [Ctrl+çift tıkla] veya [Alt+çift tıkla]">
+<!ENTITY gen.init.caption "Tarayıcı Başlangıcı">
+<!ENTITY gen.init.label "Kenar çubuğu">
+<!ENTITY gen.init.toolbar.label "Araç çubuğu">
+<!ENTITY gen.init.toolbar.show.label "Araç çubuğunu göster">
+<!ENTITY gen.init.toolbar.hide.label "Araç çubuğunu gizle">
+<!ENTITY gen.init.switch.show.label "Kenar çubuğunu değiştir">
+<!ENTITY gen.init.switch.hide.label "Gizle kenar çubuğu seçimini">
+<!ENTITY gen.init.mode1 "Hatırlanan durumları tekrar oluştur">
+<!ENTITY gen.init.sidebar "Kenar çubuğunu aç (Kenar çubupu seçici ,buton, Kısa yollar)">
+<!ENTITY gen.init.sidebar.restore "Hatırlanan panelleri tekrar oluştur">
+<!ENTITY gen.switch.autoshow "Kenar çubugunu otomatik gizle/göster">
+<!ENTITY gen.switch.onlymax "Sadece firefox en yüksek seviyede yada tam ekran modundayken">
+<!ENTITY gen.switch.delay "Geciktirmek">
+<!ENTITY gen.switch.delayUnit "milisaniye">
+<!ENTITY gen.switch.hide "Kenar Çubuğunu gizle fare imlecinde">
+<!ENTITY gen.switch.hideBar "web sayfası geriye hareket ettiğinde">
+<!ENTITY gen.switch.hidePage "is held on the Sidebar Switch">
+<!ENTITY gen.switch.thin "İnce kenar çubuğu aktif">
+<!ENTITY gen.switch.width "kenar çubuğu genişliği">
+<!ENTITY gen.switch.twidth "İnce kenar çubuğu genişliği">
+<!ENTITY cmode.caption "Kenar Çubuğu Düğmesi">
+<!ENTITY cmode.desc "Kenar çubuğunun farklı yöntemler ile açılıp kapanmasında hangi elementlerin etkileneceğini belirle.">
+<!ENTITY cmode.key.label "Kısayol (F4)">
+<!ENTITY cmode.tbb.label "AiOS Düğmesi">
+<!ENTITY cmode.close.label "Kapama düğmesi">
+<!ENTITY cmode.mode1.label "Sadece kenar çubuğunda">
+<!ENTITY cmode.mode2.label "Kenar çubuğu ve araç çubuğu">
+<!ENTITY cmode.mode3.label "Kenar çubuğu, araç çubuğu ve kenar çubuğu anahtarı">
+<!ENTITY cmode.mode4.label "Opera gibi davran">
+<!ENTITY gen.fs.off "Tam ekran kipinden çıkarken eski kipdeki ayarları tekrar oluştur">
+<!ENTITY keyconfig.keyid "Komut">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Uygula">
+<!ENTITY keyconfig.disable "Etkisizleştir">
+<!ENTITY keyconfig.reset "Sıfırla">
+<!ENTITY keyconfig.warn "Değişiklikler tarayıcınızı tekrar başlattığınızda etkinleşir.">
+<!ENTITY keyconfig.onreset "Tarayıcının tekrar başlatılması gerekli">
+<!ENTITY keyconfig.unrecognized "Bilinmiyor ($1)">
+<!ENTITY keyconfig.used "Bu klavye kısayolları şuanda kullanılıyor: \\n\\n\\t$1\\n\\nBuna rağmen çalışabilir.">
+<!ENTITY menus.sidebar.desc "Customize the entries in the menu “View &gt; Sidebar” and in the dropdown menus of the sidebar buttons.">
+<!ENTITY menus.icons.label "Simgeleri göster">
+<!ENTITY menus.entries.label "Menü verilerini göster">
+<!ENTITY menus.sidebar.entrydeac "Kenar çubuğunun menü verilerini etkisizleştir">
+<!ENTITY misc.enablesidebar.label "Kenar çubuğunda göster">
+<!ENTITY misc.layout.label "Kenar çubuğu iyileştirmesi">
+<!ENTITY misc.colors.label "Renkli alanlar güncel durumda aktif">
+<!ENTITY misc.count.label "Parça numaralarını göster">
+<!ENTITY misc.enablelink.tooltip "Daha fazla bilgi için tıkla">
+<!ENTITY misc.paneltab.reverse "Sol tıklama ve orta tıklama hareketlerini değiştir">
+<!ENTITY misc.bm.paneltab.desc "&quot;Panel Sekmesi&quot; düğmesini yer imleri kenar çubuğu yerine yer imleri yöneticisi olarak yeni sekmede açılabilir.">
+<!ENTITY misc.bm.paneltab "Yer imleri yöneticisini yeni sekme olarak etkinleştir">
+<!ENTITY special.collapsing.caption "Kenar çubuğu katlamaları">
+<!ENTITY special.collapsing.label "Kenar çubuğu katlamarı aktif">
+<!ENTITY special.collapsing.desc "Kenar çubuğu katlanabilir onun yerine kapanırken.Bu avantaj kenar çubuğu yeniden acılır bundan dolayı hızlı yanıt verir">

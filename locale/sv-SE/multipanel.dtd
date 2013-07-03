@@ -1,0 +1,21 @@
+<!ENTITY page.label "Sida">
+<!ENTITY page.tooltip "Öppna webbsidan i denna panel">
+<!ENTITY page.ssr.label "Anpassad återgivning">
+<!ENTITY page.ssr100.label "Anpassa till sidopanelens bredd">
+<!ENTITY about.label "Om:">
+<!ENTITY about.tooltip "Visar diverse information om webbläsaren">
+<!ENTITY about.config.tooltip "Visar ett gränssnitt för att hantera en stor mängd olika konfigurationsinställningar">
+<!ENTITY about.plugins.tooltip "Visar information om alla installerade insticksmoduler">
+<!ENTITY about.support.tooltip "Visar grundläggande information, tillägg och ändrade inställningar">
+<!ENTITY about.cache.tooltip "Visar information om cache-tjänsten för både minnes- och disk-cache">
+<!ENTITY about.cache.disk.tooltip "Visar cache-poster på disken">
+<!ENTITY about.cache.memory.tooltip "Visar cache-poster i minnet">
+<!ENTITY about.cache.offline.tooltip "Visar cache-poster för nedkopplat läge">
+<!ENTITY about.crashes.tooltip "Visar inskickade kraschrapporter">
+<!ENTITY about.buildconfig.tooltip "Visar vilka alternativ som användes för att kompilera denna version">
+<!ENTITY about.about.tooltip "Visar version samt upphovsrättsinformation">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Visar en lista med de som bidragit till Mozilla">
+<!ENTITY about.license.tooltip "Visar Mozillas licensavtal">
+<!ENTITY about.mozilla.tooltip "Visar en sida ur den fiktiva Mozilla-boken">
+<!ENTITY tools.remlast.label "Kom ihåg senast visade innehåll">

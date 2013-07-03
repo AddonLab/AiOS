@@ -1,0 +1,52 @@
+<!ENTITY loading.label "Caricamento del pannello in corso…">
+<!ENTITY menu.prefs.label "Impostazioni di All-in-One Sidebar…">
+<!ENTITY menu.togglebar.label "Bordo cliccabile (Mostra/Nasconde AiOS)">
+<!ENTITY menu.grippy.label "Barra laterale Grippy">
+<!ENTITY toolbar.name "Barra degli strumenti di All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "Barra laterale">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Attiva/Disattiva gli elementi controllati da All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Attiva/Disattiva barra laterale e degli strumenti">
+<!ENTITY button.switch.tooltip2 "Attiva/Disattiva la barra degli strumenti">
+<!ENTITY button.switch.tooltip3 "Attiva/Disattiva la barra laterale">
+<!ENTITY sidebar.open.label "Mostra la barra laterale">
+<!ENTITY sidebar.close.label "Nascondi la barra laterale">
+<!ENTITY sidebar.width.min "Larghezza minima">
+<!ENTITY sidebar.width.def "Larghezza predefinita">
+<!ENTITY sidebar.width.max "Larghezza massima">
+<!ENTITY button.menu.label "Pannelli della barra laterale">
+<!ENTITY button.menu.tooltip "Tutti i pannelli disponibili della barra laterale">
+<!ENTITY button.toolbar.label "Barra di AiOS">
+<!ENTITY button.toolbar.tooltip "Attiva/Disattiva la barra di AiOS">
+<!ENTITY button.paneltab.label "Contenuto">
+<!ENTITY button.paneltab.tooltip1 "Apre il contenuto della scheda nella barra laterale">
+<!ENTITY button.paneltab.tooltip2 "Apre il contenuto della barra laterale in una nuova scheda">
+<!ENTITY button.paneltab.tooltip3 "Apre il contenuto della barra laterale in una finestra">
+<!ENTITY button.paneltab.menu1.label "Apre la scheda nella barra laterale">
+<!ENTITY button.paneltab.menu2.label "Apre la barra laterale in una scheda">
+<!ENTITY button.autohide.label "Barra laterale automatica">
+<!ENTITY button.autohide.tooltip "Mostra/Nasconde la barra laterale automaticamente">
+<!ENTITY button.tooltip.sidebar "Apre nella barra laterale">
+<!ENTITY button.tooltip.window "Apre in una finestra">
+<!ENTITY button.tooltip.tab "Apre in una scheda">
+<!ENTITY button.addons.label "Componenti aggiuntivi">
+<!ENTITY button.addons.tooltip "Mostra estensioni e temi installati">
+<!ENTITY button.multipanel.label "Multipannello">
+<!ENTITY button.multipanel.tooltip "Mostra ad es. un sito web, il codice sorgente e le informazioni sul browser">
+<!ENTITY button.pageinfo.tooltip "Mostra informazioni dettagliate sulla pagina web attuale">
+<!ENTITY button.console.label "Console degli errori">
+<!ENTITY button.console.tooltip "Tiene traccia dei problemi inerenti al codice sorgente con la Console degli errori">
+<!ENTITY keys.modifiers "accel maiusc">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "A sinistra accanto alla barra laterale">
+<!ENTITY toolbar.pos.sidebarright.label "A destra accanto alla barra laterale">
+<!ENTITY toolbar.pos.sidebartop.label "Sopra la barra laterale">
+<!ENTITY toolbar.pos.headerbottom.label "Sotto l&apos;intestazione della barra laterale">
+<!ENTITY toolbar.pos.sidebarbottom.label "Sotto la barra laterale">
+<!ENTITY toolbar.mode.flexbuttons.label "Pulsanti flessibili">

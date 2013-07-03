@@ -1,0 +1,13 @@
+<!ENTITY leftclick "左键单击">
+<!ENTITY rightclick "右键单击">
+<!ENTITY doubleclick "双击">
+<!ENTITY middleclick "中键单击">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "工具">
+<!ENTITY closeFolder.label "关闭所有文件夹">
+<!ENTITY show.closeFolder.label "&apos;关闭所有文件夹&apos; 按钮">
+<!ENTITY enable.autoClose.label "自动关闭其他文件夹">
+<!ENTITY enable.scrollToFolder.label "滚动显示选择的文件夹">
+<!ENTITY enable.rememberFolder.label "记住最后选择的文件夹">

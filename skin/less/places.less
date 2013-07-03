@@ -1,0 +1,197 @@
+
+page[aios-inSidebar] {
+
+    /* tree#bookmarks-view f. einige themes, z.B. NASA Night Launch */
+    #bookmarksPanel,
+    #bookmarks-view,
+    tree#bookmarks-view,
+    #history-panel,
+    #historyTree {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    
+    tree {
+        -moz-appearance: none;
+    }
+    
+    label[control="search-box"] {
+        display: none;
+    }
+    
+    
+    /* @group Icons */
+    #closeFolder,
+    #viewButton {
+        list-style-image: url(../icons/panels_menus.png);
+    }
+    
+    #closeFolder {
+        -moz-image-region: rect(64px, 32px, 80px, 16px);
+        
+        image {
+            margin-right: 2px;
+        }
+        
+        label {
+            display: none;
+        }
+    }
+    
+    #viewButton {
+        -moz-image-region: rect(64px, 16px, 80px, 0);
+    }
+    
+    &[aios-appOS="WINNT"] {
+        
+        #closeFolder {
+            -moz-image-region: rect(0, 32px, 16px, 16px);
+        }
+        
+        #viewButton {
+            -moz-image-region: rect(0, 16px, 16px, 0);
+        }
+        
+    }
+    
+    &[aios-appOS="Darwin"] {
+        
+        #closeFolder {
+            -moz-image-region: rect(32px, 32px, 48px, 16px);
+        }
+        
+        #viewButton {
+            -moz-image-region: rect(32px, 16px, 48px, 0);
+        }
+        
+    }
+    /* @end */
+    
+    
+    /* @group Firefox-Standard-Theme */
+    &[aios-appDefTheme="true"] {
+        
+        #places-toolbar > * {
+            margin: 1px;
+        }
+        
+        #search-box.blur {
+            color: #ACA899;
+        }
+        
+        
+        /* @group Windows */
+        &[aios-appOS="WINNT"] {
+            
+            #places-toolbar {
+                padding: 0 1px 1px 1px;
+                border-top: 1px solid ThreedHighlight;
+                border-bottom: 1px solid ThreedShadow;
+            }
+            
+            #viewButton dropmarker image {
+                margin: 0 2px 0 3px;
+            }
+            
+            
+            /* @group Windows-XP klassisch */
+            &[aios-appOSVersion="Windows NT 5.1"] {
+                
+                #bookmarks-view,
+                #historyTree {
+                    background-color: #efedea;
+                }
+                
+            }
+            /* @end */
+            
+            
+             /* @group Windows-Standard */
+            &:-moz-system-metric(windows-default-theme) {
+                
+                /* @group Windows XP-Standard */
+                &[aios-appOSVersion="Windows NT 5.1"] {
+                    
+                    -moz-appearance: none !important;
+                    
+                    #bookmarks-view,
+                    #historyTree {
+                        background-color: #EDECEF;
+                    }
+                    
+                    #places-toolbar {
+                        -moz-appearance: none;
+                        border-bottom: 1px solid Threedshadow;
+                        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), 
+                                          rgba(255, 255, 255, 0));
+                    }
+                    
+                }
+                /* @end */
+                
+                
+                /* @group Windows Vista-7-Standard */
+                &:not([aios-appOSVersion="Windows NT 5.1"]) {
+                    
+                    #bookmarks-view,
+                    #historyTree {
+                       background-color: #EEF3FA;
+                    }
+                    
+                    #places-toolbar {
+                        background: #eef3fa;
+                    }
+                    
+                }
+                /* @end */
+                
+            }
+            /* @end */
+            
+        }
+        /* @end */
+        
+        
+        /* @group Darwin */
+        &[aios-appOS="Darwin"] {
+            
+            #places-toolbar {
+                padding: 7px 1px 5px 3px;
+                
+                toolbarbutton {
+                    
+                    &:-moz-window-inactive {
+                        opacity: 0.5;
+                    }
+                    
+                }
+            }
+            
+            #search-box {
+                margin-top: -1px;
+            }
+            
+            #closeFolder {
+                margin-left: 4px;
+            }
+            
+            #viewButton {
+                margin-left: 6px;
+                
+                label {
+                    margin-right: 1px;
+                }
+                
+                dropmarker image {
+                    margin: 3px 5px 0 0;
+                }
+            }
+            
+        }
+        /* @end */
+        
+    }
+    /* @end */
+    
+}

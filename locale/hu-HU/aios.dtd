@@ -1,0 +1,52 @@
+<!ENTITY loading.label "Panel betöltése…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar - Beállítások…">
+<!ENTITY menu.togglebar.label "Oldalsáv-kapcsoló">
+<!ENTITY menu.grippy.label "Mozgatható oldalsáv">
+<!ENTITY toolbar.name "All-in-One Sidebar Eszköztár">
+<!ENTITY sbhtoolbar.name "Oldalsáv eszköztár">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Az All-in-One Sidebar által vezérelt elemek váltása">
+<!ENTITY button.switch.tooltip1 "Oldalsáv és Eszköztár megnyitása/bezárása">
+<!ENTITY button.switch.tooltip2 "Eszköztár megnyitása/bezárása">
+<!ENTITY button.switch.tooltip3 "Oldalsáv megnyitása/bezárása">
+<!ENTITY sidebar.open.label "Oldalsáv megnyitása">
+<!ENTITY sidebar.close.label "Oldalsáv bezárása">
+<!ENTITY sidebar.width.min "Minimum szélesség">
+<!ENTITY sidebar.width.def "Normál szélesség">
+<!ENTITY sidebar.width.max "Maximum szélesség">
+<!ENTITY button.menu.label "Oldalsáv panelok">
+<!ENTITY button.menu.tooltip "Összes elérhető Oldalsáv panel">
+<!ENTITY button.toolbar.label "AiOS Eszköztár">
+<!ENTITY button.toolbar.tooltip "AiOS Eszköztár megnyitása/bezárása">
+<!ENTITY button.paneltab.label "Panellap">
+<!ENTITY button.paneltab.tooltip1 "Lap tartalmának megnyitása az oldalsávon">
+<!ENTITY button.paneltab.tooltip2 "Oldalsáv tartalmának megnyitása új lapon">
+<!ENTITY button.paneltab.tooltip3 "Oldalsáv tartalmának megnyitása ablakban">
+<!ENTITY button.paneltab.menu1.label "Lap megnyitás az oldalsávon">
+<!ENTITY button.paneltab.menu2.label "Oldalsáv megnyitása új lapon">
+<!ENTITY button.autohide.label "Oldalsáv automatikus megjelenítése">
+<!ENTITY button.autohide.tooltip "Automatikusan megjeleníti/elrejti az Oldalsávot">
+<!ENTITY button.tooltip.sidebar "Megnyitás Oldalsávon">
+<!ENTITY button.tooltip.window "Megnyitás ablakban">
+<!ENTITY button.tooltip.tab "Megnyitás új lapon">
+<!ENTITY button.addons.label "Bővítmények">
+<!ENTITY button.addons.tooltip "Telepített Kiterjesztések és Témák megjelenítése">
+<!ENTITY button.multipanel.label "Panelhalmozás">
+<!ENTITY button.multipanel.tooltip "Webhely, oldalforrás és böngészőinformációkat jelenít meg">
+<!ENTITY button.pageinfo.tooltip "Információk, Űrlapok, Hivatkozások, Média és Biztonság">
+<!ENTITY button.console.label "Hibanaplózó konzol">
+<!ENTITY button.console.tooltip "Hibanaplózó konzol, amely fényt derít az oldal forrásának hibáira">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "B">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Balra az Oldalsáv mellett">
+<!ENTITY toolbar.pos.sidebarright.label "Jobbra az Oldalsáv mellett">
+<!ENTITY toolbar.pos.sidebartop.label "Oldalsáv fölé">
+<!ENTITY toolbar.pos.headerbottom.label "Oldalsáv címsora alá">
+<!ENTITY toolbar.pos.sidebarbottom.label "Oldalsáv alá">
+<!ENTITY toolbar.mode.flexbuttons.label "Rugalmas gombok">

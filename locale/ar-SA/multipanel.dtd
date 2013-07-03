@@ -1,0 +1,19 @@
+<!ENTITY page.label "الصفحة">
+<!ENTITY page.tooltip "افتح الصفحة في هذه اللوحة">
+<!ENTITY page.ssr.label "تحويل الشاشة الصغيرة">
+<!ENTITY page.ssr100.label "تعيين كعرض الشريط الجانبي">
+<!ENTITY about.label "حول:">
+<!ENTITY about.tooltip "عرض معلومات مختلفة حول المتصفح">
+<!ENTITY about.config.tooltip "إظهار واجهة للعرض ، ووضع تشكيلة واسعة من المتغيرات">
+<!ENTITY about.plugins.tooltip "عرض معلومات حول جميع المكونات الإضافية المثبتة">
+<!ENTITY about.cache.tooltip "عرض معلومات عن ذاكرة التخزين المؤقت على الذاكرة وذاكرة التخزين المؤقت على القرص الصلب">
+<!ENTITY about.cache.disk.tooltip "قائمة إدخالات ذاكرة التخزين المؤقت على القرص">
+<!ENTITY about.cache.memory.tooltip "قائمة المدخلات في الذاكرة">
+<!ENTITY about.cache.offline.tooltip "List offline cache entries">
+<!ENTITY about.crashes.tooltip "عرض تقارير الأخطاء التي رفعت">
+<!ENTITY about.about.tooltip "عرض معلومات الإصدار ومعلومات حقوق النشر">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "اظهر قائمة بالذين ساهموا في مشروع موزيلا">
+<!ENTITY about.license.tooltip "يظهر رخصة موزيلا العامة">
+<!ENTITY about.mozilla.tooltip "اظهر صفحة من الكتاب الخيالي لموزيلا">
+<!ENTITY tools.remlast.label "تذكر آخر محتوى ظهر">

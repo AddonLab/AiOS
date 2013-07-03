@@ -1,0 +1,253 @@
+
+window[aios-appDefTheme="true"] {
+
+    #aios-toggle-toolbar,
+    #aios-toolbar {
+        background-color: -moz-mac-chrome-active;
+        
+        &:-moz-window-inactive {
+            background-color: -moz-mac-chrome-inactive;
+        }
+    }
+    
+    #aios-toolbar[orient="horizontal"] {
+        padding: 3px 0 4px 0;
+    }
+    
+    
+    /* @group Sidebar Switch */
+    #aios-toggle-toolbar {
+        border-top: 1px solid #c0c0c0;
+        border-right: 1px solid #484848;
+        
+        &:-moz-window-inactive {
+            border-top: 1px solid #e1e1e1;
+            border-right: 1px solid #929292;
+        }
+    }
+    
+    &[aiosOrient="right"] {
+        
+        #aios-toggle-toolbox {
+            border-left: 1px solid #484848;
+            
+            &:-moz-window-inactive {
+                border-left: 1px solid #929292;
+            }
+        }
+        
+        #aios-toggle-toolbar {
+            border-left: 1px solid #c0c0c0;
+            
+            &:-moz-window-inactive {
+                border-left: 1px solid #e1e1e1;
+            }
+        }
+        
+    }
+    /* @end */
+    
+    
+    /* @group AiOS-Toolbar*/
+    
+    /* Toolbar links neben der Sidebar */
+    #aios-toolbar[posMode="1"] {
+        border-top: 1px solid #c0c0c0;
+        border-left: 1px solid #c0c0c0;
+        border-right: 1px solid #484848;
+        
+        &:-moz-window-inactive {
+            border-top: 1px solid #e1e1e1;
+            border-left: 1px solid #e1e1e1;
+            border-right: 1px solid #929292;
+        }
+    }
+    
+    &[aiosOrient="right"] {
+        
+        #aios-toolbar[posMode="1"] {
+            border-left: 2px groove #484848;
+            
+            &:-moz-window-inactive {
+                border-left: 1px solid #929292;
+            }
+        }
+        
+        &[aiosOpen="false"] #aios-toolbar[posMode="1"] {
+            border-right: none;
+            
+            &:-moz-window-inactive {
+                border-left: 1px solid #929292;
+            }
+        }
+    }
+    
+    
+    /* Toolbar rechts neben der Sidebar */
+    #aios-toolbar[posMode="2"] {
+        border-top: 1px solid #c0c0c0;
+        border-left: 2px groove #484848;
+        border-right: 1px solid #484848;
+        
+        &:-moz-window-inactive {
+            border-top: 1px solid #e1e1e1;
+            border-left: 1px solid #929292;
+            border-right: 1px solid #929292;
+        }
+    }
+    
+    &[aiosOpen="false"] #aios-toolbar[posMode="2"] {
+        border-left: 1px solid #c0c0c0;
+        
+        &:-moz-window-inactive {
+            border-left: 1px solid #e1e1e1;
+        }
+    }
+    
+    &[aiosOrient="right"] {
+        
+        #aios-toolbar[posMode="2"] {
+            border-right: none;
+        }
+        
+        &[aiosOpen="false"] #aios-toolbar[posMode="2"] {
+            border-left: 2px groove #484848;
+            
+            &:-moz-window-inactive {
+                border-left: 1px solid #929292;
+            }
+        }
+        
+    }
+    
+    
+    /* Toolbar ueber der Sidebar */
+    #aios-toolbar[posMode="3"] {
+        border-right: 1px solid #484848;
+        border-top: 1px solid #c0c0c0;
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #c0c0c0;
+        
+        &:-moz-window-inactive {
+            border-top: 1px solid #e1e1e1;
+            border-right: 1px solid #929292;
+            border-bottom: 1px solid #929292;
+            border-left: 1px solid #e1e1e1;
+        }
+    }
+    
+    &[aiosOrient="right"] #aios-toolbar[posMode="3"] {
+        border-right: none;
+        border-left: 1px solid #484848;
+        
+        &:-moz-window-inactive {
+            border-left: 1px solid #929292;
+        }
+    }
+    
+    
+    /* Toolbar unter der Sidebar-Kopfleiste */
+    #aios-toolbar[posMode="4"] {
+        border-top: 2px groove #c0c0c0;
+        border-right: 1px solid #484848;
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #c0c0c0;
+        
+        &:-moz-window-inactive {
+            border-top: 2px groove #e1e1e1;
+            border-right: 1px solid #929292;
+            border-bottom: 1px solid #929292;
+            border-left: 1px solid #e1e1e1;
+        }
+    }
+    
+    &[aiosOrient="right"] #aios-toolbar[posMode="4"] {
+        border-right: none;
+        border-left: 1px solid #484848;
+        
+        &:-moz-window-inactive {
+            border-left: 1px solid #929292;
+        }
+    }
+    
+    
+    /* Toolbar unter der Sidebar */
+    #aios-toolbar[posMode="5"] {
+        border-top: 2px groove #c0c0c0;
+        border-right: 1px solid #484848;
+        border-left: 1px solid #c0c0c0;
+        
+        &:-moz-window-inactive {
+            border-top: 2px groove #e1e1e1;
+            border-right: 1px solid #929292;
+            border-left: 1px solid #e1e1e1;
+        }
+    }
+    
+    &[aiosOrient="right"] #aios-toolbar[posMode="5"] {
+        border-right: none;
+        border-left: 1px solid #484848;
+        
+        &:-moz-window-inactive {
+            border-left: 1px solid #929292;
+        }
+    }
+    /* @end */
+    
+    
+    /* @group Grippy & Splitter */
+    grippy:hover {
+        background-color: #D4DDE5 !important;
+    }
+    
+    #sidebar-splitter grippy:hover {
+        background-color: -moz-mac-chrome-active !important;
+    }
+    
+    #sidebar-splitter[orient="horizontal"] {
+        border: none;
+        border-right: 1px solid #484848;
+        background-color: #D4DDE5;
+        
+        &:-moz-window-inactive {
+            background-color: #e8e8e8;
+            border-right: 1px solid #929292;
+        }
+        
+        &[grippy="false"] {
+            min-width: 3px;
+        }
+        
+        &[grippy="true"] {
+            min-width: 6px;
+        }
+        
+    }
+    
+    &[aiosOrient="right"] #sidebar-splitter[orient="horizontal"] {
+        border-left: 1px solid #484848;
+        border-right: none;
+        
+        &:-moz-window-inactive {
+            border-left: 1px solid #929292;
+        }
+    }
+    /* @end */
+    
+    
+    /* @group Toolbarseparator auf der Toolbar und im Konfigurationsmodus */
+    #aios-toolbar toolbarseparator,
+    #aios-toolbar toolbarpaletteitem[id^="wrapper-separator"] {
+        margin: 0 1px;
+        border-left: 1px dotted #484848;
+    }
+    
+    #aios-toolbar[orient="vertical"] toolbarseparator,
+    #aios-toolbar[orient="vertical"] toolbarpaletteitem[id^="wrapper-separator"] {
+        margin: 4px 2px 3px 2px;
+        border-top: 1px dotted #484848;
+        border-bottom: none;
+    }
+    /* @end */
+
+}

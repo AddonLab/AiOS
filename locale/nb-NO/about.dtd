@@ -1,0 +1,51 @@
+<!ENTITY title "Om All-in-One Sidebar">
+<!ENTITY version "versjon">
+<!ENTITY settings "Innstillinger…">
+<!ENTITY close "Lukk">
+<!ENTITY tab.about "Om">
+<!ENTITY tab.contrib "Bidragsytere">
+<!ENTITY tab.trans "Oversettere">
+<!ENTITY create.desc "laget av Ingo Wennemaring, Hamburg [Tyskland]">
+<!ENTITY about1.name "Hjemmeside - masse informasjon på ett sted">
+<!ENTITY about2.name "Muligheter - alle mulighetene som All-in-One Sidebar har">
+<!ENTITY about3.name "OSP - ofte stilte spørsmål og svar">
+<!ENTITY about4.name "Kjente problemer - beskrivelse og feilsøking">
+<!ENTITY about5.name "Forum - diskusjon, feilrapporter og temafikser blant mange andre ting">
+<!ENTITY about6.name "Endringslogg - historie og endringer">
+<!ENTITY about7.name "To-do - planlagte muligheter og forbedringer">
+<!ENTITY contrib.desc "Jeg takker følgende utviklere for inspirasjon og kodebiter [alfabetisk rekkefølge]:">
+<!ENTITY contrib.thanks "Sist, men ikke minst vil jeg takke alle brukerne som har hjulpet med testing av prøveversjoner, feilrapportering i forumet, deling av ideer og forslag eller de som kun skrev en hyggelig kommentar. :-) Tusen takk skal du ha!">
+<!ENTITY trans.desc "All-in-One Sidebars oversettere [alfabetisk rekkefølge etter landskode]:">
+<!ENTITY trans.ar-SA.lang "Arabisk">
+<!ENTITY trans.be-BY.lang "Hviterussisk">
+<!ENTITY trans.cs-CZ.lang "Tjekkisk">
+<!ENTITY trans.da-DK.lang "Dansk">
+<!ENTITY trans.de-DE.lang "Tysk">
+<!ENTITY trans.el-GR.lang "Gresk">
+<!ENTITY trans.en-GB.lang "Engelsk (Storbritania)">
+<!ENTITY trans.en-US.lang "Engelsk (USA)">
+<!ENTITY trans.es-AR.lang "Spansk (Argentina)">
+<!ENTITY trans.es-ES.lang "Spansk (Spania)">
+<!ENTITY trans.et-EE.lang "Estisk">
+<!ENTITY trans.fi-FI.lang "Finsk">
+<!ENTITY trans.fr-FR.lang "Fransk">
+<!ENTITY trans.he-IL.lang "Hebraisk">
+<!ENTITY trans.hr-HR.lang "Kroatisk">
+<!ENTITY trans.hu-HU.lang "Ungarsk">
+<!ENTITY trans.it-IT.lang "Italiensk">
+<!ENTITY trans.ja-JP.lang "Japansk">
+<!ENTITY trans.ko-KR.lang "Koreansk">
+<!ENTITY trans.lt-LT.lang "Litauisk">
+<!ENTITY trans.nb-NO.lang "Norsk (Bokmål)">
+<!ENTITY trans.nl-NL.lang "Nederlandsk">
+<!ENTITY trans.pl-PL.lang "Polsk">
+<!ENTITY trans.pt-BR.lang "Portugesisk (Brasil)">
+<!ENTITY trans.pt-PT.lang "Portugesisk (Portugal)">
+<!ENTITY trans.ru-RU.lang "Russisk">
+<!ENTITY trans.sk-SK.lang "Slovensk">
+<!ENTITY trans.sv-SE.lang "Svensk">
+<!ENTITY trans.tr-TR.lang "Tyrkisk">
+<!ENTITY trans.uk-UA.lang "Ukrainsk">
+<!ENTITY trans.zh-CN.lang "Kinesisk (Forenklet)">
+<!ENTITY trans.zh-TW.lang "Kinesisk (Tradisjonelt)">
+<!ENTITY trans.thanks "Jeg takker selvfølgelig gjengen på BabelZilla.org for deres flotte arbeid!">

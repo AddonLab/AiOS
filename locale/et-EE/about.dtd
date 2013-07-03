@@ -1,0 +1,57 @@
+<!ENTITY title "Teave All-in-One-Sidebar\'i kohta">
+<!ENTITY version "versioon">
+<!ENTITY settings "Seaded…">
+<!ENTITY close "Sule">
+<!ENTITY tab.about "Teave">
+<!ENTITY tab.contrib "Panustanud isikud">
+<!ENTITY tab.trans "Tõlkijad">
+<!ENTITY about.desc "All-in-One-Sidebar võimaldab avada erinevaid aknaid külgpaanis ning nende vahel kiiresti vahetada. See tegi lõpu akende kaosele! Lisaks järjehoidjatele ja ajaloole saab külgpaanis avada näiteks allalaadimise dialooge, programmi lisasid ja muud.">
+<!ENTITY create.desc "loodud Ingo Wennenmaring\'u poolt [Hamburg, Saksamaa]">
+<!ENTITY about1.name "Koduleht - hulka infot ühes kohas">
+<!ENTITY about2.name "Võimalused - kõik All-in-One-Sidebar\'i võimalused">
+<!ENTITY about3.name "KKK - korduma kippuvad küsimused ja vastused">
+<!ENTITY about4.name "Teadaolevad probleemid - kirjeldused ja lahendused">
+<!ENTITY about5.name "Foorum - arutelud, veateated ja teemade parandused lisaks muudele asjadele">
+<!ENTITY about6.name "Muudatuste logi - ajalugu ja muudatused">
+<!ENTITY about7.name "Plaanid - plaanitavad parandused ja täiendused">
+<!ENTITY contrib.desc "Ma tänan järgnevaid arendajaid inspiratsiooni ja koodikatkete eest [tähestikulises järjekorras]:">
+<!ENTITY contrib.thanks "Tänan ka kõiki kasutajaid, kes testisid arendusversiooni, teavitasid vigadest, jagasid oma ideid ja soovitusi või kes lihtsalt kirjutasid kenasid kommentaare. :-) Suur tänu kõigile!">
+<!ENTITY trans.desc "All-in-One-Sidebar\'i tõlked valmistasid [keelekoodi tähestikulises järjekorras]:">
+<!ENTITY trans.ar-SA.lang "Araabia">
+<!ENTITY trans.be-BY.lang "Valgevene">
+<!ENTITY trans.cs-CZ.lang "Tšehhi">
+<!ENTITY trans.da-DK.lang "Taani">
+<!ENTITY trans.de-DE.lang "Saksa">
+<!ENTITY trans.el-GR.lang "Kreeka">
+<!ENTITY trans.en-GB.lang "Inglise (UK)">
+<!ENTITY trans.en-US.lang "Inglise (USA)">
+<!ENTITY trans.es-AR.lang "Hispaania (Argentiina)">
+<!ENTITY trans.es-ES.lang "Hispaania">
+<!ENTITY trans.et-EE.lang "Eesti">
+<!ENTITY trans.fi-FI.lang "Soome">
+<!ENTITY trans.fr-FR.lang "Prantsuse">
+<!ENTITY trans.he-IL.lang "Heebrea">
+<!ENTITY trans.hr-HR.lang "Horvaadi">
+<!ENTITY trans.hu-HU.lang "Ungari">
+<!ENTITY trans.hy-AM.lang "Armeenia">
+<!ENTITY trans.it-IT.lang "Itaalia">
+<!ENTITY trans.ja-JP.lang "Jaapani">
+<!ENTITY trans.ko-KR.lang "Korea">
+<!ENTITY trans.lt-LT.lang "Leedu">
+<!ENTITY trans.nb-NO.lang "Norra (Bokmål)">
+<!ENTITY trans.nl-NL.lang "Hollandi">
+<!ENTITY trans.pl-PL.lang "Poola">
+<!ENTITY trans.pt-BR.lang "Portugali (Brasiilia)">
+<!ENTITY trans.pt-PT.lang "Portugali">
+<!ENTITY trans.ro-RO.lang "Rumeenia">
+<!ENTITY trans.ru-RU.lang "Vene">
+<!ENTITY trans.sk-SK.lang "Slovaki">
+<!ENTITY trans.sq-AL.lang "Albaania">
+<!ENTITY trans.sr-RS.lang "Serbia (kirillitsas)">
+<!ENTITY trans.sv-SE.lang "Rootsi">
+<!ENTITY trans.tr-TR.lang "Türgi">
+<!ENTITY trans.uk-UA.lang "Ukraina">
+<!ENTITY trans.vi-VN.lang "Vietnami">
+<!ENTITY trans.zh-CN.lang "Hiina (lihtsustatud)">
+<!ENTITY trans.zh-TW.lang "Hiina (traditsiooniline)">
+<!ENTITY trans.thanks "Samuti tänan BabelZilla.org meeskonda nende suurepärase töö eest!">

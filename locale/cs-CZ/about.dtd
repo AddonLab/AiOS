@@ -1,0 +1,48 @@
+<!ENTITY title "O rozšíření „All-in-One Sidebar“">
+<!ENTITY version "verze">
+<!ENTITY settings "Možnosti…">
+<!ENTITY close "Zavřít">
+<!ENTITY tab.about "Obecně">
+<!ENTITY tab.contrib "Vývoj">
+<!ENTITY tab.trans "Lokalizace">
+<!ENTITY create.desc "vytvořil Ingo Wennemaring v Hamburku [Německo]">
+<!ENTITY about1.name "Domovská stránkka - mnoho informací na jednom místě">
+<!ENTITY about2.name "Vlastnosti - popis vlastností rozšíření All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - často kladené dotazy a odpovědi">
+<!ENTITY about4.name "Zjištěné problémy - popis zjištěných problémů a jejich řešení">
+<!ENTITY about5.name "Fórum - diskuze, hlášení chyb, atd.">
+<!ENTITY about6.name "Přehled změn - co, kdy a jak se změnilo v průběhu vývoje">
+<!ENTITY about7.name "Úkolník - seznam plánovaných dovedností a vylepšení">
+<!ENTITY contrib.desc "Děkuji těmto vývojářům za inspiraci a ústřižky kódu (abecední řazení):">
+<!ENTITY contrib.thanks "Děkuji i všem uživatelům, kteří pomáhali s testováním vývojových verzí, odhalovali jejich chyby, sdíleli své nápady či jen do fóra psali komentáře :-). Děkuji vám všem!">
+<!ENTITY trans.desc "Děkuji těmto lokalizátorům (abecední řazení dle zkráceného značení jazyka):">
+<!ENTITY trans.cs-CZ.lang "Čeština">
+<!ENTITY trans.da-DK.lang "Dánština">
+<!ENTITY trans.de-DE.lang "Němčina">
+<!ENTITY trans.el-GR.lang "Řečtina">
+<!ENTITY trans.en-GB.lang "Angličtina (Velká Británie)">
+<!ENTITY trans.en-US.lang "Angličtina (Spojené Státy Americké)">
+<!ENTITY trans.es-AR.lang "Španělština (Argentina)">
+<!ENTITY trans.es-ES.lang "Spanělština (Španělsko)">
+<!ENTITY trans.fi-FI.lang "Finština">
+<!ENTITY trans.fr-FR.lang "Francouzština">
+<!ENTITY trans.he-IL.lang "Hebrejština">
+<!ENTITY trans.hr-HR.lang "Chorvatština">
+<!ENTITY trans.hu-HU.lang "Maďarština">
+<!ENTITY trans.it-IT.lang "Italština">
+<!ENTITY trans.ja-JP.lang "Japonština">
+<!ENTITY trans.ko-KR.lang "Korejština">
+<!ENTITY trans.lt-LT.lang "Litevština">
+<!ENTITY trans.nb-NO.lang "Norština">
+<!ENTITY trans.nl-NL.lang "Nizozemština">
+<!ENTITY trans.pl-PL.lang "Polština">
+<!ENTITY trans.pt-BR.lang "Portugalština (Brazílie)">
+<!ENTITY trans.pt-PT.lang "Portugalština (Portugalsko)">
+<!ENTITY trans.ru-RU.lang "Ruština">
+<!ENTITY trans.sk-SK.lang "Slovenština">
+<!ENTITY trans.sv-SE.lang "Švédština">
+<!ENTITY trans.tr-TR.lang "Turečtina">
+<!ENTITY trans.uk-UA.lang "Ukrainian">
+<!ENTITY trans.zh-CN.lang "Čínština (zjednodušená)">
+<!ENTITY trans.zh-TW.lang "Čínština (tradiční)">
+<!ENTITY trans.thanks "Děkuji samozřejmě i týmu překladatelů z BabelZilla.org za jejich skvělou práci!">

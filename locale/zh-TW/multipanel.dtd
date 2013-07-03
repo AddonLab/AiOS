@@ -1,0 +1,17 @@
+<!ENTITY page.label "頁面">
+<!ENTITY page.tooltip "將目前瀏覽的網頁內容開啟於側邊欄中">
+<!ENTITY page.ssr.label "小螢幕模式">
+<!ENTITY page.ssr100.label "小螢幕模式可以重新編排網頁以適合在側邊欄中顯示。">
+<!ENTITY about.label "關於">
+<!ENTITY about.tooltip "顯示關於此瀏覽器的其他資訊">
+<!ENTITY about.config.tooltip "開啟「可檢視或設定多種的組態變數的介面」">
+<!ENTITY about.plugins.tooltip "顯示所有已安裝的 Plug-ins 資訊">
+<!ENTITY about.cache.tooltip "顯示記憶體與磁碟的快取服務(Cache Service)資訊">
+<!ENTITY about.cache.disk.tooltip "顯示磁碟的 individual entries">
+<!ENTITY about.cache.memory.tooltip "顯示記憶體的 individual entries">
+<!ENTITY about.buildconfig.tooltip "顯示目前版本用來編譯的引數及選項">
+<!ENTITY about.about.tooltip "顯示版本與版權資訊">
+<!ENTITY about.credits.tooltip "顯示 Mozilla 的貢獻者列表">
+<!ENTITY about.license.tooltip "顯示 Mozilla Public License (MPL)">
+<!ENTITY about.mozilla.tooltip "顯示來自 the fictional Book of Mozilla 的頁面">
+<!ENTITY tools.remlast.label "記住最後顯示的內容">

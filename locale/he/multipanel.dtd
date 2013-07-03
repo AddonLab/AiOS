@@ -1,0 +1,21 @@
+<!ENTITY page.label "עמוד">
+<!ENTITY page.tooltip "פתיחת אתר האינטרנט בתוך הלוח">
+<!ENTITY page.ssr.label "יצירת תצוגה קטנה למסך">
+<!ENTITY page.ssr100.label "התאמה לרוחב סרגל-הצד">
+<!ENTITY about.label "אודות:">
+<!ENTITY about.tooltip "הצגת מידע מגוון על הדפדפן">
+<!ENTITY about.config.tooltip "הצגת ממשק כדי לראות ולהגדיר מגוון רחב של משתני תצורה">
+<!ENTITY about.plugins.tooltip "הצגת מידע על כל התוספות המותקנות">
+<!ENTITY about.support.tooltip "הצגת יסודות היישומים, הרחבות והעדפות מותאמות">
+<!ENTITY about.cache.tooltip "הצגת מידע לגביי שירות המטמון של הזיכרון ומטמון הדיסק יחד">
+<!ENTITY about.cache.disk.tooltip "הצגת ערכים נפרדים בדיסק">
+<!ENTITY about.cache.memory.tooltip "הצגת ערכים נפרדים בזיכרון">
+<!ENTITY about.cache.offline.tooltip "רשימת ערכי המטמון שלא מקוונים">
+<!ENTITY about.crashes.tooltip "הצגת דיווחי התרסקות שנטענו">
+<!ENTITY about.buildconfig.tooltip "הצגת משתנים ואפשרויות המשמשים לההדיר את הגרסה שבשימוש">
+<!ENTITY about.about.tooltip "הצגת מידע על הגרסה, ומידע על זכויות היוצרים">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "הצגת רשימה של תורמים למוזילה">
+<!ENTITY about.license.tooltip "הצגת את הרישיון הציבורי של מוזילה">
+<!ENTITY about.mozilla.tooltip "הצגת העמוד הבדיוני מספר מוזילה">
+<!ENTITY tools.remlast.label "זכור את התוכן המוצג אחרון">

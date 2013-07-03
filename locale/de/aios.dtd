@@ -1,0 +1,52 @@
+<!ENTITY loading.label "lade Paneele…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar Einstellungen…">
+<!ENTITY menu.togglebar.label "Sidebar-Umschalter">
+<!ENTITY menu.grippy.label "Sidebar-Griff">
+<!ENTITY toolbar.name "All-in-One-Sidebar-Symbolleiste">
+<!ENTITY sbhtoolbar.name "Sidebartitel-Symbolleiste">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Elemente der All-in-One Sidebar anzeigen/verbergen">
+<!ENTITY button.switch.tooltip1 "Sidebar und Symbolleiste öffnen/schließen">
+<!ENTITY button.switch.tooltip2 "Symbolleiste anzeigen/verbergen">
+<!ENTITY button.switch.tooltip3 "Sidebar öffnen/schließen">
+<!ENTITY sidebar.open.label "Sidebar öffnen">
+<!ENTITY sidebar.close.label "Sidebar schließen">
+<!ENTITY sidebar.width.min "Minimalbreite">
+<!ENTITY sidebar.width.def "Standardbreite">
+<!ENTITY sidebar.width.max "Maximalbreite">
+<!ENTITY button.menu.label "Sidebar-Paneele">
+<!ENTITY button.menu.tooltip "Alle verfügbaren Sidebar-Paneele">
+<!ENTITY button.toolbar.label "AiOS-Symbolleiste">
+<!ENTITY button.toolbar.tooltip "AiOS-Symbolleiste anzeigen/verbergen">
+<!ENTITY button.paneltab.label "PanelTab">
+<!ENTITY button.paneltab.tooltip1 "Inhalt des Tabs in der Sidebar öffnen">
+<!ENTITY button.paneltab.tooltip2 "Inhalt der Sidebar in einem neuen Tab öffnen">
+<!ENTITY button.paneltab.tooltip3 "Inhalt der Sidebar in einem Fenster öffnen">
+<!ENTITY button.paneltab.menu1.label "Tab als Sidebar öffnen">
+<!ENTITY button.paneltab.menu2.label "Sidebar als Tab öffnen">
+<!ENTITY button.autohide.label "Sidebar-Automatik">
+<!ENTITY button.autohide.tooltip "Sidebar automatisch ein- bzw. ausblenden">
+<!ENTITY button.tooltip.sidebar "In der Sidebar öffnen">
+<!ENTITY button.tooltip.window "In neuem Fenster öffnen">
+<!ENTITY button.tooltip.tab "In neuem Tab öffnen">
+<!ENTITY button.addons.label "Add-ons">
+<!ENTITY button.addons.tooltip "Zeigt die installierten Erweiterungen und Themes an">
+<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.tooltip "Zeigt Webseiten und Browser-Informationen an">
+<!ENTITY button.pageinfo.tooltip "Zeigt verschiedene Seiteninformationen an">
+<!ENTITY button.console.label "Fehler-Konsole">
+<!ENTITY button.console.tooltip "Öffnet die Fehler-Konsole, die Probleme im Quellcode dokumentiert">
+<!ENTITY keys.modifiers "accel alt">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "links neben der Sidebar">
+<!ENTITY toolbar.pos.sidebarright.label "rechts neben der Sidebar">
+<!ENTITY toolbar.pos.sidebartop.label "über der Sidebar">
+<!ENTITY toolbar.pos.headerbottom.label "unter der Sidebar-Kopfleiste">
+<!ENTITY toolbar.pos.sidebarbottom.label "unter der Sidebar">
+<!ENTITY toolbar.mode.flexbuttons.label "flexible Schaltflächen">

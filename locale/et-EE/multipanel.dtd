@@ -1,0 +1,21 @@
+<!ENTITY page.label "Lehekülg">
+<!ENTITY page.tooltip "Ava veebileht selles paanis">
+<!ENTITY page.ssr.label "Renderdus väiksele ekraanile">
+<!ENTITY page.ssr100.label "Kohanda külgpaani laiusele">
+<!ENTITY about.label "teave:">
+<!ENTITY about.tooltip "Näitab infot brauseri kohta">
+<!ENTITY about.config.tooltip "Näitab seadete vaatamise ja muutmise keskkonda">
+<!ENTITY about.plugins.tooltip "Näitab infot installitud pluginate kohta">
+<!ENTITY about.support.tooltip "Näita rakenduse põhiomadusi, laiendusi ja muudetud seadeid">
+<!ENTITY about.cache.tooltip "Näitab infot mälus ja kettal oleva vahemälu kohta">
+<!ENTITY about.cache.disk.tooltip "Näitab kettal olevaid üksikkirjeid">
+<!ENTITY about.cache.memory.tooltip "Näitab vahemälus olevaid üksikkirjeid">
+<!ENTITY about.cache.offline.tooltip "Loetle lokaalse vahemälu kirjed">
+<!ENTITY about.crashes.tooltip "Näita salvestatud kirjeid kokkujooksmiste kohta">
+<!ENTITY about.buildconfig.tooltip "Näitab kasutusel oleva versiooni kompileerimisel kasutatud väärtusi ja seadeid">
+<!ENTITY about.about.tooltip "Näitab infot versiooni ja autorikaitse kohta">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Näitab Mozilla arendamisse panustanute nimekirja">
+<!ENTITY about.license.tooltip "Näitab Mozilla Avalikku Litsentsi">
+<!ENTITY about.mozilla.tooltip "Näitab lehte kujuteldavast Mozilla raamatust">
+<!ENTITY tools.remlast.label "Jäta viimati näidatud sisu meelde">

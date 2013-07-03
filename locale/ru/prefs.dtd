@@ -1,0 +1,93 @@
+<!ENTITY title "Настройки All-in-One Sidebar">
+<!ENTITY restart "Изменения требуют перезапуска браузера">
+<!ENTITY settings "Настройки">
+<!ENTITY settings.default "Восстановить настройки по умолчанию…">
+<!ENTITY settings.advanced "Расширенный режим">
+<!ENTITY settings.import "Импорт настроек…">
+<!ENTITY settings.export "Экспорт настроек…">
+<!ENTITY settings.copy "Копировать настройки в буфер обмена">
+<!ENTITY apply "Применить">
+<!ENTITY gen.column1 "160">
+<!ENTITY tab.gen "Общие">
+<!ENTITY tab.gen.appearance "Внешний вид">
+<!ENTITY tab.gen.behavior "Поведение">
+<!ENTITY tab.gen.fullscreen "Полноэкранный режим">
+<!ENTITY tab.gen.special "Специальные возможности">
+<!ENTITY tab.panels "Панели">
+<!ENTITY tab.panels.places "Закладки/Журнал">
+<!ENTITY tab.panels.other1 "Дополнительно I">
+<!ENTITY tab.panels.other2 "Дополнительно II">
+<!ENTITY tab.panels.paneltab "Панель вкладок">
+<!ENTITY tab.menus "Меню">
+<!ENTITY tab.menus.sidebar "Боковая панель">
+<!ENTITY tab.keys "Горячие клавиши">
+<!ENTITY tab.about "Информация/Справка">
+<!ENTITY gen.orient.caption "Расположение боковой панели">
+<!ENTITY gen.orient.label "Открывать боковую панель">
+<!ENTITY gen.orient.left "слева">
+<!ENTITY gen.orient.right "справа">
+<!ENTITY gen.width.caption "Ширина боковой панели">
+<!ENTITY gen.width.px "пикселы">
+<!ENTITY gen.width.perc "проценты">
+<!ENTITY gen.width.current "текущая ширина">
+<!ENTITY gen.width.current.tip "Применить текущую ширину боковой панели">
+<!ENTITY gen.width.min.hint "Shift+двойной клик на заголовке боковой панели">
+<!ENTITY gen.width.def.hint "Двойной клик на заголовке боковой панели">
+<!ENTITY gen.width.max.hint "Ctrl+Двойной клик или Alt+Двойной клик на заголовке боковой панели">
+<!ENTITY gen.init.caption "Поведение боковой панели при загрузке браузера">
+<!ENTITY gen.init.label "Боковая панель">
+<!ENTITY gen.init.toolbar.label "Панель инструментов">
+<!ENTITY gen.init.toolbar.show.label "Показывать панель инструментов">
+<!ENTITY gen.init.toolbar.hide.label "Прятать панель инструментов">
+<!ENTITY gen.init.switch.show.label "Показывать переключатель боковой панели">
+<!ENTITY gen.init.switch.hide.label "Прятать переключатель боковой панели">
+<!ENTITY gen.init.mode1 "Запоминать положение боковой панели">
+<!ENTITY gen.init.sidebar "Открытие боковой панели (Переключатель боковой панели, кнопка, горячая клавиша)">
+<!ENTITY gen.init.sidebar.restore "Восстанавливать последнюю использованную панель">
+<!ENTITY gen.switch.autoshow "Автоматически открывать/закрывать боковую панель (контакт курсором мыши вместо клика по переключателю)">
+<!ENTITY gen.switch.onlymax "Только когда браузер работает в полноэкранном режиме или окно максимизированно">
+<!ENTITY gen.switch.delay "Задержка">
+<!ENTITY gen.switch.delayUnit "миллисекунды">
+<!ENTITY gen.switch.hide "Закрывать боковую панель, когда курсор мыши…">
+<!ENTITY gen.switch.hideBar "возвращается на веб-страницу">
+<!ENTITY gen.switch.hidePage "удерживается на переключателе боковой панели">
+<!ENTITY gen.switch.thin "Использовать сжатый переключатель боковой панели">
+<!ENTITY gen.switch.width "Ширина переключателя боковой панели">
+<!ENTITY gen.switch.twidth "Ширина сжатого переключателя боковой панели">
+<!ENTITY cmode.caption "Переключение боковой панели">
+<!ENTITY cmode.desc "Настройка элементов, с помощью которых может быть открыта/закрыта боковая панель.">
+<!ENTITY cmode.key.label "Горячая клавиша (F4)">
+<!ENTITY cmode.tbb.label "Кнопка AiOS">
+<!ENTITY cmode.close.label "Кнопка “Закрыть”">
+<!ENTITY cmode.mode1.label "Открывать/Закрывать только боковую панель">
+<!ENTITY cmode.mode2.label "Открывать/Закрывать боковую панель и боковую панель инструментов">
+<!ENTITY cmode.mode3.label "Открывать/Закрывать боковую панель, панель инструментов и переключатель панели">
+<!ENTITY cmode.mode4.label "Поведение как в браузере Opera">
+<!ENTITY gen.fs.off "Восстанавливать положение при выходе из полноэкранного режима">
+<!ENTITY keyconfig.keyid "Имя">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Применить">
+<!ENTITY keyconfig.disable "Отключить">
+<!ENTITY keyconfig.reset "Сбросить">
+<!ENTITY keyconfig.warn "Изменения затрагивают только новые окна">
+<!ENTITY keyconfig.onreset "Требуется перезагрузка браузера">
+<!ENTITY keyconfig.unrecognized "Неопознанный ($1)">
+<!ENTITY keyconfig.used "Этот ключ уже используется: \\n\\n\\t$1\\n\\nХотя, это может всё же работать.">
+<!ENTITY menus.sidebar.desc "Настройка состава меню “Вид &gt; Боковая панель” и выпадающего меню кнопок боковой панели.">
+<!ENTITY menus.icons.label "Показывать значки">
+<!ENTITY menus.entries.label "Показывать строки">
+<!ENTITY menus.sidebar.entrydeac "Отключить выделение активной боковой панели">
+<!ENTITY misc.enablesidebar.label "Открывать в боковой панели">
+<!ENTITY misc.layout.label "Оптимизация для боковой панели">
+<!ENTITY misc.dm.overlay "Изменение параметров поведения боковой панели">
+<!ENTITY misc.dm.autoopen.label "Показывать боковую панель с загрузками, когда загружается файл">
+<!ENTITY misc.dm.autoclose.label "Закрывать её, когда все загрузки окончены">
+<!ENTITY misc.colors.label "Использовать цветные фоны, основанные на текущем состоянии">
+<!ENTITY misc.count.label "Показывать число элементов">
+<!ENTITY misc.enablelink.tooltip "Нажмите здесь, чтобы получить больше информации (ссылка на FAQ)">
+<!ENTITY misc.paneltab.reverse "Менять местами действие левой и средней кнопок мыши">
+<!ENTITY misc.bm.paneltab.desc "Кнопка “Открыть во вкладке” может открывать в новой вкладке Менеджер закладок вместо списка закладок.">
+<!ENTITY misc.bm.paneltab "Открывать в новой вкладке Менеджер закладок">
+<!ENTITY special.collapsing.caption "Свёртывание боковой панели">
+<!ENTITY special.collapsing.label "Использовать свёртывание боковой панели">
+<!ENTITY special.collapsing.desc "Боковая панели может свёртываться вместо того, чтобы действительно закрываться. Преимущество такого поведения в том, что содержимое боковой панели не загружается заново после её повторного открытия.">

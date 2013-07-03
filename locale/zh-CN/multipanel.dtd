@@ -1,0 +1,21 @@
+<!ENTITY page.label "页面">
+<!ENTITY page.tooltip "在侧栏打开网页">
+<!ENTITY page.ssr.label "小屏幕显示">
+<!ENTITY page.ssr100.label "适合侧栏宽度">
+<!ENTITY about.label "关于：">
+<!ENTITY about.tooltip "显示关于浏览器的不同信息">
+<!ENTITY about.config.tooltip "显示用来查看和设置更多变量的配置界面(about:config)">
+<!ENTITY about.plugins.tooltip "显示安装的所有插件信息(about:plugins)">
+<!ENTITY about.support.tooltip "显示程序基本项目、扩展以及修改的选项">
+<!ENTITY about.cache.tooltip "显示内存和磁盘的缓存信息(about:cache)">
+<!ENTITY about.cache.disk.tooltip "仅显示磁盘上的缓存(about:cache?device=disk)">
+<!ENTITY about.cache.memory.tooltip "仅显示磁盘上的缓存(about:cache?device=memory)">
+<!ENTITY about.cache.offline.tooltip "列出离线缓存记录">
+<!ENTITY about.crashes.tooltip "显示已提交的崩溃报告">
+<!ENTITY about.buildconfig.tooltip "显示使用的编译参数和选项(about:buildconfig)">
+<!ENTITY about.about.tooltip "显示版本与版权信息(about:)">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "显示 Mozilla 贡献者名单(about:credits)">
+<!ENTITY about.license.tooltip "显示 Mozilla Public License (about:license)">
+<!ENTITY about.mozilla.tooltip "显示虚构的《Mozilla 之书》中的一页(about:mozilla)">
+<!ENTITY tools.remlast.label "记住上一次显示的内容">

@@ -1,0 +1,52 @@
+<!ENTITY loading.label "cargando panel…">
+<!ENTITY menu.prefs.label "Opciones de All-in-One Sidebar…">
+<!ENTITY menu.togglebar.label "Selector de Barra Lateral">
+<!ENTITY menu.grippy.label "Panel Lateral Grippy">
+<!ENTITY toolbar.name "Barra de Herramientas de All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "Encabezado de la Barra Lateral de Herramientas">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Intercambia los elementos controlados por All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Alternar entre Barra Lateral y Barra de Herramientas">
+<!ENTITY button.switch.tooltip2 "Alternar Barra de Herramientas">
+<!ENTITY button.switch.tooltip3 "Alternar Barra Lateral">
+<!ENTITY sidebar.open.label "Abrir Barra Lateral">
+<!ENTITY sidebar.close.label "Cerrar Barra Lateral">
+<!ENTITY sidebar.width.min "Ancho Mínimo">
+<!ENTITY sidebar.width.def "Ancho Normal">
+<!ENTITY sidebar.width.max "Ancho Máximo">
+<!ENTITY button.menu.label "Paneles de Barra Lateral">
+<!ENTITY button.menu.tooltip "Todos los Paneles de Barra Lateral disponibles">
+<!ENTITY button.toolbar.label "AiOS - Barra de Herramientas">
+<!ENTITY button.toolbar.tooltip "Alternar AiOS - Barra de Herramientas">
+<!ENTITY button.paneltab.label "Panel de Pestañas">
+<!ENTITY button.paneltab.tooltip1 "Abrir el Contenido de la Pestaña en la Barra Lateral">
+<!ENTITY button.paneltab.tooltip2 "Abrir el Contenido de la Barra Lateral en una Nueva Pestaña">
+<!ENTITY button.paneltab.tooltip3 "Abrir el Contenodo de la Barra Lateral en una Ventana">
+<!ENTITY button.paneltab.menu1.label "Abrir la Pestaña en la Barra Lateral">
+<!ENTITY button.paneltab.menu2.label "Abrir la Barra Lateral en una Pestaña">
+<!ENTITY button.autohide.label "Barra Lateral Automática">
+<!ENTITY button.autohide.tooltip "Mostrar/esconder la Barra Lateral Automáticamente">
+<!ENTITY button.tooltip.sidebar "Abrir en la Barra Lateral">
+<!ENTITY button.tooltip.window "Abrir en una Ventana">
+<!ENTITY button.tooltip.tab "Abrir en una Pestaña Nueva">
+<!ENTITY button.addons.label "Agregados">
+<!ENTITY button.addons.tooltip "Mostrar las extensiones y temas instalados">
+<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.tooltip "Mostrar por ejemplo un sitio web, el código fuente y la información del navegador">
+<!ENTITY button.pageinfo.tooltip "Ver informaciones, Formularios, Enlaces, Contenido y Seguridad">
+<!ENTITY button.console.label "Consola de Errores">
+<!ENTITY button.console.tooltip "Abrir la Consola de Errores, que nos muestra los problemas con el código fuente">
+<!ENTITY keys.modifiers "acelerar cambio">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "A la izquerda del Barra Lateral">
+<!ENTITY toolbar.pos.sidebarright.label "A la derecha del Barra Lateral">
+<!ENTITY toolbar.pos.sidebartop.label "Encima del Barra Lateral">
+<!ENTITY toolbar.pos.headerbottom.label "Debajo del encabezado del Barra Lateral">
+<!ENTITY toolbar.pos.sidebarbottom.label "Debajo del Barra Lateral">
+<!ENTITY toolbar.mode.flexbuttons.label "Botones Flexibles">

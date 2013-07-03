@@ -1,0 +1,51 @@
+<!ENTITY loading.label "تحميل اللوحة…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar خيارات…">
+<!ENTITY menu.togglebar.label "تحويل الشريط الجانبي">
+<!ENTITY toolbar.name "All-in-One Sidebar شريط أدوات">
+<!ENTITY sbhtoolbar.name "Sidebarheader شريط أدوات">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "تفعيل العناصر التي يتحكم بها All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "تفعيل الشريط الجانبي وشريط الأدوات">
+<!ENTITY button.switch.tooltip2 "تفعيل شريط الأدوات">
+<!ENTITY button.switch.tooltip3 "تفعيل الشريط الجانبي">
+<!ENTITY sidebar.open.label "فتح الشريط الجانبي">
+<!ENTITY sidebar.close.label "إغلاق الشريط الجانبي">
+<!ENTITY sidebar.width.min "أدنى عرض">
+<!ENTITY sidebar.width.def "عرض متوسط">
+<!ENTITY sidebar.width.max "أقصى عرض">
+<!ENTITY button.menu.label "لوحات الشريط الجانبي">
+<!ENTITY button.menu.tooltip "جميع لوحات الشريط الجانبي المتوفرة">
+<!ENTITY button.toolbar.label "AiOS-شريط أدوات">
+<!ENTITY button.toolbar.tooltip "تفعيل AiOS-شريط أدوات">
+<!ENTITY button.paneltab.label "تبويب اللوحة">
+<!ENTITY button.paneltab.tooltip1 "فتح محتوايت التبويب في الشريط الجانبي">
+<!ENTITY button.paneltab.tooltip2 "فتح محتويات الشريط الجانبي في تبويب جديد">
+<!ENTITY button.paneltab.tooltip3 "فتح محتويات الشريط الجانبي في نافذة جديدة">
+<!ENTITY button.paneltab.menu1.label "فتح تبويب في الشريط الجانبي">
+<!ENTITY button.paneltab.menu2.label "فتح شريط جانبي في تبويب">
+<!ENTITY button.autohide.label "شريط جانبي آلي">
+<!ENTITY button.autohide.tooltip "تفعيل شريط جانبي آلي">
+<!ENTITY button.tooltip.sidebar "فتح في الشريط الجانبي">
+<!ENTITY button.tooltip.window "فتح في نافذة">
+<!ENTITY button.tooltip.tab "فتح في تبويب جديد">
+<!ENTITY button.addons.label "إضافات">
+<!ENTITY button.addons.tooltip "عرض السمات والإضافات المثبتة">
+<!ENTITY button.multipanel.label "لوحة ثنائية">
+<!ENTITY button.multipanel.tooltip "عرض مثال صفحة, المصدر, ومعلومات المتصفح">
+<!ENTITY button.pageinfo.tooltip "عرض معلومات واسعة عن صفحة ويب">
+<!ENTITY button.console.label "لوحة الأخطاء">
+<!ENTITY button.console.tooltip "فتح لوحة الأخطاء, لتتبع أخطاء المصدر في الصفحة">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "يساراً بمحاذاة شريط الأدوات">
+<!ENTITY toolbar.pos.sidebarright.label "يميناً بمحازاة الشريط الجانبي">
+<!ENTITY toolbar.pos.sidebartop.label "أعلى الشريط الجانبي">
+<!ENTITY toolbar.pos.headerbottom.label "أسفل هامش الشريط الجانبي">
+<!ENTITY toolbar.pos.sidebarbottom.label "أسفل الشريط الجانبي">
+<!ENTITY toolbar.mode.flexbuttons.label "أزرار مرنة">

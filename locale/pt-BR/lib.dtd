@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Clique esquerdo">
+<!ENTITY rightclick "Clique direito">
+<!ENTITY doubleclick "Duplo-clique">
+<!ENTITY middleclick "Clique com o botão do meio">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Ferramentas">
+<!ENTITY closeFolder.label "Fechar todas as pastas">
+<!ENTITY show.closeFolder.label "Botão 'Fechar todas as pastas'">
+<!ENTITY enable.autoClose.label "Fechar automaticamente outras pastas">
+<!ENTITY enable.scrollToFolder.label "Rolar automaticamente para pasta selecionada">
+<!ENTITY enable.rememberFolder.label "Lembrar e focar última pasta selecionada">

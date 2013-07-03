@@ -1,0 +1,93 @@
+<!ENTITY title "Impostazioni di All-in-One Sidebar">
+<!ENTITY restart "Riavviare Firefox per rendere effettive le modifiche">
+<!ENTITY settings "Impostazioni">
+<!ENTITY settings.default "Ripristina predefinite">
+<!ENTITY settings.advanced "Avanzate">
+<!ENTITY settings.import "Importale da file txt">
+<!ENTITY settings.export "Esportale in file txt">
+<!ENTITY settings.copy "Copiale negli appunti">
+<!ENTITY apply "Applica">
+<!ENTITY gen.column1 "210">
+<!ENTITY tab.gen "Generali">
+<!ENTITY tab.gen.appearance "Aspetto">
+<!ENTITY tab.gen.behavior "Comportamento">
+<!ENTITY tab.gen.fullscreen "Modalità &apos;a tutto schermo&apos;">
+<!ENTITY tab.gen.special "Speciale">
+<!ENTITY tab.panels "Pannelli">
+<!ENTITY tab.panels.places "Segnalibri/Cronologia">
+<!ENTITY tab.panels.other1 "Varie I">
+<!ENTITY tab.panels.other2 "Varie II">
+<!ENTITY tab.panels.paneltab "Pannelli">
+<!ENTITY tab.menus "Menu">
+<!ENTITY tab.menus.sidebar "Barra laterale">
+<!ENTITY tab.keys "Scorciatoie da tastiera">
+<!ENTITY tab.about "Informazioni/Contenuti guida">
+<!ENTITY gen.orient.caption "Orientamento">
+<!ENTITY gen.orient.label "Posiziona la barra laterale nella">
+<!ENTITY gen.orient.left "parte sinistra della finestra">
+<!ENTITY gen.orient.right "parte destra della finestra">
+<!ENTITY gen.width.caption "Dimensione">
+<!ENTITY gen.width.px "pixel">
+<!ENTITY gen.width.perc "percentuale">
+<!ENTITY gen.width.current "larghezza attuale">
+<!ENTITY gen.width.current.tip "Applica la larghezza attuale della barra laterale">
+<!ENTITY gen.width.min.hint "[Maiusc+doppio clic] sul titolo della barra laterale">
+<!ENTITY gen.width.def.hint "[Doppio clic] sul titolo della barra laterale">
+<!ENTITY gen.width.max.hint "[Ctrl+doppio clic] oppure [Alt+doppio clic] sul titolo della barra laterale">
+<!ENTITY gen.init.caption "All&apos;avvio del browser">
+<!ENTITY gen.init.label "Barra laterale">
+<!ENTITY gen.init.toolbar.label "Barra degli strumenti">
+<!ENTITY gen.init.toolbar.show.label "Mostra la barra degli strumenti">
+<!ENTITY gen.init.toolbar.hide.label "Nascondi la barra degli strumenti">
+<!ENTITY gen.init.switch.show.label "Mostra il cambiamento della barra laterale">
+<!ENTITY gen.init.switch.hide.label "Nascondi il cambiamento della barra laterale">
+<!ENTITY gen.init.mode1 "Ripristina l&apos;ultimo stato memorizzato">
+<!ENTITY gen.init.sidebar "Apertura della barra laterale (bordo cliccabile, pulsante di scambio barra, scorciatoia)">
+<!ENTITY gen.init.sidebar.restore "Ripristina l&apos;ultimo pannello memorizzato">
+<!ENTITY gen.switch.autoshow "Mostra/nascondi automaticamente la barra laterale (contatto del mouse invece del clic del mouse)">
+<!ENTITY gen.switch.onlymax "solo se il browser è ingrandito o in modalità a pieno schermo">
+<!ENTITY gen.switch.delay "Ritardo">
+<!ENTITY gen.switch.delayUnit "millisecondi">
+<!ENTITY gen.switch.hide "Nascondi la barra laterale se il cursore del mouse">
+<!ENTITY gen.switch.hideBar "viene rispostato nella pagina web">
+<!ENTITY gen.switch.hidePage "viene mantenuto sul bordo cliccabile della barra laterale">
+<!ENTITY gen.switch.thin "Attiva il bordo cliccabile sottile della barra laterale">
+<!ENTITY gen.switch.width "Larghezza del bordo cliccabile della barra laterale">
+<!ENTITY gen.switch.twidth "Larghezza del bordo cliccabile sottile della barra laterale">
+<!ENTITY cmode.caption "Attivazione/Disattivazione della barra laterale">
+<!ENTITY cmode.desc "Selezionare quali elementi dovrebbero essere influenzati aprendo o chiudendo la barra laterale con differenti metodi">
+<!ENTITY cmode.key.label "Tasto (F4)">
+<!ENTITY cmode.tbb.label "Pulsante AiOS">
+<!ENTITY cmode.close.label "Pulsante per chiudere">
+<!ENTITY cmode.mode1.label "Solo la barra laterale">
+<!ENTITY cmode.mode2.label "Barra laterale e barra degli strumenti">
+<!ENTITY cmode.mode3.label "Barra laterale, barra degli strumenti e scambio della barra laterale">
+<!ENTITY cmode.mode4.label "Comportamento di Opera">
+<!ENTITY gen.fs.off "Ripristina la modalità precedente se si esce da quella a tutto schermo">
+<!ENTITY keyconfig.keyid "Nome">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Applica">
+<!ENTITY keyconfig.disable "Disattiva">
+<!ENTITY keyconfig.reset "Predefinita">
+<!ENTITY keyconfig.warn "I cambiamenti hanno effetto solo sulle nuove finestre">
+<!ENTITY keyconfig.onreset "Riavviare il browser">
+<!ENTITY keyconfig.unrecognized "Non riconosciuta ($1)">
+<!ENTITY keyconfig.used "Questa combinazione viene usata anche da: \n\n\t$1\n\nPotrebbe comunque funzionare">
+<!ENTITY menus.sidebar.desc "Personalizza gli elementi nel menu “Visualizza &gt; Barra laterale” e nei menu dei pulsanti nella barra laterale">
+<!ENTITY menus.icons.label "Mostra le icone">
+<!ENTITY menus.entries.label "Mostra le voci del menu">
+<!ENTITY menus.sidebar.entrydeac "Disattiva il menu relativo alla barra laterale attiva">
+<!ENTITY misc.enablesidebar.label "Apri nella barra laterale">
+<!ENTITY misc.layout.label "Ottimizzazioni per la barra laterale">
+<!ENTITY misc.dm.overlay "Cambia le opzioni relative alla barra laterale">
+<!ENTITY misc.dm.autoopen.label "Mostra la barra laterale quando si scarica un file">
+<!ENTITY misc.dm.autoclose.label "Chiudila quando tutti i download sono completati">
+<!ENTITY misc.colors.label "Attiva gli sfondi colorati in base allo stato attuale">
+<!ENTITY misc.count.label "Mostra il numero degli elementi">
+<!ENTITY misc.enablelink.tooltip "Fare clic qui per ulteriori informazioni (link alle FAQ)">
+<!ENTITY misc.paneltab.reverse "Scambia le azioni del clic con tasto sinistro con clic centrale">
+<!ENTITY misc.bm.paneltab.desc "Il pulsante &apos;Nuova scheda&apos; può aprire il gestore dei segnalibri al posto dell&apos;elenco dei segnalibri già visualizzato nella barra laterale">
+<!ENTITY misc.bm.paneltab "Apri il gestore dei segnalibri con il tasto &apos;Nuova scheda&apos;">
+<!ENTITY special.collapsing.caption "Contrazione della barra laterale">
+<!ENTITY special.collapsing.label "Attiva la contrazione della barra laterale">
+<!ENTITY special.collapsing.desc "La barra laterale può essere contratta invece di chiusa. Il vantaggio è che il contenuto della barra laterale non deve essere ricaricato dopo la riapertura permettendo così un&apos;apertura più rapida">

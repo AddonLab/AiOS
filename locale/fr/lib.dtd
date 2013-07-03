@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Clic-gauche">
+<!ENTITY rightclick "Clic-droit">
+<!ENTITY doubleclick "Double clic">
+<!ENTITY middleclick "Clic-milieu (molette)">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Maj">
+<!ENTITY menu.tools.label "Outils">
+<!ENTITY closeFolder.label "Fermer tous les dossiers">
+<!ENTITY show.closeFolder.label "Bouton &apos;Fermer tous les dossiers&apos;">
+<!ENTITY enable.autoClose.label "Fermer automatiquement les autres dossiers">
+<!ENTITY enable.scrollToFolder.label "Se positionner automatiquement sur le dossier sélectionné">
+<!ENTITY enable.rememberFolder.label "Se souvenir du dernier dossier sélectionné et le proposer en position prioritaire">

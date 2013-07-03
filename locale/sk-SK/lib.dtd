@@ -1,0 +1,12 @@
+<!ENTITY leftclick "Kliknutie ľavým">
+<!ENTITY rightclick "Kliknutie pravým">
+<!ENTITY doubleclick "Dvojklik">
+<!ENTITY middleclick "Kliknutie stredným">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Nástroje">
+<!ENTITY closeFolder.label "Zatvoriť všetky priečinky">
+<!ENTITY enable.autoClose.label "Zatvoriť automaticky ostatné priečinky">
+<!ENTITY enable.scrollToFolder.label "Posunúť sa automaticky na označený priečinok">
+<!ENTITY enable.rememberFolder.label "Zapamätať a označiť posledný zvolený priečinok">

@@ -1,0 +1,91 @@
+<!ENTITY title "All-in-One Sidebar – خيارات">
+<!ENTITY restart "تتطلب التغييرات إعادة تشغيل المتصفح">
+<!ENTITY settings "الإعدادات">
+<!ENTITY settings.default "إعادة الوضع الإفتراضي">
+<!ENTITY settings.advanced "النمط المتقدم">
+<!ENTITY settings.import "استيراد الإعدادات…">
+<!ENTITY settings.export "تصدير الإعدادات…">
+<!ENTITY settings.copy "نسخ الإعدادات إلى الحافظة">
+<!ENTITY apply "تطبيق">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "عام">
+<!ENTITY tab.gen.appearance "الظهور">
+<!ENTITY tab.gen.behavior "السلوك">
+<!ENTITY tab.gen.fullscreen "نمط ملء الشاشة">
+<!ENTITY tab.gen.special "خاص">
+<!ENTITY tab.panels "لوحات">
+<!ENTITY tab.panels.other1 "آخر 1">
+<!ENTITY tab.panels.other2 "آخر 2">
+<!ENTITY tab.panels.paneltab "لسان اللوحات">
+<!ENTITY tab.menus "القوائم">
+<!ENTITY tab.menus.sidebar "الشريط الجانبي">
+<!ENTITY tab.keys "اختصارات">
+<!ENTITY gen.orient.caption "التحويل">
+<!ENTITY gen.orient.label "اظهر شريط الأدوات على">
+<!ENTITY gen.orient.left "الجانب الأيسر">
+<!ENTITY gen.orient.right "الجانب الأمن">
+<!ENTITY gen.width.caption "الحجم">
+<!ENTITY gen.width.px "بيكسيل">
+<!ENTITY gen.width.perc "نسبة مئوية">
+<!ENTITY gen.width.current "ضبط للاتساع الحالي">
+<!ENTITY gen.width.current.tip "يطبق العرض الحالي على الشريط الجانبي">
+<!ENTITY gen.width.min.hint "[Shift+double-click] على عنوان الشريط الجانبي">
+<!ENTITY gen.width.def.hint "[Double-click] على عنوان الشريط الجانبي">
+<!ENTITY gen.width.max.hint "[Ctrl+double-click] أو [Alt+double-click] على عنوان الشريط الجانبي">
+<!ENTITY gen.init.caption "بدء تشغيل المتصفح">
+<!ENTITY gen.init.label "شريط جانبي">
+<!ENTITY gen.init.toolbar.label "شريط الأدوات">
+<!ENTITY gen.init.toolbar.show.label "أظهر شريط الأدوات">
+<!ENTITY gen.init.toolbar.hide.label "احخ شريط الأدوات">
+<!ENTITY gen.init.switch.show.label "اظهر محول الشريط الجانبي">
+<!ENTITY gen.init.switch.hide.label "اخف محول الشريط الجانبي">
+<!ENTITY gen.init.mode1 "استعادة الحالة المحفوظة">
+<!ENTITY gen.init.sidebar "فتح الشريط الجانبي (تبديل الشريط الجانبي, تفعيل الأزرار, إختصار)">
+<!ENTITY gen.init.sidebar.restore "إسترجاع اللوحة المحفوظة">
+<!ENTITY gen.switch.autoshow "عرض/إخفاء الشريط الجانبي آلياً (إتصال الفأرة بدل من نقرة الفأرة)">
+<!ENTITY gen.switch.onlymax "فقط إذا كان المتصفح في وضع تكبير أو شاشة كاملة">
+<!ENTITY gen.switch.delay "تأخير">
+<!ENTITY gen.switch.delayUnit "ميليثانية">
+<!ENTITY gen.switch.hide "اخف الشريط الجانبي إذا كان مؤشر الفأرة">
+<!ENTITY gen.switch.hideBar "يتحرك راجعاً إلى صفحة الويب">
+<!ENTITY gen.switch.hidePage "واقف عند محول الشريط الجانبي">
+<!ENTITY gen.switch.thin "تمكين الشريط الجانبي">
+<!ENTITY gen.switch.width "عرض محول الشريط الجانبي">
+<!ENTITY gen.switch.twidth "عرض محول الشريط الجانبي الرفيع">
+<!ENTITY cmode.caption "حول الشريط الجانبي">
+<!ENTITY cmode.desc "تخصيص العناصر التي ينبغي أن تتأثر إذا فتح أو إغلاق الشريط الجانبي مع أساليب مختلفة.">
+<!ENTITY cmode.key.label "الاختصار (F4)">
+<!ENTITY cmode.tbb.label "زر الكل في شريط جانبي واحد">
+<!ENTITY cmode.close.label "اغلق الزر">
+<!ENTITY cmode.mode1.label "فقط شريط الأدوات">
+<!ENTITY cmode.mode2.label "الشريط الجانبي و شريط الأدوات">
+<!ENTITY cmode.mode3.label "الشريط الجانبي, شريط الأدوات, وتبديل الشريط الجانبي">
+<!ENTITY cmode.mode4.label "Opera&apos;s سلوك">
+<!ENTITY gen.fs.off "استعادة الحالة في حال الخروج من ملء الشاشة">
+<!ENTITY keyconfig.keyid "الاسم">
+<!ENTITY keyconfig.id "العنوان">
+<!ENTITY keyconfig.apply "تطبيق">
+<!ENTITY keyconfig.disable "تعطيل">
+<!ENTITY keyconfig.reset "إعادة تعيين">
+<!ENTITY keyconfig.warn "تأثير التغيرات في نافذة جديدة فقط">
+<!ENTITY keyconfig.onreset "إعادة تشغيل المتصغح مطلوبة">
+<!ENTITY keyconfig.unrecognized "غير معرف ($1)">
+<!ENTITY keyconfig.used "المفتاح مستقدم بالفعل من قبل: \\n\\n\\t$1\\n\\nIt قد يعمل, بالرغم من ذلك.">
+<!ENTITY menus.sidebar.desc "تخصيص المدخلات في القائمة “عرض &gt; الشريط الجانبي” والقوائم المنسدلة في الشريط الجانبي للأزرار.">
+<!ENTITY menus.icons.label "اظهر الأيقونات">
+<!ENTITY menus.entries.label "عرض المدخلات">
+<!ENTITY menus.sidebar.entrydeac "تعطيل المدخل لاشريط الجانبي النشط">
+<!ENTITY misc.enablesidebar.label "افتح الشريط الجانبي">
+<!ENTITY misc.layout.label "تحسين تنسيق الشريط الجانبي">
+<!ENTITY misc.dm.overlay "تغيير الخيارات لسلوك الشريط الجانبي">
+<!ENTITY misc.dm.autoopen.label "إظهار الشريط الجانبي للتحميل عند تنزيل ملف">
+<!ENTITY misc.dm.autoclose.label "إغلقه عند إنهاء جميع التنزيلات">
+<!ENTITY misc.colors.label "تمكن الخلفيات الملونة على أساس الوضع الحالي">
+<!ENTITY misc.count.label "عرض عدد الأصناف">
+<!ENTITY misc.enablelink.tooltip "إضغط هنا لمعلومات أكثر (رابط FAQs)">
+<!ENTITY misc.paneltab.reverse "بدل إجرائات Left-click و Middle-click">
+<!ENTITY misc.bm.paneltab.desc "“تبويب اللوحة” فتح مدير العلامات في تبويب جديد ، بدلا من لوحة مدير العلامات.">
+<!ENTITY misc.bm.paneltab "تمكين مدير العلامات في تبويب جديد">
+<!ENTITY special.collapsing.caption "تصغير الشريط الجانبي">
+<!ENTITY special.collapsing.label "تفعيل تصغير الشريط الجانبي">
+<!ENTITY special.collapsing.desc "الشريط الجانبي يصغر بدلاً من أن يغلق. الميزة هي أن محتويات الشريط لا تحتاج لإعادة تحميل بعد إعادة فتح لذلك يستيج أسرع.">

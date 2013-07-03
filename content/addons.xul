@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<!-- DTD (e.g. for the "updates-restart-btn") -->
+<!DOCTYPE page [
+    <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd" > %brandDTD;
+    <!ENTITY % extensionsDTD SYSTEM "chrome://mozapps/locale/extensions/extensions.dtd"> %extensionsDTD;
+]>
+
+<overlay id="aios_AddonsOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
+    <script type="application/x-javascript" src="chrome://aios/content/addons.js" />
+
+    <richlistbox id="categories">
+        <observes element="categories" attribute="last-selected" onbroadcast="AiOS_Addons.setTitle(true);" />
+        <observes element="search-filter-radiogroup" attribute="value" onbroadcast="AiOS_Addons.setTitle(true);" />
+    </richlistbox>
+
+    <hbox id="header">
+        <toolbarbutton id="back-btn">
+            <observes element="back-btn" attribute="hidden" onbroadcast="document.getElementById('back-btn').setAttribute('hidden', false)" />
+        </toolbarbutton>
+        
+        <toolbarbutton id="forward-btn">
+            <observes element="forward-btn" attribute="hidden" onbroadcast="document.getElementById('forward-btn').setAttribute('hidden', false)" />
+        </toolbarbutton>
+        
+        <textbox id="header-search" flex="1" />
+    </hbox>
+
+    <hbox id="updates-container">
+        <image class="spinner"/>
+        
+        <label id="updates-noneFound" >
+            <observes element="updates-noneFound" attribute="hidden" onbroadcast="AiOS_Addons.checkNotification();" />
+        </label>
+
+        <button id="updates-manualUpdatesFound-btn">
+            <observes element="updates-manualUpdatesFound-btn" attribute="hidden" onbroadcast="AiOS_Addons.checkNotification();" />
+        </button>
+        
+        <label id="updates-progress">
+            <observes element="updates-progress" attribute="hidden" onbroadcast="AiOS_Addons.checkNotification();" />
+        </label>
+
+        <label id="updates-installed">
+            <observes element="updates-installed" attribute="hidden" onbroadcast="AiOS_Addons.checkNotification();" />
+        </label>
+        
+        <label id="updates-downloaded">
+            <observes element="updates-downloaded" attribute="hidden" onbroadcast="AiOS_Addons.checkNotification();" />
+        </label>
+
+        <button id="updates-restart-btn" label="&addon.restartNow.label;">
+            <observes element="updates-restart-btn" attribute="hidden" onbroadcast="AiOS_Addons.checkNotification();" />
+        </button>
+
+        <spacer flex="1" />
+
+        <toolbarbutton id="close-btn" class="tabs-closebutton" oncommand="AiOS_Addons.hideNotification();" style="display:none;" />
+      
+    </hbox>
+
+</overlay>

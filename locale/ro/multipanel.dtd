@@ -1,0 +1,21 @@
+<!ENTITY page.label "Pagină">
+<!ENTITY page.tooltip "Încarcă pagina web în panoul lateral">
+<!ENTITY page.ssr.label "Afișează în mod ecran redus">
+<!ENTITY page.ssr100.label "Adaptează la lățimea panoului">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Afișează diferite informații despre navigator">
+<!ENTITY about.config.tooltip "Deschide o interfață pentru vizualizarea și modificarea diferitelor variabile de configurare">
+<!ENTITY about.plugins.tooltip "Afișează informații despre toate suplimentele instalate">
+<!ENTITY about.support.tooltip "Prezintă fundamentele aplicației, suplimentele și preferințele modificate">
+<!ENTITY about.cache.tooltip "Afișează informații despre cache din memorie și de pe disc">
+<!ENTITY about.cache.disk.tooltip "Afișează înregistrările cache de pe disc">
+<!ENTITY about.cache.memory.tooltip "Afișează înregistrările cache din memorie">
+<!ENTITY about.cache.offline.tooltip "Afișează înregistrările cache din modul neconectat">
+<!ENTITY about.crashes.tooltip "Afișează rapoartele trimise despre eșuări">
+<!ENTITY about.buildconfig.tooltip "Afișează argumentele și opțiunile folosite la compilarea versiunii curente">
+<!ENTITY about.about.tooltip "Afișează informații despre versiune și drepturile de autor">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Afișează lista tuturor colaboratorilor Mozilla">
+<!ENTITY about.license.tooltip "Afișează Licența publică Mozilla">
+<!ENTITY about.mozilla.tooltip "Afișează citate din „Cartea Mozillei“">
+<!ENTITY tools.remlast.label "Memorează ultimul conținut afișat">

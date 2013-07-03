@@ -1,0 +1,744 @@
+page[aios-inSidebar] {
+    
+    padding: 0;
+    
+    /* @group Navigation */
+    > hbox {
+        -moz-box-orient: vertical;
+    }
+    
+    #categories {
+        margin: 0;
+        padding: 1px 1px 0 1px;
+    }
+    
+    .category,
+    .category:not([disabled]) {
+        height: auto;
+        margin: 0 1px 1px 0;
+        padding: 2px;
+    }
+    
+    .category-icon {
+        margin: 0;
+    }
+    
+    #category-search[disabled="true"],
+    #category-availableUpdates[disabled="true"],
+    #category-recentUpdates[disabled="true"],
+    .category-name,
+    .category-badge {
+        display: none;
+    }
+    /* @end */
+    
+    
+    /* @group Header */
+    #header {
+        margin: 0;
+        padding: 4px;
+    }
+    
+    #header-utils-btn {
+        margin: 0 5px;
+        min-width: 0;
+    }
+    
+    #updates-container {
+        padding: 5px 0;
+        
+        .button-box {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        button.button-link {
+            margin-left: 5px;
+        }
+        
+        #close-btn {
+            display: block !important;
+        }
+    }
+    /* @end */
+    
+    
+    /* @group Content */
+    .view-header {
+        padding: 0 4px;
+        min-height: 0; 
+    }
+    
+    .sorter,
+    .search-filter-radio {
+        margin: 3px 0 3px 5px;
+        height: 18px;
+        max-height: 18px;
+    }
+    
+    #search-filter {
+        padding: 0;
+        font-size: 11px;
+    }
+    
+    /* Textbuttons im Header und in den richlistitems */
+    button.button-link {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #view-port richlistbox richlistitem {
+        -moz-binding: url("chrome://aios/content/addons.xml#richlistitem");
+    }
+    /* @end */
+    
+    
+    /* @group Add-ons */
+    .addon {
+        padding: 5px;
+        
+        * {
+            margin: 0;
+        }
+        
+        .warning,
+        .error,
+        .pending {
+            margin-bottom: 5px;
+        }
+        
+        .pending {
+            > vbox {
+                margin-left: 10px;
+            }
+            
+            .button-box {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        
+        .icon-container,
+        .warning-icon,
+        .error-icon,
+        .pending-icon {
+            margin-right: 10px !important;
+        }
+        
+        .name-container {
+            font-size: 11px;
+            font-weight: normal;
+            
+            .name {
+                font-weight: bold;
+            }
+            
+            .version {
+                margin-left: 10px;
+            }
+        }
+        
+        .name-container spacer,
+        .creator,
+        .date-updated {
+            display: none;
+        }
+        
+        
+        /* @group nicht selektierte Add-ons */
+        &:not([selected="true"]) {
+            
+            .icon-container,
+            .icon {
+                height: 16px;
+                width: 16px;
+            }
+            
+            .disabled-postfix,
+            .update-postfix {
+                margin-left: 5px;
+            }
+            
+            .control-container,
+            .addon-control,
+            .description-container,
+            .relnotes-container,
+            .relnotes-toggle {
+                display: none;
+            }
+            
+        }
+        /* @end */
+        
+        
+        /* @group selektierte Add-ons */
+        &[selected="true"] {
+            
+            .icon-container,
+            .icon {
+                height: 32px;
+                width: 32px;
+            }
+            
+            .name-container {
+                font-size: 13px;
+                font-weight: bold;
+            }
+            
+            .warning-icon,
+            .error-icon,
+            .pending-icon {
+                margin: 0 18px 0 8px;
+            }
+            
+            .aios-container > vbox,
+            .install-status,
+            .relnotes-toggle {
+                margin-top: 5px;
+            }
+            
+            .description-container {
+                -moz-box-orient: vertical;
+                float: left;
+                
+                .description {
+                    display: block;
+                }
+                
+                .details {
+                    margin-left: -2px;
+                    padding: 0;
+                }
+            }
+            
+            .control-container > * {
+                margin-left: 2px;
+                min-width: 0;
+                
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+            
+            /*.relnotes H2 {
+                font-size: 10px !important;
+            }
+            
+            .relnotes UL {
+                margin: 0 !important;
+                padding: 0 !important;
+            }*/
+            
+        }
+        /* @end */
+        
+    }
+    /* @end */
+    
+    
+    /* @group Detail-Ansicht */
+    #detail-view {
+        
+        .text-link {
+            -moz-binding: url("chrome://aios/content/addons.xml#textlink");
+        }
+        
+        vbox {
+            font-size: 1em;
+        }
+        
+        .detail-view-container {
+            padding: 10px;
+        }
+        
+        #detail-notifications {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #detail-icon-container {
+            display: none;
+        }
+        
+        #warning-container,
+        #error-container,
+        #pending-container {
+            margin-bottom: 9px;
+            padding-bottom: 10px;
+        }
+        
+        #pending-container  {
+            
+            .button-box {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            
+            > vbox {
+                margin-left: 10px;
+            }
+            
+        }
+        
+        #detail-header {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            
+            > * {
+                margin: 0;
+                padding: 0;
+            }
+        }
+        
+        #detail-icon {
+            margin: 0 10px 0 0;
+            width: 64px;
+            height: 64px;
+        }
+        
+        spacer {
+            display: none;
+        }
+        
+        #detail-name {
+            margin-bottom: 0;
+        }
+        
+        #detail-version {
+            margin-bottom: 5px;
+        }
+        
+        #detail-name,
+        #detail-version,
+        .disabled-postfix,
+        .update-postfix {
+            font-size: 14px;
+        }
+        
+        #detail-restart-btn,
+        #detail-undo-btn,
+        #detail-name,
+        #detail-version,
+        #detail-creator,
+        #detail-desc,
+        #detail-fulldesc,
+        #detail-grid * {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        
+        #detail-name,
+        #detail-desc {
+            font-weight: bold;
+        }
+        
+        #detail-screenshot {
+            margin-top: 5px;
+            max-width: none;
+        }
+        
+        #detail-contributions > hbox {
+            -moz-box-orient: vertical;
+            -moz-box-align: end;
+        }
+        
+        #detail-updates-row {
+            
+            radio {
+                margin-right: 6px;
+                
+                .radio-icon {
+                    margin-right: 3px;
+                }
+            }
+            
+        }
+        
+        #detail-rating-row > hbox {
+            -moz-box-orient: vertical;
+        }
+        
+        #detail-controls button {
+            margin-left: 0;
+        }
+    }
+    /* @end */
+    
+    
+    
+    /* @group Firefox-Standard-Theme */
+    
+    &[aios-appDefTheme="true"] {
+        background-image: none;
+        
+        .addon:not([selected="true"]) {
+            background-color: #FFFFFF;
+        }
+        
+        #categories {
+            border-top: none;
+            border-bottom: 1px solid ThreedShadow;
+            background-color: #ffffff;
+        }
+        
+        .category,
+        .category:not([disabled]) {
+            border: none;
+            border-radius: 0;
+            
+            &[selected="true"] {
+                background-color: #C1D2EE;
+            }
+            
+            &:hover {
+                background-color: #E0E8F6;
+            }
+        }
+        
+        #header {
+            border-top: 1px solid ThreedHighlight;
+            border-bottom: 1px solid ThreedShadow;
+        }
+        
+        #updates-container {
+            color: infotext;
+            background-color: infobackground;
+            border-bottom: 1px solid ThreedShadow;
+        }
+        
+        .view-header,
+        #search-filter {
+            background-color: -moz-dialog;
+            border-top: 1px solid ThreedHighlight;
+            border-bottom: 1px solid ThreedShadow;
+        }
+        
+        #view-port-container {
+            border: 0;
+            border-radius: 0;
+        }
+        
+        
+        /*[notification="warning"]
+        [notification="error"]
+        [pending="enable"]
+        [pending="upgrade"]
+        [pending="install"]
+        [pending="disable"]
+        [pending="uninstall"]*/
+        
+        .addon {
+            
+            &:not([selected="true"]) {
+                
+                &[active=false]:not([pending]) {
+                    opacity: 0.6;
+                    
+                    &:not([notification]) {
+                        background-image: none;
+                    }
+                }
+            }
+        }
+        
+        #detail-view {
+            
+            #warning-container,
+            #error-container,
+            #pending-container,
+            #detail-header {
+                border-bottom: 2px solid;
+                -moz-border-bottom-colors: rgba(255, 255, 255, 0.2) rgba(28, 31, 37, 0.2);
+            }
+            
+            #detail-screenshot {
+                border: 5px solid #ffffff;
+                border-radius: 5px;
+            }
+            
+        }
+        
+        
+        /* @group Windows */
+        &[aios-appOS="WINNT"] {
+            
+            .sorter {
+                color: black;
+                
+                &[checkState="1"],
+                &[checkState="2"] {
+                    background-color: grey;
+                    color: white;
+                    box-shadow: none;
+                    text-shadow: none;
+                }
+                
+                &[checkState="1"] {
+                    list-style-image: url("../img/arrow-dn.png");
+                }
+                
+                &[checkState="2"] {
+                    list-style-image: url("../img/arrow-up.png");
+                }
+            }
+            
+            .addon {
+                border-top: none;
+                border-bottom-width: 1px;
+                border-bottom-style: dotted;
+                border-bottom-color: rgba(0,0,0,0.3);
+                
+                &:not([selected="true"]) {
+                    
+                    &[active=true]:nth-child(odd) {
+                        background-color: rgba(255,255,255,0.6);
+                    }
+                    
+                }
+            }
+            
+            #view-port-container {
+                background-color: transparent;
+                background-image: none;
+            }
+            
+            
+            /* @group Windows-XP klassisch */
+            &[aios-appOSVersion="Windows NT 5.1"] {
+                background-color: #efedea;
+                
+                #header {
+                    background-color: -moz-dialog;
+                }
+            }
+            /* @end */
+            
+            
+            /* @group Windows-Standard */
+            &:-moz-system-metric(windows-default-theme) {
+                
+                /* @group Windows-XP-Standard */
+                &[aios-appOSVersion="Windows NT 5.1"] {
+                    background-color: #EDECEF;
+                    
+                    #header {
+                        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), 
+                                          rgba(255, 255, 255, 0));
+                    }
+                    
+                }
+                /* @end */
+                
+                
+                /* @group Windows-Vista-7-Standard */
+                &:not([aios-appOSVersion="Windows NT 5.1"]) {
+                    background-color: #EEF3FA;
+                    
+                    .view-header,
+                    #search-filter {
+                        background-color: rgb(204, 217, 234);
+                    }
+                }
+                /* @end */
+                
+            }
+            /* @end */
+            
+        }
+        /* @end */
+        
+        
+        /* @group Darwin */
+        &[aios-appOS="Darwin"] {
+            background-color: #D4DDE5;
+            
+            &:-moz-window-inactive {
+                background-color: #e8e8e8;
+            }
+            
+            > hbox {
+                border-top: 1px solid #484848;
+                
+                &:-moz-window-inactive {
+                    border-top: 1px solid #929292;
+                }
+            }
+            
+            #categories {
+                -moz-box-align: center;
+                background-color: -moz-mac-chrome-active;
+                border-top: 1px solid #c0c0c0;
+                border-left: 1px solid #c0c0c0;
+                border-bottom: 1px solid #484848;
+                
+                &:-moz-window-inactive {
+                    background-color: -moz-mac-chrome-inactive;
+                    border-top: 1px solid #e1e1e1;
+                    border-left: 1px solid #e1e1e1;
+                    border-bottom: 1px solid #929292;
+                }
+                
+                .scrollbox-innerbox {
+                    margin: 0 0 2px 0;
+                    padding: 0;
+                    background-color: -moz-mac-chrome-active;
+                    border-top: 1px solid #484848;
+                    border-right: 1px solid #484848;
+                    border-bottom: 1px solid #484848;
+                    
+                    &:-moz-window-inactive {
+                        background-color: -moz-mac-chrome-inactive;
+                        border-top: 1px solid #929292;
+                        border-right: 1px solid #929292;
+                        border-bottom: 1px solid #929292;
+                    }
+                }
+                
+                .category,
+                .category:not([disabled]) {
+                    margin: 0;
+                    padding: 5px;
+                    border-left: 1px solid #484848;
+                    background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;
+                    
+                    &:-moz-window-inactive { 
+                        border-left: 1px solid #929292;
+                        background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;
+                    }
+                    
+                    &[selected="true"] {
+                        background: #606060;
+                        box-shadow: inset rgba(42, 42, 42, 1) 0 3px 3px;
+                        
+                        &:-moz-window-inactive {
+                            background: #bababa;
+                            box-shadow: inset rgba(42, 42, 42, 0.6) 0 2px 2px;
+                        }
+                    }
+                    
+                    .category-icon {
+                        max-width: 24px;
+                        max-height: 24px;
+                        opacity: 0.5;
+                        
+                        &:-moz-window-inactive {
+                            opacity: 0.3;
+                        }
+                    }
+                    
+                    &:hover,
+                    &[selected="true"] {
+                    
+                        .category-icon {
+                            opacity: 1;
+                            
+                            &:-moz-window-inactive {
+                                opacity: 0.8;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            
+            #header {
+                padding: 11px 3px 6px 5px;
+                border-top: none;
+                border-bottom: none;
+            }
+            
+            #updates-container {
+                margin: 5px 0 0 0;
+                
+                #close-btn {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+            
+            .view-header,
+            #search-filter {
+                background-color: #D4DDE5;
+                background-image: none;
+                border: none;
+                
+                &:-moz-window-inactive {
+                    background-color: #e8e8e8;
+                }
+            }
+            
+            #view-port-container {
+                background-color: #D4DDE5;
+                background-image: none;
+                
+                &:-moz-window-inactive {
+                    background-color: #e8e8e8;
+                }
+            }
+            
+            #view-port richlistbox {
+                margin-top: 5px;
+            }
+            
+            .addon {
+                padding: 7px 5px;
+                border: none;
+                
+                &:not([selected="true"]) {
+                    
+                    &[active=true]:nth-child(odd) {
+                        background-color: -moz-oddtreerow;
+                    }
+                    
+                }
+                
+                .details {
+                    margin-left: -3px;
+                }
+            }
+            
+        }
+        /* @end */
+        
+        
+        
+        /* @grou Linux */
+        &:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
+            
+            #categories {
+                padding:  1px;
+                border:  1px solid ThreedShadow;
+            }
+            
+            #header {
+                border:  none;
+            }
+            
+            category,
+            .category:not([disabled]) {
+                margin: 0 0 1px 0;
+                
+                &[selected="true"] {
+                    background-color: highlight;
+                }
+                
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+               
+        }
+        /* @end */
+        
+    }
+    
+    /* @end */
+    
+    
+    
+    /* Fix fuer Greasemonkey */
+    richlistitem[type="user-script"] hbox.pending > vbox button:first-child {
+        display: none !important;
+    }
+    
+}

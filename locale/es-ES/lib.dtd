@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Botón izquierdo">
+<!ENTITY rightclick "Botón derecho">
+<!ENTITY doubleclick "Doble clic">
+<!ENTITY middleclick "Botón central">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Mayús">
+<!ENTITY menu.tools.label "Herramientas">
+<!ENTITY closeFolder.label "Cerrar todas las carpetas">
+<!ENTITY show.closeFolder.label "Botón &apos;Cerrar todas las carpetas&apos;">
+<!ENTITY enable.autoClose.label "Cerrar automáticamente el resto de carpetas">
+<!ENTITY enable.scrollToFolder.label "Desplazarse automáticamente a la carpeta seleccionada">
+<!ENTITY enable.rememberFolder.label "Recordar y seleccionar la última carpeta seleccionada">

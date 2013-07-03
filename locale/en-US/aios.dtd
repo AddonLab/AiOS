@@ -1,0 +1,52 @@
+<!ENTITY loading.label "loading panel…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar Options…">
+<!ENTITY menu.togglebar.label "Sidebar Switch">
+<!ENTITY menu.grippy.label "Sidebar Grippy">
+<!ENTITY toolbar.name "All-in-One Sidebar Toolbar">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Toggle elements controlled by All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Toggle Sidebar and Toolbar">
+<!ENTITY button.switch.tooltip2 "Toggle Toolbar">
+<!ENTITY button.switch.tooltip3 "Toggle Sidebar">
+<!ENTITY sidebar.open.label "Open Sidebar">
+<!ENTITY sidebar.close.label "Close Sidebar">
+<!ENTITY sidebar.width.min "Minimum width">
+<!ENTITY sidebar.width.def "Standard width">
+<!ENTITY sidebar.width.max "Maximum width">
+<!ENTITY button.menu.label "Sidebar Panels">
+<!ENTITY button.menu.tooltip "All available Sidebar Panels">
+<!ENTITY button.toolbar.label "AiOS-Toolbar">
+<!ENTITY button.toolbar.tooltip "Toggle AiOS-Toolbar">
+<!ENTITY button.paneltab.label "PanelTab">
+<!ENTITY button.paneltab.tooltip1 "Open Content of Tab in Sidebar">
+<!ENTITY button.paneltab.tooltip2 "Open Content of Sidebar in a New Tab">
+<!ENTITY button.paneltab.tooltip3 "Open Content of Sidebar in a Window">
+<!ENTITY button.paneltab.menu1.label "Open Tab in Sidebar">
+<!ENTITY button.paneltab.menu2.label "Open Sidebar in Tab">
+<!ENTITY button.autohide.label "SidebarAutomatic">
+<!ENTITY button.autohide.tooltip "Toggle Sidebar automatically">
+<!ENTITY button.tooltip.sidebar "Open in the Sidebar">
+<!ENTITY button.tooltip.window "Open in a Window">
+<!ENTITY button.tooltip.tab "Open in a New Tab">
+<!ENTITY button.addons.label "Add-ons">
+<!ENTITY button.addons.tooltip "Display installed extensions and themes">
+<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.tooltip "Display websites and browser information">
+<!ENTITY button.pageinfo.tooltip "Display extensive information about a web page">
+<!ENTITY button.console.label "Error Console">
+<!ENTITY button.console.tooltip "Open the Error Console, which tracks problems with source code">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Left Beside Sidebar">
+<!ENTITY toolbar.pos.sidebarright.label "Right Beside Sidebar">
+<!ENTITY toolbar.pos.sidebartop.label "Above Sidebar">
+<!ENTITY toolbar.pos.headerbottom.label "Below Sidebar Header">
+<!ENTITY toolbar.pos.sidebarbottom.label "Below Sidebar">
+<!ENTITY toolbar.mode.flexbuttons.label "Flexible Buttons">

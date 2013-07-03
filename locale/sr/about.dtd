@@ -1,0 +1,59 @@
+<!ENTITY title "О АиОС-у">
+<!ENTITY version "издање">
+<!ENTITY settings "Подешавања…">
+<!ENTITY close "Затвори">
+<!ENTITY tab.about "О додатку">
+<!ENTITY tab.help "Помоћ">
+<!ENTITY tab.contrib "Заслуге">
+<!ENTITY tab.trans "Преводиоци">
+<!ENTITY about.desc "АиОС омогућава отварање разних прозора и бочних трака и брзо пребацивање између њих. Поздравите се са нередом око прозора! Поред забелешки и историјата, у бочној траци је могуће отварање и разних дијалоге, као што су преузимања, додаци и остало.">
+<!ENTITY create.desc "направио Инго Венемеринг, Хамбург (Немачка)">
+<!ENTITY help.desc "Многе информације о додатку можете да пронађете на">
+<!ENTITY about1.name "Моја страница - све информације на једном месту">
+<!ENTITY about2.name "Особине - све особине проширења АиОС-а">
+<!ENTITY about3.name "ЧПП - често постављана питања и одговори">
+<!ENTITY about4.name "Познати проблеми - описи и питања">
+<!ENTITY about5.name "Заједница - расправе, пријаве грешака и поправке тема">
+<!ENTITY about6.name "Попис промена - историја и измене">
+<!ENTITY about7.name "Задаци - планиране особине и побољшања">
+<!ENTITY contrib.desc "Захваљујем се следећим програмерима за подстицај:">
+<!ENTITY contrib.thanks "На крају, захваљујем се свим корисницима који су тестирањем помогли развој пријављивањем грешки, дељењем идеја и предлога или писањем лепих коментара. :-) Хвала вам много!">
+<!ENTITY trans.desc "Преводиоци АиоСа-а (по азбучном реду):">
+<!ENTITY trans.ar-SA.lang "арапски">
+<!ENTITY trans.be-BY.lang "белоруски">
+<!ENTITY trans.cs-CZ.lang "чешки">
+<!ENTITY trans.da-DK.lang "дански">
+<!ENTITY trans.de-DE.lang "немачки">
+<!ENTITY trans.el-GR.lang "грчки">
+<!ENTITY trans.en-GB.lang "енглески (В. Британија)">
+<!ENTITY trans.en-US.lang "енглески (САД)">
+<!ENTITY trans.es-AR.lang "шпански (Аргентина)">
+<!ENTITY trans.es-ES.lang "шпански">
+<!ENTITY trans.et-EE.lang "естонски">
+<!ENTITY trans.fi-FI.lang "фински">
+<!ENTITY trans.fr-FR.lang "француски">
+<!ENTITY trans.he-IL.lang "хебрејски">
+<!ENTITY trans.hr-HR.lang "хрватски">
+<!ENTITY trans.hu-HU.lang "мађарски">
+<!ENTITY trans.hy-AM.lang "јерменски (Јерменија)">
+<!ENTITY trans.it-IT.lang "италијански">
+<!ENTITY trans.ja-JP.lang "јапански">
+<!ENTITY trans.ko-KR.lang "корејски">
+<!ENTITY trans.lt-LT.lang "литвански">
+<!ENTITY trans.nb-NO.lang "норвешки">
+<!ENTITY trans.nl-NL.lang "холандски">
+<!ENTITY trans.pl-PL.lang "пољски">
+<!ENTITY trans.pt-BR.lang "португалски (Бразил)">
+<!ENTITY trans.pt-PT.lang "португалски">
+<!ENTITY trans.ro-RO.lang "румунски">
+<!ENTITY trans.ru-RU.lang "руски">
+<!ENTITY trans.sk-SK.lang "словачки">
+<!ENTITY trans.sq-AL.lang "албански">
+<!ENTITY trans.sr-RS.lang "српски">
+<!ENTITY trans.sv-SE.lang "шведски">
+<!ENTITY trans.tr-TR.lang "турски">
+<!ENTITY trans.uk-UA.lang "украјински">
+<!ENTITY trans.vi-VN.lang "вијетнамски (Вијетнам)">
+<!ENTITY trans.zh-CN.lang "кинески (упрошћени)">
+<!ENTITY trans.zh-TW.lang "кинески (традиционални)">
+<!ENTITY trans.thanks "Такође, желим да се захвалим тиму BabelZilla.org на одличном послу!">

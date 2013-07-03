@@ -1,0 +1,51 @@
+<!ENTITY loading.label "učitavanje panoa…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar Opcije…">
+<!ENTITY menu.togglebar.label "Prebacivanje rubnog stupca">
+<!ENTITY menu.grippy.label "Sidebar Grippy">
+<!ENTITY toolbar.name "All-in-One Sidebar alatna traka">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Promijeni elemente koje kontrolira All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Promjena rubnog stupca i alatne trake">
+<!ENTITY button.switch.tooltip2 "Promijeni alatnu traku">
+<!ENTITY button.switch.tooltip3 "Promijeni rubni stupac">
+<!ENTITY sidebar.open.label "Otvori rubni stupac">
+<!ENTITY sidebar.close.label "Zatvori rubni stupac">
+<!ENTITY sidebar.width.min "Najmanja moguća širina">
+<!ENTITY sidebar.width.def "Standardna širina">
+<!ENTITY sidebar.width.max "Najveća moguća širina">
+<!ENTITY button.menu.label "Panoi rubnog stupca">
+<!ENTITY button.menu.tooltip "Svi dostupni panoi rubnog stupca">
+<!ENTITY button.toolbar.label "AiOS-Alatna traka">
+<!ENTITY button.toolbar.tooltip "Promijeni AiOS-Alatnu traku">
+<!ENTITY button.paneltab.label "Pano kartica">
+<!ENTITY button.paneltab.tooltip1 "Otvori sadržaj kartice u rubnom stupcu">
+<!ENTITY button.paneltab.tooltip2 "Otvori sadržaj rubnog stupca u novoj kartici">
+<!ENTITY button.paneltab.tooltip3 "Otvori sadržaj rubnog stupca u prozoru">
+<!ENTITY button.paneltab.menu1.label "Otvori karticu u rubnom stupcu">
+<!ENTITY button.paneltab.menu2.label "Otvori karticu u kartici">
+<!ENTITY button.autohide.label "Automatski rubni stupac">
+<!ENTITY button.autohide.tooltip "Automatski Sakrij/Prikaži rubni stupac">
+<!ENTITY button.tooltip.sidebar "Otvori u rubnom stupcu">
+<!ENTITY button.tooltip.window "Otvori u prozoru">
+<!ENTITY button.tooltip.tab "Otvori u novoj kartici">
+<!ENTITY button.addons.label "Dodaci">
+<!ENTITY button.addons.tooltip "Prikaži instalirane teme i dodatke">
+<!ENTITY button.multipanel.label "Više panoa">
+<!ENTITY button.multipanel.tooltip "Prikaži npr. web stranicu, izvorni kod i informacije o pregledniku">
+<!ENTITY button.pageinfo.tooltip "Prikaz opsežnih informacija o web stranici">
+<!ENTITY button.console.label "Konzola s greškama">
+<!ENTITY button.console.tooltip "Otvaranje konzole s greškama koja prati probleme s izvornim kodom">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "D">
+<!ENTITY keys.multipanel "V">
+<!ENTITY keys.pageinfo "I">
+<!ENTITY toolbar.pos.sidebarleft.label "Lijevo pored rubnog stupca">
+<!ENTITY toolbar.pos.sidebarright.label "Desno pored rubnog stupca">
+<!ENTITY toolbar.pos.sidebartop.label "Iznad rubnog stupca">
+<!ENTITY toolbar.pos.headerbottom.label "Ispod zaglavlja rubnog stupca">
+<!ENTITY toolbar.pos.sidebarbottom.label "Ispod rubnog stupca">
+<!ENTITY toolbar.mode.flexbuttons.label "Fleksibilni gumbi">

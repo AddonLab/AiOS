@@ -1,0 +1,93 @@
+<!ENTITY title "All-in-One Sidebar – Einstellungen">
+<!ENTITY restart "Änderung erfordert einen Browser-Neustart">
+<!ENTITY settings "Einstellungen">
+<!ENTITY settings.default "Standardeinstellungen…">
+<!ENTITY settings.advanced "Erweiterter Modus">
+<!ENTITY settings.import "Einstellungen importieren…">
+<!ENTITY settings.export "Einstellungen exportieren…">
+<!ENTITY settings.copy "Einstellungen in die Zwischenablage kopieren">
+<!ENTITY apply "Übernehmen">
+<!ENTITY gen.column1 "140">
+<!ENTITY tab.gen "Allgemein">
+<!ENTITY tab.gen.appearance "Aussehen">
+<!ENTITY tab.gen.behavior "Verhalten">
+<!ENTITY tab.gen.fullscreen "Vollbild-Modus">
+<!ENTITY tab.gen.special "Spezial">
+<!ENTITY tab.panels "Paneele">
+<!ENTITY tab.panels.places "Lesezeichen/Chronik">
+<!ENTITY tab.panels.other1 "Andere I">
+<!ENTITY tab.panels.other2 "Andere II">
+<!ENTITY tab.panels.paneltab "PanelTab">
+<!ENTITY tab.menus "Menüs">
+<!ENTITY tab.menus.sidebar "Sidebarmenüs">
+<!ENTITY tab.keys "Tastaturkürzel">
+<!ENTITY tab.about "Über/Hilfe">
+<!ENTITY gen.orient.caption "Ausrichtung">
+<!ENTITY gen.orient.label "Sidebar auf der">
+<!ENTITY gen.orient.left "linken Seite">
+<!ENTITY gen.orient.right "rechten Seite">
+<!ENTITY gen.width.caption "Größe">
+<!ENTITY gen.width.px "Pixel">
+<!ENTITY gen.width.perc "Prozent">
+<!ENTITY gen.width.current "aktuelle Breite einfügen">
+<!ENTITY gen.width.current.tip "Übernimmt den Wert der aktuellen Breite der Sidebar">
+<!ENTITY gen.width.min.hint "[Umschalt+Doppelklick] auf die Titelleiste der Sidebar">
+<!ENTITY gen.width.def.hint "[Doppelklick] auf die Titelleiste der Sidebar">
+<!ENTITY gen.width.max.hint "[Strg+Doppelklick] oder [Alt+Doppelklick] auf die Titelleiste der Sidebar">
+<!ENTITY gen.init.caption "Browserstart">
+<!ENTITY gen.init.label "Sidebar">
+<!ENTITY gen.init.toolbar.label "Toolbar">
+<!ENTITY gen.init.toolbar.show.label "Toolbar anzeigen">
+<!ENTITY gen.init.toolbar.hide.label "Toolbar verbergen">
+<!ENTITY gen.init.switch.show.label "Sidebar-Umschalter anzeigen">
+<!ENTITY gen.init.switch.hide.label "Sidebar-Umschalter verbergen">
+<!ENTITY gen.init.mode1 "Letzten Zustand wiederherstellen">
+<!ENTITY gen.init.sidebar "Sidebar öffnen (Sidebar-Umschalter, Sidebar-Button, Tastaturkürzel)">
+<!ENTITY gen.init.sidebar.restore "Letzte Paneele wiederherstellen">
+<!ENTITY gen.switch.autoshow "Sidebar automatisch ein- bzw. ausblenden (Mausberührung statt Mausklick)">
+<!ENTITY gen.switch.onlymax "Nur bei maximiertem Fenster und im Vollbild-Modus">
+<!ENTITY gen.switch.delay "Verzögerung">
+<!ENTITY gen.switch.delayUnit "Millisekunden">
+<!ENTITY gen.switch.hide "Die Sidebar ausblenden, wenn der Mauszeiger…">
+<!ENTITY gen.switch.hideBar "zurück auf die Webseite bewegt wird">
+<!ENTITY gen.switch.hidePage "auf dem Sidebar-Umschalter belassen wird">
+<!ENTITY gen.switch.thin "Schmalen Sidebar-Umschalter verwenden">
+<!ENTITY gen.switch.width "Breite des Umschalters">
+<!ENTITY gen.switch.twidth "Breite des schmalen Umschalters">
+<!ENTITY cmode.caption "Sidebar öffnen/schließen">
+<!ENTITY cmode.desc "Legen Sie fest, welche Elemente beim Öffnen/Schließen der Sidebar beeinflusst werden sollen. Sie können diese Einstellung für verschiedene Methoden vornehmen.">
+<!ENTITY cmode.key.label "Tastaturkürzel (F4)">
+<!ENTITY cmode.tbb.label "AiOS-Schaltfläche">
+<!ENTITY cmode.close.label "Schließen-Schaltfläche">
+<!ENTITY cmode.mode1.label "Nur die Sidebar">
+<!ENTITY cmode.mode2.label "Sidebar und Symbolleiste">
+<!ENTITY cmode.mode3.label "Sidebar, Symbolleiste und Sidebar-Umschalter">
+<!ENTITY cmode.mode4.label "Opera-Verhalten">
+<!ENTITY gen.fs.off "Beim Beenden des Vollbild-Modus den vorherigen Zustand wiederherstellen">
+<!ENTITY keyconfig.keyid "Befehl">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Übernehmen">
+<!ENTITY keyconfig.disable "Deaktivieren">
+<!ENTITY keyconfig.reset "Zurücksetzen">
+<!ENTITY keyconfig.warn "Änderungen werden erst in neuen Fenstern wirksam">
+<!ENTITY keyconfig.onreset "Erfordert einen Browser-Neustart">
+<!ENTITY keyconfig.unrecognized "Unerkannt ($1)">
+<!ENTITY keyconfig.used "Dieses Tastaturkürzel wird bereits verwendet: \n\n\t$1\n\nEs könnte dennoch funktionieren.">
+<!ENTITY menus.sidebar.desc "Passen Sie das Menü „Ansicht &gt; Sidebar” und die Klappmenüs der Sidebar-Schaltflächen an.">
+<!ENTITY menus.icons.label "Symbole anzeigen">
+<!ENTITY menus.entries.label "Menüeinträge anzeigen">
+<!ENTITY menus.sidebar.entrydeac "Menüeintrag der aktiven Sidebar deaktivieren">
+<!ENTITY misc.enablesidebar.label "In der Sidebar öffnen">
+<!ENTITY misc.layout.label "Layout-Optimierung für die Sidebar">
+<!ENTITY misc.dm.overlay "Verhalten der Sidebar ändern">
+<!ENTITY misc.dm.autoopen.label "Die Download-Sidebar anzeigen, wenn ein Download startet">
+<!ENTITY misc.dm.autoclose.label "Die Download-Sidebar schließen, wenn alle Downloads abgeschlossen sind">
+<!ENTITY misc.colors.label "Einträge gemäß Status farblich markieren">
+<!ENTITY misc.count.label "Anzahl der Elemente anzeigen">
+<!ENTITY misc.enablelink.tooltip "Klicken Sie hier um mehr Informationen zu erhalten (Link zu den FAQs)">
+<!ENTITY misc.paneltab.reverse "Funktionen für Links- und Mittelklick vertauschen">
+<!ENTITY misc.bm.paneltab.desc "Die Schaltfläche &quot;PanelTab&quot; kann anstatt der Lesezeichen-Sidebar auch den Lesezeichen- Manager in einem neuen Tab öffnen.">
+<!ENTITY misc.bm.paneltab "Lesezeichen-Manager als Tab aktivieren">
+<!ENTITY special.collapsing.caption "Sidebar-Ausblendung">
+<!ENTITY special.collapsing.label "Sidebar-Ausblendung verwenden">
+<!ENTITY special.collapsing.desc "Die Sidebar kann auch nur ausgeblendet statt richtig geschlossen werden. Der Vorteil liegt darin, dass der Inhalt beim Öffnen der Sidebar nicht neugeladen werden muss.">

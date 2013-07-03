@@ -1,0 +1,52 @@
+<!ENTITY loading.label "đang nạp bảng…">
+<!ENTITY menu.prefs.label "Tùy chọn All-in-One Sidebar…">
+<!ENTITY menu.togglebar.label "Công tắc Thanh lề">
+<!ENTITY menu.grippy.label "Thanh lề Grippy">
+<!ENTITY toolbar.name "Thanh All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "Thanh công cụ Đầu đề Thanh lề">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Bật tắt các phần tử được All-in-One Sidebar điều khiển">
+<!ENTITY button.switch.tooltip1 "Bật tắt Thanh lề và Thanh công cụ">
+<!ENTITY button.switch.tooltip2 "Bật tắt Thanh công cụ">
+<!ENTITY button.switch.tooltip3 "Bật tắt Thanh lề">
+<!ENTITY sidebar.open.label "Mở thanh lề">
+<!ENTITY sidebar.close.label "Đóng thanh lề">
+<!ENTITY sidebar.width.min "Độ rộng tối thiểu">
+<!ENTITY sidebar.width.def "Độ rộng chuẩn">
+<!ENTITY sidebar.width.max "Độ rộng tối đa">
+<!ENTITY button.menu.label "Bảng Thanh Lề">
+<!ENTITY button.menu.tooltip "Tất cả các Bảng Thanh Lề">
+<!ENTITY button.toolbar.label "Thanh AiOS">
+<!ENTITY button.toolbar.tooltip "Bật tắt Thanh AiOS">
+<!ENTITY button.paneltab.label "ThẻBảng">
+<!ENTITY button.paneltab.tooltip1 "Mở Nội dung của Thẻ trong Thanh lề">
+<!ENTITY button.paneltab.tooltip2 "Mở Nội dung của Thẻ trong Thẻ Mới">
+<!ENTITY button.paneltab.tooltip3 "Mở Nội dung của Thẻ trong một Cửa Sổ">
+<!ENTITY button.paneltab.menu1.label "Mở Thẻ trong Thanh lề">
+<!ENTITY button.paneltab.menu2.label "Mở Thanh lề trong Thẻ">
+<!ENTITY button.autohide.label "Tựđộng Thanhlề">
+<!ENTITY button.autohide.tooltip "Bật tắt Thanh lề tự động">
+<!ENTITY button.tooltip.sidebar "Mở trong Thanh lề">
+<!ENTITY button.tooltip.window "Mở trong một Cửa Sổ">
+<!ENTITY button.tooltip.tab "Mở trong một Thẻ Mới">
+<!ENTITY button.addons.label "Tiện ích">
+<!ENTITY button.addons.tooltip "Hiển thị các phần mở rộng và giao diện đã cài">
+<!ENTITY button.multipanel.label "ĐaBảng">
+<!ENTITY button.multipanel.tooltip "Hiển thị một trang web, mã nguồn, và thông tin trình duyệt">
+<!ENTITY button.pageinfo.tooltip "Hiển thị thông tin mở rộng của một trang web">
+<!ENTITY button.console.label "Bảng kiểm soát Lỗi">
+<!ENTITY button.console.tooltip "Mở Bảng kiểm soát Lỗi để theo dõi các vấn đề trong mã nguồn">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "T">
+<!ENTITY keys.multipanel "B">
+<!ENTITY keys.pageinfo "M">
+<!ENTITY toolbar.pos.sidebarleft.label "Bên trái Thanh lề">
+<!ENTITY toolbar.pos.sidebarright.label "Bên phải Thanh lề">
+<!ENTITY toolbar.pos.sidebartop.label "Ở trên Thanh lề">
+<!ENTITY toolbar.pos.headerbottom.label "Ở dưới Đầu đề Thanh lề">
+<!ENTITY toolbar.pos.sidebarbottom.label "Ở dưới Thanh lề">
+<!ENTITY toolbar.mode.flexbuttons.label "Các nút Co giãn">

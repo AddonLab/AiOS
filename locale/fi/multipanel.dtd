@@ -1,0 +1,21 @@
+<!ENTITY page.label "Sivu">
+<!ENTITY page.tooltip "Avaa sivu tässä paneelissa.">
+<!ENTITY page.ssr.label "Sovitus pienelle näytölle">
+<!ENTITY page.ssr100.label "Mukauta sivupaneelin leveyteen">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Näyttää erilaista tietoa selaimesta">
+<!ENTITY about.config.tooltip "Näyttää käyttöliittymän laajan valikoiman konfiguraatio säätöjen tarkastelemiseen ja muuttamiseen">
+<!ENTITY about.plugins.tooltip "Näyttää tietoa kaikista asennetuista liitännäisistä">
+<!ENTITY about.support.tooltip "Näyttää ohjelman perusteet, laajennukset ja muutetut määritykset">
+<!ENTITY about.cache.tooltip "Näyttää tietoa välimuistipalvelusta sekä muistille että levy välimuistille">
+<!ENTITY about.cache.disk.tooltip "Näyttää yksittäisiä syötteitä levyltä">
+<!ENTITY about.cache.memory.tooltip "Näyttää yksittäisiä syötteitä muistista">
+<!ENTITY about.cache.offline.tooltip "Listaa yhteydettömän tilan välimuistimerkinnät">
+<!ENTITY about.crashes.tooltip "Näyttää lähetetyt kaatumisraportit">
+<!ENTITY about.buildconfig.tooltip "Näyttää käytössä olevan ohjelmistoversion rakenteen kasaamiseen käytetyt argumentit ja asetukset">
+<!ENTITY about.about.tooltip "Näyttää versio- ja tekijänoikeustiedot">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Näyttää listan kaikista jotka avustivat Mozillaa">
+<!ENTITY about.license.tooltip "Näyttää Mozillan avoimen lisenssin">
+<!ENTITY about.mozilla.tooltip "Näyttää sivun fiktiivisestä Mozillan kirjasta">
+<!ENTITY tools.remlast.label "Muista viimeinen näytetty sisältö">

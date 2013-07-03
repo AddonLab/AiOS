@@ -1,0 +1,21 @@
+<!ENTITY page.label "Page">
+<!ENTITY page.tooltip "Open the web page in this panel">
+<!ENTITY page.ssr.label "Small Screen Rendering">
+<!ENTITY page.ssr100.label "Adapt to Sidebar Width">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Shows different information about the browser">
+<!ENTITY about.config.tooltip "Shows an interface for viewing and setting a wide variety of configuration variables">
+<!ENTITY about.plugins.tooltip "Shows information about all installed plug-ins">
+<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
+<!ENTITY about.cache.tooltip "Shows information about the Cache Service for both memory and disk cache">
+<!ENTITY about.cache.disk.tooltip "List cache entries on disk">
+<!ENTITY about.cache.memory.tooltip "List cache entries in memory">
+<!ENTITY about.cache.offline.tooltip "List offline cache entries">
+<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
+<!ENTITY about.buildconfig.tooltip "Shows the arguments and options used to compile the build in use">
+<!ENTITY about.about.tooltip "Shows version information and copyright information">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Mozilla">
+<!ENTITY about.license.tooltip "Shows the Mozilla Public License">
+<!ENTITY about.mozilla.tooltip "Shows a page from the fictional Book of Mozilla">
+<!ENTITY tools.remlast.label "Remember Last Shown Content">

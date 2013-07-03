@@ -1,0 +1,52 @@
+<!ENTITY loading.label "lataa paneelia…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar asetukset">
+<!ENTITY menu.togglebar.label "Sivupaneelin vaihto">
+<!ENTITY menu.grippy.label "Sivupaneelin kahva">
+<!ENTITY toolbar.name "All-in-One Sidebar työkalupalkki">
+<!ENTITY sbhtoolbar.name "Sivupaneelin otsikkopalkki">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Kytke All-in-One Sidebarin hallitsemat elementit">
+<!ENTITY button.switch.tooltip1 "Kytke sivupaneeli ja työkalupalkki">
+<!ENTITY button.switch.tooltip2 "Kytke työkalupalkki">
+<!ENTITY button.switch.tooltip3 "Kytke sivupaneeli">
+<!ENTITY sidebar.open.label "Avaa sivupaneeli">
+<!ENTITY sidebar.close.label "Sulje sivupaneeli">
+<!ENTITY sidebar.width.min "Pienin leveys">
+<!ENTITY sidebar.width.def "Oletus leveys">
+<!ENTITY sidebar.width.max "Suurin leveys">
+<!ENTITY button.menu.label "Sivupaneeli paneelit">
+<!ENTITY button.menu.tooltip "Kaikki saatavilla olevat sivupaneeli paneelit">
+<!ENTITY button.toolbar.label "AiOS-työkalupalkki">
+<!ENTITY button.toolbar.tooltip "Kytke AiOS-työkalupalkki">
+<!ENTITY button.paneltab.label "Paneelivälilehti">
+<!ENTITY button.paneltab.tooltip1 "Avaa välilehden sisältö sivupaneelista">
+<!ENTITY button.paneltab.tooltip2 "Avaa sivupaneelin sisältö uudessa välilehdessä">
+<!ENTITY button.paneltab.tooltip3 "Avaa sivupaneelin sisältö ikkunassa">
+<!ENTITY button.paneltab.menu1.label "Avaa välilehti sivupaneelissa">
+<!ENTITY button.paneltab.menu2.label "Avaa sivupaneeli välilehdessä">
+<!ENTITY button.autohide.label "Sivupaneeli automatiikka">
+<!ENTITY button.autohide.tooltip "Näytä/Piilota sivupaneeli automaattisesti">
+<!ENTITY button.tooltip.sidebar "Avaa sivupaneelissa">
+<!ENTITY button.tooltip.window "Avaa ikkunassa">
+<!ENTITY button.tooltip.tab "Avaa uudessa välilehdessä">
+<!ENTITY button.addons.label "Lisäosat">
+<!ENTITY button.addons.tooltip "Näytä asennetut laajennukset ja teemat">
+<!ENTITY button.multipanel.label "Multipaneeli">
+<!ENTITY button.multipanel.tooltip "Näytä esim. sivu, lähdekoodi ja selaintietoa">
+<!ENTITY button.pageinfo.tooltip "Näytä syventävää tietoa sivusta">
+<!ENTITY button.console.label "Virhe Konsoli">
+<!ENTITY button.console.tooltip "Avaa Virhe Konsoli, joka jäljittää ongelmia lähdekoodissa">
+<!ENTITY keys.modifiers "pika Vaihto">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "I">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "S">
+<!ENTITY toolbar.pos.sidebarleft.label "Vasemman puoleinen sivupaneeli">
+<!ENTITY toolbar.pos.sidebarright.label "Oikean puoleinen sivupaneeli">
+<!ENTITY toolbar.pos.sidebartop.label "Sivupaneelin yläpuolella">
+<!ENTITY toolbar.pos.headerbottom.label "Sivupaneelin tunnisteen alapuolella">
+<!ENTITY toolbar.pos.sidebarbottom.label "Sivupaneelin alapuolella">
+<!ENTITY toolbar.mode.flexbuttons.label "Joustavat painikkeet">

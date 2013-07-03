@@ -1,0 +1,51 @@
+<!ENTITY loading.label "laster panel…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar valg…">
+<!ENTITY menu.togglebar.label "Sidestolpe bryter">
+<!ENTITY menu.grippy.label "Sidestolpe klebrig">
+<!ENTITY toolbar.name "All-in-One sidestolpe verktøylinje">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Håndter elementer som kontrolleres av All-in-One sidestolpe">
+<!ENTITY button.switch.tooltip1 "Håndter sidestolpe og verktøylinje">
+<!ENTITY button.switch.tooltip2 "Håndter verktøylinje">
+<!ENTITY button.switch.tooltip3 "Håndter sidestolpe">
+<!ENTITY sidebar.open.label "Åpne sidestolpe">
+<!ENTITY sidebar.close.label "Lukk sidestolpe">
+<!ENTITY sidebar.width.min "Minste bredde">
+<!ENTITY sidebar.width.def "Standard bredde">
+<!ENTITY sidebar.width.max "Maks bredde">
+<!ENTITY button.menu.label "Sidestolpe paneler">
+<!ENTITY button.menu.tooltip "Alle tilgjengelig sidestolpe paneler">
+<!ENTITY button.toolbar.label "AiOS-Verktøylinje">
+<!ENTITY button.toolbar.tooltip "Håndter AiOS-Verktøylinje">
+<!ENTITY button.paneltab.label "Panelfane">
+<!ENTITY button.paneltab.tooltip1 "Åpne innhold i fane i sidestolpe">
+<!ENTITY button.paneltab.tooltip2 "Åpne innhold av sidestolpe i ny fane">
+<!ENTITY button.paneltab.tooltip3 "Åpne innhold av sidestolpe i vindu">
+<!ENTITY button.paneltab.menu1.label "Åpne fane i sidestolpe">
+<!ENTITY button.paneltab.menu2.label "Åpne sidestolpe i fane">
+<!ENTITY button.autohide.label "SidetolpeAutomatisk">
+<!ENTITY button.autohide.tooltip "Vis/skjul sidestolpen automatisk">
+<!ENTITY button.tooltip.sidebar "Åpne i sidestolpe">
+<!ENTITY button.tooltip.window "Åpne i vindu">
+<!ENTITY button.tooltip.tab "Åpne i ny fane">
+<!ENTITY button.addons.label "Innstikk">
+<!ENTITY button.addons.tooltip "Vi installerte utvidelser og temaer">
+<!ENTITY button.multipanel.label "Multipanel">
+<!ENTITY button.multipanel.tooltip "Vis for eksempel en webside, kildekode eller annen nettleserinformasjon">
+<!ENTITY button.pageinfo.tooltip "Viser utvidet informasjon om en webside">
+<!ENTITY button.console.label "Feilkonsoll">
+<!ENTITY button.console.tooltip "Åpne feilkonsoll som sporer problemer med kildekoden">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Venstre side av sidestolpe">
+<!ENTITY toolbar.pos.sidebarright.label "Høyre side av sidestolpe">
+<!ENTITY toolbar.pos.sidebartop.label "Over sidestolpe">
+<!ENTITY toolbar.pos.headerbottom.label "Under sidestolpens tittel">
+<!ENTITY toolbar.pos.sidebarbottom.label "Under sidestolpe">
+<!ENTITY toolbar.mode.flexbuttons.label "Fleksible knapper">

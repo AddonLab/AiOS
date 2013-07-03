@@ -1,0 +1,12 @@
+<!ENTITY leftclick "左鍵點擊">
+<!ENTITY rightclick "右鍵點擊">
+<!ENTITY doubleclick "雙擊">
+<!ENTITY middleclick "中鍵點擊">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "工具">
+<!ENTITY closeFolder.label "收起所有資料夾">
+<!ENTITY enable.autoClose.label "自動收起其他的資料夾">
+<!ENTITY enable.scrollToFolder.label "自動捲動到選取的資料夾">
+<!ENTITY enable.rememberFolder.label "記住並自動選取上次使用的資料夾">

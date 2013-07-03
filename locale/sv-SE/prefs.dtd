@@ -1,0 +1,93 @@
+<!ENTITY title "All-in-One Sidebar inställningar">
+<!ENTITY restart "Ändringarna kräver en omstart av webbläsaren">
+<!ENTITY settings "Inställningar">
+<!ENTITY settings.default "Återställ förinställda val…">
+<!ENTITY settings.advanced "Avancerat läge">
+<!ENTITY settings.import "Importera inställningar…">
+<!ENTITY settings.export "Exportera inställningar…">
+<!ENTITY settings.copy "Kopiera inställningar till urklipp">
+<!ENTITY apply "Verkställ">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Allmänt">
+<!ENTITY tab.gen.appearance "Utseende">
+<!ENTITY tab.gen.behavior "Beteende">
+<!ENTITY tab.gen.fullscreen "Fullskärmsläge">
+<!ENTITY tab.gen.special "Special">
+<!ENTITY tab.panels "Paneler">
+<!ENTITY tab.panels.places "Bokmärken/Historik">
+<!ENTITY tab.panels.other1 "Övrigt 1">
+<!ENTITY tab.panels.other2 "Övrigt 2">
+<!ENTITY tab.panels.paneltab "Panel-Flik">
+<!ENTITY tab.menus "Menyer">
+<!ENTITY tab.menus.sidebar "Sidopanel">
+<!ENTITY tab.keys "Snabbval">
+<!ENTITY tab.about "Om/Hjälp">
+<!ENTITY gen.orient.caption "Orientering">
+<!ENTITY gen.orient.label "Visa sidopanelen på">
+<!ENTITY gen.orient.left "vänster sida">
+<!ENTITY gen.orient.right "höger sida">
+<!ENTITY gen.width.caption "Storlek">
+<!ENTITY gen.width.px "bildpunkter">
+<!ENTITY gen.width.perc "procent">
+<!ENTITY gen.width.current "sätt till aktuell bredd">
+<!ENTITY gen.width.current.tip "Tillämpa sidopanelens aktuella bredd">
+<!ENTITY gen.width.min.hint "[Skift+dubbelklick] på sidopanelens titelrad">
+<!ENTITY gen.width.def.hint "[Dubbelklick] på sidopanelens titelrad">
+<!ENTITY gen.width.max.hint "[Ctrl+dubbelklick] eller [Alt+dubbelklick] på sidopanelens titelrad">
+<!ENTITY gen.init.caption "Webbläsarens startläge">
+<!ENTITY gen.init.label "Sidopanel">
+<!ENTITY gen.init.toolbar.label "Verktygsfält">
+<!ENTITY gen.init.toolbar.show.label "Visa verktygsfält">
+<!ENTITY gen.init.toolbar.hide.label "Dölj verktygsfält">
+<!ENTITY gen.init.switch.show.label "Visa sidopanelsomkopplare">
+<!ENTITY gen.init.switch.hide.label "Dölj sidopanelsomkopplare">
+<!ENTITY gen.init.mode1 "Återgå till senaste läge">
+<!ENTITY gen.init.sidebar "Öppna sidopanel (sidopanelsomkopplare, omkopplare, genväg)">
+<!ENTITY gen.init.sidebar.restore "Återställ senaste panel">
+<!ENTITY gen.switch.autoshow "Visa/dölj sidopanel automatiskt (muskontakt istället för klick)">
+<!ENTITY gen.switch.onlymax "Endast om webbläsarfönstret är maximerat eller i fullskärmsläge">
+<!ENTITY gen.switch.delay "Fördröjning">
+<!ENTITY gen.switch.delayUnit "millisekunder">
+<!ENTITY gen.switch.hide "Dölj sidopanelen om musen…">
+<!ENTITY gen.switch.hideBar "flyttas tillbaka till webbsidan">
+<!ENTITY gen.switch.hidePage "hålls ovanpå sidopanelsomkopplaren">
+<!ENTITY gen.switch.thin "Aktivera tunn sidopanelsomkopplare">
+<!ENTITY gen.switch.width "Sidopanelsomkopplarens bredd">
+<!ENTITY gen.switch.twidth "Sidopanelsomkopplarens bredd (tunn vald)">
+<!ENTITY cmode.caption "Aktivering av sidopanelen">
+<!ENTITY cmode.desc "Välj vilka objekt som ska påverkas av de olika sätten att öppna och stänga sidopanelen.">
+<!ENTITY cmode.key.label "Genväg (F4)">
+<!ENTITY cmode.tbb.label "AiOS-knapp">
+<!ENTITY cmode.close.label "Stängningsknapp">
+<!ENTITY cmode.mode1.label "Enbart sidopanelen">
+<!ENTITY cmode.mode2.label "Sidopanelen och verktygsfältet">
+<!ENTITY cmode.mode3.label "Sidopanelen, verktygsfältet och sidopanelsomkopplaren">
+<!ENTITY cmode.mode4.label "Som Opera">
+<!ENTITY gen.fs.off "Återgå till tidigare läge vid avslutat fullskärmsläge">
+<!ENTITY keyconfig.keyid "Namn">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Aktivera">
+<!ENTITY keyconfig.disable "Inaktivera">
+<!ENTITY keyconfig.reset "Återställ">
+<!ENTITY keyconfig.warn "Ändringarna påverkar endast nya fönster">
+<!ENTITY keyconfig.onreset "Webbläsaren måste startas om">
+<!ENTITY keyconfig.unrecognized "Okänd ($1)">
+<!ENTITY keyconfig.used "Denna tangent används redan av: \\n\\n\\t$1\\n\\nDet kan kanske fungera ändå.">
+<!ENTITY menus.sidebar.desc "Anpassa menyvalen i “Visa &gt; Sidopanel” och i sidopanelknapparnas menyer.">
+<!ENTITY menus.icons.label "Visa ikoner">
+<!ENTITY menus.entries.label "Visa menyval">
+<!ENTITY menus.sidebar.entrydeac "Ta bort menyvalet för den aktiva panelen">
+<!ENTITY misc.enablesidebar.label "Öppna i sidopanelen">
+<!ENTITY misc.layout.label "Optimering av sidopanelen">
+<!ENTITY misc.dm.overlay "Ändra inställningar för sidopanelens beteende">
+<!ENTITY misc.dm.autoopen.label "Visa filhämtningssidopanelen när en fil hämtas">
+<!ENTITY misc.dm.autoclose.label "Stäng den när alla hämtningar är slutförda">
+<!ENTITY misc.colors.label "Aktivera färgbakgrund beroende på läge">
+<!ENTITY misc.count.label "Visa antal objekt">
+<!ENTITY misc.enablelink.tooltip "Klicka här för mera information (FAQ)">
+<!ENTITY misc.paneltab.reverse "Växla vänsterklicks- och mellanklicksfunktion">
+<!ENTITY misc.bm.paneltab.desc "Knappen &quot;Panel-Flik&quot; kan öppna bokmärkeshanteraren i en ny flik i stället för i bokmärkespanelen.">
+<!ENTITY misc.bm.paneltab "Öppna bokmärkeshanteraren i en ny flik">
+<!ENTITY special.collapsing.caption "Sidopanelskomprimering">
+<!ENTITY special.collapsing.label "Aktivera komprimering av sidopanelen">
+<!ENTITY special.collapsing.desc "Sidopanelen kan komprimeras i stället för att stängas helt. Fördelen med detta är att sidopanelen nästa gång kan öppnas snabbare.">

@@ -1,0 +1,88 @@
+<!ENTITY title "All-in-One Sidebar - Nustatymai">
+<!ENTITY restart "Pakeitimams reikia perleisti naršyklę">
+<!ENTITY settings "Nustatymai">
+<!ENTITY settings.default "Atstatyti numatytąsias reikšmes…">
+<!ENTITY settings.advanced "Sudėtingesnis režimas">
+<!ENTITY settings.import "Importuoti nustatymus…">
+<!ENTITY settings.export "Eksportuoti nustatymus…">
+<!ENTITY apply "Pritaikyti">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Bendra">
+<!ENTITY tab.gen.appearance "Išvaizda">
+<!ENTITY tab.gen.behavior "Elgsena">
+<!ENTITY tab.gen.fullscreen "Viso ekrano režimas">
+<!ENTITY tab.gen.special "Kita">
+<!ENTITY tab.panels "Skydeliai">
+<!ENTITY tab.panels.places "Žymelės/Istorija">
+<!ENTITY tab.panels.other1 "Kita 1">
+<!ENTITY tab.panels.other2 "Kita 2">
+<!ENTITY tab.panels.paneltab "Skydelio kortelė">
+<!ENTITY tab.menus "Meniu">
+<!ENTITY tab.menus.sidebar "Parankinė">
+<!ENTITY tab.keys "Trumpiniai">
+<!ENTITY gen.orient.caption "Orientacija">
+<!ENTITY gen.orient.label "Rodyti parankinę">
+<!ENTITY gen.orient.left "kairėje pusėje">
+<!ENTITY gen.orient.right "dešinėje pusėje">
+<!ENTITY gen.width.caption "Dydis">
+<!ENTITY gen.width.px "pikselių">
+<!ENTITY gen.width.perc "procentų">
+<!ENTITY gen.width.current "nustatyti esamam pločiui">
+<!ENTITY gen.width.current.tip "Pritaiko dabartinį parankinės plotį">
+<!ENTITY gen.width.min.hint "[Shift+dvigubas pelės pasp.] parankinės antraštėje">
+<!ENTITY gen.width.def.hint "[Dukart spragtelkite] pele ant parankinės pavadinimo">
+<!ENTITY gen.width.max.hint "[Ctrl+dukart] arba [Alt+dukart] spragtelkite ant parankinės pavadinimo">
+<!ENTITY gen.init.caption "Naršyklės paleidimas">
+<!ENTITY gen.init.label "Parankinė">
+<!ENTITY gen.init.toolbar.label "Priemonių juosta">
+<!ENTITY gen.init.toolbar.show.label "Rodyti priemonių juostą">
+<!ENTITY gen.init.toolbar.hide.label "Slėpti priemonių juostą">
+<!ENTITY gen.init.switch.show.label "Rodyti parankinės perjungiklį">
+<!ENTITY gen.init.switch.hide.label "Slėpti parankinės perjungiklį">
+<!ENTITY gen.init.mode1 "Atkurti įsimintą būseną">
+<!ENTITY gen.init.sidebar "Atverti parankinę (Parankinės perjungiklis, perjungimo mygtukas, nuoroda)">
+<!ENTITY gen.init.sidebar.restore "Atkurti įsimintą skydelį">
+<!ENTITY gen.switch.autoshow "Automatiškai rodyti/slėpti parankinę (pelės užvedimas vietoj spragtelėjimo)">
+<!ENTITY gen.switch.onlymax "Tik jei naršyklė išdidintu ar viso ekrano režimu">
+<!ENTITY gen.switch.delay "Delsa">
+<!ENTITY gen.switch.delayUnit "milisekundžių">
+<!ENTITY gen.switch.hide "Paslėpti parankinę, kai pelės žymeklis…">
+<!ENTITY gen.switch.hideBar "perkeltas atgal į tinklalapį">
+<!ENTITY gen.switch.hidePage "yra laikomas virš parankinės perjungiklio">
+<!ENTITY gen.switch.thin "Įjungti ploną parankinės perjungiklį">
+<!ENTITY gen.switch.width "Parankinės perjungiklio plotis">
+<!ENTITY gen.switch.twidth "Plono parankinės perjungiklio plotis">
+<!ENTITY cmode.caption "Rodyti/slėpti parankinę">
+<!ENTITY cmode.desc "Prisitaikykite, kurie elementai bus paliesti skirtingais būdais atveriant ar užveriant parankinę.">
+<!ENTITY cmode.key.label "Trumpinys (F4)">
+<!ENTITY cmode.tbb.label "„AiOS“ mygtukas">
+<!ENTITY cmode.close.label "Užvėrimo mygtukas">
+<!ENTITY cmode.mode1.label "Tik parankinė">
+<!ENTITY cmode.mode2.label "Parankinė ir priemonių juosta">
+<!ENTITY cmode.mode3.label "Parankinė, priemonių juosta ir parankinės jungiklis">
+<!ENTITY cmode.mode4.label "Naršyklės „Opera“ elgsena">
+<!ENTITY gen.fs.off "Atkurti būseną grįžtant iš viso ekrano režimo">
+<!ENTITY keyconfig.keyid "Pavadinimas">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Pritaikyti">
+<!ENTITY keyconfig.disable "Išjungti">
+<!ENTITY keyconfig.reset "Atstatyti">
+<!ENTITY keyconfig.warn "Pakeitimai įsigalios tik naujiems langams">
+<!ENTITY keyconfig.onreset "Reikia iš naujo paleisti naršyklę">
+<!ENTITY keyconfig.unrecognized "Neatpažinta ($1)">
+<!ENTITY keyconfig.used "Spartieji klavišai jau naudojami šiam veiksmui: \\n\\n\\t$1\\n\\nTačiau tai vistiek gali veikti.">
+<!ENTITY menus.sidebar.desc "Prisitaikykite „Rodinys &gt; Parankinė“ ir kontekstinius parankinės mygtukų meniu įrašus.">
+<!ENTITY menus.icons.label "Rodyti piktogramas">
+<!ENTITY menus.entries.label "Rodyti įrašus">
+<!ENTITY menus.sidebar.entrydeac "Išjungti aktyvios parankinės įrašą">
+<!ENTITY misc.enablesidebar.label "Atverti parankinėje">
+<!ENTITY misc.layout.label "Optimizuoti parankinės išdėstymą">
+<!ENTITY misc.colors.label "Įjungti spalvotus fonus pagal dabartinę būseną">
+<!ENTITY misc.count.label "Rodyti elementų skaičių">
+<!ENTITY misc.enablelink.tooltip "Spragtelkite čia norėdami gauti daugiau informacijos (nuoroda į DUK)">
+<!ENTITY misc.paneltab.reverse "Swap Left-click and Middle-click Actions">
+<!ENTITY misc.bm.paneltab.desc "„PanelTab“ mygtukas gali atverti adresyno tvarkytuvą naujoje kortelėje, o ne adresyno skydelyje.">
+<!ENTITY misc.bm.paneltab "Įjungti adresyno tvarkytuvą naujoje kortelėje">
+<!ENTITY special.collapsing.caption "Parankinės sutraukimas">
+<!ENTITY special.collapsing.label "Įjungti parankinės sutraukimą">
+<!ENTITY special.collapsing.desc "Parankinė gali būti sutraukta, vietoje visiško užvėrimo. Sutraukimo privalumas yra tas, kad atveriant parankinę, nereikia iš naujo įkelti jos turinio.">

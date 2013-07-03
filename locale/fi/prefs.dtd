@@ -1,0 +1,92 @@
+<!ENTITY title "Sivupaneeli – Asetukset">
+<!ENTITY restart "Muutokset tulevat voimaan vasta kun selain on uudelleenkäynnistetty">
+<!ENTITY settings "Asetukset">
+<!ENTITY settings.default "Palauta oletukset…">
+<!ENTITY settings.advanced "Asiantuntija tila">
+<!ENTITY settings.import "Tuo asetukset">
+<!ENTITY settings.export "Vie asetukset">
+<!ENTITY settings.copy "Kopioi asetukset leikepöydälle">
+<!ENTITY apply "Hyväksy">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Yleiset">
+<!ENTITY tab.gen.appearance "Ulkoasu">
+<!ENTITY tab.gen.behavior "Käyttäytyminen">
+<!ENTITY tab.gen.fullscreen "Kokoruutu tila">
+<!ENTITY tab.gen.special "Erityis">
+<!ENTITY tab.panels "Paneelit">
+<!ENTITY tab.panels.places "Kirjanmerkit/Historia">
+<!ENTITY tab.panels.other1 "Muut 1">
+<!ENTITY tab.panels.other2 "Muut 2">
+<!ENTITY tab.panels.paneltab "Paneelivälilehti">
+<!ENTITY tab.menus "Valikot">
+<!ENTITY tab.menus.sidebar "Sivupaneeli">
+<!ENTITY tab.keys "Oikotiet">
+<!ENTITY gen.orient.caption "Paikoitus">
+<!ENTITY gen.orient.label "Näytä sivupaneeli">
+<!ENTITY gen.orient.left "vasemmalla puolella">
+<!ENTITY gen.orient.right "oikealla puolella">
+<!ENTITY gen.width.caption "Koko">
+<!ENTITY gen.width.px "kuvapistettä">
+<!ENTITY gen.width.perc "prosenttia">
+<!ENTITY gen.width.current "aseta tämänhetkiseen leveyteen">
+<!ENTITY gen.width.current.tip "Hyväksyy tämän hetkisen sivupaneelin leveyden">
+<!ENTITY gen.width.min.hint "[Vaihto+kaksoisnapsautus] sivupaneelin otsikon päällä">
+<!ENTITY gen.width.def.hint "[kaksoisnapsautus] sivupalkin otsikon päällä">
+<!ENTITY gen.width.max.hint "[Ctrl+kaksoisnapsautus] tai [Alt+kaksoisnapsautus] sivupalkin otsikon päällä">
+<!ENTITY gen.init.caption "Selaimen käynnistys">
+<!ENTITY gen.init.label "Sivupaneeli">
+<!ENTITY gen.init.toolbar.label "Työkalupalkki">
+<!ENTITY gen.init.toolbar.show.label "Näytä työkalupalkki">
+<!ENTITY gen.init.toolbar.hide.label "Piilota työkalupalkki">
+<!ENTITY gen.init.switch.show.label "Näytä sivupaneelin kytkin">
+<!ENTITY gen.init.switch.hide.label "Piilota sivupaneelin kytkin">
+<!ENTITY gen.init.mode1 "Palauta muistettu asento">
+<!ENTITY gen.init.sidebar "Avaa sivupaneeli (sivupaneelin kytkin, tilan vaihto painike, oikotie)">
+<!ENTITY gen.init.sidebar.restore "Palauta muistettu paneeli">
+<!ENTITY gen.switch.autoshow "Näytä/piilota sivupalkki automaattisesti (hiiren kosketus hiiren napsautuksen sijaan)">
+<!ENTITY gen.switch.onlymax "Vain jos selain on suurennettu tai kokoruutu tilassa">
+<!ENTITY gen.switch.delay "Viive">
+<!ENTITY gen.switch.delayUnit "millisekuntia">
+<!ENTITY gen.switch.hide "Piilota sivupaneeli jos hiiren osoitin…">
+<!ENTITY gen.switch.hideBar "siirretään takaisin sivulle">
+<!ENTITY gen.switch.hidePage "pidetään sivupaneelin kytkimen päällä">
+<!ENTITY gen.switch.thin "Ota käyttöön ohut sivupaneelin kytkin">
+<!ENTITY gen.switch.width "Sivupaneelin kytkimen leveys">
+<!ENTITY gen.switch.twidth "Ohuen sivupaneelin kytkimen leveys">
+<!ENTITY cmode.caption "Kytke sivupaneeli">
+<!ENTITY cmode.desc "Määrää mihin elementteihin pitäisi olla vaikutusta sivupaneelin avaamisella ja sulkemisella eri tavoilla.">
+<!ENTITY cmode.key.label "Oikotie (F4)">
+<!ENTITY cmode.tbb.label "AiOS painike">
+<!ENTITY cmode.close.label "Sulkemispainike">
+<!ENTITY cmode.mode1.label "Vain sivupaneeli">
+<!ENTITY cmode.mode2.label "Sivupaneeli ja työkalupalkki">
+<!ENTITY cmode.mode3.label "Sivupaneeli, työkalupalkki, ja sivupaneelin kytkin">
+<!ENTITY cmode.mode4.label "Operan tapa">
+<!ENTITY gen.fs.off "Palauta tila jos lopetetaan kokoruututila">
+<!ENTITY keyconfig.keyid "Nimi">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Hyväksy">
+<!ENTITY keyconfig.disable "Poista käytöstä">
+<!ENTITY keyconfig.reset "Palauta">
+<!ENTITY keyconfig.warn "Muutokset vaikuttavat ainoastaan uusiin ikkunoihin">
+<!ENTITY keyconfig.onreset "Tarvitaan selaimen uudelleenkäynnistys">
+<!ENTITY keyconfig.unrecognized "ei tunnisteta ($1)">
+<!ENTITY keyconfig.used "Tätä näppäintä käyttää jo: \\n\\n\\t$1\\n\\nIt saattaa silti tomia, ehkä.">
+<!ENTITY menus.sidebar.desc "Muokkaa valikon kohteita “Näytä &gt; Sivupaneeli” ja sivupaneelin painikkeiden pudotusvalikoissa.">
+<!ENTITY menus.icons.label "Näytä kuvakkeet">
+<!ENTITY menus.entries.label "Näytä valinnat">
+<!ENTITY menus.sidebar.entrydeac "Poista käytöstä aktiivisen sivupaneelin valinta">
+<!ENTITY misc.enablesidebar.label "Avaa sivupaneelissa">
+<!ENTITY misc.layout.label "Optimoi taitto sivupaneelille">
+<!ENTITY misc.dm.overlay "Muuta sivupalkin käyttäytymistä">
+<!ENTITY misc.dm.autoopen.label "Näytä lataussivupaneeli kun ladataan tiedostoa">
+<!ENTITY misc.dm.autoclose.label "Sulje kun lataukset ovat valmistuneet">
+<!ENTITY misc.colors.label "Ota käyttöön värilliset taustat perustuen nykyiseen tilaan">
+<!ENTITY misc.count.label "Näytä merkintöjen määrä">
+<!ENTITY misc.enablelink.tooltip "Napsauta täältä saadaksesi lisätietoja (linkki UKK:hon&apos;s)">
+<!ENTITY misc.paneltab.reverse "Vaihda napsautuksen ja keskinapsautuksen toiminnot keskenään">
+<!ENTITY misc.bm.paneltab.desc "“Paneelivälilehti” painike voi avata kirjanmerkki hallinnan uuteen välilehteen kirjanmerkkipaneelin sijaan.">
+<!ENTITY misc.bm.paneltab "Ota käyttön kirjanmerkki hallinta uudessa välilehdessä">
+<!ENTITY special.collapsing.caption "Sivupaneelin pienennys">
+<!ENTITY special.collapsing.label "Ota käyttöön sivupaneelin pienennys">
+<!ENTITY special.collapsing.desc "Sivupaneeli voi pienentyä sulkemisen sijaan. Hyöty on että sivupalkin sisällön ei tarvitse latautua uudelleen, uudelleen avaamisen jälkeen, joten se toimii nopeammin.">

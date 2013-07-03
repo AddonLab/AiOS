@@ -1,0 +1,57 @@
+<!ENTITY title "Giới thiệu All-in-One Sidebar">
+<!ENTITY version "phiên bản">
+<!ENTITY settings "Thiết lập…">
+<!ENTITY close "Đóng">
+<!ENTITY tab.about "Giới thiệu">
+<!ENTITY tab.contrib "Những người đóng góp">
+<!ENTITY tab.trans "Người dịch">
+<!ENTITY about.desc "AiOS cho phép bạn mở nhiều cửa sổ dưới dạng thanh lề, và nhanh chóng chuyển đổi qua lại. Nó đã đặt dấu chấm hết cho thời kì cửa sổ lộn xộn! Ngoài đánh dấu và lược sử, nó còn mở các hộp thoại tải xuống, tiện ích và nhiều thứ khác trong thanh lề.">
+<!ENTITY create.desc "tạo bởi Ingo Wennemaring, Hamburg [Đức]">
+<!ENTITY about1.name "Trang chủ - nhiều thông tin được liệt kê ở một nơi">
+<!ENTITY about2.name "Tính năng - tất cả tính năng của All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - các câu hỏi và trả lời thường gặp">
+<!ENTITY about4.name "Vấn đề đã biết - mô tả và gỡ rối">
+<!ENTITY about5.name "Diễn đang - thảo luận, báo cáo lỗi, và sửa giao diện cùng các thứ khác">
+<!ENTITY about6.name "Lưu kí thay đổi - lược sử và các thay đổi">
+<!ENTITY about7.name "Cần làm - các tính năng và cải tiến dự tính">
+<!ENTITY contrib.desc "Tôi xin cảm ơn các nhà phát triển sau vì đã đem lại cảm hứng và kiến thức cho tôi [thứ tự ABC]:">
+<!ENTITY contrib.thanks "Cuối cùng nhưng chưa phải là hết, tôi xin cảm ơn tất cả những người dùng đã giúp đỡ bằng việc thử các phiên bản đang phát triển, báo cáo lỗi trong diễn đàn, chia sẻ ý kiến và đề nghị, cũng như đã viết các bình luận tốt. :-) Cảm ơn mọi người rất nhiều!">
+<!ENTITY trans.desc "Những người dịch All-in-One Sidebar [theo thứ tự ABC của mã ngôn ngữ]:">
+<!ENTITY trans.ar-SA.lang "Ả Rập">
+<!ENTITY trans.be-BY.lang "Belarus">
+<!ENTITY trans.cs-CZ.lang "Séc">
+<!ENTITY trans.da-DK.lang "Đan Mạch">
+<!ENTITY trans.de-DE.lang "Đức">
+<!ENTITY trans.el-GR.lang "Hi Lạp">
+<!ENTITY trans.en-GB.lang "Tiếng Anh (Anh)">
+<!ENTITY trans.en-US.lang "Tiếng Anh (Mỹ)">
+<!ENTITY trans.es-AR.lang "Tây Ban Nha (Argentina)">
+<!ENTITY trans.es-ES.lang "Tây Ban Nha (Tây Ban Nha)">
+<!ENTITY trans.et-EE.lang "Estonia">
+<!ENTITY trans.fi-FI.lang "Phần Lan">
+<!ENTITY trans.fr-FR.lang "Pháp">
+<!ENTITY trans.he-IL.lang "Do Thái">
+<!ENTITY trans.hr-HR.lang "Croatia">
+<!ENTITY trans.hu-HU.lang "Hungary">
+<!ENTITY trans.hy-AM.lang "Armenia">
+<!ENTITY trans.it-IT.lang "Ý">
+<!ENTITY trans.ja-JP.lang "Nhật Bản">
+<!ENTITY trans.ko-KR.lang "Hàn Quốc">
+<!ENTITY trans.lt-LT.lang "Lithuania">
+<!ENTITY trans.nb-NO.lang "Na Uy (Bokmål)">
+<!ENTITY trans.nl-NL.lang "Hà Lan">
+<!ENTITY trans.pl-PL.lang "Ba Lan">
+<!ENTITY trans.pt-BR.lang "Bồ Đào Nha (Brazil)">
+<!ENTITY trans.pt-PT.lang "Bồ Đào Nha (Bồ Đào Nha)">
+<!ENTITY trans.ro-RO.lang "Rumani">
+<!ENTITY trans.ru-RU.lang "Nga">
+<!ENTITY trans.sk-SK.lang "Slovakia">
+<!ENTITY trans.sq-AL.lang "Anbani">
+<!ENTITY trans.sr-RS.lang "Serbia (Kirin)">
+<!ENTITY trans.sv-SE.lang "Thụy Điển">
+<!ENTITY trans.tr-TR.lang "Thổ Nhĩ Kỳ">
+<!ENTITY trans.uk-UA.lang "Ucraina">
+<!ENTITY trans.vi-VN.lang "Tiếng Việt">
+<!ENTITY trans.zh-CN.lang "Hoa (Giản thể)">
+<!ENTITY trans.zh-TW.lang "Hoa (Phồn thể)">
+<!ENTITY trans.thanks "Tôi cũng cảm ơn nhóm BabelZilla.org vì những việc làm tuyệt vời của họ!">

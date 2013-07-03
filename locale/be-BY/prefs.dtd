@@ -1,0 +1,85 @@
+<!ENTITY title "Налады All-in-One Sidebar">
+<!ENTITY restart "Змены патрабуюць перазагрузкі браўзэра">
+<!ENTITY settings "Налады">
+<!ENTITY settings.default "Аднавіць налады па змаўчанні…">
+<!ENTITY settings.advanced "Пашыраны рэжым">
+<!ENTITY settings.import "Імпарт налад…">
+<!ENTITY settings.export "Экспарт налад…">
+<!ENTITY apply "Ужыць">
+<!ENTITY gen.column1 "160">
+<!ENTITY tab.gen "Агульныя">
+<!ENTITY tab.gen.appearance "Знешні выгляд">
+<!ENTITY tab.gen.behavior "Паводзіны">
+<!ENTITY tab.gen.fullscreen "Поўнаэкранны рэжым">
+<!ENTITY tab.gen.special "Адмысловыя магчымасці">
+<!ENTITY tab.panels "Панэлі">
+<!ENTITY tab.panels.other1 "Дадаткова I">
+<!ENTITY tab.panels.other2 "Дадаткова II">
+<!ENTITY tab.panels.paneltab "Панэль укладак">
+<!ENTITY tab.menus "Меню">
+<!ENTITY tab.menus.sidebar "Бакавая панэль">
+<!ENTITY tab.keys "Гарачыя клавішы">
+<!ENTITY gen.orient.caption "Размяшчэнне бакавой панэлі">
+<!ENTITY gen.orient.label "Адчыняць бакавую панэль">
+<!ENTITY gen.orient.left "злева">
+<!ENTITY gen.orient.right "справа">
+<!ENTITY gen.width.caption "Шырыня бакавой панэлі">
+<!ENTITY gen.width.px "піксэлы">
+<!ENTITY gen.width.perc "адсоткі">
+<!ENTITY gen.width.current "бягучая шырыня">
+<!ENTITY gen.width.current.tip "Ужыць бягучую шырыню бакавой панэлі">
+<!ENTITY gen.width.min.hint "Shift+падвойны клік на загалоўку бакавой панэлі">
+<!ENTITY gen.width.def.hint "Падвойны клік на загалоўку бакавой панэлі">
+<!ENTITY gen.width.max.hint "Ctrl+Падвойны клік або Alt+Падвойны клік на загалоўку бакавой панэлі">
+<!ENTITY gen.init.caption "Паводзіны бакавой панэлі пры загрузцы браўзэра">
+<!ENTITY gen.init.label "Бакавая панэль">
+<!ENTITY gen.init.toolbar.label "Панэль прылад">
+<!ENTITY gen.init.toolbar.show.label "Паказваць панэль прылад">
+<!ENTITY gen.init.toolbar.hide.label "Хаваць панэль прылад">
+<!ENTITY gen.init.switch.show.label "Паказваць перамыкач бакавой панэлі">
+<!ENTITY gen.init.switch.hide.label "Хаваць перамыкач бакавой панэлі">
+<!ENTITY gen.init.mode1 "Запамінаць становішча бакавой панэлі">
+<!ENTITY gen.init.sidebar "Адкрыццё бакавой панэлі (Перамыкач бакавой панэлі, кнопка, гарачая клавіша)">
+<!ENTITY gen.init.sidebar.restore "Аднаўляць апошнюю скарыстаную панэль">
+<!ENTITY gen.switch.autoshow "Аўтаматычна адчыняць/зачыняць бакавую панэль (кантакт курсорам мышы замест кліку па перамыкачы)">
+<!ENTITY gen.switch.onlymax "Толькі калі браўзэр працуе ў поўнаэкранным рэжыме або акно максимизированно">
+<!ENTITY gen.switch.delay "Затрымка">
+<!ENTITY gen.switch.delayUnit "мілісекунды">
+<!ENTITY gen.switch.hide "Зачыняць бакавую панэль, калі курсор мышы…">
+<!ENTITY gen.switch.hideBar "вяртаецца на вэб-старонку">
+<!ENTITY gen.switch.hidePage "утрымліваецца на перамыкачы бакавой панэлі">
+<!ENTITY gen.switch.thin "Выкарыстаць сціснуты перамыкач бакавой панэлі">
+<!ENTITY gen.switch.width "Шырыня перамыкача бакавой панэлі">
+<!ENTITY gen.switch.twidth "Шырыня сціснутага перамыкача бакавой панэлі">
+<!ENTITY cmode.desc "Налада элементаў, з дапамогай якіх можа быць адчыненая/зачыненая бакавая панэль.">
+<!ENTITY cmode.tbb.label "Кнопка &amp;#8220;Бакавая панэль&amp;#8221;">
+<!ENTITY cmode.close.label "Кнопка &amp;#8220;Зачыніць&amp;#8221;">
+<!ENTITY cmode.mode1.label "Адчыняць/Зачыняць толькі бакавую панэль">
+<!ENTITY cmode.mode2.label "Адчыняць/Зачыняць бакавую панэль і бакавую панэль прылад">
+<!ENTITY cmode.mode3.label "Адчыняць/Зачыняць бакавую панэль, панэль прылад і перамыкач панэлі">
+<!ENTITY cmode.mode4.label "Паводзіны як у браўзэры Opera">
+<!ENTITY gen.fs.off "Аднаўляць становішча пры выхадзе з поўнаэкраннага рэжыму">
+<!ENTITY keyconfig.keyid "Імя">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Ужыць">
+<!ENTITY keyconfig.disable "Адключыць">
+<!ENTITY keyconfig.reset "Скінуць">
+<!ENTITY keyconfig.warn "Змены закранаюць толькі новыя вокны">
+<!ENTITY keyconfig.onreset "Патрабуецца перазагрузка браўзэра">
+<!ENTITY keyconfig.unrecognized "Неапазнаны ($1)">
+<!ENTITY keyconfig.used "Гэты ключ ужо выкарыстоўваецца: \\n\\n\\t$1\\n\\nХотя, гэта можа ўсё жа працаваць.">
+<!ENTITY menus.sidebar.desc "Налада складу меню &amp;#8220;Выгляд &gt; Бакавая панэль&amp;#8221; і выпадальнага меню кнопак бакавой панэлі.">
+<!ENTITY menus.icons.label "Паказваць значкі">
+<!ENTITY menus.entries.label "Паказваць радкі">
+<!ENTITY menus.sidebar.entrydeac "Адключыць вылучэнне актыўнай бакавой панэлі">
+<!ENTITY misc.enablesidebar.label "Адчыняць у бакавой панэлі">
+<!ENTITY misc.layout.label "Аптымізацыя для бакавой панэлі">
+<!ENTITY misc.colors.label "Выкарыстаць каляровыя фоны, заснаваныя на бягучым стане">
+<!ENTITY misc.count.label "Паказваць лік элементаў">
+<!ENTITY misc.enablelink.tooltip "Націсніце тут, каб атрымаць больш інфармацыі (спасылка на FAQ)">
+<!ENTITY misc.paneltab.reverse "Змяняць месцамі дзеянне левай і сярэдняй кнопак мышы">
+<!ENTITY misc.bm.paneltab.desc "Кнопка &amp;#8220;Адкрыць ва ўкладцы&amp;#8221; можа адчыняць у новай укладцы Мэнэджэр закладак замест спісу закладак.">
+<!ENTITY misc.bm.paneltab "Адчыняць у новай укладцы Мэнэджэр закладак">
+<!ENTITY special.collapsing.caption "Згортванне бакавой панэлі">
+<!ENTITY special.collapsing.label "Выкарыстаць згортванне бакавой панэлі">
+<!ENTITY special.collapsing.desc "Бакавая панэлі можа згортвацца замест таго, каб сапраўды зачыняцца. Перавага такіх паводзін у тым, што змесціва бакавой панэлі не загружаецца зноўку пасля яе паўторнага адкрыцця.">

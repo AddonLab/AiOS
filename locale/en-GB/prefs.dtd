@@ -1,0 +1,93 @@
+<!ENTITY title "All-in-One Sidebar – Options">
+<!ENTITY restart "Changes require a browser restart">
+<!ENTITY settings "Settings">
+<!ENTITY settings.default "Restore Defaults…">
+<!ENTITY settings.advanced "Advanced Mode">
+<!ENTITY settings.import "Import Settings…">
+<!ENTITY settings.export "Export Settings…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
+<!ENTITY apply "Apply">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "General">
+<!ENTITY tab.gen.appearance "Appearance">
+<!ENTITY tab.gen.behavior "Behaviour">
+<!ENTITY tab.gen.fullscreen "Full Screen Mode">
+<!ENTITY tab.gen.special "Special">
+<!ENTITY tab.panels "Panels">
+<!ENTITY tab.panels.places "Bookmarks/History">
+<!ENTITY tab.panels.other1 "Other I">
+<!ENTITY tab.panels.other2 "Other II">
+<!ENTITY tab.panels.paneltab "PanelTab">
+<!ENTITY tab.menus "Menus">
+<!ENTITY tab.menus.sidebar "Sidebar">
+<!ENTITY tab.keys "Shortcuts">
+<!ENTITY tab.about "About/Help">
+<!ENTITY gen.orient.caption "Orientation">
+<!ENTITY gen.orient.label "Show sidebar on">
+<!ENTITY gen.orient.left "left side">
+<!ENTITY gen.orient.right "right side">
+<!ENTITY gen.width.caption "Size">
+<!ENTITY gen.width.px "pixels">
+<!ENTITY gen.width.perc "percent">
+<!ENTITY gen.width.current "set to current width">
+<!ENTITY gen.width.current.tip "Applies the current width of the sidebar">
+<!ENTITY gen.width.min.hint "[Shift+double-click] on the sidebar title">
+<!ENTITY gen.width.def.hint "[Double-click] on the sidebar title">
+<!ENTITY gen.width.max.hint "[Ctrl+double-click] or [Alt+double-click] on the sidebar title">
+<!ENTITY gen.init.caption "Browser Startup">
+<!ENTITY gen.init.label "Sidebar">
+<!ENTITY gen.init.toolbar.label "Toolbar">
+<!ENTITY gen.init.toolbar.show.label "Show Toolbar">
+<!ENTITY gen.init.toolbar.hide.label "Hide Toolbar">
+<!ENTITY gen.init.switch.show.label "Show Sidebar Switch">
+<!ENTITY gen.init.switch.hide.label "Hide Sidebar Switch">
+<!ENTITY gen.init.mode1 "Restore the Remembered State">
+<!ENTITY gen.init.sidebar "Open Sidebar (Sidebar Switch, Toggle Button, Shortcut)">
+<!ENTITY gen.init.sidebar.restore "Restore the Remembered Panel">
+<!ENTITY gen.switch.autoshow "Show/hide Sidebar automatically (mouse contact instead of mouse click)">
+<!ENTITY gen.switch.onlymax "Only if Browser is Maximised or in Full Screen Mode">
+<!ENTITY gen.switch.delay "Delay">
+<!ENTITY gen.switch.delayUnit "milliseconds">
+<!ENTITY gen.switch.hide "Hide Sidebar if the mouse cursor…">
+<!ENTITY gen.switch.hideBar "is moved back to the webpage">
+<!ENTITY gen.switch.hidePage "is held on the Sidebar Switch">
+<!ENTITY gen.switch.thin "Enable Thin Sidebar Switch">
+<!ENTITY gen.switch.width "Width of the Sidebar Switch">
+<!ENTITY gen.switch.twidth "Width of the Thin Sidebar Switch">
+<!ENTITY cmode.caption "Toggle Sidebar">
+<!ENTITY cmode.desc "Customise which elements should be affected if opening or closing the sidebar with different methods.">
+<!ENTITY cmode.key.label "Shortcut (F4)">
+<!ENTITY cmode.tbb.label "AiOS Button">
+<!ENTITY cmode.close.label "Close Button">
+<!ENTITY cmode.mode1.label "Only the Sidebar">
+<!ENTITY cmode.mode2.label "The Sidebar and the Toolbar">
+<!ENTITY cmode.mode3.label "The Sidebar, the Toolbar, and the Sidebar Switch">
+<!ENTITY cmode.mode4.label "Opera\'s Behaviour">
+<!ENTITY gen.fs.off "Restore the State if Quitting the Full Screen Mode">
+<!ENTITY keyconfig.keyid "Name">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Apply">
+<!ENTITY keyconfig.disable "Disable">
+<!ENTITY keyconfig.reset "Reset">
+<!ENTITY keyconfig.warn "Changes affect only new windows">
+<!ENTITY keyconfig.onreset "Browser restart required">
+<!ENTITY keyconfig.unrecognized "Unrecognised ($1)">
+<!ENTITY keyconfig.used "This key is already used by: \\n\\n\\t$1\\n\\nIt might still work, though.">
+<!ENTITY menus.sidebar.desc "Customise the entries in the menu “View &gt; Sidebar” and in the dropdown menus of the sidebar buttons.">
+<!ENTITY menus.icons.label "Show Icons">
+<!ENTITY menus.entries.label "Show Entries">
+<!ENTITY menus.sidebar.entrydeac "Disable the Entry of the Active Sidebar">
+<!ENTITY misc.enablesidebar.label "Open in Sidebar">
+<!ENTITY misc.layout.label "Optimise Layout for the Sidebar">
+<!ENTITY misc.dm.overlay "Change options for the sidebar behaviour">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
+<!ENTITY misc.colors.label "Enable coloured backgrounds based on current state">
+<!ENTITY misc.count.label "Show Number of Items">
+<!ENTITY misc.enablelink.tooltip "Click here for more information (link to the FAQs)">
+<!ENTITY misc.paneltab.reverse "Swap Left-click and Middle-click Actions">
+<!ENTITY misc.bm.paneltab.desc "The button “PanelTab” can open the Bookmark Manager in a new tab instead of the Bookmark Panel.">
+<!ENTITY misc.bm.paneltab "Enable Bookmark Manager in New Tab">
+<!ENTITY special.collapsing.caption "Sidebar Collapsing">
+<!ENTITY special.collapsing.label "Enable Sidebar Collapsing">
+<!ENTITY special.collapsing.desc "The sidebar can collapse instead of closing. The advantage is that the sidebar content doesn\'t have to reload after re-opening so it responds faster.">

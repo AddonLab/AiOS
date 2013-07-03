@@ -1,0 +1,48 @@
+<!ENTITY title "About All-in-One Sidebar">
+<!ENTITY version "inačica">
+<!ENTITY settings "Postavke…">
+<!ENTITY close "Zatvori">
+<!ENTITY tab.about "O">
+<!ENTITY tab.contrib "Oni koji su pridonijeli">
+<!ENTITY tab.trans "Prevoditelji">
+<!ENTITY create.desc "kreirao Ingo Wennemaring, Hamburg [Njemačka]">
+<!ENTITY about1.name "Početna stranica">
+<!ENTITY about2.name "Osobine - sve osobine proširenja All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - učestalo postavljena pitanja i odgovori">
+<!ENTITY about4.name "Znani problemi - opisi i pitanja">
+<!ENTITY about5.name "Forum - rasprave, prijave greški i popravke tema između ostalih stvari">
+<!ENTITY about6.name "Popis promjena - povijest i promjene">
+<!ENTITY about7.name "Za napraviti - planirane osobine i unaprijeđenja">
+<!ENTITY contrib.desc "Zahvaljujem se slijedećim programerima za inspiraciju i odlomke [abecednim redom]:">
+<!ENTITY contrib.thanks "Zadnje, ali ne manje važno, zahvaljujem svim korisnicima koji su pomogli testiranjem razvojnih izdanja, prijavljivanjem greški na forumu, dijeljenjem njihovih ideja i prijedloga ili jednostavo pisanjem lijepog komentara :-) Puno vam hvala!">
+<!ENTITY trans.desc "All-in-One Sidebar prevoditelji [abecedno prema jezičnom kodu]:">
+<!ENTITY trans.cs-CZ.lang "Češki">
+<!ENTITY trans.da-DK.lang "Danski">
+<!ENTITY trans.de-DE.lang "Njemački">
+<!ENTITY trans.el-GR.lang "Grčki">
+<!ENTITY trans.en-GB.lang "Engleski (Velika Britanija)">
+<!ENTITY trans.en-US.lang "Engleski (SAD)">
+<!ENTITY trans.es-AR.lang "Španjolski (Argentina)">
+<!ENTITY trans.es-ES.lang "Španjolski (Španjolska)">
+<!ENTITY trans.fi-FI.lang "Finski">
+<!ENTITY trans.fr-FR.lang "Francuski">
+<!ENTITY trans.he-IL.lang "Hebrejski">
+<!ENTITY trans.hr-HR.lang "Hrvatski">
+<!ENTITY trans.hu-HU.lang "Mađarski">
+<!ENTITY trans.it-IT.lang "Talijanski">
+<!ENTITY trans.ja-JP.lang "Japanski">
+<!ENTITY trans.ko-KR.lang "Korejski">
+<!ENTITY trans.lt-LT.lang "Litvanski">
+<!ENTITY trans.nb-NO.lang "Norveški (BokmÃ¥l)">
+<!ENTITY trans.nl-NL.lang "Nizozemski">
+<!ENTITY trans.pl-PL.lang "Poljski">
+<!ENTITY trans.pt-BR.lang "Portugalski (Brazil)">
+<!ENTITY trans.pt-PT.lang "Portugalski (Portugal)">
+<!ENTITY trans.ru-RU.lang "Ruski">
+<!ENTITY trans.sk-SK.lang "Slovački">
+<!ENTITY trans.sv-SE.lang "Švedski">
+<!ENTITY trans.tr-TR.lang "Turski">
+<!ENTITY trans.uk-UA.lang "Ukrainski">
+<!ENTITY trans.zh-CN.lang "Kineski (pojednostavljeni)">
+<!ENTITY trans.zh-TW.lang "Kineski (tradicionalni)">
+<!ENTITY trans.thanks "Također, očito, zahvaljujem timu na BabelZilla.org na njihovom odličnom radu!">

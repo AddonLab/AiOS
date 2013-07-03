@@ -1,0 +1,17 @@
+<!ENTITY page.label "Side">
+<!ENTITY page.tooltip "Åpne websiden i dette panelet">
+<!ENTITY page.ssr.label "Utjevning for liten skjerm">
+<!ENTITY page.ssr100.label "Omgjør til sidestolpe bredde">
+<!ENTITY about.label "om:">
+<!ENTITY about.tooltip "Viser forskjellig informasjon om nettleseren">
+<!ENTITY about.config.tooltip "Viser en konsoll for å se og sette mange forskjellige innstillinger">
+<!ENTITY about.plugins.tooltip "Viser informasjon om alle installerte innstikk">
+<!ENTITY about.cache.tooltip "Viser informasjon om mellomlagerthjenesten for både minne og disk">
+<!ENTITY about.cache.disk.tooltip "Viser individuelle elementer på disken">
+<!ENTITY about.cache.memory.tooltip "Viser individuelle elementer i minnet">
+<!ENTITY about.buildconfig.tooltip "Viser argumenter og valg som ble brukt for å kompilere versjonen som er i bruk">
+<!ENTITY about.about.tooltip "Viser informasjon om versjon og kopirettigheter">
+<!ENTITY about.credits.tooltip "Viser en liste over alle som har bidratt til Mozilla">
+<!ENTITY about.license.tooltip "Viser Mozilla offentlige lisens">
+<!ENTITY about.mozilla.tooltip "Viser en side fra den oppdiktede &quot;Boken av Mozilla&quot;">
+<!ENTITY tools.remlast.label "Husker siste viste innhold">

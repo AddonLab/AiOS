@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Клацання лівою кнопкою">
+<!ENTITY rightclick "Клацання правою кнопкою">
+<!ENTITY doubleclick "Подвійне клацання">
+<!ENTITY middleclick "Клацання сер. кнопкою">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Інструменти">
+<!ENTITY closeFolder.label "Закрити всі папки">
+<!ENTITY show.closeFolder.label "Кнопка &quot;Закрити всі теки&quot;">
+<!ENTITY enable.autoClose.label "Автоматично закривати інші папки">
+<!ENTITY enable.scrollToFolder.label "Автоматично прокручувати до обраної папки">
+<!ENTITY enable.rememberFolder.label "Фокусуватися на останній відкритій папці">

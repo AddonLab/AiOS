@@ -1,0 +1,131 @@
+/* The feel-like-a-cellphone stylesheet
+ * 
+ * Original Author: Daniel Glazman <glazman@netscape.com>
+*/
+
+html {
+    background-color: AppWorkspace !important;
+}
+
+body {
+    /* First, let's resize the body to Nokia's screen width */
+    width: 176px !important;
+    min-width: 0 !important;
+
+    /* and make it more visible/readable */
+    /* remove the 3 following lines for embedded version */
+    padding: 3px !important;
+    margin: auto !important;
+    border: 1px solid ThreedDarkShadow !important;
+    border-top: none !important;
+    background-color: #FFFFFF !important;
+}
+
+* {
+    /* on a small screen, we need to use a readable font */
+    font-size: 11px !important;
+    background-image: none !important;
+}
+
+/* for all elements but the root element and the body, let's */
+/* cancel all annoying document's settings */
+*:not(body):not(html):not(select):not(option):not(optgroup) {
+
+    /* first cancel all size settings */
+    width: auto !important;
+    min-width: 0 !important;
+    height: auto !important;
+
+    /* and make the width <= 176px */
+    max-width: 176px !important;
+
+    /* remove all positioning */
+    position: static !important;
+
+    /* remove all positioning offsets */
+    top: auto !important;
+    left: auto !important;
+
+    /* and cancel floats */
+    float: none !important;
+
+    /* margins and paddings have to be changed */
+    padding: 0 !important;
+    margin: 0 !important;
+
+    /* avoid overflow on pre and table cells */
+    white-space: normal !important;
+    overflow: hidden !important;
+}
+
+table,
+tbody,
+thead,
+tfoot,
+tr,
+td,
+th,
+col,
+colgroup {
+    /* we need to "flatten" all tables */
+    display: block !important;
+}
+
+img[width="1"],
+img[height="1"],
+img[width="468"],
+img[height="600"] {
+    /* let's get rid of 1 pixel wide/high images */
+    /* and of std formats of ads ; current ads formats are */
+    /* too big for small screens */
+    display: none !important;
+}
+
+li {
+    /* better placement of the bullet on a small screen */
+    list-style-position: inside !important;
+}
+
+iframe {
+    /* berk, fyyyy, eeeek, iframes are evil and used only for ads */
+    display : none !important;
+}
+
+embed[type*="shockwave"] {
+    /* shockwave on a cellphone ? */
+    display : none !important;
+}
+
+html :-moz-any-link {
+    /* we need to make anchors more visible */
+    text-decoration: underline !important;
+}
+
+/* for CSS-based menus */
+ul,
+ol {
+    display: block !important;
+}
+
+li {
+    display: list-item !important;
+}
+
+a {
+    background-image: none !important;
+}
+
+img[src*="spacer"] {
+    display: none !important;
+}
+
+
+body[aiosSidebar=true] {
+    width: 100% !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+body[aiosSidebar=true] *:not(body):not(html):not(select):not(option):not(optgroup) {
+    max-width: 100% !important;
+}

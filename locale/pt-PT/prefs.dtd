@@ -1,0 +1,92 @@
+<!ENTITY title "Opções do All-in-One Sidebar">
+<!ENTITY restart "Requer reinicialização do navegador">
+<!ENTITY settings "Definições">
+<!ENTITY settings.default "Restaurar Pré-definições">
+<!ENTITY settings.advanced "Modo Avançado">
+<!ENTITY settings.import "Importar Definições">
+<!ENTITY settings.export "Exportar Definições">
+<!ENTITY settings.copy "A copiar definições para o clipboard">
+<!ENTITY apply "Aplicar">
+<!ENTITY gen.column1 "165">
+<!ENTITY tab.gen "Geral">
+<!ENTITY tab.gen.appearance "Aparência">
+<!ENTITY tab.gen.behavior "Comportamento">
+<!ENTITY tab.gen.fullscreen "Modo Ecrã Completo">
+<!ENTITY tab.gen.special "Especial">
+<!ENTITY tab.panels "Painéis">
+<!ENTITY tab.panels.places "Marcadores/Histórico">
+<!ENTITY tab.panels.other1 "Outro I">
+<!ENTITY tab.panels.other2 "Outro II">
+<!ENTITY tab.panels.paneltab "Painel do Separador">
+<!ENTITY tab.menus "Menus">
+<!ENTITY tab.menus.sidebar "Barra Lateral">
+<!ENTITY tab.keys "Atalhos">
+<!ENTITY gen.orient.caption "Posição">
+<!ENTITY gen.orient.label "Mostrar barra lateral no">
+<!ENTITY gen.orient.left "lado esquerdo">
+<!ENTITY gen.orient.right "lado direito">
+<!ENTITY gen.width.caption "Tamanho">
+<!ENTITY gen.width.px "pixeis">
+<!ENTITY gen.width.perc "por cento">
+<!ENTITY gen.width.current "Largura Actual">
+<!ENTITY gen.width.current.tip "Aplica a largura actual da barra lateral">
+<!ENTITY gen.width.min.hint "[Shift+duplo-clique] no título da barra lateral">
+<!ENTITY gen.width.def.hint "[Duplo-clique] no título da barra lateral">
+<!ENTITY gen.width.max.hint "[Ctrl+duplo-clique] ou [Alt+duplo-clique] no título da barra lateral">
+<!ENTITY gen.init.caption "Inicialização do Navegador">
+<!ENTITY gen.init.label "Barra Lateral">
+<!ENTITY gen.init.toolbar.label "Barra de Ferramentas">
+<!ENTITY gen.init.toolbar.show.label "Mostrar Barra de Ferramentas">
+<!ENTITY gen.init.toolbar.hide.label "Esconder Barra de Ferramentas">
+<!ENTITY gen.init.switch.show.label "Mostrar Switch da Barra lateral">
+<!ENTITY gen.init.switch.hide.label "Esconder Switch da Barra lateral">
+<!ENTITY gen.init.mode1 "Recuperar Estado Memorizado">
+<!ENTITY gen.init.sidebar "Abrir Barra lateral">
+<!ENTITY gen.init.sidebar.restore "Recuperar o Painel Memorizado">
+<!ENTITY gen.switch.autoshow "Mostrar/Esconder a barra lateral automaticamente (contacto do rato em vez de clique com o rato)">
+<!ENTITY gen.switch.onlymax "Apenas se o navegador estiver Maximizado ou em modo de Ecrã Completo">
+<!ENTITY gen.switch.delay "Atraso">
+<!ENTITY gen.switch.delayUnit "milissegundos">
+<!ENTITY gen.switch.hide "Esconder a barra lateral se o cursor do rato…">
+<!ENTITY gen.switch.hideBar "é movido de novo para a página web">
+<!ENTITY gen.switch.hidePage "está no Switch da Barra lateral">
+<!ENTITY gen.switch.thin "Activar o Switch fino da Barra lateral">
+<!ENTITY gen.switch.width "Largura do Switch da Barra lateral">
+<!ENTITY gen.switch.twidth "Largura do Switch fino da barra lateral">
+<!ENTITY cmode.caption "Trocar da barra lateral">
+<!ENTITY cmode.desc "Informe quais elementos devem ser afectados ao se abrir ou fechar a barra lateral de formas diferentes.">
+<!ENTITY cmode.key.label "Atalho (F4)">
+<!ENTITY cmode.tbb.label "Botão AiOS">
+<!ENTITY cmode.close.label "Botão Fechar:">
+<!ENTITY cmode.mode1.label "Somente a barra lateral">
+<!ENTITY cmode.mode2.label "Barra lateral e barra de ferramentas">
+<!ENTITY cmode.mode3.label "Barra lateral, barra de ferramentas e entalhe">
+<!ENTITY cmode.mode4.label "Mesmo comportamento do Opera">
+<!ENTITY gen.fs.off "Voltar ao estado original ao sair do modo ecrã completo">
+<!ENTITY keyconfig.keyid "Nome">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Aplicar">
+<!ENTITY keyconfig.disable "Desactivar">
+<!ENTITY keyconfig.reset "Repor">
+<!ENTITY keyconfig.warn "As mudanças afectam somente novas janelas,">
+<!ENTITY keyconfig.onreset "Reinicie o navegador">
+<!ENTITY keyconfig.unrecognized "Não reconhecido ($1)">
+<!ENTITY keyconfig.used "Esta tecla já está sendo usada por:\\n\\n\\t$1. No entanto pode funcionar.">
+<!ENTITY menus.sidebar.desc "Personalize as opções no menu &quot;Mostrar &gt; Barra Lateral&quot;; e no menu suspenso dos botões da barra lateral.">
+<!ENTITY menus.icons.label "Mostrar ícones">
+<!ENTITY menus.entries.label "Mostrar opções">
+<!ENTITY menus.sidebar.entrydeac "Desactivar a opção da barra lateral activa no menu">
+<!ENTITY misc.enablesidebar.label "Abrir na barra lateral">
+<!ENTITY misc.layout.label "Optimizar o esquema para a barra lateral">
+<!ENTITY misc.dm.overlay "Mudar opções para o comportamento da barra lateral">
+<!ENTITY misc.dm.autoopen.label "Mostra a barra lateral de transferências ao transferir um ficheiro">
+<!ENTITY misc.dm.autoclose.label "Fechar quando todas as transferências trminarem">
+<!ENTITY misc.colors.label "Activar cores de fundo baseado no estado actual">
+<!ENTITY misc.count.label "Mostrar o número de itens">
+<!ENTITY misc.enablelink.tooltip "Clique aqui para mais informação (ligação para a FAQ)">
+<!ENTITY misc.paneltab.reverse "Swap das Acções clique-esquerdo e meio-clique">
+<!ENTITY misc.bm.paneltab.desc "O botão “Painel de Separadores” pode abrir o Gestor de Marcadores num novo separador em vez do painel de favoritos.">
+<!ENTITY misc.bm.paneltab "Activar o Gestor de Marcadores num Novo Separador">
+<!ENTITY special.collapsing.caption "Colapso da Barra lateral">
+<!ENTITY special.collapsing.label "Activar Colapso da barra lateral">
+<!ENTITY special.collapsing.desc "A barra lateral pode colapsar em vez de fechar. A vantagem é que o conteúdo da barra lateral não tem de ser recarregado ao reabrir respondendo mais rápido">

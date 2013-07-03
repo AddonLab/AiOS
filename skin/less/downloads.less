@@ -1,0 +1,307 @@
+
+#downloadManager,
+#downloadView {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#search {
+    direction: rtl;	/* Clear Button rechts in der Toolbar */
+    
+    * {
+        direction: ltr;
+    }
+    
+    #searchbox {
+        -moz-box-flex: 1000;
+    }
+    
+    #searchbox,
+    #clearListButton {
+        margin: 1px;
+    }
+}
+
+
+/* @group Icons (Linux hat ein hauseigenes Icon) */
+window[aios-appOS="WINNT"] #clearListButton {
+    list-style-image: url(../icons/panels_menus.png);
+    -moz-image-region: rect(0, 48px, 16px, 32px);
+}
+
+window[aios-appOS="Darwin"] #clearListButton {
+    list-style-image: url(../icons/panels_menus.png);
+    -moz-image-region: rect(32px, 48px, 48px, 32px);
+}
+/* @end */
+
+
+/* @group schmale Liste */
+
+/*
+	div. Status-Moeglichkeiten
+
+	state="-1"	=>	download-starting
+	state="0"	=>	download-downloading
+	state="1"	=>	download-done
+	state="2"	=>	download-failed
+	state="3"	=>	download-canceled
+	state="4"	=>	download-paused
+*/
+
+richlistitem:not([selected=true]) {
+    
+    &[state="1"],
+    &[state="2"],
+    &[state="3"] {
+        min-height: 0 !important;
+        padding: 5px;
+    }
+    
+    &[state="1"] .downloadTypeIcon,
+    &[state="2"] .downloadTypeIcon,
+    &[state="3"] .downloadTypeIcon {
+        width: 16px;
+        height: 16px;
+        min-width: 16px;
+        min-height: 16px;
+    }
+    
+    &[state="1"] > hbox > vbox > hbox:nth-child(even),
+    
+    &[state="1"] label.status,
+    &[state="2"] label.status,
+    &[state="3"] label.status,
+    
+    &[state="1"] .mini-button,
+    &[state="2"] .mini-button,
+    &[state="3"] .mini-button,
+    
+    &[state="1"] #dmtDoneShowBtn,
+    &[state="2"] #dmtDoneShowBtn,
+    &[state="3"] #dmtDoneShowBtn,
+    
+    &[state="1"] #dmtDoneReloadBtn,
+    &[state="2"] #dmtDoneReloadBtn,
+    &[state="3"] #dmtDoneReloadBtn,
+    
+    &[state="1"] #dmtDoneDeleteBtn,
+    &[state="2"] #dmtDoneDeleteBtn,
+    &[state="3"] #dmtDoneDeleteBtn,
+    
+    &[state="1"] #dmtDoneCleanUpBtn,
+    &[state="2"] #dmtDoneCleanUpBtn,
+    &[state="3"] #dmtDoneCleanUpBtn {
+        display: none;
+    }
+}
+/* @end */
+
+
+
+/* @group Firefox-Standard-Theme */
+
+*[aios-appDefTheme="true"] {
+    
+    richlistitem {
+        
+        .name {
+            font-size: 11px;
+            font-weight: bold;
+        }
+        
+        &[selected=true] .name,
+        &[state="-1"] .name,
+        &[state="0"] .name,
+        &[state="4"] .name {
+            font-size: 13px;
+        }
+        
+        &[selected=true] .status,
+        &[selected=true] .dateTime {
+            font-size: 11px;
+        }
+    }
+    
+    
+    /* @group farbige Liste */
+    richlistitem:not([selected=true]) {
+        
+        /* downloaden */
+        &[state="-1"],
+        &[state="0"],
+        &[state="4"] {
+            color: #006600;
+            background-color: #ECFFEC;
+        }
+        
+        /* fehlgeschlagen oder abgebrochen */
+        &[state="2"],
+        &[state="3"] {
+            color: #660000;
+            background-color: #FFECEC;
+        }
+        
+    }
+    /* @end */
+    
+    
+    /* @group Windows */
+    &[aios-appOS="WINNT"]{
+        
+        #search {
+            padding: 0 1px 1px 1px;
+            border-top: 1px solid ThreedHighlight;
+        }
+        
+        richlistitem {
+            border-bottom: 1px dotted rgba(0,0,0,0.3);
+            
+            &[selected="true"] {
+                outline: 0;
+            }
+            
+            &:not([selected="true"]) {
+                    
+                &[state="1"] {
+                    background-color: #FFFFFF;
+                        
+                    &:nth-child(odd) {
+                        background-color: rgba(255,255,255,0.6);
+                    }
+                }
+            }
+        }
+        
+        
+        /* @group Windows-XP klassisch */
+        &[aios-appOSVersion="Windows NT 5.1"] {
+            
+            #downloadView {
+                -moz-appearance: none;
+                border-top: 1px solid ThreedShadow;
+                background-color: #efedea;
+            }
+            
+        }
+        /* @end */
+        
+        
+        /* @group Windows-Standard */
+        &:-moz-system-metric(windows-default-theme) {
+            
+            /* @group Windows XP-Standard */
+            &[aios-appOSVersion="Windows NT 5.1"] {
+                
+                #search {
+                    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), 
+                                      rgba(255, 255, 255, 0));
+                }
+                
+                #downloadView {
+                    background-color: #EDECEF;
+                }
+                
+                richlistitem[selected="true"] {
+                    background: #CAD3E1 none;
+                }
+                
+            }
+            /* @end */
+            
+            
+            /* @group Windows Vista-7-Standard */
+            &:not([aios-appOSVersion="Windows NT 5.1"]) {
+                
+                #search {
+                    background-color: #eef3fa;
+                    border-bottom: 1px solid ThreedShadow;
+                }
+                
+                #downloadView {
+                    background-color: #EEF3FA;
+                }
+                
+                richlistitem[selected="true"] {
+                    color: #000000;
+                    background: #CBD8E8 none;
+                }
+                
+            }
+            /* @end */
+            
+        }
+        /* @end */
+        
+    }
+    /* @end */
+    
+    
+    /* @group Darwin */
+    &[aios-appOS="Darwin"] {
+        
+        #downloadView,
+        #search {
+            -moz-appearance: none;
+            background-color: #d4dde5;
+            
+            &:-moz-window-inactive {
+                background-color: #e8e8e8;
+            }
+        }
+        
+        #search {
+            padding: 6px 1px 10px 3px;
+            
+            #searchbox {
+                margin-right: 6px;
+            }
+            
+            #clearListButton {
+                -moz-appearance: none;
+                margin-top: 2px;
+                padding: 1px 0 1px 5px;
+                border: 1px solid #7F7F7F;
+                border-radius: 10px;
+                background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;
+                
+                &[disabled="true"],
+                &:-moz-window-inactive {
+                    opacity: 0.5;
+                }
+            }
+            
+        }
+        
+        richlistitem {
+            
+            &[state="1"]:not([selected=true]) {
+                background-color: #FFFFFF;
+                
+                &:nth-child(odd) {
+                    background-color: #ECF3FE;
+                }
+            }
+            
+            &[selected=true] {
+                color: #000;
+                background-color: #aab8c6;
+                
+                .name {
+                    text-shadow: rgba(255, 255, 255, 0.4) 0 1px 0;
+                }
+                
+                .status,
+                .dateTime {
+                    color: #000 !important;
+                }
+            }
+            
+        }
+        
+    }
+    /* @end */
+    
+}
+/* @end */

@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar 設定">
+<!ENTITY restart "ブラウザ再起動後に変更されます">
+<!ENTITY settings "詳細設定">
+<!ENTITY settings.default "デフォルトに戻す">
+<!ENTITY settings.advanced "上級モード">
+<!ENTITY settings.import "設定をインポート">
+<!ENTITY settings.export "設定をエクスポート">
+<!ENTITY settings.copy "クリップボードに設定をコピー">
+<!ENTITY apply "適 用">
+<!ENTITY gen.column1 "120">
+<!ENTITY tab.gen "全 般">
+<!ENTITY tab.gen.appearance "外 観">
+<!ENTITY tab.gen.behavior "機 能">
+<!ENTITY tab.gen.fullscreen "フルスクリーンモード">
+<!ENTITY tab.gen.special "特 殊">
+<!ENTITY tab.panels "パネル">
+<!ENTITY tab.panels.places "ブックマーク/履歴">
+<!ENTITY tab.panels.other1 "その他 I">
+<!ENTITY tab.panels.other2 "その他 II">
+<!ENTITY tab.panels.paneltab "パネルタブ">
+<!ENTITY tab.menus "メニュー">
+<!ENTITY tab.menus.sidebar "サイドバー">
+<!ENTITY tab.keys "ショートカット">
+<!ENTITY gen.orient.caption "外観設定">
+<!ENTITY gen.orient.label "表示位置方向">
+<!ENTITY gen.orient.left "左側に置く">
+<!ENTITY gen.orient.right "右側に置く">
+<!ENTITY gen.width.caption "幅サイズ">
+<!ENTITY gen.width.px "ピクセル">
+<!ENTITY gen.width.perc "パーセント">
+<!ENTITY gen.width.current "現在の幅値">
+<!ENTITY gen.width.current.tip "現在のサイドバーの幅値を適用します">
+<!ENTITY gen.width.min.hint "サイドバータイトル上で [シフト + ダブルクリック]">
+<!ENTITY gen.width.def.hint "サイドバータイトル上で [ダブルクリック]">
+<!ENTITY gen.width.max.hint "サイドバータイトル上で [Ctrl + ダブルクリック] 又は [Alt + ダブルクリック]">
+<!ENTITY gen.init.caption "起動時">
+<!ENTITY gen.init.label "サイドバー">
+<!ENTITY gen.init.toolbar.label "ツールバー">
+<!ENTITY gen.init.toolbar.show.label "ツールバーを表示">
+<!ENTITY gen.init.toolbar.hide.label "ツールバーを隠す">
+<!ENTITY gen.init.switch.show.label "サイドバースイッチを表示">
+<!ENTITY gen.init.switch.hide.label "サイドバースイッチを隠す">
+<!ENTITY gen.init.mode1 "記憶した状態に戻す">
+<!ENTITY gen.init.sidebar "サイドバーを開く (サイドバースイッチ, トグルボタン, ショートカット)">
+<!ENTITY gen.init.sidebar.restore "記憶したパネル状態に戻す">
+<!ENTITY gen.switch.autoshow "サイドバーの自動開閉を有効にする (マウスクリックの代わりにマウスフォーカスによるもの)">
+<!ENTITY gen.switch.onlymax "ブラウザが最大表示時かフルスクリーンモード時のみ">
+<!ENTITY gen.switch.delay "遅延時間">
+<!ENTITY gen.switch.delayUnit "ミリ秒">
+<!ENTITY gen.switch.hide "以下の操作でサイドバーを非表示にする">
+<!ENTITY gen.switch.hideBar "マウスフォーカスをウェブページに戻した時">
+<!ENTITY gen.switch.hidePage "マウスフォーカスをサイドバースイッチに置いた時">
+<!ENTITY gen.switch.thin "細いサイドバースイッチを有効にする">
+<!ENTITY gen.switch.width "通常のサイドバースイッチ幅">
+<!ENTITY gen.switch.twidth "細いサイドバースイッチ幅">
+<!ENTITY cmode.caption "トグルサイドバー">
+<!ENTITY cmode.desc "異なる方法でサイドバーを開くか閉じた場合、選択登録した項目は影響を受けます">
+<!ENTITY cmode.key.label "ショートカット (F4)">
+<!ENTITY cmode.tbb.label "AiOS ボタン">
+<!ENTITY cmode.close.label "閉じるボタン">
+<!ENTITY cmode.mode1.label "サイドバーのみ">
+<!ENTITY cmode.mode2.label "サイドバー、ツールバー">
+<!ENTITY cmode.mode3.label "サイドバー、ツールバー、サイドバースイッチ">
+<!ENTITY cmode.mode4.label "Opera と同じ">
+<!ENTITY gen.fs.off "フルスクリーンモードをやめて元の状態に戻す">
+<!ENTITY keyconfig.keyid "機能名称">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "適 用">
+<!ENTITY keyconfig.disable "無 効">
+<!ENTITY keyconfig.reset "リセット">
+<!ENTITY keyconfig.warn "新規ウィンドウで変更が反映されます">
+<!ENTITY keyconfig.onreset "ブラウザを再起動してください">
+<!ENTITY keyconfig.unrecognized "認識できません ($1)">
+<!ENTITY keyconfig.used "そのキーはすでに使われています:   \\t$1  It そのキーはまだ有効だと思われます">
+<!ENTITY menus.sidebar.desc "“ 表示 ＞ サイドバー ” メニューとサイドバーボタンのドロップダウンメニューの登録選択">
+<!ENTITY menus.icons.label "アイコンの表示">
+<!ENTITY menus.entries.label "エントリーの表示">
+<!ENTITY menus.sidebar.entrydeac "アクティブなサイドバーのエントリーを無効にする">
+<!ENTITY misc.enablesidebar.label "サイドバーで開く">
+<!ENTITY misc.layout.label "サイドバーの最適化">
+<!ENTITY misc.dm.overlay "サイドバー機能の設定変更">
+<!ENTITY misc.dm.autoopen.label "ファイルのダウンロード時にダウンロードマネージャをサイドバーに開く">
+<!ENTITY misc.dm.autoclose.label "ダウンロード完了時にダウンロードマネージャを閉じる">
+<!ENTITY misc.colors.label "現状の背景色を有効にする">
+<!ENTITY misc.count.label "アイテム数の表示">
+<!ENTITY misc.enablelink.tooltip "より詳しい情報を得るにはここをクリックしてください (FAQ&apos;s にリンク)">
+<!ENTITY misc.paneltab.reverse "左クリックと中クリックの動作を入れ替える">
+<!ENTITY misc.bm.paneltab.desc "“ パネルタブ ”アイコンでブックマークパネルの代わりに新規タブにブックマークマネージャを開くことができます">
+<!ENTITY misc.bm.paneltab "タブにブックマークマネージャを移動する">
+<!ENTITY special.collapsing.caption "サイドバーを折りたたむ">
+<!ENTITY special.collapsing.label "サイドバーの折りたたみを有効にする">
+<!ENTITY special.collapsing.desc "サイドバーを閉じる代わりに折りたたむことが可能になります。これは再度開いた後に再読み込みが不要になる利点があります。">

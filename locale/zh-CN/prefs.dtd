@@ -1,0 +1,93 @@
+<!ENTITY title "All-in-One Sidebar – 选项">
+<!ENTITY restart "需要重新启动浏览器">
+<!ENTITY settings "设置">
+<!ENTITY settings.default "恢复默认设置…">
+<!ENTITY settings.advanced "高级模式">
+<!ENTITY settings.import "导入设置…">
+<!ENTITY settings.export "导出设置…">
+<!ENTITY settings.copy "复制设置到剪贴板">
+<!ENTITY apply "应用">
+<!ENTITY gen.column1 "95">
+<!ENTITY tab.gen "常规">
+<!ENTITY tab.gen.appearance "外观">
+<!ENTITY tab.gen.behavior "状态">
+<!ENTITY tab.gen.fullscreen "全屏模式">
+<!ENTITY tab.gen.special "特殊">
+<!ENTITY tab.panels "面板">
+<!ENTITY tab.panels.places "书签 / 历史">
+<!ENTITY tab.panels.other1 "其他 I">
+<!ENTITY tab.panels.other2 "其他 II">
+<!ENTITY tab.panels.paneltab "面板标签页">
+<!ENTITY tab.menus "菜单">
+<!ENTITY tab.menus.sidebar "侧栏菜单">
+<!ENTITY tab.keys "快捷键">
+<!ENTITY tab.about "关于/帮助">
+<!ENTITY gen.orient.caption "位置">
+<!ENTITY gen.orient.label "侧栏位于">
+<!ENTITY gen.orient.left "浏览器左侧">
+<!ENTITY gen.orient.right "浏览器右侧">
+<!ENTITY gen.width.caption "宽度">
+<!ENTITY gen.width.px "像素">
+<!ENTITY gen.width.perc "百分比">
+<!ENTITY gen.width.current "当前宽度">
+<!ENTITY gen.width.current.tip "应用当前侧栏宽度">
+<!ENTITY gen.width.min.hint "按 Shift 键同时双击侧栏标题">
+<!ENTITY gen.width.def.hint "双击侧栏标题">
+<!ENTITY gen.width.max.hint "按 Ctrl 或 Alt 键同时双击侧栏">
+<!ENTITY gen.init.caption "启动浏览器">
+<!ENTITY gen.init.label "侧栏">
+<!ENTITY gen.init.toolbar.label "工具栏">
+<!ENTITY gen.init.toolbar.show.label "显示工具栏">
+<!ENTITY gen.init.toolbar.hide.label "隐藏工具栏">
+<!ENTITY gen.init.switch.show.label "显示侧栏切换柄">
+<!ENTITY gen.init.switch.hide.label "隐藏侧栏切换柄">
+<!ENTITY gen.init.mode1 "记住侧栏的状态">
+<!ENTITY gen.init.sidebar "打开侧栏（侧栏切换柄、切换按钮或快捷键）">
+<!ENTITY gen.init.sidebar.restore "记住打开的面板">
+<!ENTITY gen.switch.autoshow "自动显示/隐藏侧栏(只需鼠标轻触而不用点击鼠标)">
+<!ENTITY gen.switch.onlymax "仅当浏览器是最大化或全屏模式有效">
+<!ENTITY gen.switch.delay "延迟">
+<!ENTITY gen.switch.delayUnit "毫秒">
+<!ENTITY gen.switch.hide "隐藏侧栏，当鼠标…">
+<!ENTITY gen.switch.hideBar "移回网页">
+<!ENTITY gen.switch.hidePage "停留在侧栏切换柄">
+<!ENTITY gen.switch.thin "启用细侧栏切换柄">
+<!ENTITY gen.switch.width "侧栏切换柄宽度">
+<!ENTITY gen.switch.twidth "细切换柄的宽度">
+<!ENTITY cmode.caption "开关侧栏">
+<!ENTITY cmode.desc "定制用不同方法切换侧栏时打开/关闭的项目。">
+<!ENTITY cmode.key.label "快捷键 (F4)">
+<!ENTITY cmode.tbb.label "AiOS 按钮">
+<!ENTITY cmode.close.label "关闭按钮">
+<!ENTITY cmode.mode1.label "仅侧栏">
+<!ENTITY cmode.mode2.label "侧栏和工具栏">
+<!ENTITY cmode.mode3.label "侧栏、工具栏和侧栏切换柄">
+<!ENTITY cmode.mode4.label "类似 Opera 的方式">
+<!ENTITY gen.fs.off "退出全屏时恢复侧栏状态">
+<!ENTITY keyconfig.keyid "名称">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "应用">
+<!ENTITY keyconfig.disable "禁用">
+<!ENTITY keyconfig.reset "重置">
+<!ENTITY keyconfig.warn "更改只影响新窗口">
+<!ENTITY keyconfig.onreset "需要重起浏览器">
+<!ENTITY keyconfig.unrecognized "未识别 ($1)">
+<!ENTITY keyconfig.used "尽管这样设置也可以工作，但是“t$1”已经使用此快捷键。">
+<!ENTITY menus.sidebar.desc "定制“查看 –&gt; 侧栏”和侧栏按钮下拉菜单项目">
+<!ENTITY menus.icons.label "显示图标">
+<!ENTITY menus.entries.label "显示项目">
+<!ENTITY menus.sidebar.entrydeac "不允许选择当前打开的面板(以灰色字体显示)">
+<!ENTITY misc.enablesidebar.label "在侧栏打开">
+<!ENTITY misc.layout.label "为适合侧栏优化布局">
+<!ENTITY misc.dm.overlay "改变侧栏行为的选项">
+<!ENTITY misc.dm.autoopen.label "下载文件时显示下载侧栏">
+<!ENTITY misc.dm.autoclose.label "下载完成时关闭下载侧栏">
+<!ENTITY misc.colors.label "基于当前状态启用彩色背景">
+<!ENTITY misc.count.label "显示项目数量">
+<!ENTITY misc.enablelink.tooltip "点击这里获得更多信息">
+<!ENTITY misc.paneltab.reverse "交换左键与右键的功能">
+<!ENTITY misc.bm.paneltab.desc "您可以使用“面板标签页”按钮在新标签页中打开书签管理器而不是打开书签面板。">
+<!ENTITY misc.bm.paneltab "在新标签页中打开书签管理器">
+<!ENTITY special.collapsing.caption "侧栏折叠">
+<!ENTITY special.collapsing.label "启用侧栏折叠">
+<!ENTITY special.collapsing.desc "侧栏可以折叠起来而不是真正的关闭，这样做的优点就是侧栏的内容不会在下次打开的时候重新载入。">

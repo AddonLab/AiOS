@@ -1,0 +1,52 @@
+<!ENTITY loading.label "パネルに読み込み中...">
+<!ENTITY menu.prefs.label "All-in-One Sidebar 設定">
+<!ENTITY menu.togglebar.label "サイドバースイッチ">
+<!ENTITY menu.grippy.label "サイドバーグリップ">
+<!ENTITY toolbar.name "All-in-One Sidebar ツールバー">
+<!ENTITY sbhtoolbar.name "サイドバーヘッダー　ツールバー">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "All-in-One Sidebar のトグル機能">
+<!ENTITY button.switch.tooltip1 "サイドバーとツールバーの開閉">
+<!ENTITY button.switch.tooltip2 "ツールバー開閉">
+<!ENTITY button.switch.tooltip3 "サイドバー開閉">
+<!ENTITY sidebar.open.label "サイドバーを開く">
+<!ENTITY sidebar.close.label "サイドバーを閉じる">
+<!ENTITY sidebar.width.min "最小幅">
+<!ENTITY sidebar.width.def "標準幅">
+<!ENTITY sidebar.width.max "最大幅">
+<!ENTITY button.menu.label "サイドバーパネル">
+<!ENTITY button.menu.tooltip "サイドバーパネルをすべて有効にする">
+<!ENTITY button.toolbar.label "AiOS - ツールバー">
+<!ENTITY button.toolbar.tooltip "AiOS - ツールバーの開閉を切り替えます">
+<!ENTITY button.paneltab.label "パネルタブ">
+<!ENTITY button.paneltab.tooltip1 "サイドバーに開いているタブの内容を表示します">
+<!ENTITY button.paneltab.tooltip2 "新規タブにサイドバーの内容を表示します">
+<!ENTITY button.paneltab.tooltip3 "ウィンドウにサイドバー内容を表示します">
+<!ENTITY button.paneltab.menu1.label "サイドバーでタブを開く">
+<!ENTITY button.paneltab.menu2.label "タブでサイドバーを開く">
+<!ENTITY button.autohide.label "サイドバー自動開閉">
+<!ENTITY button.autohide.tooltip "サイドバーの自動開閉を切り替えます">
+<!ENTITY button.tooltip.sidebar "サイドバーで開く">
+<!ENTITY button.tooltip.window "ウィンドウで開く">
+<!ENTITY button.tooltip.tab "新規タブで開く">
+<!ENTITY button.addons.label "アドオン">
+<!ENTITY button.addons.tooltip "拡張機能、テーマ、言語パック一覧を表示します">
+<!ENTITY button.multipanel.label "マルチパネル">
+<!ENTITY button.multipanel.tooltip "マルチパネルを表示します">
+<!ENTITY button.pageinfo.tooltip "ページの情報を表示します">
+<!ENTITY button.console.label "エラーコンソール">
+<!ENTITY button.console.tooltip "エラーコンソールを表示します(ソースコードの問題を追跡します)">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "サイドバーの左側へ">
+<!ENTITY toolbar.pos.sidebarright.label "サイドバーの右側へ">
+<!ENTITY toolbar.pos.sidebartop.label "サイドバーの上へ">
+<!ENTITY toolbar.pos.headerbottom.label "サイドバーヘッダーの下へ">
+<!ENTITY toolbar.pos.sidebarbottom.label "サイドバーの下へ">
+<!ENTITY toolbar.mode.flexbuttons.label "フレキシブルボタン">

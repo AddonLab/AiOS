@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Vasakklikk">
+<!ENTITY rightclick "Paremklikk">
+<!ENTITY doubleclick "Topeltklikk">
+<!ENTITY middleclick "Keskklikk">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Vahendid">
+<!ENTITY closeFolder.label "Sule kõik kaustad">
+<!ENTITY show.closeFolder.label "&apos;Sule kõik kaustad&apos; Nupp">
+<!ENTITY enable.autoClose.label "Sule teised kaustad automaatselt">
+<!ENTITY enable.scrollToFolder.label "Keri automaatselt valitud kaustani">
+<!ENTITY enable.rememberFolder.label "Pea meeles ja anna fookus viimati valitud kaustale">

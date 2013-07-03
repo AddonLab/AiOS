@@ -1,0 +1,93 @@
+<!ENTITY title "אפשרויות All-in-One Sidebar">
+<!ENTITY restart "השינוי דורש אתחול הדפדפן">
+<!ENTITY settings "הגדרות">
+<!ENTITY settings.default "שחזור ברירת המחדל…">
+<!ENTITY settings.advanced "תצורה מתקדמת">
+<!ENTITY settings.import "ייבוא הגדרות…">
+<!ENTITY settings.export "ייצוא הגדרות…">
+<!ENTITY settings.copy "העתקת ההגדרות אל לוח הכתיבה">
+<!ENTITY apply "החלה">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "כללי">
+<!ENTITY tab.gen.appearance "מראה">
+<!ENTITY tab.gen.behavior "התנהגות">
+<!ENTITY tab.gen.fullscreen "מצב מסך-מלא">
+<!ENTITY tab.gen.special "מיוחד">
+<!ENTITY tab.panels "לוחות">
+<!ENTITY tab.panels.places "סימניות/היסטוריה">
+<!ENTITY tab.panels.other1 "אחר I">
+<!ENTITY tab.panels.other2 "אחר II">
+<!ENTITY tab.panels.paneltab "לוח לשונית">
+<!ENTITY tab.menus "תפריטים">
+<!ENTITY tab.menus.sidebar "סרגל-הצד">
+<!ENTITY tab.keys "קיצורי דרך">
+<!ENTITY tab.about "אודות\\עזרה">
+<!ENTITY gen.orient.caption "מיקום">
+<!ENTITY gen.orient.label "הצגת סרגל-הצד בצד">
+<!ENTITY gen.orient.left "שמאל">
+<!ENTITY gen.orient.right "ימין">
+<!ENTITY gen.width.caption "גודל">
+<!ENTITY gen.width.px "פיקסלים">
+<!ENTITY gen.width.perc "אחוז">
+<!ENTITY gen.width.current "קביעה לפי רוחב נוכחי">
+<!ENTITY gen.width.current.tip "יישום הרוחב הנוכחי של סרגל הצד">
+<!ENTITY gen.width.min.hint "[Shift+double-click] על כותרת סרגל הצד">
+<!ENTITY gen.width.def.hint "[לחיצה כפולה] על כותרת סרגל הצד">
+<!ENTITY gen.width.max.hint "[Ctrl+double-click] או [Alt+double-click] על כותרת סרגל הצד">
+<!ENTITY gen.init.caption "כשהדפדפן נפתח">
+<!ENTITY gen.init.label "סרגל-הצד">
+<!ENTITY gen.init.toolbar.label "סרגל כלים">
+<!ENTITY gen.init.toolbar.show.label "הצגת סרגל הכלים">
+<!ENTITY gen.init.toolbar.hide.label "הסתרת סרגל הכלים">
+<!ENTITY gen.init.switch.show.label "הצגת מפסק סרגל-הצד">
+<!ENTITY gen.init.switch.hide.label "הסתרת מפסק סרגל-הצד">
+<!ENTITY gen.init.mode1 "שיחזור המצב האחרון">
+<!ENTITY gen.init.sidebar "פתיחת סרגל-הצד (מפסק סרגל-הצד, כפתור הצגה/הסתרה, קיצור דרך)">
+<!ENTITY gen.init.sidebar.restore "שחזור הלוח האחרון">
+<!ENTITY gen.switch.autoshow "הצגת/הסתרת סרגל-הצד אוטומטית (מגע עכבר במקום לחיצת עכבר)">
+<!ENTITY gen.switch.onlymax "רק אם הדפדפן במצב מקסימלי או במצב מסך מלא">
+<!ENTITY gen.switch.delay "השהייה">
+<!ENTITY gen.switch.delayUnit "אלפיות שנייה">
+<!ENTITY gen.switch.hide "הסתרת סרגל-הצד אם סמן העכבר…">
+<!ENTITY gen.switch.hideBar "מוזז בחזרה אל דף האינטרנט">
+<!ENTITY gen.switch.hidePage "מוחזק על מפסק סרגל הצד">
+<!ENTITY gen.switch.thin "אפשור מפסק דק לסרגל-הצד">
+<!ENTITY gen.switch.width "רוחב מפסק סרגל-הצד">
+<!ENTITY gen.switch.twidth "רוחב המפסק הדק של סרגל-הצד">
+<!ENTITY cmode.caption "הצגת/הסתרת סרגל-הצד">
+<!ENTITY cmode.desc "התאמה אישית של איזה אלמנט יושפע אם יפתח/ייסגר סרגל-הצד בשיטות שונות">
+<!ENTITY cmode.key.label "קיצור דרך (F4)">
+<!ENTITY cmode.tbb.label "כפתור AIOS">
+<!ENTITY cmode.close.label "כפתור סגירה">
+<!ENTITY cmode.mode1.label "רק סרגל-הצד">
+<!ENTITY cmode.mode2.label "סרגל-הצד וסרגל הכלים">
+<!ENTITY cmode.mode3.label "סרגל-הצד, סרגל כלים, ומפסק סרגל-הצד">
+<!ENTITY cmode.mode4.label "התנהגות כמו באופרה">
+<!ENTITY gen.fs.off "שחזור מצב המסך אם יוצאים ממסך המלא">
+<!ENTITY keyconfig.keyid "שם">
+<!ENTITY keyconfig.id "זהות">
+<!ENTITY keyconfig.apply "החלה">
+<!ENTITY keyconfig.disable "נטרול">
+<!ENTITY keyconfig.reset "איפוס">
+<!ENTITY keyconfig.warn "השינויים משפיעים רק על חלונות חדשים">
+<!ENTITY keyconfig.onreset "דורש אתחול הדפדפן">
+<!ENTITY keyconfig.unrecognized "לא מזוהה ($1)">
+<!ENTITY keyconfig.used "מפתח זה כבר בשימוש על ידי \\n\\n\\t$1\\n\\n  אולי יעבוד">
+<!ENTITY menus.sidebar.desc "התאמה אישית של הערכים בתפריט “תצוגה &gt; סרגל-הצד” ובתפריט הגלילה של סרגל-הצד">
+<!ENTITY menus.icons.label "הצגת אייקונים">
+<!ENTITY menus.entries.label "הצגת ערכים">
+<!ENTITY menus.sidebar.entrydeac "נטרול הערך של סרגל הצד הפעיל">
+<!ENTITY misc.enablesidebar.label "פתיחה בסרגל-הצד">
+<!ENTITY misc.layout.label "שיפור מערך סרגל-הצד">
+<!ENTITY misc.dm.overlay "שינוי האפשרויות להתנהגות סרגל-הצד">
+<!ENTITY misc.dm.autoopen.label "הצגת סרגל-הצד של ההורדות כאשר מורד קובץ">
+<!ENTITY misc.dm.autoclose.label "סגירת (סרגל-הצד) כאשר כל ההורדות מסתיימות">
+<!ENTITY misc.colors.label "אפשור צבעי רקע המבוססים על המצב הנוכחי">
+<!ENTITY misc.count.label "הצגת מספר הפריטים">
+<!ENTITY misc.enablelink.tooltip "לחיצה כאן למידע נוסף (קישור לשאלות נפוצות)">
+<!ENTITY misc.paneltab.reverse "החלפת התפקוד בין לחצן שמאלי ולחצן אמצעי">
+<!ENTITY misc.bm.paneltab.desc "הכפתור “לוח לשונית” יכול לפתוח את מנהל הסימניות בלשונית חדשה במקום בלוח הסימניות">
+<!ENTITY misc.bm.paneltab "אפשור מנהל הסימניות בלשונית חדשה">
+<!ENTITY special.collapsing.caption "מזעור/סגירת סרגל-הצד">
+<!ENTITY special.collapsing.label "אפשור מזעור/סגירת סרגל-הצד">
+<!ENTITY special.collapsing.desc "הסרגל-צד יכול להיות ממוזער במקום להסגר לחלוטין. היתרון בכך הוא שתוכן סרגל-הצד לא חייב להתרענן אחרי פתיחה מחדש, כך שהתגובה מהירה יותר.">

@@ -1,0 +1,17 @@
+<!ENTITY page.label "Stránka">
+<!ENTITY page.tooltip "Otevřít stránku v postranní liště">
+<!ENTITY page.ssr.label "Zobrazit zmenšenou verzi stránky">
+<!ENTITY page.ssr100.label "Přizpůsobit šířce postranní lišty">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Zobrazí obecné informace o prohlížeči">
+<!ENTITY about.config.tooltip "Zobrazí rozhranní umožňující prohlížení a úpravu siroké škály konfiguračních proměnných">
+<!ENTITY about.plugins.tooltip "Zobrazí informace o nainstalovaných zásuvných modulech">
+<!ENTITY about.cache.tooltip "Zobrazí informace o využití vyrovnávací paměti na disku i v operační paměti počítače">
+<!ENTITY about.cache.disk.tooltip "Zobrazí jednotlivé položky uchované ve vyrovnávací paměti na disku">
+<!ENTITY about.cache.memory.tooltip "Zobrazí jednotlivé položky uchované ve vyrovnávací paměti v operační paměti">
+<!ENTITY about.buildconfig.tooltip "Zobrazí informace o používaném sestavení">
+<!ENTITY about.about.tooltip "Zobrazí informace o verzi a licenci">
+<!ENTITY about.credits.tooltip "Zobrazí jména všech, kteří se podíleli na vývoji">
+<!ENTITY about.license.tooltip "Zobrazí znění licence MPL (Mozilla Public License)">
+<!ENTITY about.mozilla.tooltip "Otevře stránku z fiktivní Knihy Mozilly">
+<!ENTITY tools.remlast.label "Zapamatovat si poslední zobrazený obsah">

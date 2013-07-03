@@ -1,0 +1,52 @@
+<!ENTITY loading.label "indlæser panel…">
+<!ENTITY menu.prefs.label "Alt-I-En Sidebjælke indstillinger…">
+<!ENTITY menu.togglebar.label "Sidebjælke-kontakt">
+<!ENTITY menu.grippy.label "Sidebjælke Grippy">
+<!ENTITY toolbar.name "Alt-I-En Sidebjælke værktøjslinje">
+<!ENTITY sbhtoolbar.name "Sidebjælkeheader værktøjslinje">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Slå elementer kontrolleret af AiOS til/fra">
+<!ENTITY button.switch.tooltip1 "Slå sidebjælke og værktøjslinje til/fra">
+<!ENTITY button.switch.tooltip2 "Slå værktøjslinje til/fra">
+<!ENTITY button.switch.tooltip3 "Slå sidebjælke til/fra">
+<!ENTITY sidebar.open.label "Åbn sidebjælke">
+<!ENTITY sidebar.close.label "Luk sidebjælke">
+<!ENTITY sidebar.width.min "Minimum bredde">
+<!ENTITY sidebar.width.def "Standard bredde">
+<!ENTITY sidebar.width.max "Maksimum bredde">
+<!ENTITY button.menu.label "Sidebjælke-paneler">
+<!ENTITY button.menu.tooltip "Alle tilgængelige sidebjælke-paneler">
+<!ENTITY button.toolbar.label "AIOS-værktøjslinje">
+<!ENTITY button.toolbar.tooltip "Slå AIOS-værktøjslinje til/fra">
+<!ENTITY button.paneltab.label "PanelFane">
+<!ENTITY button.paneltab.tooltip1 "Åbn indholdet af fanebladet i sidebjælken">
+<!ENTITY button.paneltab.tooltip2 "Åbn indholdet af sidebjælken i et nyt faneblad">
+<!ENTITY button.paneltab.tooltip3 "Åbn indholdet af sidebjælken i et vindue">
+<!ENTITY button.paneltab.menu1.label "Åbn faneblad i sidebjælke">
+<!ENTITY button.paneltab.menu2.label "Åbn sidebjælke i faneblad">
+<!ENTITY button.autohide.label "SidebjælkeAutomatisk">
+<!ENTITY button.autohide.tooltip "Skjul/vis automatisk sidebjælke">
+<!ENTITY button.tooltip.sidebar "Åbn i sidebjælke">
+<!ENTITY button.tooltip.window "Åbn i vindue">
+<!ENTITY button.tooltip.tab "Åbn i nyt faneblad">
+<!ENTITY button.addons.label "Tilføjelser">
+<!ENTITY button.addons.tooltip "Vis installerede udvidelser og temaer">
+<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.tooltip "Viser f.eks. et website, kildekode og browserinformation">
+<!ENTITY button.pageinfo.tooltip "Viser informationer, formularer, links, medier og sikkerhed">
+<!ENTITY button.console.label "Fejlkonsol">
+<!ENTITY button.console.tooltip "Åbn fejlkonsollen, som sporer problemer med kildekoden">
+<!ENTITY keys.modifiers "accel skift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Venstre ved siden af sidebjælke">
+<!ENTITY toolbar.pos.sidebarright.label "Højre ved siden af sidebjælke">
+<!ENTITY toolbar.pos.sidebartop.label "Over sidebjælke">
+<!ENTITY toolbar.pos.headerbottom.label "Under sidebjælke overskrift">
+<!ENTITY toolbar.pos.sidebarbottom.label "Under sidebjælke">
+<!ENTITY toolbar.mode.flexbuttons.label "Fleksible knapper">

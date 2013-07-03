@@ -1,0 +1,93 @@
+<!ENTITY title "Opțiuni All-in-One Sidebar">
+<!ENTITY restart "Modificările vor avea efect după repornirea navigatorului">
+<!ENTITY settings "Configurații">
+<!ENTITY settings.default "Reinițializează…">
+<!ENTITY settings.advanced "Mod complex">
+<!ENTITY settings.import "Importă configurația...">
+<!ENTITY settings.export "Exportă configurația...">
+<!ENTITY settings.copy "Copiază configurația în memoria tampon">
+<!ENTITY apply "Aplică">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "General">
+<!ENTITY tab.gen.appearance "Prezentare">
+<!ENTITY tab.gen.behavior "Funcționare">
+<!ENTITY tab.gen.fullscreen "Mod „Pe tot ecranul“">
+<!ENTITY tab.gen.special "Speciale">
+<!ENTITY tab.panels "Elemente panou">
+<!ENTITY tab.panels.places "Semne de carte/Istoric">
+<!ENTITY tab.panels.other1 "Diverse I">
+<!ENTITY tab.panels.other2 "Diverse II">
+<!ENTITY tab.panels.paneltab "File în panoul lateral">
+<!ENTITY tab.menus "Meniuri">
+<!ENTITY tab.menus.sidebar "Panou lateral">
+<!ENTITY tab.keys "Taste directe">
+<!ENTITY tab.about "Despre/Ajutor">
+<!ENTITY gen.orient.caption "Orientare">
+<!ENTITY gen.orient.label "Afișează panoul lateral în">
+<!ENTITY gen.orient.left "partea stângă">
+<!ENTITY gen.orient.right "partea dreaptă">
+<!ENTITY gen.width.caption "Dimensiune">
+<!ENTITY gen.width.px "pixeli">
+<!ENTITY gen.width.perc "&#37;">
+<!ENTITY gen.width.current "lățimea curentă">
+<!ENTITY gen.width.current.tip "Înregistrează lățimea curentă a panoului">
+<!ENTITY gen.width.min.hint "[Shift+dublu-clic] pe denumirea panoului">
+<!ENTITY gen.width.def.hint "[Dublu-clic] pe denumirea panoului">
+<!ENTITY gen.width.max.hint "[Ctrl+dublu-clic] sau [Alt+dublu-clic] pe denumirea panoului">
+<!ENTITY gen.init.caption "Pornire navigator">
+<!ENTITY gen.init.label "Panou lateral">
+<!ENTITY gen.init.toolbar.label "Bară de unelte">
+<!ENTITY gen.init.toolbar.show.label "Afișează bara de unelte">
+<!ENTITY gen.init.toolbar.hide.label "Ascunde bara de unelte">
+<!ENTITY gen.init.switch.show.label "Afișează comutatorul panoului lateral">
+<!ENTITY gen.init.switch.hide.label "Ascunde comutatorul panoului lateral">
+<!ENTITY gen.init.mode1 "Restaurează starea memorată">
+<!ENTITY gen.init.sidebar "Deschidere panou lateral (comutator panou, buton de comutare, taste directe)">
+<!ENTITY gen.init.sidebar.restore "Restaurează starea memorată">
+<!ENTITY gen.switch.autoshow "Afișează/ascunde automat panoul lateral (la trecerea cu mausul peste comutator)">
+<!ENTITY gen.switch.onlymax "Numai dacă navigatorul este maximizat sau în modul „Pe tot ecranul“">
+<!ENTITY gen.switch.delay "Întârziere">
+<!ENTITY gen.switch.delayUnit "milisecunde">
+<!ENTITY gen.switch.hide "Ascunde panoul lateral dacă cursorul mausului">
+<!ENTITY gen.switch.hideBar "este readus în pagină">
+<!ENTITY gen.switch.hidePage "este menținut peste comutator">
+<!ENTITY gen.switch.thin "Activează comutatorul subțire">
+<!ENTITY gen.switch.width "Grosime comutator standard">
+<!ENTITY gen.switch.twidth "Grosime comutator subțire">
+<!ENTITY cmode.caption "Comutator panou lateral">
+<!ENTITY cmode.desc "Configurează modul în care în sunt afectate elementele când panoul lateral este deschis sau închis prin diferite metode.">
+<!ENTITY cmode.key.label "Tastă directă (F4)">
+<!ENTITY cmode.tbb.label "Buton AiOS">
+<!ENTITY cmode.close.label "Buton închidere">
+<!ENTITY cmode.mode1.label "Numai panoul lateral">
+<!ENTITY cmode.mode2.label "Panoul lateral și bara de unelte">
+<!ENTITY cmode.mode3.label "Panoul lateral, bara de unelte și comutatorul panoului">
+<!ENTITY cmode.mode4.label "Comportament ca și în Opera">
+<!ENTITY gen.fs.off "Restaurează starea dacă se părăsește modul „Pe tot ecranul“">
+<!ENTITY keyconfig.keyid "Denumiri">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Aplică">
+<!ENTITY keyconfig.disable "Dezactivează">
+<!ENTITY keyconfig.reset "Reinițializează">
+<!ENTITY keyconfig.warn "Modificările sunt efective numai în noile ferestre.">
+<!ENTITY keyconfig.onreset "Este necesară repornirea navigatorului.">
+<!ENTITY keyconfig.unrecognized "Necunoscut ($1)">
+<!ENTITY keyconfig.used "Această tastă este deja utilizată de: \\n\\n\\t$1\\n\\nTotuși, este posibil să funcționeze.">
+<!ENTITY menus.sidebar.desc "Particularizează opțiunile meniului „Vizualizare &gt; Bară laterală (panou lateral!)“ și ale listelor derulante aferente butoanelor panoului lateral.">
+<!ENTITY menus.icons.label "Afișează pictogramele">
+<!ENTITY menus.entries.label "Afișează opțiunile">
+<!ENTITY menus.sidebar.entrydeac "Dezactivează opțiunea dacă panoul lateral este vizibil">
+<!ENTITY misc.enablesidebar.label "Deschide în panoul lateral">
+<!ENTITY misc.layout.label "Optimizează aspectul pentru panoul lateral">
+<!ENTITY misc.dm.overlay "Modifică opțiunile privind comportamentul panoului lateral">
+<!ENTITY misc.dm.autoopen.label "Afișează panoul când se descarcă un fișier">
+<!ENTITY misc.dm.autoclose.label "Închide panoul la terminarea descărcărilor">
+<!ENTITY misc.colors.label "Colorează fundalul pe baza stărilor curente">
+<!ENTITY misc.count.label "Afișează numărul de elemente">
+<!ENTITY misc.enablelink.tooltip "Faceți clic aici pentru mai multe informații (legătură la „Întrebări și răspunsuri“)">
+<!ENTITY misc.paneltab.reverse "Inversează acțiunile pentru clic-stânga și clic-mijloc">
+<!ENTITY misc.bm.paneltab.desc "Butonul „File în panoul lateral“ poate deschide gestionarul semnelor de carte într-o nouă filă în loc de panoul semnelor de carte.">
+<!ENTITY misc.bm.paneltab "Deschide gestionarul semnelor de carte într-o nouă filă">
+<!ENTITY special.collapsing.caption "Ascundere panou lateral">
+<!ENTITY special.collapsing.label "Activează ascunderea panoului lateral">
+<!ENTITY special.collapsing.desc "Panoul lateral poate fi ascuns în loc să fie închis. Avantajul constă în redeschiderea mai rapidă, deoarece conținutul nu se mai reîncarcă ci doar se reafișează.">

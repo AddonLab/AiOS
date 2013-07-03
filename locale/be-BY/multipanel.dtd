@@ -1,0 +1,17 @@
+<!ENTITY page.label "Старонка">
+<!ENTITY page.tooltip "Адкрыць вэб-старонку ў гэтай панэлі">
+<!ENTITY page.ssr.label "Рэжым рэндэрынгу для маленькіх экранаў">
+<!ENTITY page.ssr100.label "Адаптаваць да шырыні бакавой панэлі">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Паказвае розную інфармацыю аб браўзэры">
+<!ENTITY about.config.tooltip "Адкрыць інтэрфейс для прагляду і налады мноства параметраў">
+<!ENTITY about.plugins.tooltip "Паказаць інфармацыю аб усіх усталяваных убудовах">
+<!ENTITY about.cache.tooltip "Паказаць зводную інфармацыю аб кэшы ў памяці і на дыску">
+<!ENTITY about.cache.disk.tooltip "Паказаць элементы кэша на дыску">
+<!ENTITY about.cache.memory.tooltip "Паказаць элементы кэша ў памяці">
+<!ENTITY about.buildconfig.tooltip "Паказаць аргументы і параметры, скарыстаныя пры кампіляцыі зборкі">
+<!ENTITY about.about.tooltip "Паказаць інфармацыю аб версіі праграмы і аўтарскіх правах">
+<!ENTITY about.credits.tooltip "Паказаць спіс тых людзей, якія садзейнічалі праектам Mozilla">
+<!ENTITY about.license.tooltip "Адкрыць Mozilla Public License">
+<!ENTITY about.mozilla.tooltip "Паказаць урывак з Кнігі Mozilla">
+<!ENTITY tools.remlast.label "Запамінаць змесціва бакавой панэлі, адлюстраванае ў апошні раз">

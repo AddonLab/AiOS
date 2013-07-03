@@ -1,0 +1,50 @@
+<!ENTITY loading.label "připravuji obsah lišty…">
+<!ENTITY menu.prefs.label "Možnosti rozšíření „All-in-one Sidebar“…">
+<!ENTITY menu.togglebar.label "Přepínač zobrazení postranních lišt">
+<!ENTITY menu.grippy.label "Táhlo postranních lišt">
+<!ENTITY toolbar.name "Lišta rozšíření „All-in-One Sidebar“">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.switch.tooltip1 "Přepínač zobrazení postranního panelu a nástrojové lišty">
+<!ENTITY button.switch.tooltip2 "Přepínač zobrazení nástrojové lišty">
+<!ENTITY button.switch.tooltip3 "Přepínač zobrazení postranního panelu">
+<!ENTITY sidebar.open.label "Zobrazit postranní lištu">
+<!ENTITY sidebar.close.label "Skrýt postranní lištu">
+<!ENTITY sidebar.width.min "Minimální šířka">
+<!ENTITY sidebar.width.def "Standardní šířka">
+<!ENTITY sidebar.width.max "Miximální šířka">
+<!ENTITY button.menu.label "Postranní lišty">
+<!ENTITY button.menu.tooltip "Všechny dostupné postranní lišty">
+<!ENTITY button.toolbar.label "Nástrojová lišta AiOS">
+<!ENTITY button.toolbar.tooltip "Přepínač zobrazení nástrojové lišty AiOS">
+<!ENTITY button.paneltab.label "Postranní lištu do panelu prohlížeče">
+<!ENTITY button.paneltab.tooltip1 "Otevře obsah panelu v postranní liště">
+<!ENTITY button.paneltab.tooltip2 "Otevře obsah postranní lišty v novém panelu">
+<!ENTITY button.paneltab.tooltip3 "Open Content of Sidebar in a Window">
+<!ENTITY button.paneltab.menu1.label "Otevřít panel v postranní liště">
+<!ENTITY button.paneltab.menu2.label "Otevřít postranní lištu v panelu">
+<!ENTITY button.autohide.label "Zobrazovat/skrývat postranní lištu automaticky">
+<!ENTITY button.autohide.tooltip "Automaticky zobrazí či skryje postranní lištu">
+<!ENTITY button.tooltip.sidebar "Otevřít v postranní liště">
+<!ENTITY button.tooltip.window "Otevřít v novém okně">
+<!ENTITY button.tooltip.tab "Otevřít v novém panelu">
+<!ENTITY button.addons.label "Zásuvné moduly">
+<!ENTITY button.addons.tooltip "Zobrazí seznam nainstalovaných rozšíření a motivů vzhledu">
+<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.tooltip "Zobrazí např. stránku, zdrojový kód a informace o prohlížeči">
+<!ENTITY button.pageinfo.tooltip "Zobrazí obecné informace o stránce, formuláře, odkazy, média a informace o zabezpečení">
+<!ENTITY button.console.label "Konzole chyb">
+<!ENTITY button.console.tooltip "Otevře konzoli chyb, která zaznamenává problémy při interpretaci programového kódu">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Vlevo při postranní liště">
+<!ENTITY toolbar.pos.sidebarright.label "Vpravo při postranní liště">
+<!ENTITY toolbar.pos.sidebartop.label "Nad postranní lištou">
+<!ENTITY toolbar.pos.headerbottom.label "Pod návěstím postranní lišty">
+<!ENTITY toolbar.pos.sidebarbottom.label "Pod postranní lištou">
+<!ENTITY toolbar.mode.flexbuttons.label "Vyplnit tlačítky volný prostor">

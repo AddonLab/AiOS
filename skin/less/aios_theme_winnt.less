@@ -1,0 +1,154 @@
+
+window[aios-appDefTheme="true"] {
+
+    /* @group Sidebar Switch */
+    #aios-toggle-toolbar {
+        border-top: 1px solid ThreedHighlight;
+        border-right: 1px solid ThreedShadow;
+    }
+    
+    &[aiosOrient="right"] #aios-toggle-toolbar {
+        border-left: 1px solid ThreedShadow;
+        border-right: none;
+    }
+    /* @end */
+    
+    
+    /* @group AiOS-Toolbar */
+    
+    /* links neben der Sidebar */
+    #aios-toolbar[posMode="1"] {
+        border-top: 1px solid ThreedHighlight;
+        border-left: 1px solid ThreedHighlight;
+        border-right: 1px solid ThreedShadow;
+    }
+    
+    &[aiosOpen="false"] {
+        
+        &[aiosOrient="left"] {
+        
+            #browser[posMode="1"] #sidebar-splitter[grippy="true"] {
+                border-left: none;
+            }
+        }
+        
+        &[aiosOrient="right"] {
+            
+            #aios-toolbar[posMode="1"] {
+                border-right: none;
+                border-left: 2px groove ThreedHighlight;
+            }
+            
+            #browser[posMode="1"] #sidebar-splitter[grippy="true"] {
+                border-right: none;
+            }
+        }
+        
+    }
+    
+    
+    /* rechts neben der Sidebar */
+    #aios-toolbar[posMode="2"] {
+        border-top: 1px solid ThreedHighlight;
+        border-left: 2px groove ThreedHighlight;
+    }
+    
+    &[aiosOrient="right"] #aios-toolbar[posMode="2"] {
+        border-left: 2px groove ThreedHighlight;
+        border-right: none;
+    }
+    
+    &[aiosOpen="false"] {
+        
+        &[aiosOrient="left"] {
+        
+            #aios-toolbar[posMode="2"] {
+                border-left: 1px solid ThreedHighlight;
+                border-right: 1px solid ThreedShadow;
+            }
+            
+            #browser[posMode="2"] #sidebar-splitter[grippy="true"] {
+                border-left: none;
+            }
+        }
+        
+        &[aiosOrient="right"] {
+            
+            #browser[posMode="2"] #sidebar-splitter[grippy="true"] {
+                border-right: none;
+            }
+        }
+        
+    }
+    
+    
+    /* ueber der Sidebar */
+    #aios-toolbar[posMode="3"] {
+        border-top: 1px solid ThreedHighlight;
+        border-bottom: 1px solid ThreedShadow;
+    }
+    
+    
+    /* unter der Sidebar-Kopfleiste */
+    #aios-toolbar[posMode="4"] {
+        border-top: 1px solid ThreedHighlight;
+        border-bottom: 1px solid ThreedShadow;
+    }
+    
+    
+    /* unter der Sidebar */
+    #aios-toolbar[posMode="5"] {
+        border-top: 1px solid ThreedShadow;
+    }
+    /* @end */
+    
+    
+    
+    &:-moz-system-metric(windows-default-theme) {
+        
+        /* @group XP-Standard-Theme */
+        &[aios-appOSVersion="Windows NT 5.1"] {
+        
+            #aios-toggle-toolbox,
+            #aios-toolbox-left,
+            #aios-toolbox-right {
+                -moz-appearance: none;
+                background-image: -moz-linear-gradient(135deg, 
+                                  rgba(255, 255, 255, 0.5), 
+                                  rgba(255, 255, 255, 0));
+            }
+            
+            sidebarheader,
+            #aios-toolbox-sidebartop,
+            #aios-toolbox-sidebartop2,
+            #aios-toolbox-sidebarbottom {
+                -moz-appearance: none;
+                background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), 
+                                  rgba(255, 255, 255, 0));
+            }
+        
+        }
+        /* @end */
+        
+        /* @group Vista-7-Standard-Theme */
+        &:not([aios-appOSVersion="Windows NT 5.1"]) {
+        
+            &[aiosOpen="true"][aiosOrient="left"] #aios-toolbar[posMode="2"] {
+                padding-right: 2px;
+            }
+            
+            #sidebar-splitter[grippy="true"] {
+                margin: 0;
+                
+                &[orient="horizontal"] {
+                    background-color: #EEF3FA;
+                    border-left: 1px solid #A9B7C9;
+                }
+            }
+            
+        }
+        /* @end */
+        
+    }
+    
+}

@@ -1,0 +1,21 @@
+<!ENTITY page.label "Страница">
+<!ENTITY page.tooltip "Отвара страницу у овом панелу">
+<!ENTITY page.ssr.label "Приказивање малог екрана">
+<!ENTITY page.ssr100.label "Прилагоди ширини бочне траке">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Приказује различите информације о претраживачу">
+<!ENTITY about.config.tooltip "Приказује изглед за прегледање и подешавање великог броја променљивих">
+<!ENTITY about.plugins.tooltip "Приказује информације о свим постављеним додацима">
+<!ENTITY about.support.tooltip "Приказује основне податке о прегледачу, додацима и измењеним подешавањима">
+<!ENTITY about.cache.tooltip "Приказује информације о одржавању кеша меморије и кеша диска">
+<!ENTITY about.cache.disk.tooltip "Приказује појединачне уносе на диску">
+<!ENTITY about.cache.memory.tooltip "Приказује појединачне уносе у меморији">
+<!ENTITY about.cache.offline.tooltip "Листање уноса о кешу ван мреже">
+<!ENTITY about.crashes.tooltip "Приказивање послатих извештаја о проблемима">
+<!ENTITY about.buildconfig.tooltip "Приказује параметре и поставке коришћене приликом састављања издања које се користи">
+<!ENTITY about.about.tooltip "Приказује информације о издању и ауторским правима">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Приказује списак свих оних који су помогли Мозили">
+<!ENTITY about.license.tooltip "Приказује Мозилин уговор о лиценци">
+<!ENTITY about.mozilla.tooltip "Приказује страницу из измишљене „Књиге о Мозили”">
+<!ENTITY tools.remlast.label "Запамти последњи приказани садржај">

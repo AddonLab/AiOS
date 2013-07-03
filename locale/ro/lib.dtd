@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Clic-stânga">
+<!ENTITY rightclick "Clic-dreapta">
+<!ENTITY doubleclick "Dublu-clic">
+<!ENTITY middleclick "Clic-mijloc">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Unelte și opțiuni">
+<!ENTITY closeFolder.label "Închide toate dosarele">
+<!ENTITY show.closeFolder.label "Buton „Închide toate dosarele“">
+<!ENTITY enable.autoClose.label "Închide automat celelalte dosare">
+<!ENTITY enable.scrollToFolder.label "Defilează automat prin dosarul selectat">
+<!ENTITY enable.rememberFolder.label "Memorează și reselectează ultimul dosar selectat">

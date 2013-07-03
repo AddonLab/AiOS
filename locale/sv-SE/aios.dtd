@@ -1,0 +1,52 @@
+<!ENTITY loading.label "laddar panel…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar inställningar…">
+<!ENTITY menu.togglebar.label "Sidopanelsomkopplare">
+<!ENTITY menu.grippy.label "Sidopanelsgrepp">
+<!ENTITY toolbar.name "All-in-One Sidebars verktygsfält">
+<!ENTITY sbhtoolbar.name "Sidebar verktygsfält">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Aktivera/Avaktivera objekt styrt av All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Visa/dölj sidopanel och verktygsfält">
+<!ENTITY button.switch.tooltip2 "Visa/dölj verktygsfältet">
+<!ENTITY button.switch.tooltip3 "Visa/dölj sidopanelen">
+<!ENTITY sidebar.open.label "Öppna sidopanelen">
+<!ENTITY sidebar.close.label "Stäng sidopanelen">
+<!ENTITY sidebar.width.min "Minsta bredd">
+<!ENTITY sidebar.width.def "Förvald bredd">
+<!ENTITY sidebar.width.max "Största bredd">
+<!ENTITY button.menu.label "Sidopaneler">
+<!ENTITY button.menu.tooltip "Alla tillgängliga sidopaneler">
+<!ENTITY button.toolbar.label "AiOS-verktygsfält">
+<!ENTITY button.toolbar.tooltip "Visa/dölj AiOS-verktygsfält">
+<!ENTITY button.paneltab.label "Panel-Flik">
+<!ENTITY button.paneltab.tooltip1 "Öppna flikinnehåll i sidopanel">
+<!ENTITY button.paneltab.tooltip2 "Öppna sidopanelsinnehåll i ny flik">
+<!ENTITY button.paneltab.tooltip3 "Öppna sidopanelsinnehåll i ett fönster">
+<!ENTITY button.paneltab.menu1.label "Öppna flik i sidopanel">
+<!ENTITY button.paneltab.menu2.label "Öppna sidopanel i flik">
+<!ENTITY button.autohide.label "Automatisk sidopanel">
+<!ENTITY button.autohide.tooltip "Visa/dölj sidopanel automatiskt">
+<!ENTITY button.tooltip.sidebar "Öppna i sidopanelen">
+<!ENTITY button.tooltip.window "Öppna i ett fönster">
+<!ENTITY button.tooltip.tab "Öppna i ny flik">
+<!ENTITY button.addons.label "Tillägg">
+<!ENTITY button.addons.tooltip "Visa installerade tillägg och teman">
+<!ENTITY button.multipanel.label "Multipanel">
+<!ENTITY button.multipanel.tooltip "Visa webbplatser och webbläsarinformation">
+<!ENTITY button.pageinfo.tooltip "Visa omfattande information om en webbsida">
+<!ENTITY button.console.label "Felkonsol">
+<!ENTITY button.console.tooltip "Öppna felkonsolen för att visa problem med källkoden">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Till vänster om sidopanelen">
+<!ENTITY toolbar.pos.sidebarright.label "Till höger om sidopanelen">
+<!ENTITY toolbar.pos.sidebartop.label "Ovanför sidopanelen">
+<!ENTITY toolbar.pos.headerbottom.label "Under sidopanelens rubrik">
+<!ENTITY toolbar.pos.sidebarbottom.label "Under sidopanelen">
+<!ENTITY toolbar.mode.flexbuttons.label "Flexibla knappar">

@@ -1,0 +1,12 @@
+<!ENTITY leftclick "Lijevi klik">
+<!ENTITY rightclick "Desni klik">
+<!ENTITY doubleclick "Dvostruki klik">
+<!ENTITY middleclick "Srednji klik">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Alati">
+<!ENTITY closeFolder.label "Zatvori sve mape">
+<!ENTITY enable.autoClose.label "Automatski zatvori ostale mape">
+<!ENTITY enable.scrollToFolder.label "Automatski pomakni na odabranu mapu">
+<!ENTITY enable.rememberFolder.label "Zapamti i fokusiraj zadnje odabranu mapu">

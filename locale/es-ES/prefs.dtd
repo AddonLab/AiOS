@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar - Opciones">
+<!ENTITY restart "Los cambios requieren reiniciar el navegador">
+<!ENTITY settings "Opciones">
+<!ENTITY settings.default "Restaurar valores por defecto…">
+<!ENTITY settings.advanced "Modo avanzado">
+<!ENTITY settings.import "Importar opciones…">
+<!ENTITY settings.export "Exportar opciones…">
+<!ENTITY settings.copy "Copiar opciones al portapapeles">
+<!ENTITY apply "Aplicar">
+<!ENTITY gen.column1 "140">
+<!ENTITY tab.gen "General">
+<!ENTITY tab.gen.appearance "Apariencia">
+<!ENTITY tab.gen.behavior "Comportamiento">
+<!ENTITY tab.gen.fullscreen "Modo de pantalla completa">
+<!ENTITY tab.gen.special "Especial">
+<!ENTITY tab.panels "Paneles">
+<!ENTITY tab.panels.places "Marcadores/Historial">
+<!ENTITY tab.panels.other1 "Otro I">
+<!ENTITY tab.panels.other2 "Otro II">
+<!ENTITY tab.panels.paneltab "PanelTab">
+<!ENTITY tab.menus "Menús">
+<!ENTITY tab.menus.sidebar "Panel lateral">
+<!ENTITY tab.keys "Combinaciones de teclas">
+<!ENTITY gen.orient.caption "Orientación">
+<!ENTITY gen.orient.label "Mostrar el panel en">
+<!ENTITY gen.orient.left "parte izquierda">
+<!ENTITY gen.orient.right "parte derecha">
+<!ENTITY gen.width.caption "Tamaño">
+<!ENTITY gen.width.px "pixeles">
+<!ENTITY gen.width.perc "porcentaje">
+<!ENTITY gen.width.current "ancho actual">
+<!ENTITY gen.width.current.tip "Aplicar el ancho actual al panel lateral">
+<!ENTITY gen.width.min.hint "[Mayús+doble clic] en la barra de título del panel lateral">
+<!ENTITY gen.width.def.hint "[Doble clic] en la barra de título del panel lateral">
+<!ENTITY gen.width.max.hint "[Ctrl+doble clic] o [Alt+doble clic] en la barra de título del panel lateral">
+<!ENTITY gen.init.caption "Inicio del navegador">
+<!ENTITY gen.init.label "Comportamiento del panel">
+<!ENTITY gen.init.toolbar.label "Barra de herramientas">
+<!ENTITY gen.init.toolbar.show.label "Mostrar barra de herramientas">
+<!ENTITY gen.init.toolbar.hide.label "Ocultar barra de herramientas">
+<!ENTITY gen.init.switch.show.label "Mostrar el selector del panel lateral">
+<!ENTITY gen.init.switch.hide.label "Ocultar el selector del panel lateral">
+<!ENTITY gen.init.mode1 "Restaurar el estado guardado">
+<!ENTITY gen.init.sidebar "Abrir panel lateral (Selector del panel lateral, Botón del panel, Método abreviado)">
+<!ENTITY gen.init.sidebar.restore "Restaurar el panel recordado">
+<!ENTITY gen.switch.autoshow "Mostrar/Ocultar el panel lateral automáticamente (al contacto con el cursor, en lugar de tener que pulsar)">
+<!ENTITY gen.switch.onlymax "Sólo si el navegador está maximizado en el modo de pantalla completa">
+<!ENTITY gen.switch.delay "Retraso">
+<!ENTITY gen.switch.delayUnit "milisegundos">
+<!ENTITY gen.switch.hide "Ocultar el panel lateral cuando el cursor del ratón…">
+<!ENTITY gen.switch.hideBar "vuelva a la página web">
+<!ENTITY gen.switch.hidePage "se mantenga en el selector del panel">
+<!ENTITY gen.switch.thin "Habilitar el selector fino del panel lateral">
+<!ENTITY gen.switch.width "Ancho del selector del panel lateral">
+<!ENTITY gen.switch.twidth "Ancho del selector fino del panel lateral">
+<!ENTITY cmode.caption "Activar panel lateral">
+<!ENTITY cmode.desc "Permite personalizar qué elementos se verán afectados al abrir o cerrar el panel con diferentes métodos.">
+<!ENTITY cmode.key.label "Método abreviado (F4)">
+<!ENTITY cmode.tbb.label "Botón del panel">
+<!ENTITY cmode.close.label "Botón cerrar">
+<!ENTITY cmode.mode1.label "Sólo el panel lateral">
+<!ENTITY cmode.mode2.label "El panel lateral y la barra de herramientas">
+<!ENTITY cmode.mode3.label "El panel lateral, la barra de herramientas y el selector del panel">
+<!ENTITY cmode.mode4.label "Comportamiento de Opera">
+<!ENTITY gen.fs.off "Restaurar el estado al salir del modo de pantalla completa">
+<!ENTITY keyconfig.keyid "Nombre">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Aplicar">
+<!ENTITY keyconfig.disable "Deshabilitar">
+<!ENTITY keyconfig.reset "Reiniciar">
+<!ENTITY keyconfig.warn "Los cambios afectan sólo a las ventanas nuevas">
+<!ENTITY keyconfig.onreset "Es necesario reiniciar el navegador">
+<!ENTITY keyconfig.unrecognized "No reconocido ($1)">
+<!ENTITY keyconfig.used "La tecla ya está siendo usada por: \\n\\n\\t$1\\n\\naunque debe funcionar igualmente.">
+<!ENTITY menus.sidebar.desc "Permite personalizar las entradas del menú “Ver &gt; Panel lateral” y los menús de los botones del panel lateral.">
+<!ENTITY menus.icons.label "Ver iconos">
+<!ENTITY menus.entries.label "Ver entradas">
+<!ENTITY menus.sidebar.entrydeac "Deshabilitar la entrada del panel activo">
+<!ENTITY misc.enablesidebar.label "Abrir en el panel lateral">
+<!ENTITY misc.layout.label "Optimización del panel lateral">
+<!ENTITY misc.dm.overlay "Cambiar las opciones para el comportamiento del panel lateral">
+<!ENTITY misc.dm.autoopen.label "Mostrar el panel lateral de descargas al descargar un archivo">
+<!ENTITY misc.dm.autoclose.label "Cerrarlo cuando todas las descargas hayan terminado">
+<!ENTITY misc.colors.label "Habilitar los fondos de colores basados en el estado actual">
+<!ENTITY misc.count.label "Mostrar número de elementos">
+<!ENTITY misc.enablelink.tooltip "Pulse aquí para más información (enlace a las FAQs)">
+<!ENTITY misc.paneltab.reverse "Intercambiar las acciones de los botones izquierdo y central">
+<!ENTITY misc.bm.paneltab.desc "El botón PanelTab puede abrir el administrador de marcaodres en una nueva pestaña en lugar de del panel de marcadores.">
+<!ENTITY misc.bm.paneltab "Habilitar administrador de marcadores en nueva pestaña">
+<!ENTITY special.collapsing.caption "Colapso del panel lateral">
+<!ENTITY special.collapsing.label "Habilitar el colapso del panel lateral">
+<!ENTITY special.collapsing.desc "El panel lateral puede colapsarse en lugar de cerrarse realmente. La ventana es que el contenido no tiene que volver a cargarse al abrirse de nuevo.">

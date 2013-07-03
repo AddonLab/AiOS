@@ -1,0 +1,52 @@
+<!ENTITY loading.label "учитавање панела…">
+<!ENTITY menu.prefs.label "Поставке АиОС-а…">
+<!ENTITY menu.togglebar.label "Пребацивање бочне траке">
+<!ENTITY menu.grippy.label "Збијена бочна трака">
+<!ENTITY toolbar.name "АиОС трака задатака">
+<!ENTITY sbhtoolbar.name "Sidebarheader трака са задацима">
+<!ENTITY button.toggle.label "АиОС">
+<!ENTITY button.toggle.tooltip "Промени елементе контролисане од АиОС-а">
+<!ENTITY button.switch.tooltip1 "Промени траку задатака и алатну траку">
+<!ENTITY button.switch.tooltip2 "Промени алатну траку">
+<!ENTITY button.switch.tooltip3 "Промени траку задатака">
+<!ENTITY sidebar.open.label "Отвори бочну траку">
+<!ENTITY sidebar.close.label "Затвори бочну траку">
+<!ENTITY sidebar.width.min "Најмања могућа ширина">
+<!ENTITY sidebar.width.def "Стандардна ширина">
+<!ENTITY sidebar.width.max "Највећа могућа ширина">
+<!ENTITY button.menu.label "Панели бочне траке">
+<!ENTITY button.menu.tooltip "Сви доступни панели бочне траке">
+<!ENTITY button.toolbar.label "АиОС трака задатака">
+<!ENTITY button.toolbar.tooltip "Промени АиОС алатну траку">
+<!ENTITY button.paneltab.label "Панел језичак">
+<!ENTITY button.paneltab.tooltip1 "Отвори садржај језичка у бочној траци">
+<!ENTITY button.paneltab.tooltip2 "Отвори садржај бочне траке у новом језичку">
+<!ENTITY button.paneltab.tooltip3 "Отвори садржај бочне траке у прозору">
+<!ENTITY button.paneltab.menu1.label "Отвори језичак у бочној траци">
+<!ENTITY button.paneltab.menu2.label "Отвори бочну траку у језичку">
+<!ENTITY button.autohide.label "Аутоматска бочна трака">
+<!ENTITY button.autohide.tooltip "Аутоматски укључи/искључи бочну траку">
+<!ENTITY button.tooltip.sidebar "Отвори у бочној траци">
+<!ENTITY button.tooltip.window "Отвори у прозору">
+<!ENTITY button.tooltip.tab "Отвори у новом језичку">
+<!ENTITY button.addons.label "Додаци">
+<!ENTITY button.addons.tooltip "Прикажи постављене додатке и теме">
+<!ENTITY button.multipanel.label "Више панела">
+<!ENTITY button.multipanel.tooltip "Прикажи нпр. страницу, изворни код и информације о претраживачу">
+<!ENTITY button.pageinfo.tooltip "Опсежни приказ информација о страници">
+<!ENTITY button.console.label "Конзола са грешкама">
+<!ENTITY button.console.tooltip "Отвори конзолу са грешкама која прати грешке у изворном коду">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Лево од бочне траке">
+<!ENTITY toolbar.pos.sidebarright.label "Десно од бочне траке">
+<!ENTITY toolbar.pos.sidebartop.label "Изнад бочне траке">
+<!ENTITY toolbar.pos.headerbottom.label "Испод заглавља бочне траке">
+<!ENTITY toolbar.pos.sidebarbottom.label "Испод бочне траке">
+<!ENTITY toolbar.mode.flexbuttons.label "Прилагодљиви дугмићи">

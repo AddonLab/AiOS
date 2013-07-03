@@ -1,0 +1,52 @@
+<!ENTITY loading.label "패널을 불러오는 중…">
+<!ENTITY menu.prefs.label "All-In-One Sidebar 설정…">
+<!ENTITY menu.togglebar.label "탐색 창 스위치">
+<!ENTITY menu.grippy.label "탐색 창 손잡이">
+<!ENTITY toolbar.name "All-In-One Sidebar 도구 모음">
+<!ENTITY sbhtoolbar.name "탐색 창 헤더 도구 모음">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "All-in-One Sidebar가 통제하는 요소들을 보이거나 숨깁니다.">
+<!ENTITY button.switch.tooltip1 "탐색 창과 도구 모음을 보이거나 숨깁니다.">
+<!ENTITY button.switch.tooltip2 "도구 모음을 보이거나 숨깁니다.">
+<!ENTITY button.switch.tooltip3 "탐색 창을 보이거나 숨깁니다.">
+<!ENTITY sidebar.open.label "탐색 창 열기">
+<!ENTITY sidebar.close.label "탐색 창 닫기">
+<!ENTITY sidebar.width.min "최소 너비">
+<!ENTITY sidebar.width.def "보통 너비">
+<!ENTITY sidebar.width.max "최대 너비">
+<!ENTITY button.menu.label "탐색 창 패널">
+<!ENTITY button.menu.tooltip "모든 사용 가능한 탐색 창 패널">
+<!ENTITY button.toolbar.label "AiOS 도구 모음">
+<!ENTITY button.toolbar.tooltip "AiOS 도구 모음을 보이거나 숨깁니다.">
+<!ENTITY button.paneltab.label "패널탭">
+<!ENTITY button.paneltab.tooltip1 "이 탭의 내용을 탐색 창으로 열기">
+<!ENTITY button.paneltab.tooltip2 "이 탐색 창의 내용을 새 탭으로 열기">
+<!ENTITY button.paneltab.tooltip3 "탐색 창의 내용을 창으로 열기">
+<!ENTITY button.paneltab.menu1.label "탭을 탐색 창에 열기">
+<!ENTITY button.paneltab.menu2.label "탐색 창을 탭에 열기">
+<!ENTITY button.autohide.label "탐색 창 자동 제어">
+<!ENTITY button.autohide.tooltip "탐색 창을 자동으로 보이거나 숨깁니다.">
+<!ENTITY button.tooltip.sidebar "탐색 창으로 열기">
+<!ENTITY button.tooltip.window "창으로 열기">
+<!ENTITY button.tooltip.tab "새 탭으로 열기">
+<!ENTITY button.addons.label "부가 기능">
+<!ENTITY button.addons.tooltip "설치한 확장 기능과 테마를 보여줍니다.">
+<!ENTITY button.multipanel.label "멀티패널">
+<!ENTITY button.multipanel.tooltip "예를 들면 웹사이트, 소스 코드, 브라우저 정보 등을 보여줍니다.">
+<!ENTITY button.pageinfo.tooltip "웹 페이지에 대한 다양한 정보를 보여줍니다.">
+<!ENTITY button.console.label "오류 콘솔">
+<!ENTITY button.console.tooltip "소스 코드의 문제를 추적하는 오류 콘솔을 엽니다.">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "탐색 창 왼쪽">
+<!ENTITY toolbar.pos.sidebarright.label "탐색 창 오른쪽">
+<!ENTITY toolbar.pos.sidebartop.label "탐색 창 위">
+<!ENTITY toolbar.pos.headerbottom.label "탐색 창 헤더 아래">
+<!ENTITY toolbar.pos.sidebarbottom.label "탐색 창 아래">
+<!ENTITY toolbar.mode.flexbuttons.label "탄력적인 버튼">

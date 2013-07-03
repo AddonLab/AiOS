@@ -1,0 +1,441 @@
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* @group 
+    Sidebar Switch
+        => themes must not overwrite the settings for the border and the margin, otherwise the switch will not work correct!
+*/
+
+window[aiosOrient="left"] {
+    
+    toolbox#aios-toggle-toolbox,
+    toolbox#aios-toggle-toolbox > toolbar#aios-toggle-toolbar {
+        margin: 0 !important;
+        border-left: none !important;
+    }
+    
+}
+
+window[aiosOrient="right"] {
+    
+    toolbox#aios-toggle-toolbox,
+    toolbox#aios-toggle-toolbox > toolbar#aios-toggle-toolbar {
+        margin: 0 !important;
+        border-right: none !important;
+    }
+    
+}
+
+#aios-toggle-toolbox,
+#aios-toggle-toolbar {
+    padding: 0;
+    border: none;
+}
+
+#aios-toggle-toolbar {
+    -moz-appearance: none;
+}
+/* @end */
+
+
+/* @group AiOS-Toolbar */
+#aios-toolbox-left,
+#aios-toolbox-right,
+#aios-toolbox-sidebartop,
+#aios-toolbox-sidebartop2,
+#aios-toolbox-sidebarbottom,
+#aios-sbhtoolbox {
+    border: none;
+}
+
+#aios-toolbar {
+    -moz-appearance: none;
+    -moz-box-flex: 1;
+    padding: 1px 1px 1px 0;
+    border: none;
+    
+    &[orient="vertical"] {
+        -moz-box-orient: vertical;
+    }
+    
+    &[orient="horizontal"] {
+        padding: 0 1px 1px 0;
+    }
+}
+
+#aios-toolbar-contextmenu dialogheader,
+#aios-sbhtoolbar-contextmenu dialogheader {
+    margin: 0 0 7px 0;
+    padding: 2px 0;
+    font-weight: bold;
+    border: none;
+}
+
+/* flexible Buttons */
+#aios-toolbar[flexbuttons="true"] toolbarbutton {
+    -moz-box-flex: 1;
+}
+
+/* vertikale Buttons - Fix fuer TotalToolbar */
+window[aiosVButtons="false"] #aios-toolbar[orient="vertical"] toolbarbutton {
+    -moz-box-orient: horizontal !important;
+}
+
+/* vertikale Buttons */
+window[aiosVButtons="true"] #aios-toolbar[orient="vertical"] toolbarbutton {
+    -moz-box-orient: vertical !important;
+}
+
+/* Toolbar-Mode: Text */
+#aios-toolbar[orient="vertical"][mode="text"] toolbarbutton {
+    -moz-box-orient: horizontal;
+    
+    .toolbarbutton-text {
+        text-align: left;
+    }
+}
+
+/* Toolbarspacer auf der Toolbar und im Konfigurationsmodus */
+#aios-toolbar[orient="vertical"] {
+    
+    toolbarspacer,
+    toolbarpaletteitem[id^="wrapper-spacer"] {
+        height: 21px;
+    }
+    
+}
+
+/* Toolbarspring auf der Toolbar und im Konfigurationsmodus */
+#aios-toolbar {
+    
+    toolbarspring,
+    toolbarpaletteitem[id^="wrapper-spring"] {
+        -moz-box-flex: 1000;
+    }
+    
+}
+
+/* Toolbarseparator auf der Toolbar und im Konfigurationsmodus */
+#aios-toolbar {
+    
+    toolbarseparator,
+    toolbarpaletteitem[id^="wrapper-separator"] {
+        margin: 0 0 1px 1px;
+    }
+    
+    &[orient="vertical"] {
+        
+        toolbarseparator,
+        toolbarpaletteitem[id^="wrapper-separator"] {
+            -moz-appearance: none;
+            height: 2px;
+            max-height: 2px;
+            min-height: 2px;
+            padding: 0;
+            border: none;
+            border-top: 1px solid ThreedShadow;
+            border-bottom: 1px solid ThreedHighlight;
+        }
+    }
+}
+
+#aios-toolbar[orient="vertical"] toolbarpaletteitem[id^="wrapper-separator"] {
+    min-height: 5px;
+    border-bottom: 1px solid ThreedHighlight;
+    background-color: ActiveBorder;
+}
+
+#aios-toolbar[orient="horizontal"] toolbarpaletteitem[id^="wrapper-separator"] {
+    min-width: 5px;
+    max-width: 5px;
+    border-left: 1px solid ThreedShadow;
+    background-color: ActiveBorder;
+}
+
+
+/* Drag-and-Drop-Markierung im Konfigurationsmodus */
+#aios-toolbar[orient="vertical"] toolbarpaletteitem {
+
+    margin: -2px 0;
+    border: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    
+    &[dragover="left"] {
+        border-color: transparent;
+        border-top-color: #000000;
+    }
+    
+    &[dragover="right"] {
+        border-color: transparent;
+        border-bottom-color: #000000;
+    }
+        
+}
+/* @end */
+
+
+/* @group Grippy */
+#aios-toggle-toolbox grippy,
+#sidebar-splitter grippy {
+    /* eigentlich nur fuer Darwin noetig, sonst gibt es links einen 1px breiten Rand */
+    -moz-binding: url("chrome://aios/content/aios.xml#aiosGrippy");
+    
+    cursor: pointer;
+    background: transparent none no-repeat center;
+    
+    &:hover {
+        background-color: -moz-MenuHover;
+    }
+}
+
+#sidebar-splitter[orient="horizontal"] grippy {
+    min-width: 5px;
+    min-height: 119px;
+}
+
+#aios-toggle-toolbox grippy,
+#sidebar-splitter[orient="horizontal"] grippy,
+window[aiosOrient="right"][aiosOpen="false"] #aios-toggle-toolbox grippy,
+window[aiosOrient="right"][aiosOpen="false"] #sidebar-splitter[orient="horizontal"] grippy {
+    background-image: url(../img/grippy-left.gif);
+    
+}
+
+window[aiosOpen="false"] #aios-toggle-toolbox grippy,
+window[aiosOpen="false"] #sidebar-splitter[orient="horizontal"] grippy,
+window[aiosOrient="right"] #aios-toggle-toolbox grippy,
+window[aiosOrient="right"] #sidebar-splitter[orient="horizontal"] grippy {
+    background-image: url(../img/grippy-right.gif);
+}
+/* @end */
+
+
+/* @group deaktivierte Icons */
+.aios-noIcons > .menu-iconic-left image {
+    display: none;
+}
+/* @end */
+
+
+/* @group
+    Vertikale Lesezeichen auf der AiOS-Toolbar
+         => ergaenzt durch document.getElementById('PlacesToolbarItems').removeAttribute('orient'); in aios.js
+*/
+#personal-bookmarks,
+#PlacesToolbarItems {
+    -moz-box-orient: horizontal;
+}
+
+#aios-toolbar[orient="vertical"] {
+    
+    #personal-bookmarks,
+    #PlacesToolbarItems {
+        -moz-box-orient: vertical;
+    }
+    
+    &[mode="icons"] {
+        
+        label,
+        .chevron > label {
+            display: none !important;
+        }
+        
+        menupopup label {
+            display: block !important;
+        }
+        
+    }
+    
+}
+
+#aios-toolbar[mode="icons"]:not([iconsize="small"]) .bookmark-item > image {
+    width: 22px;
+    height: 22px;
+    margin: 1px;
+}
+/* @end */
+
+
+/* @group Sidebar */
+#sidebar,
+#sidebar-box {
+    margin: 0;
+    padding: 0;
+    max-width: none !important;
+}
+
+/*
+  ermoeglicht eine minimale Groesse von 0, allerdings kann der Splitter 
+  dann weiter gezogen werden, als die Maximalbreite zulaesst
+#sidebar-box {
+	overflow-x: hidden;
+}*/
+
+sidebarheader {
+    padding: 0 1px 1px 1px;
+}
+
+#sidebar-title {
+    display: none !important;
+}
+
+#sidebars-titlebutton > label {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    background: url(../img/arrow.gif) no-repeat right 8px;
+}
+
+sidebarheader > .tabs-closebutton {
+    display: none;
+}
+/* @end */
+
+
+/* @group Sidebarheader-Toolabr */
+#aios-sbhtoolbox,
+#aios-sbhtoolbar {
+    -moz-appearance: none;
+    min-width: 30px;
+    background-color: transparent;
+    background-image: none !important;
+    border: none;
+}
+/* @end */
+
+
+/* @group Sidebar left/right */
+
+/* Sidebar on left (RTL-Languages) */
+window[aiosOrient="left"][aiosMode="rtl"] #browser {
+    direction: ltr;
+    
+    * {
+        direction: rtl;
+    }
+}
+
+/* Sidebar on right (LTR-Languages) */
+window[aiosOrient="right"][aiosMode="ltr"] #browser {
+    direction: rtl;
+    
+    * {
+        direction: ltr;
+    }
+}
+/* @end */
+
+
+/* @group Tooltips */
+#aiosPopupset tooltip {
+    padding: 1px;
+    
+    box {
+        -moz-binding: url(chrome://aios/content/aios.xml#aiosTooltips);
+    }
+    
+    label {
+        margin: 0;
+        padding: 1px 3px;
+        
+        &[value=""],
+        &label:not([value]) {
+            display: none;
+        }
+        
+        &:not([class="odd"]) {
+            border-top: 1px dotted ThreedDarkShadow;
+            border-bottom: 1px dotted ThreedDarkShadow;
+        }
+    }
+    
+    > label:not([class="odd"]) {
+        margin-bottom: 5px;
+        padding: 2px 3px 4px 3px;
+        border-top: none;
+        border-bottom: 1px solid ThreedDarkShadow;
+    }
+}
+/* @end */
+
+
+/* @group Print Preview */
+window[onclose="PrintUtils.exitPrintPreview(); return false;"] {
+    
+    #aios-toggle-toolbox,
+    #sidebar-box,
+    #aios-toolbox-left,
+    #aios-toolbox-right,
+    #sidebar-splitter {
+        display: none;
+    }
+    
+}
+/* @end */
+
+
+/* @group Fixes */
+
+/* TotalToolbar */
+sidebarheader #tt-toolbox-sidebarheader {
+    display: none;
+}
+
+
+/* Console2 */
+#console2-button,
+menuitem[observes="viewConsole2Sidebar"]:not([id="console-mitem"]) {
+    display: none !important;
+}
+
+
+/* MR Tech Local Install & Download Manager Tweak */
+/*menuitem[key="key_dmSidebar"],*/
+#emSidebar,
+#tmSidebar {
+    display: none !important;
+}
+
+
+/* Download Manager Tweak */
+menuitem[id="menu_dmtSidebar"] {
+    display: none !important;
+}
+
+
+/* EZ Sidebar */
+menuitem[ezsidebar-id="ezsidebar:viewSidebarMenu:show"],
+menuitem[ezsidebar-id="ezsidebar:viewSidebarMenu:hide"] {
+    display: none !important;
+}
+
+window:not([windowtype="mozilla:sidebar"]) #ezsidebar-panels-button {
+    display: none !important;
+}
+
+
+/* Personas */
+window[persona] #browser,
+window[lwtheme="true"] #browser {
+    border-top: none !important;
+}
+
+window[persona],
+window[lwtheme="true"] {
+    
+    #aios-toggle-toolbar,
+    #aios-toolbar,
+    sidebarheader,
+    &:-moz-system-metric(windows-default-theme) #aios-toolbar[posMode="4"],
+    #sidebar-splitter[orient="horizontal"] hbox {
+        border: none !important;
+        background-color: transparent !important;
+    }
+    
+    #sidebar-splitter[orient="horizontal"] {
+        -moz-appearance: none !important;
+    }
+    
+}
+/* @end */

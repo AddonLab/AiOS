@@ -1,0 +1,21 @@
+<!ENTITY page.label "Сторінка">
+<!ENTITY page.tooltip "Відкрити сторінку у цій панелі">
+<!ENTITY page.ssr.label "Рендеринг для маленькиx дисплеїв">
+<!ENTITY page.ssr100.label "Припасовувати до ширини бічної панелі">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Показує різноманітну інформацію про браузер">
+<!ENTITY about.config.tooltip "Показує інтерфейс для перегляду та налаштування великого числа змінних конфігурації">
+<!ENTITY about.plugins.tooltip "Показує інформацію про встановлені модулі">
+<!ENTITY about.support.tooltip "Показує основну інформацію про додаток, розширення та змінені налаштування">
+<!ENTITY about.cache.tooltip "Показує інформацію про дисковий кеш та кеш пам\'яті">
+<!ENTITY about.cache.disk.tooltip "Переглянути елементи дискового кеша">
+<!ENTITY about.cache.memory.tooltip "Переглянути елементи кеша пам\'яті">
+<!ENTITY about.cache.offline.tooltip "Переглянути офлайнові елементи кеша">
+<!ENTITY about.crashes.tooltip "Переглянути надіслані повідомлення про аварії браузера">
+<!ENTITY about.buildconfig.tooltip "Показує аргументи та налаштування, використані для компіляції версії, що використовується">
+<!ENTITY about.about.tooltip "Показує інформацію про версію та авторські права">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Показує перелік всіх, хто співпрацює з Mozilla">
+<!ENTITY about.license.tooltip "Показує публічну ліцензію Mozilla Public License">
+<!ENTITY about.mozilla.tooltip "Показує сторінку з фантастичної Книги Mozilla">
+<!ENTITY tools.remlast.label "Пам\'ятати останній показаний вміст">

@@ -1,0 +1,57 @@
+<!ENTITY title "Acerca de All-in-One Sidebar">
+<!ENTITY version "Versión">
+<!ENTITY settings "Opciones">
+<!ENTITY close "Cerrar">
+<!ENTITY tab.about "Acerca de">
+<!ENTITY tab.contrib "Colaboradores">
+<!ENTITY tab.trans "Traductores">
+<!ENTITY about.desc "All-in-One Sidebar le permite abrir varias ventanas como paneles laterales, y cambiar rápidamente entre ellos. De este modo acaba con el caos de las ventanas. Además de marcadores o historial, abre otras ventanas como descargas, complementos y más en el panel lateral.">
+<!ENTITY create.desc "creada por Ingo Wennemaring, Hamburgo [Alemania]">
+<!ENTITY about1.name "Página web - Información completa general">
+<!ENTITY about2.name "Opciones - Todas las opciones de All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - Las respuestas a las preguntas más frecuentes">
+<!ENTITY about4.name "Aspectos conocidos - Descripción y resolución de problemas">
+<!ENTITY about5.name "Foro - opiniones, informe de fallos, arreglo de temas y otros">
+<!ENTITY about6.name "Changelog - Historial y cambios">
+<!ENTITY about7.name "To-do - Opciones y mejoras previstas">
+<!ENTITY contrib.desc "Agradezco a los siguientes desarrolladores por la inspiración y ayuda (orden alfabético):">
+<!ENTITY contrib.thanks "Agradecer por último a todos los usuarios que han colaborado en las pruebas de las versiones de desarrollo, informando de errores en los foros, compartiendo sus ideas y sugerencias, y a todos aquellos que han escrito comentarios :-) Muchas gracias a todos.">
+<!ENTITY trans.desc "Agradezco a los siguientes traductores:">
+<!ENTITY trans.ar-SA.lang "Arábigo">
+<!ENTITY trans.be-BY.lang "Bielorruso">
+<!ENTITY trans.cs-CZ.lang "Checo">
+<!ENTITY trans.da-DK.lang "Danés">
+<!ENTITY trans.de-DE.lang "Alemán (de-DE)">
+<!ENTITY trans.el-GR.lang "Griego">
+<!ENTITY trans.en-GB.lang "Inglés (Gran Bretaña)">
+<!ENTITY trans.en-US.lang "Inglés (USA)">
+<!ENTITY trans.es-AR.lang "Español (Argentina)">
+<!ENTITY trans.es-ES.lang "Español (España)">
+<!ENTITY trans.et-EE.lang "Estonio">
+<!ENTITY trans.fi-FI.lang "Finlandés">
+<!ENTITY trans.fr-FR.lang "Francés">
+<!ENTITY trans.he-IL.lang "Hebreo">
+<!ENTITY trans.hr-HR.lang "Croata">
+<!ENTITY trans.hu-HU.lang "Húngaro">
+<!ENTITY trans.hy-AM.lang "Armenio (Armenia)">
+<!ENTITY trans.it-IT.lang "Italiano">
+<!ENTITY trans.ja-JP.lang "Japonés">
+<!ENTITY trans.ko-KR.lang "Koreano">
+<!ENTITY trans.lt-LT.lang "Lituano">
+<!ENTITY trans.nb-NO.lang "Noruego (BokmÃ¥l)">
+<!ENTITY trans.nl-NL.lang "Holandés">
+<!ENTITY trans.pl-PL.lang "Polaco">
+<!ENTITY trans.pt-BR.lang "Portugués (Brasil)">
+<!ENTITY trans.pt-PT.lang "Portugués (Portugal)">
+<!ENTITY trans.ro-RO.lang "Rumano">
+<!ENTITY trans.ru-RU.lang "Ruso">
+<!ENTITY trans.sk-SK.lang "Eslovaco">
+<!ENTITY trans.sq-AL.lang "Albanés">
+<!ENTITY trans.sr-RS.lang "Serbio (Cirílico)">
+<!ENTITY trans.sv-SE.lang "Sueco">
+<!ENTITY trans.tr-TR.lang "Turco">
+<!ENTITY trans.uk-UA.lang "Ucranio">
+<!ENTITY trans.vi-VN.lang "Vietnamita (Vietnam)">
+<!ENTITY trans.zh-CN.lang "Chino (Simplificado)">
+<!ENTITY trans.zh-TW.lang "Chino (Tradicional)">
+<!ENTITY trans.thanks "Agradezco también a todo el equipo de BabelZilla.org por su gran trabajo.">

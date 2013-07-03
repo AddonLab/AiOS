@@ -1,0 +1,51 @@
+<!ENTITY loading.label "Panel yükleniyor…">
+<!ENTITY menu.prefs.label "All-in-One kenar çubuğu ayarları…">
+<!ENTITY menu.togglebar.label "Kenar çubuğu düğmesi">
+<!ENTITY menu.grippy.label "Grippy kenar çubuğu">
+<!ENTITY toolbar.name "All-in-One Kenar Araç Çubuğu">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "All-in-One Sidebar ile Düğme öğeleri düzenlendi">
+<!ENTITY button.switch.tooltip1 "Araç ve Kenar Çubuğu Düğmesi">
+<!ENTITY button.switch.tooltip2 "Araç Çubuğu Düğmesi">
+<!ENTITY button.switch.tooltip3 "Kenar Çubugu Düğmesi">
+<!ENTITY sidebar.open.label "Kenar çubuğunu aç">
+<!ENTITY sidebar.close.label "Kenar çubuğunu kapat">
+<!ENTITY sidebar.width.min "En az genişlik">
+<!ENTITY sidebar.width.def "Normal genişlik">
+<!ENTITY sidebar.width.max "En fazla genişlik">
+<!ENTITY button.menu.label "Kenar Çubuğu Paneli">
+<!ENTITY button.menu.tooltip "Kullanılabilir tüm Kenar Çubuğu Panelleri">
+<!ENTITY button.toolbar.label "AiOS-Araç Çubuğu">
+<!ENTITY button.toolbar.tooltip "AiOS-Araç Çubugu Düğmesi">
+<!ENTITY button.paneltab.label "Panel sekmesi">
+<!ENTITY button.paneltab.tooltip1 "Tabdaki içeri kenar çubuğunda aç">
+<!ENTITY button.paneltab.tooltip2 "Kenar çubuğundaki içeriği yeni tabda aç">
+<!ENTITY button.paneltab.tooltip3 "Kenar çubuğundaki içeriği pencerede aç">
+<!ENTITY button.paneltab.menu1.label "Kenar çubuğunda tab aç">
+<!ENTITY button.paneltab.menu2.label "Tab da kenar çubuğu aç">
+<!ENTITY button.autohide.label "Kenar çubuğu otomatik">
+<!ENTITY button.autohide.tooltip "Kenar çubuğunu otomatik gizle/göster">
+<!ENTITY button.tooltip.sidebar "Kenar çubugunda aç">
+<!ENTITY button.tooltip.window "Pencerede aç">
+<!ENTITY button.tooltip.tab "Yeni tab da aç">
+<!ENTITY button.addons.label "Add-ons">
+<!ENTITY button.addons.tooltip "Yüklenmiş eklentiler ve temaları gösterir">
+<!ENTITY button.multipanel.label "Çoklu Panel">
+<!ENTITY button.multipanel.tooltip "Display e.g. a website, source code and browser information">
+<!ENTITY button.pageinfo.tooltip "Sayfa bilgilerini açar">
+<!ENTITY button.console.label "Consol hatası">
+<!ENTITY button.console.tooltip "Hata konsolunu aç,kaynak koduyla kangi parçalar hatalı">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Kenar çubuğu solunda">
+<!ENTITY toolbar.pos.sidebarright.label "Kenar çubuğu sağında">
+<!ENTITY toolbar.pos.sidebartop.label "Kenar çubuğu yukarıda">
+<!ENTITY toolbar.pos.headerbottom.label "Kenar Cubugu gizleyici aşağıda">
+<!ENTITY toolbar.pos.sidebarbottom.label "Kenar çubuğu aşağıda">
+<!ENTITY toolbar.mode.flexbuttons.label "Esnek Butonlar">

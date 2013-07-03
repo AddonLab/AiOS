@@ -1,0 +1,218 @@
+
+#commandBar {
+    padding: 1px 2px 2px 2px;
+}
+
+#ssrSidebar-mitem {
+    margin-left: 13px;
+}
+
+
+/* @group Icons */
+#page-button .toolbarbutton-menubutton-button,
+#about-button .toolbarbutton-menubutton-button,
+#toolsButton {
+    -moz-box-orient: horizontal;
+    list-style-image: url(../icons/panels_menus.png);
+}
+
+
+/* @group Windows */
+page[aios-appOS="WINNT"] {
+    
+    
+    #page-button .toolbarbutton-menubutton-button {
+        -moz-image-region: rect(0, 80px, 16px, 64px);
+    }
+    
+    #about-button .toolbarbutton-menubutton-button {
+        -moz-image-region: rect(0, 96px, 16px, 80px);
+    }
+    
+    #toolsButton {
+        -moz-image-region: rect(0, 16px, 16px, 0);
+    }
+    
+}
+/* @end */
+
+
+/* @group Darwin */
+page[aios-appOS="Darwin"] {
+    
+    #page-button .toolbarbutton-menubutton-button {
+        -moz-image-region: rect(32px, 80px, 48px, 64px);
+    }
+    
+    #about-button .toolbarbutton-menubutton-button {
+        -moz-image-region: rect(32px, 96px, 48px, 80px);
+    }
+    
+    #toolsButton {
+        -moz-image-region: rect(32px, 16px, 48px, 0);
+    }
+    
+}
+/* @end */
+
+
+/* @group Linux */
+page:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
+    
+    #page-button .toolbarbutton-menubutton-button {
+        -moz-image-region: rect(64px, 80px, 80px, 64px);
+    }
+    
+    #about-button .toolbarbutton-menubutton-button {
+        -moz-image-region: rect(64px, 96px, 80px, 80px);
+    }
+    
+    #toolsButton {
+        -moz-image-region: rect(64px, 16px, 80px, 0);
+    }
+    
+}
+/* @end */
+
+/* @end */
+
+
+/* @group Firefox-Standard-Theme */
+page[aios-appDefTheme="true"] {
+    
+    /* @group Windows */
+    &[aios-appOS="WINNT"] {
+        
+        #commandBar {
+            border-top: 1px solid ThreedHighlight;
+            border-bottom: 1px solid ThreedShadow;
+        }
+        
+        #toolsButton dropmarker image {
+            margin: 0 2px 0 3px;
+        }
+        
+        .toolbarbutton-1 {
+            margin-right: 5px;
+            
+            label {
+                padding-left: 4px;
+                padding-right: 1px;
+            }
+        }
+        
+        /* @group Windows-XP klassisch */
+        &[aios-appOSVersion="Windows NT 5.1"] {
+            
+            #commandBar {
+                padding-top: 2px;
+            }
+            
+        }
+        /* @end */
+        
+        
+        /* @group Windows-Standard */
+        &:-moz-system-metric(windows-default-theme) {
+            
+            /* @group Windows-XP-Standard */
+            &[aios-appOSVersion="Windows NT 5.1"] {
+                
+                #commandBar {
+                    padding-top: 1px;
+                    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), 
+                                      rgba(255, 255, 255, 0));
+                }
+                
+            }
+            /* @end */
+            
+            
+            /* @group Windows-Vista-7-Standard */
+            &:not([aios-appOSVersion="Windows NT 5.1"]) {
+                
+                #commandBar {
+                    background-color: #eef3fa;
+                }
+                
+            }
+            /* @end */
+            
+        }
+        /* @end */
+         
+    }
+    /* @end */
+    
+    
+    /* @group Darwin */
+    &[aios-appOS="Darwin"] {
+    
+        #commandBar {
+            padding: 8px 0 11px 2px;
+            background-color: #D4DDE5;
+            
+            &:-moz-window-inactive {
+                background-color: #e8e8e8;
+            }
+        }
+        
+        toolbarbutton {
+        
+            &:-moz-window-inactive {
+                opacity: 0.5;
+            }
+            
+            &.toolbarbutton-1 {
+                border-radius: 4px;
+                background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;
+                
+                &:-moz-window-inactive {
+                    opacity: 0.8;
+                }
+                
+                &[checked="true"] {
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    box-shadow: inset #2A2A2A 0 3px 3.5px, 0 1px rgba(255, 255, 255, .4);
+                    
+                    .toolbarbutton-menubutton-button,
+                    .toolbarbutton-menubutton-dropmarker {
+                        -moz-appearance: none;
+                    }
+                    
+                }
+                
+                .toolbarbutton-icon {
+                    margin-top: 2px;
+                    margin-bottom: 0;
+                }
+                
+            }
+            
+            &#toolsButton {
+                -moz-appearance: none;
+                padding: 1px 5px;
+                border: 1px solid #7F7F7F;
+                border-radius: 10px;
+                background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;
+                
+                image {
+                    margin-right: 6px;
+                }
+                
+                label {
+                    margin: 0;
+                }
+                
+                .dropmarker-icon {
+                    margin: 2px 0 0 1px;
+                }
+            }
+        }
+        
+    }
+    /* @end */
+    
+}
+/* @end */

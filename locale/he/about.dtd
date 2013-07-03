@@ -1,0 +1,59 @@
+<!ENTITY title "אודות All-in-One Sidebar">
+<!ENTITY version "גרסה">
+<!ENTITY settings "אפשרויות…">
+<!ENTITY close "סגירה">
+<!ENTITY tab.about "אודות">
+<!ENTITY tab.help "עזרה">
+<!ENTITY tab.contrib "תורמים">
+<!ENTITY tab.trans "מתרגמים">
+<!ENTITY about.desc "All-in-One Sidebar מאפשר פתיחת מגוון חלונות כלוח בסרגל-הצד ומעבר מהיר ביניהם. כך שנגמר הבלגן עם החלונות. בנוסף לסימניות וההיסטוריה ניתן לפתוח בסרגל-הצד דיאלוגים כמו ההורדות, ההרחבות ועוד.">
+<!ENTITY create.desc "נוצר על ידי: Ingo Wennemaring, המבורג  [גרמניה]">
+<!ENTITY help.desc "ניתן למצוא מידע רב אודות הרחבה זו באתר:">
+<!ENTITY about1.name "דף הבית - מידע רב במקום אחד">
+<!ENTITY about2.name "מאפיינים - כל המאפיינים של All-in-One Sidebar">
+<!ENTITY about3.name "שאלות ותשובות נפוצות אודות ההרחבה">
+<!ENTITY about4.name "בעיות ידועות - תיאור, איתור וטיפול בבעיות">
+<!ENTITY about5.name "פורום - דיונים, דיווח באגים, ותיקון ערכות נושא ונושאים רבים אחרים">
+<!ENTITY about6.name "שינויים - ההיסטוריה של השינויים">
+<!ENTITY about7.name "לעשות - אפשרויות ושיפורים מתוכננים">
+<!ENTITY contrib.desc "אני מודה למפתחים הבאים על ההשראה ועל פיסות הקוד  [לפי סדר אלפביתי]:">
+<!ENTITY contrib.thanks "דבר אחרון חביב, אני מודה לכל המשתמשים שעזרו ובדקו את גרסאות הניסיון והפיתוח, שדיווחו על באגים  בפורום, וחלקו את רעיונותיהם ועצותיהם או סתם כתבו תגובה חביבה . תודה רבה לכם! (-:">
+<!ENTITY trans.desc "המתרגמים של All-in-One Sidebar  [בסדר אלפביתי, לפי קוד השפה]:">
+<!ENTITY trans.ar-SA.lang "ערבית">
+<!ENTITY trans.be-BY.lang "בלרוסית">
+<!ENTITY trans.cs-CZ.lang "צ\'כית">
+<!ENTITY trans.da-DK.lang "דנית">
+<!ENTITY trans.de-DE.lang "גרמנית">
+<!ENTITY trans.el-GR.lang "יוונית">
+<!ENTITY trans.en-GB.lang "אנגלית (בריטניה-אנגליה)">
+<!ENTITY trans.en-US.lang "אנגלית (ארה\&quot;ב)">
+<!ENTITY trans.es-AR.lang "ספרדית (ארגנטינה)">
+<!ENTITY trans.es-ES.lang "ספרדית (ספרד)">
+<!ENTITY trans.et-EE.lang "אסטונית">
+<!ENTITY trans.fi-FI.lang "פינית">
+<!ENTITY trans.fr-FR.lang "צרפתית">
+<!ENTITY trans.he-IL.lang "עברית">
+<!ENTITY trans.hr-HR.lang "קרואטית">
+<!ENTITY trans.hu-HU.lang "הונגרית">
+<!ENTITY trans.hy-AM.lang "ארמנית (ארמניה)">
+<!ENTITY trans.it-IT.lang "איטלקית">
+<!ENTITY trans.ja-JP.lang "יפנית">
+<!ENTITY trans.ko-KR.lang "קוריאנית">
+<!ENTITY trans.lt-LT.lang "ליטאית">
+<!ENTITY trans.nb-NO.lang "נורווגית">
+<!ENTITY trans.nl-NL.lang "הולנדית">
+<!ENTITY trans.pl-PL.lang "פולנית">
+<!ENTITY trans.pt-BR.lang "פורטוגזית (ברזיל)">
+<!ENTITY trans.pt-PT.lang "פורטוגזית (פורטוגל)">
+<!ENTITY trans.ro-RO.lang "רומנית">
+<!ENTITY trans.ru-RU.lang "רוסית">
+<!ENTITY trans.sk-SK.lang "סלובנית">
+<!ENTITY trans.sq-AL.lang "אלבנית">
+<!ENTITY trans.sr-RS.lang "סרבית (קירילית)">
+<!ENTITY trans.sv-SE.lang "שבדית">
+<!ENTITY trans.tr-TR.lang "טורקית">
+<!ENTITY trans.uk-UA.lang "אוקראינית">
+<!ENTITY trans.vi-VN.lang "וייטנאמית ( וייטנאם)">
+<!ENTITY trans.zh-CN.lang "סינית (פשוטה)">
+<!ENTITY trans.zh-TW.lang "סינית (מסורתית)">
+<!ENTITY trans.thanks "אני כמובן מודה לצוות BabelZilla.org על עבודתו המצוינת!">

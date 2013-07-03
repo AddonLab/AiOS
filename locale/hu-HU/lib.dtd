@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Bal kattintás">
+<!ENTITY rightclick "Jobb kattintás">
+<!ENTITY doubleclick "Dupla kattintás">
+<!ENTITY middleclick "Középső kattintás">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Eszközök">
+<!ENTITY closeFolder.label "Összes mappa bezárása">
+<!ENTITY show.closeFolder.label "„Összes mappa bezárása” gomb megjelenítése">
+<!ENTITY enable.autoClose.label "Minden egyéb mappát automatikusan bezár">
+<!ENTITY enable.scrollToFolder.label "Görgetés a kiválasztott mappához">
+<!ENTITY enable.rememberFolder.label "Emlékezés az utoljára kijelölt mappára">

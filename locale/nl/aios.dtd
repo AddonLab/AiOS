@@ -1,0 +1,52 @@
+<!ENTITY loading.label "paneel laden…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar opties…">
+<!ENTITY menu.togglebar.label "Zijbalkwisselaar">
+<!ENTITY menu.grippy.label "Zijbalkhandvat">
+<!ENTITY toolbar.name "All-in-One Sidebar werkbalk">
+<!ENTITY sbhtoolbar.name "Zijbalkkop werkbalk">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Elementen openen/sluiten gecontroleerd door All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Werk- en zijbalk openen/sluiten">
+<!ENTITY button.switch.tooltip2 "Werkbalk openen/sluiten">
+<!ENTITY button.switch.tooltip3 "Zijbalk openen/sluiten">
+<!ENTITY sidebar.open.label "Zijbalk openen">
+<!ENTITY sidebar.close.label "Zijbalk sluiten">
+<!ENTITY sidebar.width.min "Minimumbreedte">
+<!ENTITY sidebar.width.def "Standaardbreedte">
+<!ENTITY sidebar.width.max "Maximumbreedte">
+<!ENTITY button.menu.label "Zijbalkpanelen">
+<!ENTITY button.menu.tooltip "Alle beschikbare zijbalkpanelen">
+<!ENTITY button.toolbar.label "AiOS-werkbalk">
+<!ENTITY button.toolbar.tooltip "AiOS-werkbalk openen/sluiten">
+<!ENTITY button.paneltab.label "Paneeltabblad">
+<!ENTITY button.paneltab.tooltip1 "Inhoud van tabblad in zijbalk openen">
+<!ENTITY button.paneltab.tooltip2 "Inhoud van zijbalk in een nieuw tabblad openen">
+<!ENTITY button.paneltab.tooltip3 "Zijbalkinhoud in een venster openen">
+<!ENTITY button.paneltab.menu1.label "Tabblad in zijbalk openen">
+<!ENTITY button.paneltab.menu2.label "Zijbalk in een tabblad openen">
+<!ENTITY button.autohide.label "ZijbalkAutomatisch">
+<!ENTITY button.autohide.tooltip "Zijbalk automatisch tonen/verbergen">
+<!ENTITY button.tooltip.sidebar "In de zijbalk openen">
+<!ENTITY button.tooltip.window "In een venster openen">
+<!ENTITY button.tooltip.tab "In een nieuw tabblad openen">
+<!ENTITY button.addons.label "Add-ons">
+<!ENTITY button.addons.tooltip "Geïnstalleerde extensies en thema&apos;s weergeven">
+<!ENTITY button.multipanel.label "Multipaneel">
+<!ENTITY button.multipanel.tooltip "Bijv. een website, broncode en browserinformatie weergeven">
+<!ENTITY button.pageinfo.tooltip "Informatie weergeven over formulieren, links, media and veiligheid">
+<!ENTITY button.console.label "Foutconsole">
+<!ENTITY button.console.tooltip "Opent de foutconsole, die problemen met de broncode bijhoudt">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "U">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Links naast zijbalk">
+<!ENTITY toolbar.pos.sidebarright.label "Rechts naast zijbalk">
+<!ENTITY toolbar.pos.sidebartop.label "Boven zijbalk">
+<!ENTITY toolbar.pos.headerbottom.label "Boven zijbalkkop">
+<!ENTITY toolbar.pos.sidebarbottom.label "Onder zijbalk">
+<!ENTITY toolbar.mode.flexbuttons.label "Flexibele knoppen">

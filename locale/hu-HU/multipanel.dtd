@@ -1,0 +1,21 @@
+<!ENTITY page.label "Oldal">
+<!ENTITY page.tooltip "Weboldal megnyitása ezen a panelon">
+<!ENTITY page.ssr.label "Előnézeti kép">
+<!ENTITY page.ssr100.label "Oldalsáv szélességéhez alkalmazkodva">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Különféle információkat jelenít meg a böngészőről">
+<!ENTITY about.config.tooltip "Felhasználói felületet ad a beállítási lehetőségek széles skálájának megtekintéséhez és beállításához">
+<!ENTITY about.plugins.tooltip "Információkat jelenít meg a telepített Bővítményekről">
+<!ENTITY about.support.tooltip "Megjeleníti az alkalmazás alapinformációit, kiterjesztéseit és megváltoztatott beállításait">
+<!ENTITY about.cache.tooltip "Információkat jelenít meg a gyorsítótár szolgáltatásokról, mind a memória-, mind a lemezgyorsítótár esetében">
+<!ENTITY about.cache.disk.tooltip "Egyedi gyorsítótár elemek megjelenítése a lemezgyorsítótárból">
+<!ENTITY about.cache.memory.tooltip "Egyedi gyorsítótár elemek megjelenítése a memória-gyorsítótárból">
+<!ENTITY about.cache.offline.tooltip "Kapcsolat nélküli állapot gyorsítótár-elemeinek megjelenítése">
+<!ENTITY about.crashes.tooltip "Elküldött hibajelentések megjelenítése">
+<!ENTITY about.buildconfig.tooltip "A program felépítése/fordítása során alkalmazott kapcsolók és beállítások megjelenítése">
+<!ENTITY about.about.tooltip "Verzió- és jogi információk megjelenítése">
+<!ENTITY about.robots.tooltip "Kapcsford: Látogatásunk békés és jó szándékú!">
+<!ENTITY about.credits.tooltip "A Mozilla összes hozzájárulójának listája">
+<!ENTITY about.license.tooltip "A Mozilla Public License megjelenítése">
+<!ENTITY about.mozilla.tooltip "Egy oldal megjelenítése a Mozilla könyvéből">
+<!ENTITY tools.remlast.label "Legutolsó megjelenített tartalom eltárolása">

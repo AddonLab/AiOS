@@ -1,0 +1,12 @@
+<!ENTITY leftclick "Kairysis mygtukas">
+<!ENTITY rightclick "Dešinysis mygtukas">
+<!ENTITY doubleclick "Dukart spragt.">
+<!ENTITY middleclick "Spragt. viduriniuoju mygtuku">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Priemonės">
+<!ENTITY closeFolder.label "Užverti visus aplankus">
+<!ENTITY enable.autoClose.label "Automatiškai užverti kitus aplankus">
+<!ENTITY enable.scrollToFolder.label "Automatiškai pereiti prie pasirinkto aplanko">
+<!ENTITY enable.rememberFolder.label "Įsiminti ir fokusuoti paskutinį pasirinktą aplanką">

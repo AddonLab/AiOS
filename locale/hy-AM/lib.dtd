@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Ձախ կլիկ">
+<!ENTITY rightclick "Աջ կլիկ">
+<!ENTITY doubleclick "Կրկնակի կլիկ">
+<!ENTITY middleclick "Կենտրոնական կլիկ">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Գործիքներ">
+<!ENTITY closeFolder.label "Փակել բոլոր պանակները">
+<!ENTITY show.closeFolder.label "&apos;Փակել բոլոր Պանակները&apos; Կոճակը">
+<!ENTITY enable.autoClose.label "Ավտոմատ փակել մյուս պանակները">
+<!ENTITY enable.scrollToFolder.label "Ավտոմատ անցնել ընտրված պանակին">
+<!ENTITY enable.rememberFolder.label "Հիշել և անցնել վերջին ընտրված պանակը">

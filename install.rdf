@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:name>All-in-One Sidebar</em:name>
+        <em:version>0.7.18 RC1</em:version>
+        <em:description>Sidebar control with award-winning user experience!</em:description>
+        <em:creator>Ingo Wennemaring</em:creator>
+
+        <em:id>{097d3191-e6fa-4728-9826-b533d755359d}</em:id>
+        <em:type>2</em:type>
+
+        <em:icon64URL>chrome://aios/skin/icons/icon64.png</em:icon64URL>
+        <em:aboutURL>chrome://aios/content/about.xul</em:aboutURL>
+        <em:homepageURL>http://addonlab.com</em:homepageURL>
+        <em:optionsURL>chrome://aios/content/prefs/prefs.xul</em:optionsURL>
+
+        <em:targetApplication>
+
+            <!-- Firefox -->
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>14.0</em:minVersion>
+                <em:maxVersion>15.*</em:maxVersion>
+            </Description>
+            
+        </em:targetApplication>
+
+    </Description>
+</RDF>

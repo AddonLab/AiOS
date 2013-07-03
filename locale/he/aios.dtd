@@ -1,0 +1,52 @@
+<!ENTITY loading.label "טוען לוח…">
+<!ENTITY menu.prefs.label "אפשרויות All-in-One Sidebar...">
+<!ENTITY menu.togglebar.label "מתג סרגל-הצד">
+<!ENTITY menu.grippy.label "מזעור סרגל-הצד">
+<!ENTITY toolbar.name "סרגל הכלים של All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "סרגל הכלים של כותרת סרגל-הצד">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "הצגת/הסתרת מרכיבים שנשלטים על ידי All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "הצגת/הסתרת סרגל-הצד וסרגל הכלים">
+<!ENTITY button.switch.tooltip2 "הצגת/הסתרת סרגל הכלים">
+<!ENTITY button.switch.tooltip3 "הצגת/הסתרת סרגל-הצד">
+<!ENTITY sidebar.open.label "פתיחת סרגל-הצד">
+<!ENTITY sidebar.close.label "סגירת סרגל-הצד">
+<!ENTITY sidebar.width.min "רוחב מינימלי">
+<!ENTITY sidebar.width.def "רוחב סטנדרטי">
+<!ENTITY sidebar.width.max "רוחב מקסימלי">
+<!ENTITY button.menu.label "לוחות סרגל-הצד">
+<!ENTITY button.menu.tooltip "כל לוחות סרגל-הצד הזמינים">
+<!ENTITY button.toolbar.label "סרגל כלים AiOS">
+<!ENTITY button.toolbar.tooltip "הצגת/הסתרת סרגל כלים AiOS">
+<!ENTITY button.paneltab.label "לוח לשונית">
+<!ENTITY button.paneltab.tooltip1 "פתיחת תוכן הלשונית בסרגל-הצד">
+<!ENTITY button.paneltab.tooltip2 "פתיחת תוכן סרגל-הצד בלשונית חדשה">
+<!ENTITY button.paneltab.tooltip3 "פתיחת תוכן סרגל-הצד בחלון">
+<!ENTITY button.paneltab.menu1.label "פתיחת לשונית בסרגל-הצד">
+<!ENTITY button.paneltab.menu2.label "פתיחת סרגל-הצד בלשונית">
+<!ENTITY button.autohide.label "שליטה אוטומטית בסרגל-הצד">
+<!ENTITY button.autohide.tooltip "הצגת/הסתרת סרגל-הצד אוטומטית">
+<!ENTITY button.tooltip.sidebar "פתיחה בסרגל-הצד">
+<!ENTITY button.tooltip.window "פתיחה בתוך חלון">
+<!ENTITY button.tooltip.tab "פתיחה בלשונית חדשה">
+<!ENTITY button.addons.label "תוספים">
+<!ENTITY button.addons.tooltip "הצגת הרחבות וערכות נושא מותקנות">
+<!ENTITY button.multipanel.label "רב-לוח">
+<!ENTITY button.multipanel.tooltip "הצגת אתרים, קוד מקור ומידע על הדפדפן">
+<!ENTITY button.pageinfo.tooltip "הצגת מידע נרחב אודות אתר אינטרנט">
+<!ENTITY button.console.label "קונסולת השגיאות">
+<!ENTITY button.console.tooltip "פתיחת  קונסולת השגיאות, אשר עוקבת אחר בעיות עם קוד המקור">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "ת">
+<!ENTITY keys.multipanel "ר">
+<!ENTITY keys.pageinfo "מ">
+<!ENTITY toolbar.pos.sidebarleft.label "שמאל לצד סרגל הצד">
+<!ENTITY toolbar.pos.sidebarright.label "ימין לצד סרגל הצד">
+<!ENTITY toolbar.pos.sidebartop.label "מעל סרגל-הצד">
+<!ENTITY toolbar.pos.headerbottom.label "מתחת לכותרת סרגל-הצד">
+<!ENTITY toolbar.pos.sidebarbottom.label "מתחת לסרגל-הצד">
+<!ENTITY toolbar.mode.flexbuttons.label "כפתורים גמישים">

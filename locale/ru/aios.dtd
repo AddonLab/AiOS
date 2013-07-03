@@ -1,0 +1,52 @@
+<!ENTITY loading.label "загрузка панели…">
+<!ENTITY menu.prefs.label "Настройки All-in-One Sidebar…">
+<!ENTITY menu.togglebar.label "Переключатель боковой панели">
+<!ENTITY menu.grippy.label "Кнопка “Свернуть/Развернуть”">
+<!ENTITY toolbar.name "Боковая панель инструментов">
+<!ENTITY sbhtoolbar.name "Панель инструментов заголовка окна боковой панели">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Переключить боковые панели с помощью All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Переключить панель инструментов и боковую панель">
+<!ENTITY button.switch.tooltip2 "Переключить панель инструментов">
+<!ENTITY button.switch.tooltip3 "Переключить боковую панель">
+<!ENTITY sidebar.open.label "Открыть боковую панель">
+<!ENTITY sidebar.close.label "Закрыть боковую панель">
+<!ENTITY sidebar.width.min "Минимальная ширина">
+<!ENTITY sidebar.width.def "Стандартная ширина">
+<!ENTITY sidebar.width.max "Максимальная ширина">
+<!ENTITY button.menu.label "Боковые панели">
+<!ENTITY button.menu.tooltip "Все доступные боковые панели">
+<!ENTITY button.toolbar.label "Панель AiOS">
+<!ENTITY button.toolbar.tooltip "Показать/Скрыть панель инструментов AiOS">
+<!ENTITY button.paneltab.label "Открыть во вкладке">
+<!ENTITY button.paneltab.tooltip1 "Открыть содержимое вкладки в боковой панели">
+<!ENTITY button.paneltab.tooltip2 "Открыть содержимое боковой панели в новой вкладке">
+<!ENTITY button.paneltab.tooltip3 "Открыть содержимое боковой панели в отдельном окне">
+<!ENTITY button.paneltab.menu1.label "Открыть вкладку в боковой панели">
+<!ENTITY button.paneltab.menu2.label "Открыть боковую панель во вкладке">
+<!ENTITY button.autohide.label "Автоконтроль боковой панели">
+<!ENTITY button.autohide.tooltip "Автоматически открывать/закрывать боковую панель">
+<!ENTITY button.tooltip.sidebar "Открыть в боковой панели">
+<!ENTITY button.tooltip.window "Открыть в отдельном окне">
+<!ENTITY button.tooltip.tab "Открыть в новой вкладке">
+<!ENTITY button.addons.label "Дополнения">
+<!ENTITY button.addons.tooltip "Показать установленные расширения и темы">
+<!ENTITY button.multipanel.label "МультиПанель">
+<!ENTITY button.multipanel.tooltip "Показать веб-сайт, исходный код страницы или информацию о браузере">
+<!ENTITY button.pageinfo.tooltip "Показать всю информацию о данной странице">
+<!ENTITY button.console.label "Консоль ошибок">
+<!ENTITY button.console.tooltip "Открыть консоль, отображающую проблемы исходного кода">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Расположить слева от боковой панели">
+<!ENTITY toolbar.pos.sidebarright.label "Расположить справа от боковой панели">
+<!ENTITY toolbar.pos.sidebartop.label "Расположить над боковой панелью">
+<!ENTITY toolbar.pos.headerbottom.label "Расположить под заголовком боковой панели">
+<!ENTITY toolbar.pos.sidebarbottom.label "Расположить под боковой панелью">
+<!ENTITY toolbar.mode.flexbuttons.label "Пластичные кнопки">

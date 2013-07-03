@@ -1,0 +1,13 @@
+<!ENTITY leftclick "左クリック">
+<!ENTITY rightclick "右クリック">
+<!ENTITY doubleclick "ダブルクリック">
+<!ENTITY middleclick "中クリック">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "ツール">
+<!ENTITY closeFolder.label "すべてのフォルダを閉じる">
+<!ENTITY show.closeFolder.label "\'すべてのフォルダを閉じる\' ボタン">
+<!ENTITY enable.autoClose.label "自動的に他のフォルダを閉じる">
+<!ENTITY enable.scrollToFolder.label "自動的に選択したフォルダにスクロール">
+<!ENTITY enable.rememberFolder.label "最後に選択したフォルダを記憶して移動">

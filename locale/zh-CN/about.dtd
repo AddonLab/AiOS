@@ -1,0 +1,59 @@
+<!ENTITY title "关于 All-in-One Sidebar">
+<!ENTITY version "版本">
+<!ENTITY settings "设置…">
+<!ENTITY close "关闭">
+<!ENTITY tab.about "关于">
+<!ENTITY tab.help "帮助">
+<!ENTITY tab.contrib "贡献者">
+<!ENTITY tab.trans "翻译人员">
+<!ENTITY about.desc "All-in-One Sidebar 可以让您以侧栏面板打开各式各样的窗口，并且您可以在它们之间快速切换。All-in-One Sidebar 终结了窗口的混乱！除了书签和历史之外，All-in-One Sidebar 还可以在侧栏中打开下载、附加组件等功能。">
+<!ENTITY create.desc "由Ingo Wennemaring, Hamburg [Germany]创建">
+<!ENTITY help.desc "您可以从以下网站获取很多关于本扩展的信息:">
+<!ENTITY about1.name "主页 - 查看更多信息">
+<!ENTITY about2.name "特性 - All-in-One Sidebar 的所有特性">
+<!ENTITY about3.name "FAQ - 常见问题与解答">
+<!ENTITY about4.name "知识库 - 说明与疑难解答">
+<!ENTITY about5.name "论坛 - 讨论，问题报告， 其他的主题">
+<!ENTITY about6.name "更新日志 - 历史和更新">
+<!ENTITY about7.name "待完成 - 计划的特性和改进">
+<!ENTITY contrib.desc "感谢以下开发者提供灵感和部分代码(按字母顺序):">
+<!ENTITY contrib.thanks "还要感谢所有用户，他们帮助测试开发版，在论坛中报告错误，分享他们的想法和建议或者只是留下美好的评论。:-) 真的非常感谢你们!">
+<!ENTITY trans.desc "All-in-One Sidebar 翻译人员(按语言首字母顺序):">
+<!ENTITY trans.ar-SA.lang "阿拉伯语">
+<!ENTITY trans.be-BY.lang "白俄罗斯语">
+<!ENTITY trans.cs-CZ.lang "捷克语">
+<!ENTITY trans.da-DK.lang "丹麦语">
+<!ENTITY trans.de-DE.lang "德语">
+<!ENTITY trans.el-GR.lang "希腊语">
+<!ENTITY trans.en-GB.lang "英语 (英国)">
+<!ENTITY trans.en-US.lang "英语 (美国)">
+<!ENTITY trans.es-AR.lang "西班牙语 (阿根廷)">
+<!ENTITY trans.es-ES.lang "西班牙语 (西班牙)">
+<!ENTITY trans.et-EE.lang "爱沙尼亚语">
+<!ENTITY trans.fi-FI.lang "芬兰语">
+<!ENTITY trans.fr-FR.lang "法语">
+<!ENTITY trans.he-IL.lang "希伯来语">
+<!ENTITY trans.hr-HR.lang "克罗地亚语">
+<!ENTITY trans.hu-HU.lang "匈牙利语">
+<!ENTITY trans.hy-AM.lang "亚美尼亚语 (亚美尼亚)">
+<!ENTITY trans.it-IT.lang "意大利语">
+<!ENTITY trans.ja-JP.lang "日语">
+<!ENTITY trans.ko-KR.lang "朝鲜语">
+<!ENTITY trans.lt-LT.lang "立陶宛语">
+<!ENTITY trans.nb-NO.lang "挪威语">
+<!ENTITY trans.nl-NL.lang "荷兰语">
+<!ENTITY trans.pl-PL.lang "波兰语">
+<!ENTITY trans.pt-BR.lang "葡萄牙语 (巴西)">
+<!ENTITY trans.pt-PT.lang "葡萄牙语 (葡萄牙)">
+<!ENTITY trans.ro-RO.lang "罗马尼亚语">
+<!ENTITY trans.ru-RU.lang "俄语">
+<!ENTITY trans.sk-SK.lang "斯洛伐克语">
+<!ENTITY trans.sq-AL.lang "阿尔巴尼亚语">
+<!ENTITY trans.sr-RS.lang "塞尔维亚语 (斯拉夫文)">
+<!ENTITY trans.sv-SE.lang "瑞典语">
+<!ENTITY trans.tr-TR.lang "土耳其语">
+<!ENTITY trans.uk-UA.lang "乌克兰语">
+<!ENTITY trans.vi-VN.lang "越南语 (越南)">
+<!ENTITY trans.zh-CN.lang "中文 (简体)">
+<!ENTITY trans.zh-TW.lang "中文 (繁体)">
+<!ENTITY trans.thanks "当然还要感谢 BabelZilla.org 团队的崇高工作！">

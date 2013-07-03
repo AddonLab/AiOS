@@ -1,0 +1,88 @@
+<!ENTITY title "All-in-One Sidebar – 選項">
+<!ENTITY restart "需要重新啟動瀏覽器">
+<!ENTITY settings "設定">
+<!ENTITY settings.default "還原至預設值…">
+<!ENTITY settings.advanced "進階模式">
+<!ENTITY settings.import "匯入設定…">
+<!ENTITY settings.export "匯出設定…">
+<!ENTITY apply "套用">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "一般">
+<!ENTITY tab.gen.appearance "外觀">
+<!ENTITY tab.gen.behavior "行為">
+<!ENTITY tab.gen.fullscreen "全螢幕">
+<!ENTITY tab.gen.special "其他">
+<!ENTITY tab.panels "面板">
+<!ENTITY tab.panels.places "書籤/瀏覽紀錄">
+<!ENTITY tab.panels.other1 "其他一">
+<!ENTITY tab.panels.other2 "其他二">
+<!ENTITY tab.panels.paneltab "面板分頁">
+<!ENTITY tab.menus "選單">
+<!ENTITY tab.menus.sidebar "側邊欄">
+<!ENTITY tab.keys "快速鍵">
+<!ENTITY gen.orient.caption "駁接位置">
+<!ENTITY gen.orient.label "顯示側邊欄在">
+<!ENTITY gen.orient.left "瀏覽器視窗左邊">
+<!ENTITY gen.orient.right "瀏覽器視窗右邊">
+<!ENTITY gen.width.caption "寬度">
+<!ENTITY gen.width.px "像素">
+<!ENTITY gen.width.perc "百分比">
+<!ENTITY gen.width.current "現行寬度">
+<!ENTITY gen.width.current.tip "套用現行側邊欄的寬度">
+<!ENTITY gen.width.min.hint "[Shift+左鍵雙擊] 側邊欄標題">
+<!ENTITY gen.width.def.hint "[左鍵雙擊] 側邊欄標題">
+<!ENTITY gen.width.max.hint "[Ctrl+左鍵雙擊] 或 [Alt+左鍵雙擊] 側邊欄標題">
+<!ENTITY gen.init.caption "當瀏覽器啟動時：">
+<!ENTITY gen.init.label "側邊欄">
+<!ENTITY gen.init.toolbar.label "工具列">
+<!ENTITY gen.init.toolbar.show.label "顯示工具列">
+<!ENTITY gen.init.toolbar.hide.label "隱藏工具列">
+<!ENTITY gen.init.switch.show.label "顯示側邊欄彈出鈕">
+<!ENTITY gen.init.switch.hide.label "隱藏側邊欄彈出鈕">
+<!ENTITY gen.init.mode1 "保持與上次關閉瀏覽器時相同的狀態">
+<!ENTITY gen.init.sidebar "當側邊欄被打開時（包含以側邊欄彈出鈕或熱鍵等開啟方式）">
+<!ENTITY gen.init.sidebar.restore "保持與上次關閉側邊欄時相同的面板">
+<!ENTITY gen.switch.autoshow "自動 顯示／隱藏 側邊欄。">
+<!ENTITY gen.switch.onlymax "僅在瀏覽器處於最大化或是全螢幕狀態時有作用。">
+<!ENTITY gen.switch.delay "延遲">
+<!ENTITY gen.switch.delayUnit "毫秒(ms)">
+<!ENTITY gen.switch.hide "下列動作發生時，隱藏側邊欄：">
+<!ENTITY gen.switch.hideBar "當游標移至網頁時">
+<!ENTITY gen.switch.hidePage "當游標停留在側邊欄切換鈕時">
+<!ENTITY gen.switch.thin "啟用「極細」側邊欄彈出鈕">
+<!ENTITY gen.switch.width "側邊欄切換鈕的寬度">
+<!ENTITY gen.switch.twidth "極細側邊欄彈出鈕的寬度">
+<!ENTITY cmode.caption "開關側邊欄">
+<!ENTITY cmode.desc "此部份提供「當下列不同方式開啟（或關閉）側邊欄時，相對應的開啟（或關閉）方式」。">
+<!ENTITY cmode.key.label "熱鍵（F4）">
+<!ENTITY cmode.tbb.label "AiOS 按鈕">
+<!ENTITY cmode.close.label "側邊欄關閉鈕">
+<!ENTITY cmode.mode1.label "只有側邊欄">
+<!ENTITY cmode.mode2.label "側邊欄與工具列">
+<!ENTITY cmode.mode3.label "側邊欄、工具列及彈出鈕">
+<!ENTITY cmode.mode4.label "模仿 Opera 的動作">
+<!ENTITY gen.fs.off "離開全螢幕模式時還原側邊欄">
+<!ENTITY keyconfig.keyid "名稱">
+<!ENTITY keyconfig.id "機碼">
+<!ENTITY keyconfig.apply "套用">
+<!ENTITY keyconfig.disable "停用">
+<!ENTITY keyconfig.reset "重設">
+<!ENTITY keyconfig.warn "目前所作的變更將只會影響新開啟的瀏覽器視窗">
+<!ENTITY keyconfig.onreset "需要重新啟動瀏覽器">
+<!ENTITY keyconfig.unrecognized "未經辨識 ($1)">
+<!ENTITY keyconfig.used "這組快速鍵已被下列功能所使用：\\n\\n\\t$1\\n\\n目前的設定或許仍可作用…">
+<!ENTITY menus.sidebar.desc "自訂「檢視 → 側邊欄」以及「側邊欄按鈕」下拉選單裡的選單項目">
+<!ENTITY menus.icons.label "顯示圖示">
+<!ENTITY menus.entries.label "顯示選單項目">
+<!ENTITY menus.sidebar.entrydeac "關閉正在使用中的側邊欄元件選單項目">
+<!ENTITY misc.enablesidebar.label "在側邊欄開啟列表">
+<!ENTITY misc.layout.label "最佳化側邊欄外觀">
+<!ENTITY misc.colors.label "允許「當前選擇的項目使用彩色背景」">
+<!ENTITY misc.count.label "顯示目前的 套件／主題／下載 數量">
+<!ENTITY misc.enablelink.tooltip "點此以獲得更多資訊（連到FAQ&apos;s）">
+<!ENTITY misc.paneltab.reverse "滑鼠左右鍵之功能互換。">
+<!ENTITY misc.bm.paneltab.desc "允許使用「面板分頁」按鈕將「書籤管理員」開啟在新分頁中，以取代開啟標準的書籤列表。">
+<!ENTITY misc.bm.paneltab "在新分頁開啟「書籤管理員」">
+<!ENTITY special.collapsing.caption "折疊側邊欄">
+<!ENTITY special.collapsing.label "啟用「折疊側邊欄」功能">
+<!ENTITY special.collapsing.desc "此功能可讓側邊欄以折疊方式收起，而非真的關閉。此功能之優點是「在重新打開側邊欄時，其內容不用重新載入」。">

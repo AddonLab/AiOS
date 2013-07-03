@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Kliknięcie l.p.m.">
+<!ENTITY rightclick "Kliknięcie p.p.m.">
+<!ENTITY doubleclick "Dwukrotne kliknięcie">
+<!ENTITY middleclick "Kliknięcie ś.p.m.">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Narzędzia">
+<!ENTITY closeFolder.label "Zamknij wszystkie foldery">
+<!ENTITY show.closeFolder.label "Przycisk „Zamknij wszystkie foldery”">
+<!ENTITY enable.autoClose.label "Zamknij automatycznie inne foldery">
+<!ENTITY enable.scrollToFolder.label "Przewiń automatycznie do wybranego folderu">
+<!ENTITY enable.rememberFolder.label "Zapamiętaj i uaktywnij ostatnio wybrany folder">

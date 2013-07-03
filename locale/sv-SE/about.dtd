@@ -1,0 +1,59 @@
+<!ENTITY title "Om All-in-One Sidebar">
+<!ENTITY version "version">
+<!ENTITY settings "Inställningar…">
+<!ENTITY close "Stäng">
+<!ENTITY tab.about "Om">
+<!ENTITY tab.help "Hjälp">
+<!ENTITY tab.contrib "Medverkande">
+<!ENTITY tab.trans "Översättare">
+<!ENTITY about.desc "All-in-One Sidebar låter dig öppna olika fönster som sidopaneler och snabbt byta mellan dem. Det sätter punkt för fönsterkaoset! Förutom bokmärken och historik öppnas filhämtaren, tillägg med mera i sidofältet.">
+<!ENTITY create.desc "skapad av Ingo Wennemaring, Hamburg [Tyskland]">
+<!ENTITY help.desc "Du hittar mycket information om detta tillägg på webbplatsen:">
+<!ENTITY about1.name "Webbsida - massvis med information på ett ställe">
+<!ENTITY about2.name "Funktioner - alla finesser i  All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - vanliga frågor och svar">
+<!ENTITY about4.name "Kända fel - beskrivningar och felsökning">
+<!ENTITY about5.name "Forum - diskussioner, felrapporter, kompatibilitetsproblem etc">
+<!ENTITY about6.name "Ändringslogg - historik och förändringar">
+<!ENTITY about7.name "Att göra - planerade funktioner och förbättringar">
+<!ENTITY contrib.desc "Jag tackar följande utvecklare för inspiration och kodsnuttar (i alfabetisk ordning):">
+<!ENTITY contrib.thanks "Till sist tackar jag alla användare som testat utvecklingsversioner, rapporterat problem i forumet samt meddelat idéer och förslag eller som bara skrivit uppmuntrande kommentarer. :) Tack så mycket!">
+<!ENTITY trans.desc "Översättare av All-in-One Sidebar (i alfabetisk ordning):">
+<!ENTITY trans.ar-SA.lang "Arabiska">
+<!ENTITY trans.be-BY.lang "Vitryska">
+<!ENTITY trans.cs-CZ.lang "Tjeckiska">
+<!ENTITY trans.da-DK.lang "Danska">
+<!ENTITY trans.de-DE.lang "Tyska">
+<!ENTITY trans.el-GR.lang "Grekiska">
+<!ENTITY trans.en-GB.lang "Engelska (UK)">
+<!ENTITY trans.en-US.lang "Engelska (USA)">
+<!ENTITY trans.es-AR.lang "Spanska (Argentina)">
+<!ENTITY trans.es-ES.lang "Spanska (Spanien)">
+<!ENTITY trans.et-EE.lang "Estniska">
+<!ENTITY trans.fi-FI.lang "Finska">
+<!ENTITY trans.fr-FR.lang "Franska">
+<!ENTITY trans.he-IL.lang "Hebreiska">
+<!ENTITY trans.hr-HR.lang "Kroatiska">
+<!ENTITY trans.hu-HU.lang "Ungerska">
+<!ENTITY trans.hy-AM.lang "Armeniska (Armenien)">
+<!ENTITY trans.it-IT.lang "Italienska">
+<!ENTITY trans.ja-JP.lang "Japanska">
+<!ENTITY trans.ko-KR.lang "Koreanska">
+<!ENTITY trans.lt-LT.lang "Litauiska">
+<!ENTITY trans.nb-NO.lang "Norska (Bokmål)">
+<!ENTITY trans.nl-NL.lang "Holländska">
+<!ENTITY trans.pl-PL.lang "Polska">
+<!ENTITY trans.pt-BR.lang "Portugisiska (Brasilien)">
+<!ENTITY trans.pt-PT.lang "Portugisiska (Portugal)">
+<!ENTITY trans.ro-RO.lang "Rumänska">
+<!ENTITY trans.ru-RU.lang "Ryska">
+<!ENTITY trans.sk-SK.lang "Slovakiska">
+<!ENTITY trans.sq-AL.lang "Albanska">
+<!ENTITY trans.sr-RS.lang "Serbiska (Kyrilliska)">
+<!ENTITY trans.sv-SE.lang "Svenska">
+<!ENTITY trans.tr-TR.lang "Turkiska">
+<!ENTITY trans.uk-UA.lang "Ukrainska">
+<!ENTITY trans.vi-VN.lang "Vietnamesiska (Vietnam)">
+<!ENTITY trans.zh-CN.lang "Kinesiska (förenklad)">
+<!ENTITY trans.zh-TW.lang "Kinesiska (traditionell)">
+<!ENTITY trans.thanks "Jag vill förstås även tacka alla på BabelZilla.org för deras fantastiska arbete!">

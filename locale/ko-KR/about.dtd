@@ -1,0 +1,57 @@
+<!ENTITY title "All-In-One Sidebar 정보">
+<!ENTITY version "버전">
+<!ENTITY settings "설정…">
+<!ENTITY close "닫기">
+<!ENTITY tab.about "AIOS는">
+<!ENTITY tab.contrib "공헌자분들">
+<!ENTITY tab.trans "번역가분들">
+<!ENTITY about.desc "All-in-One Sidebar는 북마크, 방문 기록은 물론 다운로드, 부가 가능 등의 대화창을 탐색 창에 집어 넣어서, 그들 사이를 신속히 전환할 수 있도록 해줍니다. 이것은 대화창으로 화면이 너저분해 지는 것을 방지해 줍니다!">
+<!ENTITY create.desc "만든이: Ingo Wennemaring,  함부르크 [독일]">
+<!ENTITY about1.name "홈페이지 - 많은 정보를 한 곳에서 볼 수 있습니다">
+<!ENTITY about2.name "기능 - All-In-One Sidebar의 모든 기능을 알려드립니다">
+<!ENTITY about3.name "FAQ - 자주 하는 질문과 그에 대한 답변입니다">
+<!ENTITY about4.name "알려진 문제점 - 설명과 대처 방안입니다">
+<!ENTITY about5.name "포럼 - 대화, 버그 보고, 테마 수정 및 기타 등등">
+<!ENTITY about6.name "변경 기록부 - 히스토리 및 변경사항입니다">
+<!ENTITY about7.name "To-do - 추가 예정인 기능과 개선할 사항입니다">
+<!ENTITY contrib.desc "영감을 준 그리고 코드를 인용하게 해준 아래의 개발자분들께 감사의 마음을 전합니다 [알파벳순 정렬]:">
+<!ENTITY contrib.thanks "마지막으로 개발 빌드 버전을 테스트해 주시거나, 포럼에 버그를 보고해 주시거나, 아이디어와 발상을 빌려주시거나 단지 좋은 댓글을 달아 주는 등의 도움을 주신 모든 사용자 분들께 감사의 마음을 전합니다. :-) 정말 감사합니다!">
+<!ENTITY trans.desc "All-In-One Sidebar의 번역가분들 [언어 코드의 알파벳순으로 정렬]:">
+<!ENTITY trans.ar-SA.lang "아랍어">
+<!ENTITY trans.be-BY.lang "벨로루시어">
+<!ENTITY trans.cs-CZ.lang "체코어">
+<!ENTITY trans.da-DK.lang "덴마크어">
+<!ENTITY trans.de-DE.lang "독일어">
+<!ENTITY trans.el-GR.lang "그리스어">
+<!ENTITY trans.en-GB.lang "영어 (영국)">
+<!ENTITY trans.en-US.lang "영어 (미국)">
+<!ENTITY trans.es-AR.lang "스페인어 (아르헨티나)">
+<!ENTITY trans.es-ES.lang "스페인어 (스페인)">
+<!ENTITY trans.et-EE.lang "에스토니아어">
+<!ENTITY trans.fi-FI.lang "핀란드어">
+<!ENTITY trans.fr-FR.lang "프랑스어">
+<!ENTITY trans.he-IL.lang "히브리어">
+<!ENTITY trans.hr-HR.lang "크로아티아어">
+<!ENTITY trans.hu-HU.lang "헝가리어">
+<!ENTITY trans.hy-AM.lang "아르메니아어 (아르메니아)">
+<!ENTITY trans.it-IT.lang "이탈리아어">
+<!ENTITY trans.ja-JP.lang "일본어">
+<!ENTITY trans.ko-KR.lang "한국어">
+<!ENTITY trans.lt-LT.lang "리투아니아어">
+<!ENTITY trans.nb-NO.lang "노르웨이어 (보크말)">
+<!ENTITY trans.nl-NL.lang "네덜란드어">
+<!ENTITY trans.pl-PL.lang "폴란드어">
+<!ENTITY trans.pt-BR.lang "포르투갈어 (브라질)">
+<!ENTITY trans.pt-PT.lang "포르투갈어 (포르투갈)">
+<!ENTITY trans.ro-RO.lang "루마니아어">
+<!ENTITY trans.ru-RU.lang "러시아어">
+<!ENTITY trans.sk-SK.lang "슬로바키아어">
+<!ENTITY trans.sq-AL.lang "알바니아어">
+<!ENTITY trans.sr-RS.lang "세르비아어 (키릴 문자)">
+<!ENTITY trans.sv-SE.lang "스웨덴어">
+<!ENTITY trans.tr-TR.lang "터키어">
+<!ENTITY trans.uk-UA.lang "우크라이나어">
+<!ENTITY trans.vi-VN.lang "베트남어 (베트남)">
+<!ENTITY trans.zh-CN.lang "중국어 (간체)">
+<!ENTITY trans.zh-TW.lang "중국어 (번체)">
+<!ENTITY trans.thanks "또한 그들의 이런 훌륭한 일을 가능케 한 BabelZilla.org 팀에게도 감사의 마음을 전합니다.">

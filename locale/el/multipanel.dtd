@@ -1,0 +1,21 @@
+<!ENTITY page.label "Σελίδα">
+<!ENTITY page.tooltip "Άνοιγμα ιστοσελίδας σε αυτό το πλαίσιο">
+<!ENTITY page.ssr.label "Προσομοίωση μικρής οθόνης">
+<!ENTITY page.ssr100.label "Προσαρμογή στο πλάτος της πλευρικής στήλης">
+<!ENTITY about.label "Ρυθμίσεις περιηγητή">
+<!ENTITY about.tooltip "Προβάλει διάφορες πληροφορίες για τον περιηγητή">
+<!ENTITY about.config.tooltip "Παρέχει την δυνατότητα εμφάνισης και ρύθμισης μεγάλου εύρους μεταβλητών ρυθμίσεων">
+<!ENTITY about.plugins.tooltip "Προβάλει πληροφορίες για όλα τα εγκαταστημένα πρόσθετα">
+<!ENTITY about.support.tooltip "Προβάλει βασικές πληροφορίες της εφαρμογής, επεκτάσεις που έχουν εγκατασταθεί και τροποποιημένες προτιμήσεις.">
+<!ENTITY about.cache.tooltip "Προβάλει πληροφορίες για την υπηρεσία Cache τόσο της κύριας μνήμης, όσο και του δίσκου">
+<!ENTITY about.cache.disk.tooltip "Προβάλει ξεχωριστά στοιχεία για τον δίσκο">
+<!ENTITY about.cache.memory.tooltip "Προβάλει ξεχωριστά στοιχεία για την κύρια μνήμη">
+<!ENTITY about.cache.offline.tooltip "Προβάλει αποθηκευμένα στοιχεία για περιήγηση χωρίς σύνδεση">
+<!ENTITY about.crashes.tooltip "Προβάλει αναφορές κατάρευσης που έχετε αποστείλει">
+<!ENTITY about.buildconfig.tooltip "Προβάλει τους ορισμούς και τις επιλογές που χρησιμοποιήθηκαν για την δημιουργία της τρέχουσας έκδοσης">
+<!ENTITY about.about.tooltip "Προβάλει πληροφορίες τρέχουσας έκδοσης και πνευματικών δικαιωμάτων">
+<!ENTITY about.robots.tooltip "Βασικές αρχές ρομποτικής">
+<!ENTITY about.credits.tooltip "Προβάλει μια λίστα των συντελεστών του οργανισμού Mozilla">
+<!ENTITY about.license.tooltip "Προβάλει την άδεια χρήσης Mozilla Public License">
+<!ENTITY about.mozilla.tooltip "Προβάλει μια σελίδα από την «υποτιθέμενη» Βίβλο Mozilla">
+<!ENTITY tools.remlast.label "Διατήρηση πιό πρόσφατα προβεβλημένου περιεχομένου">

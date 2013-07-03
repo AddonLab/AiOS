@@ -1,0 +1,52 @@
+<!ENTITY loading.label "duke hapur panelin...">
+<!ENTITY menu.prefs.label "&quot;All-in-One Shiriti Anësorë&quot; alternativat">
+<!ENTITY menu.togglebar.label "Kthimi i Shiritit Anësor">
+<!ENTITY menu.grippy.label "Kapja e Shiritit Anësor">
+<!ENTITY toolbar.name "Shiriti i Mjeteve të &quot;All-in-One Shiritit Anësorë&quot;">
+<!ENTITY sbhtoolbar.name "Shiriti i Mjeteve të shiritit anësorë në kokë">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Elementet në bërryl të kontrolluara nga &quot;All-in-One Shiritit Anësor&quot;">
+<!ENTITY button.switch.tooltip1 "Shirit Mjetesh dhe Shirit Anësor në Bërryl">
+<!ENTITY button.switch.tooltip2 "Shirit Mjetesh në Bërryl">
+<!ENTITY button.switch.tooltip3 "Shirit Anësor në Bërryl">
+<!ENTITY sidebar.open.label "Hap Shiritin Anësor">
+<!ENTITY sidebar.close.label "Mbyll Shiritin Anësor">
+<!ENTITY sidebar.width.min "Gjerësia minimale">
+<!ENTITY sidebar.width.def "Gjerësia normale">
+<!ENTITY sidebar.width.max "Gjerësia maksimale">
+<!ENTITY button.menu.label "Panelet e Shiritit Anësor">
+<!ENTITY button.menu.tooltip "Të gjitha Panelet e mundshme të Shiritit Anësor">
+<!ENTITY button.toolbar.label "AiOS Shiriti i Mjeteve">
+<!ENTITY button.toolbar.tooltip "AiOS Shiriti i Mjeteve në bërryl">
+<!ENTITY button.paneltab.label "Fleta e Panelit">
+<!ENTITY button.paneltab.tooltip1 "Hapa përmbajtjen e fletës në Shiritin Anësor">
+<!ENTITY button.paneltab.tooltip2 "Hape përmbajtjen e Shiritit Anësor në një Fletë të Re">
+<!ENTITY button.paneltab.tooltip3 "Hape përmbajtjen e Shiritit Anësor në një Dritare">
+<!ENTITY button.paneltab.menu1.label "Hap Fletë në Shiritin Anësor">
+<!ENTITY button.paneltab.menu2.label "Hap Shirit Anësor në Fletë">
+<!ENTITY button.autohide.label "Shirit Anësor Automatik">
+<!ENTITY button.autohide.tooltip "Shiriti Anësor automatikisht në bërryl">
+<!ENTITY button.tooltip.sidebar "Hape në Shiritin Anësor">
+<!ENTITY button.tooltip.window "Hape në Dritare të Re">
+<!ENTITY button.tooltip.tab "Hape në Fletë të Re">
+<!ENTITY button.addons.label "Shtesat">
+<!ENTITY button.addons.tooltip "Paraqit shtesat dhe motivet e instaluara">
+<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.tooltip "Paraqit p.sh. faqen, burimin e kodit dhe informata mbi shfletuesin">
+<!ENTITY button.pageinfo.tooltip "Paraqit informata të zgjeruara mbi faqen">
+<!ENTITY button.console.label "Konzola e Gabimeve">
+<!ENTITY button.console.tooltip "Hape Konsolën e Gabimeve me problemet e shiritit me burimin e kodit">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Majtas Shiritit Anësor">
+<!ENTITY toolbar.pos.sidebarright.label "Djathtas Shiritit Anësor">
+<!ENTITY toolbar.pos.sidebartop.label "Mbi Shiritin Anësor">
+<!ENTITY toolbar.pos.headerbottom.label "Nën Kokën e Shiritit Anësor">
+<!ENTITY toolbar.pos.sidebarbottom.label "Nën Shiritin Anësor">
+<!ENTITY toolbar.mode.flexbuttons.label "Pulla Fleksibile">

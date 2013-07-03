@@ -1,0 +1,12 @@
+<!ENTITY leftclick "Левая кнопка мышы">
+<!ENTITY rightclick "Правая кнопка мышы">
+<!ENTITY doubleclick "Падвойны клік">
+<!ENTITY middleclick "Сярэдняя кнопка мышы">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Прылады">
+<!ENTITY closeFolder.label "Зачыніць усе тэчкі">
+<!ENTITY enable.autoClose.label "Аўтаматычна зачыняць іншыя тэчкі">
+<!ENTITY enable.scrollToFolder.label "Аўтаматычна пераходзіць да вылучанай тэчкі">
+<!ENTITY enable.rememberFolder.label "Запамінаць і пераходзіць да апошняй вылучанай тэчкі">

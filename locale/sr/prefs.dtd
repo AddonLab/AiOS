@@ -1,0 +1,93 @@
+<!ENTITY title "All-in-One Sidebar - опције">
+<!ENTITY restart "Потребно је да поново покрене прегледач">
+<!ENTITY settings "Подешавања">
+<!ENTITY settings.default "Врати почетна подешавања…">
+<!ENTITY settings.advanced "Напредни начин рада">
+<!ENTITY settings.import "Увези подешавања…">
+<!ENTITY settings.export "Извези подешавања…">
+<!ENTITY settings.copy "Копирај подешавања у оставу">
+<!ENTITY apply "Примени">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Опште">
+<!ENTITY tab.gen.appearance "Изглед">
+<!ENTITY tab.gen.behavior "Понашање">
+<!ENTITY tab.gen.fullscreen "Рад преко целог екрана">
+<!ENTITY tab.gen.special "Посебно">
+<!ENTITY tab.panels "Панели">
+<!ENTITY tab.panels.places "Забелешке/Историјат">
+<!ENTITY tab.panels.other1 "Остало I">
+<!ENTITY tab.panels.other2 "Остало II">
+<!ENTITY tab.panels.paneltab "Језичак панела">
+<!ENTITY tab.menus "Менији">
+<!ENTITY tab.menus.sidebar "Бочна трака">
+<!ENTITY tab.keys "Пречице">
+<!ENTITY tab.about "Помоћ и информације">
+<!ENTITY gen.orient.caption "Смер">
+<!ENTITY gen.orient.label "Прикажи бочну траку на">
+<!ENTITY gen.orient.left "левој страни">
+<!ENTITY gen.orient.right "десној страни">
+<!ENTITY gen.width.caption "Величина">
+<!ENTITY gen.width.px "тачака">
+<!ENTITY gen.width.perc "посто">
+<!ENTITY gen.width.current "постави на тренутну ширину">
+<!ENTITY gen.width.current.tip "Примењује тренутну ширину бочне траке">
+<!ENTITY gen.width.min.hint "[Shift+двоструку клик] на наслов бочне траке">
+<!ENTITY gen.width.def.hint "[Двоструки клик] на наслов бочне траке">
+<!ENTITY gen.width.max.hint "[Ctrl+двоструки клик] или [Alt+двоструки клик] на наслов бочне траке">
+<!ENTITY gen.init.caption "Покретање претраживача">
+<!ENTITY gen.init.label "Бочна трака">
+<!ENTITY gen.init.toolbar.label "Трака са алаткама">
+<!ENTITY gen.init.toolbar.show.label "Прикажи траку са алаткама">
+<!ENTITY gen.init.toolbar.hide.label "Сакриј траку са алаткама">
+<!ENTITY gen.init.switch.show.label "Прикажи прекидач бочне траке">
+<!ENTITY gen.init.switch.hide.label "Сакриј прекидач бочне траке">
+<!ENTITY gen.init.mode1 "Врати запамћено стање">
+<!ENTITY gen.init.sidebar "Отвори бочну траку (укључивање/искључивање бочне траке, измена дугмади, пречице)">
+<!ENTITY gen.init.sidebar.restore "Врати запамћени панел">
+<!ENTITY gen.switch.autoshow "Аутоматски прикажи/сакриј бочну траку (прелаз мишем уместо клика)">
+<!ENTITY gen.switch.onlymax "Само ако је прегледач увећан или је преко целог екрана">
+<!ENTITY gen.switch.delay "Одложи">
+<!ENTITY gen.switch.delayUnit "милисекунди">
+<!ENTITY gen.switch.hide "Сакриј бочну траку ако показивач миша…">
+<!ENTITY gen.switch.hideBar "је померен назад на страницу">
+<!ENTITY gen.switch.hidePage "се држи на прекидачу бочне траке">
+<!ENTITY gen.switch.thin "Омогући мали прекидач бочне траке">
+<!ENTITY gen.switch.width "Ширина прекидача бочне траке">
+<!ENTITY gen.switch.twidth "Ширина малог прекидача бочне траке">
+<!ENTITY cmode.caption "Промени бочну траку">
+<!ENTITY cmode.desc "Прилагоди које елементе треба обухватити приликом отварања или затварања бочне траке са различитим поступцима.">
+<!ENTITY cmode.key.label "Пречица (F4)">
+<!ENTITY cmode.tbb.label "АиОС дугме">
+<!ENTITY cmode.close.label "Дугме затвори">
+<!ENTITY cmode.mode1.label "Само бочна трака">
+<!ENTITY cmode.mode2.label "Бочна трака и трака са алаткама">
+<!ENTITY cmode.mode3.label "Бочна трака, трака са алаткама и прекидач бочне траке">
+<!ENTITY cmode.mode4.label "Понашање Опере">
+<!ENTITY gen.fs.off "Врати стање ако се излази из приказа преко целог екрана">
+<!ENTITY keyconfig.keyid "Име">
+<!ENTITY keyconfig.id "Број">
+<!ENTITY keyconfig.apply "Примени">
+<!ENTITY keyconfig.disable "Онемогући">
+<!ENTITY keyconfig.reset "Поништи">
+<!ENTITY keyconfig.warn "Промене утичу само на нове прозоре">
+<!ENTITY keyconfig.onreset "Потребно је поново покренути претраживач">
+<!ENTITY keyconfig.unrecognized "Непрепознатљиво ($1)">
+<!ENTITY keyconfig.used "Овај кључ се користи од стране: \\n\\n\\t$1\\n\\nМогуће да ће радити, иако…">
+<!ENTITY menus.sidebar.desc "Прилагоди уносе у менију „Преглед &gt; Бочна трака” и падајућим менијима на дугмадима бочне траке.">
+<!ENTITY menus.icons.label "Прикажи иконе">
+<!ENTITY menus.entries.label "Прикажи уносе">
+<!ENTITY menus.sidebar.entrydeac "Онемогући унос активне бочне траке">
+<!ENTITY misc.enablesidebar.label "Отвори у бочној траци">
+<!ENTITY misc.layout.label "Побољшај изглед бочне траке">
+<!ENTITY misc.dm.overlay "Измените опције за понашање бочне траке">
+<!ENTITY misc.dm.autoopen.label "Прикажи бочну траку са преузимањима приликом преузимања датотека">
+<!ENTITY misc.dm.autoclose.label "Затвори је је када се сва преузимања заврше">
+<!ENTITY misc.colors.label "Омогући позадине у боји засноване на тренутном стању">
+<!ENTITY misc.count.label "Прикажи бројеве ставки">
+<!ENTITY misc.enablelink.tooltip "Кликните овде за више информација (веза према НПП)">
+<!ENTITY misc.paneltab.reverse "Замени улоге левог и средњег клика">
+<!ENTITY misc.bm.paneltab.desc "Дугме “Језичак панела” може отворити управљача забелешки у новом језичку уместо у панелу забелешки.">
+<!ENTITY misc.bm.paneltab "Омогући управљача забелешки у новом језичку">
+<!ENTITY special.collapsing.caption "Умањивање бочне траке">
+<!ENTITY special.collapsing.label "Омогући умањивање бочне траке">
+<!ENTITY special.collapsing.desc "Бочна трака се може умањити уместо да се затвори. Предност је у томе што се садржај бочне траке не мора поново учитавати након поновног отварања, тако да је одговор бржи.">

@@ -1,0 +1,87 @@
+<!ENTITY title "All-in-One Sidebar opcije">
+<!ENTITY restart "Promjene zahtijevaju ponovno pokretanje preglednika">
+<!ENTITY settings "Postavke">
+<!ENTITY settings.default "Vrati zadano…">
+<!ENTITY settings.advanced "Napredni mod">
+<!ENTITY settings.import "Uvezi postavke…">
+<!ENTITY settings.export "Izvezi postavke…">
+<!ENTITY apply "Primijeni">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Općenito">
+<!ENTITY tab.gen.appearance "Izgled">
+<!ENTITY tab.gen.behavior "Ponašanje">
+<!ENTITY tab.gen.fullscreen "Mod cijelog ekrana">
+<!ENTITY tab.gen.special "Posebno">
+<!ENTITY tab.panels "Panoi">
+<!ENTITY tab.panels.other1 "Ostalo I">
+<!ENTITY tab.panels.other2 "Ostalo II">
+<!ENTITY tab.panels.paneltab "Kartica panoa">
+<!ENTITY tab.menus "Izbornici">
+<!ENTITY tab.menus.sidebar "Rubni stupac">
+<!ENTITY tab.keys "Kratice">
+<!ENTITY gen.orient.caption "Orijentacija">
+<!ENTITY gen.orient.label "Prikaži rubni stupac na">
+<!ENTITY gen.orient.left "lijevoj strani">
+<!ENTITY gen.orient.right "desnoj strani">
+<!ENTITY gen.width.caption "Veličina">
+<!ENTITY gen.width.px "piksela">
+<!ENTITY gen.width.perc "posto">
+<!ENTITY gen.width.current "postavi na trenutnu širinu">
+<!ENTITY gen.width.current.tip "Primijenjuje trenutnu širinu rubnog stupca">
+<!ENTITY gen.width.min.hint "[Shift+dvostruki klik] na naslov rubnog stupca">
+<!ENTITY gen.width.def.hint "[Dvostruki klik] na naslov rubnog stupca">
+<!ENTITY gen.width.max.hint "[Ctrl+dvostruki klik] ili [Alt+dvostruki klik] na naslov rubnog stupca">
+<!ENTITY gen.init.caption "Pokretanje preglednika">
+<!ENTITY gen.init.label "Rubni stupac">
+<!ENTITY gen.init.toolbar.label "Alatna traka">
+<!ENTITY gen.init.toolbar.show.label "Prikaži alatnu traku">
+<!ENTITY gen.init.toolbar.hide.label "Sakrij alatnu traku">
+<!ENTITY gen.init.switch.show.label "Prikaži sklopku rubnog stupca">
+<!ENTITY gen.init.switch.hide.label "Sakrij sklopku rubnog stupca">
+<!ENTITY gen.init.mode1 "Vrati zapamćeno stanje">
+<!ENTITY gen.init.sidebar "Otvori rubni stupac (Preklopnik rubnog stupca, Gumb promjene, Kratica)">
+<!ENTITY gen.init.sidebar.restore "Vrati zapamćeni pano">
+<!ENTITY gen.switch.autoshow "Automatski prikaži/sakrij rubni stupac (dodirivanje mišem umjesto klika)">
+<!ENTITY gen.switch.onlymax "Samo ako je preglednik maksimiziran ili u modu cijelog ekrana">
+<!ENTITY gen.switch.delay "Odgoda">
+<!ENTITY gen.switch.delayUnit "milisekundi">
+<!ENTITY gen.switch.hide "Sakrij rubni stupac ako pokazivač miša…">
+<!ENTITY gen.switch.hideBar "je pomaknut natrag na web stranicu">
+<!ENTITY gen.switch.hidePage "se drži na preklopniku rubnog stupca">
+<!ENTITY gen.switch.thin "Omogući tanak preklopnik rubnog stupca">
+<!ENTITY gen.switch.width "Širina preklopnika rubnog stupca">
+<!ENTITY gen.switch.twidth "Širina tankog preklopnika rubnog stupca">
+<!ENTITY cmode.caption "Promijeni rubni stupac">
+<!ENTITY cmode.desc "Prilagodi koji su elementi obuhvaćeni otvaranjem ili zatvaranjem rubnog stupca s drugačijim metodama.">
+<!ENTITY cmode.key.label "Kratica (F4)">
+<!ENTITY cmode.tbb.label "AiOS gumb">
+<!ENTITY cmode.close.label "Gumb Zatvori">
+<!ENTITY cmode.mode1.label "Samo rubni stupac">
+<!ENTITY cmode.mode2.label "Rubni stupac i alatna traka">
+<!ENTITY cmode.mode3.label "Rubni stupac, alatne traka i preklopnik rubnog stupca">
+<!ENTITY cmode.mode4.label "Operino ponašanje">
+<!ENTITY gen.fs.off "Vrati stanje ako se izlazi i moda cijelog ekrana">
+<!ENTITY keyconfig.keyid "Ime">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Primijeni">
+<!ENTITY keyconfig.disable "Onemogući">
+<!ENTITY keyconfig.reset "Vrati izvorno">
+<!ENTITY keyconfig.warn "Promjene obuhvaćaju samo nove prozore">
+<!ENTITY keyconfig.onreset "Potrebno je ponovno pokretanje preglednika">
+<!ENTITY keyconfig.unrecognized "Neprepoznatljivo ($1)">
+<!ENTITY keyconfig.used "Ova tipka se već koristi od strane: \\n\\n\\t$1\\n\\nMoguće je da će raditi, iako…">
+<!ENTITY menus.sidebar.desc "Prilagodi unose u izborniku “Pogled &gt; Rubni stupac” i padajućim izbornicima gumba rubnog stupca">
+<!ENTITY menus.icons.label "Prikaži ikone">
+<!ENTITY menus.entries.label "Prikaži unose">
+<!ENTITY menus.sidebar.entrydeac "Onemogući unos aktivnog rubnog stupca">
+<!ENTITY misc.enablesidebar.label "Otvori u rubnom stupcu">
+<!ENTITY misc.layout.label "Optimiziraj izgled rubnog stupca">
+<!ENTITY misc.colors.label "Omogući pozadine u boji zasnovane na trenutnom stanju">
+<!ENTITY misc.count.label "Prikaži brojeve stavki">
+<!ENTITY misc.enablelink.tooltip "Kliknite ovdje za više informacija (poveznica na FAQ)">
+<!ENTITY misc.paneltab.reverse "Promijeni akcije lijevog i desnog klika">
+<!ENTITY misc.bm.paneltab.desc "Gumb “Kartica panoa” može u novoj kartici otvoriti Upravitelja Zabilješkama umjesto panoa Zabilješki.">
+<!ENTITY misc.bm.paneltab "Omogući upravitelja zabolješkama u novoj kartici">
+<!ENTITY special.collapsing.caption "Smanjivanje rubnog stupca">
+<!ENTITY special.collapsing.label "Omogući smanjivanje rubnog stupca">
+<!ENTITY special.collapsing.desc "Rubni stupac se može smanjiti umjesto da se zatvori. Prednost je to što se sadržaj rubnog stupca ne mora ponovno učitavati nakon ponovnog otvaranja tako da je odgovor brži.">

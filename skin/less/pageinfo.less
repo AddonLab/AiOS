@@ -1,0 +1,288 @@
+
+#mainDeck,
+#topBar,
+#viewGroup {
+    margin: 0;
+    padding: 0;
+}
+
+#viewGroup {
+    padding: 0 0 1px 1px;
+    
+    &[hideLabel=true] {
+    
+        radio {
+            min-width: 0;
+            margin: 0 2px 0 0;
+            padding: 2px;
+            
+            label {
+                display: none;
+            }
+        }
+        
+    }
+}
+
+#generalPanel #titletext {
+    padding: 5px;
+}
+
+#permPanel {
+    
+    > hbox {
+        padding-top: 5px;
+    }
+    
+    #permList {
+        border: none;
+        
+        > vbox {
+            padding-left: 0;
+            padding-right: 0;
+            
+            hbox {
+                -moz-box-orient: vertical;
+            }
+        }
+    }
+}
+
+#security-privacy-groupbox row {
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    :first-child {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+
+/* @group Firefox-Standard-Theme */
+
+window[aios-appDefTheme="true"] {
+    
+    #permList,
+    #security-privacy-groupbox row {
+        border-top: 1px solid ThreedShadow;
+    }
+    
+    #security-privacy-groupbox row:first-child {
+        border-top: none;
+    }
+    
+    
+    /* @group Windows */
+    &[aios-appOS="WINNT"] {
+        
+        #topBar {
+            padding-top: 1px;
+        }
+        
+        
+        /* @group Windows-XP klassisch */
+        &[aios-appOSVersion="Windows NT 5.1"] {
+            
+            deck,
+            #feedListbox *,
+            #permList {
+                background-color: #efedea;
+                
+                groupbox,
+                groupbox caption {
+                    -moz-appearance: none;
+                    background-color: #efedea;
+                }
+            }
+            
+        }
+        /* @end */
+    
+    
+        /* @group Windows-Standard */
+        &:-moz-system-metric(windows-default-theme) {
+            
+            #permList {
+                border-top: 1px solid Threedshadow;
+            }
+            
+            #topBar {
+                border-bottom: 1px solid Threedshadow;
+            }
+            
+            #mainDeck {
+                border-top: 1px solid ThreedHighlight;
+            }
+            
+            
+            /* @group Windows XP-Standard */
+            &[aios-appOSVersion="Windows NT 5.1"] {
+                
+                deck,
+                #feedListbox *,
+                #permList {
+                    background-color: #EDECEF;
+                }
+                
+            }
+            /* @end */
+            
+            
+            /* @group Windows Vista-7-Standard */
+            &:not([aios-appOSVersion="Windows NT 5.1"]) {
+                
+                deck,
+                #feedListbox *,
+                #permList {
+                    background-color: #EEF3FA;
+                }
+                
+            }
+            /* @end */
+            
+        }
+        /* @end */
+        
+    }
+    /* @end */
+    
+    
+    /* @group Darwin */
+    &[aios-appOS="Darwin"] {
+        
+        -moz-appearance: none;
+        border-top: 1px solid #484848;
+        
+        &:-moz-window-inactive {
+            -moz-appearance: none;
+            border-top: 1px solid #929292;
+        }
+        
+        deck,
+        #feedListbox *,
+        #permList {
+            background-color: #D4DDE5;
+            
+            &:-moz-window-inactive {
+                background-color: #E8E8E8;
+            }
+        }
+        
+        deck {
+            padding-top: 5px;
+        }
+        
+        #topBar {
+            -moz-appearance: none;
+            border-left: 1px solid #c0c0c0;
+            border-top: 1px solid #c0c0c0;
+            border-bottom: 1px solid #484848;
+            background-color: -moz-mac-chrome-active;
+            
+            &:-moz-window-inactive {
+                border-left: 1px solid #e1e1e1;
+                border-top: 1px solid #e1e1e1;
+                border-bottom: 1px solid #929292;
+                background-color: -moz-mac-chrome-inactive;
+            }
+        }
+        
+        #viewGroup {
+            margin: 1px 0 2px 0;
+            padding: 0;
+            background-color: -moz-mac-chrome-active;
+            border-top: 1px solid #484848;
+            border-right: 1px solid #484848;
+            border-bottom: 1px solid #484848;
+            
+            &:-moz-window-inactive {
+                background-color: -moz-mac-chrome-inactive;
+                border-top: 1px solid #929292;
+                border-right: 1px solid #929292;
+                border-bottom: 1px solid #929292;
+            }
+        }
+        
+        #viewGroup radio {
+            -moz-appearance: none;
+            display: -moz-box;
+            margin: 0;
+            padding: 5px;
+            list-style-image: url("../icons/topbar_darwin.png");
+            
+            border-left: 1px solid #484848;
+            background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;
+            
+            &:-moz-window-inactive { 
+                border-left: 1px solid #929292;
+                background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;
+            }
+            
+            &#generalTab {
+                -moz-image-region: rect(24px, 24px, 48px, 0)
+            }
+            
+            &#mediaTab {
+                -moz-image-region: rect(24px, 48px, 48px, 24px)
+            }
+            
+            &#feedTab {
+                -moz-image-region: rect(24px, 72px, 48px, 48px)
+            }
+            
+            &#permTab {
+                -moz-image-region: rect(24px, 96px, 48px, 72px)
+            }
+            
+            &#securityTab {
+                -moz-image-region: rect(24px, 120px, 48px, 96px)
+            }
+            
+            &[selected="true"] {
+                background: #606060;
+                box-shadow: inset rgba(42, 42, 42, 1) 0 3px 3px;
+                
+                &:-moz-window-inactive {
+                    background: #bababa;
+                    box-shadow: inset rgba(42, 42, 42, 0.6) 0 2px 2px;
+                }
+            }
+            
+            image {
+                display: -moz-box;
+                opacity: 0.5;
+                
+                &:-moz-window-inactive {
+                    opacity: 0.3;
+                }
+            }
+            
+            &:hover image,
+            &[selected="true"] image {
+                opacity: 1;
+                
+                &:-moz-window-inactive {
+                    opacity: 0.8;
+                }
+            }
+            
+        }
+        
+    }
+    /* @end */
+    
+    
+    /* @group Linux */
+    &:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
+        
+        #topBar {
+            padding-top: 1px;
+        }
+        
+    }
+    /* @end */
+    
+}
+
+/* @end */

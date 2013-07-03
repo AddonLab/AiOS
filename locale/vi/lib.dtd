@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Chuột trái">
+<!ENTITY rightclick "Chuột phải">
+<!ENTITY doubleclick "Nhấp đôi">
+<!ENTITY middleclick "Chuột giữa">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Công cụ">
+<!ENTITY closeFolder.label "Đóng Tất cả Thư mục">
+<!ENTITY show.closeFolder.label "Nút \'Đóng Tất cả Thư mục\'">
+<!ENTITY enable.autoClose.label "Tự động Đóng các Thư mục Khác">
+<!ENTITY enable.scrollToFolder.label "Tự động Cuộn đến Thư mục Đã chọn">
+<!ENTITY enable.rememberFolder.label "Ghi nhớ và Chú ý vào Thư mục Đã chọn Cuối cùng">

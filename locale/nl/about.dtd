@@ -1,0 +1,57 @@
+<!ENTITY title "Over All-in-One Sidebar">
+<!ENTITY version "versie">
+<!ENTITY settings "Instellingen…">
+<!ENTITY close "Sluiten">
+<!ENTITY tab.about "Over">
+<!ENTITY tab.contrib "Medewerkers">
+<!ENTITY tab.trans "Vertalers">
+<!ENTITY about.desc "De All-in-One zijbalk laat u verschillende vensters in de zijbalk openen en u gemakkelijk hiertussen wisselen, zoals bladwijzers, geschiedenis, downloads en add-ons. Maak een einde aan de vensterchaos!">
+<!ENTITY create.desc "gemaakt door Ingo Wennemaring, Hamburg [Duitsland]">
+<!ENTITY about1.name "Homepage - veel informatie op 1 plaats">
+<!ENTITY about2.name "Functies - alle functies van All-in-One Sidebar">
+<!ENTITY about3.name "FAQ - veel gestelde vragen en antwoorden">
+<!ENTITY about4.name "Bekende problemen - beschrijvingen en probleemoplossingen">
+<!ENTITY about5.name "Forum - discussies, bugmeldingen, thema oplossingen naast andere zaken">
+<!ENTITY about6.name "Changelog - geschiedenis en veranderingen">
+<!ENTITY about7.name "Te doen - Geplande functies en verbeteringen">
+<!ENTITY contrib.desc "Ik bedankt de volgende ontwikkelaars voor hun inspiratie en code-onderdelen (alfabetische volgorde):">
+<!ENTITY contrib.thanks "Als laatste, maar niet minste, bedank ik alle gebruikers die geholpen hebben met het testen van de developmentversies, raporteren van bugs in het forum, het delen van ideeën en suggesties of die simpelweg een mooie reactie hebben geschreven :-). Heel erg bedankt!">
+<!ENTITY trans.desc "De vertalers van All-in-One Sidebar (alfabetische volgorde van de taal):">
+<!ENTITY trans.ar-SA.lang "Arabisch">
+<!ENTITY trans.be-BY.lang "Wit-Russisch">
+<!ENTITY trans.cs-CZ.lang "Tjechisch">
+<!ENTITY trans.da-DK.lang "Deens">
+<!ENTITY trans.de-DE.lang "Duits">
+<!ENTITY trans.el-GR.lang "Grieks">
+<!ENTITY trans.en-GB.lang "Engels (Groot Britanië)">
+<!ENTITY trans.en-US.lang "Engels (USA)">
+<!ENTITY trans.es-AR.lang "Spaans (Argentinië)">
+<!ENTITY trans.es-ES.lang "Spaans (Spanje)">
+<!ENTITY trans.et-EE.lang "Estisch">
+<!ENTITY trans.fi-FI.lang "Fins">
+<!ENTITY trans.fr-FR.lang "Frans">
+<!ENTITY trans.he-IL.lang "Hebreeuws">
+<!ENTITY trans.hr-HR.lang "Kroatisch">
+<!ENTITY trans.hu-HU.lang "Hongaars">
+<!ENTITY trans.hy-AM.lang "Armeens (Armenië)">
+<!ENTITY trans.it-IT.lang "Italiaans">
+<!ENTITY trans.ja-JP.lang "Japans">
+<!ENTITY trans.ko-KR.lang "Koreaans">
+<!ENTITY trans.lt-LT.lang "Lithuanian">
+<!ENTITY trans.nb-NO.lang "Noors (BokmÃ¥l)">
+<!ENTITY trans.nl-NL.lang "Nederlands">
+<!ENTITY trans.pl-PL.lang "Pools">
+<!ENTITY trans.pt-BR.lang "Portugees (Brazilië)">
+<!ENTITY trans.pt-PT.lang "Portugees (Portugal)">
+<!ENTITY trans.ro-RO.lang "Roemeens">
+<!ENTITY trans.ru-RU.lang "Russisch">
+<!ENTITY trans.sk-SK.lang "Sloveens">
+<!ENTITY trans.sq-AL.lang "Albanees">
+<!ENTITY trans.sr-RS.lang "Servisch (Cyrillisch)">
+<!ENTITY trans.sv-SE.lang "Zweeds">
+<!ENTITY trans.tr-TR.lang "Turks">
+<!ENTITY trans.uk-UA.lang "Oekraïens">
+<!ENTITY trans.vi-VN.lang "Vietnamees (Vietnam)">
+<!ENTITY trans.zh-CN.lang "Chinees (versimpeld)">
+<!ENTITY trans.zh-TW.lang "Chinees (traditioneel)">
+<!ENTITY trans.thanks "Ik bedankt uiteraard ook het team van BabelZilla.org voor hun fantastische werk!">

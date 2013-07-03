@@ -1,0 +1,59 @@
+<!ENTITY title "Про All-In-One Sidebar">
+<!ENTITY version "версія">
+<!ENTITY settings "Налаштування…">
+<!ENTITY close "Закрити">
+<!ENTITY tab.about "Про розширення">
+<!ENTITY tab.help "Довідка">
+<!ENTITY tab.contrib "Помічники">
+<!ENTITY tab.trans "Перекладачі">
+<!ENTITY about.desc "All-in-One Sidebar дозволяє вам відкривати різні вікна у формі бічних панелей, швидко перемикатися між ними. Покладено край хаосу з вікнами! Крім бічних панелей Закладки та Історія, також доступні такі діалоги як Завантаження, Додатки тощо.">
+<!ENTITY create.desc "створено Ingo Wennemaring, Гамбург [Німеччина]">
+<!ENTITY help.desc "Більше про цей додаток можна довідатися на сайті:">
+<!ENTITY about1.name "Домашня сторінка - море інформації в одному місці">
+<!ENTITY about2.name "Переваги - всі переваги All-In-One Sidebar">
+<!ENTITY about3.name "FAQ - питання та відповіді">
+<!ENTITY about4.name "Відомі випадки - опис та вирішення">
+<!ENTITY about5.name "Форум - обговорення, повідомлення про помилки, а також удосконалення тем для сумісності поміж іншого.">
+<!ENTITY about6.name "Changelog - історія та зміни">
+<!ENTITY about7.name "To-do - заплановані функції та вдосконалення">
+<!ENTITY contrib.desc "Дякую наступним розробникам за натхнення та допомогу [у абетковому порядку]:">
+<!ENTITY contrib.thanks "Сьогоднішній баг не є останнім. Дякую всім користувачам, які допомагали у тестуванні, повідомленнями про баги на форумі, ділилися ідеями та порадами, нарешті, просто писали гарні коментарі:-) Дуже Вам дякую-:) !">
+<!ENTITY trans.desc "Перекладачі All-In-One Sidebar [у абетковому порядку за кодом мови]:">
+<!ENTITY trans.ar-SA.lang "Арабська">
+<!ENTITY trans.be-BY.lang "Білоруська">
+<!ENTITY trans.cs-CZ.lang "Чеська">
+<!ENTITY trans.da-DK.lang "Данська">
+<!ENTITY trans.de-DE.lang "Німецька">
+<!ENTITY trans.el-GR.lang "Грецька">
+<!ENTITY trans.en-GB.lang "Англійська(Великобританія)">
+<!ENTITY trans.en-US.lang "Англійська (США)">
+<!ENTITY trans.es-AR.lang "Іспанська (Аргентина)">
+<!ENTITY trans.es-ES.lang "Іспанська (Іспанія)">
+<!ENTITY trans.et-EE.lang "Естонська">
+<!ENTITY trans.fi-FI.lang "Фінська">
+<!ENTITY trans.fr-FR.lang "Французька">
+<!ENTITY trans.he-IL.lang "Іврит">
+<!ENTITY trans.hr-HR.lang "Хорватська">
+<!ENTITY trans.hu-HU.lang "Угорська">
+<!ENTITY trans.hy-AM.lang "Вірменська">
+<!ENTITY trans.it-IT.lang "Італійська">
+<!ENTITY trans.ja-JP.lang "Японська">
+<!ENTITY trans.ko-KR.lang "Корейська">
+<!ENTITY trans.lt-LT.lang "Литовська">
+<!ENTITY trans.nb-NO.lang "Норвезька (BokmÃ¥l)">
+<!ENTITY trans.nl-NL.lang "Голландська">
+<!ENTITY trans.pl-PL.lang "Польська">
+<!ENTITY trans.pt-BR.lang "Португальська (Бразилія)">
+<!ENTITY trans.pt-PT.lang "Португальська (Португалія)">
+<!ENTITY trans.ro-RO.lang "Румунська">
+<!ENTITY trans.ru-RU.lang "Російська">
+<!ENTITY trans.sk-SK.lang "Словацька">
+<!ENTITY trans.sq-AL.lang "Албанська">
+<!ENTITY trans.sr-RS.lang "Сербська (кирилиця)">
+<!ENTITY trans.sv-SE.lang "Шведська">
+<!ENTITY trans.tr-TR.lang "Турецька">
+<!ENTITY trans.uk-UA.lang "Українська">
+<!ENTITY trans.vi-VN.lang "В&apos;єтнамська">
+<!ENTITY trans.zh-CN.lang "Китайська (Спрощена)">
+<!ENTITY trans.zh-TW.lang "Китайська (Традиційна)">
+<!ENTITY trans.thanks "Також, зрозуміло, дякую команді BabelZilla.org за їхню чудову роботу!">

@@ -1,0 +1,74 @@
+
+/* @group Firefox-Standard-Theme */
+
+window[aios-appDefTheme="true"] {
+
+    border-top: 1px solid ThreedHighlight;
+    
+    #filterRow {
+        -moz-appearance: toolbox;
+        margin: 0;
+        padding-right: 1px;
+        padding-bottom: 1px;
+    }
+    
+    #configTree {
+        -moz-appearance: none;
+        margin: 0;
+        border: none;
+        
+        treechildren {
+            margin-left: 5px;
+        }
+    }
+    
+    
+    /* @group Windows-XP klassisch */
+    &[aios-appOSVersion="Windows NT 5.1"] {
+        
+        #filterRow {
+            border-bottom: 1px solid ThreedShadow;
+        }
+        
+    }
+    /* @end */
+    
+    
+    /* @group Windows-Standard */
+    &:-moz-system-metric(windows-default-theme) {
+        
+        /* @group Windows-XP-Standard */
+        &[aios-appOSVersion="Windows NT 5.1"] {
+            
+            #filterRow {
+                -moz-appearance: none;
+                background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), 
+                                  rgba(255, 255, 255, 0));
+            }
+            
+        }
+        /* @end */
+        
+    }
+    /* @end */
+    
+    
+    /* @group Darwin */
+    &[aios-appOS="Darwin"] {
+        
+        #filterRow {
+            padding-bottom: 5px;
+            background-color: #D4DDE5;
+            background-image: none;
+            
+            &:-moz-window-inactive {
+                background-color: #e8e8e8;
+            }
+        }
+        
+    }
+    /* @end */
+    
+}
+
+/* @end */

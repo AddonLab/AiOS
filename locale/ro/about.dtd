@@ -1,0 +1,59 @@
+<!ENTITY title "Despre All-in-One Sidebar">
+<!ENTITY version "versiunea">
+<!ENTITY settings "Opțiuni…">
+<!ENTITY close "Închide">
+<!ENTITY tab.about "Despre AiOS">
+<!ENTITY tab.help "Ajutor">
+<!ENTITY tab.contrib "Colaboratori">
+<!ENTITY tab.trans "Traducători">
+<!ENTITY about.desc "All-in-One Sidebar vă permite să deschideți diferite ferestre ca panouri laterale și să comutați rapid între ele. Astfel s-a pus capăt haosului ferestrelor deschise! În plus față de Semnele de carte și Istoric, AiOS deschide casete de dialog cum ar fi Descărcările, Suplimentele și altele.">
+<!ENTITY create.desc "Supliment creat de Ingo Wennemaring, Hamburg, Germania">
+<!ENTITY help.desc "Găsiţi mai multe informaţii despre acest supliment pe saitul web:">
+<!ENTITY about1.name "Pagina principală - o mulțime de informații într-un singur loc">
+<!ENTITY about2.name "Caracteristici - toate caracteristicile AiOS">
+<!ENTITY about3.name "Întrebări frecvente - „FAQ“">
+<!ENTITY about4.name "Probleme cunoscute - descrieri și rezolvări">
+<!ENTITY about5.name "Forum - discuții, raportarea erorilor și rezolvări (printre alte chestiuni)">
+<!ENTITY about6.name "Jurnal - istoric și modificări">
+<!ENTITY about7.name "De făcut - noi caracteristici și îmbunătățiri planificate">
+<!ENTITY contrib.desc "Mulțumesc următorilor programatori pentru că mi-au inspirat părți din cod (în ordine alfabetică):">
+<!ENTITY contrib.thanks "În final dar nu în ultimul rând, mulțumesc tuturor utilizatorilor care m-au ajutat testând versiunile în dezvoltare, care au raportat în forum erori, care mi-au împărtășit ideile și sugestiile lor sau doar pentru că au făcut comentarii drăguțe. ☺ Vă mulțumesc foarte mult!">
+<!ENTITY trans.desc "Traducători ai AiOS (în ordinea alabetică a codurilor de limbă):">
+<!ENTITY trans.ar-SA.lang "Arabă">
+<!ENTITY trans.be-BY.lang "Bielorusă">
+<!ENTITY trans.cs-CZ.lang "Cehă">
+<!ENTITY trans.da-DK.lang "Daneză">
+<!ENTITY trans.de-DE.lang "Germană">
+<!ENTITY trans.el-GR.lang "Greacă">
+<!ENTITY trans.en-GB.lang "Engleză (Marea Britanie)">
+<!ENTITY trans.en-US.lang "Engleză (S.U.A.)">
+<!ENTITY trans.es-AR.lang "Spaniolă (Argentina)">
+<!ENTITY trans.es-ES.lang "Spaniolă (Spania)">
+<!ENTITY trans.et-EE.lang "Estoniană">
+<!ENTITY trans.fi-FI.lang "Finlandeză">
+<!ENTITY trans.fr-FR.lang "Franceză">
+<!ENTITY trans.he-IL.lang "Ebraică">
+<!ENTITY trans.hr-HR.lang "Croată">
+<!ENTITY trans.hu-HU.lang "Maghiară">
+<!ENTITY trans.hy-AM.lang "Armeană (Armenia)">
+<!ENTITY trans.it-IT.lang "Italiană">
+<!ENTITY trans.ja-JP.lang "Japoneză">
+<!ENTITY trans.ko-KR.lang "Coreană">
+<!ENTITY trans.lt-LT.lang "Lituaniană">
+<!ENTITY trans.nb-NO.lang "Norvegiană">
+<!ENTITY trans.nl-NL.lang "Olandeză">
+<!ENTITY trans.pl-PL.lang "Poloneză">
+<!ENTITY trans.pt-BR.lang "Portugheză (Brazilia)">
+<!ENTITY trans.pt-PT.lang "Portugheză (Portugalia)">
+<!ENTITY trans.ro-RO.lang "Română">
+<!ENTITY trans.ru-RU.lang "Rusă">
+<!ENTITY trans.sk-SK.lang "Slovacă">
+<!ENTITY trans.sq-AL.lang "Albaneză">
+<!ENTITY trans.sr-RS.lang "Sârbă (alfabet chirilic)">
+<!ENTITY trans.sv-SE.lang "Suedeză">
+<!ENTITY trans.tr-TR.lang "Turcă">
+<!ENTITY trans.uk-UA.lang "Ucrainiană">
+<!ENTITY trans.vi-VN.lang "Vietnameză (Vietnam)">
+<!ENTITY trans.zh-CN.lang "Chineză simplificată">
+<!ENTITY trans.zh-TW.lang "Chineză tradițională">
+<!ENTITY trans.thanks "Evident, mulțumesc echipei BabelZilla.org pentru importanta lor muncă!">

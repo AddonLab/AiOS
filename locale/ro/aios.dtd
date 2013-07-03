@@ -1,0 +1,52 @@
+<!ENTITY loading.label "încărcare panou...">
+<!ENTITY menu.prefs.label "Opțiuni AiOS...">
+<!ENTITY menu.togglebar.label "Comutator panou lateral">
+<!ENTITY menu.grippy.label "Glisor panou lateral">
+<!ENTITY toolbar.name "Bară de unelte AiOS">
+<!ENTITY sbhtoolbar.name "Bară antet AiOS">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Afișează/ascunde panoul lateral și selectează elementele controlate de AiOS">
+<!ENTITY button.switch.tooltip1 "Afișează/ascunde panoul lateral și bara de unelte">
+<!ENTITY button.switch.tooltip2 "Afișează/ascunde bara de unelte">
+<!ENTITY button.switch.tooltip3 "Afișează/ascunde panoul lateral">
+<!ENTITY sidebar.open.label "Afișează panoul lateral">
+<!ENTITY sidebar.close.label "Ascunde panoul lateral">
+<!ENTITY sidebar.width.min "Lățime minimă">
+<!ENTITY sidebar.width.def "Lățime standard">
+<!ENTITY sidebar.width.max "Lățime maximă">
+<!ENTITY button.menu.label "Selector elemente ale panoului lateral">
+<!ENTITY button.menu.tooltip "Afișează toate elementele disponibile ale panoului lateral">
+<!ENTITY button.toolbar.label "Bară de unelte AiOS">
+<!ENTITY button.toolbar.tooltip "Afișează/ascunde bara de unelte AiOS">
+<!ENTITY button.paneltab.label "File în panoul lateral">
+<!ENTITY button.paneltab.tooltip1 "Deschide conținutul filei curente în panoul lateral">
+<!ENTITY button.paneltab.tooltip2 "Deschide conținutul panoului lateral într-o filă nouă">
+<!ENTITY button.paneltab.tooltip3 "Deschide conținutul panoului lateral într-o fereastră">
+<!ENTITY button.paneltab.menu1.label "Deschide fila curentă în panoul lateral">
+<!ENTITY button.paneltab.menu2.label "Deschide panoul lateral într-o filă">
+<!ENTITY button.autohide.label "Comutator automat panou lateral">
+<!ENTITY button.autohide.tooltip "Afișează/ascunde automat panoul lateral">
+<!ENTITY button.tooltip.sidebar "Deschide în panoul lateral">
+<!ENTITY button.tooltip.window "Deschide într-o fereastră">
+<!ENTITY button.tooltip.tab "Deschide într-o filă nouă">
+<!ENTITY button.addons.label "Suplimente">
+<!ENTITY button.addons.tooltip "Afișează suplimentele și temele instalate">
+<!ENTITY button.multipanel.label "Multi-panou">
+<!ENTITY button.multipanel.tooltip "Afișează informații despre paginile web sau navigator">
+<!ENTITY button.pageinfo.tooltip "Afișează informații suplimentare pentru o pagină web">
+<!ENTITY button.console.label "Consolă erori">
+<!ENTITY button.console.tooltip "Deschide consola de erori care urmărește problemele cu sursa paginii">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "E">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "În stânga panoului lateral">
+<!ENTITY toolbar.pos.sidebarright.label "În dreapta panoului lateral">
+<!ENTITY toolbar.pos.sidebartop.label "Deasupra panoului lateral">
+<!ENTITY toolbar.pos.headerbottom.label "Sub antetul panoului lateral">
+<!ENTITY toolbar.pos.sidebarbottom.label "Sub panoul lateral">
+<!ENTITY toolbar.mode.flexbuttons.label "Butoane flexibile">

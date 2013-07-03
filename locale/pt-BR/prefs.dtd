@@ -1,0 +1,93 @@
+<!ENTITY title "Opções do All-in-One Sidebar">
+<!ENTITY restart "Necessário reiniciar o navegador">
+<!ENTITY settings "Configurações">
+<!ENTITY settings.default "Restaurar padrões…">
+<!ENTITY settings.advanced "Modo avançado">
+<!ENTITY settings.import "Importar configurações…">
+<!ENTITY settings.export "Exportar configurações…">
+<!ENTITY settings.copy "Copiar configurações para a área de transferência">
+<!ENTITY apply "Aplicar">
+<!ENTITY gen.column1 "135">
+<!ENTITY tab.gen "Geral">
+<!ENTITY tab.gen.appearance "Aparência">
+<!ENTITY tab.gen.behavior "Comportamento">
+<!ENTITY tab.gen.fullscreen "Modo Tela Inteira">
+<!ENTITY tab.gen.special "Especial">
+<!ENTITY tab.panels "Painéis">
+<!ENTITY tab.panels.places "Favoritos/Histórico">
+<!ENTITY tab.panels.other1 "Outros I">
+<!ENTITY tab.panels.other2 "Outros II">
+<!ENTITY tab.panels.paneltab "Aba de Painel">
+<!ENTITY tab.menus "Menus">
+<!ENTITY tab.menus.sidebar "Painel">
+<!ENTITY tab.keys "Atalhos">
+<!ENTITY tab.about "Sobre/Ajuda">
+<!ENTITY gen.orient.caption "Posição">
+<!ENTITY gen.orient.label "Mostrar painel no">
+<!ENTITY gen.orient.left "lado esquerdo">
+<!ENTITY gen.orient.right "lado direito">
+<!ENTITY gen.width.caption "Tamanho">
+<!ENTITY gen.width.px "pixels">
+<!ENTITY gen.width.perc "porcento">
+<!ENTITY gen.width.current "Largura atual">
+<!ENTITY gen.width.current.tip "Aplica a largura atual do painel">
+<!ENTITY gen.width.min.hint "[Shift+clique duplo] no título do painel">
+<!ENTITY gen.width.def.hint "[Clique duplo] no título do painel">
+<!ENTITY gen.width.max.hint "[Ctrl+clique duplo] ou [Alt+clique duplo] no título do painel">
+<!ENTITY gen.init.caption "Inicialização do navegador">
+<!ENTITY gen.init.label "Painel lateral">
+<!ENTITY gen.init.toolbar.label "Barra de ferramentas">
+<!ENTITY gen.init.toolbar.show.label "Exibir barra de ferramentas">
+<!ENTITY gen.init.toolbar.hide.label "Ocultar barra de ferramentas">
+<!ENTITY gen.init.switch.show.label "Exibir o seletor de painel lateral">
+<!ENTITY gen.init.switch.hide.label "Ocultar o seletor de painel lateral">
+<!ENTITY gen.init.mode1 "Recuperar estado memorizado">
+<!ENTITY gen.init.sidebar "Abrir o painel lateral (Seletor do painel lateral, botão do painel, atalho)">
+<!ENTITY gen.init.sidebar.restore "Reataurar o painel lembrado">
+<!ENTITY gen.switch.autoshow "Exibir/ocultar o painel lateral automaticamente (contato do mouse ao invés de clique)">
+<!ENTITY gen.switch.onlymax "Apenas se o navegador estiver maximizado ou em modo de tela cheia">
+<!ENTITY gen.switch.delay "Tempo de espera">
+<!ENTITY gen.switch.delayUnit "milissegundos">
+<!ENTITY gen.switch.hide "Ocultar painel se o cursor do mouse…">
+<!ENTITY gen.switch.hideBar "for movido de volta para a página web">
+<!ENTITY gen.switch.hidePage "estiver dentro do seletor de painel">
+<!ENTITY gen.switch.thin "Habilitar seletor de painel reduzido">
+<!ENTITY gen.switch.width "Largura do seletor do painel">
+<!ENTITY gen.switch.twidth "Largura do seletor de painel reduzido">
+<!ENTITY cmode.caption "Exibir/ocultar painel">
+<!ENTITY cmode.desc "Informe quais elementos devem ser afetados ao abrir ou fechar o painel de formas diferentes.">
+<!ENTITY cmode.key.label "Tecla de atalho (F4)">
+<!ENTITY cmode.tbb.label "Botão AiOS">
+<!ENTITY cmode.close.label "Botão Fechar">
+<!ENTITY cmode.mode1.label "Somente o painel">
+<!ENTITY cmode.mode2.label "Painel e barra de ferramentas">
+<!ENTITY cmode.mode3.label "Painel, barra de ferramentas e entalhe">
+<!ENTITY cmode.mode4.label "Mesmo comportamento do Opera">
+<!ENTITY gen.fs.off "Voltar ao estado original ao sair do modo tela inteira">
+<!ENTITY keyconfig.keyid "Nome">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Aplicar">
+<!ENTITY keyconfig.disable "Desabilitar">
+<!ENTITY keyconfig.reset "Redefinir">
+<!ENTITY keyconfig.warn "As mudanças afetam somente novas janelas.">
+<!ENTITY keyconfig.onreset "Reinicie o navegador">
+<!ENTITY keyconfig.unrecognized "Não reconhecido ($1)">
+<!ENTITY keyconfig.used "Esta tecla já está sendo usada por:   t$1. No entanto, pode funcionar.">
+<!ENTITY menus.sidebar.desc "Personalize as opções no menu &quot;Exibir &gt; Painel&quot;; e no menu suspenso dos botões do painel.">
+<!ENTITY menus.icons.label "Exibir ícones">
+<!ENTITY menus.entries.label "Exibir opções">
+<!ENTITY menus.sidebar.entrydeac "Desabilitar a opção do painel ativo no menu">
+<!ENTITY misc.enablesidebar.label "Abrir no painel">
+<!ENTITY misc.layout.label "Otimização para o painel">
+<!ENTITY misc.dm.overlay "Alterar opções do funcionamento do painel">
+<!ENTITY misc.dm.autoopen.label "Exibir painel ao iniciar downloads">
+<!ENTITY misc.dm.autoclose.label "Fechar ao concluir todos os downloads">
+<!ENTITY misc.colors.label "Habilitar fundos coloridos baseados no estado atual">
+<!ENTITY misc.count.label "Exibir número de itens">
+<!ENTITY misc.enablelink.tooltip "Clique para mais informações (link para as perguntas frequentes)">
+<!ENTITY misc.paneltab.reverse "Trocar ações do clique esquerdo e direito">
+<!ENTITY misc.bm.paneltab.desc "O botão PainelAba pode abrir em uma nova aba o gerenciador de favoritos ao invés do painel de favoritos.">
+<!ENTITY misc.bm.paneltab "Abrir gerenciador de favoritos em nova aba">
+<!ENTITY special.collapsing.caption "Ocultar painel lateral">
+<!ENTITY special.collapsing.label "Habilitar ocultamento do painel lateral">
+<!ENTITY special.collapsing.desc "O painel lateral pode ser ocultado ao invés de ser fechado. A vantagem é que o conteúdo do painel não precisa ser recarregado ao ser reaberto.">

@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Vasemmanpuoleinen napsautus">
+<!ENTITY rightclick "Oikeanpuoleinen napsautus">
+<!ENTITY doubleclick "Kaksoisnapsautus">
+<!ENTITY middleclick "Keskinapsautus">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Vaihto">
+<!ENTITY menu.tools.label "Työkalut">
+<!ENTITY closeFolder.label "Sulje kaikki kansiot">
+<!ENTITY show.closeFolder.label "&apos;Sulje kaikki kansiot&apos; -painike">
+<!ENTITY enable.autoClose.label "Sulje muut kansiot automaattisesti">
+<!ENTITY enable.scrollToFolder.label "Selaa automaattisesti valittuun kansioon">
+<!ENTITY enable.rememberFolder.label "Muista ja merkitse viimeinen valittu kansio">

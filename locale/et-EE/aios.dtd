@@ -1,0 +1,52 @@
+<!ENTITY loading.label "laadin paneeli…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar&apos;i seaded">
+<!ENTITY menu.togglebar.label "Külgpaani lülitus">
+<!ENTITY menu.grippy.label "Külgpaani haare">
+<!ENTITY toolbar.name "All-in-One Sidebar tööriistariba">
+<!ENTITY sbhtoolbar.name "Külgpaani päise tööriistariba">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Lülita sisse-välja All-in-One Sidebar poolt kontrollitavad elemendid">
+<!ENTITY button.switch.tooltip1 "Lülita külgpaan ja tööriistariba sisse-välja">
+<!ENTITY button.switch.tooltip2 "Lülita tööriistariba sisse-välja">
+<!ENTITY button.switch.tooltip3 "Lülita külgpaan sisse-välja">
+<!ENTITY sidebar.open.label "Ava külgpaan">
+<!ENTITY sidebar.close.label "Sule külgpaan">
+<!ENTITY sidebar.width.min "Minimaalne laius">
+<!ENTITY sidebar.width.def "Tavaline laius">
+<!ENTITY sidebar.width.max "Maksimaalne laius">
+<!ENTITY button.menu.label "Külgpaani paneelid">
+<!ENTITY button.menu.tooltip "Kõik võimalikud külgpaani paneelid">
+<!ENTITY button.toolbar.label "AiOS-tööriistariba">
+<!ENTITY button.toolbar.tooltip "Lülita AiOS-tööriistariba sisse-välja">
+<!ENTITY button.paneltab.label "PaneeliVaheleht">
+<!ENTITY button.paneltab.tooltip1 "Ava vahelehe sisu külgpaanis">
+<!ENTITY button.paneltab.tooltip2 "Ava külgpaani sisu uuel vahelehel">
+<!ENTITY button.paneltab.tooltip3 "Ava külgpaani sisu uues aknas">
+<!ENTITY button.paneltab.menu1.label "Ava vaheleht külgpaanis">
+<!ENTITY button.paneltab.menu2.label "Ava külgpaan vahelehel">
+<!ENTITY button.autohide.label "Külgpaan automaatne">
+<!ENTITY button.autohide.tooltip "Lülita külgpaan automaatselt sisse-välja">
+<!ENTITY button.tooltip.sidebar "Ava külgpaanis">
+<!ENTITY button.tooltip.window "Ava uues aknas">
+<!ENTITY button.tooltip.tab "Ava uuel vahelehel">
+<!ENTITY button.addons.label "Lisandused">
+<!ENTITY button.addons.tooltip "Näita installitud laiendusi ja teemasid">
+<!ENTITY button.multipanel.label "MultiPaneel">
+<!ENTITY button.multipanel.tooltip "Näita, näiteks veebilehte, lähtekoodi või brauseri infot">
+<!ENTITY button.pageinfo.tooltip "Näita veebilehe kohta laiendatud informatsiooni">
+<!ENTITY button.console.label "VeaKonsool">
+<!ENTITY button.console.tooltip "Ava veakonsool, lähtekoodi veajälitusega">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Vasakul külgpaani kõrval">
+<!ENTITY toolbar.pos.sidebarright.label "Paremal külgpaani kõrval">
+<!ENTITY toolbar.pos.sidebartop.label "Külgpaani kohal">
+<!ENTITY toolbar.pos.headerbottom.label "Külgpaani päise all">
+<!ENTITY toolbar.pos.sidebarbottom.label "Külgpaani all">
+<!ENTITY toolbar.mode.flexbuttons.label "Paindlikud nupud">

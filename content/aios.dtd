@@ -1,0 +1,66 @@
+
+<!ENTITY about1.link            "http://firefox.exxile.net/aios/index.php">
+<!ENTITY about2.link            "http://firefox.exxile.net/aios/features.php">
+<!ENTITY about3.link            "http://firefox.exxile.net/aios/faq.php">
+<!ENTITY about4.link            "http://firefox.exxile.net/aios/knownissues.php">
+<!ENTITY about5.link            "http://firefox.exxile.net/forum/index.php">
+<!ENTITY about6.link            "http://firefox.exxile.net/aios/changelog.php">
+<!ENTITY about7.link            "http://firefox.exxile.net/aios/todo.php">
+
+<!ENTITY contrib1.name          "alta88">
+<!ENTITY contrib1.ext           "TotalToolbar">
+<!ENTITY contrib1.link          "http://totaltoolbar.mozdev.org/">
+
+<!ENTITY contrib2.name          "CPU">
+<!ENTITY contrib2.ext           "Tab Mix Plus">
+<!ENTITY contrib2.link          "https://addons.mozilla.org/firefox/addon/1122">
+
+<!ENTITY contrib3.name          "Dorando">
+<!ENTITY contrib3.ext           "keyconfig">
+<!ENTITY contrib3.link          "http://forums.mozillazine.org/viewtopic.php?t=72994">
+
+<!ENTITY contrib4.name          "Leon Huang">
+<!ENTITY contrib4.ext           "POTO Sidebar">
+<!ENTITY contrib4.link          "https://addons.mozilla.org/firefox/addon/836">
+
+<!ENTITY contrib5.name          "Ronny Perinke">
+<!ENTITY contrib5.ext           "Autoclose Bookmark &amp; History Folders">
+<!ENTITY contrib5.link          "http://www.sephiroth-j.de/1/mozilla/">
+
+<!ENTITY trans.ar-SA.name       "Natty Dreed">
+<!ENTITY trans.be-BY.name       "Drive DRKA">
+<!ENTITY trans.cs-CZ.name       "Jiří Doubravský">
+<!ENTITY trans.da.name       	"Finn Sørensen">
+<!ENTITY trans.de.name       	"Ingo Wennemaring">
+<!ENTITY trans.el.name       	"Sonickydon">
+<!ENTITY trans.en-GB.name       "Ian Moody">
+<!ENTITY trans.en-US.name       "Ingo Wennemaring, Ian Moody">
+<!ENTITY trans.es-AR.name       "Alberto Jorge Cushnir">
+<!ENTITY trans.es-ES.name       "Proyecto NAVE">
+<!ENTITY trans.et-EE.name       "stabisol">
+<!ENTITY trans.fi-FI.name       "Mikko Tervahauta">
+<!ENTITY trans.fr.name       	"Jean-Bernard Marcon">
+<!ENTITY trans.he.name       	"SiiiE">
+<!ENTITY trans.hr-HR.name       "Krcko">
+<!ENTITY trans.hu-HU.name       "kami, Henriett Peller, Sil">
+<!ENTITY trans.hy-AM.name       "Babayan Eduard">
+<!ENTITY trans.it.name       	"Luana di Muzio, Roccobot">
+<!ENTITY trans.ja-JP.name       "javascript, Premier">
+<!ENTITY trans.ko-KR.name       "Flactal">
+<!ENTITY trans.lt-LT.name       "Jonas Slivka">
+<!ENTITY trans.nb-NO.name       "Anders Aase Martinsen">
+<!ENTITY trans.nl.name       	"Gert-Paul van der Beek">
+<!ENTITY trans.pl.name       	"Leszek Życzkowski, Tomasz Lipski">
+<!ENTITY trans.pt-BR.name       "Rodrigo Bergmann Laurindo, E.R.D'Avila">
+<!ENTITY trans.pt-PT.name       "Carlos Simão, Jorge Laranjo, zefranc">
+<!ENTITY trans.ro.name       	"Cătălin Zamfirescu">
+<!ENTITY trans.ru-RU.name       "Quicksilver tears">
+<!ENTITY trans.sk-SK.name       "Martin Peterčák">
+<!ENTITY trans.sq-AL.name       "Puntori">
+<!ENTITY trans.sr.name       	"ДакСРБИЈА, dragan021, Rasa">
+<!ENTITY trans.sv-SE.name       "Cecilia B, Carlos Murakami, Richard Norén">
+<!ENTITY trans.tr-TR.name       "Erkan Kaplan, Mehmet Gokhan">
+<!ENTITY trans.uk-UA.name       "Yaroslav Krytsun">
+<!ENTITY trans.vi.name       	"Trần Anh Minh, NGUYỄN Mạnh Hùng">
+<!ENTITY trans.zh-CN.name       "blackdire, Long G.W., George C. Tsoi">
+<!ENTITY trans.zh-TW.name       "Unicorn2, Willy Young">

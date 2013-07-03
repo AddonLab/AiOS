@@ -1,0 +1,88 @@
+<!ENTITY title "Alt-I-En Sidebjælke &amp;#8211; Indstillinger">
+<!ENTITY restart "Ændringer kræver en genstart af browseren">
+<!ENTITY settings "Indstillinger">
+<!ENTITY settings.default "Genetabler standarder…">
+<!ENTITY settings.advanced "Avanceret tilstand">
+<!ENTITY settings.import "Importer indstillinger…">
+<!ENTITY settings.export "Eksporter indstillinger…">
+<!ENTITY apply "Anvend">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Generel">
+<!ENTITY tab.gen.appearance "Udseende">
+<!ENTITY tab.gen.behavior "Opførsel">
+<!ENTITY tab.gen.fullscreen "Fuldskærmstilstand">
+<!ENTITY tab.gen.special "Speciel">
+<!ENTITY tab.panels "Paneler">
+<!ENTITY tab.panels.places "Bogmærker/Historik">
+<!ENTITY tab.panels.other1 "Andet I">
+<!ENTITY tab.panels.other2 "Andet II">
+<!ENTITY tab.panels.paneltab "PanelFane">
+<!ENTITY tab.menus "Menuer">
+<!ENTITY tab.menus.sidebar "Sidebjælke">
+<!ENTITY tab.keys "Genveje">
+<!ENTITY gen.orient.caption "Orientering">
+<!ENTITY gen.orient.label "Vis sidebjælke på">
+<!ENTITY gen.orient.left "venstre side">
+<!ENTITY gen.orient.right "højre side">
+<!ENTITY gen.width.caption "Størrelse">
+<!ENTITY gen.width.px "pixel">
+<!ENTITY gen.width.perc "procent">
+<!ENTITY gen.width.current "sæt til nuværende bredde">
+<!ENTITY gen.width.current.tip "Angår den nuværende bredde på sidebjælken">
+<!ENTITY gen.width.min.hint "[Skift+dobbeltklik] på sidebjælkens titel">
+<!ENTITY gen.width.def.hint "[Dobbeltklik] på sidebjælkens titel">
+<!ENTITY gen.width.max.hint "[Ctrl+dobbeltklik] eller [Alt+dobbeltklik] på sidebjælkens titel">
+<!ENTITY gen.init.caption "Browser opstart">
+<!ENTITY gen.init.label "Sidebjælke">
+<!ENTITY gen.init.toolbar.label "Værktøjslinje">
+<!ENTITY gen.init.toolbar.show.label "Vis værktøjslinje">
+<!ENTITY gen.init.toolbar.hide.label "Skjul værktøjslinje">
+<!ENTITY gen.init.switch.show.label "Vis sidebjælke-kontakt">
+<!ENTITY gen.init.switch.hide.label "Skjul sidebjælke-kontakt">
+<!ENTITY gen.init.mode1 "Genetablér huskede tilstand">
+<!ENTITY gen.init.sidebar "Åbn sidebjælke (sidebjælke-kontakt, skift-knap, genvej)">
+<!ENTITY gen.init.sidebar.restore "Genetablér det huskede panel">
+<!ENTITY gen.switch.autoshow "Vis/skjul automatisk sidebjælken (musekontakt i stedet for museklik)">
+<!ENTITY gen.switch.onlymax "Kun hvis browseren er maksimeret eller i Fuldskærmstilstand">
+<!ENTITY gen.switch.delay "Forsinkelse">
+<!ENTITY gen.switch.delayUnit "millisekunder">
+<!ENTITY gen.switch.hide "Skjul sidebjælke når musemarkøren…">
+<!ENTITY gen.switch.hideBar "flyttes tilbage til websiden">
+<!ENTITY gen.switch.hidePage "holdes over sidebjælke-kontakten">
+<!ENTITY gen.switch.thin "Slå tynd sidebjælke-kontakt til">
+<!ENTITY gen.switch.width "Bredde på sidebjælke-kontakten">
+<!ENTITY gen.switch.twidth "Bredde på den tynde sidebjælke-kontakt">
+<!ENTITY cmode.caption "Slå sidebjælke til/fra">
+<!ENTITY cmode.desc "Definer hvilke elementer der skal påvirkes ved åbning eller lukning af sidebjælken med forskellige metoder.">
+<!ENTITY cmode.key.label "Genvej (F4)">
+<!ENTITY cmode.tbb.label "AiOS knap">
+<!ENTITY cmode.close.label "Luk knap">
+<!ENTITY cmode.mode1.label "Kun sidebjælken">
+<!ENTITY cmode.mode2.label "Sidebjælken og værktøjslinjen">
+<!ENTITY cmode.mode3.label "Sidebjælken, værktøjslinjen og sidebjælke-kontakten">
+<!ENTITY cmode.mode4.label "Opera&apos;s opførsel">
+<!ENTITY gen.fs.off "Genetabler tilstanden hvis lukket i fuldskærmstilstand">
+<!ENTITY keyconfig.keyid "Navn">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Anvend">
+<!ENTITY keyconfig.disable "Slå fra">
+<!ENTITY keyconfig.reset "Nulstil">
+<!ENTITY keyconfig.warn "Ændringer påvirker kun nye vinduer">
+<!ENTITY keyconfig.onreset "Browsergenstart påkrævet">
+<!ENTITY keyconfig.unrecognized "Ikke genkendt ($1)">
+<!ENTITY keyconfig.used "Denne tast bruges allerede af: \\n\\n\\t$1\\n\\nDet kan dog godt være den virker alligevel.">
+<!ENTITY menus.sidebar.desc "Tilpas elementerne i menuen &amp;#8220;Vis &gt; Sidebjælke&amp;#8221; og i rullegardin-menuer for sidebjælke-knapperne.">
+<!ENTITY menus.icons.label "Vis ikoner">
+<!ENTITY menus.entries.label "Vis elementer">
+<!ENTITY menus.sidebar.entrydeac "Slå elementet fra i den aktive sidebjælke">
+<!ENTITY misc.enablesidebar.label "Åbn i sidebjælke">
+<!ENTITY misc.layout.label "Optimer layout til sidebjælken">
+<!ENTITY misc.colors.label "Slå farvede baggrunde til baseret på nuværende tilstand">
+<!ENTITY misc.count.label "Vis antal emner">
+<!ENTITY misc.enablelink.tooltip "Klik her for mere information (link til FAQ&apos;s)">
+<!ENTITY misc.paneltab.reverse "Ombyt venstreklik- og midterklik-handlinger">
+<!ENTITY misc.bm.paneltab.desc "Knappen &amp;#8220;PanelFane&amp;#8221; kan åbne i Bogmærke-Manageren i et nyt faneblad i stedet for i Bogmærke-panelet">
+<!ENTITY misc.bm.paneltab "Slå Bogmærke-Manager til i nyt faneblad">
+<!ENTITY special.collapsing.caption "Sidebjælke sammenfoldning">
+<!ENTITY special.collapsing.label "Slå sidebjælke sammenfoldning til">
+<!ENTITY special.collapsing.desc "Sidebjælken kan sammenfoldes i stedet for at blive lukket rigtigt. Fordelen er at sidebjælke-indholdet ikke skal genindlæses ved genåbning.">

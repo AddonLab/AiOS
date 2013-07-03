@@ -1,0 +1,50 @@
+<!ENTITY title "Apie „All-in-One Sidebar“">
+<!ENTITY version "versija">
+<!ENTITY settings "Nustatymai…">
+<!ENTITY close "Užverti">
+<!ENTITY tab.about "Apie">
+<!ENTITY tab.contrib "Pagalbininkai">
+<!ENTITY tab.trans "Vertėjai">
+<!ENTITY create.desc "sukūrė Ingo Wennemaring, Hamburgas (Vokietija)">
+<!ENTITY about1.name "Pradžios tinklalapis - daug informacijos">
+<!ENTITY about2.name "Savybės - visos „All-in-One Sidebar“ savybės">
+<!ENTITY about3.name "DUK - dažnai užduodami klausimai ir atsakymai">
+<!ENTITY about4.name "Žinomos problemos - aprašymai ir problemų sprendimas">
+<!ENTITY about5.name "Forumas - diskusijos, pranešimai apie klaidas, grafinių apvalkalų pataisymai ir t.t.">
+<!ENTITY about6.name "Pakeitimų sąrašas - istorija ir pakeitimai">
+<!ENTITY about7.name "To-do - planuojamos savybės bei patobulinimai">
+<!ENTITY contrib.desc "Dėkoju šiems žmonėms už įkvėpimą ir kodo fragmentus (abėcėlės tvarka):">
+<!ENTITY contrib.thanks "Taip pat dėkoju visiems, padėjusiems testuoti priedą, pranešusiems apie klaidas forume, besidalijusiems savo idėjomis ir pasiūlymais ar tiesiog rašiusiems gražius komentarus. :-) Labai ačiū Jums!">
+<!ENTITY trans.desc "„All-in-One Sidebar“ vertėjai (abėcėlės tvarka pagal kalbos trumpinį):">
+<!ENTITY trans.ar-SA.lang "Arabų">
+<!ENTITY trans.be-BY.lang "Baltarusų">
+<!ENTITY trans.cs-CZ.lang "Čekų">
+<!ENTITY trans.da-DK.lang "Danų">
+<!ENTITY trans.de-DE.lang "Vokiečių">
+<!ENTITY trans.el-GR.lang "Graikų">
+<!ENTITY trans.en-GB.lang "Anglų (Didžioji Britanija)">
+<!ENTITY trans.en-US.lang "Anglų (JAV)">
+<!ENTITY trans.es-AR.lang "Ispanų (Argentina)">
+<!ENTITY trans.es-ES.lang "Ispanų (Ispanija)">
+<!ENTITY trans.fi-FI.lang "Suomių">
+<!ENTITY trans.fr-FR.lang "Prancūzų">
+<!ENTITY trans.he-IL.lang "Hebrajų">
+<!ENTITY trans.hr-HR.lang "Kroatų">
+<!ENTITY trans.hu-HU.lang "Vengrų">
+<!ENTITY trans.it-IT.lang "Italų">
+<!ENTITY trans.ja-JP.lang "Japonų">
+<!ENTITY trans.ko-KR.lang "Korėjiečių">
+<!ENTITY trans.lt-LT.lang "Lietuvių">
+<!ENTITY trans.nb-NO.lang "Norvegų">
+<!ENTITY trans.nl-NL.lang "Olandų">
+<!ENTITY trans.pl-PL.lang "Lenkų">
+<!ENTITY trans.pt-BR.lang "Portugalų (Brazilija)">
+<!ENTITY trans.pt-PT.lang "Portugalų (Portugalija)">
+<!ENTITY trans.ru-RU.lang "Rusų">
+<!ENTITY trans.sk-SK.lang "Slovakų">
+<!ENTITY trans.sv-SE.lang "Švedų">
+<!ENTITY trans.tr-TR.lang "Turkų">
+<!ENTITY trans.uk-UA.lang "Ukrainiečių">
+<!ENTITY trans.zh-CN.lang "Kinų (Supaprastinta)">
+<!ENTITY trans.zh-TW.lang "Kinų (Tradicinė)">
+<!ENTITY trans.thanks "Taip pat dėkoju BabelZilla.org komandai už jų nuostabų darbą!">

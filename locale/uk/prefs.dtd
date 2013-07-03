@@ -1,0 +1,93 @@
+<!ENTITY title "Налаштування All-In-One Sidebar">
+<!ENTITY restart "Зміни потребують перезавантаження браузера">
+<!ENTITY settings "Налаштування">
+<!ENTITY settings.default "Відновити типові налаштування…">
+<!ENTITY settings.advanced "Розширений режим">
+<!ENTITY settings.import "Імпортувати налаштування…">
+<!ENTITY settings.export "Експортувати налаштування…">
+<!ENTITY settings.copy "Скопіювати налаштування до буфера обміну">
+<!ENTITY apply "Застосувати">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Загальне">
+<!ENTITY tab.gen.appearance "Вигляд">
+<!ENTITY tab.gen.behavior "Поведінка">
+<!ENTITY tab.gen.fullscreen "Повноекранний режим">
+<!ENTITY tab.gen.special "Спеціальне">
+<!ENTITY tab.panels "Панелі">
+<!ENTITY tab.panels.places "Закладки/Журнал">
+<!ENTITY tab.panels.other1 "Додатково I">
+<!ENTITY tab.panels.other2 "Додатково II">
+<!ENTITY tab.panels.paneltab "Вкладка панелей">
+<!ENTITY tab.menus "Меню">
+<!ENTITY tab.menus.sidebar "Бічна панель">
+<!ENTITY tab.keys "Поєднання клавіш">
+<!ENTITY tab.about "Про додаток/Довідка">
+<!ENTITY gen.orient.caption "Розташування бічної панелі">
+<!ENTITY gen.orient.label "Показувати бічну панель">
+<!ENTITY gen.orient.left "зліва">
+<!ENTITY gen.orient.right "справа">
+<!ENTITY gen.width.caption "Ширина">
+<!ENTITY gen.width.px "пікселів">
+<!ENTITY gen.width.perc "відсотки">
+<!ENTITY gen.width.current "застосувати поточну ширину">
+<!ENTITY gen.width.current.tip "Приймає поточну ширину бічної панелі">
+<!ENTITY gen.width.min.hint "[Shift+подв.клац.] на заголовку бічної панелі">
+<!ENTITY gen.width.def.hint "[Подв. клац.] на заголовку бічної панелі">
+<!ENTITY gen.width.max.hint "[Ctrl+подв. клац.] або [Alt+подв. клац.] на заголовку бічної панелі">
+<!ENTITY gen.init.caption "Запуск браузера">
+<!ENTITY gen.init.label "Бічна панель">
+<!ENTITY gen.init.toolbar.label "Панель інструментів">
+<!ENTITY gen.init.toolbar.show.label "Показувати панель інструментів">
+<!ENTITY gen.init.toolbar.hide.label "Ховати панель інструментів">
+<!ENTITY gen.init.switch.show.label "Показувати вимикач бічної панелі">
+<!ENTITY gen.init.switch.hide.label "Ховати вимикач бічної панелі">
+<!ENTITY gen.init.mode1 "Відновлювати останній збережений стан">
+<!ENTITY gen.init.sidebar "Відкривати бічну панель (Вимикач бічної панелі, Кнопка перемикання, Гаряча клавіша)">
+<!ENTITY gen.init.sidebar.restore "Відновлювати останній стан">
+<!ENTITY gen.switch.autoshow "Показувати/ховати бічну панель автоматично (наведення миші замість клацання)">
+<!ENTITY gen.switch.onlymax "Тільки якщо браузер розгорнутий на весь екран або перебуває у повноекранному режимі">
+<!ENTITY gen.switch.delay "Затримка">
+<!ENTITY gen.switch.delayUnit "мілісекунди">
+<!ENTITY gen.switch.hide "Ховати бічну панель, якщо курсор миші…">
+<!ENTITY gen.switch.hideBar "повертається до веб-сторінки">
+<!ENTITY gen.switch.hidePage "зупиняється на вимикачі бічної панелі">
+<!ENTITY gen.switch.thin "Встановити вузький вимикач бічної панелі">
+<!ENTITY gen.switch.width "Ширина вимикача бічної панелі">
+<!ENTITY gen.switch.twidth "Ширина вузького вимикача бічної панелі">
+<!ENTITY cmode.caption "Переключення бічної панелі">
+<!ENTITY cmode.desc "Налаштувати, на які елементи поширюється закриття або відкриття бічної панелі різними способами.">
+<!ENTITY cmode.key.label "Поєднання клавіш (F4)">
+<!ENTITY cmode.tbb.label "Кнопка AiOS">
+<!ENTITY cmode.close.label "Кнопка закриття">
+<!ENTITY cmode.mode1.label "Тільки бічна панель">
+<!ENTITY cmode.mode2.label "Бічна панель та панель інструментів">
+<!ENTITY cmode.mode3.label "Бічна панель, панель інструментів та вимикач бічної панелі">
+<!ENTITY cmode.mode4.label "Поведінка як в Опері">
+<!ENTITY gen.fs.off "Відновлювати стан при скасуванні повноекранного режиму">
+<!ENTITY keyconfig.keyid "Назва">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Застосувати">
+<!ENTITY keyconfig.disable "Вимкнути">
+<!ENTITY keyconfig.reset "Скинути">
+<!ENTITY keyconfig.warn "Зміни стосуються тільки нових вікон">
+<!ENTITY keyconfig.onreset "Потрібне перезавантаження браузера">
+<!ENTITY keyconfig.unrecognized "Нерозпізнано ($1)">
+<!ENTITY keyconfig.used "Ці поєднання клавіш вже використовуються: \\n\\n\\t$1\\n\\nОднак це може все ж працювати.">
+<!ENTITY menus.sidebar.desc "Налаштувати пункти меню “Вигляд &gt; Бічна панель” та пункти меню-згорток кнопок бічної панелі.">
+<!ENTITY menus.icons.label "Показувати піктограми">
+<!ENTITY menus.entries.label "Показувати пункти">
+<!ENTITY menus.sidebar.entrydeac "Відключити вміст активної бічної панелі">
+<!ENTITY misc.enablesidebar.label "Відкривати у бічній панелі">
+<!ENTITY misc.layout.label "Оптимізовувати простір">
+<!ENTITY misc.dm.overlay "Зміна поведінки бічної панелі">
+<!ENTITY misc.dm.autoopen.label "Показувати бічну панель завантажень під час завантаження файлу">
+<!ENTITY misc.dm.autoclose.label "Закривати її після завершення всіх завантажень">
+<!ENTITY misc.colors.label "Застосовувати кольоровий фон відповідно до поточного стану">
+<!ENTITY misc.count.label "Показувати кількість елементів">
+<!ENTITY misc.enablelink.tooltip "Натисніть тут для детальної інформації (посилання на FAQ)">
+<!ENTITY misc.paneltab.reverse "Поміняти місцями дії лівої та правої кнопок миші">
+<!ENTITY misc.bm.paneltab.desc "Кнопка “Вкладка панелей” може відкрити менеджер закладок у новій вкладці замість панелі закладок.">
+<!ENTITY misc.bm.paneltab "Відкривати менеджер закладок у новій вкладці">
+<!ENTITY special.collapsing.caption "Згортання бічної панелі">
+<!ENTITY special.collapsing.label "Увімкнути згортання бічної панелі">
+<!ENTITY special.collapsing.desc "Бічна панель може згортатись замість справжнього закриття. Перевага такої поведінки в тому, що вміст панелі не потрібно перезавантажувати після повторного відкриття.">

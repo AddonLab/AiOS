@@ -1,0 +1,93 @@
+<!ENTITY title "Options de All-in-One Sidebar">
+<!ENTITY restart "Les modifications ne seront validées qu&apos;au redémarrage du navigateur">
+<!ENTITY settings "Préférences">
+<!ENTITY settings.default "Rétablir les préférences par défaut…">
+<!ENTITY settings.advanced "Mode avancé">
+<!ENTITY settings.import "Importer des préférences…">
+<!ENTITY settings.export "Exporter vos préférences…">
+<!ENTITY settings.copy "Copier les préférences dans le presse-papiers…">
+<!ENTITY apply "Appliquer">
+<!ENTITY gen.column1 "190">
+<!ENTITY tab.gen "Générales">
+<!ENTITY tab.gen.appearance "Apparence">
+<!ENTITY tab.gen.behavior "Comportement">
+<!ENTITY tab.gen.fullscreen "Mode plein écran">
+<!ENTITY tab.gen.special "Spéciales">
+<!ENTITY tab.panels "Panneaux">
+<!ENTITY tab.panels.places "Marque-pages / Historique">
+<!ENTITY tab.panels.other1 "Autres (1)">
+<!ENTITY tab.panels.other2 "Autres (2)">
+<!ENTITY tab.panels.paneltab "OngletDePanneau">
+<!ENTITY tab.menus "Menus">
+<!ENTITY tab.menus.sidebar "Panneau latéral">
+<!ENTITY tab.keys "Raccourcis">
+<!ENTITY tab.about "À propos / Aide">
+<!ENTITY gen.orient.caption "Orientation">
+<!ENTITY gen.orient.label "Montrer le panneau latéral">
+<!ENTITY gen.orient.left "côté gauche">
+<!ENTITY gen.orient.right "côté droit">
+<!ENTITY gen.width.caption "Taille">
+<!ENTITY gen.width.px "pixels">
+<!ENTITY gen.width.perc "pour cent">
+<!ENTITY gen.width.current "largeur courante">
+<!ENTITY gen.width.current.tip "Utiliser la largeur courante du panneau latéral">
+<!ENTITY gen.width.min.hint "[Maj+double clic] sur le titre du panneau latéral">
+<!ENTITY gen.width.def.hint "[Double clic] sur le titre du panneau latéral">
+<!ENTITY gen.width.max.hint "[Ctrl+double clic] ou [Alt+double clic] sur le titre du panneau latéral">
+<!ENTITY gen.init.caption "Démarrage du navigateur">
+<!ENTITY gen.init.label "Panneau latéral">
+<!ENTITY gen.init.toolbar.label "Barre d&apos;outils">
+<!ENTITY gen.init.toolbar.show.label "Afficher la barre d&apos;outils">
+<!ENTITY gen.init.toolbar.hide.label "Cacher la barre d&apos;outils">
+<!ENTITY gen.init.switch.show.label "Afficher le commutateur du panneau latéral">
+<!ENTITY gen.init.switch.hide.label "Cacher le commutateur du panneau latéral">
+<!ENTITY gen.init.mode1 "Rétablir l&apos;état tel que mémorisé">
+<!ENTITY gen.init.sidebar "Ouvrir le panneau latéral (commutateur, bouton activer/désactiver, raccourci clavier)">
+<!ENTITY gen.init.sidebar.restore "Rétablir le panneau mémorisé">
+<!ENTITY gen.switch.autoshow "Montre/cache automatiquement le panneau latéral (au passage de la souris et non sur un clic)">
+<!ENTITY gen.switch.onlymax "Seulement si le navigateur est au plus large ou en mode plein écran">
+<!ENTITY gen.switch.delay "Délai">
+<!ENTITY gen.switch.delayUnit "millisecondes">
+<!ENTITY gen.switch.hide "Cacher le panneau latéral quand le curseur…">
+<!ENTITY gen.switch.hideBar "est ramené vers la page web">
+<!ENTITY gen.switch.hidePage "est maintenu sur l&apos;interrupteur du panneau">
+<!ENTITY gen.switch.thin "Activer la ligne étroite de repli du panneau latéral">
+<!ENTITY gen.switch.width "Taille de l&apos;interrupteur du panneau latéral">
+<!ENTITY gen.switch.twidth "Taille de la ligne étroite de repli du panneau latéral">
+<!ENTITY cmode.caption "Activer/désactiver le panneau latéral">
+<!ENTITY cmode.desc "Personnaliser les éléments concernés à l&apos;ouverture/fermeture du panneau latéral suivant les différentes méthodes">
+<!ENTITY cmode.key.label "Raccourci (F4)">
+<!ENTITY cmode.tbb.label "Bouton AIOS">
+<!ENTITY cmode.close.label "Bouton de fermeture">
+<!ENTITY cmode.mode1.label "Seulement le panneau latéral">
+<!ENTITY cmode.mode2.label "Le panneau latéral et la barre d&apos;outils">
+<!ENTITY cmode.mode3.label "Le panneau latéral, la barre d&apos;outils et le bouton de repli du panneau latéral">
+<!ENTITY cmode.mode4.label "Comportement d&apos;Opéra">
+<!ENTITY gen.fs.off "Rétablir le choix antérieur quand on quitte le mode plein écran">
+<!ENTITY keyconfig.keyid "Nom">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Appliquer">
+<!ENTITY keyconfig.disable "Désactiver">
+<!ENTITY keyconfig.reset "Restaurer">
+<!ENTITY keyconfig.warn "Les changements ne concernent que les nouvelles fenêtres.">
+<!ENTITY keyconfig.onreset "Il est nécessaire de redémarrer le navigateur">
+<!ENTITY keyconfig.unrecognized "Non reconnu ($1)">
+<!ENTITY keyconfig.used "Cette touche est déjà utilisée par : \\nt$1\\n mais il est possible qu&apos;elle fonctionne tout de même.">
+<!ENTITY menus.sidebar.desc "Personnaliser les entrées dans le menu “Affichage &gt; Panneau latéral” et dans les menus déroulants des boutons du panneau latéral.">
+<!ENTITY menus.icons.label "Afficher les icônes">
+<!ENTITY menus.entries.label "Afficher les entrées">
+<!ENTITY menus.sidebar.entrydeac "Désactiver l&apos;entrée dans le panneau latéral actif">
+<!ENTITY misc.enablesidebar.label "Ouvrir dans le panneau latéral">
+<!ENTITY misc.layout.label "Optimisation de l&apos;affichage du panneau latéral">
+<!ENTITY misc.dm.overlay "Modifier les options pour le comportement du panneau latéral">
+<!ENTITY misc.dm.autoopen.label "Afficher le panneau latéral de téléchargements pendant le téléchargement d&apos;un fichier">
+<!ENTITY misc.dm.autoclose.label "Le fermer quand tous les téléchargements sont terminés">
+<!ENTITY misc.colors.label "Autorise les fonds en couleur selon l&apos;état courant">
+<!ENTITY misc.count.label "Afficher le nombre d&apos;éléments">
+<!ENTITY misc.enablelink.tooltip "Cliquer ici pour en savoir plus (lien vers la FAQ)">
+<!ENTITY misc.paneltab.reverse "Intervertir les comportements du clic gauche et du clic-milieu (molette)">
+<!ENTITY misc.bm.paneltab.desc "Le bouton d&apos;onglet pour le panneau peut ouvrir le gestionnaire de marque-pages dans un nouvel onglet et non plus dans le panneau de marque-pages.">
+<!ENTITY misc.bm.paneltab "Activer le gestionnaire de marque-pages dans un nouvel onglet">
+<!ENTITY special.collapsing.caption "Repli du panneau latéral">
+<!ENTITY special.collapsing.label "Active le repli du panneau latéral">
+<!ENTITY special.collapsing.desc "Le panneau latéral peut être replié et non pas fermé. L&apos;avantage est alors que son contenu sera conservé lorsqu&apos;il sera ouvert à nouveau.">

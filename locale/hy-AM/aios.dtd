@@ -1,0 +1,52 @@
+<!ENTITY loading.label "վահանակի բեռնում…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar Նախընտրանքներ…">
+<!ENTITY menu.togglebar.label "Կողավահանակի Փոխանջատիչ">
+<!ENTITY menu.grippy.label "Կողավահանակի բռնակ">
+<!ENTITY toolbar.name "All-in-One Sidebar Գործիքաշար">
+<!ENTITY sbhtoolbar.name "Կողավահանակի վերնագրի Գործիքաշար">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Փոխանջատել">
+<!ENTITY button.switch.tooltip1 "Կողավահանակը և Գործիքաշարը">
+<!ENTITY button.switch.tooltip2 "Գործիքաշարը">
+<!ENTITY button.switch.tooltip3 "Կողավահանակը">
+<!ENTITY sidebar.open.label "Բացել Կողավահանակը">
+<!ENTITY sidebar.close.label "Փակել Կողավահանակը">
+<!ENTITY sidebar.width.min "Նվազագույն լայնություն">
+<!ENTITY sidebar.width.def "Նորմալ լայնություն">
+<!ENTITY sidebar.width.max "Առավելագույն լայնություն">
+<!ENTITY button.menu.label "Կողավահանակի Վահանակներ">
+<!ENTITY button.menu.tooltip "Բոլոր հնարավոր վահանակները">
+<!ENTITY button.toolbar.label "AiOS-Գործիքաշար">
+<!ENTITY button.toolbar.tooltip "Փոխանջատել AiOS-Գործիքաշարը">
+<!ENTITY button.paneltab.label "Վահանակներ">
+<!ENTITY button.paneltab.tooltip1 "Բացել էջի պարունակությունը Կողավահանակում">
+<!ENTITY button.paneltab.tooltip2 "Բացել Կողավահանակի պարունակությունը նոր էջում">
+<!ENTITY button.paneltab.tooltip3 "Բացել Կողավահանակի պարունակությունը նոր Պատուհանում">
+<!ENTITY button.paneltab.menu1.label "Բացել էջը Կողավահանակում">
+<!ENTITY button.paneltab.menu2.label "Բացել Կողավահանակը Էջում">
+<!ENTITY button.autohide.label "Ավտոմատ Կողավահանակ">
+<!ENTITY button.autohide.tooltip "Ավտոմատ փոխանջատել Կողավահանակը">
+<!ENTITY button.tooltip.sidebar "Բացել Կողավահանակում">
+<!ENTITY button.tooltip.window "Բացել Պատուհանում">
+<!ENTITY button.tooltip.tab "Բացել նոր Էջում">
+<!ENTITY button.addons.label "Ավելացումներ">
+<!ENTITY button.addons.tooltip "Ցույց տալ ավելացումները և թեմաները">
+<!ENTITY button.multipanel.label "ԲազմաՎահանակ">
+<!ENTITY button.multipanel.tooltip "Ցույց տալ էջը, նրա կոդը և հատկությունները">
+<!ENTITY button.pageinfo.tooltip "Ցույց մանրամասն տեղեկություն էջի մասին">
+<!ENTITY button.console.label "Սխալների Պատուհան">
+<!ENTITY button.console.tooltip "Բացել Սխալների Պատուհանը">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Ձախից">
+<!ENTITY toolbar.pos.sidebarright.label "Աջից">
+<!ENTITY toolbar.pos.sidebartop.label "Վերևում">
+<!ENTITY toolbar.pos.headerbottom.label "Անվան տակ">
+<!ENTITY toolbar.pos.sidebarbottom.label "Ներքևում">
+<!ENTITY toolbar.mode.flexbuttons.label "Ձգվող կոճակներ">

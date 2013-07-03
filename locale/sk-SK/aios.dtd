@@ -1,0 +1,51 @@
+<!ENTITY loading.label "načítava sa panel">
+<!ENTITY menu.prefs.label "All-in-One Sidebar - Možnosti">
+<!ENTITY menu.togglebar.label "Prepínač zobrazenia bočného panela">
+<!ENTITY menu.grippy.label "Zobraziť tlačidlá na skrývanie bočného panela">
+<!ENTITY toolbar.name "Lišta All-in-One Sidebar">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Zobraziť/Skryť elementy kontrolované All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Skryť bočný panel a panel s nástrojmi">
+<!ENTITY button.switch.tooltip2 "Skryť panel s nástrojmi">
+<!ENTITY button.switch.tooltip3 "Skryť bočný panel">
+<!ENTITY sidebar.open.label "Otvoriť bočný panel">
+<!ENTITY sidebar.close.label "Zatvoriť bočný panel">
+<!ENTITY sidebar.width.min "Minimálna šírka">
+<!ENTITY sidebar.width.def "Štandardná šírka">
+<!ENTITY sidebar.width.max "Maximálna šírka">
+<!ENTITY button.menu.label "Bočné panely">
+<!ENTITY button.menu.tooltip "Všetky dostupné bočné panely">
+<!ENTITY button.toolbar.label "AiOS-panel s nátrojmi">
+<!ENTITY button.toolbar.tooltip "Skryť AiOS-panel s nátrojmi">
+<!ENTITY button.paneltab.label "Postrannú lištu do karty prehliadača">
+<!ENTITY button.paneltab.tooltip1 "Otvoriť kartu v bočnom paneli">
+<!ENTITY button.paneltab.tooltip2 "Otvoriť obsah bočného panela v novej karte">
+<!ENTITY button.paneltab.tooltip3 "Otvoriť obsah bočného panela v okne">
+<!ENTITY button.paneltab.menu1.label "Otvoriť kartu v bočnom paneli">
+<!ENTITY button.paneltab.menu2.label "Otvoriť bočný panel v karte">
+<!ENTITY button.autohide.label "Zobraziť/skryť bočný panel automaticky">
+<!ENTITY button.autohide.tooltip "Zobraziť/skryť bočný panel automaticky">
+<!ENTITY button.tooltip.sidebar "Otvoriť v bočnom paneli">
+<!ENTITY button.tooltip.window "Otvoriť v okne">
+<!ENTITY button.tooltip.tab "Otvoriť v novej karte">
+<!ENTITY button.addons.label "Rozšírenia">
+<!ENTITY button.addons.tooltip "Zobraziť nainštalované témy a rozšírenia">
+<!ENTITY button.multipanel.label "Rozšírené možnosti">
+<!ENTITY button.multipanel.tooltip "Zobraziť stránku, zdrojový kód a informácie prehliadača">
+<!ENTITY button.pageinfo.tooltip "Zobraziť informácie, formuláre, odkazy, médiá a informácie o zabezpečení">
+<!ENTITY button.console.label "Chybová konzola">
+<!ENTITY button.console.tooltip "Otvoriť chybovú konzolu, ktorá hľadá problémy so zdrojovým kódom">
+<!ENTITY keys.modifiers "accel shift">
+<!ENTITY keys.sidebar "VK_F4">
+<!ENTITY keys.options "VK_F4">
+<!ENTITY keys.paneltab1 "X">
+<!ENTITY keys.paneltab2 "Y">
+<!ENTITY keys.addons "A">
+<!ENTITY keys.multipanel "M">
+<!ENTITY keys.pageinfo "P">
+<!ENTITY toolbar.pos.sidebarleft.label "Vľavo pri bočnom paneli">
+<!ENTITY toolbar.pos.sidebarright.label "Vpravo pri bočnom paneli">
+<!ENTITY toolbar.pos.sidebartop.label "Nad bočným panelom">
+<!ENTITY toolbar.pos.headerbottom.label "Pod hlavičkou bočného panela">
+<!ENTITY toolbar.pos.sidebarbottom.label "Pod bočným panelom">
+<!ENTITY toolbar.mode.flexbuttons.label "Vyplniť voľný priestor tlačidlami">

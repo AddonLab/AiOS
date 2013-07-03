@@ -1,0 +1,92 @@
+<!ENTITY title "All-In-One Sidebar 설정">
+<!ENTITY restart "브라우저를 다시 시작해야 적용됩니다.">
+<!ENTITY settings "설정">
+<!ENTITY settings.default "기본값으로 되돌리기…">
+<!ENTITY settings.advanced "고급 기능 쓰기">
+<!ENTITY settings.import "설정 가져오기…">
+<!ENTITY settings.export "설정 내보내기…">
+<!ENTITY settings.copy "설정을 클립보드에 복사하기">
+<!ENTITY apply "적용">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "일반">
+<!ENTITY tab.gen.appearance "모양">
+<!ENTITY tab.gen.behavior "동작">
+<!ENTITY tab.gen.fullscreen "전체 화면 상태">
+<!ENTITY tab.gen.special "특수">
+<!ENTITY tab.panels "패널">
+<!ENTITY tab.panels.places "북마크/방문 기록">
+<!ENTITY tab.panels.other1 "기타 1">
+<!ENTITY tab.panels.other2 "기타 2">
+<!ENTITY tab.panels.paneltab "패널탭">
+<!ENTITY tab.menus "메뉴">
+<!ENTITY tab.menus.sidebar "탐색 창">
+<!ENTITY tab.keys "단축키">
+<!ENTITY gen.orient.caption "위치">
+<!ENTITY gen.orient.label "탐색 창을">
+<!ENTITY gen.orient.left "왼쪽에 표시">
+<!ENTITY gen.orient.right "오른쪽에 표시">
+<!ENTITY gen.width.caption "너비">
+<!ENTITY gen.width.px "픽셀">
+<!ENTITY gen.width.perc "퍼센트">
+<!ENTITY gen.width.current "현재 너비로 설정">
+<!ENTITY gen.width.current.tip "탐색 창의 현재 너비를 사용합니다.">
+<!ENTITY gen.width.min.hint "탐색 창의 제목표시줄을 [Shift+두번 클릭]">
+<!ENTITY gen.width.def.hint "탐색 창의 제목표시줄을 [두번 클릭]">
+<!ENTITY gen.width.max.hint "탐색 창의 제목표시줄을[Ctrl+두번 클릭] 및 [Alt+두번 클릭]">
+<!ENTITY gen.init.caption "브라우저를 시작할 때">
+<!ENTITY gen.init.label "탐색 창">
+<!ENTITY gen.init.toolbar.label "도구 모음">
+<!ENTITY gen.init.toolbar.show.label "도구 모음 보이기">
+<!ENTITY gen.init.toolbar.hide.label "도구 모음 숨기기">
+<!ENTITY gen.init.switch.show.label "탐색 창 스위치 보이기">
+<!ENTITY gen.init.switch.hide.label "탐색 창 스위치 숨기기">
+<!ENTITY gen.init.mode1 "이전 상태로 되돌리기">
+<!ENTITY gen.init.sidebar "탐색 창 열기 (탐색 창 스위치, 토글 버튼, 단축키)">
+<!ENTITY gen.init.sidebar.restore "이전 패널로 되돌리기">
+<!ENTITY gen.switch.autoshow "탐색 창을 자동으로 보이기/숨기기 (마우스 클릭 대신 마우스 접촉으로)">
+<!ENTITY gen.switch.onlymax "브라우저 창이 최대화 상태이거나 전체화면 상태일 때만">
+<!ENTITY gen.switch.delay "지연 시간">
+<!ENTITY gen.switch.delayUnit "밀리초">
+<!ENTITY gen.switch.hide "탐색 창을 숨길 때 마우스 커서를…">
+<!ENTITY gen.switch.hideBar "웹페이지로 옮기기">
+<!ENTITY gen.switch.hidePage "탐색 창 스위치 위에 두기">
+<!ENTITY gen.switch.thin "얇은 탐색 창 스위치 쓰기">
+<!ENTITY gen.switch.width "탐색 창 스위치의 너비">
+<!ENTITY gen.switch.twidth "얇은 탐색 창 스위치의 너비">
+<!ENTITY cmode.caption "탐색창 토글">
+<!ENTITY cmode.desc "다양한 방법으로 탐색 창을 열거나 닫을 때 함께 열리거나 닫힐 것들을 설정하십시오.">
+<!ENTITY cmode.key.label "단축키(F4)">
+<!ENTITY cmode.tbb.label "AiOS 버튼">
+<!ENTITY cmode.close.label "닫기 버튼">
+<!ENTITY cmode.mode1.label "탐색 창만">
+<!ENTITY cmode.mode2.label "탐색 창과 도구 모음">
+<!ENTITY cmode.mode3.label "탐색 창, 도구 모음, 탐색 창 스위치">
+<!ENTITY cmode.mode4.label "Opera처럼 동작">
+<!ENTITY gen.fs.off "전체 화면 상태 종료 후 이전 상태로 되돌리기">
+<!ENTITY keyconfig.keyid "이름">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "적용">
+<!ENTITY keyconfig.disable "안 쓰기">
+<!ENTITY keyconfig.reset "초기화">
+<!ENTITY keyconfig.warn "바뀐 사항은 새 창에서부터 적용됩니다.">
+<!ENTITY keyconfig.onreset "브라우저를 다시 시작해야 합니다.">
+<!ENTITY keyconfig.unrecognized "인식되지 않음 ($1)">
+<!ENTITY keyconfig.used "이 키는 \\n\\n\\t$1이\\n\\n쓰고 있으므로 동작하지 않을듯합니다.">
+<!ENTITY menus.sidebar.desc "\'보기 &gt; 탐색 창\' 메뉴의 항목들과 탐색 창 버튼의 내리펼침 메뉴의 항목들을 설정하세요.">
+<!ENTITY menus.icons.label "아이콘 보이기">
+<!ENTITY menus.entries.label "목록 보이기">
+<!ENTITY menus.sidebar.entrydeac "역동적인 탐색 창 목록을 안 쓰기">
+<!ENTITY misc.enablesidebar.label "탐색 창 안에 열기">
+<!ENTITY misc.layout.label "탐색 창에 알맞은 모양으로 바꾸기">
+<!ENTITY misc.dm.overlay "탐색 창의 동작에 관한 설정을 변경">
+<!ENTITY misc.dm.autoopen.label "파일을 다운로드할 때 다운로드 탐색 창 보이기">
+<!ENTITY misc.dm.autoclose.label "다운로드가 모두 끝나면 탐색 창을 닫기">
+<!ENTITY misc.colors.label "현재 상태를 기초로 한 색깔있는 배경 쓰기">
+<!ENTITY misc.count.label "항목의 수 보이기">
+<!ENTITY misc.enablelink.tooltip "더 많은 정보를 보려면 여기를 클릭하십시오 (FAQ로 가는 링크)">
+<!ENTITY misc.paneltab.reverse "왼쪽 클릭과 가운데 클릭의 동작을 서로 바꾸기">
+<!ENTITY misc.bm.paneltab.desc "\'패널탭\' 버튼으로 북마크 패널 대신 북마크 관리자를 새 탭으로 열 수 있습니다.">
+<!ENTITY misc.bm.paneltab "새 탭에 북마크 관리자를 여는 것을 허용">
+<!ENTITY special.collapsing.caption "탐색 창 접기">
+<!ENTITY special.collapsing.label "탐색 창 접기 쓰기">
+<!ENTITY special.collapsing.desc "탐색 창을 닫지 않고 접을 수 있습니다. 탐색 창 접기를 쓰면 탐색 창을 다시 열 때 내용물을 다시 읽어 오지 않는 이점이 있습니다.">

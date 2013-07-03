@@ -1,0 +1,26 @@
+#commandBar{padding:1px 2px 2px 2px;}
+#ssrSidebar-mitem{margin-left:13px;}
+#page-button .toolbarbutton-menubutton-button,#about-button .toolbarbutton-menubutton-button,#toolsButton{-moz-box-orient:horizontal;list-style-image:url(../icons/panels_menus.png);}
+page[aios-appOS="WINNT"] #page-button .toolbarbutton-menubutton-button{-moz-image-region:rect(0, 80px, 16px, 64px);}
+page[aios-appOS="WINNT"] #about-button .toolbarbutton-menubutton-button{-moz-image-region:rect(0, 96px, 16px, 80px);}
+page[aios-appOS="WINNT"] #toolsButton{-moz-image-region:rect(0, 16px, 16px, 0);}
+page[aios-appOS="Darwin"] #page-button .toolbarbutton-menubutton-button{-moz-image-region:rect(32px, 80px, 48px, 64px);}
+page[aios-appOS="Darwin"] #about-button .toolbarbutton-menubutton-button{-moz-image-region:rect(32px, 96px, 48px, 80px);}
+page[aios-appOS="Darwin"] #toolsButton{-moz-image-region:rect(32px, 16px, 48px, 0);}
+page:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) #page-button .toolbarbutton-menubutton-button{-moz-image-region:rect(64px, 80px, 80px, 64px);}
+page:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) #about-button .toolbarbutton-menubutton-button{-moz-image-region:rect(64px, 96px, 80px, 80px);}
+page:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) #toolsButton{-moz-image-region:rect(64px, 16px, 80px, 0);}
+page[aios-appDefTheme="true"]{}page[aios-appDefTheme="true"][aios-appOS="WINNT"]{}page[aios-appDefTheme="true"][aios-appOS="WINNT"] #commandBar{border-top:1px solid ThreedHighlight;border-bottom:1px solid ThreedShadow;}
+page[aios-appDefTheme="true"][aios-appOS="WINNT"] #toolsButton dropmarker image{margin:0 2px 0 3px;}
+page[aios-appDefTheme="true"][aios-appOS="WINNT"] .toolbarbutton-1{margin-right:5px;}page[aios-appDefTheme="true"][aios-appOS="WINNT"] .toolbarbutton-1 label{padding-left:4px;padding-right:1px;}
+page[aios-appDefTheme="true"][aios-appOS="WINNT"][aios-appOSVersion="Windows NT 5.1"] #commandBar{padding-top:2px;}
+page[aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme){}page[aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme)[aios-appOSVersion="Windows NT 5.1"] #commandBar{padding-top:1px;background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));}
+page[aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme):not([aios-appOSVersion="Windows NT 5.1"]) #commandBar{background-color:#eef3fa;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] #commandBar{padding:8px 0 11px 2px;background-color:#D4DDE5;}page[aios-appDefTheme="true"][aios-appOS="Darwin"] #commandBar:-moz-window-inactive{background-color:#e8e8e8;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton:-moz-window-inactive{opacity:0.5;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton.toolbarbutton-1{border-radius:4px;background:-moz-linear-gradient(top, #ffffff, #adadad) repeat-x;}page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton.toolbarbutton-1:-moz-window-inactive{opacity:0.8;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton.toolbarbutton-1[checked="true"]{padding-left:4px;padding-right:4px;box-shadow:inset #2a2a2a 0 3px 3.5px,0 1px rgba(255, 255, 255, 0.4);}page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton.toolbarbutton-1[checked="true"] .toolbarbutton-menubutton-button,page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton.toolbarbutton-1[checked="true"] .toolbarbutton-menubutton-dropmarker{-moz-appearance:none;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton.toolbarbutton-1 .toolbarbutton-icon{margin-top:2px;margin-bottom:0;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton#toolsButton{-moz-appearance:none;padding:1px 5px;border:1px solid #7F7F7F;border-radius:10px;background:-moz-linear-gradient(top, #ffffff, #adadad) repeat-x;}page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton#toolsButton image{margin-right:6px;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton#toolsButton label{margin:0;}
+page[aios-appDefTheme="true"][aios-appOS="Darwin"] toolbarbutton#toolsButton .dropmarker-icon{margin:2px 0 0 1px;}

@@ -1,0 +1,376 @@
+
+/* @group GUI, Buttons */
+
+radio {
+    
+    &[pane=aiosGeneral],
+    &[pane=aiosPanels],
+    &[pane=aiosMenus],
+    &[pane=aiosKeys],
+    &[pane=aiosAbout] {
+        list-style-image: url(../icons/prefs.png);
+    }
+    
+    &[pane=aiosGeneral] {
+        -moz-image-region: rect(0, 32px, 32px, 0);
+    }
+    
+    &[pane=aiosPanels] {
+        -moz-image-region: rect(0, 64px, 32px, 32px);
+    }
+    
+    &[pane=aiosMenus] {
+        -moz-image-region: rect(0, 96px, 32px, 64px);
+    }
+    
+    &[pane=aiosKeys] {
+        -moz-image-region: rect(0, 128px, 32px, 96px);
+    }
+    
+    &[pane=aiosAbout] {
+        -moz-image-region: rect(0, 160px, 32px, 128px);
+    }
+    
+}
+
+#obj-minWidthVal,
+#obj-defWidthVal,
+#obj-maxWidthVal {
+    width: 45px;
+}
+
+#obj-minWidthUnit,
+#obj-defWidthUnit,
+#obj-maxWidthUnit {
+    min-width: 80px;
+}
+
+.arrow-lft {
+    list-style-image: url(../img/arrow.gif);
+    
+    image {
+        -moz-transform: rotate(90deg);
+        margin-left: 2px;
+    }
+    
+    label {
+        padding-bottom: 2px;
+    }
+}
+
+#aios-settings-button image {
+    list-style-image: url(../img/arrow.gif);
+    -moz-transform: rotate(180deg);
+    margin-left: 5px;
+}
+
+/* @end */
+
+
+
+
+/* @group Shortcut Pane */
+
+treechildren {
+    
+    &::-moz-tree-row(odd) {
+        background-color: ButtonFace;
+        border-top: 1px solid ButtonFace;
+        border-bottom: 1px solid ButtonFace;
+    }
+    
+    &::-moz-tree-row(selected),
+    &::-moz-tree-row(odd, selected)  {
+        background-color: Highlight;
+    }
+    
+    /* Style different keys differently */
+    &::-moz-tree-cell-text(hardcoded) {
+        color: GrayText;
+    }
+    
+    &::-moz-tree-cell-text(disabled) {
+        text-decoration: line-through;
+    }
+    
+    &::-moz-tree-cell-text(user) {
+        font-weight: bold;
+    }
+    
+    &::-moz-tree-cell-text(duplicate) {
+        color: #FF0000;
+        font-weight: bold;
+    }
+    
+    &::-moz-tree-cell-text(custom) {
+        font-style: italic;
+    }
+}
+
+/* @end */
+
+
+
+
+/* @group Styles */
+
+.indent {
+    margin-left: 1.8em;
+}
+
+.spacer {
+    margin-top: 10px;
+}
+
+.link {
+    color: #0000FF;
+    cursor: pointer;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+#aiosKeys .link {
+    margin: 1px 0;
+    
+    &:hover {
+        margin: 1px 0 0 0;
+        border-bottom: 1px solid #0000FF;
+        text-decoration: none;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* @end */
+
+
+
+
+/* @group Tooltips */
+
+.labelTipElem {
+    -moz-box-orient: vertical;
+    
+    box {
+        width: 260px;
+        max-width: 260px;
+        height: 31px;
+        margin-top: 10px;
+        background: url(../img/sidebarheader.gif) no-repeat;
+    }
+}
+
+.labelTip,
+.labelTip > label {
+    cursor: help;
+}
+
+.labelTip > label {
+    border-bottom: 1px dotted;
+}
+
+
+prefwindow {
+    
+    &:-moz-system-metric(windows-default-theme) {
+        
+        .labelTipElem box {
+            height: 27px;
+            background-position: 0 -31px;
+        }
+        
+        
+        &[aios-appOSVersion="Windows NT 5.1"] {
+            
+            .labelTipElem box {
+                height: 27px;
+                background-position: 0 -59px;
+            }
+            
+        }
+    
+    }
+    
+    
+    &[aios-appOS="Darwin"] {
+        
+        .labelTipElem box {
+            height: 28px;
+            background-position: -260px 0;
+        }
+        
+    }
+    
+    
+    &:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
+        
+        .labelTipElem box {
+            height: 30px;
+            background-position: -520px 0;
+        }
+        
+    }
+    
+}
+
+toolbarbutton.info {
+    -moz-appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-image: url(../img/info.png);
+    
+    label {
+        display: none;
+    }
+}
+
+/* @end */
+
+
+
+
+/* @group Advanced Mode */
+
+
+.aiosAdvanced label,
+*[aiosAdvanced="true"] caption label,
+*[aiosAdvanced="true"] > label,
+checkbox[aiosAdvanced="true"] label,
+vbox[aiosAdvanced="true"] > checkbox label,
+vbox[aiosAdvanced="true"] radio label,
+vbox[aiosAdvanced="true"] > hbox > checkbox label {
+    color: #FF0000;
+}
+
+/* @end */
+
+
+
+
+/* @group Button in den Allg. Firefox-Optionen */
+
+#aiosDownloadsBox {
+    margin-bottom: 10px;
+}
+
+/* @end */
+
+
+
+
+/* @group About */
+
+#aiosPreferences #aiosAbout {
+    
+    #aboutHeader,
+    #aboutHeaderMac {
+        display: none;
+    }
+    
+}
+
+#aiosAbout:not([aios-appOS="Darwin"]) {
+    
+    #aboutHeaderMac {
+        display: none;
+    }
+    
+}
+
+#aiosAbout[aios-appOS="Darwin"] {
+    
+    #aboutHeader {
+        display: none;
+    }
+    
+    tabpanel {
+        padding-top: 30px;
+    }
+    
+    description {
+        font-size: 13px;
+    }
+    
+}
+
+#aiosAbout {
+    
+    #aboutHeader {
+        margin: 0 0 10px 0;
+    }
+    
+     #aboutHeaderMac {
+        margin: 10px 0 15px 0;
+        
+        #macTitle {
+            -moz-box-flex: 1;
+            font-size: 150%;
+            font-weight: bold;
+        }
+        
+        #macVersion {
+            margin-top: 6px;
+        }
+    }
+    
+    tabbox {
+        margin-bottom: 10px;
+    }
+    
+    tabpanels {
+        margin: 0;
+        padding: 0;
+        
+        tabpanel {
+            padding: 13px;
+            
+             description {
+                margin: 0;
+                line-height: 1.3em;
+            }
+            
+            menuseparator {
+                margin: 10px 0;
+            }
+        }
+        
+    }
+    
+    vbox.websites toolbarbutton {
+        -moz-appearance: none;
+        margin: 2px 0;
+        border: none;
+        cursor: pointer;
+        list-style-image: url(../img/info.png);
+        
+        label {
+            text-align: left;
+            color: #0000FF;
+            text-decoration: none;
+        }
+        
+        &:hover label {
+            text-decoration: underline;
+        }
+    }
+    
+    #paypal {
+        cursor: pointer;
+        
+        image {
+            margin-left: 10px;
+        }
+    }
+    
+    separator.groove {
+        margin: 10px 0 !important;
+    }
+    
+}
+
+/* @end */

@@ -1,0 +1,11 @@
+<!ENTITY page.label "Faqja">
+<!ENTITY page.tooltip "Hape faqen në këtë panel">
+<!ENTITY page.ssr100.label "Adapto në gjerësinë e shiritit anësor">
+<!ENTITY about.label "rreth">
+<!ENTITY about.plugins.tooltip "Shfaq informacionet mbi të gjitha shtesat e instaluara">
+<!ENTITY about.about.tooltip "Shfaq informata mbi versionin dhe të drejtat e autorit">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Shfaq listën e të gjithë atyre që kontribuuan tek Mozilla">
+<!ENTITY about.license.tooltip "Paraqit Licencën Publike të Mozilla-s">
+<!ENTITY about.mozilla.tooltip "Paraqet faqe nga libri fiktiv i Mozilla-s">
+<!ENTITY tools.remlast.label "Mbaj mend përmbajtjen e herës së kaluar">

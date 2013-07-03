@@ -1,0 +1,21 @@
+<!ENTITY page.label "Страница">
+<!ENTITY page.tooltip "Открыть веб-страницу в этой панели">
+<!ENTITY page.ssr.label "Режим рендеринга для маленьких экранов">
+<!ENTITY page.ssr100.label "Адаптировать к ширине боковой панели">
+<!ENTITY about.label "about:">
+<!ENTITY about.tooltip "Показывает различную информацию о браузере">
+<!ENTITY about.config.tooltip "Открыть интерфейс для просмотра и настройки множества параметров">
+<!ENTITY about.plugins.tooltip "Показать информацию обо всех установленных плагинах">
+<!ENTITY about.support.tooltip "Показать сведения о приложении, расширения и изменённые настройки">
+<!ENTITY about.cache.tooltip "Показать сводную информацию о кэше в памяти и на диске">
+<!ENTITY about.cache.disk.tooltip "Показать элементы кэша на диске">
+<!ENTITY about.cache.memory.tooltip "Показать элементы кэша в памяти">
+<!ENTITY about.cache.offline.tooltip "Список хранящихся элементов кэша">
+<!ENTITY about.crashes.tooltip "Показать представленные сообщения об аварийных отказах браузера">
+<!ENTITY about.buildconfig.tooltip "Показать аргументы и параметры, использованные при компиляции сборки">
+<!ENTITY about.about.tooltip "Показать информацию о версии программы и авторских правах">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
+<!ENTITY about.credits.tooltip "Показать список тех людей, которые содействовали проектам Mozilla">
+<!ENTITY about.license.tooltip "Открыть Mozilla Public License">
+<!ENTITY about.mozilla.tooltip "Показать отрывок из Книги Mozilla">
+<!ENTITY tools.remlast.label "Запоминать содержимое боковой панели, отображённое в последний раз">

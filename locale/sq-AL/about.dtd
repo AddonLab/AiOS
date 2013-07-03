@@ -1,0 +1,59 @@
+<!ENTITY title "Rreth All-in-One Sidebar">
+<!ENTITY version "versioni">
+<!ENTITY settings "Parapëlqimet...">
+<!ENTITY close "Mbylle">
+<!ENTITY tab.about "Rreth">
+<!ENTITY tab.help "Ndihmë">
+<!ENTITY tab.contrib "Kontribuuesit">
+<!ENTITY tab.trans "Përkthyesit">
+<!ENTITY about.desc "\&quot;All-in-One Shiriti Anësor\&quot; ju mundëson hapjen e dritareve të ndryshme si panele të shiritit anësor dhe kalimin e shpejtë nëpër to. Pra, i jep fund kaosit të dritareve. Sa i përket faqeve favorite dhe historisë, hap dialogje sikur shkarkimet, shtesat si dhe më shumë në shiritin anësor.">
+<!ENTITY create.desc "u krijua nga Ingo Wennemaring, Hamburg [Gjermani]">
+<!ENTITY help.desc "Më shumë informata rreth shtesës tek faqja:">
+<!ENTITY about1.name "Uebfaqja - shumë informata në një vend">
+<!ENTITY about2.name "Funksionet - të gjitha funksionet e \&quot;All-in-One-Sidebar\&quot;">
+<!ENTITY about3.name "FAQ - pyetjet e bëra më shpesh dhe përgjigjet e tyre">
+<!ENTITY about4.name "Çështjet e njohura - përshkrimet dhe problemet">
+<!ENTITY about5.name "Forumi - diskutime, raportim i problemeve dhe përmirësim i pjesëve me gabime">
+<!ENTITY about6.name "Ndryshimet - historia dhe ndryshimet">
+<!ENTITY about7.name "Të-bëj- funksionet dhe përmirësimet e planifikuara">
+<!ENTITY contrib.desc "I faleminderit programuesit në vijim për për inspirimin dhe copëzat [radhitja alfabetike]:">
+<!ENTITY contrib.thanks "I faleminderit të gjithë përdoruesit të cilët më ndihmuan në testimit gjatë zhvillimit, raportimin e problemeve në forum, dhënien e ideve dhe sugjerimeve ose atyre që sëpaku shkruan komente te mira. :-) Faleminderit shumë.">
+<!ENTITY trans.desc "Përkthyesit e \&quot;All-in-One Shiritit Anësor\&quot; [radhitja alfabetike sipas gjuhës]:">
+<!ENTITY trans.ar-SA.lang "Arabisht">
+<!ENTITY trans.be-BY.lang "Bjellorusisht">
+<!ENTITY trans.cs-CZ.lang "Çekisht">
+<!ENTITY trans.da-DK.lang "Danisht">
+<!ENTITY trans.de-DE.lang "Gjermanisht">
+<!ENTITY trans.el-GR.lang "Greqisht">
+<!ENTITY trans.en-GB.lang "Anglisht (MB)">
+<!ENTITY trans.en-US.lang "Anglisht (ShBA)">
+<!ENTITY trans.es-AR.lang "Spanjisht (Argjentinë)">
+<!ENTITY trans.es-ES.lang "Spanjisht (Spanjë)">
+<!ENTITY trans.et-EE.lang "Estonisht">
+<!ENTITY trans.fi-FI.lang "Finlandisht">
+<!ENTITY trans.fr-FR.lang "Frëngjisht">
+<!ENTITY trans.he-IL.lang "Hebraike">
+<!ENTITY trans.hr-HR.lang "Kroatisht">
+<!ENTITY trans.hu-HU.lang "Hungarisht">
+<!ENTITY trans.hy-AM.lang "Armenisht">
+<!ENTITY trans.it-IT.lang "Italisht">
+<!ENTITY trans.ja-JP.lang "Japonisht">
+<!ENTITY trans.ko-KR.lang "Koreane">
+<!ENTITY trans.lt-LT.lang "Lituanisht">
+<!ENTITY trans.nb-NO.lang "Norvegjisht">
+<!ENTITY trans.nl-NL.lang "Holandisht">
+<!ENTITY trans.pl-PL.lang "Polonisht">
+<!ENTITY trans.pt-BR.lang "Portugalisht (Brazil)">
+<!ENTITY trans.pt-PT.lang "Portugalisht (Portugali)">
+<!ENTITY trans.ro-RO.lang "Rumanisht">
+<!ENTITY trans.ru-RU.lang "Rusisht">
+<!ENTITY trans.sk-SK.lang "Sllovakisht">
+<!ENTITY trans.sq-AL.lang "Shqip">
+<!ENTITY trans.sr-RS.lang "Serbisht (Cirilikë)">
+<!ENTITY trans.sv-SE.lang "Suedisht">
+<!ENTITY trans.tr-TR.lang "Turqisht">
+<!ENTITY trans.uk-UA.lang "Ukrainase">
+<!ENTITY trans.vi-VN.lang "Vietnamisht">
+<!ENTITY trans.zh-CN.lang "Kinezisht (E thjeshtësuar)">
+<!ENTITY trans.zh-TW.lang "Kinezisht (tradicionale)">
+<!ENTITY trans.thanks "Falënderoj ekipin e BabelZilla.org për punën e tyre të mrekullueshme!">

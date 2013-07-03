@@ -1,0 +1,834 @@
+<?xml version="1.0"?>
+
+<!-- skin -->
+<?xml-stylesheet href="chrome://global/skin/global.css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://aios/skin/css/prefs.css"?>
+
+<!-- locale -->
+<!DOCTYPE prefwindow [
+    <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
+
+    <!ENTITY % commonDTD SYSTEM "chrome://aios/content/aios.dtd"> %commonDTD;
+    <!ENTITY % prefsDTD SYSTEM "chrome://aios/locale/prefs.dtd"> %prefsDTD;
+    <!ENTITY % aiosDTD SYSTEM "chrome://aios/locale/aios.dtd"> %aiosDTD;
+    <!ENTITY % webpanelDTD SYSTEM "chrome://aios/locale/webpanel.dtd"> %webpanelDTD;
+]>
+
+<prefwindow id="aiosPreferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    title = "&title;"
+    persist = "screenX screenY"
+    buttons = "accept,cancel,extra2,extra1,disclosure"
+    style = "min-width: 45em; max-width: 780px;"
+    buttonlabelextra2 = "&settings;"
+    buttonlabelextra1 = "&apply;"
+
+    onload = "aios_initPrefs();"
+    ondialogaccept = "aios_savePrefs();"
+    ondialogextra1 = "aios_applyPrefs();"
+    ondialogdisclosure = "aios_addTab('http://firefox.exxile.net/aios/faq.php');">
+
+    <box>
+
+        <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
+        <script type="application/x-javascript" src="chrome://aios/content/prefs/prefs.js" />
+
+        <stringbundleset>
+            <stringbundle id="aiosStrings" src="chrome://aios/locale/lib.properties" />
+        </stringbundleset>
+
+        <popupset>
+            <menupopup id="aios-settings-popup" position="before_start">
+                <menuitem id="aios-defaults" label="&settings.default;" oncommand="aios_defaultSettings();" />
+                <menuitem id="aios-advanced" label="&settings.advanced;" class="aiosAdvanced" type="checkbox"
+                    autoCheck="false" persist="checked" oncommand="aios_advancedMode(true);" />
+
+                <menuseparator />
+
+                <menuitem id="aios-export" label="&settings.export;" oncommand="aios_exportSettings('save');" />
+                <menuitem id="aios-import" label="&settings.import;" oncommand="aios_importSettings();" />
+                <menuitem id="aios-copy" label="&settings.copy;" oncommand="aios_exportSettings('copy');" />
+            </menupopup>
+        </popupset>
+
+    </box>
+
+
+<!-- G E N E R A L -->
+
+    <prefpane id="aiosGeneral" label="&tab.gen;" flex="1" seltab="0" persist="seltab" onpaneload="aios_initPane('general');">
+
+        <script type="application/x-javascript" src="chrome://aios/content/prefs/general.js"/>
+
+        <preferences>
+            <preference id="sidebarOrient"  type="int"          name="extensions.aios.gen.orient" />
+
+            <preference id="minWidthVal" 	type="int"          name="extensions.aios.gen.width.minVal" />
+            <preference id="minWidthUnit" 	type="string"       name="extensions.aios.gen.width.minUnit" />
+
+            <preference id="defWidthVal" 	type="int"          name="extensions.aios.gen.width.defVal" />
+            <preference id="defWidthUnit" 	type="string"       name="extensions.aios.gen.width.defUnit" />
+
+            <preference id="maxWidthVal" 	type="int"          name="extensions.aios.gen.width.maxVal" />
+            <preference id="maxWidthUnit" 	type="string"       name="extensions.aios.gen.width.maxUnit" />
+
+            <preference id="sidebarInit" 	type="string"       name="extensions.aios.gen.init" />
+            <preference id="toolbarInit" 	type="int"          name="extensions.aios.gen.toolbar.init" />
+            <preference id="switchInit" 	type="int"          name="extensions.aios.gen.switch.init" />
+
+            <preference id="openInit" 		type="string"       name="extensions.aios.gen.open.init" />
+
+            <preference id="FSSidebar" 		type="bool"         name="extensions.aios.fs.sidebar" />
+            <preference id="FSToolbar" 		type="bool"         name="extensions.aios.fs.toolbar" />
+            <preference id="FSSwitch" 		type="bool"         name="extensions.aios.fs.switch" />
+            <preference id="FSRestore" 		type="bool"         name="extensions.aios.fs.restore" />
+
+            <preference id="SSAutoshow" 	type="bool"         name="extensions.aios.gen.switch.autoshow" />
+            <preference id="SSOnlymax" 		type="bool"         name="extensions.aios.gen.switch.onlymax" />
+            <preference id="SSDelay" 		type="int"          name="extensions.aios.gen.switch.delay" />
+            <preference id="SSHidemethod" 	type="int"          name="extensions.aios.gen.switch.hidemethod" />
+            <preference id="SSWidth" 		type="int"          name="extensions.aios.gen.switch.width" />
+            <preference id="SSThinWidth" 	type="int"          name="extensions.aios.gen.switch.twidth" />
+            <preference id="SSThin" 		type="bool"         name="extensions.aios.gen.switch.thin" />
+            <preference id="SSThinMax" 		type="bool"         name="extensions.aios.gen.switch.thinmax" />
+
+            <preference id="cmodeKey" 		type="int"          name="extensions.aios.cmode.key" />
+            <preference id="cmodeSwitch" 	type="int"          name="extensions.aios.cmode.switch" />
+            <preference id="cmodeTbb" 		type="int"          name="extensions.aios.cmode.tbb" />
+            <preference id="cmodeClose" 	type="int"          name="extensions.aios.cmode.close" />
+
+            <preference id="SBCollapsing" 	type="bool"         name="extensions.aios.collapse" />
+        </preferences>
+
+        <tooltip id="minWidthHint" class="labelTipElem">
+            <label value="&gen.width.min.hint;" />
+            <box />
+        </tooltip>
+
+        <tooltip id="defWidthHint" class="labelTipElem">
+            <label value="&gen.width.def.hint;" />
+            <box />
+        </tooltip>
+
+        <tooltip id="maxWidthHint" class="labelTipElem">
+            <label value="&gen.width.max.hint;" />
+            <box />
+        </tooltip>
+
+        <tabbox flex="1" id="aiosTabboxGeneral">
+
+            <tabs onclick="aios_synchTabs(this);">
+                <tab label="&tab.gen.appearance;" />
+                <tab label="&tab.gen.behavior;" />
+                <tab label="&menu.togglebar.label;" />
+            </tabs>
+
+            <tabs onclick="aios_synchTabs(this);" aiosAdvanced="true">
+                <tab label="&tab.gen.appearance;" />
+                <tab label="&tab.gen.behavior;" />
+                <tab label="&menu.togglebar.label;" />
+                <tab label="&tab.gen.special;" class="aiosAdvanced" />
+            </tabs>
+
+            <tabpanels flex="1" id="panelTest">
+
+
+<!-- TAB: Appearance -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox">
+
+<!-- Orientation -->
+                        <groupbox>
+                            <caption label="&gen.orient.caption;" />
+
+                            <grid flex="1">
+                                <columns>
+                                    <column style="width:&gen.column1;px;" />
+                                    <column flex="1" />
+                                </columns>
+
+                                <rows>
+
+                                    <row align="center">
+                                        <label value="&gen.orient.label;" />
+
+                                        <menulist preference="sidebarOrient">
+                                            <menupopup>
+                                                <menuitem label="&gen.orient.left;" value="1" />
+                                                <menuitem label="&gen.orient.right;" value="2" />
+                                            </menupopup>
+                                        </menulist>
+                                    </row>
+
+                                </rows>
+                            </grid>
+                        </groupbox>
+
+<!-- Size -->
+                        <groupbox>
+                            <caption label="&gen.width.caption;" />
+
+                            <grid flex="1">
+                                <columns>
+                                    <column style="width:&gen.column1;px;" />
+                                    <column flex="1" />
+                                </columns>
+
+                                <rows>
+
+                                    <row align="center">
+                                        <hbox tooltip="minWidthHint" class="labelTip">
+                                            <label value="&sidebar.width.min;" />
+                                            <spacer flex="1" />
+                                            <toolbarbutton class="info" />
+                                        </hbox>
+
+                                        <hbox>
+                                            <textbox id="obj-minWidthVal" preference="minWidthVal" onblur="aios_checkWidthVal('min');" />
+
+                                            <menulist id="obj-minWidthUnit" preference="minWidthUnit" flex="1">
+                                                <menupopup>
+                                                    <menuitem label="&gen.width.px;" value="px" />
+                                                    <menuitem label="&gen.width.perc;" value="%" />
+                                                </menupopup>
+                                            </menulist>
+
+                                            <toolbarbutton label="&gen.width.current;" tooltiptext="&gen.width.current.tip;"
+                                                oncommand="aios_setWidthVal('min');" class="arrow-lft" />
+                                        </hbox>
+                                    </row>
+
+                                    <row align="center">
+                                        <hbox tooltip="defWidthHint" class="labelTip">
+                                            <label value="&sidebar.width.def;" />
+                                            <spacer flex="1" />
+                                            <toolbarbutton class="info" />
+                                        </hbox>
+
+                                        <hbox>
+                                            <textbox id="obj-defWidthVal" preference="defWidthVal" onblur="aios_checkWidthVal('def');" />
+
+                                            <menulist id="obj-defWidthUnit" preference="defWidthUnit" flex="1">
+                                                <menupopup>
+                                                    <menuitem label="&gen.width.px;" value="px" />
+                                                    <menuitem label="&gen.width.perc;" value="%" />
+                                                </menupopup>
+                                            </menulist>
+
+                                            <toolbarbutton label="&gen.width.current;" tooltiptext="&gen.width.current.tip;"
+                                                oncommand="aios_setWidthVal('def');" class="arrow-lft" />
+                                        </hbox>
+                                    </row>
+
+                                    <row align="center">
+                                        <hbox tooltip="maxWidthHint" class="labelTip">
+                                            <label value="&sidebar.width.max;" />
+                                            <spacer flex="1" />
+                                            <toolbarbutton class="info" />
+                                        </hbox>
+
+                                        <hbox>
+                                            <textbox id="obj-maxWidthVal" preference="maxWidthVal" onblur="aios_checkWidthVal('max');" />
+
+                                            <menulist id="obj-maxWidthUnit" preference="maxWidthUnit" flex="1">
+                                                <menupopup>
+                                                    <menuitem label="&gen.width.px;" value="px" />
+                                                    <menuitem label="&gen.width.perc;" value="%" />
+                                                </menupopup>
+                                            </menulist>
+
+                                            <toolbarbutton label="&gen.width.current;" tooltiptext="&gen.width.current.tip;"
+                                                oncommand="aios_setWidthVal('max');" class="arrow-lft" />
+                                        </hbox>
+
+                                    </row>
+
+                                </rows>
+                            </grid>
+                        </groupbox>
+
+                    </vbox>
+
+                </tabpanel>
+
+
+
+<!-- TAB: Behavior -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox">
+
+<!-- Startup -->
+
+                        <groupbox>
+                            <caption label="&gen.init.caption;" />
+
+                            <grid flex="1">
+                                <columns>
+                                    <column style="width:&gen.column1;px;" />
+                                    <column flex="1" />
+                                </columns>
+
+                                <rows>
+
+                                    <row align="center">
+                                        <label value="&gen.init.label;" />
+
+                                        <menulist preference="sidebarInit">
+                                            <menupopup id="sidebarInitPopup">
+                                                <menuitem label="&gen.init.mode1;" value="rem" />
+                                                <menuitem label="&sidebar.open.label;" value="open" />
+                                                <menuitem label="&sidebar.close.label;" value="close" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                    <row align="center">
+                                        <label value="&gen.init.toolbar.label;" />
+
+                                        <menulist preference="toolbarInit">
+                                            <menupopup>
+                                                <menuitem label="&gen.init.mode1;" value="2" />
+                                                <menuitem label="&gen.init.toolbar.show.label;" value="1" />
+                                                <menuitem label="&gen.init.toolbar.hide.label;" value="0" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                    <row align="center" aiosAdvanced="true">
+                                        <label value="&menu.togglebar.label;" />
+
+                                        <menulist preference="switchInit">
+                                            <menupopup>
+                                                <menuitem label="&gen.init.mode1;" value="2" />
+                                                <menuitem label="&gen.init.switch.show.label;" value="1" />
+                                                <menuitem label="&gen.init.switch.hide.label;" value="0" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                </rows>
+                            </grid>
+                        </groupbox>
+
+<!-- Open Sidebar -->
+
+                        <groupbox aiosAdvanced="true">
+                            <caption label="&gen.init.sidebar;" />
+
+                            <grid flex="1">
+                                <columns>
+                                    <column style="width:&gen.column1;px;" />
+                                    <column flex="1" />
+                                </columns>
+
+                                <rows>
+
+                                    <row align="center">
+                                        <label value="&tab.gen.behavior;" />
+
+                                        <menulist preference="openInit">
+                                            <menupopup id="panelInitPopup">
+                                                <menuitem label="&gen.init.sidebar.restore;" value="rem" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                </rows>
+                            </grid>
+                        </groupbox>
+
+<!-- Fullscreen Mode -->
+
+                        <groupbox id="fullscreenGroupbox">
+                            <caption label="&tab.gen.fullscreen;" />
+
+                            <checkbox preference="FSSidebar" label="&sidebar.close.label;" />
+                            <checkbox preference="FSToolbar" label="&gen.init.toolbar.hide.label;" />
+                            <checkbox preference="FSSwitch" label="&gen.init.switch.hide.label;" aiosAdvanced="true" />
+                            <checkbox preference="FSRestore" label="&gen.fs.off;" aiosAdvanced="true" />
+
+                        </groupbox>
+
+                    </vbox>
+                </tabpanel>
+
+
+
+<!-- TAB: Sidebar-Switch -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox">
+
+<!-- Behavior -->
+                        <groupbox>
+                            <caption label="&tab.gen.behavior;" />
+
+                            <checkbox label="&gen.switch.autoshow;" preference="SSAutoshow"
+                                oncommand="aios_checkboxObserver(this);" aiosChilds="SSOnlymax,SSDelay,SSHidemethod1,SSHidemethod2" />
+
+                            <vbox class="indent">
+                                <checkbox label="&gen.switch.onlymax;" preference="SSOnlymax" />
+
+                                <hbox align="center" style="margin-top: 5px;">
+                                    <label value="&gen.switch.delay;:" />
+                                    <textbox preference="SSDelay" size="2" />
+                                    <label value="&gen.switch.delayUnit;" />
+                                </hbox>
+
+                                <vbox style="margin-top: 5px;" aiosAdvanced="true">
+                                    <label value="&gen.switch.hide;" />
+
+                                    <radiogroup class="indent" preference="SSHidemethod">
+                                        <radio id="SSHidemethod1" label="&gen.switch.hideBar;" value="1" />
+                                        <radio id="SSHidemethod2" label="&gen.switch.hidePage;" value="2" />
+                                    </radiogroup>
+
+                                </vbox>
+                            </vbox>
+
+                        </groupbox>
+
+<!-- Appearance -->
+
+                        <groupbox>
+                            <caption label="&tab.gen.appearance;" />
+
+                            <checkbox preference="SSThin" label="&gen.switch.thin;"
+                                oncommand="aios_checkboxObserver(this);" aiosChilds="SSThinMax" />
+
+                            <vbox class="indent">
+                                <checkbox preference="SSThinMax" label="&gen.switch.onlymax;" />
+                            </vbox>
+
+                            <grid flex="1" aiosAdvanced="true" style="margin-top: 5px;">
+                                <columns>
+                                    <column />
+                                    <column />
+                                </columns>
+
+                                <rows>
+
+                                    <row align="center" class="aiosAdvanced">
+                                        <label value="&gen.switch.width;:" />
+
+                                        <hbox align="center">
+                                            <textbox preference="SSWidth" size="1" />
+                                            <label value="&gen.width.px;" />
+                                        </hbox>
+                                    </row>
+
+                                    <row align="center" class="aiosAdvanced">
+                                        <label value="&gen.switch.twidth;:" />
+
+                                        <hbox align="center">
+                                            <textbox preference="SSThinWidth" size="1" />
+                                            <label value="&gen.width.px;" />
+                                        </hbox>
+                                    </row>
+
+                                </rows>
+                            </grid>
+
+                        </groupbox>
+
+			<!-- Fix fuer die Hoehe des Shortcut-Panels => sonst wird die letzte Textzeile "Tipp: ...keyconfig..." abgeschnitten -->
+                        <description style="visibility:hidden;">.</description>
+
+                    </vbox>
+
+                </tabpanel>
+
+
+<!-- TAB: Special -->
+
+                <tabpanel orient="vertical">
+                    <vbox aiosAdvanced="true">
+
+<!-- Open/Close Sidebar -->
+
+                        <groupbox aiosAdvanced="true">
+                            <caption label="&cmode.caption;" />
+
+                            <hbox>
+                                <description width="100%" flex="1" align="center">&cmode.desc;</description>
+
+                                <toolbarbutton style="float:right;" class="labelTip info" tooltiptext="&misc.enablelink.tooltip;"
+                                    oncommand="aios_addTab('http://firefox.exxile.net/aios/faq.php#operabehav');" />
+                            </hbox>
+
+                            <grid flex="1">
+                                <columns>
+                                    <column style="width:&gen.column1;px;" />
+                                    <column flex="1" />
+                                </columns>
+
+                                <rows>
+
+                                    <row align="center">
+                                        <label value="&cmode.key.label;" />
+
+                                        <menulist preference="cmodeKey">
+                                            <menupopup>
+                                                <menuitem label="&cmode.mode1.label;" value="1" />
+                                                <menuitem label="&cmode.mode2.label;" value="2" />
+                                                <menuitem label="&cmode.mode3.label;" value="3" />
+                                                <menuitem label="&cmode.mode4.label;" value="4" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                    <row align="center">
+                                        <label value="&menu.togglebar.label;" />
+
+                                        <menulist preference="cmodeSwitch">
+                                            <menupopup>
+                                                <menuitem label="&cmode.mode1.label;" value="1" />
+                                                <menuitem label="&cmode.mode2.label;" value="2" />
+                                                <menuitem label="&cmode.mode3.label;" value="3" />
+                                                <menuitem label="&cmode.mode4.label;" value="4" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                    <row align="center">
+                                        <label value="&cmode.tbb.label;" />
+
+                                        <menulist preference="cmodeTbb">
+                                            <menupopup>
+                                                <menuitem label="&cmode.mode1.label;" value="1" />
+                                                <menuitem label="&cmode.mode2.label;" value="2" />
+                                                <menuitem label="&cmode.mode3.label;" value="3" />
+                                                <menuitem label="&cmode.mode4.label;" value="4" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                    <row align="center">
+                                        <label value="&cmode.close.label;" />
+
+                                        <menulist preference="cmodeClose">
+                                            <menupopup>
+                                                <menuitem label="&cmode.mode1.label;" value="1" />
+                                                <menuitem label="&cmode.mode2.label;" value="2" />
+                                                <menuitem label="&cmode.mode3.label;" value="3" />
+                                            </menupopup>
+                                        </menulist>
+
+                                    </row>
+
+                                </rows>
+                            </grid>
+                        </groupbox>
+
+<!-- Sidebar Collapsing -->
+
+                        <groupbox>
+
+                            <caption label="&special.collapsing.caption; *" />
+
+                            <hbox>
+                                <description width="100%" flex="1" align="center">&special.collapsing.desc;</description>
+
+                                <toolbarbutton style="float:right;" class="labelTip info" tooltiptext="&misc.enablelink.tooltip;"
+                                    oncommand="aios_addTab('http://firefox.exxile.net/aios/faq.php#collapsing');" />
+                            </hbox>
+
+                            <checkbox id="obj-SBCollapsing" preference="SBCollapsing" label="&special.collapsing.label;" flex="1" />
+
+                        </groupbox>
+
+                    </vbox>
+
+                    <spacer flex="1" />
+                    <description value="* &keyconfig.warn;" style="margin-top: 10px;" />
+                </tabpanel>
+
+            </tabpanels>
+
+        </tabbox>
+    </prefpane>
+
+
+<!-- P A N E L S -->
+
+    <prefpane id="aiosPanels" label="&tab.panels;" flex="1" seltab="0" persist="seltab" onpaneload="aios_initPane('panels');">
+        <preferences>
+            <preference id="DMOpen" 		type="bool" 	name="extensions.aios.dm.sidebar" />
+            <preference id="DMLayout" 		type="bool" 	name="extensions.aios.dm.layout" />
+            <preference id="DMAutoOpen" 	type="bool" 	name="extensions.aios.dm.autoopen" />
+            <preference id="DMAutoClose" 	type="bool" 	name="extensions.aios.dm.autoclose" />
+            <preference id="DMCount" 		type="bool" 	name="extensions.aios.dm.count" />
+
+            <preference id="EMOpen" 		type="bool" 	name="extensions.aios.em.sidebar" />
+            <preference id="EMCount" 		type="bool" 	name="extensions.aios.em.count" />
+
+            <preference id="BMOpen" 		type="bool" 	name="extensions.aios.bm.sidebar" />
+            <preference id="HIOpen" 		type="bool" 	name="extensions.aios.hi.sidebar" />
+            <preference id="PIOpen" 		type="bool" 	name="extensions.aios.pi.sidebar" />
+            <preference id="PILayout" 		type="bool" 	name="extensions.aios.pi.layout" />
+
+            <preference id="MPOpen" 		type="bool" 	name="extensions.aios.mp.sidebar" />
+            <preference id="COOpen" 		type="bool" 	name="extensions.aios.co.sidebar" />
+            <preference id="COLayout" 		type="bool" 	name="extensions.aios.co.layout" />
+
+            <preference id="PanelTabReverse" 	type="bool" 	name="extensions.aios.paneltab.reverse" />
+            <preference id="PanelTabBMM" 	type="bool" 	name="extensions.aios.paneltab.bm" />
+        </preferences>
+
+        <tabbox flex="1" id="aiosTabboxPanels">
+
+            <tabs onclick="aios_synchTabs(this);">
+                <tab label="&tab.panels.places;" />
+                <tab label="&downloads.label;" />
+                <tab label="&button.addons.label;" />
+                <tab label="&tab.panels.other1;" />
+                <tab label="&tab.panels.other2;" />
+            </tabs>
+
+            <tabs onclick="aios_synchTabs(this);" aiosAdvanced="true">
+                <tab label="&tab.panels.places;" />
+                <tab label="&downloads.label;" />
+                <tab label="&button.addons.label;" />
+                <tab label="&tab.panels.other1;" />
+                <tab label="&tab.panels.other2;" />
+                <tab label="&tab.panels.paneltab;" class="aiosAdvanced" />
+            </tabs>
+
+            <tabpanels flex="1">
+
+
+<!-- TAB: Bookmarks/History -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox" restart="true">
+
+                        <groupbox>
+                            <caption label="&bookmarksButton.label;" />
+                            <checkbox preference="BMOpen" label="&misc.enablesidebar.label; *" oncommand="aios_checkboxObserver(this);" />
+                        </groupbox>
+
+                        <groupbox>
+                            <caption label="&historyButton.label;" />
+                            <checkbox preference="HIOpen" label="&misc.enablesidebar.label; *" oncommand="aios_checkboxObserver(this);" />
+                        </groupbox>
+
+                    </vbox>
+
+                    <spacer flex="1" />
+                    <description value="* &restart;" style="margin-top: 10px;" />
+
+                </tabpanel>
+
+
+<!-- TAB: Downloads -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox" restart="true">
+
+                        <groupbox>
+                            <caption label="&tab.gen.behavior;" />
+                            <checkbox preference="DMOpen" label="&misc.enablesidebar.label; *" aiosChilds="DMLayout, DMAutoOpen, DMAutoClose" oncommand="aios_checkboxObserver(this);" />
+
+                            <vbox class="indent">
+                                <checkbox preference="DMAutoOpen" label="&misc.dm.autoopen.label;" aiosChilds="DMAutoClose" oncommand="aios_checkboxObserver(this);" />
+                                <vbox class="indent">
+                                    <checkbox preference="DMAutoClose" label="&misc.dm.autoclose.label;" />
+                                </vbox>
+                            </vbox>
+
+                            <vbox class="indent spacer" aiosAdvanced="true">
+                                <checkbox preference="DMLayout" label="&misc.layout.label;" />
+                            </vbox>
+                        </groupbox>
+
+                        <groupbox>
+                            <caption label="&tab.gen.appearance;" />
+                            <checkbox preference="DMCount" label="&misc.count.label;" />
+                        </groupbox>
+
+                    </vbox>
+
+                    <spacer flex="1" />
+                    <description value="* &restart;" style="margin-top: 10px;" />
+
+                </tabpanel>
+
+
+<!-- TAB: Add-ons -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox" restart="true">
+
+                        <groupbox>
+                            <caption label="&tab.gen.behavior;" />
+                            <checkbox preference="EMOpen" label="&misc.enablesidebar.label; *" oncommand="aios_checkboxObserver(this);" />
+                        </groupbox>
+
+                        <groupbox>
+                            <caption label="&tab.gen.appearance;" />
+                            <checkbox preference="EMCount" label="&misc.count.label;" />
+                        </groupbox>
+
+                    </vbox>
+
+                    <spacer flex="1" />
+                    <description value="* &restart;" style="margin-top: 10px;" />
+
+                </tabpanel>
+
+
+<!-- TAB: Andere I -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox" restart="true">
+
+                        <groupbox>
+                            <caption label="&button.multipanel.label;" />
+                            <checkbox preference="MPOpen" label="&misc.enablesidebar.label; *" />
+                        </groupbox>
+
+                        <groupbox>
+                            <caption label="&pageInfoCmd.label;" />
+                            <checkbox preference="PIOpen" label="&misc.enablesidebar.label; *" aiosChilds="PILayout" oncommand="aios_checkboxObserver(this);" />
+
+                            <vbox class="indent" aiosAdvanced="true">
+                                <checkbox id="obj-PILayout" preference="PILayout" label="&misc.layout.label;" />
+                            </vbox>
+                        </groupbox>
+
+                    </vbox>
+
+                    <spacer flex="1" />
+                    <description value="* &restart;" style="margin-top: 10px;" />
+
+                </tabpanel>
+
+
+<!-- TAB: Andere II -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox" restart="true">
+
+                        <groupbox>
+                            <caption label="&button.console.label;" />
+                            <checkbox preference="COOpen" label="&misc.enablesidebar.label; *" aiosChilds="COLayout" oncommand="aios_checkboxObserver(this);" />
+
+                            <vbox class="indent" aiosAdvanced="true">
+                                <checkbox preference="COLayout" label="&misc.layout.label;" />
+                            </vbox>
+                        </groupbox>
+
+                    </vbox>
+
+                    <spacer flex="1" />
+                    <description value="* &restart;" style="margin-top: 10px;" />
+
+                </tabpanel>
+
+
+<!-- TAB: PanelTab -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox">
+
+<!-- Bookmarks - PanelTab -->
+
+                        <groupbox aiosAdvanced="true">
+                            <caption label="&tab.gen.behavior;" />
+                            <checkbox preference="PanelTabReverse" label="&misc.paneltab.reverse;" />
+                        </groupbox>
+
+                        <groupbox aiosAdvanced="true">
+                            <caption label="&bookmarksButton.label;" />
+
+                            <description width="100%">&misc.bm.paneltab.desc;</description>
+                            <checkbox preference="PanelTabBMM" label="&misc.bm.paneltab;" />
+                        </groupbox>
+
+                    </vbox>
+                </tabpanel>
+
+            </tabpanels>
+        </tabbox>
+    </prefpane>
+
+
+<!-- M E N U S -->
+
+    <prefpane id="aiosMenus" label="&tab.menus;" flex="1" seltab="0" persist="seltab" onpaneload="aios_initPane('menus');">
+        <preferences>
+            <preference id="SBEntryDeac" 	type="bool" 	name="extensions.aios.menus.sidebar.entrydeac" />
+            <preference id="SBEntries" 		type="bool" 	name="extensions.aios.menus.sidebar.entries" />
+            <preference id="SBIcons" 		type="bool" 	name="extensions.aios.menus.sidebar.icons" />
+            <preference id="SBPanelTab1" 	type="bool" 	name="extensions.aios.menus.sidebar.paneltab1" />
+            <preference id="SBPanelTab2" 	type="bool" 	name="extensions.aios.menus.sidebar.paneltab2" />
+            <preference id="SBShowHide" 	type="bool" 	name="extensions.aios.menus.sidebar.showhide" />
+            <preference id="SBOptions" 		type="bool" 	name="extensions.aios.menus.sidebar.prefs" />
+        </preferences>
+
+        <tabbox flex="1" id="aiosTabboxMenus">
+
+            <tabs onclick="aios_synchTabs(this);">
+                <tab label="&tab.menus.sidebar;" />
+            </tabs>
+
+            <tabpanels flex="1">
+
+
+<!-- TAB: Sidebar -->
+
+                <tabpanel orient="vertical">
+                    <vbox class="aiosSizeBox">
+
+                        <description width="100%">&menus.sidebar.desc;</description>
+
+                        <checkbox preference="SBEntryDeac" label="&menus.sidebar.entrydeac;" aiosAdvanced="true" />
+
+                        <groupbox>
+                            <caption>
+                                <checkbox preference="SBEntries" label="&menus.entries.label;" oncommand="aios_checkboxObserver(this);"
+                                    aiosChilds="SBIcons, SBPanelTab1, SBPanelTab2, SBShowHide, SBOptions" />
+                            </caption>
+
+                            <vbox class="indent">
+
+                                <vbox aiosAdvanced="true">
+                                    <checkbox preference="SBIcons" label="&menus.icons.label;" />
+                                    <separator class="groove" />
+                                </vbox>
+
+                                <checkbox preference="SBPanelTab1" label="&button.paneltab.menu1.label;" />
+                                <checkbox preference="SBPanelTab2" label="&button.paneltab.menu2.label;" />
+                                <checkbox preference="SBShowHide" label="&sidebar.open.label;/&sidebar.close.label;" />
+                                <checkbox preference="SBOptions" label="&menu.prefs.label;" />
+                            </vbox>
+
+                        </groupbox>
+
+                    </vbox>
+                </tabpanel>
+
+            </tabpanels>
+        </tabbox>
+    </prefpane>
+
+
+<!-- S H O R T C U T S -->
+
+    <prefpane id="aiosKeys" label="&tab.keys;" flex="1" src="chrome://aios/content/prefs/keys.xul" />
+
+
+<!-- A B O U T -->
+
+    <prefpane id="aiosAbout" label="&tab.about;" flex="1" src="chrome://aios/content/about_content.xul" />
+
+</prefwindow>

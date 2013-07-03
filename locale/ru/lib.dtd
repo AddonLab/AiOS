@@ -1,0 +1,13 @@
+<!ENTITY leftclick "ЛКМ">
+<!ENTITY rightclick "ПКМ">
+<!ENTITY doubleclick "Двойной клик">
+<!ENTITY middleclick "СКМ">
+<!ENTITY key.ctrl "Ctrl">
+<!ENTITY key.alt "Alt">
+<!ENTITY key.shift "Shift">
+<!ENTITY menu.tools.label "Инструменты">
+<!ENTITY closeFolder.label "Закрыть все папки">
+<!ENTITY show.closeFolder.label "Кнопка &apos;Закрыть все папки&apos;">
+<!ENTITY enable.autoClose.label "Автоматически закрывать другие папки">
+<!ENTITY enable.scrollToFolder.label "Автоматически переходить к выделенной папке">
+<!ENTITY enable.rememberFolder.label "Запоминать и переходить к последней выделенной папке">

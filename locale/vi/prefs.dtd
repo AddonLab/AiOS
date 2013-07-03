@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar – Tùy chọn">
+<!ENTITY restart "Các thay đổi này yêu cầu khởi động lại trình duyệt">
+<!ENTITY settings "Thiết lập">
+<!ENTITY settings.default "Phục hồi Mặc định…">
+<!ENTITY settings.advanced "Chế độ Nâng cao">
+<!ENTITY settings.import "Nhập thiết lập…">
+<!ENTITY settings.export "Xuất thiết lập…">
+<!ENTITY settings.copy "Chép thiết lập vào Clipboard">
+<!ENTITY apply "Áp dụng">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "Tổng quát">
+<!ENTITY tab.gen.appearance "Diện mạo">
+<!ENTITY tab.gen.behavior "Hành vi">
+<!ENTITY tab.gen.fullscreen "Chế độ Toàn màn hình">
+<!ENTITY tab.gen.special "Đặc biệt">
+<!ENTITY tab.panels "Bảng điều khiển">
+<!ENTITY tab.panels.places "Đánh dấu/Lược sử">
+<!ENTITY tab.panels.other1 "Khác I">
+<!ENTITY tab.panels.other2 "Khác II">
+<!ENTITY tab.panels.paneltab "ThẻBảng">
+<!ENTITY tab.menus "Trình đơn">
+<!ENTITY tab.menus.sidebar "Thanh lề">
+<!ENTITY tab.keys "Phím tắt">
+<!ENTITY gen.orient.caption "Chiều hướng">
+<!ENTITY gen.orient.label "Hiện thanh lề ở">
+<!ENTITY gen.orient.left "bên trái">
+<!ENTITY gen.orient.right "bên phải">
+<!ENTITY gen.width.caption "Kích cỡ">
+<!ENTITY gen.width.px "điểm ảnh">
+<!ENTITY gen.width.perc "&amp;#37;">
+<!ENTITY gen.width.current "thiết lập theo độ rộng hiện tại">
+<!ENTITY gen.width.current.tip "Áp dụng độ rộng hiện tại của thanh lề">
+<!ENTITY gen.width.min.hint "[Shift+Nhấp đôi] lên tiêu đề của thanh lề">
+<!ENTITY gen.width.def.hint "[Nhấp đôi] lên tiêu đề của thanh lề">
+<!ENTITY gen.width.max.hint "[Ctrl+Nhấp đôi] hoặc [Alt+Nhấp đôi] lên tiêu đề của thanh lề">
+<!ENTITY gen.init.caption "Khởi động Trình duyệt">
+<!ENTITY gen.init.label "Thanh lề">
+<!ENTITY gen.init.toolbar.label "Thanh công cụ">
+<!ENTITY gen.init.toolbar.show.label "Hiện Thanh công cụ">
+<!ENTITY gen.init.toolbar.hide.label "Ẩn Thanh công cụ">
+<!ENTITY gen.init.switch.show.label "Hiện Công tắc Thanh lề">
+<!ENTITY gen.init.switch.hide.label "Ẩn Công tắc Thanh lề">
+<!ENTITY gen.init.mode1 "Phục hồi Tình trạng Đã được ghi nhớ">
+<!ENTITY gen.init.sidebar "Mở Thanh Lề (Công tắc Thanh lề, Nút đảo, Phím tắt)">
+<!ENTITY gen.init.sidebar.restore "Phục hồi Bảng điều khiển Đã được ghi nhớ">
+<!ENTITY gen.switch.autoshow "Hiện/ẩn Thanh lề tự động (tiếp xúc bằng chuột thay vì nhấp chuột)">
+<!ENTITY gen.switch.onlymax "Chỉ khi Trình duyệt được Cực đại hoá hoặc ở Chế độ Toàn màn hình">
+<!ENTITY gen.switch.delay "Độ trễ">
+<!ENTITY gen.switch.delayUnit "miligiây">
+<!ENTITY gen.switch.hide "Ẩn thanh lề nếu con trỏ chuột…">
+<!ENTITY gen.switch.hideBar "di chuyển trở lại trang web">
+<!ENTITY gen.switch.hidePage "được giữ trên Công tắc Thanh lề">
+<!ENTITY gen.switch.thin "Kích hoạt Công tắc Thanh lề Mỏng">
+<!ENTITY gen.switch.width "Độ rộng của Công tắc Thanh lề">
+<!ENTITY gen.switch.twidth "Độ rộng của Công tắc Thanh lề Mỏng">
+<!ENTITY cmode.caption "Bật tắt Thanh lề">
+<!ENTITY cmode.desc "Tùy biến những phần tử nào sẽ bị ảnh hưởng khi mở hoặc đóng thanh lề theo những cách khác nhau.">
+<!ENTITY cmode.key.label "Phím tắt (F4)">
+<!ENTITY cmode.tbb.label "Nút AiOS">
+<!ENTITY cmode.close.label "Nút Đóng">
+<!ENTITY cmode.mode1.label "Chỉ trên Thanh lề">
+<!ENTITY cmode.mode2.label "Thanh lề và Thanh công cụ">
+<!ENTITY cmode.mode3.label "Thanh lề, Thanh công cụ và Công tắc Thanh lề">
+<!ENTITY cmode.mode4.label "Hành vi của Opera">
+<!ENTITY gen.fs.off "Phục hồi Tình trạng khi thoát Chế độ Toàn màn hình">
+<!ENTITY keyconfig.keyid "Tên">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Áp dụng">
+<!ENTITY keyconfig.disable "Vô hiệu hóa">
+<!ENTITY keyconfig.reset "Thiết lập lại">
+<!ENTITY keyconfig.warn "Các thay đổi chỉ ảnh hưởng đến các cửa sổ mới">
+<!ENTITY keyconfig.onreset "Yêu cầu khởi động lại trình duyệt">
+<!ENTITY keyconfig.unrecognized "Không nhận ra ($1)">
+<!ENTITY keyconfig.used "Phím này đã được sử dụng bởi: \\n\\n\\t$1\\n\\nDù vậy, nó có thể vẫn hoạt động.">
+<!ENTITY menus.sidebar.desc "Tùy chỉnh các mục trong trình đơn “Hiển thị &gt; Thanh lề” và trong trình đơn thả xuống của các nút trên thanh lề.">
+<!ENTITY menus.icons.label "Hiện biểu tượng">
+<!ENTITY menus.entries.label "Hiện các mục">
+<!ENTITY menus.sidebar.entrydeac "Vô hiệu hoá mục của Thanh lề Đang hoạt động">
+<!ENTITY misc.enablesidebar.label "Mở trong Thanh Lề">
+<!ENTITY misc.layout.label "Tối ưu hoá Bố cục cho Thanh lề">
+<!ENTITY misc.dm.overlay "Thay đổi tùy chọn cho hành vi của thanh lề">
+<!ENTITY misc.dm.autoopen.label "Hiện thanh lề Tải xuống khi tải xuống một tập tin">
+<!ENTITY misc.dm.autoclose.label "Đóng nó khi tất cả các phiên tải xuống đã hoàn thành">
+<!ENTITY misc.colors.label "Kích hoạt nền có màu sắc dựa trên trạng thái hiện tại">
+<!ENTITY misc.count.label "Hiện số lượng danh mục">
+<!ENTITY misc.enablelink.tooltip "Nhấp vào đây để biết thêm thông tin (liên kết đến FAQ)">
+<!ENTITY misc.paneltab.reverse "Hoán đổi Thao tác Nhấp chuột trái và Nhấp chuột giữa">
+<!ENTITY misc.bm.paneltab.desc "Nút “ThẻBảng” có thể mở Quản lí Trang đánh dấu trong một thẻ mới, thay cho khung Bảng Đánh Dấu.">
+<!ENTITY misc.bm.paneltab "Kích hoạt Quản lí Trang đánh dấu trong Thẻ Mới">
+<!ENTITY special.collapsing.caption "Thu gọn Thanh lề">
+<!ENTITY special.collapsing.label "Kích hoạt Thu gọn Thanh lề">
+<!ENTITY special.collapsing.desc "Thanh lề có thể được thu gọn lại thay vì đóng. Cái lợi ở đây là nội dung của thanh lề không phải nạp lại sau khi mở lại, cho nên nó sẽ phản hồi nhanh hơn.">

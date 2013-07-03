@@ -1,0 +1,13 @@
+<!ENTITY leftclick "Леви клик">
+<!ENTITY rightclick "десни клик">
+<!ENTITY doubleclick "двоструки клик">
+<!ENTITY middleclick "средњи клик">
+<!ENTITY key.ctrl "ктрл">
+<!ENTITY key.alt "алт">
+<!ENTITY key.shift "шифт">
+<!ENTITY menu.tools.label "Алати">
+<!ENTITY closeFolder.label "Затвори све омотнице">
+<!ENTITY show.closeFolder.label "&apos;Дугме за затварање свих фасцикли&apos;">
+<!ENTITY enable.autoClose.label "Аутоматски затвори остале омотнице">
+<!ENTITY enable.scrollToFolder.label "Аутоматски помери на изабрану омотницу">
+<!ENTITY enable.rememberFolder.label "Запамти и усредсреди последњу изабрану омотницу">

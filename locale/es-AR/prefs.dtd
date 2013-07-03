@@ -1,0 +1,92 @@
+<!ENTITY title "All-in-One Sidebar - Opciones">
+<!ENTITY restart "Los cambios requieren reiniciar el navegador">
+<!ENTITY settings "Configuración">
+<!ENTITY settings.default "Restablecer los Valores por Defecto">
+<!ENTITY settings.advanced "Modo Avanzado">
+<!ENTITY settings.import "Importar Configuración">
+<!ENTITY settings.export "Exportar Configuración">
+<!ENTITY settings.copy "Copiar la Configuración al Portapapeles">
+<!ENTITY apply "Aplicar">
+<!ENTITY gen.column1 "110">
+<!ENTITY tab.gen "General">
+<!ENTITY tab.gen.appearance "Apariencia">
+<!ENTITY tab.gen.behavior "Comportamiento">
+<!ENTITY tab.gen.fullscreen "Modo Pantalla Completa">
+<!ENTITY tab.gen.special "Especial">
+<!ENTITY tab.panels "Paneles">
+<!ENTITY tab.panels.places "Marcadores/Historial">
+<!ENTITY tab.panels.other1 "Otros I">
+<!ENTITY tab.panels.other2 "Otros II">
+<!ENTITY tab.panels.paneltab "PanelTab">
+<!ENTITY tab.menus "Menues">
+<!ENTITY tab.menus.sidebar "Barra Lateral">
+<!ENTITY tab.keys "Atajos">
+<!ENTITY gen.orient.caption "Orientación">
+<!ENTITY gen.orient.label "Mostrar barra lateral">
+<!ENTITY gen.orient.left "a la izquerda">
+<!ENTITY gen.orient.right "a la derecha">
+<!ENTITY gen.width.caption "Tamaño">
+<!ENTITY gen.width.px "puntos">
+<!ENTITY gen.width.perc "porcentaje">
+<!ENTITY gen.width.current "fijar al ancho actual">
+<!ENTITY gen.width.current.tip "Aplicar el ancho actual a la barra lateral">
+<!ENTITY gen.width.min.hint "[Shift-doble click] en el título de la barra lateral">
+<!ENTITY gen.width.def.hint "[doble click] en el título de la barra lateral">
+<!ENTITY gen.width.max.hint "[Ctrl+doble click] o [Atl+doble click] en el título de la barra lateral">
+<!ENTITY gen.init.caption "Inicio del Navegador">
+<!ENTITY gen.init.label "Barra Lateral">
+<!ENTITY gen.init.toolbar.label "Barra de Herramientas">
+<!ENTITY gen.init.toolbar.show.label "Mostrar Barra de Herramientas">
+<!ENTITY gen.init.toolbar.hide.label "Esconder Barra de Herramientas">
+<!ENTITY gen.init.switch.show.label "Mostrar el activador de Barra Lateral">
+<!ENTITY gen.init.switch.hide.label "Esconder el activador de Barra Lateral">
+<!ENTITY gen.init.mode1 "Recuperar el Estado Memorizado">
+<!ENTITY gen.init.sidebar "Abrir Barra Lateral (Activador de Barra Lateral, Botón de Intercambiar, Atajos)">
+<!ENTITY gen.init.sidebar.restore "Restablecer el Último Panel Memorizado">
+<!ENTITY gen.switch.autoshow "Mostrar/esconder la Barra Lateral automaticamente (al tocar con el cursor del mouse en lugar de hacer click)">
+<!ENTITY gen.switch.onlymax "Solamente si el navegador está Maximizado o en el Modo Pantalla Completa">
+<!ENTITY gen.switch.delay "Retardo">
+<!ENTITY gen.switch.delayUnit "milisegundos">
+<!ENTITY gen.switch.hide "Esconder la Barra Lateral cuando el cursor del mouse…">
+<!ENTITY gen.switch.hideBar "retorna a la página web">
+<!ENTITY gen.switch.hidePage "se mantiene sobre el Selector la Barra Lateral">
+<!ENTITY gen.switch.thin "Habilitar Comando de Barra Lateral Delgada">
+<!ENTITY gen.switch.width "Ancho del Selector de la Barra Lateral">
+<!ENTITY gen.switch.twidth "Ancho del Selector Fino de la Barra Lateral">
+<!ENTITY cmode.caption "Intercambiar Barra Lateral">
+<!ENTITY cmode.desc "Personalizar cuales elementos se deben alterar si se abre o cierra la barra lateral con métodos diferentes">
+<!ENTITY cmode.key.label "Atajo (F4)">
+<!ENTITY cmode.tbb.label "Botón AiOS">
+<!ENTITY cmode.close.label "Botón Cerrar">
+<!ENTITY cmode.mode1.label "Sólo la Barra Lateral">
+<!ENTITY cmode.mode2.label "La Barra Lateral y la Barra de Herramientas">
+<!ENTITY cmode.mode3.label "La Barra Lateral, la Barra de Herramientas y el Selector de Barra Lateral">
+<!ENTITY cmode.mode4.label "Comportamiento de Opera">
+<!ENTITY gen.fs.off "Recuperar el Estado si sale del Modo Pantalla Completa">
+<!ENTITY keyconfig.keyid "Nombre">
+<!ENTITY keyconfig.id "ID">
+<!ENTITY keyconfig.apply "Aplicar">
+<!ENTITY keyconfig.disable "Deshabilitar">
+<!ENTITY keyconfig.reset "Resetear">
+<!ENTITY keyconfig.warn "Los cambios sólo afectarán a las nuevas ventanas">
+<!ENTITY keyconfig.onreset "Se requiere reiniciar el navegador">
+<!ENTITY keyconfig.unrecognized "Desconocido($1)">
+<!ENTITY keyconfig.used "Ésta tecla ya está en uso por:\\n\\n\\t$1\\n\\nPodría estar activo aún.">
+<!ENTITY menus.sidebar.desc "Personalizar las entradas en el menú &quot;Ver&gt;Barra Lateral&quot;y en los menues desplegables de los botoner de la barra lateral.">
+<!ENTITY menus.icons.label "Mostrar Íconos">
+<!ENTITY menus.entries.label "Mostrar Entradas">
+<!ENTITY menus.sidebar.entrydeac "Deshabilitar el Ingreso de la Barra Lateral Activa">
+<!ENTITY misc.enablesidebar.label "Abrir Barra Lateral">
+<!ENTITY misc.layout.label "Optimizar la disposición de la Barra Lateral">
+<!ENTITY misc.dm.overlay "Cambiar las opciones de comportamiento de la barra lateral">
+<!ENTITY misc.dm.autoopen.label "Mostrat la barra lateral de Descargas al descargar un archivo">
+<!ENTITY misc.dm.autoclose.label "Cerrarla cuando todas las descargas hayan finalizado">
+<!ENTITY misc.colors.label "Habilitar fondos coloreados en el estado actual">
+<!ENTITY misc.count.label "Mostrar la Cantidad de Elementos">
+<!ENTITY misc.enablelink.tooltip "Haga Click aquí por más información (enlace a FAQ)">
+<!ENTITY misc.paneltab.reverse "Intercambiar Acciones entre Click-Izquierdo y Click-Central">
+<!ENTITY misc.bm.paneltab.desc "El botón PestañaPanel puede abrir el Administrador de Señaladores en una nueva pestaña en lugar del Panel de Señaladores.">
+<!ENTITY misc.bm.paneltab "Habilitar el Administrador de Señaladores en una nueva pestaña.">
+<!ENTITY special.collapsing.caption "Contraer Barra Lateral">
+<!ENTITY special.collapsing.label "Habilitar Contraer Barra Lateral">
+<!ENTITY special.collapsing.desc "Se puede retraer la Barra Lateral en lugar de Cerrarla. La ventaja es que no se debe recargar el contenido de la misma al reabrirla.">
