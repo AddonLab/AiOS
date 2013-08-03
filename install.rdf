@@ -23,7 +23,7 @@
                 <em:minVersion>14.0</em:minVersion>
                 <em:maxVersion>15.*</em:maxVersion>
             </Description>
-            
+
         </em:targetApplication>
 
     </Description>

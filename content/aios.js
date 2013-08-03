@@ -110,7 +110,7 @@ function aios_initSidebar() {
     window.setTimeout(function() {
         aios_setTargets();
     }, 50);
-    
+
     // Autohide-Feature initialisieren
     aios_initAutohide();
 
@@ -121,7 +121,7 @@ function aios_initSidebar() {
 
         // in jedem Fall das Hidden-Attribut zuruecksetzen
         document.getElementById('sidebar-box').setAttribute('hidden', false);
-        
+
         // wenn die Sidebar beim Start nicht geoeffnet sein soll
         // neues bzw. weiteres Fenster
         if(window.opener) {
@@ -209,7 +209,7 @@ function aios_initSidebar() {
         fx_BrowserFullScreen();
         aios_BrowserFullScreen();
     };
-    
+
     // Drag&Drop-Funktion fuer den Sidebar-Umschalter deaktivieren?
     try {
         var switchDrag = aios_gPrefBranch.getBoolPref("gen.switch.drag");
@@ -369,7 +369,7 @@ function aios_observeSidebar(mode) {
         fx_sidebarBox.removeAttribute('collapsed');
         // CollapseByStyle-Methode fx_sidebarBox.removeAttribute('style');
         fx_sidebarSplitter.removeAttribute('hidden');
-        
+
         fx_sidebarSplitter.setAttribute('state', 'open');
     }
 }
@@ -553,7 +553,7 @@ function aios_autoShowHide(mode) {
 
         // wenn Sidebar sichtbar und ausgeblendet werden soll
         // mode.originalTarget.parentNode.id != "" => behebt Kompatibilitaetsproblem mit TabSidebar (Sidebar wird bei Rollover des SidebarTabs ausgeblendet)
-        
+
         // macht scheinbar Probleme, weil der Event auf appcontent nicht (immer) geloescht wird => TabSidebar wird nicht weiterentwickelt
         //if(!aios_isSidebarHidden() && hidemethod == 1 && mode.originalTarget.parentNode.id != "") {
         if(!aios_isSidebarHidden() && hidemethod == 1) {
@@ -655,11 +655,11 @@ function aios_toggleSidebar(aMode, aForceOpen) {
 */
 function aios_useGrippy() {
     fx_sidebarBox.collapsed = !fx_sidebarBox.collapsed;
-    
+
     // Fix fuer Win Vista & 7: aiosOpen wird durch fehlenden Aufruf von aios_observeSidebar nicht gesetzt
     // aios_observeSidebar wird eigentlich durch Observer der sidebar-box aufgerufen, k.A. warum hier nicht
     if(aios_appOS == "WINNT" && aios_appOSVersion.indexOf("5.1") == -1) aios_observeSidebar(true);
-    
+
     /* CollapseByStyle-Methode
     if(fx_sidebarBox.getAttribute('style') != "") fx_sidebarBox.removeAttribute('style');
     else fx_sidebarBox.setAttribute('style', 'display:none;')*/
@@ -675,7 +675,7 @@ function aios_checkThinSwitch() {
     if(!initialised) return;
 
     aios_getObjects();
-    
+
     var thin_switch, thinmax_switch, switch_width, switch_twidth, athin_switch;
 
     try {
@@ -707,7 +707,7 @@ function aios_checkThinSwitch() {
     => Aufruf durch onClick() des Umschalters
 */
 function aios_controlSwitch(ev, which) {
-    
+
     // Linksklick => metaKey = Mac
     if(ev.button == 0 && (!ev.shiftKey && !ev.ctrlKey && !ev.metaKey)) {
         aios_toggleSidebar(which);

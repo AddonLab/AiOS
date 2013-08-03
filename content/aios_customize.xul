@@ -9,5 +9,5 @@
 
     <!-- Elements - taken from TotalToolbar 1.8 by alta88 */ -->
     <window id="CustomizeToolbarWindow" persist="screenX screenY width height"/>
-    
+
 </overlay>

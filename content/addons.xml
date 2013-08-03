@@ -195,7 +195,7 @@
 
 
     <binding id="textlink" extends="chrome://global/content/bindings/text.xml#text-link">
-    
+
         <implementation implements="nsIAccessibleProvider">
             <method name="open">
                 <parameter name="aEvent"/>

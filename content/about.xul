@@ -20,7 +20,7 @@
     ondialogextra2 = "aios_openDialog('prefs');" >
 
     <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
-    
+
     <prefpane id="aiosAbout" src="chrome://aios/content/about_content.xul" />
 
 </prefwindow>

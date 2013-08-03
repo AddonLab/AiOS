@@ -18,7 +18,7 @@ if(aios_inSidebar) {
 function aios_init() {
     // Menueleiste unter Mac OS X ausblenden
     aios_hideMacMenubar();
-    
+
     // fuer CSS-Zwecke speichern
     aios_appInfo(document.getElementById('main-window'));
 
@@ -31,7 +31,7 @@ function aios_init() {
 
     // Tastaturkuerzel entfernen, um nicht die des Hauptbrowsers zu blockieren
     if(aios_inSidebar) aios_removeAccesskeys();
-    
+
     //alert(document.getElementById('topBar').clientWidth);
     //document.getElementById('metatree').getElementsByTagName('treechildren')[0].style.maxWidth = document.getElementById('topBar').clientWidth + "px";
 }
@@ -42,13 +42,13 @@ function aios_sidebarLayout() {
 
     // CSS fuer Sidebar-Optimierungen aktivieren
     aios_addCSS("pageinfo.css", "main-window");
-	
+
     // Label der Radio-Buttons unsichtbar machen => nur wenn es Icons gibt
     var cStyle = document.defaultView.getComputedStyle(document.getElementById('generalTab'), '');
     if(cStyle.listStyleImage && cStyle.listStyleImage != "none") {
         if(document.getElementById('viewGroup')) document.getElementById('viewGroup').setAttribute("hideLabel", true);
     }
-	
+
     // Radio-Buttons mit Tooltip
     if(document.getElementById('viewGroup')) {
         var radioChilds = document.getElementById('viewGroup').childNodes;
@@ -56,21 +56,21 @@ function aios_sidebarLayout() {
             if(radioChilds[i].tagName == "radio") radioChilds[i].setAttribute('tooltiptext', radioChilds[i].label);
         }
     }
-    
+
     // Media-Panel: Save as... button umbrechen
     var hbox = document.getElementById('mediaPreviewBox').getElementsByTagName('hbox')[0];
     hbox.setAttribute('align', 'start');
     hbox.setAttribute('orient', 'vertical');
     hbox.removeChild(hbox.getElementsByTagName('spacer')[0]);
     hbox.appendChild(hbox.getElementsByTagName('vbox')[0]);
-    
+
     // Security-Panel: Texte und Buttons umbrechen
     // Identity
     var groupbox = document.getElementById('security-identity-groupbox');
     groupbox.removeChild(groupbox.getElementsByTagName('spacer')[0]);
     groupbox.getElementsByTagName('hbox')[0].setAttribute('orient', 'vertical');
     groupbox.getElementsByTagName('hbox')[0].setAttribute('align', 'start');
-    
+
     // History
     var historyrow = document.getElementById('security-privacy-history-label').parentNode;
     vbox = document.createElement("vbox");
@@ -79,7 +79,7 @@ function aios_sidebarLayout() {
     }
     vbox.setAttribute('flex', '100');
     historyrow.appendChild(vbox);
-    
+
     // Cookies
     var cookierow = document.getElementById('security-privacy-cookies-label').parentNode;
     vbox = document.createElement("vbox");
@@ -88,7 +88,7 @@ function aios_sidebarLayout() {
     }
     vbox.setAttribute('flex', '100');
     cookierow.appendChild(vbox);
-    
+
     // Passwords
     var pwdrow = document.getElementById('security-privacy-passwords-label').parentNode;
     vbox = document.createElement("vbox");
@@ -183,7 +183,7 @@ var security = {
     viewCert : function () {
         var cert = security._cert;
         //viewCertHelper(window, cert);
-    
+
         // mod by eXXile
         if(aios_inSidebar) viewCertHelper(aios_WIN.content.window, cert);
         else if(aios_inTab) viewCertHelper(aios_WIN.aiosLastSelTab.window, cert);
@@ -215,7 +215,7 @@ var security = {
 
         var isBroken =
         (ui.state & Components.interfaces.nsIWebProgressListener.STATE_IS_BROKEN);
-        var isInsecure = 
+        var isInsecure =
         (ui.state & Components.interfaces.nsIWebProgressListener.STATE_IS_INSECURE);
         var isEV =
         (ui.state & Components.interfaces.nsIWebProgressListener.STATE_IDENTITY_EV_TOPLEVEL);
@@ -256,7 +256,7 @@ var security = {
                 isBroken : isBroken,
                 isEV : isEV,
                 cert : null,
-                fullLocation : gWindow.location        
+                fullLocation : gWindow.location
             };
         }
     },
@@ -319,7 +319,7 @@ var security = {
                     filterString : eTLD
                 });
     },
-  
+
     /**
    * Open the login manager window
    */

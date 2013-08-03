@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <!-- locale -->
-<!DOCTYPE overlay [ 
+<!DOCTYPE overlay [
         <!ENTITY % aiosDTD SYSTEM "chrome://aios/locale/aios.dtd"> %aiosDTD;
 	<!ENTITY % multipanelDTD SYSTEM "chrome://aios/locale/multipanel.dtd"> %multipanelDTD;
 	<!ENTITY % libDTD SYSTEM "chrome://aios/locale/lib.dtd"> %libDTD;

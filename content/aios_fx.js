@@ -172,7 +172,7 @@ if(aios_collapseSidebar) BrowserStartup = function() {
   gDelayedStartupTimeoutId = window.setTimeout(function() {
       delayedStartup(isLoadingBlank, mustLoadSidebar);
   }, 0);
-  
+
   gStartupRan = true;
 }
 */
@@ -208,7 +208,7 @@ if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
   //add by exxile => sonst gibt es Fehler bei der 2. Druckvorschau, wenn SidebarCollapsing aktiv ist und die Sidebar zugeklappt
   // => commandID ist in diesem Fall nicht definiert
   if(!commandID) return;
-  
+
   var sidebarBroadcaster = document.getElementById(commandID);
   var sidebar = document.getElementById("sidebar"); // xul:browser
   var sidebarTitle = document.getElementById("sidebar-title");
@@ -226,14 +226,14 @@ if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
 
       sidebarBroadcaster.removeAttribute("checked");
       sidebarBox.setAttribute("sidebarcommand", "");
-      
+
       //mod by exxile sidebarTitle.value = "";
       //mod by exxile sidebar.setAttribute("src", "about:blank");
       //mod by exxile sidebarBox.hidden = true;
       sidebarBox.removeAttribute('hidden');
       sidebarBox.collapsed = true;
       // CollapseByStyle-Methode sidebarBox.setAttribute('style', 'display:none;');
-      
+
       sidebarSplitter.hidden = true;
       content.focus();
     } else {
@@ -262,7 +262,7 @@ if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
   sidebarBox.removeAttribute('hidden');
   sidebarBox.removeAttribute('collapsed');
   // CollapseByStyle-Methode sidebarBox.removeAttribute('style');
-  
+
   sidebarSplitter.hidden = false;
 
   var url = sidebarBroadcaster.getAttribute("sidebarurl");

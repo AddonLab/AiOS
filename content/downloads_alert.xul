@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 
 <overlay id="aios_installOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	
+
 	<!-- scripts -->
     <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
-	
+
     <script><![CDATA[
-		
+
 		function onAlertClick() {
-			
+
 			if(window.arguments[0].indexOf("downloadIcon.png") > 0) {
 				var aiosInSidebar = aios_gPrefBranch.getBoolPref("dm.sidebar");
 				if(aiosInSidebar) aios_WIN.toggleSidebar('viewDownloadsSidebar', true);
-				
+
 				return;
 			}
-			
+
 			if (gAlertListener && gAlertTextClickable) gAlertListener.observe(null, "alertclickcallback", gAlertCookie);
 		}
-	    
+
 	]]>
     </script>
 

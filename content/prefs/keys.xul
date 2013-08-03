@@ -16,7 +16,7 @@
             <![CDATA[
 
             var gStrings = {
-                
+
                 warn: "&keyconfig.warn;",
                 used: "&keyconfig.used;",
                 onreset: "&keyconfig.onreset;",

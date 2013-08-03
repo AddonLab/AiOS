@@ -15,7 +15,7 @@
     <!-- scripts -->
     <script type="application/x-javascript" src="chrome://aios/content/prefs/_overlay.js" />
     <script type="application/x-javascript" src="chrome://aios/content/prefs/general.js" />
-    
+
     <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
     <script type="application/x-javascript" src="chrome://aios/content/_lib.js" />
     <script type="application/x-javascript" src="chrome://aios/content/multipanel.js" />
@@ -23,12 +23,12 @@
     <script type="application/x-javascript" src="chrome://aios/content/aios_fx.js" />
     <script type="application/x-javascript" src="chrome://aios/content/aios_tbx.js" />
     <script type="application/x-javascript" src="chrome://aios/content/aios_compatibility.js" />
-    
+
     <stringbundleset id="stringbundleset">
         <stringbundle id="aiosPlatformStrings" src="chrome://global-platform/locale/platformKeys.properties" />
         <stringbundle id="aiosProperties" src="chrome://aios/content/aios.properties" />
     </stringbundleset>
-    
+
     <!-- AiOS-Broadcaster -->
     <broadcasterset id="mainBroadcasterSet">
 
@@ -141,7 +141,7 @@
 	<!-- "src"-Status der Sidebar ueberwachen => letzte Sidebar merken -->
         <observes element="sidebar" attribute="src" onbroadcast="aios_remLastSidebar();" />
     </vbox>
-    
+
 
     <!-- Tooltips zuweisen -->
     <label id="sidebar-title" tooltip="sidebarheader-tooltip" />
@@ -149,7 +149,7 @@
 
 
     <!-- Grippy -->
-    <splitter id="sidebar-splitter" orient="horizontal" grippy="false" persist="grippy"> 
+    <splitter id="sidebar-splitter" orient="horizontal" grippy="false" persist="grippy">
         <grippy id="aios-sidebarGrippy" hidden="true" persist="hidden" onclick="aios_useGrippy();" />
     </splitter>
 
@@ -225,10 +225,10 @@
             label="&button.paneltab.label;" onclick="aios_panelTab(event);"
             tooltip="paneltab-tooltip" tooltiptext="&button.paneltab.tooltip1; / &button.paneltab.tooltip2;" />
 
-        <toolbarbutton id="toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton" 
+        <toolbarbutton id="toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
             label="&button.toolbar.label;" tooltiptext="&button.toolbar.tooltip;" observes="aios-viewToolbar" />
 
-        <toolbarbutton id="autohide-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton" 
+        <toolbarbutton id="autohide-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
             label="&button.autohide.label;" tooltiptext="&button.autohide.tooltip;" observes="aios-enableAutohide" />
 
     </toolbarpalette>
@@ -419,7 +419,7 @@
         <menuitem id="multipanel-mitem" observes="viewWebPanelsSidebar" position="7" key="aiosKey_multiPanel" />
         <menuitem id="pageinfo-mitem" observes="viewPageInfoSidebar" position="8" key="aiosKey_pageInfo" />
         <menuitem id="console-mitem" observes="viewConsoleSidebar" position="9" key="key_errorConsole" />
-        
+
         <menuseparator id="aios-sidebar-mitem-sep1" position="10" />
 
         <menuseparator id="aios-sidebar-mitem-sep0" position="94" />
@@ -443,7 +443,7 @@
 
 
     <hbox id="browser">
-        
+
         <!-- fuer CSS benoetigt -->
         <observes element="aios-toolbar" attribute="posMode" />
 
@@ -477,12 +477,12 @@
             <observes element="aios-toolbar" attribute="mode" />
             <observes element="aios-toolbar" attribute="defaultmode" />
             <observes element="aios-toolbar" attribute="iconsize" />
-            
+
             <!--
                 => die Toolbox darf beim Start nicht 'hidden sein', weil sonst die Toolbar nicht befuellt wird
                 => die Toolbox darf nicht 'collapsed' sein, weil sonst die Sidebar nicht skalierbar ist
             -->
-            
+
             <toolbar id="aios-toolbar" toolbarname="&toolbar.name;" context="aios-toolbar-contextmenu" customizable="true" class="chromeclass-toolbar"
                 posMode="1" mode="icons" iconsize="large" flexbuttons="false" persist="posMode mode iconsize flexbuttons hidden"
                 defaultset="bookmarks-button,history-button,separator,downloads-button,addons-button,separator,multipanel-button,pageinfo-button"
@@ -499,7 +499,7 @@
             <observes element="aios-toolbar" attribute="mode" />
             <observes element="aios-toolbar" attribute="defaultmode" />
             <observes element="aios-toolbar" attribute="iconsize" />
-            
+
             <!--
                 => die Toolbox darf beim Start nicht 'hidden sein', weil sonst die Toolbar nicht befuellt wird
                 => die Toolbox darf nicht 'collapsed' sein, weil sonst die Sidebar nicht skalierbar ist

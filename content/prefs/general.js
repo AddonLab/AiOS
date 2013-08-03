@@ -89,16 +89,16 @@ function aios_changeWidthUnit(mode) {
     var elem = document.getElementById('obj-' + mode + 'WidthVal');
     var elemPref = document.getElementById(mode + 'WidthVal');
     var theUnit = document.getElementById('obj-' + mode + 'WidthUnit').value;
-	
+
     var browserWidth = aios_getBrowserWidth();
     var compWidth = browserWidth[3];
 
     if(theUnit == "px") elem.value = parseInt((parseInt(elem.value) * compWidth) / 100);
     else elem.value = parseInt((parseInt(elem.value) * 100) / compWidth);
-	
+
     // preference auch aendern, da sonst der neue Wert des Textfeldes nicht gespeichert wird
     elemPref.value = elem.value;
-	
+
     // Kontrolle
     aios_checkWidthVal(mode);
 }
@@ -135,13 +135,13 @@ function aios_setConfSidebarWidth() {
     var compWidth = browserWidth[3];
 
     for(var i = 0; i < modes.length; i++) {
-		
+
         // Aufruf aus dem Options-Dialog => die Eingabefelder als Werte verwenden
         if(document.getElementById('obj-minWidthVal')) {
             elem = document.getElementById('obj-' + modes[i] + 'WidthVal');
             theValue = elem.value;
             theUnit = document.getElementById('obj-' + modes[i] + 'WidthUnit').value;
-			
+
             // Kontrolle
             aios_checkWidthVal(modes[i]);
         }
@@ -151,7 +151,7 @@ function aios_setConfSidebarWidth() {
             theValue = elem;
             theUnit = aios_gPrefBranch.getCharPref("gen.width." + modes[i] + "Unit");
         }
-		
+
         // Prozente in Px umrechnen (Angaben in % funktionieren hier nicht??)
         if(theUnit == "%") theValue = parseInt((compWidth * theValue) / 100);
 

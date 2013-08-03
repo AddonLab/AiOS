@@ -19,7 +19,7 @@ function aios_init() {
     window.setTimeout(function() {
         aios_setSSR();
     }, 50);
-    
+
     // fuer CSS-Zwecke speichern
     aios_appInfo(document.getElementById('webpanels-window'));
 }
@@ -180,7 +180,7 @@ function aios_setSBLabel() {
 
     if(webPanel && webPanel.contentDocument) {
         var loc = webPanel.contentDocument.location.href;
-        
+
         if(webPanel.contentDocument.title != "") newLabel = newLabel + webPanel.contentDocument.title;
     }
 
@@ -201,7 +201,7 @@ function aios_setSBLabel() {
 */
 function aios_setSSR() {
     //if(!aios_getBoolean("ssr-mitem", "checked")) return false;
-    
+
     var ssrURL = "chrome://aios/skin/css/multipanel_ssr.css";
 
     try {

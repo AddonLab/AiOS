@@ -3,15 +3,15 @@
 <overlay id="aios_installOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
     <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
-	
+
     <script><![CDATA[
-		
+
 		window.addEventListener("DOMContentLoaded", aios_XPInstallConfirm);
-		
+
 		function aios_XPInstallConfirm() {
-    	
+
 	    	var enable_sidebar = aios_gPrefBranch.getBoolPref("em.sidebar");
-	    	
+
 	    	/*
 				Sidebar oeffnen, wenn der Manager nur in der Sidebar geoeffnet werden soll
 					=> enable_sidebar => Manager soll in der Sidebar geoeffnet werden
@@ -22,13 +22,13 @@
 			if(enable_sidebar && !top.document.getElementById('sidebar') && top.toString() != "[object Window]" && !aios_WIN.aiosIsWindow) {
 				aios_WIN.toggleSidebar("viewAddonsSidebar", true);
 	    	}
-	    
+
 	    	//document.documentElement.getButton("cancel").focus();
 	    	window.setTimeout(function() {
 	    	    document.documentElement.getButton("cancel").focus();
 	    	}, 500);
 	    }
-	    
+
 	]]>
     </script>
 

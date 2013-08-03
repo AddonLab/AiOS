@@ -1,39 +1,39 @@
 
 #aios-toolbar[orient="vertical"] {
-    
+
     toolbarbutton {
-        
+
         margin: 2px 1px;
         padding-top: 2px;
         padding-bottom: 2px;
-        
+
         /* Toolbarbutton mit Dropmarker */
         toolbarbutton {
             margin: 0;
         }
-    
+
     }
-    
+
     &[iconsize="small"] .toolbarbutton-icon {
         margin: 1px;
     }
-    
+
     toolbarseparator,
     toolbarpaletteitem[id^="wrapper-separator"] {
         margin: 4px 2px 2px 2px;
     }
-    
+
 }
 
 
 /* @group Firefox-Standard-Theme */
 window[aios-appDefTheme="true"] {
-    
+
     /* Aktivierter Toolbarbutton (type = menu-button) [iconsize="large"] */
     toolbar[mode="icons"] {
-        
+
         toolbarbutton[type="menu-button"][checked="true"] {
-        
+
             .toolbarbutton-icon,
             .dropmarker-icon {
                 background-image: -moz-linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,.1)) !important;
@@ -47,9 +47,9 @@ window[aios-appDefTheme="true"] {
                 text-shadow: none !important;
                 -moz-transition: none !important;
             }
-            
+
             &:hover {
-                
+
                 .toolbarbutton-icon,
                 .dropmarker-icon {
                     border-color: hsla(210,54%,20%,.3) hsla(210,54%,20%,.35) hsla(210,54%,20%,.4) !important;
@@ -60,10 +60,10 @@ window[aios-appDefTheme="true"] {
                 }
             }
         }
-        
+
         /* [type="checkbox"] => u.a. AiOS-Toolbarbutton */
         toolbarbutton[type="checkbox"]:not([checked="true"]) {
-        
+
             .toolbarbutton-icon,
             .dropmarker-icon {
                 background-image: none !important;
@@ -72,17 +72,17 @@ window[aios-appDefTheme="true"] {
                 border-color: transparent !important;
             }
         }
-        
+
     }
     /* @end */
 
 
     #aios-toolbar[iconsize="large"][mode="icons"],
     #aios-sbhtoolbar[iconsize="large"][mode="icons"] {
-        
+
         .toolbarbutton-1 {
             margin: 2px 2px 2px 3px;
-            
+
             /* Button-Optik mit BG und Border */
             &,
             > .toolbarbutton-menubutton-button,
@@ -91,10 +91,10 @@ window[aios-appDefTheme="true"] {
                 padding: 1px 5px;
                 border-radius: 2px;
             }
-            
+
             /* Hover-Zustand - inaktiver Button */
             &:hover:not(:active):not([disabled="true"]):not([checked="true"]):not([open="true"]) {
-                
+
                 &:not([type="menu-button"]),
                 > .toolbarbutton-menubutton-button,
                 > .toolbarbutton-menubutton-dropmarker {
@@ -104,14 +104,14 @@ window[aios-appDefTheme="true"] {
                                 0 1px hsla(210,54%,20%,.03),
                                 0 0 2px hsla(210,54%,20%,.1);
                 }
-                
+
             }
-            
+
             /* Hover-Zustand aktiver Button */
             &:active:hover, /* mousedown */
             &[open="true"]:hover, /* geoeffnetes Menue */
             &[checked="true"]:hover /* aktiviert */ {
-                
+
                 &:not([type="menu-button"]),
                 .toolbarbutton-menubutton-button,
                 .toolbarbutton-menubutton-dropmarker {
@@ -121,14 +121,14 @@ window[aios-appDefTheme="true"] {
                                 0 0 2px hsla(210,54%,20%,.1);
                     -moz-transition: background-color .4s;
                 }
-                
+
             }
-            
+
             /* aktiver Button */
             &:active, /* mousedown */
             &[open="true"], /* geoeffnetes Menue */
             &[checked="true"] /* aktiviert */ {
-                
+
                 &:not([type="menu-button"]),
                 .toolbarbutton-menubutton-button,
                 .toolbarbutton-menubutton-dropmarker {
@@ -143,10 +143,10 @@ window[aios-appDefTheme="true"] {
                     text-shadow: none;
                     -moz-transition: none;
                 }
-                
+
             }
-            
-            
+
+
             /* Icons */
             > .toolbarbutton-icon,
             > .toolbarbutton-menubutton-button > .toolbarbutton-icon {
@@ -156,11 +156,11 @@ window[aios-appDefTheme="true"] {
             }
         }
     }
-    
-    
+
+
     #aios-toolbar[iconsize="large"][mode="icons"],
     #aios-sbhtoolbar[iconsize="large"][mode="icons"] {
-        
+
         /* Menuebutton */
         &[type="menu-button"] {
             padding: 0;
@@ -168,93 +168,93 @@ window[aios-appDefTheme="true"] {
             border: none;
             box-shadow: none;
         }
-        
+
         /* Menuebutton auf vertikaler Toolbar - Dropmarker unter dem Button */
         &[orient="vertical"] {
-            
+
             .toolbarbutton-1[type="menu-button"] {
-                
+
                 > .toolbarbutton-menubutton-button {
                     border-bottom: none;
                     border-bottom-left-radius: 0;
                     border-bottom-right-radius: 0;
                 }
-                
+
                 > .toolbarbutton-menubutton-dropmarker {
                     border-top-left-radius: 0;
                     border-top-right-radius: 0;
                 }
             }
-            
+
         }
-        
+
         /* Menuebutton auf horizontaler Toolbar - Dropmarker rechts neben dem Button */
         &[orient="horizontal"] {
-            
+
             .toolbarbutton-1[type="menu-button"] {
-                
+
                 > .toolbarbutton-menubutton-button {
-                    
+
                     :-moz-locale-dir(ltr) {
                         border-right: none;
                         border-top-right-radius: 0;
                         border-bottom-right-radius: 0;
                     }
-                    
+
                     :-moz-locale-dir(rtl) {
                         border-left: none;
                         border-top-left-radius: 0;
                         border-bottom-left-radius: 0;
                     }
-                    
+
                 }
-                
+
                 > .toolbarbutton-menubutton-dropmarker {
-                    
+
                     :-moz-locale-dir(ltr) {
                         border-top-left-radius: 0;
                         border-bottom-left-radius: 0;
                     }
-                    
+
                     :-moz-locale-dir(rtl) {
                         border-top-right-radius: 0;
                         border-bottom-right-radius: 0;
                     }
-                    
+
                 }
-                
+
             }
-            
+
         }
-        
+
     }
-    
+
     #aios-toolbar[mode="full"] {
-        
+
         .toolbarbutton-1,
         .toolbarbutton-menubutton-button {
             padding: 5px;
         }
-        
+
     }
-    
+
     #aios-toolbar[iconsize="small"] {
-        
+
         .toolbarbutton-1 {
             margin: 0 1px;
             padding: 0 2px;
         }
-        
+
         &[orient="horizontal"] {
-            
+
             .toolbarbutton-1 {
                 padding: 0 3px;
             }
-            
+
         }
-        
+
     }
-    
+
 }
 
 /* @end */
@@ -295,7 +295,7 @@ toolbarbutton.aios-tbutton[type="menu-button"]:-moz-lwtheme-brighttext {
 
 #sidebars-button {
     -moz-image-region: rect(1px, 107px, 17px, 91px);
-    
+
     /*dropmarker {
         display: none;
     }*/

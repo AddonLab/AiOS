@@ -41,7 +41,7 @@ function handleOptions(aType, toolbar, aNavToolbox) {
  */
 function aios_adjustToolboxWidth(aMode) {
     aios_getObjects();
-    
+
     var tboxen = new Array('aios-toolbox-left', 'aios-toolbox-right');
     var tbox;
 
@@ -56,11 +56,11 @@ function aios_adjustToolboxWidth(aMode) {
     // wenn noch keine Festlegungen getroffen werden sollten, diese durch rekursiven Aufruf kurze Zeit spaeter initiieren
     // verzoegerter Aufruf sichert die einwandfreie Funktion
     if(!aMode) {
-        
+
         window.setTimeout(function() {
             aios_adjustToolboxWidth(true);
         }, 100);
-        
+
         return false;
     }
 
@@ -222,7 +222,7 @@ function aios_setToolbarPos(posMode) {
     aios_toolbar.setAttribute('orient', orient);
 
     document.getElementById(tbox).appendChild(aios_toolbar);
-    
+
     aios_adjustToolboxWidth(false);
 
     document.getElementById('aios-pos-mitem' + posMode).setAttribute('checked', true);
@@ -303,7 +303,7 @@ function aios_setToolbarView(aViewMode, aWhich) {
  */
 function aios_toggleToolbar(aWhich) {
     aios_getObjects();
-    
+
     var mode = (typeof aWhich == "boolean") ? aWhich : !aios_getBoolean(aWhich, 'checked');
 
     aios_toolbar.hidden = mode;

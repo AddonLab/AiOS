@@ -31,7 +31,7 @@ function aios_initPrefs() {
         extra2.setAttribute('popup', 'aios-settings-popup');
         extra2.setAttribute('dir', 'reverse');
     }
-    
+
     // abhaengige Elemente aktivieren oder deaktivieren
     aios_checkDependent();
 
@@ -518,7 +518,7 @@ function aios_savePrefs() {
     }
 
     if(aios_WIN.aios_setTargets) aios_WIN.aios_setTargets();
-    
+
     aios_WIN.aios_checkThinSwitch();
     if(aios_WIN.aios_setSidebarOrient) aios_WIN.aios_setSidebarOrient();
     if(aios_WIN.aios_initAutohide) aios_WIN.aios_initAutohide();
@@ -598,13 +598,13 @@ function aios_rememberOldPrefs() {
 
         // Change-Listener hinzufuegen
         if(!allPrefs[i].getAttribute('data-changed')) {
-            
+
             allPrefs[i].addEventListener("change", function() {
                 aios_checkApply(this);
             });
-            
+
             allPrefs[i].setAttribute('data-changed', true)
-            
+
         }
     }
 }

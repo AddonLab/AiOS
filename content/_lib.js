@@ -5,7 +5,7 @@
 */
 function aios_modSidebarMenu() {
     aios_getObjects();
-    
+
     var actSidebar = aios_remLastSidebar();
     var command, commandParent;
 
@@ -15,17 +15,17 @@ function aios_modSidebarMenu() {
         commandParent = null;
         var broadcaster = null;
         var item = fx_sidebarMenu.childNodes[i];
-  	
+
         // Icons ein- oder ausblenden
         try {
             var enable_icons = aios_gPrefBranch.getBoolPref('menus.sidebar.icons');
             var theClass = (enable_icons) ? '' : 'aios-noIcons';
-  		
+
             if(theClass != '') aios_appendClass(item, theClass);
             else aios_stripClass(item, 'aios-noIcons');
         }
         catch(e) { }
-	  
+
         // nur, wenn es kein Separator o.ae. ist
         if(item.getAttribute('observes') && document.getElementById(item.getAttribute('observes'))) {
             broadcaster = document.getElementById(item.getAttribute('observes'));
@@ -58,15 +58,15 @@ function aios_modSidebarMenu() {
 
         // den Menuepunkt der aktuellen Sidebar aktivieren/deaktivieren
         if(command && commandParent) {
-            
+
             try {
                 var enable_deac = aios_gPrefBranch.getBoolPref('menus.sidebar.entrydeac');
-                
+
                 if(actSidebar && command.indexOf(actSidebar) != -1 && enable_deac) item.setAttribute('disabled', true);
                 else item.setAttribute('disabled', false);
             }
             catch(e) { }
-            
+
         }
     }
 
@@ -283,17 +283,17 @@ function aios_panelTab(event) {
         else if(sidebarHref == "chrome://browser/content/web-panels.xul" && mode == "tab") newSrc = panelHref;
         // alle anderen
         else newSrc = sidebarHref;
-		
+
         // in TAB oeffnen
         if(mode == "tab") {
             aiosNewTab = aios_addTab(newSrc);
-            
+
             if(!enable_bmm) {
-                
+
                 window.setTimeout(function() {
                     aiosNewTab.setAttribute('label', aiosSidebarTitle);
                 }, 400);
-                
+
             }
         }
         // in FENSTER oeffnen
@@ -304,7 +304,7 @@ function aios_panelTab(event) {
             window.setTimeout(function() {
                 aios_WIN.aiosIsWindow = false;
             }, 500);
-            
+
             var winID = "aiosPanelTabWindow_" + top.document.getElementById('sidebar-box').getAttribute('sidebarcommand');
             var winWidth = (screen.availWidth >= 900) ? 800 : screen.availWidth/2;
             var winHeight = (screen.availHeight >= 700) ? 600 : screen.availHeight/2;
@@ -358,9 +358,9 @@ function aios_contextEvent(event, which) {
     //alert("Maus: " + event.button + "\nShift: " + event.shiftKey + "\nCtrl: " + event.ctrlKey + "\nAlt: " + event.altKey + "\nMeta: " + event.metaKey);
 
     if(event.button == 0 && (!event.shiftKey && !event.ctrlKey && !event.metaKey)) return false;      // nur Linksklick (metaKey = Mac)
-    
+
     if(!enable_rightclick && event.button == 2) return false;                       // Rechtsklick nicht erlaubt
-    
+
     if(!event || typeof which != "object") return false;                            // kein empfangenes Event
 
     var mWindow = document.getElementById('main-window');
@@ -396,13 +396,13 @@ function aios_contextEvent(event, which) {
             window.setTimeout(function() {
                 aios_WIN.aiosIsWindow = false;
             }, 500);
-            
+
             var winID = "aiosContextEventWindow_" + cmdObj.getAttribute('aios_sbCmd');
             var winSRC = cmdObj.getAttribute('aios_sbUri');
             var winWidth = (screen.availWidth >= 900) ? 800 : screen.availWidth/2;
             var winHeight = (screen.availHeight >= 700) ? 600 : screen.availHeight/2;
             toOpenWindowByType(winID, winSRC, "width="+winWidth+",height="+winHeight+",chrome,titlebar,toolbar,resizable,centerscreen,dialog=no");
-            
+
             break;
 
         case "tab":
@@ -426,7 +426,7 @@ function aios_setTargets() {
     // weise den Menueelementen der Fehlerkonsole, des Seitenquelltextes und der Seiteninformationen die entsprechenden commands zu
     document.getElementById('javascriptConsole').removeAttribute('oncommand');
     document.getElementById('javascriptConsole').setAttribute('command', 'Tools:Console');
-	
+
     if(document.getElementById('key_errorConsole')) {
         document.getElementById('key_errorConsole').removeAttribute('oncommand');
         document.getElementById('key_errorConsole').setAttribute('command', 'Tools:Console');
@@ -434,8 +434,8 @@ function aios_setTargets() {
 
     document.getElementById('context-viewinfo').removeAttribute('oncommand');
     document.getElementById('context-viewinfo').setAttribute('command', 'View:PageInfo');
-	
-	
+
+
     var targets = new Array();
     targets['bm'] = new Array('View:Bookmarks', 	'viewBookmarksSidebar',     'bookmarks');
     targets['hi'] = new Array('View:History', 		'viewHistorySidebar',       'history');
@@ -457,7 +457,7 @@ function aios_setTargets() {
 
         if(prefInfotip) {
             if(elem_switch) elem_switch.removeAttribute('tooltiptext');
-      
+
             //if(document.getElementById('paneltab-button')) document.getElementById('paneltab-button').removeAttribute('tooltiptext');
             // in Schleife, weil es mehrere Buttons mit der gleichen ID geben kann
             objects = document.getElementsByAttribute('id', 'paneltab-button');
@@ -490,7 +490,7 @@ function aios_setTargets() {
         var btObj = document.getElementById(targets[obj][2] + "-button");	// Button
 
         if(ffObj && sbObj) {
-            
+
             var newObj, newCmd, newTp;
 
             if(prefSidebar) {
@@ -503,14 +503,14 @@ function aios_setTargets() {
             }
 
             newCmd = newObj.getAttribute('oncommand');
-			
+
             // verhindern dass zwei Befehle ausgefuehrt werden, wenn eine Taste mitgedrueckt wird
             newCmd = "if(aios_preventDblCmd(event)) " + newCmd + " return true;";
-            
+
             // Befehl zuweisen
             ffObj.setAttribute('oncommand', newCmd);
-            
-            
+
+
             // Befehle merken
             // 	=> fuer Context-Funktionen - aios_contextEvent() - abfragbar
             // 	=> zuweisbar, wenn nicht mehr in Sidebar geoeffnet werden soll
@@ -524,8 +524,8 @@ function aios_setTargets() {
                 sbObj.setAttribute('aios_sbUri', sbObj.getAttribute('sidebarurl'));
                 sbObj.setAttribute('oncommand', "if(aios_preventDblCmd(event)) " + sbObj.getAttribute('oncommand'));
             }
-            
-            
+
+
             // Tooltiptext entfernen, um Info-Tooltips sichtbar zu machen (in Schleife, weil es mehrere Buttons mit der gleichen ID geben kann)
             //if(prefInfotip && btObj) btObj.removeAttribute('tooltiptext');
             if(prefInfotip && btObj) {
@@ -534,14 +534,14 @@ function aios_setTargets() {
                     objects[i].removeAttribute('tooltiptext');
                 }
             }
-            
+
             // "alte" Tooltip-Zeilen entfernen (sonst werden sie mit jedem Funktionsaufruf zusaetzlich eingefuegt)
             if(tpObj.childNodes.length > 1) tpObj.removeChild(tpObj.childNodes[1]);
 
             // Rechtsklick im Tooltip aktivieren
             if(enable_rightclick)
                 newTp.setAttribute('r3c2', newTp.getAttribute('r3c2') + newTp.getAttribute('rightclick'));
-			
+
             // Tooltip zuweisen
             tpObj.appendChild(newTp);
 
@@ -565,18 +565,18 @@ function aios_setTargets() {
             pttt2.setAttribute('r3c2', pttt2.getAttribute('r3c2') + pttt2.getAttribute('rightclick'));
         }
     }
-	
-    
+
+
     // Oeffnen des Download-Fensters verhindern, wenn die Sidebar genutzt werden soll
 	if(aios_gPrefBranch.getBoolPref('dm.sidebar')) aios_gPref.setBoolPref("browser.download.manager.showWhenStarting", false);
-    
-    
+
+
     // Download-Observer hinzufuegen, falls Downloads in der Sidebar geoeffnet werden sollen
     var observerService = Components.classes["@mozilla.org/observer-service;1"].getService(Components.interfaces.nsIObserverService);
-	
+
     observerService.addObserver(aios_DownloadObserver, "dl-start",  false);
     observerService.addObserver(aios_DownloadObserver, "dl-done",  false);
-    
+
     // Observer beim Schliessen des Fensters wieder loeschen
     window.addEventListener("unload", function() {
         if(aios_DownloadObserver) {
@@ -585,11 +585,11 @@ function aios_setTargets() {
             aios_myOs.removeObserver(aios_DownloadObserver, "dl-done");
             aios_DownloadObserver = null;
         }
-        
+
     }, false);
-    
-    
-	
+
+
+
     return true;
 }
 
@@ -601,11 +601,11 @@ function aios_setTargets() {
 */
 var aios_DownloadObserver = {
     observe: function (aSubject, aTopic, aState) {
-		
+
         var autoOpen = aios_gPrefBranch.getBoolPref('dm.autoopen');
         var autoClose = aios_gPrefBranch.getBoolPref('dm.autoclose');
         var mainWindow = window.QueryInterface(Components.interfaces.nsIInterfaceRequestor).getInterface(Components.interfaces.nsIWebNavigation).QueryInterface(Components.interfaces.nsIDocShellTreeItem).rootTreeItem.QueryInterface(Components.interfaces.nsIInterfaceRequestor).getInterface(Components.interfaces.nsIDOMWindow);
-        
+
         switch (aTopic) {
             case "dl-start":
                 var comElem = document.getElementById('Tools:Downloads');
@@ -614,7 +614,7 @@ var aios_DownloadObserver = {
                     if(typeof aios_WW.activeWindow.toggleSidebar == "function") aios_WW.activeWindow.toggleSidebar("viewDownloadsSidebar", true);
                 }
                 break;
-	
+
             case "dl-done":
                 var sideSrc = document.getElementById('sidebar').getAttribute('src');
                 if(autoOpen && autoClose && sideSrc.indexOf('downloads.xul') >= 0) {

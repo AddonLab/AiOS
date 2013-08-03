@@ -15,7 +15,7 @@
         <![CDATA[
 
             var aios_appOS = Components.classes['@mozilla.org/xre/app-info;1'].getService(Components.interfaces.nsIXULRuntime).OS;
-            
+
             var theFeatures = "chrome,titlebar,toolbar,centerscreen,";
             theFeatures+= (aios_appOS == "Darwin") ? "dialog=no" : "modal";
 
@@ -25,7 +25,7 @@
     <groupbox id="downloadsGroup">
 
         <box insertbefore="saveWhere" id="aiosDownloadsBox">
-		
+
             <grid flex="1">
                 <columns>
                     <column flex="1" />
@@ -35,7 +35,7 @@
                 <rows>
                     <row align="center">
                         <label value="&misc.dm.overlay;" />
-                        <button id="aiosOptions" label="&menu.prefs.label;" 
+                        <button id="aiosOptions" label="&menu.prefs.label;"
                         oncommand="openDialog('chrome://aios/content/prefs/prefs.xul', 'aiosPrefsDialog', theFeatures, 'dwn');" />
                     </row>
                 </rows>

@@ -14,7 +14,7 @@ toolbar[iconsize="small"] toolbarbutton.toolbarbutton-1.aios-tbutton:hover {
 toolbar[iconsize="small"] #downloads-button,
 toolbar[iconsize="small"] #downloads-button:hover {
     -moz-image-region: rect(0, 16px, 16px, 0);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 16px, 32px, 0);
     }
@@ -23,7 +23,7 @@ toolbar[iconsize="small"] #downloads-button:hover {
 #addons-button,
 toolbar[iconsize="small"] #addons-button {
     -moz-image-region: rect(0, 32px, 16px, 16px);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 32px, 32px, 16px);
     }
@@ -32,7 +32,7 @@ toolbar[iconsize="small"] #addons-button {
 #multipanel-button,
 toolbar[iconsize="small"] #multipanel-button {
     -moz-image-region: rect(0, 48px, 16px, 32px);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 48px, 32px, 32px);
     }
@@ -41,7 +41,7 @@ toolbar[iconsize="small"] #multipanel-button {
 #pageinfo-button,
 toolbar[iconsize="small"] #pageinfo-button {
     -moz-image-region: rect(0, 64px, 16px, 48px);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 64px, 32px, 48px);
     }
@@ -50,7 +50,7 @@ toolbar[iconsize="small"] #pageinfo-button {
 #console-button,
 toolbar[iconsize="small"] #console-button {
     -moz-image-region: rect(0, 96px, 16px, 80px);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 96px, 32px, 80px);
     }
@@ -63,8 +63,8 @@ toolbar[iconsize="small"] #paneltab-button {
 
 #sidebars-button,
 toolbar[iconsize="small"] #sidebars-button {
-    -moz-image-region: rect(0, 128px, 16px, 112px); 
-        
+    -moz-image-region: rect(0, 128px, 16px, 112px);
+
     dropmarker {
         display: none;
     }
@@ -73,7 +73,7 @@ toolbar[iconsize="small"] #sidebars-button {
 #sidebars-togglebutton,
 toolbar[iconsize="small"] #sidebars-togglebutton {
     -moz-image-region: rect(0, 144px, 16px, 128px);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 144px, 32px, 128px);
     }
@@ -81,7 +81,7 @@ toolbar[iconsize="small"] #sidebars-togglebutton {
 
 toolbar[mode="full"]:not([orient="vertical"]) #sidebars-togglebutton {
     -moz-box-orient: horizontal;
-    
+
     .toolbarbutton-menubutton-button {
         -moz-box-orient: horizontal;
     }
@@ -90,7 +90,7 @@ toolbar[mode="full"]:not([orient="vertical"]) #sidebars-togglebutton {
 #autohide-button,
 toolbar[iconsize="small"] #autohide-button {
     -moz-image-region: rect(0, 160px, 16px, 144px);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 160px, 32px, 144px);
     }
@@ -99,7 +99,7 @@ toolbar[iconsize="small"] #autohide-button {
 #toolbar-button,
 toolbar[iconsize="small"] #toolbar-button {
     -moz-image-region: rect(0, 176px, 16px, 160px);
-    
+
     &[checked="true"] {
         -moz-image-region: rect(16px, 176px, 32px, 160px);
     }
@@ -140,79 +140,79 @@ menuitem[key="aiosKey_prefs"] {
 
 
 window[aios-appDefTheme="true"] {
-    
+
     #downloads-button,
     #downloads-button:hover,
     toolbarbutton.toolbarbutton-1.aios-tbutton,
     toolbarbutton.toolbarbutton-1.aios-tbutton:hover,
     toolbar[iconsize="small"] toolbarbutton.toolbarbutton-1.aios-tbutton,
     toolbar[iconsize="small"] toolbarbutton.toolbarbutton-1.aios-tbutton:hover {
-        
+
         image.toolbarbutton-icon,
         &:hover image.toolbarbutton-icon:-moz-window-inactive {
             opacity: 0.75;
         }
-        
+
         image.toolbarbutton-icon:-moz-window-inactive {
             opacity: 0.3;
         }
-        
+
         &[checked="true"] {
-            
+
             image.toolbarbutton-icon,
             &:hover image.toolbarbutton-icon:-moz-window-inactive {
                 opacity:  1;
             }
-            
+
             image.toolbarbutton-icon:-moz-window-inactive {
                 opacity: 0.5;
             }
         }
     }
-    
+
     #aios-toolbar[orient="vertical"] toolbarbutton {
         margin: 2px 1px;
     }
-    
+
     #aios-sbhtoolbar[iconsize="small"] toolbarbutton {
         margin: 0 2px;
         padding: 0;
         min-width: 0;
         max-height: none;
-        
+
         image {
             margin: 0;
         }
     }
-    
+
     toolbar[mode="full"] #downloads-button {
         label {
             margin-top:  5px;
         }
     }
-    
+
     #sidebars-togglebutton,
     toolbar[iconsize="small"] #sidebars-togglebutton {
         border: none;
-        
+
         .toolbarbutton-menubutton-button {
-        
+
             label {
                 margin-left: 2px;
                 margin-right: 3px;
             }
-            
+
         }
     }
-    
+
     toolbar[mode="icons"]:not([orient="vertical"]) #sidebars-togglebutton[checked="true"]  {
         -moz-appearance: toolbarbutton;
-        
+
         .toolbarbutton-menubutton-button,
         .toolbarbutton-menubutton-dropmarker {
             -moz-appearance: none;
             min-width: 0;
         }
-        
+
     }
 }

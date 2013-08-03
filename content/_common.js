@@ -178,7 +178,7 @@ function aios_addCSS(aURI, aBefore) {
     var path = "chrome://aios/skin/css/";
 
     var elem = (typeof aBefore == "object") ? aBefore : document.getElementById(aBefore);
-	
+
     var css = document.createProcessingInstruction("xml-stylesheet", 'href="' + path + aURI + '" type="text/css"');
     document.insertBefore(css, elem);
 }

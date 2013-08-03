@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 
 <overlay id="aios_DownloadsOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	
+
     <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
     <script type="application/x-javascript" src="chrome://aios/content/downloads.js" />
-    
+
     <window id="downloadManager">
         <hbox id="aios-search" insertbefore="downloadView" />
     </window>
-	
+
 </overlay>

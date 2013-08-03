@@ -26,7 +26,7 @@
 			label="&closeFolder.label;" tooltiptext="&closeFolder.label;" />
 
         <button id="viewButton" type="menu" label="&menu.tools.label;">
-            
+
             <menupopup id="viewPopUp">
 
                 <menuitem id="aios-enableAutoClose" type="checkbox" checked="false" persist="checked" label="&enable.autoClose.label;"

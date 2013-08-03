@@ -58,7 +58,7 @@ restoreDefaultSet = function () {
     // mod by exxile: Werte fuer AiOS-Toolbar zuruecksetzen => bevor defaultset zurueckgesetzt wird => sonst fehler (zu viele separators)
     aios_WIN.aios_setToolbarPos(1);
     aios_WIN.aios_toolbar.setAttribute('flexbuttons', 'false');
-  
+
     // Restore the defaultset for fixed toolbars.
     forEachCustomizableToolbar(function (toolbar) {
         var defaultSet = toolbar.getAttribute("defaultset");

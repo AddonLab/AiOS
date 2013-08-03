@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 
 <overlay id="pageInfoOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	
+
     <!-- scripts -->
     <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
     <script type="application/x-javascript" src="chrome://aios/content/pageinfo.js" />
-	
+
     <script><![CDATA[
         window.addEventListener("DOMContentLoaded", aios_init, false);
         window.addEventListener("unload", aios_persistSelTab, false);
     ]]>
     </script>
-	
+
     <window id="main-window" persist="screenX screenY width height sizemode seltab" />
-	
+
     <radiogroup id="viewGroup" onclick="aios_persistSelTab();" />
-	
+
 </overlay>

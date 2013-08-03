@@ -10,7 +10,7 @@ if(document.getElementById('Console2Window')) conWindow = document.getElementByI
 		=> Aufruf durch onload in console.xul
 */
 function aios_init() {
-	
+
     try {
         var enable_layout = aios_gPrefBranch.getBoolPref("co.layout");
         var enable_layoutall = aios_gPrefBranch.getBoolPref("co.layoutall");
@@ -21,10 +21,10 @@ function aios_init() {
 
     // Menueleiste unter Mac OS X ausblenden
     aios_hideMacMenubar();
-    
+
     // fuer CSS-Zwecke speichern
     aios_appInfo(conWindow);
-    
+
     // Layout-Optimierungen aktivieren?
     if((enable_layout && aios_inSidebar) || enable_layoutall) aios_sidebarLayout();
 
@@ -40,7 +40,7 @@ function aios_init() {
 function aios_sidebarLayout() {
 
     aios_addCSS("console.css", conWindow);
-	
+
     // Fx-Error-Console
     if(conWindow.id == "JSConsoleWindow") {
         // Spacer erzeugen und einfuegen
@@ -56,14 +56,14 @@ function aios_sidebarLayout() {
                 if(tbChilds[i].tagName == "toolbarbutton") tbChilds[i].setAttribute('tooltiptext', tbChilds[i].getAttribute('label'));
             }
         }
-		
+
         // Label der Buttons unsichtbar machen => nur wenn es Icons gibt
         var cStyle = document.defaultView.getComputedStyle(document.getElementById('Console:modeAll'), '');
     }
     else if (conWindow.id == "Console2Window") {
         var cStyle = document.defaultView.getComputedStyle(document.getElementById('item_modeAll'), '');
     }
-    
+
     if(cStyle && cStyle.listStyleImage && cStyle.listStyleImage != "none") {
         if(document.getElementById('ToolbarMode')) document.getElementById('ToolbarMode').setAttribute("hideLabel", true);
     }

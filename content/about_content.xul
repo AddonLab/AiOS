@@ -7,13 +7,13 @@
 ]>
 
 <overlay id="aiosAboutOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    
+
     <script type="application/x-javascript" src="chrome://aios/content/about.js" />
-    
+
     <prefpane id="aiosAbout" onpaneload="AiOS_About.initialize();" style="min-height:310px;">
 
         <dialogheader id="aboutHeader" title="" description="" />
-        
+
         <hbox id="aboutHeaderMac">
             <label id="macTitle" value="" />
             <label id="macVersion" value="" />
@@ -34,7 +34,7 @@
                 <tabpanel orient="vertical">
 
                     <description width="100%">&about.desc;</description>
-                    
+
                     <separator class="groove" />
 
                     <hbox id="paypal" align="center" onclick="aios_addTab('http://firefox.exxile.net/paypal.php');">
@@ -43,12 +43,12 @@
                         <image src="chrome://aios/skin/img/paypal.gif" />
                     </hbox>
                 </tabpanel>
-                
+
 <!-- HELP -->
                 <tabpanel orient="vertical">
-                    
+
                     <description width="100%">&help.desc;</description>
-                    
+
                     <separator class="groove" />
 
                     <vbox class="indent websites">
@@ -69,7 +69,7 @@
                     <description width="100%">&contrib.desc;</description>
 
                     <separator class="groove" />
-                    
+
                     <grid flex="1">
                         <columns>
                             <column flex="1" />
@@ -107,7 +107,7 @@
 
 <!-- TRANSLATORS -->
                 <tabpanel orient="vertical">
-                    
+
                     <description width="100%">&trans.desc;</description>
 
                     <separator class="groove" />

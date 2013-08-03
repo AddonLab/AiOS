@@ -7,8 +7,8 @@
 <bindings xmlns="http://www.mozilla.org/xbl"
           xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
           xmlns:xbl="http://www.mozilla.org/xbl">
-	
-  
+
+
     <binding id="aiosTooltips">
         <content>
             <xul:hbox flex="1">
@@ -25,13 +25,13 @@
             </xul:hbox>
         </content>
     </binding>
-  
-    
+
+
     <!-- eigentlich nur fuer Darwin noetig, sonst gibt es links einen 1px breiten Rand -->
     <binding id="aiosGrippy">
         <resources>
             <stylesheet src="chrome://aios/skin/css/aios_grippies.css" />
         </resources>
     </binding>
-    
+
 </bindings>
