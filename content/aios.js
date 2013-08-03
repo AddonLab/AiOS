@@ -202,13 +202,8 @@ function aios_initSidebar() {
     // Sidebar-Ladezustand ueberwachen
     /*document.getElementById('sidebar').addProgressListener(aiosSBListener, Components.interfaces.nsIWebProgress.NOTIFY_STATE_DOCUMENT);*/
 
-    // BrowserFullScreen erweitern (Verhalten der Sidebar, Sidebar-Switch, usw.)
-    var fx_BrowserFullScreen = BrowserFullScreen;
-    BrowserFullScreen = function() {
-        //if(!window.fullScreen) fx_maximizedWindow = fx_mainWindow.getAttribute('sizemode') == "maximized";
-        fx_BrowserFullScreen();
-        aios_BrowserFullScreen();
-    };
+    // BrowserFullScreen überwachen
+    window.addEventListener( "sizemodechange", aios_BrowserFullScreen );
 
     // Drag&Drop-Funktion fuer den Sidebar-Umschalter deaktivieren?
     try {
