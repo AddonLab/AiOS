@@ -3,9 +3,12 @@
 <!ENTITY settings "Ayarlar">
 <!ENTITY close "Kapat">
 <!ENTITY tab.about "Hakkında">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Destekleyenler">
 <!ENTITY tab.trans "Çevirmenler">
+<!ENTITY about.desc "The All-in-One Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogues such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "Ingo Wennemaring, Hamburg [Almanya] tarafından yapılmıstır.">
+<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Web sayfası - Detaylı bilgiler">
 <!ENTITY about2.name "Özellikler- All-in-One Sidebar eklentisinin bütün özellikler">
 <!ENTITY about3.name "SSS - Sık sorulan sorular ve cevaplar">
@@ -32,6 +35,7 @@
 <!ENTITY trans.he-IL.lang "İbranice">
 <!ENTITY trans.hr-HR.lang "Hırvatca">
 <!ENTITY trans.hu-HU.lang "Macarca">
+<!ENTITY trans.hy-AM.lang "Armenian (Armenia)">
 <!ENTITY trans.it-IT.lang "İtalyanca">
 <!ENTITY trans.ja-JP.lang "Japonca">
 <!ENTITY trans.ko-KR.lang "Korece">
@@ -41,11 +45,15 @@
 <!ENTITY trans.pl-PL.lang "Polonyaca">
 <!ENTITY trans.pt-BR.lang "Portekizce (Brazilya">
 <!ENTITY trans.pt-PT.lang "Portekizce (Portekiz">
+<!ENTITY trans.ro-RO.lang "Romanian">
 <!ENTITY trans.ru-RU.lang "Rusça">
 <!ENTITY trans.sk-SK.lang "Slovakca">
+<!ENTITY trans.sq-AL.lang "Albanian">
+<!ENTITY trans.sr-RS.lang "Serbian (Cyrillic)">
 <!ENTITY trans.sv-SE.lang "İsveçce">
 <!ENTITY trans.tr-TR.lang "Türkçe">
 <!ENTITY trans.uk-UA.lang "Ukraynaca">
+<!ENTITY trans.vi-VN.lang "Vietnamese (Vietnam)">
 <!ENTITY trans.zh-CN.lang "Çince (Yalın)">
 <!ENTITY trans.zh-TW.lang "Çince  (Geleneksel)">
 <!ENTITY trans.thanks "Büyük çalışmalarından dolayı BabelZilla.org Takımına teşekkürler.">

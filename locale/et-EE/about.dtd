@@ -3,10 +3,12 @@
 <!ENTITY settings "Seaded…">
 <!ENTITY close "Sule">
 <!ENTITY tab.about "Teave">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Panustanud isikud">
 <!ENTITY tab.trans "Tõlkijad">
 <!ENTITY about.desc "All-in-One-Sidebar võimaldab avada erinevaid aknaid külgpaanis ning nende vahel kiiresti vahetada. See tegi lõpu akende kaosele! Lisaks järjehoidjatele ja ajaloole saab külgpaanis avada näiteks allalaadimise dialooge, programmi lisasid ja muud.">
 <!ENTITY create.desc "loodud Ingo Wennenmaring\'u poolt [Hamburg, Saksamaa]">
+<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Koduleht - hulka infot ühes kohas">
 <!ENTITY about2.name "Võimalused - kõik All-in-One-Sidebar\'i võimalused">
 <!ENTITY about3.name "KKK - korduma kippuvad küsimused ja vastused">

@@ -3,6 +3,7 @@
 <!ENTITY menu.togglebar.label "側邊欄彈出鈕">
 <!ENTITY menu.grippy.label "側邊欄伸縮鈕">
 <!ENTITY toolbar.name "All-in-One Sidebar 工具列">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "由 All-in-One Sidebar 來控制開關">
 <!ENTITY button.switch.tooltip1 "開關側邊欄與工具列">

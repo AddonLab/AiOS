@@ -1,6 +1,7 @@
 <!ENTITY loading.label "تحميل اللوحة…">
 <!ENTITY menu.prefs.label "All-in-One Sidebar خيارات…">
 <!ENTITY menu.togglebar.label "تحويل الشريط الجانبي">
+<!ENTITY menu.grippy.label "Sidebar Grippy">
 <!ENTITY toolbar.name "All-in-One Sidebar شريط أدوات">
 <!ENTITY sbhtoolbar.name "Sidebarheader شريط أدوات">
 <!ENTITY button.toggle.label "AiOS">

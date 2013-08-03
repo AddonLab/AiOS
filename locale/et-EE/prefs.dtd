@@ -21,6 +21,7 @@
 <!ENTITY tab.menus "Menüüd">
 <!ENTITY tab.menus.sidebar "Külgpaan">
 <!ENTITY tab.keys "Otseteed">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientatsioon">
 <!ENTITY gen.orient.label "Näita külgpaani">
 <!ENTITY gen.orient.left "vasakul">

@@ -5,6 +5,7 @@
 <!ENTITY settings.advanced "Gelişmiş modus">
 <!ENTITY settings.import "Tercihleri içe aktar…">
 <!ENTITY settings.export "Tercihleri dışa aktar…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Uygula">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Genel">
@@ -20,6 +21,7 @@
 <!ENTITY tab.menus "Menüler">
 <!ENTITY tab.menus.sidebar "Kenar çubuğu">
 <!ENTITY tab.keys "Kısayollar">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Yönelim">
 <!ENTITY gen.orient.label "Kenar çubuğunun üstünde göster">
 <!ENTITY gen.orient.left "sol kenarda">
@@ -77,6 +79,9 @@
 <!ENTITY menus.sidebar.entrydeac "Kenar çubuğunun menü verilerini etkisizleştir">
 <!ENTITY misc.enablesidebar.label "Kenar çubuğunda göster">
 <!ENTITY misc.layout.label "Kenar çubuğu iyileştirmesi">
+<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Renkli alanlar güncel durumda aktif">
 <!ENTITY misc.count.label "Parça numaralarını göster">
 <!ENTITY misc.enablelink.tooltip "Daha fazla bilgi için tıkla">

@@ -7,7 +7,7 @@
 <!ENTITY key.shift "Shift">
 <!ENTITY menu.tools.label "Tools">
 <!ENTITY closeFolder.label "Close All Folders">
-<!ENTITY show.closeFolder.label "'Close All Folders' Button">
+<!ENTITY show.closeFolder.label "\'Close All Folders\' Button">
 <!ENTITY enable.autoClose.label "Automatically Close Other Folders">
 <!ENTITY enable.scrollToFolder.label "Automatically Scroll to Selected Folder">
 <!ENTITY enable.rememberFolder.label "Remember and Focus Last Selected Folder">
