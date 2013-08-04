@@ -7,6 +7,7 @@
 <!ENTITY key.shift "Shift">
 <!ENTITY menu.tools.label "Araçlar">
 <!ENTITY closeFolder.label "Bütün dizinleri kapat">
+<!ENTITY show.closeFolder.label "\'Close All Folders\' Button">
 <!ENTITY enable.autoClose.label "Diğer dizinkeri otomatik olarak kapat">
 <!ENTITY enable.scrollToFolder.label "Seçili dizini otomatik olarak kaydır">
 <!ENTITY enable.rememberFolder.label "Son seçili dizini hatırla">

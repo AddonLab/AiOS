@@ -72,7 +72,7 @@
 <!ENTITY keyconfig.warn "Changes affect only new windows">
 <!ENTITY keyconfig.onreset "Browser restart required">
 <!ENTITY keyconfig.unrecognized "Unrecognized ($1)">
-<!ENTITY keyconfig.used "This key is already used by: \n\n\t$1\n\nIt might still work, though.">
+<!ENTITY keyconfig.used "This key is already used by: \\n\\n\\t$1\\n\\nIt might still work, though.">
 <!ENTITY menus.sidebar.desc "Customize the entries in the menu “View &gt; Sidebar” and in the dropdown menus of the sidebar buttons.">
 <!ENTITY menus.icons.label "Show Icons">
 <!ENTITY menus.entries.label "Show Entries">

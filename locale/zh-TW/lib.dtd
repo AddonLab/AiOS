@@ -7,6 +7,7 @@
 <!ENTITY key.shift "Shift">
 <!ENTITY menu.tools.label "工具">
 <!ENTITY closeFolder.label "收起所有資料夾">
+<!ENTITY show.closeFolder.label "\'Close All Folders\' Button">
 <!ENTITY enable.autoClose.label "自動收起其他的資料夾">
 <!ENTITY enable.scrollToFolder.label "自動捲動到選取的資料夾">
 <!ENTITY enable.rememberFolder.label "記住並自動選取上次使用的資料夾">

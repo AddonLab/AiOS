@@ -7,6 +7,7 @@
 <!ENTITY key.shift "Shift">
 <!ENTITY menu.tools.label "Alati">
 <!ENTITY closeFolder.label "Zatvori sve mape">
+<!ENTITY show.closeFolder.label "\'Close All Folders\' Button">
 <!ENTITY enable.autoClose.label "Automatski zatvori ostale mape">
 <!ENTITY enable.scrollToFolder.label "Automatski pomakni na odabranu mapu">
 <!ENTITY enable.rememberFolder.label "Zapamti i fokusiraj zadnje odabranu mapu">

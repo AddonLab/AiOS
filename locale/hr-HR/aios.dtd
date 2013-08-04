@@ -3,6 +3,7 @@
 <!ENTITY menu.togglebar.label "Prebacivanje rubnog stupca">
 <!ENTITY menu.grippy.label "Sidebar Grippy">
 <!ENTITY toolbar.name "All-in-One Sidebar alatna traka">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Promijeni elemente koje kontrolira All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Promjena rubnog stupca i alatne trake">
