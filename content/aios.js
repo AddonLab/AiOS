@@ -4,6 +4,7 @@
 
 window.addEventListener("load", aios_initSidebar, false);
 window.addEventListener("resize", aios_checkThinSwitch, false);
+window.addEventListener("mozfullscreenchange", aios_BrowserFullScreen, false);
 
 // sonst werden neu definierte Shortcuts bei Browser-Neustart zurueckgesetzt
 extLoad.add(30, function() {
@@ -16,6 +17,8 @@ var fx_mainWindow, fx_browser, fx_sidebar, fx_sidebarBox, fx_sidebarHeader, fx_s
 var aios_toggleBox, aios_toggleBar, aios_toggleSwitchItem, aios_toggleToolbarItem, aios_toolbar;
 var elem_switch, elem_tbb, elem_key, elem_close, elem_close2;
 
+var aios_enterFullScreen = 0;
+var aios_leaveFullScreen = 0;
 
 // Sidebar nur zusammenklappen statt schliessen
 var aios_collapseSidebar = aios_gPrefBranch.getBoolPref('collapse');
@@ -201,9 +204,6 @@ function aios_initSidebar() {
 
     // Sidebar-Ladezustand ueberwachen
     /*document.getElementById('sidebar').addProgressListener(aiosSBListener, Components.interfaces.nsIWebProgress.NOTIFY_STATE_DOCUMENT);*/
-
-    // BrowserFullScreen überwachen
-    window.addEventListener( "sizemodechange", aios_BrowserFullScreen );
 
     // Drag&Drop-Funktion fuer den Sidebar-Umschalter deaktivieren?
     try {
@@ -730,16 +730,7 @@ function aios_BrowserFullScreen() {
     aios_getObjects();
 
     try {
-        // Soll-Zustaende
-        var close_switch = aios_gPrefBranch.getBoolPref('fs.switch');
-        var close_toolbar = aios_gPrefBranch.getBoolPref('fs.toolbar');
-        var close_sidebar = aios_gPrefBranch.getBoolPref('fs.sidebar');
         var enable_restore = aios_gPrefBranch.getBoolPref('fs.restore');
-
-        // Ist-Zustaende
-        var rem_switchHidden = aios_getBoolean(aios_toggleBox, 'hidden');
-        var rem_toolbarHidden = aios_getBoolean(aios_toolbar, 'hidden');
-        var rem_sidebarHidden = aios_isSidebarHidden();
     }
     catch(e) {
         return false;
@@ -747,7 +738,27 @@ function aios_BrowserFullScreen() {
 
     // Fullscreen an
     // 	=> Elemente ausblenden
-    if(window.fullScreen) {
+    if(document.mozFullScreenElement) {
+
+        // Fix für mehrmaliges feuern des mozfullscreenchange events
+        aios_leaveFullScreen = 0;
+        aios_enterFullScreen++;
+        if(aios_enterFullScreen > 1) return;
+
+        try {
+            // Soll-Zustaende
+            var close_switch = aios_gPrefBranch.getBoolPref('fs.switch');
+            var close_toolbar = aios_gPrefBranch.getBoolPref('fs.toolbar');
+            var close_sidebar = aios_gPrefBranch.getBoolPref('fs.sidebar');
+
+            // Ist-Zustaende
+            var rem_switchHidden = aios_getBoolean(aios_toggleBox, 'hidden');
+            var rem_toolbarHidden = aios_getBoolean(aios_toolbar, 'hidden');
+            var rem_sidebarHidden = aios_isSidebarHidden();
+        }
+        catch(e) {
+            return false;
+        }
 
         // Ist-Zustaende speichern
         aios_toggleBox.setAttribute('fsSwitch', rem_switchHidden);
@@ -777,6 +788,12 @@ function aios_BrowserFullScreen() {
     // Fullscreen aus
     // 	=> Elemente einblenden
     else {
+
+        // Fix für mehrmaliges feuern des mozfullscreenchange events
+        aios_enterFullScreen = 0;
+        aios_leaveFullScreen++;
+        if(aios_leaveFullScreen > 1) return;
+
         // Toolbareinstellungen wiederherstellen (nur ohne die Erweiterung Autohide)
         if(typeof autoHIDE != "object") {
             aios_toolbar.setAttribute("mode", aios_toggleBox.getAttribute('fsToolbarMode'));
