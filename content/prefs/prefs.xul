@@ -638,6 +638,7 @@
                             <caption label="&tab.gen.behavior;" />
                             <checkbox preference="DMOpen" label="&misc.enablesidebar.label; *" aiosChilds="DMLayout, DMAutoOpen, DMAutoClose" oncommand="aios_checkboxObserver(this);" />
 
+<!--
                             <vbox class="indent">
                                 <checkbox preference="DMAutoOpen" label="&misc.dm.autoopen.label;" aiosChilds="DMAutoClose" oncommand="aios_checkboxObserver(this);" />
                                 <vbox class="indent">
@@ -648,13 +649,15 @@
                             <vbox class="indent spacer" aiosAdvanced="true">
                                 <checkbox preference="DMLayout" label="&misc.layout.label;" />
                             </vbox>
+-->
                         </groupbox>
 
+<!--
                         <groupbox>
                             <caption label="&tab.gen.appearance;" />
                             <checkbox preference="DMCount" label="&misc.count.label;" />
                         </groupbox>
-
+-->
                     </vbox>
 
                     <spacer flex="1" />

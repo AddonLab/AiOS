@@ -68,8 +68,9 @@ style           about:addons                                               chrom
 
 overlay         chrome://mozapps/content/xpinstall/xpinstallConfirm.xul    chrome://aios/content/addons_xpinstall.xul
 
-overlay         chrome://mozapps/content/downloads/downloads.xul           chrome://aios/content/downloads.xul
-overlay         chrome://global/content/alerts/alert.xul                   chrome://aios/content/downloads_alert.xul
+#overlay        chrome://mozapps/content/downloads/downloads.xul           chrome://aios/content/downloads.xul
+#overlay        chrome://global/content/alerts/alert.xul                   chrome://aios/content/downloads_alert.xul
+style           about:downloads                                            chrome://aios/skin/css/downloads.css
 
 overlay         chrome://browser/content/web-panels.xul                    chrome://aios/content/multipanel.xul
 style           chrome://browser/content/web-panels.xul                    chrome://aios/skin/css/multipanel.css

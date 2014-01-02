@@ -41,7 +41,7 @@
             oncommand="toggleSidebar('viewHistorySidebar');" />
 
         <broadcaster id="viewDownloadsSidebar" autoCheck="false" type="checkbox" group="sidebar"
-            sidebartitle="&downloads.label;" sidebarurl="chrome://mozapps/content/downloads/downloads.xul"
+            sidebartitle="&downloads.label;" sidebarurl="about:downloads"
             onclick="aios_contextEvent(event, this);"
             oncommand="toggleSidebar('viewDownloadsSidebar');"
             ondragdrop="nsDragAndDrop.drop(event, DownloadsButtonDNDObserver); event.stopPropagation();"
