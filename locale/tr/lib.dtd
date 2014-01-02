@@ -1,12 +1,13 @@
-<!ENTITY leftclick "Sol tıklama">
-<!ENTITY rightclick "Sağ tıklama">
+<!ENTITY leftclick "Sol tık">
+<!ENTITY rightclick "Sağ tık">
 <!ENTITY doubleclick "Çift tıklama">
 <!ENTITY middleclick "Orta tıklama">
 <!ENTITY key.ctrl "Ctrl">
 <!ENTITY key.alt "Alt">
 <!ENTITY key.shift "Shift">
 <!ENTITY menu.tools.label "Araçlar">
-<!ENTITY closeFolder.label "Bütün dizinleri kapat">
-<!ENTITY enable.autoClose.label "Diğer dizinkeri otomatik olarak kapat">
-<!ENTITY enable.scrollToFolder.label "Seçili dizini otomatik olarak kaydır">
-<!ENTITY enable.rememberFolder.label "Son seçili dizini hatırla">
+<!ENTITY closeFolder.label "Tüm Klasörleri Kapat">
+<!ENTITY show.closeFolder.label "\'Tüm Klasörleri Kapat\' Tuşu">
+<!ENTITY enable.autoClose.label "Diğer Klasörleri Otomatik Kapat">
+<!ENTITY enable.scrollToFolder.label "Seçili Klasöre Otomatik Geç">
+<!ENTITY enable.rememberFolder.label "Son Seçilen Klasörü Hatırla ve Seç">

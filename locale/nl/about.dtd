@@ -3,10 +3,12 @@
 <!ENTITY settings "Instellingen…">
 <!ENTITY close "Sluiten">
 <!ENTITY tab.about "Over">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Medewerkers">
 <!ENTITY tab.trans "Vertalers">
 <!ENTITY about.desc "De All-in-One zijbalk laat u verschillende vensters in de zijbalk openen en u gemakkelijk hiertussen wisselen, zoals bladwijzers, geschiedenis, downloads en add-ons. Maak een einde aan de vensterchaos!">
 <!ENTITY create.desc "gemaakt door Ingo Wennemaring, Hamburg [Duitsland]">
+<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Homepage - veel informatie op 1 plaats">
 <!ENTITY about2.name "Functies - alle functies van All-in-One Sidebar">
 <!ENTITY about3.name "FAQ - veel gestelde vragen en antwoorden">

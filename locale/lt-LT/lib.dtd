@@ -7,6 +7,7 @@
 <!ENTITY key.shift "Shift">
 <!ENTITY menu.tools.label "Priemonės">
 <!ENTITY closeFolder.label "Užverti visus aplankus">
+<!ENTITY show.closeFolder.label "\'Close All Folders\' Button">
 <!ENTITY enable.autoClose.label "Automatiškai užverti kitus aplankus">
 <!ENTITY enable.scrollToFolder.label "Automatiškai pereiti prie pasirinkto aplanko">
 <!ENTITY enable.rememberFolder.label "Įsiminti ir fokusuoti paskutinį pasirinktą aplanką">

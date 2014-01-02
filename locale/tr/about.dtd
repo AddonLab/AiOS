@@ -1,51 +1,59 @@
 <!ENTITY title "All-in-One Sidebar">
 <!ENTITY version "sürüm">
-<!ENTITY settings "Ayarlar">
+<!ENTITY settings "Ayarlar...">
 <!ENTITY close "Kapat">
 <!ENTITY tab.about "Hakkında">
+<!ENTITY tab.help "Yardım">
 <!ENTITY tab.contrib "Destekleyenler">
 <!ENTITY tab.trans "Çevirmenler">
-<!ENTITY create.desc "Ingo Wennemaring, Hamburg [Almanya] tarafından yapılmıstır.">
-<!ENTITY about1.name "Web sayfası - Detaylı bilgiler">
-<!ENTITY about2.name "Özellikler- All-in-One Sidebar eklentisinin bütün özellikler">
-<!ENTITY about3.name "SSS - Sık sorulan sorular ve cevaplar">
-<!ENTITY about4.name "Bilinen hatalar - Bilinen hatalar hakkında açıklamalar">
-<!ENTITY about5.name "Forum - Hata raporları, düzeltmeler diğer konular">
-<!ENTITY about6.name "Değişiklikler - Sürümlerde yapılan değişiklikler">
-<!ENTITY about7.name "Yapılacaklar - Yapılması düşünülen yenilikler">
-<!ENTITY contrib.desc "Kod desteği ve yaptıkları öneriler ile aşağıdaki ismi geçen herkese teşekkür ederim:">
-<!ENTITY contrib.thanks "Tüm kullanıcılara,gelitirmede yardım etmiş ve test etmiş herkese teşekkürler.Hataları forumda bildirin,fikirlerinizi ve görmek istediklerinizi paylaşın.Kimler güzel yorumlar yazdıysa :-) Çok çok teşekkürler!">
-<!ENTITY trans.desc "All-in-One Sidebar çeviricileri (Dil kodlarıyla alfabedik sırada)">
+<!ENTITY about.desc "All-in-One Sidebar çeşitli pencelerleri kenar çubuğu panellerinde açmanızı ve birbirleri arasında gezinmenizi sağlar. Böylece pencere karmaşasına bir nokta koyar. Yer imleri ve geçmiş yanında indirilenler, eklentiler ve diğer pencereleri de kenar çubuğunda açar.">
+<!ENTITY create.desc "yapımcısı Ingo Wennemaring, Hamburg [Almanya]">
+<!ENTITY help.desc "Bu eklentiyle ilgili birçok bilgiyi şu ağ sayfasında bulabilirsiniz:">
+<!ENTITY about1.name "Ağ sayfası - bir çok bilgi tek sayfada">
+<!ENTITY about2.name "Özellikler - All-in-One Sidebar eklentisinin tüm özellikleri">
+<!ENTITY about3.name "SSS - Sık sorulan sorular ve yanıtları">
+<!ENTITY about4.name "Bilinen hatalar - tanımlamalar ve sorun giderme">
+<!ENTITY about5.name "Forum - tartışma, hata raporları, tema düzeltmeleri ve diğer konular">
+<!ENTITY about6.name "Değişiklikler - geçmiş ve değişiklikler">
+<!ENTITY about7.name "Yapılacaklar - düşünüler özellikler ve geliştirmeler">
+<!ENTITY contrib.desc "Aşağıdaki geliştiricilere önerileri ve yazılım eklentileri için teşekkür ederim [ad sıralı]:">
+<!ENTITY contrib.thanks "Son olarak, geliştirme kurulumlarını test ederek, hataları forumlardan raporlayarak, düşünce ve önerilerini paylaşarak ya da yalnızca güzel bir yorum yazarak yardım eden tüm kullanıcılara teşekkür ederim. :-) Çok çok teşekkürler!">
+<!ENTITY trans.desc "All-in-One Sidebar çevirmenleri [dil kodu sıralı]:">
 <!ENTITY trans.ar-SA.lang "Arapça">
 <!ENTITY trans.be-BY.lang "Belarusça">
 <!ENTITY trans.cs-CZ.lang "Çekce">
-<!ENTITY trans.da-DK.lang "Danimarkaca">
+<!ENTITY trans.da-DK.lang "Danca">
 <!ENTITY trans.de-DE.lang "Almanca">
 <!ENTITY trans.el-GR.lang "Yunanca">
 <!ENTITY trans.en-GB.lang "İngilizce (İngiliz)">
 <!ENTITY trans.en-US.lang "İngilizce (Amerikan)">
 <!ENTITY trans.es-AR.lang "İspanyolca (Arjantin)">
 <!ENTITY trans.es-ES.lang "İspanyolca (İspanya)">
-<!ENTITY trans.et-EE.lang "Estonya">
-<!ENTITY trans.fi-FI.lang "Finlandiyaca">
+<!ENTITY trans.et-EE.lang "Estçe">
+<!ENTITY trans.fi-FI.lang "Fince">
 <!ENTITY trans.fr-FR.lang "Fransızca">
 <!ENTITY trans.he-IL.lang "İbranice">
-<!ENTITY trans.hr-HR.lang "Hırvatca">
+<!ENTITY trans.hr-HR.lang "Hırvatça">
 <!ENTITY trans.hu-HU.lang "Macarca">
+<!ENTITY trans.hy-AM.lang "Ermenice (Ermenistan)">
 <!ENTITY trans.it-IT.lang "İtalyanca">
 <!ENTITY trans.ja-JP.lang "Japonca">
 <!ENTITY trans.ko-KR.lang "Korece">
 <!ENTITY trans.lt-LT.lang "Litvanyaca">
 <!ENTITY trans.nb-NO.lang "Norveççe">
-<!ENTITY trans.nl-NL.lang "Felemenkce">
-<!ENTITY trans.pl-PL.lang "Polonyaca">
-<!ENTITY trans.pt-BR.lang "Portekizce (Brazilya">
-<!ENTITY trans.pt-PT.lang "Portekizce (Portekiz">
+<!ENTITY trans.nl-NL.lang "Felemenkçe">
+<!ENTITY trans.pl-PL.lang "Lehçe">
+<!ENTITY trans.pt-BR.lang "Portekizce (Brazilya)">
+<!ENTITY trans.pt-PT.lang "Portekizce (Portekiz)">
+<!ENTITY trans.ro-RO.lang "Romence">
 <!ENTITY trans.ru-RU.lang "Rusça">
-<!ENTITY trans.sk-SK.lang "Slovakca">
-<!ENTITY trans.sv-SE.lang "İsveçce">
+<!ENTITY trans.sk-SK.lang "Slovakça">
+<!ENTITY trans.sq-AL.lang "Arnavutça">
+<!ENTITY trans.sr-RS.lang "Sırpça (Kril)">
+<!ENTITY trans.sv-SE.lang "İsveççe">
 <!ENTITY trans.tr-TR.lang "Türkçe">
 <!ENTITY trans.uk-UA.lang "Ukraynaca">
+<!ENTITY trans.vi-VN.lang "Vietnamca (Vietnam)">
 <!ENTITY trans.zh-CN.lang "Çince (Yalın)">
-<!ENTITY trans.zh-TW.lang "Çince  (Geleneksel)">
-<!ENTITY trans.thanks "Büyük çalışmalarından dolayı BabelZilla.org Takımına teşekkürler.">
+<!ENTITY trans.zh-TW.lang "Çince (Geleneksel)">
+<!ENTITY trans.thanks "Büyük çalışmalarından dolayı da kesinlikle BabelZilla.org takımına teşekkürler.">
