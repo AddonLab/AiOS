@@ -3,6 +3,7 @@
 <!-- locale -->
 <!DOCTYPE overlay [
     <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
+    <!ENTITY % placesDTD SYSTEM "chrome://browser/locale/places/places.dtd"> %placesDTD;
     <!ENTITY % libDTD SYSTEM "chrome://aios/locale/lib.dtd"> %libDTD;
 ]>
 
