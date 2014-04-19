@@ -340,7 +340,7 @@ window[aiosOrient="right"][aiosMode="ltr"] #browser {
         padding: 1px 3px;
 
         &[value=""],
-        &label:not([value]) {
+        &:not([value]) {
             display: none;
         }
 

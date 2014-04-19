@@ -71,41 +71,41 @@ radio {
 
 /* @group Shortcut Pane */
 
-treechildren {
+// treechildren {
 
-    &::-moz-tree-row(odd) {
-        background-color: ButtonFace;
-        border-top: 1px solid ButtonFace;
-        border-bottom: 1px solid ButtonFace;
-    }
+//     &::-moz-tree-row(odd) {
+//         background-color: ButtonFace;
+//         border-top: 1px solid ButtonFace;
+//         border-bottom: 1px solid ButtonFace;
+//     }
 
-    &::-moz-tree-row(selected),
-    &::-moz-tree-row(odd, selected)  {
-        background-color: Highlight;
-    }
+//     &::-moz-tree-row(selected),
+//     &::-moz-tree-row(odd, selected) {
+//         background-color: Highlight;
+//     }
 
-    /* Style different keys differently */
-    &::-moz-tree-cell-text(hardcoded) {
-        color: GrayText;
-    }
+//     /* Style different keys differently */
+//     &::-moz-tree-cell-text(hardcoded) {
+//         color: GrayText;
+//     }
 
-    &::-moz-tree-cell-text(disabled) {
-        text-decoration: line-through;
-    }
+//     &::-moz-tree-cell-text(disabled) {
+//         text-decoration: line-through;
+//     }
 
-    &::-moz-tree-cell-text(user) {
-        font-weight: bold;
-    }
+//     &::-moz-tree-cell-text(user) {
+//         font-weight: bold;
+//     }
 
-    &::-moz-tree-cell-text(duplicate) {
-        color: #FF0000;
-        font-weight: bold;
-    }
+//     &::-moz-tree-cell-text(duplicate) {
+//         color: #FF0000;
+//         font-weight: bold;
+//     }
 
-    &::-moz-tree-cell-text(custom) {
-        font-style: italic;
-    }
-}
+//     &::-moz-tree-cell-text(custom) {
+//         font-style: italic;
+//     }
+// }
 
 /* @end */
 
