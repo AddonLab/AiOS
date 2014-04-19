@@ -1,7 +1,7 @@
 
 /*
-	Initialisierung
-		=> Aufruf durch onload im <prefwindow>
+    Initialisierung
+        => Aufruf durch onload im <prefwindow>
 */
 function aios_initPrefs() {
     // speziellen Tab oeffnen, wenn einer als Argument uebergeben wurde (aus den Standard-Optionen heraus)
@@ -86,8 +86,8 @@ function aios_initPane(mode) {
 
 
 /*
-	Standardeinstellungen zuruecksetzen
-		=> Aufruf durch <menuitem> in prefs.xul
+    Standardeinstellungen zuruecksetzen
+        => Aufruf durch <menuitem> in prefs.xul
 */
 function aios_defaultSettings() {
     var strings = document.getElementById("aiosStrings");
@@ -115,8 +115,8 @@ function aios_defaultSettings() {
 
 
 /*
-	Einstellungen in die Zwischenablage kopieren oder als Textdatei speichern
-		=> Aufruf durch <menuitem> in prefs.xul
+    Einstellungen in die Zwischenablage kopieren oder als Textdatei speichern
+        => Aufruf durch <menuitem> in prefs.xul
 */
 function aios_exportSettings(aMode) {
     var strings = document.getElementById("aiosStrings");
@@ -142,15 +142,15 @@ function aios_exportSettings(aMode) {
     for(var i = 0; i < count.value; i++) {
         try {
             switch(aios_gPrefBranch.getPrefType(childList[i])) {
-                case 	aios_pBranch.PREF_BOOL:
+                case    aios_pBranch.PREF_BOOL:
                     aiosExport[i+1] = childList[i] + '=' + aios_gPrefBranch.getBoolPref(childList[i]);
                     break;
 
-                case 	aios_pBranch.PREF_INT:
+                case    aios_pBranch.PREF_INT:
                     aiosExport[i+1] = childList[i] + '=' + aios_gPrefBranch.getIntPref(childList[i]);
                     break;
 
-                case 	aios_pBranch.PREF_STRING:
+                case    aios_pBranch.PREF_STRING:
                     aiosExport[i+1] = childList[i] + '=' + aios_gPrefBranch.getCharPref(childList[i]);
                     break;
             }
@@ -198,8 +198,8 @@ function aios_exportSettings(aMode) {
 
 
 /*
-	Einstellungen aus Textdatei importieren
-		=> Aufruf durch <menuitem> in prefs.xul
+    Einstellungen aus Textdatei importieren
+        => Aufruf durch <menuitem> in prefs.xul
 */
 function aios_importSettings() {
     var strings = document.getElementById("aiosStrings");
@@ -233,15 +233,15 @@ function aios_importSettings() {
         for(i = 6; i < aiosImport.length; i++) {
             try {
                 switch(aios_gPrefBranch.getPrefType(aiosImport[i][0])) {
-                    case 	aios_pBranch.PREF_BOOL:
+                    case    aios_pBranch.PREF_BOOL:
                         aios_gPrefBranch.setBoolPref(aiosImport[i][0],/true/i.test(aiosImport[i][1]));
                         break;
 
-                    case 	aios_pBranch.PREF_INT:
+                    case    aios_pBranch.PREF_INT:
                         aios_gPrefBranch.setIntPref(aiosImport[i][0], aiosImport[i][1]);
                         break;
 
-                    case 	aios_pBranch.PREF_STRING:
+                    case    aios_pBranch.PREF_STRING:
                         var pref = aiosImport[i][1];
                         if(pref.indexOf('"') == 0) // in prev version we use " " for string
                             pref = pref.substring(1,pref.length - 1);
@@ -267,8 +267,8 @@ function aios_importSettings() {
 
 
 /*
-	Textdatei in ein Array einlesen (thanks to adblock & Tab Mix Plus :-))
-		=> Aufruf durch aios_importSettings()
+    Textdatei in ein Array einlesen (thanks to adblock & Tab Mix Plus :-))
+        => Aufruf durch aios_importSettings()
 */
 function aios_loadFromFile() {
     var fp = Components.classes["@mozilla.org/filepicker;1"].createInstance(Components.interfaces.nsIFilePicker);
@@ -299,8 +299,8 @@ function aios_loadFromFile() {
 
 
 /*
-	auf abhaengige Elemente pruefen
-		=> Aufruf durch aios_initPrefs(), aios_defaultPrefs() und aios_importSettings()
+    auf abhaengige Elemente pruefen
+        => Aufruf durch aios_initPrefs(), aios_defaultPrefs() und aios_importSettings()
 */
 function aios_checkDependent() {
     var childObserver = document.getElementsByAttribute('oncommand', 'aios_checkboxObserver(this);');
@@ -312,8 +312,8 @@ function aios_checkDependent() {
 
 
 /*
-	abhaengige Checkboxen aktivieren oder deaktivieren
-		Aufruf durch die Eltern-Checkbox und aios_checkDependent()
+    abhaengige Checkboxen aktivieren oder deaktivieren
+        Aufruf durch die Eltern-Checkbox und aios_checkDependent()
 */
 function aios_checkboxObserver(which) {
     var observe = which.getAttribute('aiosChilds');
@@ -336,14 +336,14 @@ function aios_checkboxObserver(which) {
 
 
 /*
-	Advanced-Mode aktivieren/deaktivieren und Elemente und ein-/ausblenden
-		=> Aufruf durch aios_initPrefs() und das <menuitem> des Setting buttons
+    Advanced-Mode aktivieren/deaktivieren und Elemente und ein-/ausblenden
+        => Aufruf durch aios_initPrefs() und das <menuitem> des Setting buttons
 */
 function aios_advancedMode(trigger) {
 
     /*if(trigger) {
-		var heightBefore = aios_getSizeBoxHeight();
-	}*/
+        var heightBefore = aios_getSizeBoxHeight();
+    }*/
 
     var advanced = aios_getBoolean('aios-advanced', 'checked');
 
@@ -397,23 +397,23 @@ function aios_advancedMode(trigger) {
     }
 
     /*// Fenster vergroessern/verkleinern bei Mode-Umschaltung
-	if(trigger) {
-		var heightAfter = aios_getSizeBoxHeight();
+    if(trigger) {
+        var heightAfter = aios_getSizeBoxHeight();
 
-		//alert("heightBefore: " + heightBefore + " heightAfter: " + heightAfter);
+        //alert("heightBefore: " + heightBefore + " heightAfter: " + heightAfter);
 
-		var diff = heightBefore - heightAfter;
-		if(heightAfter > heightBefore) diff = diff - 10;
-		window.resizeTo(window.outerWidth, window.outerHeight - diff);
-	}*/
+        var diff = heightBefore - heightAfter;
+        if(heightAfter > heightBefore) diff = diff - 10;
+        window.resizeTo(window.outerWidth, window.outerHeight - diff);
+    }*/
 
     window.sizeToContent();
 }
 
 
 /*
-	Hoehe der Boxen zum Aktivieren/Deaktivieren des Advanced-Modes ermitteln
-		=> Aufruf durch aios_advancedMode()
+    Hoehe der Boxen zum Aktivieren/Deaktivieren des Advanced-Modes ermitteln
+        => Aufruf durch aios_advancedMode()
 */
 function aios_getSizeBoxHeight() {
     var theHeight = 0;
@@ -432,8 +432,8 @@ function aios_getSizeBoxHeight() {
 
 
 /*
-	Zahlen mit fuehrender Null zurueckgeben
-		=> Aufruf durch aios_exportSettings()
+    Zahlen mit fuehrender Null zurueckgeben
+        => Aufruf durch aios_exportSettings()
 */
 function aios_extendInt(aInput) {
     if(aInput < 10) return "0" + aInput.toString();
@@ -442,8 +442,8 @@ function aios_extendInt(aInput) {
 
 
 /*
-	synchronisiert jeweils die beiden Tab-Container, die abwechselnd angezeigt werden (normal und advanced)
-		=> Aufruf durch die beiden Tab-Container (General und Misc)
+    synchronisiert jeweils die beiden Tab-Container, die abwechselnd angezeigt werden (normal und advanced)
+        => Aufruf durch die beiden Tab-Container (General und Misc)
 */
 function aios_synchTabs(which) {
     var tabs0 = which.parentNode.childNodes[0];
@@ -458,8 +458,8 @@ function aios_synchTabs(which) {
 
 
 /*
-	GUI-Elemente zuruecksetzen
-		=> Aufruf durch aios_defaultSettings() und aios_importSettings()
+    GUI-Elemente zuruecksetzen
+        => Aufruf durch aios_defaultSettings() und aios_importSettings()
 */
 function aios_synchElements() {
     var val;
@@ -503,8 +503,8 @@ function aios_synchElements() {
 
 
 /*
-	Einstellungen einiger Optionen direkt uebernehmen
-		=> Aufruf durch button "accept" und aios_applyPrefs()
+    Einstellungen einiger Optionen direkt uebernehmen
+        => Aufruf durch button "accept" und aios_applyPrefs()
 */
 
 function aios_savePrefs() {
@@ -532,8 +532,8 @@ function aios_savePrefs() {
 
 
 /*
-	Einstellungen uebernehmen ohne den Dialog zu schliessen
-		=> Aufruf durch button "extra1"
+    Einstellungen uebernehmen ohne den Dialog zu schliessen
+        => Aufruf durch button "extra1"
 */
 function aios_applyPrefs() {
     var pID, pType, pName, pValue;
@@ -574,8 +574,8 @@ function aios_applyPrefs() {
 
 
 /*
-	Apply-Button aktivieren/deaktivieren
-		=> Aufruf durch aios_initPrefs(), aios_applyPrefs() und aios_checkApply()
+    Apply-Button aktivieren/deaktivieren
+        => Aufruf durch aios_initPrefs(), aios_applyPrefs() und aios_checkApply()
 */
 function aios_disableApplyButton(aDis) {
 
@@ -588,8 +588,8 @@ function aios_disableApplyButton(aDis) {
 
 
 /*
-	Prefs merken, bevor sie veraendert werden => wird fuer den Apply-Button benoetigt
-		=> Aufruf durch aios_initPrefs() und aios_applyPrefs()
+    Prefs merken, bevor sie veraendert werden => wird fuer den Apply-Button benoetigt
+        => Aufruf durch aios_initPrefs() und aios_applyPrefs()
 */
 function aios_rememberOldPrefs() {
     var allPrefs = document.getElementsByTagName('preference');
@@ -611,8 +611,8 @@ function aios_rememberOldPrefs() {
 
 
 /*
-	Ueberpruefung auf zu speichernde Optionen => Apply-Button deaktivieren/aktivieren
-		Aufruf durch alle Checkboxen, Selcts, Textboxen usw durch onchange-Handler - gesetzt durch aios_rememberOldPrefs()
+    Ueberpruefung auf zu speichernde Optionen => Apply-Button deaktivieren/aktivieren
+        Aufruf durch alle Checkboxen, Selcts, Textboxen usw durch onchange-Handler - gesetzt durch aios_rememberOldPrefs()
 */
 var couldApply = "";
 function aios_checkApply(aPref) {
@@ -645,14 +645,14 @@ function aios_checkApply(aPref) {
             // enspr. String loeschen
             if(couldApply.indexOf(pID) >= 0) {
                 var t1 = couldApply.substr(0, couldApply.indexOf(pID));
-                if(t1.indexOf(",") == 0) t1 = t1.substr(1, t1.length);					// Komma am Anfang loeschen
-                if(t1.lastIndexOf(",") == t1.length - 1) t1 = t1.substr(0, t1.length - 1);		// Komma am Ende loeschen
+                if(t1.indexOf(",") == 0) t1 = t1.substr(1, t1.length);                  // Komma am Anfang loeschen
+                if(t1.lastIndexOf(",") == t1.length - 1) t1 = t1.substr(0, t1.length - 1);      // Komma am Ende loeschen
 
                 var t2 = couldApply.substr(couldApply.indexOf(pID) + pID.length, couldApply.length);
-                if(t2.indexOf(",") == 0) t2 = t2.substr(1, t2.length);					// Komma am Anfang loeschen
-                if(t2.lastIndexOf(",") == t2.length - 1) t2 = t2.substr(0, t2.length - 1);		// Komma am Ende loeschen
+                if(t2.indexOf(",") == 0) t2 = t2.substr(1, t2.length);                  // Komma am Anfang loeschen
+                if(t2.lastIndexOf(",") == t2.length - 1) t2 = t2.substr(0, t2.length - 1);      // Komma am Ende loeschen
 
-                if(t2.length > 0) t1+= ",";														// mit Komma verbinden
+                if(t2.length > 0) t1+= ",";                                                     // mit Komma verbinden
                 couldApply = t1 + t2;
             }
         //alert("keine Aenderung: " + couldApply);
@@ -660,7 +660,7 @@ function aios_checkApply(aPref) {
         // wenn die Aenderung _nicht_ der alten Einstellung entspricht,...
         else {
             // enspr. String erweitern
-            if(couldApply.length > 0) couldApply+= ",";											// mit Komma verbinden
+            if(couldApply.length > 0) couldApply+= ",";                                         // mit Komma verbinden
             couldApply+= pID;
         //alert("Aenderung: " + couldApply);
         }
@@ -673,8 +673,8 @@ function aios_checkApply(aPref) {
 
 
 /*
-	Optionen aus aelteren Versionen loeschen
-		=> Aufruf durch aios_initPrefs()
+    Optionen aus aelteren Versionen loeschen
+        => Aufruf durch aios_initPrefs()
 */
 function aios_deleteOldPrefs() {
 

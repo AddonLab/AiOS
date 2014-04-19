@@ -34,10 +34,10 @@ function handleOptions(aType, toolbar, aNavToolbox) {
 
 
 /*
-	Breite der vertikalen Toolboxen freigeben bzw. festsetzen
-		=> Aufruf durch aios_toggleToolbar(), aios_setToolbarView(), aios_setToolbarPos(), aios_customizeToolbar() und aios_BrowserFullScreen()
-		=> Aufruf indirekt auch durch aios_initSidebar() => aios_setSidebarOrient() loest aios_setToolbarPos() aus
-		=> per JS statt CSS, weil es wegen Themes dynamisch sein muss
+    Breite der vertikalen Toolboxen freigeben bzw. festsetzen
+        => Aufruf durch aios_toggleToolbar(), aios_setToolbarView(), aios_setToolbarPos(), aios_customizeToolbar() und aios_BrowserFullScreen()
+        => Aufruf indirekt auch durch aios_initSidebar() => aios_setSidebarOrient() loest aios_setToolbarPos() aus
+        => per JS statt CSS, weil es wegen Themes dynamisch sein muss
  */
 function aios_adjustToolboxWidth(aMode) {
     aios_getObjects();
@@ -101,8 +101,8 @@ function aios_adjustToolboxWidth(aMode) {
 
 
 /*
-	Ansichtoptionen der Toolbars (AiOS-Toolbar, Sidebarheader-Toolbar) initialisieren
-		=> Aufruf durch onpopupshowing-Handler der Kontextmenues in aios.xul
+    Ansichtoptionen der Toolbars (AiOS-Toolbar, Sidebarheader-Toolbar) initialisieren
+        => Aufruf durch onpopupshowing-Handler der Kontextmenues in aios.xul
  */
 function aios_onToolbarPopupShowing(aWhich) {
     aios_getObjects();
@@ -110,7 +110,7 @@ function aios_onToolbarPopupShowing(aWhich) {
     var mode;
 
     /*
-	AiOS-Toolbar
+    AiOS-Toolbar
      */
     if(aWhich.id == "aios-toolbar-contextmenu") {
 
@@ -146,7 +146,7 @@ function aios_onToolbarPopupShowing(aWhich) {
         }*/
     }
     /*
-	Sidebarheader-Toolbar
+    Sidebarheader-Toolbar
      */
     else if(aWhich.id == "aios-sbhtoolbar-contextmenu") {
 
@@ -170,14 +170,14 @@ function aios_onToolbarPopupShowing(aWhich) {
 
 
 /*
-	positioniert die AiOS- und die Sidebarheader-Toolbar
-		=> Aufruf durch die Menueoptionen des Kontextmenues und aios_setSidebarOrient()
-		=> Aufruf indirekt auch durch aios_initSidebar() => aios_setSidebarOrient() loest aios_setToolbarPos() aus
-			=> posMode 1 = links neben der Sidebar (vertikal)
-			=> posMode 2 = rechts neben der Sidebar (vertikal)
-			=> posMode 3 = ueber dem Sidebarheader (horizontal)
-			=> posMode 4 = unter dem Sidebarheader (horizontal)
-			=> posMode 5 = unter der Sidebar (horizontal)
+    positioniert die AiOS- und die Sidebarheader-Toolbar
+        => Aufruf durch die Menueoptionen des Kontextmenues und aios_setSidebarOrient()
+        => Aufruf indirekt auch durch aios_initSidebar() => aios_setSidebarOrient() loest aios_setToolbarPos() aus
+            => posMode 1 = links neben der Sidebar (vertikal)
+            => posMode 2 = rechts neben der Sidebar (vertikal)
+            => posMode 3 = ueber dem Sidebarheader (horizontal)
+            => posMode 4 = unter dem Sidebarheader (horizontal)
+            => posMode 5 = unter der Sidebar (horizontal)
  */
 function aios_setToolbarPos(posMode) {
     aios_getObjects();
@@ -230,13 +230,13 @@ function aios_setToolbarPos(posMode) {
 
 
 /*
-	stellt die Ansichtsoptionen der Symbolleisten ein
-		=> Aufruf durch die Menueoptionen der Symbolleisten-Kontextmenues
-			=> viewMode 1 = Symbole und Text
-			=> viewMode 2 = Symbole
-			=> viewMode 3 = Text
-			=> viewMode 4 = kleine Symbole an/aus
-			=> viewMode 5 = flexible Buttons an/aus
+    stellt die Ansichtsoptionen der Symbolleisten ein
+        => Aufruf durch die Menueoptionen der Symbolleisten-Kontextmenues
+            => viewMode 1 = Symbole und Text
+            => viewMode 2 = Symbole
+            => viewMode 3 = Text
+            => viewMode 4 = kleine Symbole an/aus
+            => viewMode 5 = flexible Buttons an/aus
  */
 function aios_setToolbarView(aViewMode, aWhich) {
     aios_getObjects();
@@ -297,9 +297,9 @@ function aios_setToolbarView(aViewMode, aWhich) {
 
 
 /*
-	Aktiviert/Deaktiviert die AiOS-Toolbar
-		=> Aufruf durch Menueoption (Ansicht > Symbolleisten)
-		=> Aufruf durch aios_observeSidebar(), aios_toggleOperaMode(), aios_toggleSidebar(), aios_controlSwitch(), aios_BrowserFullScreen
+    Aktiviert/Deaktiviert die AiOS-Toolbar
+        => Aufruf durch Menueoption (Ansicht > Symbolleisten)
+        => Aufruf durch aios_observeSidebar(), aios_toggleOperaMode(), aios_toggleSidebar(), aios_controlSwitch(), aios_BrowserFullScreen
  */
 function aios_toggleToolbar(aWhich) {
     aios_getObjects();
@@ -320,8 +320,8 @@ function aios_toggleToolbar(aWhich) {
 
 
 /*
-	fuegt dem Menue Ansicht > Symbolleisten und dem Kontextmenue der Symbolleisten eine Option hinzu
-		=> Aufruf durch onpopupshowing-Handler der Menues in aios.xul
+    fuegt dem Menue Ansicht > Symbolleisten und dem Kontextmenue der Symbolleisten eine Option hinzu
+        => Aufruf durch onpopupshowing-Handler der Menues in aios.xul
  */
 function aios_addToolbarMitem(aWhich) {
     aios_getObjects();

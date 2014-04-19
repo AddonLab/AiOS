@@ -38,8 +38,8 @@ function aios_getObjects() {
         aios_toggleBar = document.getElementById('aios-toggle-toolbar');
 
         // broadcaster in aios.xul mit gespeichertem Wunsch-Toolbar-Zustand
-        // 	=> gespeichert durch onViewToolbarCommand() in tbx.js (AiOS < 0.7.7)
-        // 	=> gespeichert/gesetzt durch aios_toggleToolbar()
+        //  => gespeichert durch onViewToolbarCommand() in tbx.js (AiOS < 0.7.7)
+        //  => gespeichert/gesetzt durch aios_toggleToolbar()
         aios_toggleSwitchItem = document.getElementById('aios-viewTogglebar');
         aios_toggleToolbarItem = document.getElementById('aios-viewToolbar');
 
@@ -56,8 +56,8 @@ function aios_getObjects() {
 
 
 /*
-	Initialisierung
-		=> Aufruf durch das onload-Event
+    Initialisierung
+        => Aufruf durch das onload-Event
 */
 function aios_initSidebar() {
     aios_getObjects();
@@ -270,8 +270,8 @@ function aios_initSidebar() {
 
 
 /*
-	stellt bei Doppelklick auf den Sidebarheader die Standardgroesse der Sidebar wieder her
-		=> Aufruf durch EventListener auf dem Header, gesetzt in aios_initSidebar()
+    stellt bei Doppelklick auf den Sidebarheader die Standardgroesse der Sidebar wieder her
+        => Aufruf durch EventListener auf dem Header, gesetzt in aios_initSidebar()
 */
 function aios_setSidebarWidth(event) {
     aios_getObjects();
@@ -302,8 +302,8 @@ function aios_setSidebarWidth(event) {
 
 /*
 stellt die Anzeige der Sidebar ein
-		=> Aufruf durch aios_initSidebar() und aios_savePrefs() in prefs.js
-		=> 1 = links, 2 = rechts
+        => Aufruf durch aios_initSidebar() und aios_savePrefs() in prefs.js
+        => 1 = links, 2 = rechts
 */
 function aios_setSidebarOrient() {
     aios_getObjects();
@@ -336,8 +336,8 @@ function aios_setSidebarOrient() {
 
 
 /*
-	Sidebar-Status auf Veraenderungen ueberwachen
-		=> Aufruf durch observes-Elemente (hidden und collapsed) in 'sidebar-box'
+    Sidebar-Status auf Veraenderungen ueberwachen
+        => Aufruf durch observes-Elemente (hidden und collapsed) in 'sidebar-box'
 */
 function aios_observeSidebar(mode) {
     aios_getObjects();
@@ -371,8 +371,8 @@ function aios_observeSidebar(mode) {
 
 
 /*
-	Letzte Sidebar merken und als persist speichern
-		=> Aufruf durch observes-Element in 'sidebar-box' und aios_modSidebarMenu()
+    Letzte Sidebar merken und als persist speichern
+        => Aufruf durch observes-Element in 'sidebar-box' und aios_modSidebarMenu()
 */
 function aios_remLastSidebar() {
     aios_getObjects();
@@ -408,8 +408,8 @@ function aios_remLastSidebar() {
 
 
 /*
-	toggelt die Sidebar im Opera-Verhalten
-		=> Aufruf durch aios_toggleSidebar() fuer Elemente im Opera-Verhalten
+    toggelt die Sidebar im Opera-Verhalten
+        => Aufruf durch aios_toggleSidebar() fuer Elemente im Opera-Verhalten
 */
 function aios_toggleOperaMode(aForcePanel, aForceOpen) {
     aios_getObjects();
@@ -417,9 +417,9 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
     var showToolbar = aios_getBoolean(aios_toggleToolbarItem, 'checked');
 
     // zu oeffnende Sidebar feststellen
-    var openPanel = fx_sidebarBox.getAttribute('aiosLastPanel');						// zuletzt geoeffnete Sidebar
-    if(openPanel == "") openPanel = "viewBookmarksSidebar";								// Lesezeichen wenn keine Sidebar geoeffnet war
-    if(aForcePanel) openPanel = aForcePanel;											// bestimmte Sidebar gewuenscht (bei jedem oeffnen)
+    var openPanel = fx_sidebarBox.getAttribute('aiosLastPanel');                        // zuletzt geoeffnete Sidebar
+    if(openPanel == "") openPanel = "viewBookmarksSidebar";                             // Lesezeichen wenn keine Sidebar geoeffnet war
+    if(aForcePanel) openPanel = aForcePanel;                                            // bestimmte Sidebar gewuenscht (bei jedem oeffnen)
 
     // vertikaler Toolbar-Modus
     if(aios_toolbar.orient == "vertical") {
@@ -429,24 +429,24 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
 
             // wenn die Sidebar sichtbar ist
             if(!aios_isSidebarHidden() && !aForceOpen) {
-                fx_sidebarBox.setAttribute("aiosShouldOpen", true);							// Zustand der Sidebar merken (sichtbar)
+                fx_sidebarBox.setAttribute("aiosShouldOpen", true);                         // Zustand der Sidebar merken (sichtbar)
                 document.persist(fx_sidebarBox.id, 'aiosShouldOpen');
-                toggleSidebar();															// Sidebar ausblenden
+                toggleSidebar();                                                            // Sidebar ausblenden
             }
             else {
-                fx_sidebarBox.setAttribute("aiosShouldOpen", false);						// Zustand der Sidebar merken (unsichtbar)
+                fx_sidebarBox.setAttribute("aiosShouldOpen", false);                        // Zustand der Sidebar merken (unsichtbar)
                 document.persist(fx_sidebarBox.id, 'aiosShouldOpen');
             }
 
             //aios_toolbar.setAttribute('hidden', true);
-            //if(!aForceOpen) onViewToolbarCommand(true);									// Toolbar ausblenden
-            if(!aForceOpen) aios_toggleToolbar(true);										// Toolbar ausblenden
+            //if(!aForceOpen) onViewToolbarCommand(true);                                   // Toolbar ausblenden
+            if(!aForceOpen) aios_toggleToolbar(true);                                       // Toolbar ausblenden
         }
         // wenn die Toolbar nicht sichtbar ist
         else {
-            if(showToolbar)																	// Toolbar anzeigen?
-                aios_toggleToolbar(false);												// Toolbar einblenden
-            //onViewToolbarCommand(false);												// Toolbar einblenden
+            if(showToolbar)                                                                 // Toolbar anzeigen?
+                aios_toggleToolbar(false);                                              // Toolbar einblenden
+            //onViewToolbarCommand(false);                                              // Toolbar einblenden
             //aios_toolbar.setAttribute('hidden', false);
 
             // wenn Sidebar angezeigt werden soll (Status vor dem letzten Schliessen) oder die Toolbar abgeschaltet wurde
@@ -457,9 +457,9 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
     else {
         // wenn die Sidebar sichtbar ist
         if(!aios_isSidebarHidden()) {
-            fx_sidebarBox.setAttribute("aiosShouldOpen", true);							// Zustand der Sidebar merken (sichtbar)
+            fx_sidebarBox.setAttribute("aiosShouldOpen", true);                         // Zustand der Sidebar merken (sichtbar)
             document.persist(fx_sidebarBox.id, 'aiosShouldOpen');
-            toggleSidebar();															// Sidebar ausblenden
+            toggleSidebar();                                                            // Sidebar ausblenden
         }
         else {
             if(lastPanel == "") toggleSidebar(openPanel);
@@ -472,8 +472,8 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
 
 
 /*
-	klont das Firefox-Sidebar-Menue fuer die Sidebars-Buttons
-		=> Aufruf durch Menuebutton-Events 'onpopupshowing' aufgerufen
+    klont das Firefox-Sidebar-Menue fuer die Sidebars-Buttons
+        => Aufruf durch Menuebutton-Events 'onpopupshowing' aufgerufen
 */
 function aios_getSidebarMenu(aPopup) {
 
@@ -483,8 +483,8 @@ function aios_getSidebarMenu(aPopup) {
     aios_modSidebarMenu();
 
     /*var aios_sidebarMenu = fx_sidebarMenu.cloneNode(true);
-	aios_sidebarMenu.setAttribute('onpopupshowing', 'aios_getSidebarMenu(this);');
-	aPopup.parentNode.replaceChild(aios_sidebarMenu, aPopup);*/
+    aios_sidebarMenu.setAttribute('onpopupshowing', 'aios_getSidebarMenu(this);');
+    aPopup.parentNode.replaceChild(aios_sidebarMenu, aPopup);*/
 
     while(aPopup.hasChildNodes()) {
         aPopup.removeChild(aPopup.firstChild);
@@ -497,12 +497,12 @@ function aios_getSidebarMenu(aPopup) {
 
 
 /*
-	schliesst die Sidebar, wenn die Maus den Content-Bereich ueberfaehrt
-		=> Aufruf durch mouseover des 'appcontent' und des Sidebar-Switches (mit Uebergabe von mode)
+    schliesst die Sidebar, wenn die Maus den Content-Bereich ueberfaehrt
+        => Aufruf durch mouseover des 'appcontent' und des Sidebar-Switches (mit Uebergabe von mode)
 
-		=> aios_initSidebar() fuegt dem Object "sidebar-box" einen mouseover-Event hinzu,...
-		=> dieser mouseover-Event fuegt dem "appcontent" einen mouseover-Event hinzu,...
-		=> der diese Funktion aufruft
+        => aios_initSidebar() fuegt dem Object "sidebar-box" einen mouseover-Event hinzu,...
+        => dieser mouseover-Event fuegt dem "appcontent" einen mouseover-Event hinzu,...
+        => der diese Funktion aufruft
 */
 var aios_autoTimeout;
 function aios_autoShowHide(mode) {
@@ -576,16 +576,16 @@ function aios_autoShowHide(mode) {
 
 
 /*
-	aktiviert/deaktiviert die Sidebar/Toolbar/Switch je nach Element und Einstellungen
-		=> Aufruf durch Toggle-Button, Switch, Shortcut, Open/Close-Menuitems, Sidebar-Close-Button
-			=> mode 1: nur die Sidebar oeffnen/schliessen
-			=> mode 2: Sidebar und Toolbar oeffnen/schliessen
-			=> mode 3: Sidebar, Toolbar und Togglebar oeffnen/schliessen
-			=> mode 4: Opera-Verhalten
+    aktiviert/deaktiviert die Sidebar/Toolbar/Switch je nach Element und Einstellungen
+        => Aufruf durch Toggle-Button, Switch, Shortcut, Open/Close-Menuitems, Sidebar-Close-Button
+            => mode 1: nur die Sidebar oeffnen/schliessen
+            => mode 2: Sidebar und Toolbar oeffnen/schliessen
+            => mode 3: Sidebar, Toolbar und Togglebar oeffnen/schliessen
+            => mode 4: Opera-Verhalten
 */
 function aios_toggleSidebar(aMode, aForceOpen) {
     aios_getObjects();
-    //aForceOpen = false;			// erlaubt das automatische ein-/ausblenden waehrend Drag auf Sidebar Switch
+    //aForceOpen = false;           // erlaubt das automatische ein-/ausblenden waehrend Drag auf Sidebar Switch
 
     var prefstring = "key";
     if(aMode == elem_switch || aMode == "switch") prefstring = "switch";
@@ -645,8 +645,8 @@ function aios_toggleSidebar(aMode, aForceOpen) {
 
 
 /*
-	Sidebar-Toggle per collapsed
-		=> Aufruf durch den Grippy selbst bei onClick()
+    Sidebar-Toggle per collapsed
+        => Aufruf durch den Grippy selbst bei onClick()
 */
 function aios_useGrippy() {
     fx_sidebarBox.collapsed = !fx_sidebarBox.collapsed;
@@ -662,9 +662,9 @@ function aios_useGrippy() {
 
 
 /*
-	aktiviert/deaktiviert den schmalen Sidebar-Umschalter
-		=> Aufruf durch Event-Listener "onresize", observer (sizemode) in tbx.xul,
-			 aios_BrowserFullScreen() und aios_savePrefs() in prefs.js
+    aktiviert/deaktiviert den schmalen Sidebar-Umschalter
+        => Aufruf durch Event-Listener "onresize", observer (sizemode) in tbx.xul,
+             aios_BrowserFullScreen() und aios_savePrefs() in prefs.js
 */
 function aios_checkThinSwitch() {
     if(!initialised) return;
@@ -723,8 +723,8 @@ function aios_controlSwitch(ev, which) {
 
 
 /*
-	Erweitert die FF-Funktion BrowserFullScreen() zur Steuerung der AIOS-Elemente
-		=> Aufruf durch aios_initSidebar()
+    Erweitert die FF-Funktion BrowserFullScreen() zur Steuerung der AIOS-Elemente
+        => Aufruf durch aios_initSidebar()
 */
 function aios_BrowserFullScreen() {
     aios_getObjects();
@@ -737,7 +737,7 @@ function aios_BrowserFullScreen() {
     }
 
     // Fullscreen an
-    // 	=> Elemente ausblenden
+    //  => Elemente ausblenden
     if(document.mozFullScreenElement) {
 
         // Fix für mehrmaliges feuern des mozfullscreenchange events
@@ -786,7 +786,7 @@ function aios_BrowserFullScreen() {
         }
     }
     // Fullscreen aus
-    // 	=> Elemente einblenden
+    //  => Elemente einblenden
     else {
 
         // Fix für mehrmaliges feuern des mozfullscreenchange events

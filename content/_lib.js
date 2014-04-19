@@ -1,7 +1,7 @@
 
 /*
-	modifiziert das Firefox-Sidebar-Menue
-		=> Aufruf durch aios_initSidebar() und aios_getSidebarMenu() (Menuebutton-Events 'onpopupshowing')
+    modifiziert das Firefox-Sidebar-Menue
+        => Aufruf durch aios_initSidebar() und aios_getSidebarMenu() (Menuebutton-Events 'onpopupshowing')
 */
 function aios_modSidebarMenu() {
     aios_getObjects();
@@ -122,8 +122,8 @@ function aios_modSidebarMenu() {
 
 
 /*
-	Eintraege/Icons ein- oder ausblenden
-		=> Aufruf durch aios_modSidebarMenu()
+    Eintraege/Icons ein- oder ausblenden
+        => Aufruf durch aios_modSidebarMenu()
 */
 function aios_showHideEntries(entries, prefPre_tmp, IDPre) {
     var prefPre = prefPre_tmp;
@@ -177,11 +177,11 @@ function aios_showHideEntries(entries, prefPre_tmp, IDPre) {
 
 
 /*
-	Oeffnet die Tab-URL in der Sidebar oder die Sidebar-URL in einem neuen Tab
-		=> Aufruf durch <command id="aiosCmd_panelTab1">
-										<command id="aiosCmd_panelTab2">
-										<toolbarbutton id="paneltab-button">
-			 in aios.xul
+    Oeffnet die Tab-URL in der Sidebar oder die Sidebar-URL in einem neuen Tab
+        => Aufruf durch <command id="aiosCmd_panelTab1">
+                                        <command id="aiosCmd_panelTab2">
+                                        <toolbarbutton id="paneltab-button">
+             in aios.xul
 */
 var aiosNewTab, aiosSidebarTitle;
 function aios_panelTab(event) {
@@ -217,8 +217,8 @@ function aios_panelTab(event) {
 
 
     /*
-		in SIDEBAR oeffnen
-	*/
+        in SIDEBAR oeffnen
+    */
     if(mode == "sidebar") {
         var tabHref = top.window.content.location.href;
 
@@ -255,8 +255,8 @@ function aios_panelTab(event) {
         }
     }
     /*
-		in TAB oder FENSTER oeffnen
-	*/
+        in TAB oder FENSTER oeffnen
+    */
     else {
         var newSrc;
 
@@ -346,8 +346,8 @@ function aios_isSidebar(aHref) {
 
 
 /*
-	Oeffnet div. Fenster u. Manager per Original-Anweisung
-		Aufruf durch Toolbarbuttons und Menueeintraege
+    Oeffnet div. Fenster u. Manager per Original-Anweisung
+        Aufruf durch Toolbarbuttons und Menueeintraege
 */
 function aios_contextEvent(event, which) {
     try {
@@ -390,7 +390,7 @@ function aios_contextEvent(event, which) {
             toggleSidebar(cmdObj.getAttribute('aios_sbCmd'));
             break;
 
-        case "window":		// wird zur Abfrage in addons/downloads_....xul und downloads.js benoetigt
+        case "window":      // wird zur Abfrage in addons/downloads_....xul und downloads.js benoetigt
             // sonst wuerden extra geoeffnete Fenster (Downloads, Add-ons) sofort wieder geschlossen
             aios_WIN.aiosIsWindow = true;
             window.setTimeout(function() {
@@ -415,10 +415,10 @@ function aios_contextEvent(event, which) {
 
 
 /*
-	legt commands fuer Fenster fest, die lt. Einstellungen in der Sidebar geoeffnet werden sollen
-		=> dynamisch per JS, damit keinerlei Veraenderungen vorgenommen werden, wenn es nicht in der Sidebar geoeffnet werden soll
-				=> bessere Kompatibilitaet mit anderen Erweiterungen
-		=> Aufruf durch aios_initSidebar()
+    legt commands fuer Fenster fest, die lt. Einstellungen in der Sidebar geoeffnet werden sollen
+        => dynamisch per JS, damit keinerlei Veraenderungen vorgenommen werden, wenn es nicht in der Sidebar geoeffnet werden soll
+                => bessere Kompatibilitaet mit anderen Erweiterungen
+        => Aufruf durch aios_initSidebar()
 */
 function aios_setTargets() {
     var objects, i;
@@ -437,13 +437,13 @@ function aios_setTargets() {
 
 
     var targets = new Array();
-    targets['bm'] = new Array('View:Bookmarks', 	'viewBookmarksSidebar',     'bookmarks');
-    targets['hi'] = new Array('View:History', 		'viewHistorySidebar',       'history');
-    targets['dm'] = new Array('Tools:Downloads', 	'viewDownloadsSidebar',     'downloads');
-    targets['ad'] = new Array('Tools:Addons', 		'viewAddonsSidebar',        'addons');
-    targets['mp'] = new Array('Tools:MultiPanel', 	'viewWebPanelsSidebar',     'multipanel');
-    targets['pi'] = new Array('View:PageInfo', 		'viewPageInfoSidebar',      'pageinfo');
-    targets['co'] = new Array('Tools:Console', 		'viewConsoleSidebar',       'console');
+    targets['bm'] = new Array('View:Bookmarks',     'viewBookmarksSidebar',     'bookmarks');
+    targets['hi'] = new Array('View:History',       'viewHistorySidebar',       'history');
+    targets['dm'] = new Array('Tools:Downloads',    'viewDownloadsSidebar',     'downloads');
+    targets['ad'] = new Array('Tools:Addons',       'viewAddonsSidebar',        'addons');
+    targets['mp'] = new Array('Tools:MultiPanel',   'viewWebPanelsSidebar',     'multipanel');
+    targets['pi'] = new Array('View:PageInfo',      'viewPageInfoSidebar',      'pageinfo');
+    targets['co'] = new Array('Tools:Console',      'viewConsoleSidebar',       'console');
 
     if(document.getElementById('viewConsole2Sidebar'))
         targets['co'] = new Array('Tools:Console', 'viewConsole2Sidebar', 'console');
@@ -484,10 +484,10 @@ function aios_setTargets() {
         }
         catch(e) { }
 
-        var ffObj = document.getElementById(targets[obj][0]);			// Original-Objekt
-        var sbObj = document.getElementById(targets[obj][1]);			// Sidebar-Objekt
-        var tpObj = document.getElementById(targets[obj][2] + "-tooltip");	// Tooltip
-        var btObj = document.getElementById(targets[obj][2] + "-button");	// Button
+        var ffObj = document.getElementById(targets[obj][0]);           // Original-Objekt
+        var sbObj = document.getElementById(targets[obj][1]);           // Sidebar-Objekt
+        var tpObj = document.getElementById(targets[obj][2] + "-tooltip");  // Tooltip
+        var btObj = document.getElementById(targets[obj][2] + "-button");   // Button
 
         if(ffObj && sbObj) {
 
@@ -512,8 +512,8 @@ function aios_setTargets() {
 
 
             // Befehle merken
-            // 	=> fuer Context-Funktionen - aios_contextEvent() - abfragbar
-            // 	=> zuweisbar, wenn nicht mehr in Sidebar geoeffnet werden soll
+            //  => fuer Context-Funktionen - aios_contextEvent() - abfragbar
+            //  => zuweisbar, wenn nicht mehr in Sidebar geoeffnet werden soll
             if(!aios_getBoolean(ffObj, 'modByAIOS')) {
                 // fuer Klicks auf Toolbarbuttons und Menueeintraege
                 ffObj.setAttribute('aios_sbUri', sbObj.getAttribute('sidebarurl'));
@@ -568,7 +568,7 @@ function aios_setTargets() {
 
 
     // Oeffnen des Download-Fensters verhindern, wenn die Sidebar genutzt werden soll
-	if(aios_gPrefBranch.getBoolPref('dm.sidebar')) aios_gPref.setBoolPref("browser.download.manager.showWhenStarting", false);
+    if(aios_gPrefBranch.getBoolPref('dm.sidebar')) aios_gPref.setBoolPref("browser.download.manager.showWhenStarting", false);
 
 
     // Download-Observer hinzufuegen, falls Downloads in der Sidebar geoeffnet werden sollen
@@ -594,10 +594,10 @@ function aios_setTargets() {
 }
 
 /*
-	Oeffnet die Sidebar,
-		1. wenn ein Download gestartet wird ...
-		2. der Manager geoeffnet werden soll und ...
-		3. das Ziel die Sidebar sein soll
+    Oeffnet die Sidebar,
+        1. wenn ein Download gestartet wird ...
+        2. der Manager geoeffnet werden soll und ...
+        3. das Ziel die Sidebar sein soll
 */
 var aios_DownloadObserver = {
     observe: function (aSubject, aTopic, aState) {
@@ -640,8 +640,8 @@ function aios_preventDblCmd(ev) {
 
 
 /*
-	prueft, ob das Browserfenster maximiert ist oder sich im Vollbildmodus befindet
-		=> Aufruf durch aios_checkThinSwitch()
+    prueft, ob das Browserfenster maximiert ist oder sich im Vollbildmodus befindet
+        => Aufruf durch aios_checkThinSwitch()
 */
 function aios_isWinMax() {
     var windowMax = document.getElementById('main-window').getAttribute('sizemode') == "maximized";
@@ -655,7 +655,7 @@ function aios_isWinMax() {
 
 
 /*
-	prueft, ob die Sidebar gerade sichtbar/unsichtbar ist => abhaengig von der Sidebar-Methode
+    prueft, ob die Sidebar gerade sichtbar/unsichtbar ist => abhaengig von der Sidebar-Methode
 */
 function aios_isSidebarHidden() {
     aios_getObjects();
@@ -672,8 +672,8 @@ function aios_isSidebarHidden() {
 
 
 /*
-	Autohide-Feature initialisieren
-		=> Aufruf durch aios_initSidebar() und aios_savePrefs()
+    Autohide-Feature initialisieren
+        => Aufruf durch aios_initSidebar() und aios_savePrefs()
 */
 var aiosFocus = true;
 function aios_initAutohide() {
@@ -696,8 +696,8 @@ function aios_initAutohide() {
 
 
 /*
-	Autohide ein- bzw. ausschalten per Toolbarbutton
-		=> Aufruf durch broadcaster 'aios-enableAutohide'
+    Autohide ein- bzw. ausschalten per Toolbarbutton
+        => Aufruf durch broadcaster 'aios-enableAutohide'
 */
 function aios_toggleAutohide(which) {
     try {

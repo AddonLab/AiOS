@@ -1,7 +1,7 @@
 
 /*
-	Liste der zur Verfuegung stehenden Sidebars erstellen
-		=> Aufruf durch aios_initPane()
+    Liste der zur Verfuegung stehenden Sidebars erstellen
+        => Aufruf durch aios_initPane()
 */
 function aios_genSidebarList() {
 
@@ -58,8 +58,8 @@ function aios_genSidebarList() {
 
 
 /*
-	Werte der aktuellen Sidebarbreite einsetzen
-		=> Aufruf durch oncommand() der drei <toolbarbutton>
+    Werte der aktuellen Sidebarbreite einsetzen
+        => Aufruf durch oncommand() der drei <toolbarbutton>
 */
 function aios_setWidthVal(mode) {
     var browserWidth = aios_getBrowserWidth();
@@ -82,8 +82,8 @@ function aios_setWidthVal(mode) {
 
 
 /*
-	Breitenangaben bei Aenderung der Masseinheit umrechnen und ausgeben
-		=> Aufruf durch ValueChange-Listener, initiert in aios_initPrefs()
+    Breitenangaben bei Aenderung der Masseinheit umrechnen und ausgeben
+        => Aufruf durch ValueChange-Listener, initiert in aios_initPrefs()
 */
 function aios_changeWidthUnit(mode) {
     var elem = document.getElementById('obj-' + mode + 'WidthVal');
@@ -105,8 +105,8 @@ function aios_changeWidthUnit(mode) {
 
 
 /*
-	Angaben zur Sidebarbreite pruefen
-		=> Aufruf durch onBlur() der drei Textfelder, aios_changeWidthUnit(), aios_setConfSidebarWidth()
+    Angaben zur Sidebarbreite pruefen
+        => Aufruf durch onBlur() der drei Textfelder, aios_changeWidthUnit(), aios_setConfSidebarWidth()
 */
 function aios_checkWidthVal(mode) {
     var elem = document.getElementById('obj-' + mode + 'WidthVal');
@@ -123,8 +123,8 @@ function aios_checkWidthVal(mode) {
 
 
 /*
-	stellt die Groesse der Sidebar ein
-		=> Aufruf durch aios_savePrefs() in prefs.js und aios_initSidebar() in aios.js
+    stellt die Groesse der Sidebar ein
+        => Aufruf durch aios_savePrefs() in prefs.js und aios_initSidebar() in aios.js
 */
 function aios_setConfSidebarWidth() {
     var elem, theUnit, theValue;

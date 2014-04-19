@@ -6,8 +6,8 @@ if(document.getElementById('Console2Window')) conWindow = document.getElementByI
 
 
 /*
-	Initialisierung
-		=> Aufruf durch onload in console.xul
+    Initialisierung
+        => Aufruf durch onload in console.xul
 */
 function aios_init() {
 
@@ -34,8 +34,8 @@ function aios_init() {
 
 
 /*
-	aktiviert das an die Sidebar angepasste Layout
-		=> Aufruf durch aios_init()
+    aktiviert das an die Sidebar angepasste Layout
+        => Aufruf durch aios_init()
 */
 function aios_sidebarLayout() {
 

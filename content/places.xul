@@ -24,7 +24,7 @@
         </stringbundleset>
 
         <button id="closeFolder" insertbefore="viewButton" oncommand="AiOS_Places.closeAllFolders();" hidden="true" persist="hidden"
-			label="&closeFolder.label;" tooltiptext="&closeFolder.label;" />
+            label="&closeFolder.label;" tooltiptext="&closeFolder.label;" />
 
         <button id="viewButton" type="menu" label="&menu.tools.label;">
 
@@ -42,7 +42,7 @@
                 <menuseparator id="close-separator" />
 
                 <menuitem id="aios-viewClose" type="checkbox" checked="false" persist="checked" label="&show.closeFolder.label;"
-					oncommand="AiOS_Places.toggleButton(this);" data-dependent="closeFolder" />
+                    oncommand="AiOS_Places.toggleButton(this);" data-dependent="closeFolder" />
 
             </menupopup>
 

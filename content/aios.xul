@@ -124,7 +124,7 @@
 
     <!-- Sidebar-Status auf Veraenderungen ueberwachen -->
     <vbox id="sidebar-box">
-	<!--
+    <!--
             Darwin: => bei staendiger Ueberwachung der beiden Attribute startet Fx immer mit geoeffneter Sidebar
                     => ohne Ueberwachung und deaktiviertem SidebarCollapsing fehlt die Ausfuehrung der Funktion,
                        was dazu fuehrt, dass u.a. die Grippy-Pfeile nicht korrekt gewechselt werden
@@ -138,7 +138,7 @@
         <!-- CollapseByStyle-Methode <observes id="aios_observeStyle" element="sidebar-box" attribute="style"
             onbroadcast="if(aios_collapseSidebar) aios_observeSidebar('style');" />-->
 
-	<!-- "src"-Status der Sidebar ueberwachen => letzte Sidebar merken -->
+    <!-- "src"-Status der Sidebar ueberwachen => letzte Sidebar merken -->
         <observes element="sidebar" attribute="src" onbroadcast="aios_remLastSidebar();" />
     </vbox>
 
@@ -220,7 +220,7 @@
             <menupopup onpopupshowing="aios_getSidebarMenu(this);" oncommand="event.stopPropagation();" />
         </toolbarbutton>
 
-    	<!-- ueber tooltip oder tooltiptext wird in aios_setTargets() [_lib.js] entschieden -->
+        <!-- ueber tooltip oder tooltiptext wird in aios_setTargets() [_lib.js] entschieden -->
         <toolbarbutton id="paneltab-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
             label="&button.paneltab.label;" onclick="aios_panelTab(event);"
             tooltip="paneltab-tooltip" tooltiptext="&button.paneltab.tooltip1; / &button.paneltab.tooltip2;" />
@@ -318,43 +318,43 @@
                 <box    id="switch-tooltip-box"
                         r1c1="&button.switch.tooltip1;:"    r1c2="&leftclick;"
                         r2c1="&button.switch.tooltip2;:"    r2c2="&key.ctrl;+&leftclick; / &middleclick;"
-			r3c1="&button.switch.tooltip3;:"    r3c2="&key.shift;+&leftclick; / &rightclick;" />
+            r3c1="&button.switch.tooltip3;:"    r3c2="&key.shift;+&leftclick; / &rightclick;" />
             </tooltip>
 
             <tooltip id="template-sidebar-tooltip">
-                <box 	id="template-sidebar-tooltip-box"
+                <box    id="template-sidebar-tooltip-box"
                         r1c1="&button.tooltip.sidebar;:"    r1c2="&leftclick;"
-			r2c1="&button.tooltip.tab;:"        r2c2="&key.ctrl;+&leftclick; / &middleclick;"
-			r3c1="&button.tooltip.window;:"     r3c2="&key.shift;+&leftclick;"      rightclick=" / &rightclick;" />
+            r2c1="&button.tooltip.tab;:"        r2c2="&key.ctrl;+&leftclick; / &middleclick;"
+            r3c1="&button.tooltip.window;:"     r3c2="&key.shift;+&leftclick;"      rightclick=" / &rightclick;" />
             </tooltip>
 
             <tooltip id="template-window-tooltip">
-                <box 	id="template-window-tooltip-box"
+                <box    id="template-window-tooltip-box"
                         r1c1="&button.tooltip.window;:"     r1c2="&leftclick;"
-			r2c1="&button.tooltip.tab;:"        r2c2="&key.ctrl;+&leftclick; / &middleclick;"
+            r2c1="&button.tooltip.tab;:"        r2c2="&key.ctrl;+&leftclick; / &middleclick;"
                         r3c1="&button.tooltip.sidebar;:"    r3c2="&key.shift;+&leftclick;"      rightclick=" / &rightclick;" />
             </tooltip>
 
 
             <!-- Tooltips fuer PanelTab werden nach Einstellung der 'Reverse'-Funktion in prefs.js gesetzt => aios_savePrefs() -->
             <tooltip id="paneltab-tooltip">
-                <box 	id="paneltab-tooltip-box"
+                <box    id="paneltab-tooltip-box"
                         r1c1="&button.paneltab.tooltip1;:"  r1c2="&leftclick;"
-			r2c1="&button.paneltab.tooltip2;:"  r2c2="&key.ctrl;+&leftclick; / &middleclick;"
-			r3c1="&button.paneltab.tooltip3;:"  r3c2="&key.shift;+&leftclick;"      rightclick=" / &rightclick;" />
+            r2c1="&button.paneltab.tooltip2;:"  r2c2="&key.ctrl;+&leftclick; / &middleclick;"
+            r3c1="&button.paneltab.tooltip3;:"  r3c2="&key.shift;+&leftclick;"      rightclick=" / &rightclick;" />
             </tooltip>
 
             <tooltip id="paneltab-tooltip-reverse">
-                <box 	id="paneltab-tooltip-reverse-box"
+                <box    id="paneltab-tooltip-reverse-box"
                         r1c1="&button.paneltab.tooltip2;:"  r1c2="&leftclick;"
-			r2c1="&button.paneltab.tooltip1;:"  r2c2="&key.ctrl;+&leftclick; / &middleclick;"
-			r3c1="&button.paneltab.tooltip3;:"  r3c2="&key.shift;+&leftclick;"      rightclick=" / &rightclick;" />
+            r2c1="&button.paneltab.tooltip1;:"  r2c2="&key.ctrl;+&leftclick; / &middleclick;"
+            r3c1="&button.paneltab.tooltip3;:"  r3c2="&key.shift;+&leftclick;"      rightclick=" / &rightclick;" />
             </tooltip>
 
             <tooltip id="sidebarheader-tooltip">
-                <box 	id="sidebarheader-tooltip-box"
+                <box    id="sidebarheader-tooltip-box"
                         r1c1="&sidebar.width.min;:"         r1c2="&key.shift;+&doubleclick;"
-			r2c1="&sidebar.width.def;:"         r2c2="&doubleclick;"
+            r2c1="&sidebar.width.def;:"         r2c2="&doubleclick;"
                         r3c1="&sidebar.width.max;:"         r3c2="&key.ctrl;+&doubleclick;" />
             </tooltip>
 
@@ -447,7 +447,7 @@
         <!-- fuer CSS benoetigt -->
         <observes element="aios-toolbar" attribute="posMode" />
 
-	<!-- Sidebar-Switch -->
+    <!-- Sidebar-Switch -->
         <toolbox id="aios-toggle-toolbox" insertafter="browser-border-start" class="chromeclass-toolbar"
             persist="hidden fsToolbar fsToolbarMode fsToolbarIconsize fsSidebar fsSwitch">
 
@@ -457,7 +457,7 @@
             <toolbar id="aios-toggle-toolbar" class="chromeclass-toolbar" flex="1"
                 style="min-width: 6px; max-width: 6px;" persist="style" fullscreentoolbar="true">
 
-        	<!-- ueber tooltip oder tooltiptext wird in aios_setTargets() [_lib.js] entschieden -->
+            <!-- ueber tooltip oder tooltiptext wird in aios_setTargets() [_lib.js] entschieden -->
                 <grippy flex="1" id="aios-toggle-button" tooltip="switch-tooltip" tooltiptext="&button.toggle.tooltip;"
                     onclick="aios_controlSwitch(event, this);"
                     onmouseover="aios_autoShowHide('switch'); event.stopPropagation();"
@@ -470,10 +470,10 @@
         </toolbox>
 
 
-  	<!-- TOOLBOX LINKS NEBEN DER SIDEBAR -->
+    <!-- TOOLBOX LINKS NEBEN DER SIDEBAR -->
         <toolbox id="aios-toolbox-left" insertbefore="sidebar-box" defaultmode="icons" class="chromeclass-toolbar" vertical="true" palette="BrowserToolbarPalette">
 
-	    <!-- mode und iconsize noetig, um Optionen im Konfigrationsdialog syncron zu halten  -->
+        <!-- mode und iconsize noetig, um Optionen im Konfigrationsdialog syncron zu halten  -->
             <observes element="aios-toolbar" attribute="mode" />
             <observes element="aios-toolbar" attribute="defaultmode" />
             <observes element="aios-toolbar" attribute="iconsize" />
@@ -493,7 +493,7 @@
         </toolbox>
 
 
-	<!-- TOOLBOX RECHTS NEBEN DER SIDEBAR -->
+    <!-- TOOLBOX RECHTS NEBEN DER SIDEBAR -->
         <toolbox id="aios-toolbox-right" insertbefore="sidebar-splitter" defaultmode="icons" class="chromeclass-toolbar" vertical="true" palette="BrowserToolbarPalette">
 
             <observes element="aios-toolbar" attribute="mode" />
@@ -523,7 +523,7 @@
             <!-- SIDEBARHEADER -->
             <sidebarheader id="sidebar-header" tooltip="sidebarheader-tooltip">
 
-		<!-- Attribut wird in CSS benoetigt (aios.css) -->
+        <!-- Attribut wird in CSS benoetigt (aios.css) -->
                 <observes element="aios-sbhtoolbar" attribute="iconsize" />
 
                 <toolbarbutton id="sidebars-titlebutton" type="menu" ondblclick="this.childNodes[1].hidePopup();" flex="1" position="1">

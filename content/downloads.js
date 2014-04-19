@@ -45,23 +45,23 @@ function aios_init() {
             aios_countItems();
         };
 
-		// bei neuen Downloads oder Statuswechseln den Titel aktualisieren
-		// https://developer.mozilla.org/en/DOM/Mutation_events
-		// https://developer.mozilla.org/en/DOM/DOM_Mutation_Observers
-		var dm = Components.classes["@mozilla.org/download-manager;1"]
-		         .getService(Components.interfaces.nsIDownloadManager);
+        // bei neuen Downloads oder Statuswechseln den Titel aktualisieren
+        // https://developer.mozilla.org/en/DOM/Mutation_events
+        // https://developer.mozilla.org/en/DOM/DOM_Mutation_Observers
+        var dm = Components.classes["@mozilla.org/download-manager;1"]
+                 .getService(Components.interfaces.nsIDownloadManager);
 
-		dm.addListener({
-		    onStateChange : function(state, dl) { aios_countItems(); },
-		    onDownloadStateChange : function(state, dl) { aios_countItems(); }
-		});
+        dm.addListener({
+            onStateChange : function(state, dl) { aios_countItems(); },
+            onDownloadStateChange : function(state, dl) { aios_countItems(); }
+        });
 
-		// beim Loeschen der Downloadliste den Titel aktualisieren
-		var orig_clearDownloadList = clearDownloadList;
-		clearDownloadList = function() {
-		    orig_clearDownloadList();
-		    aios_countItems();
-		};
+        // beim Loeschen der Downloadliste den Titel aktualisieren
+        var orig_clearDownloadList = clearDownloadList;
+        clearDownloadList = function() {
+            orig_clearDownloadList();
+            aios_countItems();
+        };
     }
     else {
         // Zahl im Titel entfernen
@@ -94,8 +94,8 @@ function aios_init() {
 
 
 /*
-	aktiviert das an die Sidebar angepasste Layout
-		=> Aufruf durch aios_init()
+    aktiviert das an die Sidebar angepasste Layout
+        => Aufruf durch aios_init()
 */
 function aios_sidebarLayout() {
     var cmdBar, i;
@@ -130,8 +130,8 @@ function aios_sidebarLayout() {
 
 
 /*
-	zaehlt und zeigt die aktivierten und deaktivierten Extensions im Sidebartitel an
-		=> Aufruf durch aios_init()
+    zaehlt und zeigt die aktivierten und deaktivierten Extensions im Sidebartitel an
+        => Aufruf durch aios_init()
 */
 function aios_countItems() {
     if(!aios_WIN.document) return false;
@@ -200,17 +200,17 @@ function aios_countItems() {
 
 
 /*
-	Original-Code by Caio Chassot
-		Slim_Extension_List_0.1
-		http://v2studio.com/k/moz/
+    Original-Code by Caio Chassot
+        Slim_Extension_List_0.1
+        http://v2studio.com/k/moz/
 
-		=> Aufruf durch aios_init()
+        => Aufruf durch aios_init()
 
 function aios_filterItems(l,f) {
-	var r = [];
-	if (!f) f = function(v){return v};
-	for (var i=0; i<l.length; i++) if (f(l[i])) r.push(l[i]);
-	return r;
+    var r = [];
+    if (!f) f = function(v){return v};
+    for (var i=0; i<l.length; i++) if (f(l[i])) r.push(l[i]);
+    return r;
 }*/
 function aios_filterItems() {
     var r = [];
@@ -229,8 +229,8 @@ function aios_filterItems() {
 
 
 /*
-	legt den Sidebartitel fest (nur bei Add-ons)
-		=> Aufruf durch aios_init() und onclick-Handler auf den Radio-Buttons
+    legt den Sidebartitel fest (nur bei Add-ons)
+        => Aufruf durch aios_init() und onclick-Handler auf den Radio-Buttons
 */
 function aios_setTitle(aObj) {
     if(typeof Local_Install == "object") return false;

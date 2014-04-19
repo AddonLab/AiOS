@@ -5,8 +5,8 @@
 
 <!-- locale -->
 <!DOCTYPE prefwindow [
-	<!ENTITY % commonDTD SYSTEM "chrome://aios/locale/aios.dtd"> %commonDTD;
-	<!ENTITY % prefsDTD SYSTEM "chrome://aios/locale/prefs.dtd"> %prefsDTD;
+    <!ENTITY % commonDTD SYSTEM "chrome://aios/locale/aios.dtd"> %commonDTD;
+    <!ENTITY % prefsDTD SYSTEM "chrome://aios/locale/prefs.dtd"> %prefsDTD;
 ]>
 
 <overlay id="aios_mainPrefsOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">

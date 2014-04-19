@@ -7,9 +7,9 @@
 
     <script><![CDATA[
 
-		window.addEventListener("DOMContentLoaded", aios_init, false);
+        window.addEventListener("DOMContentLoaded", aios_init, false);
 
-	]]>
+    ]]>
     </script>
 
 </overlay>

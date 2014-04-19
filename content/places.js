@@ -208,7 +208,7 @@ var AiOS_Places = {};
 
         var sidebarType = AiOS_Places.mode;
 
-        var dotoggle = (e.button === 0);	//wenn es kein links-klick war, dann fuehre nur die standardaktion aus
+        var dotoggle = (e.button === 0);    //wenn es kein links-klick war, dann fuehre nur die standardaktion aus
         var tree = AiOS_Places.managerTree;
         var tbo = tree.treeBoxObject;
 
@@ -239,7 +239,7 @@ var AiOS_Places = {};
                 parents.push(row);
                 row = tboView.getParentIndex(row);
             }
-            parents.reverse();	//dreht reihenfolge im array um
+            parents.reverse();  //dreht reihenfolge im array um
 
             for (var i = tboView.rowCount-1; i >= 0; i--)    //geht einfach jede zeile durch und testet ...
             {

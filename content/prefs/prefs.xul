@@ -63,41 +63,41 @@
         <preferences>
             <preference id="sidebarOrient"  type="int"          name="extensions.aios.gen.orient" />
 
-            <preference id="minWidthVal" 	type="int"          name="extensions.aios.gen.width.minVal" />
-            <preference id="minWidthUnit" 	type="string"       name="extensions.aios.gen.width.minUnit" />
+            <preference id="minWidthVal"    type="int"          name="extensions.aios.gen.width.minVal" />
+            <preference id="minWidthUnit"   type="string"       name="extensions.aios.gen.width.minUnit" />
 
-            <preference id="defWidthVal" 	type="int"          name="extensions.aios.gen.width.defVal" />
-            <preference id="defWidthUnit" 	type="string"       name="extensions.aios.gen.width.defUnit" />
+            <preference id="defWidthVal"    type="int"          name="extensions.aios.gen.width.defVal" />
+            <preference id="defWidthUnit"   type="string"       name="extensions.aios.gen.width.defUnit" />
 
-            <preference id="maxWidthVal" 	type="int"          name="extensions.aios.gen.width.maxVal" />
-            <preference id="maxWidthUnit" 	type="string"       name="extensions.aios.gen.width.maxUnit" />
+            <preference id="maxWidthVal"    type="int"          name="extensions.aios.gen.width.maxVal" />
+            <preference id="maxWidthUnit"   type="string"       name="extensions.aios.gen.width.maxUnit" />
 
-            <preference id="sidebarInit" 	type="string"       name="extensions.aios.gen.init" />
-            <preference id="toolbarInit" 	type="int"          name="extensions.aios.gen.toolbar.init" />
-            <preference id="switchInit" 	type="int"          name="extensions.aios.gen.switch.init" />
+            <preference id="sidebarInit"    type="string"       name="extensions.aios.gen.init" />
+            <preference id="toolbarInit"    type="int"          name="extensions.aios.gen.toolbar.init" />
+            <preference id="switchInit"     type="int"          name="extensions.aios.gen.switch.init" />
 
-            <preference id="openInit" 		type="string"       name="extensions.aios.gen.open.init" />
+            <preference id="openInit"       type="string"       name="extensions.aios.gen.open.init" />
 
-            <preference id="FSSidebar" 		type="bool"         name="extensions.aios.fs.sidebar" />
-            <preference id="FSToolbar" 		type="bool"         name="extensions.aios.fs.toolbar" />
-            <preference id="FSSwitch" 		type="bool"         name="extensions.aios.fs.switch" />
-            <preference id="FSRestore" 		type="bool"         name="extensions.aios.fs.restore" />
+            <preference id="FSSidebar"      type="bool"         name="extensions.aios.fs.sidebar" />
+            <preference id="FSToolbar"      type="bool"         name="extensions.aios.fs.toolbar" />
+            <preference id="FSSwitch"       type="bool"         name="extensions.aios.fs.switch" />
+            <preference id="FSRestore"      type="bool"         name="extensions.aios.fs.restore" />
 
-            <preference id="SSAutoshow" 	type="bool"         name="extensions.aios.gen.switch.autoshow" />
-            <preference id="SSOnlymax" 		type="bool"         name="extensions.aios.gen.switch.onlymax" />
-            <preference id="SSDelay" 		type="int"          name="extensions.aios.gen.switch.delay" />
-            <preference id="SSHidemethod" 	type="int"          name="extensions.aios.gen.switch.hidemethod" />
-            <preference id="SSWidth" 		type="int"          name="extensions.aios.gen.switch.width" />
-            <preference id="SSThinWidth" 	type="int"          name="extensions.aios.gen.switch.twidth" />
-            <preference id="SSThin" 		type="bool"         name="extensions.aios.gen.switch.thin" />
-            <preference id="SSThinMax" 		type="bool"         name="extensions.aios.gen.switch.thinmax" />
+            <preference id="SSAutoshow"     type="bool"         name="extensions.aios.gen.switch.autoshow" />
+            <preference id="SSOnlymax"      type="bool"         name="extensions.aios.gen.switch.onlymax" />
+            <preference id="SSDelay"        type="int"          name="extensions.aios.gen.switch.delay" />
+            <preference id="SSHidemethod"   type="int"          name="extensions.aios.gen.switch.hidemethod" />
+            <preference id="SSWidth"        type="int"          name="extensions.aios.gen.switch.width" />
+            <preference id="SSThinWidth"    type="int"          name="extensions.aios.gen.switch.twidth" />
+            <preference id="SSThin"         type="bool"         name="extensions.aios.gen.switch.thin" />
+            <preference id="SSThinMax"      type="bool"         name="extensions.aios.gen.switch.thinmax" />
 
-            <preference id="cmodeKey" 		type="int"          name="extensions.aios.cmode.key" />
-            <preference id="cmodeSwitch" 	type="int"          name="extensions.aios.cmode.switch" />
-            <preference id="cmodeTbb" 		type="int"          name="extensions.aios.cmode.tbb" />
-            <preference id="cmodeClose" 	type="int"          name="extensions.aios.cmode.close" />
+            <preference id="cmodeKey"       type="int"          name="extensions.aios.cmode.key" />
+            <preference id="cmodeSwitch"    type="int"          name="extensions.aios.cmode.switch" />
+            <preference id="cmodeTbb"       type="int"          name="extensions.aios.cmode.tbb" />
+            <preference id="cmodeClose"     type="int"          name="extensions.aios.cmode.close" />
 
-            <preference id="SBCollapsing" 	type="bool"         name="extensions.aios.collapse" />
+            <preference id="SBCollapsing"   type="bool"         name="extensions.aios.collapse" />
         </preferences>
 
         <tooltip id="minWidthHint" class="labelTipElem">
@@ -437,7 +437,7 @@
 
                         </groupbox>
 
-			<!-- Fix fuer die Hoehe des Shortcut-Panels => sonst wird die letzte Textzeile "Tipp: ...keyconfig..." abgeschnitten -->
+            <!-- Fix fuer die Hoehe des Shortcut-Panels => sonst wird die letzte Textzeile "Tipp: ...keyconfig..." abgeschnitten -->
                         <description style="visibility:hidden;">.</description>
 
                     </vbox>
@@ -562,26 +562,26 @@
 
     <prefpane id="aiosPanels" label="&tab.panels;" flex="1" seltab="0" persist="seltab" onpaneload="aios_initPane('panels');">
         <preferences>
-            <preference id="DMOpen" 		type="bool" 	name="extensions.aios.dm.sidebar" />
-            <preference id="DMLayout" 		type="bool" 	name="extensions.aios.dm.layout" />
-            <preference id="DMAutoOpen" 	type="bool" 	name="extensions.aios.dm.autoopen" />
-            <preference id="DMAutoClose" 	type="bool" 	name="extensions.aios.dm.autoclose" />
-            <preference id="DMCount" 		type="bool" 	name="extensions.aios.dm.count" />
+            <preference id="DMOpen"         type="bool"     name="extensions.aios.dm.sidebar" />
+            <preference id="DMLayout"       type="bool"     name="extensions.aios.dm.layout" />
+            <preference id="DMAutoOpen"     type="bool"     name="extensions.aios.dm.autoopen" />
+            <preference id="DMAutoClose"    type="bool"     name="extensions.aios.dm.autoclose" />
+            <preference id="DMCount"        type="bool"     name="extensions.aios.dm.count" />
 
-            <preference id="EMOpen" 		type="bool" 	name="extensions.aios.em.sidebar" />
-            <preference id="EMCount" 		type="bool" 	name="extensions.aios.em.count" />
+            <preference id="EMOpen"         type="bool"     name="extensions.aios.em.sidebar" />
+            <preference id="EMCount"        type="bool"     name="extensions.aios.em.count" />
 
-            <preference id="BMOpen" 		type="bool" 	name="extensions.aios.bm.sidebar" />
-            <preference id="HIOpen" 		type="bool" 	name="extensions.aios.hi.sidebar" />
-            <preference id="PIOpen" 		type="bool" 	name="extensions.aios.pi.sidebar" />
-            <preference id="PILayout" 		type="bool" 	name="extensions.aios.pi.layout" />
+            <preference id="BMOpen"         type="bool"     name="extensions.aios.bm.sidebar" />
+            <preference id="HIOpen"         type="bool"     name="extensions.aios.hi.sidebar" />
+            <preference id="PIOpen"         type="bool"     name="extensions.aios.pi.sidebar" />
+            <preference id="PILayout"       type="bool"     name="extensions.aios.pi.layout" />
 
-            <preference id="MPOpen" 		type="bool" 	name="extensions.aios.mp.sidebar" />
-            <preference id="COOpen" 		type="bool" 	name="extensions.aios.co.sidebar" />
-            <preference id="COLayout" 		type="bool" 	name="extensions.aios.co.layout" />
+            <preference id="MPOpen"         type="bool"     name="extensions.aios.mp.sidebar" />
+            <preference id="COOpen"         type="bool"     name="extensions.aios.co.sidebar" />
+            <preference id="COLayout"       type="bool"     name="extensions.aios.co.layout" />
 
-            <preference id="PanelTabReverse" 	type="bool" 	name="extensions.aios.paneltab.reverse" />
-            <preference id="PanelTabBMM" 	type="bool" 	name="extensions.aios.paneltab.bm" />
+            <preference id="PanelTabReverse"    type="bool"     name="extensions.aios.paneltab.reverse" />
+            <preference id="PanelTabBMM"    type="bool"     name="extensions.aios.paneltab.bm" />
         </preferences>
 
         <tabbox flex="1" id="aiosTabboxPanels">
@@ -769,13 +769,13 @@
 
     <prefpane id="aiosMenus" label="&tab.menus;" flex="1" seltab="0" persist="seltab" onpaneload="aios_initPane('menus');">
         <preferences>
-            <preference id="SBEntryDeac" 	type="bool" 	name="extensions.aios.menus.sidebar.entrydeac" />
-            <preference id="SBEntries" 		type="bool" 	name="extensions.aios.menus.sidebar.entries" />
-            <preference id="SBIcons" 		type="bool" 	name="extensions.aios.menus.sidebar.icons" />
-            <preference id="SBPanelTab1" 	type="bool" 	name="extensions.aios.menus.sidebar.paneltab1" />
-            <preference id="SBPanelTab2" 	type="bool" 	name="extensions.aios.menus.sidebar.paneltab2" />
-            <preference id="SBShowHide" 	type="bool" 	name="extensions.aios.menus.sidebar.showhide" />
-            <preference id="SBOptions" 		type="bool" 	name="extensions.aios.menus.sidebar.prefs" />
+            <preference id="SBEntryDeac"    type="bool"     name="extensions.aios.menus.sidebar.entrydeac" />
+            <preference id="SBEntries"      type="bool"     name="extensions.aios.menus.sidebar.entries" />
+            <preference id="SBIcons"        type="bool"     name="extensions.aios.menus.sidebar.icons" />
+            <preference id="SBPanelTab1"    type="bool"     name="extensions.aios.menus.sidebar.paneltab1" />
+            <preference id="SBPanelTab2"    type="bool"     name="extensions.aios.menus.sidebar.paneltab2" />
+            <preference id="SBShowHide"     type="bool"     name="extensions.aios.menus.sidebar.showhide" />
+            <preference id="SBOptions"      type="bool"     name="extensions.aios.menus.sidebar.prefs" />
         </preferences>
 
         <tabbox flex="1" id="aiosTabboxMenus">

@@ -2,8 +2,8 @@
 
 <!-- locale -->
 <!DOCTYPE overlay [
-	<!ENTITY % aiosDTD SYSTEM "chrome://aios/content/aios.dtd"> %aiosDTD;
-	<!ENTITY % aboutDTD SYSTEM "chrome://aios/locale/about.dtd"> %aboutDTD;
+    <!ENTITY % aiosDTD SYSTEM "chrome://aios/content/aios.dtd"> %aiosDTD;
+    <!ENTITY % aboutDTD SYSTEM "chrome://aios/locale/about.dtd"> %aboutDTD;
 ]>
 
 <overlay id="aiosAboutOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">

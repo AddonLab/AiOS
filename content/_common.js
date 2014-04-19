@@ -90,7 +90,7 @@ var aiosProgListener = {
 
 
 /*
-	Variablen zur Verwendung der Erweiterung "DebugLogger" - http://mozmonkey.com/debuglogger/
+    Variablen zur Verwendung der Erweiterung "DebugLogger" - http://mozmonkey.com/debuglogger/
 */
 if(Components.classes["@mozmonkey.com/debuglogger/manager;1"]) {
     var aios_debugLogMngr = Components.classes["@mozmonkey.com/debuglogger/manager;1"].
@@ -101,7 +101,7 @@ if(Components.classes["@mozmonkey.com/debuglogger/manager;1"]) {
 
 
 /*
-	Debug-Funktion unter Verwendung der JavaScript-Konsole
+    Debug-Funktion unter Verwendung der JavaScript-Konsole
 */
 function aios_debug(aMsg) {
     var aConsoleService = Components.classes["@mozilla.org/consoleservice;1"].
@@ -114,9 +114,9 @@ function aios_debug(aMsg) {
 
 
 /*
-	oeffnet ein neues Tab mit der uebergebenen Adresse im Vordergrund
+    oeffnet ein neues Tab mit der uebergebenen Adresse im Vordergrund
 */
-var aiosLastSelTab;		// wird fuer Page Info/MultiPanel im Tab benoetigt
+var aiosLastSelTab;     // wird fuer Page Info/MultiPanel im Tab benoetigt
 function aios_addTab(aUrl) {
 
     var browser = aios_WIN.getBrowser();
@@ -135,10 +135,10 @@ function aios_addTab(aUrl) {
         //alert(isPermaTab);
 
         /*var attribs = browser.tabContainer.childNodes[i].attributes;
-		//var attribs = browser.mCurrentTab.attributes;
-		for(var a = 0; a < attribs.length; a++) {
-			alert(attribs[a].name + ": " + attribs[a].value);
-		}*/
+        //var attribs = browser.mCurrentTab.attributes;
+        for(var a = 0; a < attribs.length; a++) {
+            alert(attribs[a].name + ": " + attribs[a].value);
+        }*/
 
         // wenn der Tab leer ist
         if(browserDoc.location.href == "about:blank" && browser.selectedTab.getAttribute('openBy') != "aios" && !isPermaTab && emptyTab == null)
@@ -185,8 +185,8 @@ function aios_addCSS(aURI, aBefore) {
 
 
 /*
-	errechnet die Breite des Browsers exkl. der AIOS-Toolbar
-		=> Aufruf durch aios_setSidebarDefWidth() in aios.js und aios_setSidebarWidth() in general.js
+    errechnet die Breite des Browsers exkl. der AIOS-Toolbar
+        => Aufruf durch aios_setSidebarDefWidth() in aios.js und aios_setSidebarWidth() in general.js
 */
 function aios_getBrowserWidth() {
     var cStyleSidebar = aios_WIN.document.defaultView.getComputedStyle(aios_WIN.document.getElementById('sidebar-box'), '');
@@ -207,7 +207,7 @@ function aios_getBrowserWidth() {
 
 
 /*
-	erweitert das Attribut "class" eines Elementes
+    erweitert das Attribut "class" eines Elementes
 */
 function aios_appendClass(elem, appClass) {
     if(typeof elem == "string") elem = document.getElementById(elem);
@@ -218,7 +218,7 @@ function aios_appendClass(elem, appClass) {
 
 
 /*
-	loescht einen Klassennamen im Attribut "class" eines Elementes
+    loescht einen Klassennamen im Attribut "class" eines Elementes
 */
 function aios_stripClass(elem, stripClass) {
     if(typeof elem == "string") elem = document.getElementById(elem);
@@ -260,8 +260,8 @@ function aios_replaceKey(aElem, aAttr, aKey) {
 
 
 /*
-	gibt den boolschen Wert eines Wertes zurueck
-		=> getAttribute(val) liefert nur "true" oder "false" als String
+    gibt den boolschen Wert eines Wertes zurueck
+        => getAttribute(val) liefert nur "true" oder "false" als String
 */
 function aios_getBoolean(aElem, aVal) {
     var elem, bool;
@@ -283,7 +283,7 @@ function aios_getBoolean(aElem, aVal) {
 
 
 /*
-	Dialoge oeffnen
+    Dialoge oeffnen
 */
 function aios_openDialog(which, args) {
     var theUrl, theId, theFeatures;
@@ -328,8 +328,8 @@ function aios_openDialog(which, args) {
 
 
 /*
-	prueft welche Elemente angezeigt werden sollen
-		=> Aufruf jeweils durch Initialisierung
+    prueft welche Elemente angezeigt werden sollen
+        => Aufruf jeweils durch Initialisierung
 */
 function aios_synchElements(aElems) {
     var elem, child, childElems, childMode;
@@ -351,8 +351,8 @@ function aios_synchElements(aElems) {
 
 
 /*
-	toggelt einen Menuepunkt und das/die zugehoerige/n Element/e
-		=> Aufruf durch die menuitems in der aios.xul
+    toggelt einen Menuepunkt und das/die zugehoerige/n Element/e
+        => Aufruf durch die menuitems in der aios.xul
 */
 function aios_toggleElement(aMenuitem) {
     var menuitem;
@@ -375,8 +375,8 @@ function aios_toggleElement(aMenuitem) {
 
 
 /*
-	toggelt Kindelemente eines Menuepunkts
-		=> Aufruf durch aios_toggleElement()
+    toggelt Kindelemente eines Menuepunkts
+        => Aufruf durch aios_toggleElement()
 */
 function aios_toggleChilds(childElems, childMode) {
     var child_str, child;

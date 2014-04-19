@@ -6,8 +6,8 @@ if(document.getElementById('web-panels-browser')) webPanel = document.getElement
 
 
 /*
-	Initialisierung
-		=> Aufruf durch onload in console.xul
+    Initialisierung
+        => Aufruf durch onload in console.xul
 */
 function aios_init() {
     // Sidebar-/Fenster-Titel setzen
@@ -26,7 +26,7 @@ function aios_init() {
 
 
 /*
-	modifizierte Original-Ueberwachungsfunktion aus web-panels.js
+    modifizierte Original-Ueberwachungsfunktion aus web-panels.js
 */
 var panelProgressListener = {
     onProgressChange: function(aWebProgress, aRequest, aCurSelfProgress, aMaxSelfProgress,
@@ -86,8 +86,8 @@ var panelProgressListener = {
 
 
 /*
-	Oeffnet im MultiPanel die im Browser angezeigte Webseite
-		=> Aufruf durch Buttons, aios_panelTab()
+    Oeffnet im MultiPanel die im Browser angezeigte Webseite
+        => Aufruf durch Buttons, aios_panelTab()
 */
 function aios_setMultiPanel(aMode) {
     var label, panelLoc;
@@ -120,14 +120,14 @@ function aios_setMultiPanel(aMode) {
     var newLabel = "";
 
     // MultiPanel oeffnen bzw. Inhalt laden
-    if(top.document.getElementById('sidebar') && top.toString() != "[object Window]")	top.openWebPanel(newLabel, panelLoc);
+    if(top.document.getElementById('sidebar') && top.toString() != "[object Window]")   top.openWebPanel(newLabel, panelLoc);
     else webPanel.contentDocument.location.href = panelLoc;
 }
 
 
 /*
-	aktiviert/deaktiviert die Toolbarbuttons und Radio-Menuitems (about)
-		=> Aufruf durch onLocationChange() wenn sich MultiPanel-URL aendert (panelProgressListener)
+    aktiviert/deaktiviert die Toolbarbuttons und Radio-Menuitems (about)
+        => Aufruf durch onLocationChange() wenn sich MultiPanel-URL aendert (panelProgressListener)
 */
 function aios_setOptions() {
 
@@ -170,8 +170,8 @@ function aios_setOptions() {
 
 
 /*
-	Sidebar-Label einstellen
-		=> Aufruf durch onload-Event und onStateChange() wenn sich MultiPanel-URL aendert (panelProgressListener)
+    Sidebar-Label einstellen
+        => Aufruf durch onload-Event und onStateChange() wenn sich MultiPanel-URL aendert (panelProgressListener)
 */
 function aios_setSBLabel() {
     var newLabel = "";
@@ -195,9 +195,9 @@ function aios_setSBLabel() {
 
 
 /*
-	Small Screen Rendering ein/aus
-		=> Aufruf durch onStateChange() wenn sich MultiPanel-URL aendert (panelProgressListener)
-		Original-Code in Teilen von: Daniel Glazman <glazman@netscape.com>
+    Small Screen Rendering ein/aus
+        => Aufruf durch onStateChange() wenn sich MultiPanel-URL aendert (panelProgressListener)
+        Original-Code in Teilen von: Daniel Glazman <glazman@netscape.com>
 */
 function aios_setSSR() {
     //if(!aios_getBoolean("ssr-mitem", "checked")) return false;
@@ -206,7 +206,7 @@ function aios_setSSR() {
 
     try {
         var doc = webPanel.contentDocument;
-    //var docRoot = doc.documentElement;	// Abfrage verursacht bei einigen Seiten einen groesser skalierten Text ???
+    //var docRoot = doc.documentElement;    // Abfrage verursacht bei einigen Seiten einen groesser skalierten Text ???
     //var docRootName = docRoot.nodeName.toLowerCase();
     } catch(e) { }
 
@@ -251,7 +251,7 @@ function aios_setSSR() {
 
 
 /*
-	MultiPanel-Unload
+    MultiPanel-Unload
 */
 function aios_unloadMultiPanel() {
     if(webPanel && !aios_getBoolean("aios-remMultiPanel", "checked")) {

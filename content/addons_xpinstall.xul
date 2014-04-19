@@ -6,30 +6,30 @@
 
     <script><![CDATA[
 
-		window.addEventListener("DOMContentLoaded", aios_XPInstallConfirm);
+        window.addEventListener("DOMContentLoaded", aios_XPInstallConfirm);
 
-		function aios_XPInstallConfirm() {
+        function aios_XPInstallConfirm() {
 
-	    	var enable_sidebar = aios_gPrefBranch.getBoolPref("em.sidebar");
+            var enable_sidebar = aios_gPrefBranch.getBoolPref("em.sidebar");
 
-	    	/*
-				Sidebar oeffnen, wenn der Manager nur in der Sidebar geoeffnet werden soll
-					=> enable_sidebar => Manager soll in der Sidebar geoeffnet werden
-					=> !top.document.getElementById('sidebar') => ich bin keine Sidebar
-					=> top.toString() != "[object Window]" => ich bin kein Tab
-					=> !aios_WIN.aiosIsWindow => nicht explizit im Fenster (z.B. durch Shift+Linksklick auf Toolbarbutton)
-			*/
-			if(enable_sidebar && !top.document.getElementById('sidebar') && top.toString() != "[object Window]" && !aios_WIN.aiosIsWindow) {
-				aios_WIN.toggleSidebar("viewAddonsSidebar", true);
-	    	}
+            /*
+                Sidebar oeffnen, wenn der Manager nur in der Sidebar geoeffnet werden soll
+                    => enable_sidebar => Manager soll in der Sidebar geoeffnet werden
+                    => !top.document.getElementById('sidebar') => ich bin keine Sidebar
+                    => top.toString() != "[object Window]" => ich bin kein Tab
+                    => !aios_WIN.aiosIsWindow => nicht explizit im Fenster (z.B. durch Shift+Linksklick auf Toolbarbutton)
+            */
+            if(enable_sidebar && !top.document.getElementById('sidebar') && top.toString() != "[object Window]" && !aios_WIN.aiosIsWindow) {
+                aios_WIN.toggleSidebar("viewAddonsSidebar", true);
+            }
 
-	    	//document.documentElement.getButton("cancel").focus();
-	    	window.setTimeout(function() {
-	    	    document.documentElement.getButton("cancel").focus();
-	    	}, 500);
-	    }
+            //document.documentElement.getButton("cancel").focus();
+            window.setTimeout(function() {
+                document.documentElement.getButton("cancel").focus();
+            }, 500);
+        }
 
-	]]>
+    ]]>
     </script>
 
 </overlay>
