@@ -124,7 +124,7 @@
 
     <!-- Sidebar-Status auf Veraenderungen ueberwachen -->
     <vbox id="sidebar-box">
-    <!--
+        <!--
             Darwin: => bei staendiger Ueberwachung der beiden Attribute startet Fx immer mit geoeffneter Sidebar
                     => ohne Ueberwachung und deaktiviertem SidebarCollapsing fehlt die Ausfuehrung der Funktion,
                        was dazu fuehrt, dass u.a. die Grippy-Pfeile nicht korrekt gewechselt werden
@@ -138,14 +138,9 @@
         <!-- CollapseByStyle-Methode <observes id="aios_observeStyle" element="sidebar-box" attribute="style"
             onbroadcast="if(aios_collapseSidebar) aios_observeSidebar('style');" />-->
 
-    <!-- "src"-Status der Sidebar ueberwachen => letzte Sidebar merken -->
+        <!-- "src"-Status der Sidebar ueberwachen => letzte Sidebar merken -->
         <observes element="sidebar" attribute="src" onbroadcast="aios_remLastSidebar();" />
     </vbox>
-
-
-    <!-- Tooltips zuweisen -->
-    <label id="sidebar-title" tooltip="sidebarheader-tooltip" />
-    <image id="sidebar-throbber" tooltip="sidebarheader-tooltip" />
 
 
     <!-- Grippy -->

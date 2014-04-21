@@ -199,15 +199,20 @@ if(aios_collapseSidebar) BrowserStartup = function() {
  *                 it changes the sidebar's visibility.
  *  - group        this attribute must be set to "sidebar".
  */
+// modified by exxile
+//    => original: function toggleSidebar(commandID, forceOpen) {
 if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
+// end modified by exxile
 
   var sidebarBox = document.getElementById("sidebar-box");
   if (!commandID)
     commandID = sidebarBox.getAttribute("sidebarcommand");
 
-  //add by exxile => sonst gibt es Fehler bei der 2. Druckvorschau, wenn SidebarCollapsing aktiv ist und die Sidebar zugeklappt
-  // => commandID ist in diesem Fall nicht definiert
+  // added by exxile
+  //    => sonst gibt es Fehler bei der 2. Druckvorschau, wenn SidebarCollapsing aktiv ist und die Sidebar zugeklappt
+  //    => commandID ist in diesem Fall nicht definiert
   if(!commandID) return;
+  // end added by exxile
 
   var sidebarBroadcaster = document.getElementById(commandID);
   var sidebar = document.getElementById("sidebar"); // xul:browser
@@ -227,15 +232,19 @@ if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
       sidebarBroadcaster.removeAttribute("checked");
       sidebarBox.setAttribute("sidebarcommand", "");
 
-      //mod by exxile sidebarTitle.value = "";
-      //mod by exxile sidebar.setAttribute("src", "about:blank");
-      //mod by exxile sidebarBox.hidden = true;
+      // commented by exxile
+      // sidebarTitle.value = "";
+      // sidebarBox.hidden = true;
+      // end commented by exxile
+
+      // added by exxile
       sidebarBox.removeAttribute('hidden');
       sidebarBox.collapsed = true;
       // CollapseByStyle-Methode sidebarBox.setAttribute('style', 'display:none;');
+      // end added by exxile
 
       sidebarSplitter.hidden = true;
-      content.focus();
+      gBrowser.selectedBrowser.focus();
     } else {
       fireSidebarFocusedEvent();
     }
@@ -246,22 +255,27 @@ if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
 
   // ..but first update the 'checked' state of all sidebar broadcasters
   var broadcasters = document.getElementsByAttribute("group", "sidebar");
-  for (var i = 0; i < broadcasters.length; ++i) {
+  for (let broadcaster of broadcasters) {
     // skip elements that observe sidebar broadcasters and random
     // other elements
-    if (broadcasters[i].localName != "broadcaster")
+    if (broadcaster.localName != "broadcaster")
       continue;
 
-    if (broadcasters[i] != sidebarBroadcaster)
-      broadcasters[i].removeAttribute("checked");
+    if (broadcaster != sidebarBroadcaster)
+      broadcaster.removeAttribute("checked");
     else
       sidebarBroadcaster.setAttribute("checked", "true");
   }
 
-  //mod by exxile sidebarBox.hidden = false;
+  // commented by exxile
+  // sidebarBox.hidden = false;
+  // end commented by exxile
+
+  // added by exxile
   sidebarBox.removeAttribute('hidden');
   sidebarBox.removeAttribute('collapsed');
   // CollapseByStyle-Methode sidebarBox.removeAttribute('style');
+  // end added by exxile
 
   sidebarSplitter.hidden = false;
 
@@ -284,4 +298,8 @@ if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
     sidebar.addEventListener("load", sidebarOnLoad, true);
   else // older code handled this case, so we do it too
     fireSidebarFocusedEvent();
-}
+
+// modified by exxile
+//    => original: }
+};
+// end modified by exxile

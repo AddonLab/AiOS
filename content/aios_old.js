@@ -313,9 +313,9 @@ function aios_setSidebarOrient() {
         //document.persist(fx_mainWindow.id, 'aiosOrient');
 
         // Links-Rechts <=> Rechts-Links
-        var cStyleWindow = document.defaultView.getComputedStyle(fx_mainWindow, '');
+        //var cStyleWindow = document.defaultView.getComputedStyle(fx_mainWindow, '');
         fx_mainWindow.setAttribute('aiosMode', 'ltr');
-        if(cStyleWindow.direction == "rtl") fx_mainWindow.setAttribute('aiosMode', 'rtl');
+        //if(typeof cStyleWindow === 'object' && typeof cStyleWindow.direction === 'string' && cStyleWindow.direction == "rtl") fx_mainWindow.setAttribute('aiosMode', 'rtl');
         //document.persist(fx_mainWindow.id, 'aiosMode');
 
         // Fix fuer MileWideBack
