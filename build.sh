@@ -9,4 +9,4 @@ echo "- Deleting .DS_Store files"
 find . -name \.DS_Store -exec rm -v {} \;
 
 echo "- Creating xpi file"
-zip -r $XPI_FILE.xpi chrome.manifest icon.png install.rdf license.txt content defaults locale skin
+zip -r $XPI_FILE.xpi chrome.manifest icon.png install.rdf license.txt content defaults locale skin/css skin/icons skin/img
