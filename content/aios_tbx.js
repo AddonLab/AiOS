@@ -137,7 +137,7 @@ function aios_onToolbarPopupShowing(aWhich) {
         document.getElementById('aios-view-mitem5').setAttribute('checked', aios_toolbar.getAttribute('flexbuttons') == "true");
 
         /*/ keine Konfigurationsmoeglichkeiten in Mac OS X
-        if(aios_appOS == "Darwin") {
+        if(AiOS_HELPER.os == "Darwin") {
             if(document.getElementById('aios-customize-separator'))
                 document.getElementById('aios-toolbar-contextmenu').removeChild(document.getElementById('aios-customize-separator'));
 
@@ -158,7 +158,7 @@ function aios_onToolbarPopupShowing(aWhich) {
         fx_sidebarHeader.setAttribute('iconsize', aios_gElem("aios-sbhtoolbar").getAttribute('iconsize'));
 
         /*/ keine Konfigurationsmoeglichkeiten in Mac OS X
-        if(aios_appOS == "Darwin") {
+        if(AiOS_HELPER.os == "Darwin") {
             if(document.getElementById('aios-sbhcustomize-separator'))
                 document.getElementById('aios-sbhtoolbar-contextmenu').removeChild(document.getElementById('aios-sbhcustomize-separator'));
 
@@ -187,7 +187,7 @@ function aios_setToolbarPos(posMode) {
     if(!posMode) posMode = parseInt(aios_toolbar.getAttribute('posMode'));
 
     try {
-        var sidebarOrient = aios_gPrefBranch.getIntPref('gen.orient');
+        var sidebarOrient = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.orient');
     }
     catch(e) { }
 

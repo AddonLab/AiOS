@@ -60,7 +60,7 @@ function aios_initPrefs() {
 
 
 function aios_initPane(mode) {
-    aios_appInfo(document.getElementById("aiosPreferences"));
+    AiOS_HELPER.rememberAppInfo( document.getElementById("aiosPreferences") );
 
     // zuletzt gewaehlten Tab wieder selektieren
     var tabbox = null;
@@ -96,11 +96,11 @@ function aios_defaultSettings() {
     var count = {
         value : 0
     };
-    var childList = aios_gPrefBranch.getChildList("", count);
+    var childList = AiOS_HELPER.prefBranchAiOS.getChildList("", count);
 
     for(var i = 0; i < count.value; i++) {
-        if(aios_gPrefBranch.prefHasUserValue(childList[i]) && childList[i] != "changelog") {
-            aios_gPrefBranch.clearUserPref(childList[i]);
+        if(AiOS_HELPER.prefBranchAiOS.prefHasUserValue(childList[i]) && childList[i] != "changelog") {
+            AiOS_HELPER.prefBranchAiOS.clearUserPref(childList[i]);
         }
     }
 
@@ -131,27 +131,27 @@ function aios_exportSettings(aMode) {
     aiosExport[0]+= "                     All-in-One Sidebar - Settings\n";
     aiosExport[0]+= "-----------------------------------------------------------------------\n";
     aiosExport[0]+= "          " + sDate + ", " + sTtime + " (" + sGMT + ")\n";
-    aiosExport[0]+= "          AiOS " + aios_gPrefBranch.getCharPref('changelog') + ", " + aios_appVendor + " " + aios_appVersion + ", " + aios_appOS + ", " + aios_gPrefBranchN.getCharPref('general.skins.selectedSkin') + "\n";
+    aiosExport[0]+= "          AiOS " + AiOS_HELPER.prefBranchAiOS.getCharPref('changelog') + ", " + AiOS_HELPER.appInfo.vendor + " " + AiOS_HELPER.appInfo.version + ", " + AiOS_HELPER.os + ", " + AiOS_HELPER.prefBranch.getCharPref('general.skins.selectedSkin') + "\n";
     aiosExport[0]+= "-----------------------------------------------------------------------";
 
     var count = {
         value : 0
     };
-    var childList = aios_gPrefBranch.getChildList("", count);
+    var childList = AiOS_HELPER.prefBranchAiOS.getChildList("", count);
 
     for(var i = 0; i < count.value; i++) {
         try {
-            switch(aios_gPrefBranch.getPrefType(childList[i])) {
-                case    aios_pBranch.PREF_BOOL:
-                    aiosExport[i+1] = childList[i] + '=' + aios_gPrefBranch.getBoolPref(childList[i]);
+            switch(AiOS_HELPER.prefBranchAiOS.getPrefType(childList[i])) {
+                case    AiOS_HELPER.prefInterface.PREF_BOOL:
+                    aiosExport[i+1] = childList[i] + '=' + AiOS_HELPER.prefBranchAiOS.getBoolPref(childList[i]);
                     break;
 
-                case    aios_pBranch.PREF_INT:
-                    aiosExport[i+1] = childList[i] + '=' + aios_gPrefBranch.getIntPref(childList[i]);
+                case    AiOS_HELPER.prefInterface.PREF_INT:
+                    aiosExport[i+1] = childList[i] + '=' + AiOS_HELPER.prefBranchAiOS.getIntPref(childList[i]);
                     break;
 
-                case    aios_pBranch.PREF_STRING:
-                    aiosExport[i+1] = childList[i] + '=' + aios_gPrefBranch.getCharPref(childList[i]);
+                case    AiOS_HELPER.prefInterface.PREF_STRING:
+                    aiosExport[i+1] = childList[i] + '=' + AiOS_HELPER.prefBranchAiOS.getCharPref(childList[i]);
                     break;
             }
         }
@@ -232,20 +232,20 @@ function aios_importSettings() {
     if(pattern[1].indexOf("All-in-One Sidebar - Settings") >= 0 || pattern[1].indexOf("All-In-One Sidebar - Settings") >= 0) {
         for(i = 6; i < aiosImport.length; i++) {
             try {
-                switch(aios_gPrefBranch.getPrefType(aiosImport[i][0])) {
-                    case    aios_pBranch.PREF_BOOL:
-                        aios_gPrefBranch.setBoolPref(aiosImport[i][0],/true/i.test(aiosImport[i][1]));
+                switch(AiOS_HELPER.prefBranchAiOS.getPrefType(aiosImport[i][0])) {
+                    case    AiOS_HELPER.prefInterface.PREF_BOOL:
+                        AiOS_HELPER.prefBranchAiOS.setBoolPref(aiosImport[i][0],/true/i.test(aiosImport[i][1]));
                         break;
 
-                    case    aios_pBranch.PREF_INT:
-                        aios_gPrefBranch.setIntPref(aiosImport[i][0], aiosImport[i][1]);
+                    case    AiOS_HELPER.prefInterface.PREF_INT:
+                        AiOS_HELPER.prefBranchAiOS.setIntPref(aiosImport[i][0], aiosImport[i][1]);
                         break;
 
-                    case    aios_pBranch.PREF_STRING:
+                    case    AiOS_HELPER.prefInterface.PREF_STRING:
                         var pref = aiosImport[i][1];
                         if(pref.indexOf('"') == 0) // in prev version we use " " for string
                             pref = pref.substring(1,pref.length - 1);
-                        aios_gPrefBranch.setCharPref(aiosImport[i][0], pref);
+                        AiOS_HELPER.prefBranchAiOS.setCharPref(aiosImport[i][0], pref);
                         break;
                 }
             }
@@ -475,13 +475,13 @@ function aios_synchElements() {
 
         switch(prefType) {
             case "int":
-                val = aios_gPrefBranch.getIntPref(prefName);
+                val = AiOS_HELPER.prefBranchAiOS.getIntPref(prefName);
                 break;
             case "string":
-                val = aios_gPrefBranch.getCharPref(prefName);
+                val = AiOS_HELPER.prefBranchAiOS.getCharPref(prefName);
                 break;
             case "bool":
-                val = aios_gPrefBranch.getBoolPref(prefName);
+                val = AiOS_HELPER.prefBranchAiOS.getBoolPref(prefName);
                 break;
         }
 
@@ -511,17 +511,17 @@ function aios_savePrefs() {
     aios_setConfSidebarWidth();
 
     // Tooltip fuer PanelTab-Button festlegen
-    if(aios_WIN.document.getElementById('paneltab-button')) {
-        var ptReverse = aios_gPrefBranch.getBoolPref("paneltab.reverse");
+    if(AiOS_HELPER.mostRecentWindow.document.getElementById('paneltab-button')) {
+        var ptReverse = AiOS_HELPER.prefBranchAiOS.getBoolPref("paneltab.reverse");
         var ptTooltip = (ptReverse) ? 'paneltab-tooltip-reverse' : 'paneltab-tooltip';
-        aios_WIN.document.getElementById('paneltab-button').setAttribute('tooltip', ptTooltip);
+        AiOS_HELPER.mostRecentWindow.document.getElementById('paneltab-button').setAttribute('tooltip', ptTooltip);
     }
 
-    if(aios_WIN.aios_setTargets) aios_WIN.aios_setTargets();
+    if(AiOS_HELPER.mostRecentWindow.aios_setTargets) AiOS_HELPER.mostRecentWindow.aios_setTargets();
 
-    aios_WIN.aios_checkThinSwitch();
-    if(aios_WIN.aios_setSidebarOrient) aios_WIN.aios_setSidebarOrient();
-    if(aios_WIN.aios_initAutohide) aios_WIN.aios_initAutohide();
+    AiOS_HELPER.mostRecentWindow.aios_checkThinSwitch();
+    if(AiOS_HELPER.mostRecentWindow.aios_setSidebarOrient) AiOS_HELPER.mostRecentWindow.aios_setSidebarOrient();
+    if(AiOS_HELPER.mostRecentWindow.aios_initAutohide) AiOS_HELPER.mostRecentWindow.aios_initAutohide();
 
     // Bugfix...
     // sonst wird das Kontextmenue der Erweiterung angezeigt,
@@ -548,13 +548,13 @@ function aios_applyPrefs() {
 
         switch(pType) {
             case "string":
-                aios_gPref.setCharPref(pName, pValue);
+                AiOS_HELPER.prefService.setCharPref(pName, pValue);
                 break;
             case "bool":
-                aios_gPref.setBoolPref(pName, pValue);
+                AiOS_HELPER.prefService.setBoolPref(pName, pValue);
                 break;
             case "int":
-                aios_gPref.setIntPref(pName, pValue);
+                AiOS_HELPER.prefService.setIntPref(pName, pValue);
                 break;
         }
     }
@@ -569,7 +569,7 @@ function aios_applyPrefs() {
     aios_rememberOldPrefs();
 
     // Prefs direkt in Datei speichern
-    aios_gPref.savePrefFile(null);
+    AiOS_HELPER.prefService.savePrefFile(null);
 }
 
 
@@ -682,7 +682,7 @@ function aios_deleteOldPrefs() {
 
     for(var i = 0; i < oldPrefs.length; i++) {
         try {
-            aios_gPrefBranch.clearUserPref(oldPrefs[i]);
+            AiOS_HELPER.prefBranchAiOS.clearUserPref(oldPrefs[i]);
         }
         catch(e) { }
     }

@@ -45,7 +45,7 @@ var AiOS_Addons = {};
         self.setTitle(true);
 
         // fuer CSS-Zwecke speichern
-        aios_appInfo(managerWindow);
+        AiOS_HELPER.rememberAppInfo( managerWindow );
 
         // CSS aktivieren
         managerWindow.setAttribute('aios-inSidebar', 'true');
@@ -175,7 +175,7 @@ var AiOS_Addons = {};
             newTitle,
 
             numberOfItems,
-            count = aios_gPrefBranch.getBoolPref("em.count"),
+            count = AiOS_HELPER.prefBranchAiOS.getBoolPref("em.count"),
             selectedCategory = document.getElementById('categories').getAttribute('last-selected'),
             isInSidebar = (top.document.getElementById('sidebar-box')) ? true : false;
 
@@ -184,8 +184,8 @@ var AiOS_Addons = {};
         }
 
         // bisherigen Titel feststellen
-        if(aios_WIN.document.getElementById("viewAddonsSidebar")) {
-            origTitle = aios_WIN.document.getElementById("viewAddonsSidebar").getAttribute('label');
+        if(AiOS_HELPER.mostRecentWindow.document.getElementById("viewAddonsSidebar")) {
+            origTitle = AiOS_HELPER.mostRecentWindow.document.getElementById("viewAddonsSidebar").getAttribute('label');
         }
 
         // originalen Titel um das aktivierte Panel erweitern

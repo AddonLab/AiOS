@@ -21,7 +21,7 @@ var aios_enterFullScreen = 0;
 var aios_leaveFullScreen = 0;
 
 // Sidebar nur zusammenklappen statt schliessen
-var aios_collapseSidebar = aios_gPrefBranch.getBoolPref('collapse');
+var aios_collapseSidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref('collapse');
 
 
 function aios_getObjects() {
@@ -68,7 +68,7 @@ function aios_initSidebar() {
     }*/
 
     // MacOS X => Tastaturkuerzel ersetzen (Strg. wird durch Command ersetzt und Umschalt durch das Symbol dafuer)
-    if(aios_appOS == "Darwin") {
+    if(AiOS_HELPER.os == "Darwin") {
         aios_replaceKey('switch-tooltip-box', 'r2c2', 'command');
         aios_replaceKey('template-sidebar-tooltip-box', 'r2c2', 'command');
         aios_replaceKey('template-window-tooltip-box', 'r2c2', 'command');
@@ -83,9 +83,6 @@ function aios_initSidebar() {
         aios_replaceKey('paneltab-tooltip-reverse-box', 'r3c2', 'shift');
         aios_replaceKey('sidebarheader-tooltip-box', 'r1c2', 'shift');
     }
-
-    // fuer CSS-Zwecke speichern
-    aios_appInfo(fx_mainWindow);
 
     // Sidebar li. oder re.
     // Eigenschaftenzuweisung fuer CSS (LTR <=> RTL; Sidebar links <=> rechts)
@@ -167,9 +164,9 @@ function aios_initSidebar() {
 
     // Sidebar, Toolbar u. Switch beim Start gem. Einstellungen
     try {
-        var sidebarInit = aios_gPrefBranch.getCharPref('gen.init');
-        var toolbarInit = aios_gPrefBranch.getIntPref('gen.toolbar.init');
-        var switchInit = aios_gPrefBranch.getIntPref('gen.switch.init');
+        var sidebarInit = AiOS_HELPER.prefBranchAiOS.getCharPref('gen.init');
+        var toolbarInit = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.toolbar.init');
+        var switchInit = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.switch.init');
 
         // Sidebar beim Start oeffnen
         if(sidebarInit == "open") toggleSidebar(fx_sidebarBox.getAttribute('aiosLastPanel'), true);
@@ -207,8 +204,8 @@ function aios_initSidebar() {
 
     // Drag&Drop-Funktion fuer den Sidebar-Umschalter deaktivieren?
     try {
-        var switchDrag = aios_gPrefBranch.getBoolPref("gen.switch.drag");
-        var switchDelay = aios_gPrefBranch.getIntPref("gen.switch.delay");
+        var switchDrag = AiOS_HELPER.prefBranchAiOS.getBoolPref("gen.switch.drag");
+        var switchDelay = AiOS_HELPER.prefBranchAiOS.getIntPref("gen.switch.delay");
 
         if(!switchDrag) elem_switch.removeAttribute('ondragenter');
     }
@@ -216,7 +213,7 @@ function aios_initSidebar() {
 
     // Changelog anzeigen?
     try {
-        var changelog = aios_gPrefBranch.getCharPref('changelog');
+        var changelog = AiOS_HELPER.prefBranchAiOS.getCharPref('changelog');
     }
     catch(e) { }
 
@@ -233,8 +230,8 @@ function aios_initSidebar() {
                 var aiosUpdated = (changelog != "") ? true : false;
 
                 try {
-                    aios_gPrefBranch.setCharPref('changelog', aiosVersion);
-                    var changelog_new = aios_gPrefBranch.getCharPref('changelog');
+                    AiOS_HELPER.prefBranchAiOS.setCharPref('changelog', aiosVersion);
+                    var changelog_new = AiOS_HELPER.prefBranchAiOS.getCharPref('changelog');
                 }
                 catch(e) { }
 
@@ -253,7 +250,7 @@ function aios_initSidebar() {
 
     // vertikale Buttons?
     try {
-        var vButtons = aios_gPrefBranch.getBoolPref("vbuttons");
+        var vButtons = AiOS_HELPER.prefBranchAiOS.getBoolPref("vbuttons");
 
         fx_mainWindow.setAttribute('aiosVButtons', 'true');
         if(!vButtons) fx_mainWindow.setAttribute('aiosVButtons', 'false');
@@ -283,8 +280,8 @@ function aios_setSidebarWidth(event) {
     }
 
     try {
-        var sWidthVal = aios_gPrefBranch.getIntPref('gen.width.' + mode + 'Val');
-        var sWidthUnit = aios_gPrefBranch.getCharPref('gen.width.' + mode + 'Unit');
+        var sWidthVal = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.width.' + mode + 'Val');
+        var sWidthUnit = AiOS_HELPER.prefBranchAiOS.getCharPref('gen.width.' + mode + 'Unit');
 
         if(sWidthUnit == "%") {
             var browserWidth = aios_getBrowserWidth();
@@ -310,7 +307,7 @@ function aios_setSidebarOrient() {
 
     try {
         // Sidebar-Ausrichtung
-        var sidebarOrient = aios_gPrefBranch.getIntPref('gen.orient');
+        var sidebarOrient = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.orient');
         fx_mainWindow.setAttribute('aiosOrient', 'left');
         if(sidebarOrient == 2) fx_mainWindow.setAttribute('aiosOrient', 'right');
         //document.persist(fx_mainWindow.id, 'aiosOrient');
@@ -509,10 +506,10 @@ function aios_autoShowHide(mode) {
     //try {
     var autobutton = aios_getBoolean('aios-enableAutohide', 'checked');
 
-    var autoshow = aios_gPrefBranch.getBoolPref('gen.switch.autoshow');
-    var onlymax = aios_gPrefBranch.getBoolPref('gen.switch.onlymax');
-    var delay = aios_gPrefBranch.getIntPref('gen.switch.delay');
-    var hidemethod = aios_gPrefBranch.getIntPref('gen.switch.hidemethod');
+    var autoshow = AiOS_HELPER.prefBranchAiOS.getBoolPref('gen.switch.autoshow');
+    var onlymax = AiOS_HELPER.prefBranchAiOS.getBoolPref('gen.switch.onlymax');
+    var delay = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.switch.delay');
+    var hidemethod = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.switch.hidemethod');
 
     //alert(mode);
 
@@ -593,7 +590,7 @@ function aios_toggleSidebar(aMode, aForceOpen) {
     if(aMode == elem_close || aMode == elem_close2 || aMode == "close") prefstring = "close";
 
     try {
-        var mode = aios_gPrefBranch.getIntPref('cmode.' + prefstring);
+        var mode = AiOS_HELPER.prefBranchAiOS.getIntPref('cmode.' + prefstring);
         var toolBox_enabled = aios_getBoolean('aios-viewToolbar', 'checked');
         var toggleBox_enabled = aios_getBoolean(aios_toggleSwitchItem, 'checked');
 
@@ -606,7 +603,7 @@ function aios_toggleSidebar(aMode, aForceOpen) {
 
         // bestimmtes Panel laden?
         var forcePanel;
-        var openPanel = aios_gPrefBranch.getCharPref("gen.open.init");
+        var openPanel = AiOS_HELPER.prefBranchAiOS.getCharPref("gen.open.init");
         if(openPanel != "rem" && (prefstring == "key" || prefstring == "switch" || prefstring == "tbb")) forcePanel = openPanel;
         else forcePanel = false;
 
@@ -653,7 +650,7 @@ function aios_useGrippy() {
 
     // Fix fuer Win Vista & 7: aiosOpen wird durch fehlenden Aufruf von aios_observeSidebar nicht gesetzt
     // aios_observeSidebar wird eigentlich durch Observer der sidebar-box aufgerufen, k.A. warum hier nicht
-    if(aios_appOS == "WINNT" && aios_appOSVersion.indexOf("5.1") == -1) aios_observeSidebar(true);
+    if(AiOS_HELPER.os == "WINNT" && AiOS_HELPER.osVersion.indexOf("5.1") == -1) aios_observeSidebar(true);
 
     /* CollapseByStyle-Methode
     if(fx_sidebarBox.getAttribute('style') != "") fx_sidebarBox.removeAttribute('style');
@@ -674,11 +671,11 @@ function aios_checkThinSwitch() {
     var thin_switch, thinmax_switch, switch_width, switch_twidth, athin_switch;
 
     try {
-        thin_switch = aios_gPrefBranch.getBoolPref('gen.switch.thin');
-        thinmax_switch = aios_gPrefBranch.getBoolPref('gen.switch.thinmax');
+        thin_switch = AiOS_HELPER.prefBranchAiOS.getBoolPref('gen.switch.thin');
+        thinmax_switch = AiOS_HELPER.prefBranchAiOS.getBoolPref('gen.switch.thinmax');
 
-        switch_width = aios_gPrefBranch.getIntPref('gen.switch.width');
-        switch_twidth = aios_gPrefBranch.getIntPref('gen.switch.twidth');
+        switch_width = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.switch.width');
+        switch_twidth = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.switch.twidth');
 
         // soll er schmal sein?
         var thin = thin_switch;
@@ -730,7 +727,7 @@ function aios_BrowserFullScreen() {
     aios_getObjects();
 
     try {
-        var enable_restore = aios_gPrefBranch.getBoolPref('fs.restore');
+        var enable_restore = AiOS_HELPER.prefBranchAiOS.getBoolPref('fs.restore');
     }
     catch(e) {
         return false;
@@ -747,9 +744,9 @@ function aios_BrowserFullScreen() {
 
         try {
             // Soll-Zustaende
-            var close_switch = aios_gPrefBranch.getBoolPref('fs.switch');
-            var close_toolbar = aios_gPrefBranch.getBoolPref('fs.toolbar');
-            var close_sidebar = aios_gPrefBranch.getBoolPref('fs.sidebar');
+            var close_switch = AiOS_HELPER.prefBranchAiOS.getBoolPref('fs.switch');
+            var close_toolbar = AiOS_HELPER.prefBranchAiOS.getBoolPref('fs.toolbar');
+            var close_sidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref('fs.sidebar');
 
             // Ist-Zustaende
             var rem_switchHidden = aios_getBoolean(aios_toggleBox, 'hidden');

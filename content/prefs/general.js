@@ -12,15 +12,15 @@ function aios_genSidebarList() {
 
     var sidebarInit = document.getElementById('sidebarInitPopup');
     var panelInit = document.getElementById('panelInitPopup');
-    var allSidebars = aios_WIN.document.getElementsByAttribute('group', 'sidebar');
+    var allSidebars = AiOS_HELPER.mostRecentWindow.document.getElementsByAttribute('group', 'sidebar');
 
     var cnt = 0;
     var initID = null;
     var sidebarPrefInit = "";
     var panelPrefInit = "";
     try {
-        sidebarPrefInit = aios_gPrefBranch.getCharPref("gen.init");
-        panelPrefInit = aios_gPrefBranch.getCharPref("gen.open.init");
+        sidebarPrefInit = AiOS_HELPER.prefBranchAiOS.getCharPref("gen.init");
+        panelPrefInit = AiOS_HELPER.prefBranchAiOS.getCharPref("gen.open.init");
     } catch(e) { }
 
     for(var i = 0; i < allSidebars.length; i++) {
@@ -147,9 +147,9 @@ function aios_setConfSidebarWidth() {
         }
         // Aufruf durch aios_initSidebar() => die abgespeicherten Werte verwenden
         else {
-            elem = aios_gPrefBranch.getIntPref("gen.width." + modes[i] + "Val");
+            elem = AiOS_HELPER.prefBranchAiOS.getIntPref("gen.width." + modes[i] + "Val");
             theValue = elem;
-            theUnit = aios_gPrefBranch.getCharPref("gen.width." + modes[i] + "Unit");
+            theUnit = AiOS_HELPER.prefBranchAiOS.getCharPref("gen.width." + modes[i] + "Unit");
         }
 
         // Prozente in Px umrechnen (Angaben in % funktionieren hier nicht??)
@@ -168,6 +168,6 @@ function aios_setConfSidebarWidth() {
         }
     }
 
-    aios_WIN.document.getElementById('sidebar').setAttribute('style', widthStyle);
-    aios_WIN.document.persist('sidebar', 'style');
+    AiOS_HELPER.mostRecentWindow.document.getElementById('sidebar').setAttribute('style', widthStyle);
+    AiOS_HELPER.mostRecentWindow.document.persist('sidebar', 'style');
 }

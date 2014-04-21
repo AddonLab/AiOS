@@ -1,46 +1,37 @@
+var AiOS_HELPER = {
 
-// globale Variablen fuer Preferences-Zugriff
-var aios_pBranch = Components.interfaces.nsIPrefBranch;
-var aios_gPref = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService);
-var aios_gPrefBranchN = aios_gPref.getBranch(null);
-var aios_gPrefBranch = aios_gPref.getBranch("extensions.aios.");
+    init: function() {
 
-// globale Variablen fuer Browser-Zugriff
-var aios_WW = Components.classes["@mozilla.org/embedcomp/window-watcher;1"].getService(Components.interfaces.nsIWindowWatcher);
-var aios_WM = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService(Components.interfaces.nsIWindowMediator);
-var aios_WIN = aios_WM.getMostRecentWindow('navigator:browser');
-var aios_APPCONTENT = aios_WIN.document.getElementById('appcontent');
-aios_WIN.aiosIsWindow = false;
+        this.prefInterface = Components.interfaces.nsIPrefBranch;
+        this.prefService = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService);
+        this.prefBranch = this.prefService.getBranch(null);
+        this.prefBranchAiOS = this.prefService.getBranch("extensions.aios.");
 
+        this.windowWatcher = Components.classes["@mozilla.org/embedcomp/window-watcher;1"].getService(Components.interfaces.nsIWindowWatcher);
+        this.windowMediator = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService(Components.interfaces.nsIWindowMediator);
+        this.mostRecentWindow = this.windowMediator.getMostRecentWindow('navigator:browser');
 
-var aios_XULAppInfo = Components.classes['@mozilla.org/xre/app-info;1'].getService(Components.interfaces.nsIXULAppInfo);
+        this.appInfo = Components.classes['@mozilla.org/xre/app-info;1'].getService(Components.interfaces.nsIXULAppInfo);
+        this.os = Components.classes['@mozilla.org/xre/app-info;1'].getService(Components.interfaces.nsIXULRuntime).OS;
+        this.osVersion = window.navigator.oscpu;
+        this.defTheme = (this.prefBranch.getCharPref('general.skins.selectedSkin') == "classic/1.0") ? true : false;
 
-// {ec8030f7-c20a-464f-9b0e-13a3a9e97384} => Firefox
-var aios_appID = aios_XULAppInfo.ID;
+    },
 
-// Mozilla, Flock
-var aios_appVendor = aios_XULAppInfo.vendor;
+    rememberAppInfo: function(aObj) {
 
-// z.B. 11.0
-var aios_appVersion = aios_XULAppInfo.version;
+        aObj.setAttribute('aios-appVendor', this.appInfo.vendor);
+        aObj.setAttribute('aios-appVersion', this.appInfo.version);
+        aObj.setAttribute('aios-appOS', this.os);
+        aObj.setAttribute('aios-appOSVersion', this.osVersion);
+        aObj.setAttribute('aios-appDefTheme', this.defTheme);
 
-// WINNT, Darwin
-var aios_appOS = Components.classes['@mozilla.org/xre/app-info;1'].getService(Components.interfaces.nsIXULRuntime).OS;
+    }
 
-// z.B. Windows NT 5.1
-var aios_appOSVersion = window.navigator.oscpu;
+};
 
-// true, false
-var aios_appDefTheme = (aios_gPrefBranchN.getCharPref('general.skins.selectedSkin') == "classic/1.0") ? true : false;
+AiOS_HELPER.init();
 
-
-function aios_appInfo(aObj) {
-    aObj.setAttribute('aios-appVendor', aios_appVendor);
-    aObj.setAttribute('aios-appVersion', aios_appVersion);
-    aObj.setAttribute('aios-appOS', aios_appOS);
-    aObj.setAttribute('aios-appOSVersion', aios_appOSVersion);
-    aObj.setAttribute('aios-appDefTheme', aios_appDefTheme);
-}
 
 
 // globale Variablen und Funktionen zur Ueberwachung auf Progress-Veraenderungen
@@ -90,37 +81,13 @@ var aiosProgListener = {
 
 
 /*
-    Variablen zur Verwendung der Erweiterung "DebugLogger" - http://mozmonkey.com/debuglogger/
-*/
-if(Components.classes["@mozmonkey.com/debuglogger/manager;1"]) {
-    var aios_debugLogMngr = Components.classes["@mozmonkey.com/debuglogger/manager;1"].
-    getService(Components.interfaces.nsIDebugLoggerManager);
-    var aios_debugLogger = aios_debugLogMngr.registerLogger("aios");
-}
-//aios_debugLogger.log(3, "Hello World");
-
-
-/*
-    Debug-Funktion unter Verwendung der JavaScript-Konsole
-*/
-function aios_debug(aMsg) {
-    var aConsoleService = Components.classes["@mozilla.org/consoleservice;1"].
-    getService(Components.interfaces.nsIConsoleService),
-
-    msg = 'AIOS: ' + aMsg;
-    aConsoleService.logStringMessage(msg);
-}
-//aios_debug('Hallo');
-
-
-/*
     oeffnet ein neues Tab mit der uebergebenen Adresse im Vordergrund
 */
 var aiosLastSelTab;     // wird fuer Page Info/MultiPanel im Tab benoetigt
 function aios_addTab(aUrl) {
 
-    var browser = aios_WIN.getBrowser();
-    aiosLastSelTab = aios_WIN.content;
+    var browser = AiOS_HELPER.mostRecentWindow.getBrowser();
+    aiosLastSelTab = AiOS_HELPER.mostRecentWindow.content;
 
     var browserDoc;
     var existTab = null;
@@ -189,9 +156,9 @@ function aios_addCSS(aURI, aBefore) {
         => Aufruf durch aios_setSidebarDefWidth() in aios.js und aios_setSidebarWidth() in general.js
 */
 function aios_getBrowserWidth() {
-    var cStyleSidebar = aios_WIN.document.defaultView.getComputedStyle(aios_WIN.document.getElementById('sidebar-box'), '');
-    var cStyleSplitter = aios_WIN.document.defaultView.getComputedStyle(aios_WIN.document.getElementById('sidebar-splitter'), '');
-    var cStyleContent = aios_WIN.document.defaultView.getComputedStyle(aios_WIN.document.getElementById('appcontent'), '');
+    var cStyleSidebar = AiOS_HELPER.mostRecentWindow.document.defaultView.getComputedStyle(AiOS_HELPER.mostRecentWindow.document.getElementById('sidebar-box'), '');
+    var cStyleSplitter = AiOS_HELPER.mostRecentWindow.document.defaultView.getComputedStyle(AiOS_HELPER.mostRecentWindow.document.getElementById('sidebar-splitter'), '');
+    var cStyleContent = AiOS_HELPER.mostRecentWindow.document.defaultView.getComputedStyle(AiOS_HELPER.mostRecentWindow.document.getElementById('appcontent'), '');
 
     var widthSidebar = parseInt(cStyleSidebar.width) + parseInt(cStyleSidebar.paddingLeft) + parseInt(cStyleSidebar.paddingRight) + parseInt(cStyleSidebar.marginLeft) + parseInt(cStyleSidebar.marginRight);
 
@@ -240,7 +207,7 @@ function aios_stripClass(elem, stripClass) {
 
 
 function aios_gElem(aID) {
-    if(aios_WIN && aios_WIN.document.getElementById(aID)) return aios_WIN.document.getElementById(aID);
+    if(AiOS_HELPER.mostRecentWindow && AiOS_HELPER.mostRecentWindow.document.getElementById(aID)) return AiOS_HELPER.mostRecentWindow.document.getElementById(aID);
     return false;
 }
 
@@ -294,7 +261,7 @@ function aios_openDialog(which, args) {
             theUrl = "chrome://aios/content/prefs/prefs.xul";
             theId = "aiosPrefsDialog";
             theFeatures = "chrome,titlebar,toolbar,centerscreen,";
-            theFeatures+= (aios_appOS == "Darwin") ? "dialog=no" : "modal";
+            theFeatures+= (AiOS_HELPER.os == "Darwin") ? "dialog=no" : "modal";
             break;
 
         case "about":

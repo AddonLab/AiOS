@@ -10,17 +10,17 @@
 
         function aios_XPInstallConfirm() {
 
-            var enable_sidebar = aios_gPrefBranch.getBoolPref("em.sidebar");
+            var enable_sidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref("em.sidebar");
 
             /*
                 Sidebar oeffnen, wenn der Manager nur in der Sidebar geoeffnet werden soll
                     => enable_sidebar => Manager soll in der Sidebar geoeffnet werden
                     => !top.document.getElementById('sidebar') => ich bin keine Sidebar
                     => top.toString() != "[object Window]" => ich bin kein Tab
-                    => !aios_WIN.aiosIsWindow => nicht explizit im Fenster (z.B. durch Shift+Linksklick auf Toolbarbutton)
+                    => !AiOS_HELPER.mostRecentWindow.aiosIsWindow => nicht explizit im Fenster (z.B. durch Shift+Linksklick auf Toolbarbutton)
             */
-            if(enable_sidebar && !top.document.getElementById('sidebar') && top.toString() != "[object Window]" && !aios_WIN.aiosIsWindow) {
-                aios_WIN.toggleSidebar("viewAddonsSidebar", true);
+            if(enable_sidebar && !top.document.getElementById('sidebar') && top.toString() != "[object Window]" && !AiOS_HELPER.mostRecentWindow.aiosIsWindow) {
+                AiOS_HELPER.mostRecentWindow.toggleSidebar("viewAddonsSidebar", true);
             }
 
             //document.documentElement.getButton("cancel").focus();

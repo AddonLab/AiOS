@@ -10,8 +10,8 @@
         function onAlertClick() {
 
             if(window.arguments[0].indexOf("downloadIcon.png") > 0) {
-                var aiosInSidebar = aios_gPrefBranch.getBoolPref("dm.sidebar");
-                if(aiosInSidebar) aios_WIN.toggleSidebar('viewDownloadsSidebar', true);
+                var aiosInSidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref("dm.sidebar");
+                if(aiosInSidebar) AiOS_HELPER.mostRecentWindow.toggleSidebar('viewDownloadsSidebar', true);
 
                 return;
             }

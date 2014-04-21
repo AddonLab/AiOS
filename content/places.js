@@ -75,9 +75,9 @@ var AiOS_Places = {};
             // zuletzt geoeffneten Ordner markieren
             if(aios_getBoolean("aios-rememberFolder", "checked")) {
 
-                if(aios_gPrefBranch.prefHasUserValue(lastFolderPref)) {
+                if(AiOS_HELPER.prefBranchAiOS.prefHasUserValue(lastFolderPref)) {
 
-                    lastRowToSelect = aios_gPrefBranch.getIntPref(lastFolderPref);
+                    lastRowToSelect = AiOS_HELPER.prefBranchAiOS.getIntPref(lastFolderPref);
 
                     window.setTimeout(function() {
                         AiOS_Places.selectFolder(lastRowToSelect);
@@ -106,7 +106,7 @@ var AiOS_Places = {};
         var self = AiOS_Places;
 
         // fuer CSS-Zwecke speichern
-        aios_appInfo(self.managerWindow);
+        AiOS_HELPER.rememberAppInfo( self.managerWindow );
 
         // CSS aktivieren
         self.managerWindow.setAttribute('aios-inSidebar', 'true');
@@ -269,11 +269,11 @@ var AiOS_Places = {};
                 switch(sidebarType)
                 {
                     case "bookmarks":
-                        aios_gPrefBranch.setIntPref("lastBookmarkFolder", tree.currentIndex);
+                        AiOS_HELPER.prefBranchAiOS.setIntPref("lastBookmarkFolder", tree.currentIndex);
                         break;
 
                     case "history":
-                        aios_gPrefBranch.setIntPref("lastHistoryFolder", tree.currentIndex);
+                        AiOS_HELPER.prefBranchAiOS.setIntPref("lastHistoryFolder", tree.currentIndex);
                         break;
                 }
             }
@@ -295,8 +295,8 @@ var AiOS_Places = {};
 
         // zuletzt geoeffneten Ordner "vergessen"
         try {
-            if(document.getElementById('bookmarksPanel')) aios_gPrefBranch.clearUserPref("lastBookmarkFolder");
-            else if(document.getElementById('history-panel')) aios_gPrefBranch.clearUserPref("lastHistoryFolder");
+            if(document.getElementById('bookmarksPanel')) AiOS_HELPER.prefBranchAiOS.clearUserPref("lastBookmarkFolder");
+            else if(document.getElementById('history-panel')) AiOS_HELPER.prefBranchAiOS.clearUserPref("lastHistoryFolder");
         }
         catch(e) {  }
 

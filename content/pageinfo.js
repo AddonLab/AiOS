@@ -1,6 +1,6 @@
 
 var aios_inSidebar = (top.document.getElementById('sidebar-box')) ? true : false;
-var aios_inTab = (aios_WIN.aiosLastSelTab) ? true : false;
+var aios_inTab = (AiOS_HELPER.mostRecentWindow.aiosLastSelTab) ? true : false;
 
 // Listener fuer automatische Aktualisierung hinzufuegen u. entfernen
 if(aios_inSidebar) {
@@ -20,11 +20,11 @@ function aios_init() {
     aios_hideMacMenubar();
 
     // fuer CSS-Zwecke speichern
-    aios_appInfo(document.getElementById('main-window'));
+    AiOS_HELPER.rememberAppInfo( document.getElementById('main-window') );
 
     try {
-        var enable_layout = aios_gPrefBranch.getBoolPref("pi.layout");
-        var enable_layoutall = aios_gPrefBranch.getBoolPref("pi.layoutall");
+        var enable_layout = AiOS_HELPER.prefBranchAiOS.getBoolPref("pi.layout");
+        var enable_layoutall = AiOS_HELPER.prefBranchAiOS.getBoolPref("pi.layoutall");
         if((enable_layout && aios_inSidebar) || enable_layoutall) aios_sidebarLayout();
     }
     catch(e) { }
@@ -100,7 +100,7 @@ function aios_sidebarLayout() {
 }
 
 
-// automatische Aktualisierung => Aufruf durch aiosProgListener (_common.js)
+// automatische Aktualisierung => Aufruf durch aiosProgListener (_helper.js)
 function aios_onLocationChange() {
     if(aios_inSidebar) {
         aios_persistSelTab();
@@ -150,13 +150,13 @@ function onLoadPageInfo() {
         var aios_sidebar = top.document.getElementById('sidebar-box');
         var aios_window = document.getElementById('main-window');
 
-        gDocument = aios_WIN.content.document;
-        gWindow = aios_WIN.content.window;
+        gDocument = AiOS_HELPER.mostRecentWindow.content.document;
+        gWindow = AiOS_HELPER.mostRecentWindow.content.window;
     }
     else if(aios_inTab) {
 
-        gDocument = aios_WIN.aiosLastSelTab.document;
-        gWindow = aios_WIN.content.window;
+        gDocument = AiOS_HELPER.mostRecentWindow.aiosLastSelTab.document;
+        gWindow = AiOS_HELPER.mostRecentWindow.content.window;
     }
     // Original-FF-Teil
     else {
@@ -185,8 +185,8 @@ var security = {
         //viewCertHelper(window, cert);
 
         // mod by eXXile
-        if(aios_inSidebar) viewCertHelper(aios_WIN.content.window, cert);
-        else if(aios_inTab) viewCertHelper(aios_WIN.aiosLastSelTab.window, cert);
+        if(aios_inSidebar) viewCertHelper(AiOS_HELPER.mostRecentWindow.content.window, cert);
+        else if(aios_inTab) viewCertHelper(AiOS_HELPER.mostRecentWindow.aiosLastSelTab.window, cert);
         else viewCertHelper(window, cert);
     // endmod by eXXile
     },
@@ -269,7 +269,7 @@ var security = {
             return null;
         }
         else if(aios_inTab) {
-            return aios_WIN.aiosLastSelTab.securityUI;
+            return AiOS_HELPER.mostRecentWindow.aiosLastSelTab.securityUI;
         }
         // Original-FF-Teil
         else {

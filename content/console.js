@@ -12,8 +12,8 @@ if(document.getElementById('Console2Window')) conWindow = document.getElementByI
 function aios_init() {
 
     try {
-        var enable_layout = aios_gPrefBranch.getBoolPref("co.layout");
-        var enable_layoutall = aios_gPrefBranch.getBoolPref("co.layoutall");
+        var enable_layout = AiOS_HELPER.prefBranchAiOS.getBoolPref("co.layout");
+        var enable_layoutall = AiOS_HELPER.prefBranchAiOS.getBoolPref("co.layoutall");
 
         var aios_inSidebar = (top.document.getElementById('sidebar-box')) ? true : false;
     }
@@ -23,7 +23,7 @@ function aios_init() {
     aios_hideMacMenubar();
 
     // fuer CSS-Zwecke speichern
-    aios_appInfo(conWindow);
+    AiOS_HELPER.rememberAppInfo( conWindow );
 
     // Layout-Optimierungen aktivieren?
     if((enable_layout && aios_inSidebar) || enable_layoutall) aios_sidebarLayout();

@@ -19,7 +19,7 @@ var AiOS_About = {};
             }
         );
 
-        aios_appInfo( document.getElementById("aiosAbout") );
+        AiOS_HELPER.rememberAppInfo( document.getElementById("aiosAbout") );
 
     };
 

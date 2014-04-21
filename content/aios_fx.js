@@ -151,7 +151,7 @@ if(aios_collapseSidebar) BrowserStartup = function() {
 
 //@line 1362 "e:\builds\moz2_slave\rel-m-beta-w32-bld\build\browser\base\content\browser.js"
     //mod by exxile: updateAppButtonDisplay();
-    if(aios_appOS != "Darwin") updateAppButtonDisplay();
+    if(AiOS_HELPER.os != "Darwin") updateAppButtonDisplay();
 //@line 1364 "e:\builds\moz2_slave\rel-m-beta-w32-bld\build\browser\base\content\browser.js"
 
   CombinedStopReload.init();

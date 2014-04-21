@@ -21,13 +21,13 @@ function aios_init() {
     aios_posElem = document.getElementById("downloadView");
 
     // fuer CSS-Zwecke speichern
-    aios_appInfo(aios_managerWindow);
+    AiOS_HELPER.rememberAppInfo( aios_managerWindow );
 
     try {
-        enable_sidebar = aios_gPrefBranch.getBoolPref("dm.sidebar");
-        enable_count = aios_gPrefBranch.getBoolPref("dm.count");
-        enable_layout = aios_gPrefBranch.getBoolPref("dm.layout");
-        enable_layoutall = aios_gPrefBranch.getBoolPref("dm.layoutall");
+        enable_sidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref("dm.sidebar");
+        enable_count = AiOS_HELPER.prefBranchAiOS.getBoolPref("dm.count");
+        enable_layout = AiOS_HELPER.prefBranchAiOS.getBoolPref("dm.layout");
+        enable_layoutall = AiOS_HELPER.prefBranchAiOS.getBoolPref("dm.layoutall");
     }
     catch(e) {
         return false;
@@ -73,7 +73,7 @@ function aios_init() {
                 var newTitle = title.substring(0, title.indexOf(" ["));
                 top.document.getElementById('sidebar-title').setAttribute("value", newTitle);
 
-                if(aios_inSidebar) aios_WIN.document.getElementById("viewDownloadsSidebar").setAttribute('sidebartitle', newTitle);
+                if(aios_inSidebar) AiOS_HELPER.mostRecentWindow.document.getElementById("viewDownloadsSidebar").setAttribute('sidebartitle', newTitle);
             }
         }
     }
@@ -110,7 +110,6 @@ function aios_sidebarLayout() {
 
 
     // Buttons durch Toolbarbuttons ersetzen
-    //if(aios_WIN.aios_appDefTheme) {
     var tbChilds = cmdBar.childNodes;
     var tbutton, tobserver;
     for(i = 0; i < tbChilds.length; i++) {
@@ -125,7 +124,6 @@ function aios_sidebarLayout() {
             tbChilds[i].parentNode.replaceChild(tbutton, tbChilds[i]);
         }
     }
-//}
 }
 
 
@@ -134,13 +132,13 @@ function aios_sidebarLayout() {
         => Aufruf durch aios_init()
 */
 function aios_countItems() {
-    if(!aios_WIN.document) return false;
+    if(!AiOS_HELPER.mostRecentWindow.document) return false;
 
     // Fix fuer MR Tech Local Install
     var li_count = false;
 
     if(typeof Local_Install == "object") {
-        var li_gPrefBranch = aios_gPref.getBranch("local_install.");
+        var li_gPrefBranch = AiOS_HELPER.prefService.getBranch("local_install.");
         li_count = li_gPrefBranch.getBoolPref("showManagerTotals");
         if(li_count) return false;
         else Local_Install.setWindowTitle = function(){};
@@ -149,7 +147,7 @@ function aios_countItems() {
     // bisherigen Titel feststellen
     var newTitle;
     var origTitle = "";
-    if(aios_WIN.document.getElementById("viewDownloadsSidebar")) origTitle = aios_WIN.document.getElementById("viewDownloadsSidebar").getAttribute('label');
+    if(AiOS_HELPER.mostRecentWindow.document.getElementById("viewDownloadsSidebar")) origTitle = AiOS_HELPER.mostRecentWindow.document.getElementById("viewDownloadsSidebar").getAttribute('label');
 
     if(document.getElementById("viewGroup")) {
         if(document.getElementById("viewGroup").selectedItem) {
@@ -193,7 +191,7 @@ function aios_countItems() {
     if(top.document.getElementById('sidebar-title')) top.document.getElementById('sidebar-title').setAttribute("value", newTitle);
 
     // Sidebartitel im Broadcaster speichern, damit er beim Schliessen/oeffnen der Sidebar wiederhergestellt werden kann
-    if(aios_inSidebar) aios_WIN.document.getElementById("viewDownloadsSidebar").setAttribute('sidebartitle', newTitle);
+    if(aios_inSidebar) AiOS_HELPER.mostRecentWindow.document.getElementById("viewDownloadsSidebar").setAttribute('sidebartitle', newTitle);
 
     return true;
 }
@@ -235,10 +233,10 @@ function aios_filterItems() {
 function aios_setTitle(aObj) {
     if(typeof Local_Install == "object") return false;
 
-    if(!aios_WIN.document) return false;
+    if(!AiOS_HELPER.mostRecentWindow.document) return false;
 
     var newTitle;
-    var origTitle = aios_WIN.document.getElementById("viewDownloadsSidebar").getAttribute('label');
+    var origTitle = AiOS_HELPER.mostRecentWindow.document.getElementById("viewDownloadsSidebar").getAttribute('label');
 
     var viewTitle;
 
@@ -256,7 +254,7 @@ function aios_setTitle(aObj) {
     top.document.getElementById('sidebar-title').setAttribute("value", newTitle);
 
     // Sidebartitel im Broadcaster speichern, damit er beim Schliessen/oeffnen der Sidebar wiederhergestellt werden kann
-    if(aios_inSidebar) aios_WIN.document.getElementById("viewDownloadsSidebar").setAttribute('sidebartitle', newTitle);
+    if(aios_inSidebar) AiOS_HELPER.mostRecentWindow.document.getElementById("viewDownloadsSidebar").setAttribute('sidebartitle', newTitle);
 
     return true;
 }

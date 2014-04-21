@@ -1,5 +1,5 @@
 //mod by exxile
-var target = aios_WIN;
+var target = AiOS_HELPER.mostRecentWindow;
 if(target) {
     var gPrefService = target.aiosKeyconfig.prefService;
     var gProfile = target.aiosKeyconfig.profile;

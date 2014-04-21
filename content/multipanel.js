@@ -21,7 +21,7 @@ function aios_init() {
     }, 50);
 
     // fuer CSS-Zwecke speichern
-    aios_appInfo(document.getElementById('webpanels-window'));
+    AiOS_HELPER.rememberAppInfo( document.getElementById('webpanels-window') );
 }
 
 
@@ -91,8 +91,7 @@ var panelProgressListener = {
 */
 function aios_setMultiPanel(aMode) {
     var label, panelLoc;
-    //var aios_CONTENT = aios_APPCONTENT.childNodes[0];
-    var aios_CONTENT = aios_WIN.document.getElementById('content');
+    var aios_CONTENT = AiOS_HELPER.mostRecentWindow.document.getElementById('content');
 
     // about:-Eintraege
     if(aMode.indexOf("about:") == 0 && aMode != "about:blank") {
@@ -107,8 +106,8 @@ function aios_setMultiPanel(aMode) {
         } catch(e) { }
 
         // ich bin das MultiPanel im Tab
-        if(top.toString() == "[object Window]" && aios_WIN.aiosLastSelTab) {
-            panelLoc = aios_WIN.aiosLastSelTab.document.location.href;
+        if(top.toString() == "[object Window]" && AiOS_HELPER.mostRecentWindow.aiosLastSelTab) {
+            panelLoc = AiOS_HELPER.mostRecentWindow.aiosLastSelTab.document.location.href;
         }
     }
 
@@ -176,7 +175,7 @@ function aios_setOptions() {
 function aios_setSBLabel() {
     var newLabel = "";
 
-    var mpLabel = aios_WIN.document.getElementById('viewWebPanelsSidebar').getAttribute('label');
+    var mpLabel = AiOS_HELPER.mostRecentWindow.document.getElementById('viewWebPanelsSidebar').getAttribute('label');
 
     if(webPanel && webPanel.contentDocument) {
         var loc = webPanel.contentDocument.location.href;

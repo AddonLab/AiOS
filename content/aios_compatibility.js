@@ -59,17 +59,17 @@ var AiOS_Compatibility = {};
 
             if(itemCmd.indexOf("toOpenWindowByType('Download:Manager'") >= 0) {
 
-                //newCmd = 'aios_WIN.aiosIsWindow = true; window.setTimeout(function(){ aios_WIN.aiosIsWindow=false; }, 500);' + itemCmd;
+                //newCmd = 'AiOS_HELPER.mostRecentWindow.aiosIsWindow = true; window.setTimeout(function(){ AiOS_HELPER.mostRecentWindow.aiosIsWindow=false; }, 500);' + itemCmd;
                 //mmttMenuItems[i].setAttribute('on//command', newCmd);
 
                 mmttMenuItems[i].removeAttribute('oncommand');
 
                 mmttMenuItems[i].addEventListener("command", function() {
 
-                    aios_WIN.aiosIsWindow = true;
+                    AiOS_HELPER.mostRecentWindow.aiosIsWindow = true;
 
                     window.setTimeout(function() {
-                        aios_WIN.aiosIsWindow = false;
+                        AiOS_HELPER.mostRecentWindow.aiosIsWindow = false;
                     }, 500);
 
                 });

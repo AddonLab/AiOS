@@ -18,7 +18,7 @@ function aios_modSidebarMenu() {
 
         // Icons ein- oder ausblenden
         try {
-            var enable_icons = aios_gPrefBranch.getBoolPref('menus.sidebar.icons');
+            var enable_icons = AiOS_HELPER.prefBranchAiOS.getBoolPref('menus.sidebar.icons');
             var theClass = (enable_icons) ? '' : 'aios-noIcons';
 
             if(theClass != '') aios_appendClass(item, theClass);
@@ -60,7 +60,7 @@ function aios_modSidebarMenu() {
         if(command && commandParent) {
 
             try {
-                var enable_deac = aios_gPrefBranch.getBoolPref('menus.sidebar.entrydeac');
+                var enable_deac = AiOS_HELPER.prefBranchAiOS.getBoolPref('menus.sidebar.entrydeac');
 
                 if(actSidebar && command.indexOf(actSidebar) != -1 && enable_deac) item.setAttribute('disabled', true);
                 else item.setAttribute('disabled', false);
@@ -88,8 +88,8 @@ function aios_modSidebarMenu() {
 
     // Eintraege/Icons ein- oder ausblenden
     try {
-        var enable_showhide = aios_gPrefBranch.getBoolPref('menus.sidebar.showhide');
-        var enable_entries = aios_gPrefBranch.getBoolPref('menus.sidebar.entries');
+        var enable_showhide = AiOS_HELPER.prefBranchAiOS.getBoolPref('menus.sidebar.showhide');
+        var enable_entries = AiOS_HELPER.prefBranchAiOS.getBoolPref('menus.sidebar.entries');
 
         var returnVals = aios_showHideEntries(entries, 'menus.sidebar.', 'aios-sidebar-mitem-');
 
@@ -130,8 +130,8 @@ function aios_showHideEntries(entries, prefPre_tmp, IDPre) {
     var returnVals = new Array();
 
     try {
-        var enable_entries = aios_gPrefBranch.getBoolPref(prefPre + "entries");
-        var enable_icons = aios_gPrefBranch.getBoolPref(prefPre + "icons");
+        var enable_entries = AiOS_HELPER.prefBranchAiOS.getBoolPref(prefPre + "entries");
+        var enable_icons = AiOS_HELPER.prefBranchAiOS.getBoolPref(prefPre + "icons");
 
         var theClass = (enable_icons) ? '' : 'aios-noIcons';
 
@@ -140,7 +140,7 @@ function aios_showHideEntries(entries, prefPre_tmp, IDPre) {
             for(var j = 0; j < entries[i].length; j++) {
                 var pref = false;
                 // Pref fuer jeden Eintrag einlesen
-                if(enable_entries) pref = aios_gPrefBranch.getBoolPref(prefPre + entries[i][j]);
+                if(enable_entries) pref = AiOS_HELPER.prefBranchAiOS.getBoolPref(prefPre + entries[i][j]);
 
                 // Eintraege ein- oder ausblenden
                 var theID = IDPre + entries[i][j];
@@ -186,8 +186,8 @@ function aios_showHideEntries(entries, prefPre_tmp, IDPre) {
 var aiosNewTab, aiosSidebarTitle;
 function aios_panelTab(event) {
     try {
-        var ptReverse = aios_gPrefBranch.getBoolPref("paneltab.reverse");
-        var enable_rightclick = aios_gPrefBranch.getBoolPref("rightclick");
+        var ptReverse = AiOS_HELPER.prefBranchAiOS.getBoolPref("paneltab.reverse");
+        var enable_rightclick = AiOS_HELPER.prefBranchAiOS.getBoolPref("rightclick");
     }
     catch(e) { }
 
@@ -274,7 +274,7 @@ function aios_panelTab(event) {
         // Bookmark-Manager statt Panel?
         if(sidebarHref == "chrome://browser/content/bookmarks/bookmarksPanel.xul") {
             try {
-                var enable_bmm = aios_gPrefBranch.getBoolPref("paneltab.bm");
+                var enable_bmm = AiOS_HELPER.prefBranchAiOS.getBoolPref("paneltab.bm");
             }
             catch(e) { }
             newSrc = (enable_bmm) ? "chrome://browser/content/places/places.xul" : sidebarHref;
@@ -300,9 +300,9 @@ function aios_panelTab(event) {
         else {
             // wird zur Abfrage in addons/downlaods_....xul und downloads.js benoetigt
             // sonst wuerden extra geoeffnete Fenster (Downloads, Add-ons) sofort wieder geschlossen
-            aios_WIN.aiosIsWindow = true;
+            AiOS_HELPER.mostRecentWindow.aiosIsWindow = true;
             window.setTimeout(function() {
-                aios_WIN.aiosIsWindow = false;
+                AiOS_HELPER.mostRecentWindow.aiosIsWindow = false;
             }, 500);
 
             var winID = "aiosPanelTabWindow_" + top.document.getElementById('sidebar-box').getAttribute('sidebarcommand');
@@ -324,7 +324,7 @@ function aios_isSidebar(aHref) {
     // => richtigen Sidebar-Toggle-Befehl anwenden
     //var isSidebar = null;
     var theSidebar = null;
-    var allSidebars = aios_WIN.document.getElementsByAttribute('group', 'sidebar');
+    var allSidebars = AiOS_HELPER.mostRecentWindow.document.getElementsByAttribute('group', 'sidebar');
 
     for(var i = 0; i < allSidebars.length; i++) {
 
@@ -351,7 +351,7 @@ function aios_isSidebar(aHref) {
 */
 function aios_contextEvent(event, which) {
     try {
-        var enable_rightclick = aios_gPrefBranch.getBoolPref("rightclick");
+        var enable_rightclick = AiOS_HELPER.prefBranchAiOS.getBoolPref("rightclick");
     }
     catch(e) { }
 
@@ -392,9 +392,9 @@ function aios_contextEvent(event, which) {
 
         case "window":      // wird zur Abfrage in addons/downloads_....xul und downloads.js benoetigt
             // sonst wuerden extra geoeffnete Fenster (Downloads, Add-ons) sofort wieder geschlossen
-            aios_WIN.aiosIsWindow = true;
+            AiOS_HELPER.mostRecentWindow.aiosIsWindow = true;
             window.setTimeout(function() {
-                aios_WIN.aiosIsWindow = false;
+                AiOS_HELPER.mostRecentWindow.aiosIsWindow = false;
             }, 500);
 
             var winID = "aiosContextEventWindow_" + cmdObj.getAttribute('aios_sbCmd');
@@ -452,8 +452,8 @@ function aios_setTargets() {
     var prefInfotip = false;
     var ptReverse = false;
     try {
-        prefInfotip = aios_gPrefBranch.getBoolPref("infotips");
-        ptReverse = aios_gPrefBranch.getBoolPref("paneltab.reverse");
+        prefInfotip = AiOS_HELPER.prefBranchAiOS.getBoolPref("infotips");
+        ptReverse = AiOS_HELPER.prefBranchAiOS.getBoolPref("paneltab.reverse");
 
         if(prefInfotip) {
             if(elem_switch) elem_switch.removeAttribute('tooltiptext');
@@ -477,10 +477,10 @@ function aios_setTargets() {
         // in Sidebar oeffnen?
         var prefSidebar;
         try {
-            if(obj != "ad") prefSidebar = aios_gPrefBranch.getBoolPref(obj + ".sidebar");
-            else prefSidebar = aios_gPrefBranch.getBoolPref("em.sidebar");
+            if(obj != "ad") prefSidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref(obj + ".sidebar");
+            else prefSidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref("em.sidebar");
 
-            var enable_rightclick = aios_gPrefBranch.getBoolPref("rightclick");
+            var enable_rightclick = AiOS_HELPER.prefBranchAiOS.getBoolPref("rightclick");
         }
         catch(e) { }
 
@@ -568,7 +568,7 @@ function aios_setTargets() {
 
 
     // Oeffnen des Download-Fensters verhindern, wenn die Sidebar genutzt werden soll
-    if(aios_gPrefBranch.getBoolPref('dm.sidebar')) aios_gPref.setBoolPref("browser.download.manager.showWhenStarting", false);
+    if(AiOS_HELPER.prefBranchAiOS.getBoolPref('dm.sidebar')) AiOS_HELPER.prefService.setBoolPref("browser.download.manager.showWhenStarting", false);
 
 
     // Download-Observer hinzufuegen, falls Downloads in der Sidebar geoeffnet werden sollen
@@ -602,23 +602,23 @@ function aios_setTargets() {
 var aios_DownloadObserver = {
     observe: function (aSubject, aTopic, aState) {
 
-        var autoOpen = aios_gPrefBranch.getBoolPref('dm.autoopen');
-        var autoClose = aios_gPrefBranch.getBoolPref('dm.autoclose');
+        var autoOpen = AiOS_HELPER.prefBranchAiOS.getBoolPref('dm.autoopen');
+        var autoClose = AiOS_HELPER.prefBranchAiOS.getBoolPref('dm.autoclose');
         var mainWindow = window.QueryInterface(Components.interfaces.nsIInterfaceRequestor).getInterface(Components.interfaces.nsIWebNavigation).QueryInterface(Components.interfaces.nsIDocShellTreeItem).rootTreeItem.QueryInterface(Components.interfaces.nsIInterfaceRequestor).getInterface(Components.interfaces.nsIDOMWindow);
 
         switch (aTopic) {
             case "dl-start":
                 var comElem = document.getElementById('Tools:Downloads');
                 if(autoOpen && comElem.getAttribute('oncommand').indexOf('viewDownloadsSidebar') >= 0) {
-                    // aios_WW.activeWindow verhindert, dass die Sidebar in jedem Fenster geoeffnet wird
-                    if(typeof aios_WW.activeWindow.toggleSidebar == "function") aios_WW.activeWindow.toggleSidebar("viewDownloadsSidebar", true);
+                    // AiOS_HELPER.windowWatcher.activeWindow verhindert, dass die Sidebar in jedem Fenster geoeffnet wird
+                    if(typeof AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar == "function") AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar("viewDownloadsSidebar", true);
                 }
                 break;
 
             case "dl-done":
                 var sideSrc = document.getElementById('sidebar').getAttribute('src');
                 if(autoOpen && autoClose && sideSrc.indexOf('downloads.xul') >= 0) {
-                    if(typeof aios_WW.activeWindow.toggleSidebar == "function") aios_WW.activeWindow.toggleSidebar();
+                    if(typeof AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar == "function") AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar();
                 }
                 break;
         }
@@ -661,7 +661,7 @@ function aios_isSidebarHidden() {
     aios_getObjects();
 
     try {
-        var aios_collapseSidebar = aios_gPrefBranch.getBoolPref('collapse');
+        var aios_collapseSidebar = AiOS_HELPER.prefBranchAiOS.getBoolPref('collapse');
     }
     catch(e) { }
 
@@ -678,7 +678,7 @@ function aios_isSidebarHidden() {
 var aiosFocus = true;
 function aios_initAutohide() {
     // Zustand des Autohide-Buttons einstellen
-    document.getElementById('aios-enableAutohide').setAttribute('checked', aios_gPrefBranch.getBoolPref("gen.switch.autoshow"));
+    document.getElementById('aios-enableAutohide').setAttribute('checked', AiOS_HELPER.prefBranchAiOS.getBoolPref("gen.switch.autoshow"));
 
     // Autohide-Feature-Funktion hinzufuegen
     fx_sidebarBox.addEventListener("mouseover", function() {
@@ -701,7 +701,7 @@ function aios_initAutohide() {
 */
 function aios_toggleAutohide(which) {
     try {
-        aios_gPrefBranch.setBoolPref("gen.switch.autoshow", aios_getBoolean(which, 'checked'));
+        AiOS_HELPER.prefBranchAiOS.setBoolPref("gen.switch.autoshow", aios_getBoolean(which, 'checked'));
     }
     catch(e) { }
 }
