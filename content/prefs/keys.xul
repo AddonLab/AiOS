@@ -9,7 +9,7 @@
 
     <prefpane id="aiosKeys" onpaneload="aios_initKeys();">
 
-        <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
+        <script type="application/x-javascript" src="chrome://aios/content/_helper.js" />
         <script type="application/x-javascript" src="chrome://aios/content/prefs/_keyconfig.js"/>
 
         <script>

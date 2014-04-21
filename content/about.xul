@@ -19,7 +19,7 @@
     ondialogextra1 = "window.close();"
     ondialogextra2 = "aios_openDialog('prefs');" >
 
-    <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
+    <script type="application/x-javascript" src="chrome://aios/content/_helper.js" />
 
     <prefpane id="aiosAbout" src="chrome://aios/content/about_content.xul" />
 

@@ -9,7 +9,7 @@
 
 <overlay id="bmHiOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-    <script type="application/x-javascript" src="chrome://aios/content/_common.js" />
+    <script type="application/x-javascript" src="chrome://aios/content/_helper.js" />
     <script type="application/x-javascript" src="chrome://aios/content/places.js" />
 
     <page id="bookmarksPanel" persist="width height screenX screenY" title="&bookmarksButton.label;" windowtype="aiosGlobal:Bookmarks" />
