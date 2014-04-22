@@ -178,6 +178,9 @@ if(aios_collapseSidebar) BrowserStartup = function() {
 */
 
 
+/*
+  from chrome://browser/content/browser.js
+*/
 
 /**
  * Opens or closes the sidebar identified by commandID.

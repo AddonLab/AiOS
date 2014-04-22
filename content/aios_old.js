@@ -495,10 +495,10 @@ function aios_getSidebarMenu(aPopup) {
 
 /*
     schliesst die Sidebar, wenn die Maus den Content-Bereich ueberfaehrt
-        => Aufruf durch mouseover des 'appcontent' und des Sidebar-Switches (mit Uebergabe von mode)
+        => Aufruf durch mouse-over des 'appcontent' und des Sidebar-Switches (mit Uebergabe von mode)
 
-        => aios_initSidebar() fuegt dem Object "sidebar-box" einen mouseover-Event hinzu,...
-        => dieser mouseover-Event fuegt dem "appcontent" einen mouseover-Event hinzu,...
+        => aios_initSidebar() fuegt dem Object "sidebar-box" einen mouse-over-Event hinzu,...
+        => dieser mouse-over-Event fuegt dem "appcontent" einen mouse-over-Event hinzu,...
         => der diese Funktion aufruft
 */
 var aios_autoTimeout;
@@ -551,7 +551,7 @@ function aios_autoShowHide(mode) {
         if(!aios_isSidebarHidden() && hidemethod == 1) {
 
             // Event auf "appcontent" wieder loeschen, weil sonst die Sidebar wieder eingeblendet wuerde
-            // => mouseover der Sidebar (in aios_initSidebar()) fuegt dem "appcontent" dieses Feature wieder hinzu
+            // => mouse-over der Sidebar (in aios_initSidebar()) fuegt dem "appcontent" dieses Feature wieder hinzu
             document.getElementById('appcontent').removeEventListener("mouseover", aios_autoShowHide, true);
 
             // nach bestimmter Zeit ausblenden
