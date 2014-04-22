@@ -285,6 +285,10 @@ sidebarheader {
     padding-bottom: 2px;
     padding-right: 10px;
     background: url(../img/arrow.gif) no-repeat right 8px;
+
+    &:-moz-lwtheme {
+        color: highlighttext;
+    }
 }
 
 sidebarheader > .tabs-closebutton {
