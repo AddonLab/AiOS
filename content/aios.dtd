@@ -7,9 +7,9 @@
 <!ENTITY about6.link            "http://firefox.exxile.net/aios/changelog.php">
 <!ENTITY about7.link            "http://firefox.exxile.net/aios/todo.php">
 
-<!ENTITY contrib1.name          "alta88">
-<!ENTITY contrib1.ext           "TotalToolbar">
-<!ENTITY contrib1.link          "http://totaltoolbar.mozdev.org/">
+<!ENTITY contrib1.name          "Gomita">
+<!ENTITY contrib1.ext           "Vertical Toolbar">
+<!ENTITY contrib1.link          "http://www.xuldev.org/verticaltoolbar/‎">
 
 <!ENTITY contrib2.name          "CPU">
 <!ENTITY contrib2.ext           "Tab Mix Plus">

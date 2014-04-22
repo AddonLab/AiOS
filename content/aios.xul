@@ -19,6 +19,8 @@
     <script type="application/x-javascript" src="chrome://aios/content/_helper.js" />
     <script type="application/x-javascript" src="chrome://aios/content/_lib.js" />
     <script type="application/x-javascript" src="chrome://aios/content/multipanel.js" />
+
+    <script type="application/x-javascript" src="chrome://aios/content/aios.js" />
     <script type="application/x-javascript" src="chrome://aios/content/aios_old.js" />
     <script type="application/x-javascript" src="chrome://aios/content/aios_fx.js" />
     <script type="application/x-javascript" src="chrome://aios/content/aios_tbx.js" />
@@ -83,11 +85,11 @@
             oncommand="aios_toggleElement(this); event.stopPropagation();"
             label="&menu.togglebar.label;" />
 
-        <broadcaster id="aios-viewGrippy" type="checkbox" checked="false" persist="checked" aiosChilds="aios-sidebarGrippy"
+        <broadcaster id="aios-viewGrippy" type="checkbox" persist="checked" aiosChilds="aios-sidebarGrippy"
             oncommand="aios_toggleElement(this); document.getElementById('sidebar-splitter').setAttribute('grippy', this.getAttribute('checked')); event.stopPropagation();"
             label="&menu.grippy.label;" />
 
-        <broadcaster id="aios-enableAutohide" type="checkbox" checked="false" persist="checked"
+        <broadcaster id="aios-enableAutohide" type="checkbox" persist="checked"
             oncommand="aios_toggleElement(this); aios_toggleAutohide(this); event.stopPropagation();" />
 
     </broadcasterset>
@@ -151,23 +153,26 @@
 
     <!-- AIOS-Toolbar-Buttons -->
     <toolbarpalette id="BrowserToolbarPalette">
-        <toolbarbutton id="sidebarclose-button" class="tabs-closebutton"
+        <toolbarbutton id="sidebarclose-button" class="tabs-closebutton close-icon"
             oncommand="aios_toggleSidebar(this);" ondblclick="event.stopPropagation();"
             tooltiptext="&sidebarCloseButton.tooltip;" label="&sidebarCloseButton.tooltip;" />
 
-        <toolbarbutton id="bookmarks-button" tooltip="bookmarks-tooltip" tooltiptext="&bookmarksButton.tooltip;"
+        <toolbarbutton id="bookmarks-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
+            label="&bookmarksButton.label;" tooltip="bookmarks-tooltip" tooltiptext="&bookmarksButton.tooltip;"
             command="View:Bookmarks">
             <observes element="viewBookmarksSidebar" attribute="checked" />
             <observes element="viewBookmarksSidebar" attribute="onclick" />
         </toolbarbutton>
 
-        <toolbarbutton id="history-button" tooltip="history-tooltip" tooltiptext="&historyButton.tooltip;"
+        <toolbarbutton id="history-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
+            label="&historyButton.label;" tooltip="history-tooltip" tooltiptext="&historyButton.tooltip;"
             command="View:History">
             <observes element="viewHistorySidebar" attribute="checked" />
             <observes element="viewHistorySidebar" attribute="onclick" />
         </toolbarbutton>
 
-        <toolbarbutton id="downloads-button" tooltip="downloads-tooltip" tooltiptext="&downloads.tooltip;"
+        <toolbarbutton id="downloads-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
+            label="&downloads.label;" tooltip="downloads-tooltip" tooltiptext="&downloads.tooltip;"
             command="Tools:Downloads">
             <observes element="viewDownloadsSidebar" attribute="checked" />
             <observes element="viewDownloadsSidebar" attribute="onclick" />
@@ -466,7 +471,10 @@
 
 
     <!-- TOOLBOX LINKS NEBEN DER SIDEBAR -->
-        <toolbox id="aios-toolbox-left" insertbefore="sidebar-box" defaultmode="icons" class="chromeclass-toolbar" vertical="true" palette="BrowserToolbarPalette">
+        <toolbox id="aios-toolbox-left" class="chromeclass-toolbar"
+            insertbefore="sidebar-box"
+            defaultmode="icons"
+            vertical="true">
 
         <!-- mode und iconsize noetig, um Optionen im Konfigrationsdialog syncron zu halten  -->
             <observes element="aios-toolbar" attribute="mode" />
@@ -478,10 +486,22 @@
                 => die Toolbox darf nicht 'collapsed' sein, weil sonst die Sidebar nicht skalierbar ist
             -->
 
-            <toolbar id="aios-toolbar" toolbarname="&toolbar.name;" context="aios-toolbar-contextmenu" customizable="true" class="chromeclass-toolbar"
-                posMode="1" mode="icons" iconsize="large" flexbuttons="false" persist="posMode mode iconsize flexbuttons hidden"
+            <toolbar id="aios-toolbar" class="chromeclass-toolbar"
+                toolbarname="&toolbar.name;"
+                context="aios-toolbar-contextmenu"
+                fullscreentoolbar="true"
+                toolboxid="navigator-toolbox"
+                customizable="true"
+                mode="icons"
+                iconsize="large"
+                persist="posMode mode iconsize flexbuttons hidden"
                 defaultset="bookmarks-button,history-button,separator,downloads-button,addons-button,separator,multipanel-button,pageinfo-button"
-                toolboxid="navigator-toolbox" fullscreentoolbar="true" >
+                orient="vertical"
+                flex="1"
+
+                toolbarlabel="&toolbar.label;:"
+                posMode="1"
+                flexbuttons="false">
             </toolbar>
 
             <toolbarset />
@@ -536,9 +556,18 @@
                     <observes element="aios-sbhtoolbar" attribute="defaultmode" />
                     <observes element="aios-sbhtoolbar" attribute="iconsize" />
 
-                    <toolbar id="aios-sbhtoolbar" toolbarname="&sbhtoolbar.name;" context="aios-sbhtoolbar-contextmenu" customizable="true" class="chromeclass-toolbar"
-                        mode="icons" iconsize="small" flexbuttons="false" persist="mode iconsize"
-                        defaultset="autohide-button,paneltab-button,sidebarclose-button" toolboxid="navigator-toolbox" >
+                    <toolbar id="aios-sbhtoolbar" class="chromeclass-toolbar"
+                        toolbarname="&sbhtoolbar.name;"
+                        context="aios-sbhtoolbar-contextmenu"
+                        toolboxid="navigator-toolbox"
+                        customizable="true"
+                        mode="icons"
+                        iconsize="small"
+                        persist="mode iconsize"
+                        defaultset="autohide-button,paneltab-button,sidebarclose-button"
+
+                        toolbarlabel="&sbhtoolbar.label;:"
+                        flexbuttons="false" >
 
                         <!-- verhindert, dass die Toolbar in einen anderen Modus ausser Icons versetzt wird -->
                         <observes element="aios-sbhtoolbar" attribute="mode" onbroadcast="document.getElementById('aios-sbhtoolbar').setAttribute('mode', 'icons');" />
@@ -572,8 +601,5 @@
         </vbox>
 
     </hbox>
-
-
-    <toolbox id="navigator-toolbox" palette="BrowserToolbarPalette" />
 
 </overlay>

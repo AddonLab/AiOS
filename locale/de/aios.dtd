@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sidebar-Umschalter">
 <!ENTITY menu.grippy.label "Sidebar-Griff">
 <!ENTITY toolbar.name "All-in-One-Sidebar-Symbolleiste">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebartitel-Symbolleiste">
+<!ENTITY sbhtoolbar.label "Sidebartitel">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Elemente der All-in-One Sidebar anzeigen/verbergen">
 <!ENTITY button.switch.tooltip1 "Sidebar und Symbolleiste öffnen/schließen">

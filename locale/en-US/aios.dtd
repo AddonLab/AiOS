@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sidebar Switch">
 <!ENTITY menu.grippy.label "Sidebar Grippy">
 <!ENTITY toolbar.name "All-in-One Sidebar Toolbar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Toggle elements controlled by All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Toggle Sidebar and Toolbar">

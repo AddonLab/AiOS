@@ -1,123 +1,265 @@
-
 window:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
 
-    #aios-toolbar[orient="vertical"] toolbarseparator {
-        -moz-appearance: none !important;
-        margin: 3px 6px 2px 6px;
-        border-bottom: 1px solid -moz-ButtonHoverFace;
+    /*
+        button icons
+    */
+    toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button) {
+        list-style-image: url(../icons/toolbar_darwin.png);
+
+        // &[checked="true"] {
+        //     #aios-toolbar & {
+        //         list-style-image: url(../icons/toolbar_darwin_inverted.png);
+        //     }
+        // }
+        &:-moz-lwtheme-brighttext {
+            list-style-image: url(../icons/toolbar_darwin_inverted.png);
+        }
     }
 
-    #aios-toolbar[orient="vertical"][iconsize="small"] toolbarseparator {
-        margin-left: 5px;
-        margin-right: 5px;
+    #bookmarks-button {
+        -moz-image-region: rect(0, 16px, 16px, 0);
     }
 
-
-    /* @group Button-Icons */
-    toolbarbutton.toolbarbutton-1.aios-tbutton,
-    toolbarbutton.toolbarbutton-1.aios-tbutton:hover,
-    toolbar[iconsize="small"] toolbarbutton.toolbarbutton-1.aios-tbutton,
-    toolbar[iconsize="small"] toolbarbutton.toolbarbutton-1.aios-tbutton:hover {
-        list-style-image: url(../icons/toolbar_generic.png);
+    #history-button {
+        -moz-image-region: rect(0, 32px, 16px, 16px);
     }
+
+    // #downloads-button[cui-areatype="toolbar"],
+    // #downloads-button[cui-areatype="toolbar"]:hover:active:not([disabled="true"]) {
+    //     -moz-image-region: rect(0, 48px, 16px, 32px);
+    // }
 
     #addons-button {
-        -moz-image-region: rect(0, 24px, 24px, 0);
-    }
-    toolbar[iconsize="small"] #addons-button {
-        -moz-image-region: rect(24px, 16px, 40px, 0);
+        -moz-image-region: rect(0, 64px, 16px, 48px);
     }
 
     #multipanel-button {
-        -moz-image-region: rect(0, 48px, 24px, 24px);
-    }
-    toolbar[iconsize="small"] #multipanel-button {
-        -moz-image-region: rect(24px, 32px, 40px, 16px);
+        -moz-image-region: rect(0, 80px, 16px, 64px);
     }
 
     #pageinfo-button {
-        -moz-image-region: rect(0, 72px, 24px, 48px);
-    }
-    toolbar[iconsize="small"] #pageinfo-button {
-        -moz-image-region: rect(24px, 48px, 40px, 32px);
+        -moz-image-region: rect(0, 96px, 16px, 80px);
     }
 
     #console-button {
-        -moz-image-region: rect(0, 120px, 24px, 96px);
-    }
-    toolbar[iconsize="small"] #console-button {
-        -moz-image-region: rect(24px, 80px, 40px, 64px);
+        -moz-image-region: rect(0, 112px, 16px, 96px);
     }
 
     #paneltab-button {
-        -moz-image-region: rect(0, 144px, 24px, 120px);
-    }
-    toolbar[iconsize="small"] #paneltab-button {
-        -moz-image-region: rect(24px, 96px, 40px, 80px);
+        -moz-image-region: rect(0, 128px, 16px, 112px);
     }
 
     #sidebars-button {
-        -moz-image-region: rect(0, 168px, 24px, 144px);
+        -moz-image-region: rect(0, 144px, 16px, 128px);
+
+        dropmarker {
+            display: none;
+        }
     }
-    toolbar[iconsize="small"] #sidebars-button {
-        -moz-image-region: rect(24px, 112px, 40px, 96px);
-    }
-    /*toolbar:not([mode="text"]) #sidebars-button dropmarker {
-        display: none;
-    }*/
 
     #sidebars-togglebutton {
-        padding: 0 !important;
-        -moz-image-region: rect(0, 192px, 24px, 168px);
-    }
-    toolbar[iconsize="small"] #sidebars-togglebutton {
-        -moz-image-region: rect(24px, 128px, 40px, 112px);
+        -moz-image-region: rect(0, 160px, 16px, 144px);
     }
 
     #autohide-button {
-        -moz-image-region: rect(0, 216px, 24px, 192px);
-    }
-    toolbar[iconsize="small"] #autohide-button {
-        -moz-image-region: rect(24px, 144px, 40px, 128px);
+        -moz-image-region: rect(0, 176px, 16px, 160px);
     }
 
     #toolbar-button {
-        -moz-image-region: rect(0, 240px, 24px, 216px);
+        -moz-image-region: rect(0, 192px, 16px, 176px);
     }
-    toolbar[iconsize="small"] #toolbar-button {
-        -moz-image-region: rect(24px, 160px, 40px, 144px);
-    }
-    /* @end */
 
 
-    /* @group Menue-Icons */
+    /*
+        menu icons
+    */
     menuitem[key="aiosKey_panelTab1"],
     menuitem[key="aiosKey_panelTab2"],
     menuitem#aios-sidebar-mitem-show,
     menuitem#aios-sidebar-mitem-hide,
     menuitem[key="aiosKey_prefs"] {
-        list-style-image: url(../icons/panels_menus.png) !important;
+        list-style-image: url(../icons/panels_menus.png);
     }
 
     menuitem[key="aiosKey_panelTab1"] {
-        -moz-image-region: rect(80px, 16px, 96px, 0) !important;
+        -moz-image-region: rect(48px, 16px, 64px, 0);
     }
 
     menuitem[key="aiosKey_panelTab2"] {
-        -moz-image-region: rect(80px, 32px, 96px, 16px) !important;
+        -moz-image-region: rect(48px, 32px, 64px, 16px);
     }
 
     menuitem#aios-sidebar-mitem-hide {
-        -moz-image-region: rect(80px, 48px, 96px, 32px) !important;
+        -moz-image-region: rect(48px, 48px, 64px, 32px);
     }
 
     menuitem#aios-sidebar-mitem-show {
-        -moz-image-region: rect(80px, 64px, 96px, 48px) !important;
+        -moz-image-region: rect(48px, 64px, 64px, 48px);
     }
 
     menuitem[key="aiosKey_prefs"] {
-        -moz-image-region: rect(64px, 16px, 80px, 0) !important;
+        -moz-image-region: rect(32px, 16px, 48px, 0);
     }
-    /* @end */
 
+
+    /*
+        button margins on vertical toolbar
+    */
+    #aios-toolbar[orient="vertical"] toolbarbutton {
+        margin: 2px 1px;
+    }
+
+
+    /*
+        default theme on linux
+    */
+    &[aios-appDefTheme="true"] {
+
+        /*
+            icon opacity
+        */
+        toolbarbutton.toolbarbutton-1.aios-tbutton:not(#bookmarks-button):not(#history-button):not(#downloads-button):not(:-moz-lwtheme-brighttext) {
+            image.toolbarbutton-icon {
+                opacity: 0.8;
+            }
+        }
+
+
+        /*
+            type=checkbox buttons with no border, background and background-image if they are not checked
+        */
+        toolbarbutton[type="checkbox"]:not([checked="true"]):not(:hover) {
+            .toolbarbutton-icon,
+            .dropmarker-icon {
+                background-image: none !important;
+                background-color: transparent !important;
+                box-shadow: none !important;
+                border-color: transparent !important;
+            }
+        }
+
+        #aios-toolbar[orient="vertical"] toolbarseparator {
+            -moz-appearance: none !important;
+            margin: 3px 6px 2px 6px;
+            border-bottom: 1px solid -moz-ButtonHoverFace;
+        }
+
+        #aios-toolbar[orient="vertical"][iconsize="small"] toolbarseparator {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+
+
+//     /*
+//         button icons
+//     */
+//     toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button) {
+//         list-style-image: url(../icons/toolbar_generic.png);
+
+//         // &:-moz-lwtheme-brighttext {
+//         //     list-style-image: url(../icons/toolbar_windows_inverted.png);
+//         // }
+//     }
+
+//     #addons-button {
+//         -moz-image-region: rect(0, 24px, 24px, 0);
+//     }
+//     toolbar[iconsize="small"] #addons-button {
+//         -moz-image-region: rect(24px, 16px, 40px, 0);
+//     }
+
+//     #multipanel-button {
+//         -moz-image-region: rect(0, 48px, 24px, 24px);
+//     }
+//     toolbar[iconsize="small"] #multipanel-button {
+//         -moz-image-region: rect(24px, 32px, 40px, 16px);
+//     }
+
+//     #pageinfo-button {
+//         -moz-image-region: rect(0, 72px, 24px, 48px);
+//     }
+//     toolbar[iconsize="small"] #pageinfo-button {
+//         -moz-image-region: rect(24px, 48px, 40px, 32px);
+//     }
+
+//     #console-button {
+//         -moz-image-region: rect(0, 120px, 24px, 96px);
+//     }
+//     toolbar[iconsize="small"] #console-button {
+//         -moz-image-region: rect(24px, 80px, 40px, 64px);
+//     }
+
+//     #paneltab-button {
+//         -moz-image-region: rect(0, 144px, 24px, 120px);
+//     }
+//     toolbar[iconsize="small"] #paneltab-button {
+//         -moz-image-region: rect(24px, 96px, 40px, 80px);
+//     }
+
+//     #sidebars-button {
+//         -moz-image-region: rect(0, 168px, 24px, 144px);
+
+//         // dropmarker {
+//         //     display: none;
+//         // }
+//     }
+//     toolbar[iconsize="small"] #sidebars-button {
+//         -moz-image-region: rect(24px, 112px, 40px, 96px);
+//     }
+
+//     #sidebars-togglebutton {
+//         padding: 0 !important;
+//         -moz-image-region: rect(0, 192px, 24px, 168px);
+//     }
+//     toolbar[iconsize="small"] #sidebars-togglebutton {
+//         -moz-image-region: rect(24px, 128px, 40px, 112px);
+//     }
+
+//     #autohide-button {
+//         -moz-image-region: rect(0, 216px, 24px, 192px);
+//     }
+//     toolbar[iconsize="small"] #autohide-button {
+//         -moz-image-region: rect(24px, 144px, 40px, 128px);
+//     }
+
+//     #toolbar-button {
+//         -moz-image-region: rect(0, 240px, 24px, 216px);
+//     }
+//     toolbar[iconsize="small"] #toolbar-button {
+//         -moz-image-region: rect(24px, 160px, 40px, 144px);
+//     }
+
+
+//     /*
+//         menu icons
+//     */
+//     menuitem[key="aiosKey_panelTab1"],
+//     menuitem[key="aiosKey_panelTab2"],
+//     menuitem#aios-sidebar-mitem-show,
+//     menuitem#aios-sidebar-mitem-hide,
+//     menuitem[key="aiosKey_prefs"] {
+//         list-style-image: url(../icons/panels_menus.png) !important;
+//     }
+
+//     menuitem[key="aiosKey_panelTab1"] {
+//         -moz-image-region: rect(80px, 16px, 96px, 0) !important;
+//     }
+
+//     menuitem[key="aiosKey_panelTab2"] {
+//         -moz-image-region: rect(80px, 32px, 96px, 16px) !important;
+//     }
+
+//     menuitem#aios-sidebar-mitem-hide {
+//         -moz-image-region: rect(80px, 48px, 96px, 32px) !important;
+//     }
+
+//     menuitem#aios-sidebar-mitem-show {
+//         -moz-image-region: rect(80px, 64px, 96px, 48px) !important;
+//     }
+
+//     menuitem[key="aiosKey_prefs"] {
+//         -moz-image-region: rect(64px, 16px, 80px, 0) !important;
+//     }
 }

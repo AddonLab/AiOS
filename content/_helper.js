@@ -18,6 +18,13 @@ var AiOS_HELPER = {
 
     },
 
+    initOnDOMLoaded: function() {
+
+        AiOS_HELPER.aiosToolbar = document.getElementById('aios-toolbar');
+        AiOS_HELPER.sbhToolbar = document.getElementById('aios-sbhtoolbar');
+
+    },
+
     rememberAppInfo: function(aObj) {
 
         aObj.setAttribute('aios-appVendor', this.appInfo.vendor);
@@ -26,11 +33,21 @@ var AiOS_HELPER = {
         aObj.setAttribute('aios-appOSVersion', this.osVersion);
         aObj.setAttribute('aios-appDefTheme', this.defTheme);
 
+    },
+
+    unload: function() {
+        window.removeEventListener("DOMContentLoaded", AiOS_HELPER.initOnDOMLoaded);
+        //window.removeEventListener("load", AiOS_HELPER.initOnLoad);
+        window.removeEventListener("unload", AiOS_HELPER.unload);
     }
 
 };
 
 AiOS_HELPER.init();
+
+window.addEventListener("DOMContentLoaded", AiOS_HELPER.initOnDOMLoaded, false);
+//window.addEventListener("load", AiOS_HELPER.initOnLoad, false);
+window.addEventListener("unload", AiOS_HELPER.unload, false);
 
 
 
