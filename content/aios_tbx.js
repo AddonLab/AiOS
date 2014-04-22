@@ -1,38 +1,3 @@
-
-/* Clean up options from root doc for removed or empty toolbars */
-/* Original: handleOptions() => taken from TotalToolbar 1.8 by alta88 */
-function handleOptions(aType, toolbar, aNavToolbox) {
-    if (toolbar.localName != "toolbar")
-        return;
-    let attr = "_toolbar." + toolbar.id + ".";
-    let toolbarOptions = ["mode",
-        "iconsize",
-        "fullscreentoolbar",
-        "flexbuttons",
-        "collapsed"];
-
-    var docElt = aNavToolbox.ownerDocument.documentElement;
-
-    toolbarOptions.forEach(function(option) {
-        if (docElt.hasAttribute(attr + option)) {
-            if (aType == "remove") {
-                if (toolbar.hasAttribute(option)) {
-                    // Remove global iconsize/mode options.
-                    toolbar.removeAttribute(option);
-                }
-                // Remove customtoolbar options.
-                docElt.removeAttribute(attr + option);
-                aNavToolbox.ownerDocument.persist(docElt.id, attr + option);
-            }
-            if (aType == "copy") {
-                let val = docElt.getAttribute(attr + option);
-                toolbar.setAttribute(option, val);
-            }
-        }
-    });
-}
-
-
 /*
     Breite der vertikalen Toolboxen freigeben bzw. festsetzen
         => Aufruf durch aios_toggleToolbar(), aios_setToolbarView(), aios_setToolbarPos(), aios_customizeToolbar() und aios_BrowserFullScreen()
