@@ -2,12 +2,10 @@
 <!ENTITY settings "Thiết lập…">
 <!ENTITY close "Đóng">
 <!ENTITY tab.about "Giới thiệu">
-<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Những người đóng góp">
 <!ENTITY tab.trans "Người dịch">
 <!ENTITY about.desc "AiOS cho phép bạn mở nhiều cửa sổ dưới dạng thanh lề, và nhanh chóng chuyển đổi qua lại. Nó đã đặt dấu chấm hết cho thời kì cửa sổ lộn xộn! Ngoài đánh dấu và lược sử, nó còn mở các hộp thoại tải xuống, tiện ích và nhiều thứ khác trong thanh lề.">
 <!ENTITY create.desc "tạo bởi Ingo Wennemaring, Hamburg [Đức]">
-<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Trang chủ - nhiều thông tin được liệt kê ở một nơi">
 <!ENTITY about2.name "Tính năng - tất cả tính năng của All-in-One Sidebar">
 <!ENTITY about3.name "FAQ - các câu hỏi và trả lời thường gặp">

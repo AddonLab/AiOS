@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Activer/désactiver le panneau latéral">
 <!ENTITY menu.grippy.label "'Poignées' pour le panneau latéral">
 <!ENTITY toolbar.name "Barre d'outils d'All-in-One Sidebar">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "En-tête de la barre d'outils All-in-One Sidebar">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Activer/désactiver les éléments contrôlés par All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Permuter panneau latéral et barre d'outils">

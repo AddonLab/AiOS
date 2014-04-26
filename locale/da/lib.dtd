@@ -7,7 +7,6 @@
 <!ENTITY key.shift "Skift">
 <!ENTITY menu.tools.label "Værktøjer">
 <!ENTITY closeFolder.label "Luk Alle Mapper">
-<!ENTITY show.closeFolder.label "'Close All Folders' Button">
 <!ENTITY enable.autoClose.label "Luk automatisk andre mapper">
 <!ENTITY enable.scrollToFolder.label "Rul automatisk til valgte mappe">
 <!ENTITY enable.rememberFolder.label "Husk og fokuser på senest valgte mappe">

@@ -5,7 +5,6 @@
 <!ENTITY settings.advanced "進階模式">
 <!ENTITY settings.import "匯入設定…">
 <!ENTITY settings.export "匯出設定…">
-<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "套用">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "一般">
@@ -21,7 +20,6 @@
 <!ENTITY tab.menus "選單">
 <!ENTITY tab.menus.sidebar "側邊欄">
 <!ENTITY tab.keys "快速鍵">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "駁接位置">
 <!ENTITY gen.orient.label "顯示側邊欄在">
 <!ENTITY gen.orient.left "瀏覽器視窗左邊">
@@ -79,9 +77,6 @@
 <!ENTITY menus.sidebar.entrydeac "關閉正在使用中的側邊欄元件選單項目">
 <!ENTITY misc.enablesidebar.label "在側邊欄開啟列表">
 <!ENTITY misc.layout.label "最佳化側邊欄外觀">
-<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
-<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
-<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "允許「當前選擇的項目使用彩色背景」">
 <!ENTITY misc.count.label "顯示目前的 套件／主題／下載 數量">
 <!ENTITY misc.enablelink.tooltip "點此以獲得更多資訊（連到FAQ&apos;s）">

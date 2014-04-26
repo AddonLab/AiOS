@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Oldalsáv-kapcsoló">
 <!ENTITY menu.grippy.label "Mozgatható oldalsáv">
 <!ENTITY toolbar.name "All-in-One Sidebar Eszköztár">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Oldalsáv eszköztár">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Az All-in-One Sidebar által vezérelt elemek váltása">
 <!ENTITY button.switch.tooltip1 "Oldalsáv és Eszköztár megnyitása/bezárása">

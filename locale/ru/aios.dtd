@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Переключатель боковой панели">
 <!ENTITY menu.grippy.label "Кнопка “Свернуть/Развернуть”">
 <!ENTITY toolbar.name "Боковая панель инструментов">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Панель инструментов заголовка окна боковой панели">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Переключить боковые панели с помощью All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Переключить панель инструментов и боковую панель">

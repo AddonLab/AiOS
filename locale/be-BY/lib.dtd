@@ -7,7 +7,6 @@
 <!ENTITY key.shift "Shift">
 <!ENTITY menu.tools.label "Прылады">
 <!ENTITY closeFolder.label "Зачыніць усе тэчкі">
-<!ENTITY show.closeFolder.label "'Close All Folders' Button">
 <!ENTITY enable.autoClose.label "Аўтаматычна зачыняць іншыя тэчкі">
 <!ENTITY enable.scrollToFolder.label "Аўтаматычна пераходзіць да вылучанай тэчкі">
 <!ENTITY enable.rememberFolder.label "Запамінаць і пераходзіць да апошняй вылучанай тэчкі">

@@ -6,13 +6,11 @@
 <!ENTITY about.tooltip "عرض معلومات مختلفة حول المتصفح">
 <!ENTITY about.config.tooltip "إظهار واجهة للعرض ، ووضع تشكيلة واسعة من المتغيرات">
 <!ENTITY about.plugins.tooltip "عرض معلومات حول جميع المكونات الإضافية المثبتة">
-<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "عرض معلومات عن ذاكرة التخزين المؤقت على الذاكرة وذاكرة التخزين المؤقت على القرص الصلب">
 <!ENTITY about.cache.disk.tooltip "قائمة إدخالات ذاكرة التخزين المؤقت على القرص">
 <!ENTITY about.cache.memory.tooltip "قائمة المدخلات في الذاكرة">
 <!ENTITY about.cache.offline.tooltip "List offline cache entries">
 <!ENTITY about.crashes.tooltip "عرض تقارير الأخطاء التي رفعت">
-<!ENTITY about.buildconfig.tooltip "Shows the arguments and options used to compile the build in use">
 <!ENTITY about.about.tooltip "عرض معلومات الإصدار ومعلومات حقوق النشر">
 <!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "اظهر قائمة بالذين ساهموا في مشروع موزيلا">

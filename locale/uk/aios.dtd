@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Вимикач бічної панелі">
 <!ENTITY menu.grippy.label "Кнопка “Згорнути/Розгорнути”">
 <!ENTITY toolbar.name "Бічна панель інструментів">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Панель інструментів заголовка бічної панелі">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Переключити елементи, керовані All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Переключити бічну панель та панель інструментів">

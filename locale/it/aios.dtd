@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Bordo cliccabile (Mostra/Nasconde AiOS)">
 <!ENTITY menu.grippy.label "Barra laterale Grippy">
 <!ENTITY toolbar.name "Barra degli strumenti di All-in-One Sidebar">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Barra laterale">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Attiva/Disattiva gli elementi controllati da All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Attiva/Disattiva barra laterale e degli strumenti">

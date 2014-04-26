@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Alternador do painel">
 <!ENTITY menu.grippy.label "Pegador do painel">
 <!ENTITY toolbar.name "All-in-One Sidebar">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Barra de ferramentas de cabeçalho de painel">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Ativa/desativa elementos controlados pelo All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Ativa/desativa a barra lateral e de ferramentas">

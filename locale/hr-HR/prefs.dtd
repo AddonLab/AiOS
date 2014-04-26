@@ -5,7 +5,6 @@
 <!ENTITY settings.advanced "Napredni mod">
 <!ENTITY settings.import "Uvezi postavke…">
 <!ENTITY settings.export "Izvezi postavke…">
-<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Primijeni">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Općenito">
@@ -14,14 +13,12 @@
 <!ENTITY tab.gen.fullscreen "Mod cijelog ekrana">
 <!ENTITY tab.gen.special "Posebno">
 <!ENTITY tab.panels "Panoi">
-<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "Ostalo I">
 <!ENTITY tab.panels.other2 "Ostalo II">
 <!ENTITY tab.panels.paneltab "Kartica panoa">
 <!ENTITY tab.menus "Izbornici">
 <!ENTITY tab.menus.sidebar "Rubni stupac">
 <!ENTITY tab.keys "Kratice">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orijentacija">
 <!ENTITY gen.orient.label "Prikaži rubni stupac na">
 <!ENTITY gen.orient.left "lijevoj strani">
@@ -79,9 +76,6 @@
 <!ENTITY menus.sidebar.entrydeac "Onemogući unos aktivnog rubnog stupca">
 <!ENTITY misc.enablesidebar.label "Otvori u rubnom stupcu">
 <!ENTITY misc.layout.label "Optimiziraj izgled rubnog stupca">
-<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
-<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
-<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Omogući pozadine u boji zasnovane na trenutnom stanju">
 <!ENTITY misc.count.label "Prikaži brojeve stavki">
 <!ENTITY misc.enablelink.tooltip "Kliknite ovdje za više informacija (poveznica na FAQ)">

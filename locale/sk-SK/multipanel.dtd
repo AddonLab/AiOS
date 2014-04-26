@@ -6,15 +6,11 @@
 <!ENTITY about.tooltip "Zobraziť rozdielne informácie o prehliadači">
 <!ENTITY about.config.tooltip "Zobraziť rozhranie pre širšie možnosti nastavenia prehliadača">
 <!ENTITY about.plugins.tooltip "Zobraziť informácie o všetkých inštalovaných pluginoch">
-<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "Zobraziť informácie o vyrovnávacích pamätiach">
 <!ENTITY about.cache.disk.tooltip "Zobraziť informaćie o vyrovnávacej pamäti na disku">
 <!ENTITY about.cache.memory.tooltip "Zobraziť informácie o operačnej pamäti">
-<!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Zobraziť informácie o používanom zostavení">
 <!ENTITY about.about.tooltip "Zobraziť informácie o verzii a licencii">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Zobraziť zoznam všetkých, ktorí sa podieľali na vývoji Mozilly">
 <!ENTITY about.license.tooltip "Zobraziť Mozilla Public License">
 <!ENTITY about.mozilla.tooltip "Zobraziť stránku z Knihy Mozilly">

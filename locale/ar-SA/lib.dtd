@@ -1,7 +1,3 @@
-<!ENTITY leftclick "Left-click">
-<!ENTITY rightclick "Right-click">
-<!ENTITY doubleclick "Double-click">
-<!ENTITY middleclick "Middle-click">
 <!ENTITY key.ctrl "Ctrl">
 <!ENTITY key.alt "Alt">
 <!ENTITY key.shift "Shift">
