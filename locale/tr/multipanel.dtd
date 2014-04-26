@@ -6,11 +6,15 @@
 <!ENTITY about.tooltip "Tarayıcı hakkında farklı bilgileri göster">
 <!ENTITY about.config.tooltip "Bir arayüz göster izlerken ve ayarlaken geniş bir biçimin çeşitliliğin değişkenlerinde">
 <!ENTITY about.plugins.tooltip "Tüm yüklenmiş plug-in ler hakkında bilgi göster">
+<!ENTITY about.support.tooltip "Uygulamaların temelleri, eklentiler ve değiştirilen tercihleri gösterir">
 <!ENTITY about.cache.tooltip "Her iki hafıza ve disk cache için bilgi göster">
 <!ENTITY about.cache.disk.tooltip "Diskteki kişisel girişleri göster">
 <!ENTITY about.cache.memory.tooltip "Hafızadaki kişisel girişleri göster">
+<!ENTITY about.cache.offline.tooltip "Çevrimdışı önbellek girdilerini listeler">
+<!ENTITY about.crashes.tooltip "Gönderilen hata raporlarını gösterir">
 <!ENTITY about.buildconfig.tooltip "Shows the arguments and options used to compile the build in use">
 <!ENTITY about.about.tooltip "Versiyon ve telif hakkı bilgilerini göster">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Liste halinde Mozilla&apos;ya katkıda bulunanları göster">
 <!ENTITY about.license.tooltip "Göster Mozilla Public lisans bilgilerini">
 <!ENTITY about.mozilla.tooltip "Shows a page from the fictional Book of Mozilla">

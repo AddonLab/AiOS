@@ -1,9 +1,11 @@
-<!ENTITY loading.label "încărcare panou...">
-<!ENTITY menu.prefs.label "Opțiuni AiOS...">
+<!ENTITY loading.label "se încărcă panoul…">
+<!ENTITY menu.prefs.label "Opţiuni AiOS…">
 <!ENTITY menu.togglebar.label "Comutator panou lateral">
 <!ENTITY menu.grippy.label "Glisor panou lateral">
 <!ENTITY toolbar.name "Bară de unelte AiOS">
-<!ENTITY sbhtoolbar.name "Bară antet AiOS">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
+<!ENTITY sbhtoolbar.name "Bară de unelte panou lateral">
+<!ENTITY sbhtoolbar.label "Antet panou lateral">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Afișează/ascunde panoul lateral și selectează elementele controlate de AiOS">
 <!ENTITY button.switch.tooltip1 "Afișează/ascunde panoul lateral și bara de unelte">

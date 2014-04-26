@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Zijbalkwisselaar">
 <!ENTITY menu.grippy.label "Zijbalkhandvat">
 <!ENTITY toolbar.name "All-in-One Sidebar werkbalk">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Zijbalkkop werkbalk">
+<!ENTITY sbhtoolbar.label "Zijbalkkop">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Elementen openen/sluiten gecontroleerd door All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Werk- en zijbalk openen/sluiten">

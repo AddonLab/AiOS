@@ -21,6 +21,7 @@
 <!ENTITY tab.menus "Menu">
 <!ENTITY tab.menus.sidebar "Panel boczny">
 <!ENTITY tab.keys "Skróty">
+<!ENTITY tab.about "Informacje/Pomoc">
 <!ENTITY gen.orient.caption "Położenie panela">
 <!ENTITY gen.orient.label "Wyświetlaj panel boczny po">
 <!ENTITY gen.orient.left "lewej stronie">

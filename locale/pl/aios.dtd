@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Przełącznik panelu bocznego">
 <!ENTITY menu.grippy.label "Panel boczny Grippy">
 <!ENTITY toolbar.name "Pasek narzędzi All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Pasek narzędzi nagłówka panelu bocznego">
+<!ENTITY sbhtoolbar.label "Nagłówek panelu bocznego">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Wyświetla/ukrywa elementy kontrolowane przez All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Wyświetla/ukrywa panel boczny i pasek narzędzi">

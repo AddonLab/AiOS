@@ -21,6 +21,7 @@
 <!ENTITY tab.menus "Menu’s">
 <!ENTITY tab.menus.sidebar "Zijbalk">
 <!ENTITY tab.keys "Sneltoetsen">
+<!ENTITY tab.about "Over/Help">
 <!ENTITY gen.orient.caption "Oriëntatie">
 <!ENTITY gen.orient.label "Zijbalk tonen aan">
 <!ENTITY gen.orient.left "linkerkant">

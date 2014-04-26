@@ -1,9 +1,11 @@
 <!ENTITY loading.label "laadin paneeli…">
-<!ENTITY menu.prefs.label "All-in-One Sidebar&apos;i seaded">
+<!ENTITY menu.prefs.label "All-in-One Sidebar'i seaded">
 <!ENTITY menu.togglebar.label "Külgpaani lülitus">
 <!ENTITY menu.grippy.label "Külgpaani haare">
 <!ENTITY toolbar.name "All-in-One Sidebar tööriistariba">
+<!ENTITY toolbar.label "All-in-One Sidebar">
 <!ENTITY sbhtoolbar.name "Külgpaani päise tööriistariba">
+<!ENTITY sbhtoolbar.label "Sidebar päis">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Lülita sisse-välja All-in-One Sidebar poolt kontrollitavad elemendid">
 <!ENTITY button.switch.tooltip1 "Lülita külgpaan ja tööriistariba sisse-välja">

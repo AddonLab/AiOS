@@ -1,12 +1,13 @@
 <!ENTITY title "O All-in-One Sidebar">
-<!ENTITY version "wersja">
 <!ENTITY settings "Ustawienia">
 <!ENTITY close "Zamknij">
 <!ENTITY tab.about "O AIOS">
+<!ENTITY tab.help "Pomoc">
 <!ENTITY tab.contrib "Współtwórcy">
 <!ENTITY tab.trans "Tłumacze">
 <!ENTITY about.desc "All-in-One Sidebar umożliwia otwieranie różnych okien w panelu bocznym i szybkie przełączanie się pomiędzy nimi. Koniec z chaosem okien! Oprócz zakładek i historii można teraz otwierać w panelu bocznym menedżer pobierania, dodatków i wiele innych…">
 <!ENTITY create.desc "Autor: Ingo Wennemaring, Hamburg [DE]">
+<!ENTITY help.desc "Wiele informacji o tym dodatku znajdziesz na stronie:">
 <!ENTITY about1.name "Strona domowa - mnóstwo informacji w jednym miejscu">
 <!ENTITY about2.name "Opcje - wszystkie opcje All-In-One Sidebar">
 <!ENTITY about3.name "FAQ - często zadawane pytania i odpowiedzi">

@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "מתג סרגל-הצד">
 <!ENTITY menu.grippy.label "מזעור סרגל-הצד">
 <!ENTITY toolbar.name "סרגל הכלים של All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "סרגל הכלים של כותרת סרגל-הצד">
+<!ENTITY sbhtoolbar.label "כותרת סרגל-הצד">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "הצגת/הסתרת מרכיבים שנשלטים על ידי All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "הצגת/הסתרת סרגל-הצד וסרגל הכלים">
