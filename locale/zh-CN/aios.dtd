@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "侧栏切换柄">
 <!ENTITY menu.grippy.label "侧栏控制柄">
 <!ENTITY toolbar.name "All-in-One Sidebar 工具栏">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebarheader 工具栏">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "开关受 All-in-One Sidebar 控制的元素">
 <!ENTITY button.switch.tooltip1 "开关侧栏和工具栏">

@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Пребацивање бочне траке">
 <!ENTITY menu.grippy.label "Збијена бочна трака">
 <!ENTITY toolbar.name "АиОС трака задатака">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebarheader трака са задацима">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "АиОС">
 <!ENTITY button.toggle.tooltip "Промени елементе контролисане од АиОС-а">
 <!ENTITY button.switch.tooltip1 "Промени траку задатака и алатну траку">

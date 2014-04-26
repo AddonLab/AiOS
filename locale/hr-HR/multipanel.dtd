@@ -6,11 +6,15 @@
 <!ENTITY about.tooltip "Prikazuje različite informacije o pregledniku">
 <!ENTITY about.config.tooltip "Prikazuje sučelje za pregledavanje i postavljanje velikog niza konfiguracijskih varijabli">
 <!ENTITY about.plugins.tooltip "Prikazuje informacije o svim instaliranim dodacima">
+<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "Prikazuje informaciju o održavanju priručne memorije i za memoriju i za priručnu memoriju diska">
 <!ENTITY about.cache.disk.tooltip "Prikazuje pojedinačne unose na disku">
 <!ENTITY about.cache.memory.tooltip "Prikazuje pojedinačne unose u memoriji">
+<!ENTITY about.cache.offline.tooltip "List offline cache entries">
+<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Prikazuje parametre i opcije koje su se koristile prilikom sastavljanja izdanja koje se koristi">
 <!ENTITY about.about.tooltip "Prikazuje informacije o inačici i autorskim pravima">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Prikazuje popis svih onih koji su pridonijeli Mozilli">
 <!ENTITY about.license.tooltip "Prikazuje Mozilla Public License">
 <!ENTITY about.mozilla.tooltip "Prikazuje stranicu iz izmišljene Knjizi o Mozilli">
