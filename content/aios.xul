@@ -50,7 +50,7 @@
             ondragover="nsDragAndDrop.dragOver(event, DownloadsButtonDNDObserver); event.stopPropagation();"
             ondragenter="nsDragAndDrop.dragEnter(event, DownloadsButtonDNDObserver); event.stopPropagation();"
             ondragexit="nsDragAndDrop.dragExit(event, DownloadsButtonDNDObserver); event.stopPropagation();"
-            label="&downloads.label;" tooltiptext="&downloads.tooltip;" />
+            label="&downloads.label;" tooltiptext="&downloads.label;" />
 
         <broadcaster id="viewAddonsSidebar" autoCheck="false" type="checkbox" group="sidebar"
             sidebartitle="&button.addons.label;" sidebarurl="about:addons"
@@ -158,21 +158,21 @@
             tooltiptext="&sidebarCloseButton.tooltip;" label="&sidebarCloseButton.tooltip;" />
 
         <toolbarbutton id="bookmarks-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            label="&bookmarksButton.label;" tooltip="bookmarks-tooltip" tooltiptext="&bookmarksButton.tooltip;"
+            label="&bookmarksButton.label;" tooltip="bookmarks-tooltip" tooltiptext="&bookmarksButton.label;"
             command="View:Bookmarks">
             <observes element="viewBookmarksSidebar" attribute="checked" />
             <observes element="viewBookmarksSidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="history-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            label="&historyButton.label;" tooltip="history-tooltip" tooltiptext="&historyButton.tooltip;"
+            label="&historyButton.label;" tooltip="history-tooltip" tooltiptext="&historyButton.label;"
             command="View:History">
             <observes element="viewHistorySidebar" attribute="checked" />
             <observes element="viewHistorySidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="downloads-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            label="&downloads.label;" tooltip="downloads-tooltip" tooltiptext="&downloads.tooltip;"
+            label="&downloads.label;" tooltip="downloads-tooltip" tooltiptext="&downloads.label;"
             command="Tools:Downloads">
             <observes element="viewDownloadsSidebar" attribute="checked" />
             <observes element="viewDownloadsSidebar" attribute="onclick" />
@@ -359,15 +359,15 @@
             </tooltip>
 
             <tooltip id="bookmarks-tooltip">
-                <label value="&bookmarksButton.tooltip;" />
+                <label value="&bookmarksButton.label;" />
             </tooltip>
 
             <tooltip id="history-tooltip">
-                <label value="&historyButton.tooltip;" />
+                <label value="&historyButton.label;" />
             </tooltip>
 
             <tooltip id="downloads-tooltip">
-                <label value="&downloads.tooltip;" />
+                <label value="&downloads.label;" />
             </tooltip>
 
             <tooltip id="addons-tooltip">
