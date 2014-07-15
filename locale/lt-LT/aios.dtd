@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Parankinės jungiklis">
 <!ENTITY menu.grippy.label "Parankinės juostelė">
 <!ENTITY toolbar.name "„All-in-One Sidebar“ priemonių juosta">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Įjungti/išjungti „All-in-One Sidebar“ valdomus elementus">
 <!ENTITY button.switch.tooltip1 "Įjungti/išjungti parankinę ir priemonių juostą">

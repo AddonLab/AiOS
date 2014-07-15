@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Pega da Barra Lateral">
 <!ENTITY menu.grippy.label "Pega da barra lateral">
 <!ENTITY toolbar.name "Barra de ferramentas do All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Cabeçalho da barra de ferramenta lateral">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Toggle elementos controlados pelo All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Toggle barra lateral e barra de Ferramentas">

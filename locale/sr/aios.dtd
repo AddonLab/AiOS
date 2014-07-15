@@ -1,12 +1,14 @@
-<!ENTITY loading.label "учитавање панела…">
-<!ENTITY menu.prefs.label "Поставке АиОС-а…">
+<!ENTITY loading.label "учитавање траке…">
+<!ENTITY menu.prefs.label "All-in-One Sidebar - опције">
 <!ENTITY menu.togglebar.label "Пребацивање бочне траке">
 <!ENTITY menu.grippy.label "Збијена бочна трака">
-<!ENTITY toolbar.name "АиОС трака задатака">
-<!ENTITY sbhtoolbar.name "Sidebarheader трака са задацима">
-<!ENTITY button.toggle.label "АиОС">
-<!ENTITY button.toggle.tooltip "Промени елементе контролисане од АиОС-а">
-<!ENTITY button.switch.tooltip1 "Промени траку задатака и алатну траку">
+<!ENTITY toolbar.name "All-in-One Sidebar трака са алаткама">
+<!ENTITY toolbar.label "All-in-One Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebarheader трака са алаткама">
+<!ENTITY sbhtoolbar.label "Заглавље бочне траке">
+<!ENTITY button.toggle.label "AiOS">
+<!ENTITY button.toggle.tooltip "Промени елементе које контролише All-in-One Sidebar">
+<!ENTITY button.switch.tooltip1 "Промени бочну траку и алатну траку">
 <!ENTITY button.switch.tooltip2 "Промени алатну траку">
 <!ENTITY button.switch.tooltip3 "Промени траку задатака">
 <!ENTITY sidebar.open.label "Отвори бочну траку">

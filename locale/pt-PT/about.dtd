@@ -2,10 +2,12 @@
 <!ENTITY settings "Definições…">
 <!ENTITY close "Fechar">
 <!ENTITY tab.about "Sobre">
+<!ENTITY tab.help "Ajuda">
 <!ENTITY tab.contrib "Colaboradores">
 <!ENTITY tab.trans "Tradutores">
 <!ENTITY about.desc "O All-in-One Sidebar deixa-o abrir várias janelas como painéis laterais e trocar rapidamente entre eles. Por isso põe fim ao caos de janelas! Para além dos marcadores e do histórico abre os diálogos das transferências, extras e muito mais na barra lateral.">
 <!ENTITY create.desc "criado por Ingo Wennemaring, Hamburg [Alemanha]">
+<!ENTITY help.desc "Vai encontrar muita informação sobre este extra no sítio web:">
 <!ENTITY about1.name "Página Inicial- muitas informações num só lugar">
 <!ENTITY about2.name "Características - todas as características do All-in-One Sidebar">
 <!ENTITY about3.name "Perguntas e respostas frequentes">

@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sivupaneelin vaihto">
 <!ENTITY menu.grippy.label "Sivupaneelin kahva">
 <!ENTITY toolbar.name "All-in-One Sidebar työkalupalkki">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sivupaneelin otsikkopalkki">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Kytke All-in-One Sidebarin hallitsemat elementit">
 <!ENTITY button.switch.tooltip1 "Kytke sivupaneeli ja työkalupalkki">
