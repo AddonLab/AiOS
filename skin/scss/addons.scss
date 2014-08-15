@@ -363,13 +363,13 @@ page[aios-inSidebar] {
         background-image: none;
 
         .addon:not([selected="true"]) {
-            background-color: #FFFFFF;
+            background-color: ButtonFace;
         }
 
         #categories {
             border-top: none;
             border-bottom: 1px solid ThreedShadow;
-            background-color: #ffffff;
+            background-color: Menu;
         }
 
         .category,
