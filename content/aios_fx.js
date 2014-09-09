@@ -229,8 +229,11 @@ if(aios_collapseSidebar) toggleSidebar = function(commandID, forceOpen) {
       // create a new content viewer because the old one doesn't get destroyed
       // until about:blank has loaded (which does not happen as long as the
       // element is hidden).
-      sidebar.setAttribute("src", "about:blank");
-      sidebar.docShell.createAboutBlankContentViewer(null);
+
+      // commented by exxile
+      // sidebar.setAttribute("src", "about:blank");
+      // sidebar.docShell.createAboutBlankContentViewer(null);
+      // end commented by exxile
 
       sidebarBroadcaster.removeAttribute("checked");
       sidebarBox.setAttribute("sidebarcommand", "");
