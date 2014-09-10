@@ -1,1 +1,368 @@
-page[aios-inSidebar]{padding:0;}page[aios-inSidebar]>hbox{-moz-box-orient:vertical;}page[aios-inSidebar] #categories{margin:0;padding:1px 1px 0 1px;}page[aios-inSidebar] .category,page[aios-inSidebar] .category:not([disabled]){height:auto;margin:0 1px 1px 0;padding:2px;}page[aios-inSidebar] .category-icon{margin:0;}page[aios-inSidebar] #category-search[disabled="true"],page[aios-inSidebar] #category-availableUpdates[disabled="true"],page[aios-inSidebar] #category-recentUpdates[disabled="true"],page[aios-inSidebar] .category-name,page[aios-inSidebar] .category-badge{display:none;}page[aios-inSidebar] #header{margin:0;padding:4px;}page[aios-inSidebar] #header-utils-btn{margin:0 5px;min-width:0;}page[aios-inSidebar] #updates-container{padding:5px 0;}page[aios-inSidebar] #updates-container .button-box{padding-left:0;padding-right:0;}page[aios-inSidebar] #updates-container button.button-link{margin-left:5px;}page[aios-inSidebar] #updates-container #close-btn{display:block !important;}page[aios-inSidebar] .view-header{padding:0 4px;min-height:0;}page[aios-inSidebar] .sorter,page[aios-inSidebar] .search-filter-radio{margin:3px 0 3px 5px;height:18px;max-height:18px;}page[aios-inSidebar] #search-filter{padding:0;font-size:11px;}page[aios-inSidebar] button.button-link{margin:0;padding:0;}page[aios-inSidebar] .addon{padding:5px;}page[aios-inSidebar] .addon *{margin:0;}page[aios-inSidebar] .addon .warning,page[aios-inSidebar] .addon .error,page[aios-inSidebar] .addon .pending{margin-bottom:5px;}page[aios-inSidebar] .addon .pending>vbox{margin-left:10px;}page[aios-inSidebar] .addon .pending .button-box{padding-left:0;padding-right:0;}page[aios-inSidebar] .addon .icon-container,page[aios-inSidebar] .addon .warning-icon,page[aios-inSidebar] .addon .error-icon,page[aios-inSidebar] .addon .pending-icon{margin-right:10px !important;}page[aios-inSidebar] .addon .name-container{font-size:11px;font-weight:normal;}page[aios-inSidebar] .addon .name-container .name{font-weight:bold;}page[aios-inSidebar] .addon .name-container .version{margin-left:10px;}page[aios-inSidebar] .addon .name-container spacer,page[aios-inSidebar] .addon .creator,page[aios-inSidebar] .addon .date-updated{display:none;}page[aios-inSidebar] .addon:not([selected="true"]) .icon-container,page[aios-inSidebar] .addon:not([selected="true"]) .icon{height:16px;width:16px;}page[aios-inSidebar] .addon:not([selected="true"]) .disabled-postfix,page[aios-inSidebar] .addon:not([selected="true"]) .update-postfix{margin-left:5px;}page[aios-inSidebar] .addon:not([selected="true"]) .control-container,page[aios-inSidebar] .addon:not([selected="true"]) .addon-control,page[aios-inSidebar] .addon:not([selected="true"]) .description-container,page[aios-inSidebar] .addon:not([selected="true"]) .relnotes-container,page[aios-inSidebar] .addon:not([selected="true"]) .relnotes-toggle{display:none;}page[aios-inSidebar] .addon[selected="true"]{}page[aios-inSidebar] .addon[selected="true"] .icon-container,page[aios-inSidebar] .addon[selected="true"] .icon{height:32px;width:32px;}page[aios-inSidebar] .addon[selected="true"] .name-container{font-size:13px;font-weight:bold;}page[aios-inSidebar] .addon[selected="true"] .warning-icon,page[aios-inSidebar] .addon[selected="true"] .error-icon,page[aios-inSidebar] .addon[selected="true"] .pending-icon{margin:0 18px 0 8px;}page[aios-inSidebar] .addon[selected="true"] .aios-container>vbox,page[aios-inSidebar] .addon[selected="true"] .install-status,page[aios-inSidebar] .addon[selected="true"] .relnotes-toggle{margin-top:5px;}page[aios-inSidebar] .addon[selected="true"] .description-container{-moz-box-orient:vertical;float:left;}page[aios-inSidebar] .addon[selected="true"] .description-container .description{display:block;}page[aios-inSidebar] .addon[selected="true"] .description-container .details{margin-left:-2px;padding:0;}page[aios-inSidebar] .addon[selected="true"] .control-container>*{margin-left:2px;min-width:0;}page[aios-inSidebar] .addon[selected="true"] .control-container>*:first-child{margin-left:0;}page[aios-inSidebar] #detail-view vbox{font-size:1em;}page[aios-inSidebar] #detail-view .detail-view-container{padding:10px;}page[aios-inSidebar] #detail-view #detail-notifications{margin:0;padding:0;}page[aios-inSidebar] #detail-view #detail-icon-container{display:none;}page[aios-inSidebar] #detail-view #warning-container,page[aios-inSidebar] #detail-view #error-container,page[aios-inSidebar] #detail-view #pending-container{margin-bottom:9px;padding-bottom:10px;}page[aios-inSidebar] #detail-view #pending-container .button-box{padding-left:0;padding-right:0;}page[aios-inSidebar] #detail-view #pending-container>vbox{margin-left:10px;}page[aios-inSidebar] #detail-view #detail-header{margin-bottom:15px;padding-bottom:10px;}page[aios-inSidebar] #detail-view #detail-header>*{margin:0;padding:0;}page[aios-inSidebar] #detail-view #detail-icon{margin:0 10px 0 0;width:64px;height:64px;}page[aios-inSidebar] #detail-view spacer{display:none;}page[aios-inSidebar] #detail-view #detail-name{margin-bottom:0;}page[aios-inSidebar] #detail-view #detail-version{margin-bottom:5px;}page[aios-inSidebar] #detail-view #detail-name,page[aios-inSidebar] #detail-view #detail-version,page[aios-inSidebar] #detail-view .disabled-postfix,page[aios-inSidebar] #detail-view .update-postfix{font-size:14px;}page[aios-inSidebar] #detail-view #detail-restart-btn,page[aios-inSidebar] #detail-view #detail-undo-btn,page[aios-inSidebar] #detail-view #detail-name,page[aios-inSidebar] #detail-view #detail-version,page[aios-inSidebar] #detail-view #detail-creator,page[aios-inSidebar] #detail-view #detail-desc,page[aios-inSidebar] #detail-view #detail-fulldesc,page[aios-inSidebar] #detail-view #detail-grid *{margin-left:0;margin-right:0;}page[aios-inSidebar] #detail-view #detail-name,page[aios-inSidebar] #detail-view #detail-desc{font-weight:bold;}page[aios-inSidebar] #detail-view #detail-screenshot{margin-top:5px;max-width:none;}page[aios-inSidebar] #detail-view #detail-contributions>hbox{-moz-box-orient:vertical;-moz-box-align:end;}page[aios-inSidebar] #detail-view #detail-updates-row radio{margin-right:6px;}page[aios-inSidebar] #detail-view #detail-updates-row radio .radio-icon{margin-right:3px;}page[aios-inSidebar] #detail-view #detail-rating-row>hbox{-moz-box-orient:vertical;}page[aios-inSidebar] #detail-view #detail-controls button{margin-left:0;}page[aios-inSidebar][aios-appDefTheme="true"]{background-image:none;}page[aios-inSidebar][aios-appDefTheme="true"] .addon:not([selected="true"]){background-color:ButtonFace;}page[aios-inSidebar][aios-appDefTheme="true"] #categories{border-top:none;border-bottom:1px solid ThreedShadow;background-color:Menu;}page[aios-inSidebar][aios-appDefTheme="true"] .category,page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled]){border:none;border-radius:0;}page[aios-inSidebar][aios-appDefTheme="true"] .category[selected="true"],page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled])[selected="true"]{background-color:#C1D2EE;}page[aios-inSidebar][aios-appDefTheme="true"] .category:hover,page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled]):hover{background-color:#E0E8F6;}page[aios-inSidebar][aios-appDefTheme="true"] #header{border-top:1px solid ThreedHighlight;border-bottom:1px solid ThreedShadow;}page[aios-inSidebar][aios-appDefTheme="true"] #updates-container{color:infotext;background-color:infobackground;border-bottom:1px solid ThreedShadow;}page[aios-inSidebar][aios-appDefTheme="true"] .view-header,page[aios-inSidebar][aios-appDefTheme="true"] #search-filter{background-color:-moz-dialog;border-top:1px solid ThreedHighlight;border-bottom:1px solid ThreedShadow;}page[aios-inSidebar][aios-appDefTheme="true"] #view-port-container{border:0;border-radius:0;}page[aios-inSidebar][aios-appDefTheme="true"] .addon:not([selected="true"])[active=false]:not([pending]){opacity:0.6;}page[aios-inSidebar][aios-appDefTheme="true"] .addon:not([selected="true"])[active=false]:not([pending]):not([notification]){background-image:none;}page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #warning-container,page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #error-container,page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #pending-container,page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #detail-header{border-bottom:2px solid;-moz-border-bottom-colors:rgba(255, 255, 255, 0.2) rgba(28, 31, 37, 0.2);}page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #detail-screenshot{border:5px solid #ffffff;border-radius:5px;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]{}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter{color:black;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="1"],page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="2"]{background-color:grey;color:white;box-shadow:none;text-shadow:none;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="1"]{list-style-image:url("../img/arrow-dn.png");}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="2"]{list-style-image:url("../img/arrow-up.png");}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .addon{border-top:none;border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:rgba(0, 0, 0, 0.3);}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .addon:not([selected="true"])[active=true]:nth-child(odd){background-color:rgba(255, 255, 255, 0.6);}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] #view-port-container{background-color:transparent;background-image:none;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"][aios-appOSVersion="Windows NT 5.1"]{background-color:#efedea;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"][aios-appOSVersion="Windows NT 5.1"] #header{background-color:-moz-dialog;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme){}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme)[aios-appOSVersion="Windows NT 5.1"]{background-color:#EDECEF;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme)[aios-appOSVersion="Windows NT 5.1"] #header{background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme):not([aios-appOSVersion="Windows NT 5.1"]){background-color:#EEF3FA;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme):not([aios-appOSVersion="Windows NT 5.1"]) .view-header,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme):not([aios-appOSVersion="Windows NT 5.1"]) #search-filter{background-color:#ccd9ea;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"]{background-color:#D4DDE5;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"]:-moz-window-inactive{background-color:#e8e8e8;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"]>hbox{border-top:1px solid #484848;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"]>hbox:-moz-window-inactive{border-top:1px solid #929292;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories{-moz-box-align:center;background-color:-moz-mac-chrome-active;border-top:1px solid #c0c0c0;border-left:1px solid #c0c0c0;border-bottom:1px solid #484848;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories:-moz-window-inactive{background-color:-moz-mac-chrome-inactive;border-top:1px solid #e1e1e1;border-left:1px solid #e1e1e1;border-bottom:1px solid #929292;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .scrollbox-innerbox{margin:0 0 2px 0;padding:0;background-color:-moz-mac-chrome-active;border-top:1px solid #484848;border-right:1px solid #484848;border-bottom:1px solid #484848;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .scrollbox-innerbox:-moz-window-inactive{background-color:-moz-mac-chrome-inactive;border-top:1px solid #929292;border-right:1px solid #929292;border-bottom:1px solid #929292;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]){margin:0;padding:5px;border-left:1px solid #484848;background:-moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:-moz-window-inactive,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]):-moz-window-inactive{border-left:1px solid #929292;background:-moz-linear-gradient(top, #FFF, #ADADAD) repeat-x;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"],page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"]{background:#606060;box-shadow:inset #2a2a2a 0 3px 3px;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"]:-moz-window-inactive,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"]:-moz-window-inactive{background:#bababa;box-shadow:inset rgba(42, 42, 42, 0.6) 0 2px 2px;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category .category-icon,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]) .category-icon{max-width:24px;max-height:24px;opacity:0.5;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category .category-icon:-moz-window-inactive,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]) .category-icon:-moz-window-inactive{opacity:0.3;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:hover .category-icon,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"] .category-icon,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]):hover .category-icon,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"] .category-icon{opacity:1;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:hover .category-icon:-moz-window-inactive,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"] .category-icon:-moz-window-inactive,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]):hover .category-icon:-moz-window-inactive,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"] .category-icon:-moz-window-inactive{opacity:0.8;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #header{padding:11px 3px 6px 5px;border-top:none;border-bottom:none;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #updates-container{margin:5px 0 0 0;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #updates-container #close-btn{margin:0;padding:0;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .view-header,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #search-filter{background-color:#D4DDE5;background-image:none;border:none;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .view-header:-moz-window-inactive,page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #search-filter:-moz-window-inactive{background-color:#e8e8e8;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #view-port-container{background-color:#D4DDE5;background-image:none;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #view-port-container:-moz-window-inactive{background-color:#e8e8e8;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #view-port richlistbox{margin-top:5px;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .addon{padding:7px 5px;border:none;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .addon:not([selected="true"])[active=true]:nth-child(odd){background-color:-moz-oddtreerow;}page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .addon .details{margin-left:-3px;}page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) #categories{padding:1px;border:1px solid ThreedShadow;}page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) #header{border:none;}page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) category,page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) .category:not([disabled]){margin:0 0 1px 0;}page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) category[selected="true"],page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) .category:not([disabled])[selected="true"]{background-color:highlight;}page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) category:hover,page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) .category:not([disabled]):hover{background-color:transparent;}page[aios-inSidebar] richlistitem[type="user-script"] hbox.pending>vbox button:first-child{display:none !important;}
+page[aios-inSidebar] {
+  padding: 0;
+  /* @group Navigation */
+  /* @end */
+  /* @group Header */
+  /* @end */
+  /* @group Content */
+  /* Textbuttons im Header und in den richlistitems */
+  /* @end */
+  /* @group Add-ons */
+  /* @end */
+  /* @group Detail-Ansicht */
+  /* @end */
+  /* @group Firefox-Standard-Theme */
+  /* @end */
+  /* Fix fuer Greasemonkey */ }
+  page[aios-inSidebar] > hbox {
+    -moz-box-orient: vertical; }
+  page[aios-inSidebar] #categories {
+    margin: 0;
+    padding: 1px 1px 0 1px; }
+  page[aios-inSidebar] .category, page[aios-inSidebar] .category:not([disabled]) {
+    height: auto;
+    margin: 0 1px 1px 0;
+    padding: 2px; }
+  page[aios-inSidebar] .category-icon {
+    margin: 0; }
+  page[aios-inSidebar] #category-search[disabled="true"], page[aios-inSidebar] #category-availableUpdates[disabled="true"], page[aios-inSidebar] #category-recentUpdates[disabled="true"], page[aios-inSidebar] .category-name, page[aios-inSidebar] .category-badge {
+    display: none; }
+  page[aios-inSidebar] #header {
+    margin: 0;
+    padding: 4px; }
+  page[aios-inSidebar] #header-utils-btn {
+    margin: 0 5px;
+    min-width: 0; }
+  page[aios-inSidebar] #updates-container {
+    padding: 5px 0; }
+    page[aios-inSidebar] #updates-container .button-box {
+      padding-left: 0;
+      padding-right: 0; }
+    page[aios-inSidebar] #updates-container button.button-link {
+      margin-left: 5px; }
+    page[aios-inSidebar] #updates-container #close-btn {
+      display: block !important; }
+  page[aios-inSidebar] .view-header {
+    padding: 0 4px;
+    min-height: 0; }
+  page[aios-inSidebar] .sorter, page[aios-inSidebar] .search-filter-radio {
+    margin: 3px 0 3px 5px;
+    height: 18px;
+    max-height: 18px; }
+  page[aios-inSidebar] #search-filter {
+    padding: 0;
+    font-size: 11px; }
+  page[aios-inSidebar] button.button-link {
+    margin: 0;
+    padding: 0; }
+  page[aios-inSidebar] .addon {
+    padding: 5px;
+    /* @group nicht selektierte Add-ons */
+    /* @end */
+    /* @group selektierte Add-ons */
+    /* @end */ }
+    page[aios-inSidebar] .addon * {
+      margin: 0; }
+    page[aios-inSidebar] .addon .warning, page[aios-inSidebar] .addon .error, page[aios-inSidebar] .addon .pending {
+      margin-bottom: 5px; }
+    page[aios-inSidebar] .addon .pending > vbox {
+      margin-left: 10px; }
+    page[aios-inSidebar] .addon .pending .button-box {
+      padding-left: 0;
+      padding-right: 0; }
+    page[aios-inSidebar] .addon .icon-container, page[aios-inSidebar] .addon .warning-icon, page[aios-inSidebar] .addon .error-icon, page[aios-inSidebar] .addon .pending-icon {
+      margin-right: 10px !important; }
+    page[aios-inSidebar] .addon .name-container {
+      font-size: 11px;
+      font-weight: normal; }
+      page[aios-inSidebar] .addon .name-container .name {
+        font-weight: bold; }
+      page[aios-inSidebar] .addon .name-container .version {
+        margin-left: 10px; }
+    page[aios-inSidebar] .addon .name-container spacer, page[aios-inSidebar] .addon .creator, page[aios-inSidebar] .addon .date-updated {
+      display: none; }
+    page[aios-inSidebar] .addon:not([selected="true"]) .icon-container, page[aios-inSidebar] .addon:not([selected="true"]) .icon {
+      height: 16px;
+      width: 16px; }
+    page[aios-inSidebar] .addon:not([selected="true"]) .disabled-postfix, page[aios-inSidebar] .addon:not([selected="true"]) .update-postfix {
+      margin-left: 5px; }
+    page[aios-inSidebar] .addon:not([selected="true"]) .control-container, page[aios-inSidebar] .addon:not([selected="true"]) .addon-control, page[aios-inSidebar] .addon:not([selected="true"]) .description-container, page[aios-inSidebar] .addon:not([selected="true"]) .relnotes-container, page[aios-inSidebar] .addon:not([selected="true"]) .relnotes-toggle {
+      display: none; }
+    page[aios-inSidebar] .addon[selected="true"] {
+      /*.relnotes H2 {
+                font-size: 10px !important;
+            }
+
+            .relnotes UL {
+                margin: 0 !important;
+                padding: 0 !important;
+            }*/ }
+      page[aios-inSidebar] .addon[selected="true"] .icon-container, page[aios-inSidebar] .addon[selected="true"] .icon {
+        height: 32px;
+        width: 32px; }
+      page[aios-inSidebar] .addon[selected="true"] .name-container {
+        font-size: 13px;
+        font-weight: bold; }
+      page[aios-inSidebar] .addon[selected="true"] .warning-icon, page[aios-inSidebar] .addon[selected="true"] .error-icon, page[aios-inSidebar] .addon[selected="true"] .pending-icon {
+        margin: 0 18px 0 8px; }
+      page[aios-inSidebar] .addon[selected="true"] .aios-container > vbox, page[aios-inSidebar] .addon[selected="true"] .install-status, page[aios-inSidebar] .addon[selected="true"] .relnotes-toggle {
+        margin-top: 5px; }
+      page[aios-inSidebar] .addon[selected="true"] .description-container {
+        -moz-box-orient: vertical;
+        float: left; }
+        page[aios-inSidebar] .addon[selected="true"] .description-container .description {
+          display: block; }
+        page[aios-inSidebar] .addon[selected="true"] .description-container .details {
+          margin-left: -2px;
+          padding: 0; }
+      page[aios-inSidebar] .addon[selected="true"] .control-container > * {
+        margin-left: 2px;
+        min-width: 0; }
+        page[aios-inSidebar] .addon[selected="true"] .control-container > *:first-child {
+          margin-left: 0; }
+  page[aios-inSidebar] #detail-view vbox {
+    font-size: 1em; }
+  page[aios-inSidebar] #detail-view .detail-view-container {
+    padding: 10px; }
+  page[aios-inSidebar] #detail-view #detail-notifications {
+    margin: 0;
+    padding: 0; }
+  page[aios-inSidebar] #detail-view #detail-icon-container {
+    display: none; }
+  page[aios-inSidebar] #detail-view #warning-container, page[aios-inSidebar] #detail-view #error-container, page[aios-inSidebar] #detail-view #pending-container {
+    margin-bottom: 9px;
+    padding-bottom: 10px; }
+  page[aios-inSidebar] #detail-view #pending-container .button-box {
+    padding-left: 0;
+    padding-right: 0; }
+  page[aios-inSidebar] #detail-view #pending-container > vbox {
+    margin-left: 10px; }
+  page[aios-inSidebar] #detail-view #detail-header {
+    margin-bottom: 15px;
+    padding-bottom: 10px; }
+    page[aios-inSidebar] #detail-view #detail-header > * {
+      margin: 0;
+      padding: 0; }
+  page[aios-inSidebar] #detail-view #detail-icon {
+    margin: 0 10px 0 0;
+    width: 64px;
+    height: 64px; }
+  page[aios-inSidebar] #detail-view spacer {
+    display: none; }
+  page[aios-inSidebar] #detail-view #detail-name {
+    margin-bottom: 0; }
+  page[aios-inSidebar] #detail-view #detail-version {
+    margin-bottom: 5px; }
+  page[aios-inSidebar] #detail-view #detail-name, page[aios-inSidebar] #detail-view #detail-version, page[aios-inSidebar] #detail-view .disabled-postfix, page[aios-inSidebar] #detail-view .update-postfix {
+    font-size: 14px; }
+  page[aios-inSidebar] #detail-view #detail-restart-btn, page[aios-inSidebar] #detail-view #detail-undo-btn, page[aios-inSidebar] #detail-view #detail-name, page[aios-inSidebar] #detail-view #detail-version, page[aios-inSidebar] #detail-view #detail-creator, page[aios-inSidebar] #detail-view #detail-desc, page[aios-inSidebar] #detail-view #detail-fulldesc, page[aios-inSidebar] #detail-view #detail-grid * {
+    margin-left: 0;
+    margin-right: 0; }
+  page[aios-inSidebar] #detail-view #detail-name, page[aios-inSidebar] #detail-view #detail-desc {
+    font-weight: bold; }
+  page[aios-inSidebar] #detail-view #detail-screenshot {
+    margin-top: 5px;
+    max-width: none; }
+  page[aios-inSidebar] #detail-view #detail-contributions > hbox {
+    -moz-box-orient: vertical;
+    -moz-box-align: end; }
+  page[aios-inSidebar] #detail-view #detail-updates-row radio {
+    margin-right: 6px; }
+    page[aios-inSidebar] #detail-view #detail-updates-row radio .radio-icon {
+      margin-right: 3px; }
+  page[aios-inSidebar] #detail-view #detail-rating-row > hbox {
+    -moz-box-orient: vertical; }
+  page[aios-inSidebar] #detail-view #detail-controls button {
+    margin-left: 0; }
+  page[aios-inSidebar][aios-appDefTheme="true"] {
+    background-image: none;
+    /*[notification="warning"]
+        [notification="error"]
+        [pending="enable"]
+        [pending="upgrade"]
+        [pending="install"]
+        [pending="disable"]
+        [pending="uninstall"]*/
+    /* @group Windows */
+    /* @end */
+    /* @group Darwin */
+    /* @end */
+    /* @grou Linux */
+    /* @end */ }
+    page[aios-inSidebar][aios-appDefTheme="true"] .addon:not([selected="true"]) {
+      background-color: ButtonFace; }
+    page[aios-inSidebar][aios-appDefTheme="true"] #categories {
+      border-top: none;
+      border-bottom: 1px solid ThreedShadow;
+      background-color: Menu; }
+    page[aios-inSidebar][aios-appDefTheme="true"] .category, page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled]) {
+      border: none;
+      border-radius: 0; }
+      page[aios-inSidebar][aios-appDefTheme="true"] .category[selected="true"], page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled])[selected="true"] {
+        background-color: #C1D2EE; }
+      page[aios-inSidebar][aios-appDefTheme="true"] .category:hover, page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled]):hover {
+        background-color: #E0E8F6; }
+    page[aios-inSidebar][aios-appDefTheme="true"] #header {
+      border-top: 1px solid ThreedHighlight;
+      border-bottom: 1px solid ThreedShadow; }
+    page[aios-inSidebar][aios-appDefTheme="true"] #updates-container {
+      color: infotext;
+      background-color: infobackground;
+      border-bottom: 1px solid ThreedShadow; }
+    page[aios-inSidebar][aios-appDefTheme="true"] .view-header, page[aios-inSidebar][aios-appDefTheme="true"] #search-filter {
+      background-color: -moz-dialog;
+      border-top: 1px solid ThreedHighlight;
+      border-bottom: 1px solid ThreedShadow; }
+    page[aios-inSidebar][aios-appDefTheme="true"] #view-port-container {
+      border: 0;
+      border-radius: 0; }
+    page[aios-inSidebar][aios-appDefTheme="true"] .addon:not([selected="true"])[active=false]:not([pending]) {
+      opacity: 0.6; }
+      page[aios-inSidebar][aios-appDefTheme="true"] .addon:not([selected="true"])[active=false]:not([pending]):not([notification]) {
+        background-image: none; }
+    page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #warning-container, page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #error-container, page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #pending-container, page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #detail-header {
+      border-bottom: 2px solid;
+      -moz-border-bottom-colors: rgba(255, 255, 255, 0.2) rgba(28, 31, 37, 0.2); }
+    page[aios-inSidebar][aios-appDefTheme="true"] #detail-view #detail-screenshot {
+      border: 5px solid #ffffff;
+      border-radius: 5px; }
+    page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] {
+      /* @group Windows-XP klassisch */
+      /* @end */
+      /* @group Windows-Standard */
+      /* @end */ }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter {
+        color: black; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="1"], page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="2"] {
+          background-color: grey;
+          color: white;
+          box-shadow: none;
+          text-shadow: none; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="1"] {
+          list-style-image: url("../img/arrow-dn.png"); }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .sorter[checkState="2"] {
+          list-style-image: url("../img/arrow-up.png"); }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .addon {
+        border-top: none;
+        border-bottom-width: 1px;
+        border-bottom-style: dotted;
+        border-bottom-color: rgba(0, 0, 0, 0.3); }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] .addon:not([selected="true"])[active=true]:nth-child(odd) {
+          background-color: rgba(255, 255, 255, 0.6); }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"] #view-port-container {
+        background-color: transparent;
+        background-image: none; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"][aios-appOSVersion="Windows NT 5.1"] {
+        background-color: #efedea; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"][aios-appOSVersion="Windows NT 5.1"] #header {
+          background-color: -moz-dialog; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme) {
+        /* @group Windows-XP-Standard */
+        /* @end */
+        /* @group Windows-Vista-7-Standard */
+        /* @end */ }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme)[aios-appOSVersion="Windows NT 5.1"] {
+          background-color: #EDECEF; }
+          page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme)[aios-appOSVersion="Windows NT 5.1"] #header {
+            background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme):not([aios-appOSVersion="Windows NT 5.1"]) {
+          background-color: #EEF3FA; }
+          page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme):not([aios-appOSVersion="Windows NT 5.1"]) .view-header, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="WINNT"]:-moz-system-metric(windows-default-theme):not([aios-appOSVersion="Windows NT 5.1"]) #search-filter {
+            background-color: #ccd9ea; }
+    page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] {
+      background-color: #D4DDE5; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"]:-moz-window-inactive {
+        background-color: #e8e8e8; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] > hbox {
+        border-top: 1px solid #484848; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] > hbox:-moz-window-inactive {
+          border-top: 1px solid #929292; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories {
+        -moz-box-align: center;
+        background-color: -moz-mac-chrome-active;
+        border-top: 1px solid #c0c0c0;
+        border-left: 1px solid #c0c0c0;
+        border-bottom: 1px solid #484848; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories:-moz-window-inactive {
+          background-color: -moz-mac-chrome-inactive;
+          border-top: 1px solid #e1e1e1;
+          border-left: 1px solid #e1e1e1;
+          border-bottom: 1px solid #929292; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .scrollbox-innerbox {
+          margin: 0 0 2px 0;
+          padding: 0;
+          background-color: -moz-mac-chrome-active;
+          border-top: 1px solid #484848;
+          border-right: 1px solid #484848;
+          border-bottom: 1px solid #484848; }
+          page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .scrollbox-innerbox:-moz-window-inactive {
+            background-color: -moz-mac-chrome-inactive;
+            border-top: 1px solid #929292;
+            border-right: 1px solid #929292;
+            border-bottom: 1px solid #929292; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]) {
+          margin: 0;
+          padding: 5px;
+          border-left: 1px solid #484848;
+          background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x; }
+          page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:-moz-window-inactive, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]):-moz-window-inactive {
+            border-left: 1px solid #929292;
+            background: -moz-linear-gradient(top, #FFF, #ADADAD) repeat-x; }
+          page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"], page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"] {
+            background: #606060;
+            box-shadow: inset #2a2a2a 0 3px 3px; }
+            page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"]:-moz-window-inactive, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"]:-moz-window-inactive {
+              background: #bababa;
+              box-shadow: inset rgba(42, 42, 42, 0.6) 0 2px 2px; }
+          page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category .category-icon, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]) .category-icon {
+            max-width: 24px;
+            max-height: 24px;
+            opacity: 0.5; }
+            page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category .category-icon:-moz-window-inactive, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]) .category-icon:-moz-window-inactive {
+              opacity: 0.3; }
+          page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:hover .category-icon, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"] .category-icon, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]):hover .category-icon, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"] .category-icon {
+            opacity: 1; }
+            page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:hover .category-icon:-moz-window-inactive, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category[selected="true"] .category-icon:-moz-window-inactive, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled]):hover .category-icon:-moz-window-inactive, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #categories .category:not([disabled])[selected="true"] .category-icon:-moz-window-inactive {
+              opacity: 0.8; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #header {
+        padding: 11px 3px 6px 5px;
+        border-top: none;
+        border-bottom: none; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #updates-container {
+        margin: 5px 0 0 0; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #updates-container #close-btn {
+          margin: 0 5px 0 0;
+          padding: 0; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .view-header, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #search-filter {
+        background-color: #D4DDE5;
+        background-image: none;
+        border: none; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .view-header:-moz-window-inactive, page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #search-filter:-moz-window-inactive {
+          background-color: #e8e8e8; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #view-port-container {
+        background-color: #D4DDE5;
+        background-image: none; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #view-port-container:-moz-window-inactive {
+          background-color: #e8e8e8; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] #view-port richlistbox {
+        margin-top: 5px; }
+      page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .addon {
+        padding: 7px 5px;
+        border: none; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .addon:not([selected="true"])[active=true]:nth-child(odd) {
+          background-color: -moz-oddtreerow; }
+        page[aios-inSidebar][aios-appDefTheme="true"][aios-appOS="Darwin"] .addon .details {
+          margin-left: -3px; }
+    page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) #categories {
+      padding: 1px;
+      border: 1px solid ThreedShadow; }
+    page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) #header {
+      border: none; }
+    page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) category, page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) .category:not([disabled]) {
+      margin: 0 0 1px 0; }
+      page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) category[selected="true"], page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) .category:not([disabled])[selected="true"] {
+        background-color: highlight; }
+      page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) category:hover, page[aios-inSidebar][aios-appDefTheme="true"]:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) .category:not([disabled]):hover {
+        background-color: transparent; }
+  page[aios-inSidebar] richlistitem[type="user-script"] hbox.pending > vbox button:first-child {
+    display: none !important; }
