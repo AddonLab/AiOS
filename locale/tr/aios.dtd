@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Kenar çubuğu düğmesi">
 <!ENTITY menu.grippy.label "Grippy kenar çubuğu">
 <!ENTITY toolbar.name "All-in-One Kenar Araç Çubuğu">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Kenar Çubuğu başlık Araç Çubuğu">
+<!ENTITY sbhtoolbar.label "Yan-Çubuk-Başlığı">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "All-in-One Sidebar ile Düğme öğeleri düzenlendi">
 <!ENTITY button.switch.tooltip1 "Araç ve Kenar Çubuğu Düğmesi">
