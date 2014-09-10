@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Prepínač zobrazenia bočného panela">
 <!ENTITY menu.grippy.label "Zobraziť tlačidlá na skrývanie bočného panela">
 <!ENTITY toolbar.name "Lišta All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Zobraziť/Skryť elementy kontrolované All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Skryť bočný panel a panel s nástrojmi">

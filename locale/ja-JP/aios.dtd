@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "サイドバースイッチ">
 <!ENTITY menu.grippy.label "サイドバーグリップ">
 <!ENTITY toolbar.name "All-in-One Sidebar ツールバー">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "サイドバーヘッダー　ツールバー">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "All-in-One Sidebar のトグル機能">
 <!ENTITY button.switch.tooltip1 "サイドバーとツールバーの開閉">
