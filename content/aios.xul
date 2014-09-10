@@ -496,13 +496,14 @@
                 mode="icons"
                 iconsize="large"
                 persist="posMode mode iconsize flexbuttons hidden"
-                defaultset="bookmarks-button,history-button,separator,downloads-button,addons-button,separator,multipanel-button,pageinfo-button"
+                defaultset="bookmarks-button,history-button,downloads-button,separator,addons-button,multipanel-button,pageinfo-button,separator"
                 orient="vertical"
                 flex="1"
 
                 toolbarlabel="&toolbar.label;:"
                 posMode="1"
                 flexbuttons="false">
+
                 <observes element="nav-bar" attribute="brighttext" />
             </toolbar>
 
