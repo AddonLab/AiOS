@@ -503,6 +503,7 @@
                 toolbarlabel="&toolbar.label;:"
                 posMode="1"
                 flexbuttons="false">
+                <observes element="nav-bar" attribute="brighttext" />
             </toolbar>
 
             <toolbarset />
