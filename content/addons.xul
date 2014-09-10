@@ -57,7 +57,7 @@
 
         <spacer flex="1" />
 
-        <toolbarbutton id="close-btn" class="tabs-closebutton" oncommand="AiOS_Addons.hideNotification();" style="display:none;" />
+        <toolbarbutton id="close-btn" class="close-icon" oncommand="AiOS_Addons.hideNotification();" style="display:none;" />
 
     </hbox>
 

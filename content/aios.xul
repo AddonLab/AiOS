@@ -153,7 +153,7 @@
 
     <!-- AIOS-Toolbar-Buttons -->
     <toolbarpalette id="BrowserToolbarPalette">
-        <toolbarbutton id="sidebarclose-button" class="tabs-closebutton close-icon"
+        <toolbarbutton id="sidebarclose-button" class="close-icon"
             oncommand="aios_toggleSidebar(this);" ondblclick="event.stopPropagation();"
             tooltiptext="&sidebarCloseButton.tooltip;" label="&sidebarCloseButton.tooltip;" />
 
@@ -409,18 +409,19 @@
     <!-- Fx-Menue: Ansicht > Sidebar - popupshowing-Ueberwachung in aios_initSidebar() (hier wg. Komp. mit MenuManipulator) -->
     <menupopup id="viewSidebarMenu" onpopupshowing="aios_modSidebarMenu();">
 
-        <menuseparator id="bookmarks_sep" position="3" />
+        <menuitem id="downloads-mitem" observes="viewDownloadsSidebar" position="3" key="key_openDownloads" />
 
-        <menuitem id="downloads-mitem" observes="viewDownloadsSidebar" position="4" key="key_openDownloads" />
+        <menuseparator id="places_sep" position="4" />
+
         <menuitem id="addons-mitem" observes="viewAddonsSidebar" position="5" key="aiosKey_addons" />
+        <menuitem id="multipanel-mitem" observes="viewWebPanelsSidebar" position="6" key="aiosKey_multiPanel" />
+        <menuitem id="pageinfo-mitem" observes="viewPageInfoSidebar" position="7" key="aiosKey_pageInfo" />
 
-        <menuseparator position="6" />
+        <menuseparator id="addons_sep" position="8" />
 
-        <menuitem id="multipanel-mitem" observes="viewWebPanelsSidebar" position="7" key="aiosKey_multiPanel" />
-        <menuitem id="pageinfo-mitem" observes="viewPageInfoSidebar" position="8" key="aiosKey_pageInfo" />
         <menuitem id="console-mitem" observes="viewConsoleSidebar" position="9" key="key_errorConsole" />
 
-        <menuseparator id="aios-sidebar-mitem-sep1" position="10" />
+        <!-- <menuseparator id="aios-sidebar-mitem-sep1" position="10" /> -->
 
         <menuseparator id="aios-sidebar-mitem-sep0" position="94" />
 
@@ -495,13 +496,15 @@
                 mode="icons"
                 iconsize="large"
                 persist="posMode mode iconsize flexbuttons hidden"
-                defaultset="bookmarks-button,history-button,separator,downloads-button,addons-button,separator,multipanel-button,pageinfo-button"
+                defaultset="bookmarks-button,history-button,downloads-button,separator,addons-button,multipanel-button,pageinfo-button,separator"
                 orient="vertical"
                 flex="1"
 
                 toolbarlabel="&toolbar.label;:"
                 posMode="1"
                 flexbuttons="false">
+
+                <observes element="nav-bar" attribute="brighttext" />
             </toolbar>
 
             <toolbarset />

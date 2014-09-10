@@ -70,13 +70,13 @@ function aios_modSidebarMenu() {
         }
     }
 
-    var mitemsep1 = document.getElementById('aios-sidebar-mitem-sep1');
-    if(mitemsep1.nextSibling.id == "aios-sidebar-mitem-sep0" || mitemsep1.nextSibling.getAttribute('observes') == "viewConsole2Sidebar" || mitemsep1.nextSibling.getAttribute('observes') == "viewDmtSidebar")
-        mitemsep1.setAttribute('hidden', true);
+    // var mitemsep1 = document.getElementById('aios-sidebar-mitem-sep1');
+    // if(mitemsep1.nextSibling.id == "aios-sidebar-mitem-sep0" || mitemsep1.nextSibling.getAttribute('observes') == "viewConsole2Sidebar" || mitemsep1.nextSibling.getAttribute('observes') == "viewDmtSidebar")
+    //     mitemsep1.setAttribute('hidden', true);
 
 
     // Menueeintraege anzeigen/verbergen (Sidebar oeffnen/schliessen und Einstellungen) und verschieben
-    var showhideMenuseparator = document.getElementById('aios-sidebar-mitem-sep0');
+    //var showhideMenuseparator = document.getElementById('aios-sidebar-mitem-sep0');
     var paneltabMitem1 = document.getElementById('aios-sidebar-mitem-paneltab1');
     var paneltabMitem2 = document.getElementById('aios-sidebar-mitem-paneltab2');
     var sidebarshowMitem = document.getElementById('aios-sidebar-mitem-show');
@@ -108,7 +108,7 @@ function aios_modSidebarMenu() {
     // Menueeintraege ganz nach unten verschieben, wenn das Menue noch nicht bearbeitet wurde
     if(!aios_getBoolean(fx_sidebarMenu, 'aios-modified')) {
 
-        fx_sidebarMenu.appendChild(showhideMenuseparator);
+        //fx_sidebarMenu.appendChild(showhideMenuseparator);
         fx_sidebarMenu.appendChild(paneltabMitem1);
         fx_sidebarMenu.appendChild(paneltabMitem2);
         fx_sidebarMenu.appendChild(sidebarshowMitem);
