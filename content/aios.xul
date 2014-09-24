@@ -448,7 +448,7 @@
         <!-- fuer CSS benoetigt -->
         <observes element="aios-toolbar" attribute="posMode" />
 
-    <!-- Sidebar-Switch -->
+        <!-- Sidebar-Switch -->
         <toolbox id="aios-toggle-toolbox" insertafter="browser-border-start" class="chromeclass-toolbar"
             persist="hidden fsToolbar fsToolbarMode fsToolbarIconsize fsSidebar fsSwitch">
 
@@ -471,13 +471,13 @@
         </toolbox>
 
 
-    <!-- TOOLBOX LINKS NEBEN DER SIDEBAR -->
+        <!-- TOOLBOX LINKS NEBEN DER SIDEBAR -->
         <toolbox id="aios-toolbox-left" class="chromeclass-toolbar"
             insertbefore="sidebar-box"
             defaultmode="icons"
             vertical="true">
 
-        <!-- mode und iconsize noetig, um Optionen im Konfigrationsdialog syncron zu halten  -->
+            <!-- mode und iconsize noetig, um Optionen im Konfigrationsdialog syncron zu halten  -->
             <observes element="aios-toolbar" attribute="mode" />
             <observes element="aios-toolbar" attribute="defaultmode" />
             <observes element="aios-toolbar" attribute="iconsize" />
@@ -511,7 +511,7 @@
         </toolbox>
 
 
-    <!-- TOOLBOX RECHTS NEBEN DER SIDEBAR -->
+        <!-- TOOLBOX RECHTS NEBEN DER SIDEBAR -->
         <toolbox id="aios-toolbox-right" insertbefore="sidebar-splitter" defaultmode="icons" class="chromeclass-toolbar" vertical="true" palette="BrowserToolbarPalette">
 
             <observes element="aios-toolbar" attribute="mode" />
@@ -541,7 +541,7 @@
             <!-- SIDEBARHEADER -->
             <sidebarheader id="sidebar-header" tooltip="sidebarheader-tooltip">
 
-        <!-- Attribut wird in CSS benoetigt (aios.css) -->
+                <!-- Attribut wird in CSS benoetigt (aios.css) -->
                 <observes element="aios-sbhtoolbar" attribute="iconsize" />
 
                 <toolbarbutton id="sidebars-titlebutton" type="menu" ondblclick="this.childNodes[1].hidePopup();" flex="1" position="1">

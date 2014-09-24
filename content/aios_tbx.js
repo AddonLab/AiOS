@@ -100,15 +100,6 @@ function aios_onToolbarPopupShowing(aWhich) {
 
         // Flexible Schaltflaechen
         document.getElementById('aios-view-mitem5').setAttribute('checked', aios_toolbar.getAttribute('flexbuttons') == "true");
-
-        /*/ keine Konfigurationsmoeglichkeiten in Mac OS X
-        if(AiOS_HELPER.os == "Darwin") {
-            if(document.getElementById('aios-customize-separator'))
-                document.getElementById('aios-toolbar-contextmenu').removeChild(document.getElementById('aios-customize-separator'));
-
-            if(document.getElementById('aios-customize-mitem'))
-                document.getElementById('aios-toolbar-contextmenu').removeChild(document.getElementById('aios-customize-mitem'));
-        }*/
     }
     /*
     Sidebarheader-Toolbar
@@ -121,15 +112,6 @@ function aios_onToolbarPopupShowing(aWhich) {
         // Icongroesse
         document.getElementById('aios-sbhview-mitem4').setAttribute('checked', aios_gElem("aios-sbhtoolbar").getAttribute('iconsize') == "small");
         fx_sidebarHeader.setAttribute('iconsize', aios_gElem("aios-sbhtoolbar").getAttribute('iconsize'));
-
-        /*/ keine Konfigurationsmoeglichkeiten in Mac OS X
-        if(AiOS_HELPER.os == "Darwin") {
-            if(document.getElementById('aios-sbhcustomize-separator'))
-                document.getElementById('aios-sbhtoolbar-contextmenu').removeChild(document.getElementById('aios-sbhcustomize-separator'));
-
-            if(document.getElementById('aios-sbhcustomize-mitem'))
-                document.getElementById('aios-sbhtoolbar-contextmenu').removeChild(document.getElementById('aios-sbhcustomize-mitem'));
-        }*/
     }
 }
 
@@ -273,13 +255,6 @@ function aios_toggleToolbar(aWhich) {
 
     aios_toolbar.hidden = mode;
 
-    // setting (collapsed) aus aelteren Versionen (<= 0.7.8) rueckgaengig machen (war auf persist gesetzt)
-    // wenn die Toolbox 'collapsed' ist (Observer der Toolbar), ist die Sidebargroesse nicht veraenderbar, wenn die Toolbar deaktiviert ist
-    /*if(aios_toolbar.getAttribute('collapsed')) {
-        aios_toolbar.removeAttribute('collapsed');
-        document.persist(aios_toolbar.id, 'collapsed');
-    }*/
-
     aios_adjustToolboxWidth(false);
 }
 
@@ -317,7 +292,5 @@ function aios_addToolbarMitem(aWhich) {
     }
 
     // AiOS-Toolbar einfuegen
-    //popup.insertBefore(menuItem.cloneNode(true), popup.firstChild);
-    //popup.insertBefore(menuItem.cloneNode(true), popup.lastChild.previousSibling);
     popup.insertBefore(menuItem.cloneNode(true), aios_context_sep);
 }

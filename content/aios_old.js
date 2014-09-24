@@ -1,7 +1,4 @@
 
-// dem Sidebarheader eine ID zuweisen => dann per CSS ansprechbar (bei load oder DOMContentLoaded zu spaet)
-//top.document.getElementById("sidebar-throbber").parentNode.setAttribute('id', 'sidebar-header');
-
 window.addEventListener("load", aios_initSidebar, false);
 window.addEventListener("resize", aios_checkThinSwitch, false);
 window.addEventListener("mozfullscreenchange", aios_BrowserFullScreen, false);
@@ -62,11 +59,6 @@ function aios_getObjects() {
 function aios_initSidebar() {
     aios_getObjects();
 
-    // Toolbarbuttons in der Sidebarheader Toolbar ohne Button-Gedoens anzeigen
-    /*for(var i = 0; i < document.getElementById('aios-sbhtoolbar').childNodes.length; i++) {
-        aios_stripClass(document.getElementById('aios-sbhtoolbar').childNodes[i], 'toolbarbutton-1');
-    }*/
-
     // MacOS X => Tastaturkuerzel ersetzen (Strg. wird durch Command ersetzt und Umschalt durch das Symbol dafuer)
     if(AiOS_HELPER.os == "Darwin") {
         aios_replaceKey('switch-tooltip-box', 'r2c2', 'command');
@@ -99,11 +91,6 @@ function aios_initSidebar() {
         // Sidebar-Breite nach Konfiguration festsetzen
         aios_setConfSidebarWidth();
     }
-
-
-    // Sidebarheader-Symbolleiste aus der Navigations-Symbolleiste in den Sidebarheader verschieben
-    // wenn die Symbolleiste gleich im Header waere, wuerden keine Icons angezeigt werden, wenn die Sidebar beim Start geschlossen ist
-    //document.getElementById('aios-sbhtoolbox').appendChild(document.getElementById('aios-sbhtoolbar'));
 
 
     // legt commands (Ziele) fuer Manager und Fenster lt. Einstellungen fest
@@ -199,8 +186,6 @@ function aios_initSidebar() {
     // Sidebars-Menue ueberwachen - noetig fuer den Fall, dass ein erster Aufruf durch das View-Menue erfolgt
     //fx_sidebarMenu.addEventListener('popupshowing', aios_modSidebarMenu, false);
 
-    // Sidebar-Ladezustand ueberwachen
-    /*document.getElementById('sidebar').addProgressListener(aiosSBListener, Components.interfaces.nsIWebProgress.NOTIFY_STATE_DOCUMENT);*/
 
     // Drag&Drop-Funktion fuer den Sidebar-Umschalter deaktivieren?
     try {

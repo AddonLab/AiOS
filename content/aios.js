@@ -10,11 +10,6 @@ var AiOS = {
     },
 
 
-    // initOnLoad: function() {
-
-    // },
-
-
     beforeCustomization: function() {
 
         var toolbars = new Array(AiOS_HELPER.aiosToolbar, AiOS_HELPER.sbhToolbar);
@@ -88,7 +83,6 @@ var AiOS = {
 };
 
 window.addEventListener("DOMContentLoaded", AiOS.initOnDOMLoaded, false);
-//window.addEventListener("load", AiOS.initOnLoad, false);
 window.addEventListener("unload", AiOS.unload, false);
 
 gNavToolbox.addEventListener("beforecustomization", AiOS.beforeCustomization, false);
