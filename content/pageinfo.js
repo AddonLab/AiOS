@@ -31,9 +31,6 @@ function aios_init() {
 
     // Tastaturkuerzel entfernen, um nicht die des Hauptbrowsers zu blockieren
     if(aios_inSidebar) aios_removeAccesskeys();
-
-    //alert(document.getElementById('topBar').clientWidth);
-    //document.getElementById('metatree').getElementsByTagName('treechildren')[0].style.maxWidth = document.getElementById('topBar').clientWidth + "px";
 }
 
 

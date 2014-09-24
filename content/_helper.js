@@ -46,7 +46,6 @@ var AiOS_HELPER = {
 AiOS_HELPER.init();
 
 window.addEventListener("DOMContentLoaded", AiOS_HELPER.initOnDOMLoaded, false);
-//window.addEventListener("load", AiOS_HELPER.initOnLoad, false);
 window.addEventListener("unload", AiOS_HELPER.unload, false);
 
 
@@ -116,13 +115,6 @@ function aios_addTab(aUrl) {
         //alert(browser.getBrowserAtIndex(i).currentURI.spec);
 
         var isPermaTab = (browser.tabContainer.childNodes[i].getAttribute('isPermaTab')) ? true : false;
-        //alert(isPermaTab);
-
-        /*var attribs = browser.tabContainer.childNodes[i].attributes;
-        //var attribs = browser.mCurrentTab.attributes;
-        for(var a = 0; a < attribs.length; a++) {
-            alert(attribs[a].name + ": " + attribs[a].value);
-        }*/
 
         // wenn der Tab leer ist
         if(browserDoc.location.href == "about:blank" && browser.selectedTab.getAttribute('openBy') != "aios" && !isPermaTab && emptyTab == null)
