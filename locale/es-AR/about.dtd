@@ -2,10 +2,12 @@
 <!ENTITY settings "Configuración…">
 <!ENTITY close "Cerrar">
 <!ENTITY tab.about "Acerca de">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Contribuyeron">
 <!ENTITY tab.trans "Traductores">
 <!ENTITY about.desc "La barra lateral de All-in-One le permite abrir varias ventanas como paneles laterales, y rápidamente alternar entre ellos. Así le ponemos fin al caos de ventanas! Adicionalmente a los marcadores y al historial, puede abrir dialogos como ser descargas, agregados y mucho mas en la barra lateral.">
 <!ENTITY create.desc "creado por Ingo Wennemaring, Hamburgo [Alemania]">
+<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Página Principal - mucha información de un vistazo">
 <!ENTITY about2.name "Características - todas las características de All-in-One Sidebar">
 <!ENTITY about3.name "FAQ - Preguntas más frecuentes y sus respuestas">
