@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "Онемогући унос активне бочне траке">
 <!ENTITY misc.enablesidebar.label "Отвори у бочној траци">
 <!ENTITY misc.layout.label "Побољшај изглед бочне траке">
+<!ENTITY misc.dm.overlay "Измените опције за понашање бочне траке">
 <!ENTITY misc.dm.autoopen.label "Прикажи бочну траку са преузимањима приликом преузимања датотека">
 <!ENTITY misc.dm.autoclose.label "Затвори је је када се сва преузимања заврше">
 <!ENTITY misc.colors.label "Омогући позадине у боји засноване на тренутном стању">

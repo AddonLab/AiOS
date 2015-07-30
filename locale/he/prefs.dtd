@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "נטרול הערך של סרגל הצד הפעיל">
 <!ENTITY misc.enablesidebar.label "פתיחה בסרגל-הצד">
 <!ENTITY misc.layout.label "שיפור מערך סרגל-הצד">
+<!ENTITY misc.dm.overlay "שינוי האפשרויות להתנהגות סרגל-הצד">
 <!ENTITY misc.dm.autoopen.label "הצגת סרגל-הצד של ההורדות כאשר מורד קובץ">
 <!ENTITY misc.dm.autoclose.label "סגירת (סרגל-הצד) כאשר כל ההורדות מסתיימות">
 <!ENTITY misc.colors.label "אפשור צבעי רקע המבוססים על המצב הנוכחי">

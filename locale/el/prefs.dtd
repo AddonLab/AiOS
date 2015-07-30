@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "Απενεργοποίηση καταχωρίσεων στην ενεργή πλευρική στήλη">
 <!ENTITY misc.enablesidebar.label "Άνοιγμα σε πλευρική στήλη">
 <!ENTITY misc.layout.label "Βελτιστοποίηση διάταξης για την πλευρική στήλη">
+<!ENTITY misc.dm.overlay "Αλλαγή επιλογών συμπεριφοράς πλευρικής στήλης">
 <!ENTITY misc.dm.autoopen.label "Προβολή της πλευρικής στήλης λήψεων κατά τη λήψη αρχείων">
 <!ENTITY misc.dm.autoclose.label "Κλείσιμο όταν ολοκληρωθούν οι λήψεις">
 <!ENTITY misc.colors.label "Ενεργοποίηση έγχρωμου φόντου με βάση την τρέχουσα κατάσταση">

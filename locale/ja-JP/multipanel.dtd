@@ -6,7 +6,6 @@
 <!ENTITY about.tooltip "ブラウザに関する情報を表示します">
 <!ENTITY about.config.tooltip "設定上の構成及び変数のインタフェースを表示します">
 <!ENTITY about.plugins.tooltip "インストール済のプラグイン情報を表示します">
-<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "メモリ及びディスク・キャッシュに関する情報を表示します">
 <!ENTITY about.cache.disk.tooltip "ディスク上の個別キャッシュを表示します">
 <!ENTITY about.cache.memory.tooltip "メモリ上の個別キャッシュを表示します">

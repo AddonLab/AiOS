@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "メニュー">
 <!ENTITY tab.menus.sidebar "サイドバー">
 <!ENTITY tab.keys "ショートカット">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "外観設定">
 <!ENTITY gen.orient.label "表示位置方向">
 <!ENTITY gen.orient.left "左側に置く">
@@ -79,6 +78,7 @@
 <!ENTITY menus.sidebar.entrydeac "アクティブなサイドバーのエントリーを無効にする">
 <!ENTITY misc.enablesidebar.label "サイドバーで開く">
 <!ENTITY misc.layout.label "サイドバーの最適化">
+<!ENTITY misc.dm.overlay "サイドバー機能の設定変更">
 <!ENTITY misc.dm.autoopen.label "ファイルのダウンロード時にダウンロードマネージャをサイドバーに開く">
 <!ENTITY misc.dm.autoclose.label "ダウンロード完了時にダウンロードマネージャを閉じる">
 <!ENTITY misc.colors.label "現状の背景色を有効にする">

@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Կողավահանակի Փոխանջատիչ">
 <!ENTITY menu.grippy.label "Կողավահանակի բռնակ">
 <!ENTITY toolbar.name "All-in-One Sidebar Գործիքաշար">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Կողավահանակի վերնագրի Գործիքաշար">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Փոխանջատել">
 <!ENTITY button.switch.tooltip1 "Կողավահանակը և Գործիքաշարը">

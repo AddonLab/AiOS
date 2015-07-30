@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "Valikot">
 <!ENTITY tab.menus.sidebar "Sivupaneeli">
 <!ENTITY tab.keys "Oikotiet">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Paikoitus">
 <!ENTITY gen.orient.label "Näytä sivupaneeli">
 <!ENTITY gen.orient.left "vasemmalla puolella">
@@ -79,6 +78,7 @@
 <!ENTITY menus.sidebar.entrydeac "Poista käytöstä aktiivisen sivupaneelin valinta">
 <!ENTITY misc.enablesidebar.label "Avaa sivupaneelissa">
 <!ENTITY misc.layout.label "Optimoi taitto sivupaneelille">
+<!ENTITY misc.dm.overlay "Muuta sivupalkin käyttäytymistä">
 <!ENTITY misc.dm.autoopen.label "Näytä lataussivupaneeli kun ladataan tiedostoa">
 <!ENTITY misc.dm.autoclose.label "Sulje kun lataukset ovat valmistuneet">
 <!ENTITY misc.colors.label "Ota käyttöön värilliset taustat perustuen nykyiseen tilaan">

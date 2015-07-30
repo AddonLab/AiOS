@@ -6,7 +6,6 @@
 <!ENTITY about.tooltip "Hiện thông tin khác về trình duyệt">
 <!ENTITY about.config.tooltip "Hiện giao diện cho việc xem và thiết lập các biến cấu hình khác nhau">
 <!ENTITY about.plugins.tooltip "Hiện thông tin về tất cả các phần bổ trợ đã cài đặt">
-<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "Hiện thông tin về Dịch vụ Bộ đệm của cả bộ nhớ và ổ đĩa">
 <!ENTITY about.cache.disk.tooltip "Liệt kê các mục bộ đệm trên đĩa">
 <!ENTITY about.cache.memory.tooltip "Liệt kê các mục bộ đệm trong bộ nhớ">

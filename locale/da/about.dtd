@@ -2,12 +2,9 @@
 <!ENTITY settings "Indstillinger…">
 <!ENTITY close "Luk">
 <!ENTITY tab.about "Om">
-<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Bidragydere">
 <!ENTITY tab.trans "Oversættere">
-<!ENTITY about.desc "The All-in-One Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogues such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "skabt af Ingo Wennemaring, Hamburg [Tyskland]">
-<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Hjemmeside - mange informationer i en side">
 <!ENTITY about2.name "Faciliteter - alle Alt-I-En Sidebjælkens faciliteter">
 <!ENTITY about3.name "OSS - Ofte stillede spørgsmål og svar">
@@ -47,7 +44,6 @@
 <!ENTITY trans.ro-RO.lang "Rumænsk">
 <!ENTITY trans.ru-RU.lang "Russisk">
 <!ENTITY trans.sk-SK.lang "Slovakisk">
-<!ENTITY trans.sq-AL.lang "Albanian">
 <!ENTITY trans.sr-RS.lang "Serbisk (Kyrillisk)">
 <!ENTITY trans.sv-SE.lang "Svensk">
 <!ENTITY trans.tr-TR.lang "Tyrkisk">

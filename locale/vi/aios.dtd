@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Công tắc Thanh lề">
 <!ENTITY menu.grippy.label "Thanh lề Grippy">
 <!ENTITY toolbar.name "Thanh All-in-One Sidebar">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Thanh công cụ Đầu đề Thanh lề">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Bật tắt các phần tử được All-in-One Sidebar điều khiển">
 <!ENTITY button.switch.tooltip1 "Bật tắt Thanh lề và Thanh công cụ">

@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "Відключити вміст активної бічної панелі">
 <!ENTITY misc.enablesidebar.label "Відкривати у бічній панелі">
 <!ENTITY misc.layout.label "Оптимізовувати простір">
+<!ENTITY misc.dm.overlay "Зміна поведінки бічної панелі">
 <!ENTITY misc.dm.autoopen.label "Показувати бічну панель завантажень під час завантаження файлу">
 <!ENTITY misc.dm.autoclose.label "Закривати її після завершення всіх завантажень">
 <!ENTITY misc.colors.label "Застосовувати кольоровий фон відповідно до поточного стану">

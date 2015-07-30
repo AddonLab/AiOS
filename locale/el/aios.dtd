@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Διακόπτης πλευρικής στήλης">
 <!ENTITY menu.grippy.label "Λαβή πλευρικής στήλης">
 <!ENTITY toolbar.name "Εργαλειοθήκη All-in-One Sidebar">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Εργαλειοθήκη κεφαλίδας πλευρικής στήλης">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AIOS">
 <!ENTITY button.toggle.tooltip "Εναλλαγή κατάστασης των στοιχείων που διαμορφώνει το All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Εναλλαγή πλευρικής στήλης και εργαλειοθήκης">

@@ -2,12 +2,10 @@
 <!ENTITY settings "Նախընտրանքներ…">
 <!ENTITY close "Փակել">
 <!ENTITY tab.about "Մասին">
-<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Մասնակիցներ">
 <!ENTITY tab.trans "Թարգմանիչներ">
 <!ENTITY about.desc "All-in-One Sidebar-ը թույլ է տալիս բացել բազմապիսի պատուհաններ կողավահանակում եւ փոխանջատվել դրանց մեջ: Այսպիսով այն վերջ է տալիս պատուհանների քաոսին:Բացի ՛Պատմություն՛ եւ ՛Էջադիրներ՛ պատուհաններից այն բացում է նաեւ այնպիսի պատուհաններ ինչպիսիք են ՛Քաշելիքներ՛, ՛Ավելացումներ՛ եւ շատ ավելին:">
 <!ENTITY create.desc "Ստեղծող` Ingo Wennemaring, Համբուրգ [Գերմանիա]">
-<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Գլխավոր կայք - մեծ քանակությամբ տեղեկություն մեկ տեղում">
 <!ENTITY about2.name "Հնարավորությունները -«All-in-One Sidebar»-ի բոլոր հնարավորությունները">
 <!ENTITY about3.name "ՀՏՀ ` հաճախ տրվող հարցեր և պատասխաններ">

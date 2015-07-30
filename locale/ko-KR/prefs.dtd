@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "메뉴">
 <!ENTITY tab.menus.sidebar "탐색 창">
 <!ENTITY tab.keys "단축키">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "위치">
 <!ENTITY gen.orient.label "탐색 창을">
 <!ENTITY gen.orient.left "왼쪽에 표시">
@@ -79,6 +78,7 @@
 <!ENTITY menus.sidebar.entrydeac "역동적인 탐색 창 목록을 안 쓰기">
 <!ENTITY misc.enablesidebar.label "탐색 창 안에 열기">
 <!ENTITY misc.layout.label "탐색 창에 알맞은 모양으로 바꾸기">
+<!ENTITY misc.dm.overlay "탐색 창의 동작에 관한 설정을 변경">
 <!ENTITY misc.dm.autoopen.label "파일을 다운로드할 때 다운로드 탐색 창 보이기">
 <!ENTITY misc.dm.autoclose.label "다운로드가 모두 끝나면 탐색 창을 닫기">
 <!ENTITY misc.colors.label "현재 상태를 기초로 한 색깔있는 배경 쓰기">

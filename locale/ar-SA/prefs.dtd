@@ -14,14 +14,12 @@
 <!ENTITY tab.gen.fullscreen "نمط ملء الشاشة">
 <!ENTITY tab.gen.special "خاص">
 <!ENTITY tab.panels "لوحات">
-<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "آخر 1">
 <!ENTITY tab.panels.other2 "آخر 2">
 <!ENTITY tab.panels.paneltab "لسان اللوحات">
 <!ENTITY tab.menus "القوائم">
 <!ENTITY tab.menus.sidebar "الشريط الجانبي">
 <!ENTITY tab.keys "اختصارات">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "التحويل">
 <!ENTITY gen.orient.label "اظهر شريط الأدوات على">
 <!ENTITY gen.orient.left "الجانب الأيسر">
@@ -79,6 +77,7 @@
 <!ENTITY menus.sidebar.entrydeac "تعطيل المدخل لاشريط الجانبي النشط">
 <!ENTITY misc.enablesidebar.label "افتح الشريط الجانبي">
 <!ENTITY misc.layout.label "تحسين تنسيق الشريط الجانبي">
+<!ENTITY misc.dm.overlay "تغيير الخيارات لسلوك الشريط الجانبي">
 <!ENTITY misc.dm.autoopen.label "إظهار الشريط الجانبي للتحميل عند تنزيل ملف">
 <!ENTITY misc.dm.autoclose.label "إغلقه عند إنهاء جميع التنزيلات">
 <!ENTITY misc.colors.label "تمكن الخلفيات الملونة على أساس الوضع الحالي">

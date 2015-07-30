@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "Մենյուներ">
 <!ENTITY tab.menus.sidebar "Կողավահանակ">
 <!ENTITY tab.keys "Կոճակներ">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Դիրքը">
 <!ENTITY gen.orient.label "Կողավահանակը">
 <!ENTITY gen.orient.left "ձախից">
@@ -79,6 +78,7 @@
 <!ENTITY menus.sidebar.entrydeac "Ընթացիկ վահանակի կոճակը փակել">
 <!ENTITY misc.enablesidebar.label "Բացել կողավահանակում">
 <!ENTITY misc.layout.label "Հարմարեցնել տեսքը կողավահանակին">
+<!ENTITY misc.dm.overlay "Փոխել կողավահանակի վարքի ընտրանքները">
 <!ENTITY misc.dm.autoopen.label "Ցույց տալ պատուհանը քաշելու ժամանակ">
 <!ENTITY misc.dm.autoclose.label "Փակել ավարտից հետո">
 <!ENTITY misc.colors.label "Թույլտարել ֆոնի գունավորումը">

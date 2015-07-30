@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "Menús">
 <!ENTITY tab.menus.sidebar "Panel lateral">
 <!ENTITY tab.keys "Combinaciones de teclas">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientación">
 <!ENTITY gen.orient.label "Mostrar el panel en">
 <!ENTITY gen.orient.left "parte izquierda">
@@ -79,6 +78,7 @@
 <!ENTITY menus.sidebar.entrydeac "Deshabilitar la entrada del panel activo">
 <!ENTITY misc.enablesidebar.label "Abrir en el panel lateral">
 <!ENTITY misc.layout.label "Optimización del panel lateral">
+<!ENTITY misc.dm.overlay "Cambiar las opciones para el comportamiento del panel lateral">
 <!ENTITY misc.dm.autoopen.label "Mostrar el panel lateral de descargas al descargar un archivo">
 <!ENTITY misc.dm.autoclose.label "Cerrarlo cuando todas las descargas hayan terminado">
 <!ENTITY misc.colors.label "Habilitar los fondos de colores basados en el estado actual">

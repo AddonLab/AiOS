@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "Ta bort menyvalet för den aktiva panelen">
 <!ENTITY misc.enablesidebar.label "Öppna i sidopanelen">
 <!ENTITY misc.layout.label "Optimering av sidopanelen">
+<!ENTITY misc.dm.overlay "Ändra inställningar för sidopanelens beteende">
 <!ENTITY misc.dm.autoopen.label "Visa filhämtningssidopanelen när en fil hämtas">
 <!ENTITY misc.dm.autoclose.label "Stäng den när alla hämtningar är slutförda">
 <!ENTITY misc.colors.label "Aktivera färgbakgrund beroende på läge">

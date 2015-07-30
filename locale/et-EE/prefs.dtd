@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "Keela aktiivse külgpaani kirje">
 <!ENTITY misc.enablesidebar.label "Ava külgpaanis">
 <!ENTITY misc.layout.label "Optimeeri kujutamist külgpaani jaoks">
+<!ENTITY misc.dm.overlay "Muuda külgpaani käitumist">
 <!ENTITY misc.dm.autoopen.label "Näita tõmbamiste külgpaani kui faili tõmmatakse">
 <!ENTITY misc.dm.autoclose.label "Sulge see, kui kõik tõmbamised on lõpetatud">
 <!ENTITY misc.colors.label "Luba hetkeseisundil põhinevad värvilised taustad">

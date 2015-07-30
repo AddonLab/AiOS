@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "Alle items van de actieve zijbalk uitschakelen">
 <!ENTITY misc.enablesidebar.label "In de zijbalk openen">
 <!ENTITY misc.layout.label "Layout voor de zijbalk optimaliseren">
+<!ENTITY misc.dm.overlay "Opties veranderen voor zijbalkgedrag">
 <!ENTITY misc.dm.autoopen.label "Downloadzijbalk tonen tijdens het downloaden van een bestand">
 <!ENTITY misc.dm.autoclose.label "Sluiten wanneer alle downloads klaar zijn">
 <!ENTITY misc.colors.label "Gekleurde achtergronden gebaseerd op de huidige toestand inschakelen">

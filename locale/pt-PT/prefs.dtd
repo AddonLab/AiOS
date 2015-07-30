@@ -79,6 +79,7 @@
 <!ENTITY menus.sidebar.entrydeac "Desactivar a opção da barra lateral activa no menu">
 <!ENTITY misc.enablesidebar.label "Abrir na barra lateral">
 <!ENTITY misc.layout.label "Optimizar o esquema para a barra lateral">
+<!ENTITY misc.dm.overlay "Mudar opções para o comportamento da barra lateral">
 <!ENTITY misc.dm.autoopen.label "Mostra a barra lateral de transferências ao transferir um ficheiro">
 <!ENTITY misc.dm.autoclose.label "Fechar quando todas as transferências trminarem">
 <!ENTITY misc.colors.label "Activar cores de fundo baseado no estado actual">

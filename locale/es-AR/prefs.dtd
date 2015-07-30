@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "Menues">
 <!ENTITY tab.menus.sidebar "Barra Lateral">
 <!ENTITY tab.keys "Atajos">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientación">
 <!ENTITY gen.orient.label "Mostrar barra lateral">
 <!ENTITY gen.orient.left "a la izquerda">
@@ -79,6 +78,7 @@
 <!ENTITY menus.sidebar.entrydeac "Deshabilitar el Ingreso de la Barra Lateral Activa">
 <!ENTITY misc.enablesidebar.label "Abrir Barra Lateral">
 <!ENTITY misc.layout.label "Optimizar la disposición de la Barra Lateral">
+<!ENTITY misc.dm.overlay "Cambiar las opciones de comportamiento de la barra lateral">
 <!ENTITY misc.dm.autoopen.label "Mostrat la barra lateral de Descargas al descargar un archivo">
 <!ENTITY misc.dm.autoclose.label "Cerrarla cuando todas las descargas hayan finalizado">
 <!ENTITY misc.colors.label "Habilitar fondos coloreados en el estado actual">
