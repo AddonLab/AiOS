@@ -1,1 +1,138 @@
-window[aios-appDefTheme="true"]{}window[aios-appDefTheme="true"] #aios-toggle-toolbar,window[aios-appDefTheme="true"] #aios-toolbar{background-color:-moz-mac-chrome-active;}window[aios-appDefTheme="true"] #aios-toggle-toolbar:-moz-window-inactive,window[aios-appDefTheme="true"] #aios-toolbar:-moz-window-inactive{background-color:-moz-mac-chrome-inactive;}window[aios-appDefTheme="true"] #aios-toolbar[orient="horizontal"]{padding:3px 0 4px 0;}window[aios-appDefTheme="true"] #aios-toggle-toolbar{border-top:1px solid #c0c0c0;border-right:1px solid #484848;}window[aios-appDefTheme="true"] #aios-toggle-toolbar:-moz-window-inactive{border-top:1px solid #e1e1e1;border-right:1px solid #929292;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbox{border-left:1px solid #484848;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbox:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbar{border-left:1px solid #c0c0c0;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbar:-moz-window-inactive{border-left:1px solid #e1e1e1;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="1"]{border-top:1px solid #c0c0c0;border-left:1px solid #c0c0c0;border-right:1px solid #484848;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="1"]:-moz-window-inactive{border-top:1px solid #e1e1e1;border-left:1px solid #e1e1e1;border-right:1px solid #929292;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="1"]{border-left:2px groove #484848;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="1"]:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="1"]{border-right:none;}window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="1"]:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="2"]{border-top:1px solid #c0c0c0;border-left:2px groove #484848;border-right:1px solid #484848;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="2"]:-moz-window-inactive{border-top:1px solid #e1e1e1;border-left:1px solid #929292;border-right:1px solid #929292;}window[aios-appDefTheme="true"][aiosOpen="false"] #aios-toolbar[posMode="2"]{border-left:1px solid #c0c0c0;}window[aios-appDefTheme="true"][aiosOpen="false"] #aios-toolbar[posMode="2"]:-moz-window-inactive{border-left:1px solid #e1e1e1;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="2"]{border-right:none;}window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="2"]{border-left:2px groove #484848;}window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="2"]:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="3"]{border-right:1px solid #484848;border-top:1px solid #c0c0c0;border-bottom:1px solid #484848;border-left:1px solid #c0c0c0;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="3"]:-moz-window-inactive{border-top:1px solid #e1e1e1;border-right:1px solid #929292;border-bottom:1px solid #929292;border-left:1px solid #e1e1e1;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="3"]{border-right:none;border-left:1px solid #484848;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="3"]:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="4"]{border-top:2px groove #c0c0c0;border-right:1px solid #484848;border-bottom:1px solid #484848;border-left:1px solid #c0c0c0;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="4"]:-moz-window-inactive{border-top:2px groove #e1e1e1;border-right:1px solid #929292;border-bottom:1px solid #929292;border-left:1px solid #e1e1e1;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="4"]{border-right:none;border-left:1px solid #484848;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="4"]:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="5"]{border-top:2px groove #c0c0c0;border-right:1px solid #484848;border-left:1px solid #c0c0c0;}window[aios-appDefTheme="true"] #aios-toolbar[posMode="5"]:-moz-window-inactive{border-top:2px groove #e1e1e1;border-right:1px solid #929292;border-left:1px solid #e1e1e1;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="5"]{border-right:none;border-left:1px solid #484848;}window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="5"]:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"] grippy:hover{background-color:#D4DDE5 !important;}window[aios-appDefTheme="true"] #sidebar-splitter grippy:hover{background-color:-moz-mac-chrome-active !important;}window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"]{border:none;border-right:1px solid #484848;background-color:#D4DDE5;}window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"]:-moz-window-inactive{background-color:#e8e8e8;border-right:1px solid #929292;}window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"][grippy="false"]{min-width:3px;}window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"][grippy="true"]{min-width:6px;}window[aios-appDefTheme="true"][aiosOrient="right"] #sidebar-splitter[orient="horizontal"]{border-left:1px solid #484848;border-right:none;}window[aios-appDefTheme="true"][aiosOrient="right"] #sidebar-splitter[orient="horizontal"]:-moz-window-inactive{border-left:1px solid #929292;}window[aios-appDefTheme="true"] #aios-toolbar toolbarseparator,window[aios-appDefTheme="true"] #aios-toolbar toolbarpaletteitem[id^="wrapper-separator"]{margin:0 1px;border-left:1px dotted #484848;}window[aios-appDefTheme="true"] #aios-toolbar[orient="vertical"] toolbarseparator,window[aios-appDefTheme="true"] #aios-toolbar[orient="vertical"] toolbarpaletteitem[id^="wrapper-separator"]{margin:4px 2px 3px 2px;border-top:1px dotted #484848;border-bottom:none;}
+window[aios-appDefTheme="true"] {
+  /* @group Sidebar Switch */
+  /* @end */
+  /* @group AiOS-Toolbar*/
+  /* Toolbar links neben der Sidebar */
+  /* Toolbar rechts neben der Sidebar */
+  /* Toolbar ueber der Sidebar */
+  /* Toolbar unter der Sidebar-Kopfleiste */
+  /* Toolbar unter der Sidebar */
+  /* @end */
+  /* @group Grippy & Splitter */
+  /* @end */
+  /* @group Toolbarseparator auf der Toolbar und im Konfigurationsmodus */
+  /* @end */ }
+  window[aios-appDefTheme="true"] #aios-toggle-toolbar, window[aios-appDefTheme="true"] #aios-toolbar {
+    background-color: -moz-mac-chrome-active; }
+    window[aios-appDefTheme="true"] #aios-toggle-toolbar:-moz-window-inactive, window[aios-appDefTheme="true"] #aios-toolbar:-moz-window-inactive {
+      background-color: -moz-mac-chrome-inactive; }
+  window[aios-appDefTheme="true"] #aios-toolbar[orient="horizontal"] {
+    padding: 3px 0 4px 0; }
+  window[aios-appDefTheme="true"] #aios-toggle-toolbar {
+    border-top: 1px solid #c0c0c0;
+    border-right: 1px solid #484848; }
+    window[aios-appDefTheme="true"] #aios-toggle-toolbar:-moz-window-inactive {
+      border-top: 1px solid #e1e1e1;
+      border-right: 1px solid #929292; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbox {
+    border-left: 1px solid #484848; }
+    window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbox:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbar {
+    border-left: 1px solid #c0c0c0; }
+    window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toggle-toolbar:-moz-window-inactive {
+      border-left: 1px solid #e1e1e1; }
+  window[aios-appDefTheme="true"] #aios-toolbar[posMode="1"] {
+    border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #484848; }
+    window[aios-appDefTheme="true"] #aios-toolbar[posMode="1"]:-moz-window-inactive {
+      border-top: 1px solid #e1e1e1;
+      border-left: 1px solid #e1e1e1;
+      border-right: 1px solid #929292; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="1"] {
+    border-left: 2px groove #484848; }
+    window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="1"]:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="1"] {
+    border-right: none; }
+    window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="1"]:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"] #aios-toolbar[posMode="2"] {
+    border-top: 1px solid #c0c0c0;
+    border-left: 2px groove #484848;
+    border-right: 1px solid #484848; }
+    window[aios-appDefTheme="true"] #aios-toolbar[posMode="2"]:-moz-window-inactive {
+      border-top: 1px solid #e1e1e1;
+      border-left: 1px solid #929292;
+      border-right: 1px solid #929292; }
+  window[aios-appDefTheme="true"][aiosOpen="false"] #aios-toolbar[posMode="2"] {
+    border-left: 1px solid #c0c0c0; }
+    window[aios-appDefTheme="true"][aiosOpen="false"] #aios-toolbar[posMode="2"]:-moz-window-inactive {
+      border-left: 1px solid #e1e1e1; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="2"] {
+    border-right: none; }
+  window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="2"] {
+    border-left: 2px groove #484848; }
+    window[aios-appDefTheme="true"][aiosOrient="right"][aiosOpen="false"] #aios-toolbar[posMode="2"]:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"] #aios-toolbar[posMode="3"] {
+    border-right: 1px solid #484848;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #484848;
+    border-left: 1px solid #c0c0c0; }
+    window[aios-appDefTheme="true"] #aios-toolbar[posMode="3"]:-moz-window-inactive {
+      border-top: 1px solid #e1e1e1;
+      border-right: 1px solid #929292;
+      border-bottom: 1px solid #929292;
+      border-left: 1px solid #e1e1e1; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="3"] {
+    border-right: none;
+    border-left: 1px solid #484848; }
+    window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="3"]:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"] #aios-toolbar[posMode="4"] {
+    border-top: 2px groove #c0c0c0;
+    border-right: 1px solid #484848;
+    border-bottom: 1px solid #484848;
+    border-left: 1px solid #c0c0c0; }
+    window[aios-appDefTheme="true"] #aios-toolbar[posMode="4"]:-moz-window-inactive {
+      border-top: 2px groove #e1e1e1;
+      border-right: 1px solid #929292;
+      border-bottom: 1px solid #929292;
+      border-left: 1px solid #e1e1e1; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="4"] {
+    border-right: none;
+    border-left: 1px solid #484848; }
+    window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="4"]:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"] #aios-toolbar[posMode="5"] {
+    border-top: 2px groove #c0c0c0;
+    border-right: 1px solid #484848;
+    border-left: 1px solid #c0c0c0; }
+    window[aios-appDefTheme="true"] #aios-toolbar[posMode="5"]:-moz-window-inactive {
+      border-top: 2px groove #e1e1e1;
+      border-right: 1px solid #929292;
+      border-left: 1px solid #e1e1e1; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="5"] {
+    border-right: none;
+    border-left: 1px solid #484848; }
+    window[aios-appDefTheme="true"][aiosOrient="right"] #aios-toolbar[posMode="5"]:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"] grippy:hover {
+    background-color: #D4DDE5 !important; }
+  window[aios-appDefTheme="true"] #sidebar-splitter grippy:hover {
+    background-color: -moz-mac-chrome-active !important; }
+  window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"] {
+    border: none;
+    border-right: 1px solid #484848;
+    background-color: #D4DDE5; }
+    window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"]:-moz-window-inactive {
+      background-color: #e8e8e8;
+      border-right: 1px solid #929292; }
+    window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"][grippy="false"] {
+      min-width: 3px; }
+    window[aios-appDefTheme="true"] #sidebar-splitter[orient="horizontal"][grippy="true"] {
+      min-width: 6px; }
+  window[aios-appDefTheme="true"][aiosOrient="right"] #sidebar-splitter[orient="horizontal"] {
+    border-left: 1px solid #484848;
+    border-right: none; }
+    window[aios-appDefTheme="true"][aiosOrient="right"] #sidebar-splitter[orient="horizontal"]:-moz-window-inactive {
+      border-left: 1px solid #929292; }
+  window[aios-appDefTheme="true"] #aios-toolbar toolbarseparator, window[aios-appDefTheme="true"] #aios-toolbar toolbarpaletteitem[id^="wrapper-separator"] {
+    margin: 0 1px;
+    border-left: 1px dotted #484848; }
+  window[aios-appDefTheme="true"] #aios-toolbar[orient="vertical"] toolbarseparator, window[aios-appDefTheme="true"] #aios-toolbar[orient="vertical"] toolbarpaletteitem[id^="wrapper-separator"] {
+    margin: 4px 2px 3px 2px;
+    border-top: 1px dotted #484848;
+    border-bottom: none; }

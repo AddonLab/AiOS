@@ -1,1 +1,108 @@
-toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button){list-style-image:url(../icons/toolbar_windows.png);}toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):-moz-lwtheme-brighttext{list-style-image:url(../icons/toolbar_windows_inverted.png);}#bookmarks-button{-moz-image-region:rect(1px, 17px, 17px, 1px);}#history-button{-moz-image-region:rect(1px, 35px, 17px, 19px);}#addons-button{-moz-image-region:rect(1px, 71px, 17px, 55px);}#multipanel-button{-moz-image-region:rect(1px, 89px, 17px, 73px);}#pageinfo-button{-moz-image-region:rect(1px, 107px, 17px, 91px);}#console-button{-moz-image-region:rect(1px, 125px, 17px, 109px);}#paneltab-button{-moz-image-region:rect(1px, 143px, 17px, 127px);}#sidebars-button{-moz-image-region:rect(1px, 161px, 17px, 145px);}#sidebars-button dropmarker{display:none;}#nav-bar #sidebars-button.toolbarbutton-1[type=menu]>.toolbarbutton-icon,#nav-bar #sidebars-button.toolbarbutton-1[type=menu]>.toolbarbutton-text{-moz-padding-end:7px !important;}#sidebars-togglebutton{-moz-image-region:rect(1px, 179px, 17px, 163px);}#autohide-button{-moz-image-region:rect(1px, 197px, 17px, 181px);}#toolbar-button{-moz-image-region:rect(1px, 215px, 17px, 199px);}menuitem[key="aiosKey_panelTab1"],menuitem[key="aiosKey_panelTab2"],menuitem#aios-sidebar-mitem-show,menuitem#aios-sidebar-mitem-hide,menuitem[key="aiosKey_prefs"]{list-style-image:url(../icons/panels_menus.png);}menuitem[key="aiosKey_panelTab1"]{-moz-image-region:rect(16px, 16px, 32px, 0);}menuitem[key="aiosKey_panelTab2"]{-moz-image-region:rect(16px, 32px, 32px, 16px);}menuitem#aios-sidebar-mitem-hide{-moz-image-region:rect(16px, 48px, 32px, 32px);}menuitem#aios-sidebar-mitem-show{-moz-image-region:rect(16px, 64px, 32px, 48px);}menuitem[key="aiosKey_prefs"]{-moz-image-region:rect(0, 16px, 16px, 0);}#aios-toolbar[orient="vertical"] toolbarbutton{margin:2px 1px;padding-top:2px;padding-bottom:2px;}#aios-toolbar[orient="vertical"] toolbarbutton toolbarbutton{margin:0;}#aios-toolbar[orient="vertical"][iconsize="small"] .toolbarbutton-icon{margin:1px;}#aios-toolbar[orient="vertical"] toolbarseparator,#aios-toolbar[orient="vertical"] toolbarpaletteitem[id^="wrapper-separator"]{margin:4px 2px 2px 2px;}window[aios-appDefTheme="true"]{}window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"] .toolbarbutton-icon,window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"] .dropmarker-icon{background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;background-color:rgba(23, 50, 78, 0.15) !important;border-color:rgba(23, 50, 78, 0.3) rgba(23, 50, 78, 0.35) rgba(23, 50, 78, 0.4) !important;box-shadow:0 1px 1px rgba(23, 50, 78, 0.1) inset,0 0 1px rgba(23, 50, 78, 0.2) inset,0 1px 0 rgba(23, 50, 78, 0),0 0 2px rgba(23, 50, 78, 0) !important;text-shadow:none !important;-moz-transition:none !important;}window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"]:hover .toolbarbutton-icon,window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"]:hover .dropmarker-icon{border-color:rgba(23, 50, 78, 0.3) rgba(23, 50, 78, 0.35) rgba(23, 50, 78, 0.4) !important;background-color:rgba(239, 244, 249, 0.75) !important;box-shadow:0 0 1px rgba(23, 50, 78, 0.03),0 0 2px rgba(23, 50, 78, 0.1) !important;-moz-transition:background-color 0.4s !important;}window[aios-appDefTheme="true"] toolbarbutton[type="checkbox"]:not([checked="true"]):not(:hover) .toolbarbutton-icon,window[aios-appDefTheme="true"] toolbarbutton[type="checkbox"]:not([checked="true"]):not(:hover) .dropmarker-icon{background-image:none !important;background-color:transparent !important;box-shadow:none !important;border-color:transparent !important;}
+/*
+    button icons
+*/
+toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button) {
+  list-style-image: url(../icons/toolbar_windows.png); }
+  toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):-moz-lwtheme-brighttext {
+    list-style-image: url(../icons/toolbar_windows_inverted.png); }
+
+#bookmarks-button {
+  -moz-image-region: rect(1px, 17px, 17px, 1px); }
+
+#history-button {
+  -moz-image-region: rect(1px, 35px, 17px, 19px); }
+
+#addons-button {
+  -moz-image-region: rect(1px, 71px, 17px, 55px); }
+
+#multipanel-button {
+  -moz-image-region: rect(1px, 89px, 17px, 73px); }
+
+#pageinfo-button {
+  -moz-image-region: rect(1px, 107px, 17px, 91px); }
+
+#console-button {
+  -moz-image-region: rect(1px, 125px, 17px, 109px); }
+
+#paneltab-button {
+  -moz-image-region: rect(1px, 143px, 17px, 127px); }
+
+#sidebars-button {
+  -moz-image-region: rect(1px, 161px, 17px, 145px); }
+  #sidebars-button dropmarker {
+    display: none; }
+  #nav-bar #sidebars-button.toolbarbutton-1[type=menu] > .toolbarbutton-icon, #nav-bar #sidebars-button.toolbarbutton-1[type=menu] > .toolbarbutton-text {
+    -moz-padding-end: 7px !important; }
+
+#sidebars-togglebutton {
+  -moz-image-region: rect(1px, 179px, 17px, 163px); }
+
+#autohide-button {
+  -moz-image-region: rect(1px, 197px, 17px, 181px); }
+
+#toolbar-button {
+  -moz-image-region: rect(1px, 215px, 17px, 199px); }
+
+/*
+    menu icons
+*/
+menuitem[key="aiosKey_panelTab1"], menuitem[key="aiosKey_panelTab2"], menuitem#aios-sidebar-mitem-show, menuitem#aios-sidebar-mitem-hide, menuitem[key="aiosKey_prefs"] {
+  list-style-image: url(../icons/panels_menus.png); }
+
+menuitem[key="aiosKey_panelTab1"] {
+  -moz-image-region: rect(16px, 16px, 32px, 0); }
+
+menuitem[key="aiosKey_panelTab2"] {
+  -moz-image-region: rect(16px, 32px, 32px, 16px); }
+
+menuitem#aios-sidebar-mitem-hide {
+  -moz-image-region: rect(16px, 48px, 32px, 32px); }
+
+menuitem#aios-sidebar-mitem-show {
+  -moz-image-region: rect(16px, 64px, 32px, 48px); }
+
+menuitem[key="aiosKey_prefs"] {
+  -moz-image-region: rect(0, 16px, 16px, 0); }
+
+/*
+    button margins on vertical toolabr
+*/
+#aios-toolbar[orient="vertical"] toolbarbutton {
+  margin: 2px 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  /* toolbarbutton with dropmarker */ }
+  #aios-toolbar[orient="vertical"] toolbarbutton toolbarbutton {
+    margin: 0; }
+#aios-toolbar[orient="vertical"][iconsize="small"] .toolbarbutton-icon {
+  margin: 1px; }
+#aios-toolbar[orient="vertical"] toolbarseparator, #aios-toolbar[orient="vertical"] toolbarpaletteitem[id^="wrapper-separator"] {
+  margin: 4px 2px 2px 2px; }
+
+/*
+    default theme on windows
+*/
+window[aios-appDefTheme="true"] {
+  /*
+        active state of menu-buttons, e.g. the sidebar togglebutton
+    */
+  /*
+            type=checkbox buttons with no border, background and background-image if they are not checked
+        */ }
+  window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"] .toolbarbutton-icon, window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"] .dropmarker-icon {
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;
+    background-color: rgba(23, 50, 78, 0.15) !important;
+    border-color: rgba(23, 50, 78, 0.3) rgba(23, 50, 78, 0.35) rgba(23, 50, 78, 0.4) !important;
+    box-shadow: 0 1px 1px rgba(23, 50, 78, 0.1) inset, 0 0 1px rgba(23, 50, 78, 0.2) inset, 0 1px 0 rgba(23, 50, 78, 0), 0 0 2px rgba(23, 50, 78, 0) !important;
+    text-shadow: none !important;
+    -moz-transition: none !important; }
+  window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"]:hover .toolbarbutton-icon, window[aios-appDefTheme="true"] toolbarbutton[type="menu-button"][checked="true"]:hover .dropmarker-icon {
+    border-color: rgba(23, 50, 78, 0.3) rgba(23, 50, 78, 0.35) rgba(23, 50, 78, 0.4) !important;
+    background-color: rgba(239, 244, 249, 0.75) !important;
+    box-shadow: 0 0 1px rgba(23, 50, 78, 0.03), 0 0 2px rgba(23, 50, 78, 0.1) !important;
+    -moz-transition: background-color 0.4s !important; }
+  window[aios-appDefTheme="true"] toolbarbutton[type="checkbox"]:not([checked="true"]):not(:hover) .toolbarbutton-icon, window[aios-appDefTheme="true"] toolbarbutton[type="checkbox"]:not([checked="true"]):not(:hover) .dropmarker-icon {
+    background-image: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-color: transparent !important; }
