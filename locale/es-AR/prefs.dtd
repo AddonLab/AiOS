@@ -21,6 +21,7 @@
 <!ENTITY tab.menus "Menues">
 <!ENTITY tab.menus.sidebar "Barra Lateral">
 <!ENTITY tab.keys "Atajos">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientación">
 <!ENTITY gen.orient.label "Mostrar barra lateral">
 <!ENTITY gen.orient.left "a la izquerda">

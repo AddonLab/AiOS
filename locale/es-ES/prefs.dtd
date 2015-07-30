@@ -21,6 +21,7 @@
 <!ENTITY tab.menus "Menús">
 <!ENTITY tab.menus.sidebar "Panel lateral">
 <!ENTITY tab.keys "Combinaciones de teclas">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientación">
 <!ENTITY gen.orient.label "Mostrar el panel en">
 <!ENTITY gen.orient.left "parte izquierda">

@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sidebjælke-kontakt">
 <!ENTITY menu.grippy.label "Sidebjælke Grippy">
 <!ENTITY toolbar.name "Alt-I-En Sidebjælke værktøjslinje">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebjælkeheader værktøjslinje">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Slå elementer kontrolleret af AiOS til/fra">
 <!ENTITY button.switch.tooltip1 "Slå sidebjælke og værktøjslinje til/fra">

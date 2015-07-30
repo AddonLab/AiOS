@@ -1,8 +1,11 @@
 <!ENTITY loading.label "تحميل اللوحة…">
 <!ENTITY menu.prefs.label "All-in-One Sidebar خيارات…">
 <!ENTITY menu.togglebar.label "تحويل الشريط الجانبي">
+<!ENTITY menu.grippy.label "Sidebar Grippy">
 <!ENTITY toolbar.name "All-in-One Sidebar شريط أدوات">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebarheader شريط أدوات">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "تفعيل العناصر التي يتحكم بها All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "تفعيل الشريط الجانبي وشريط الأدوات">
