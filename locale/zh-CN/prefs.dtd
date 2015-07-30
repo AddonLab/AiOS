@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "不允许选择当前打开的面板(以灰色字体显示)">
 <!ENTITY misc.enablesidebar.label "在侧栏打开">
 <!ENTITY misc.layout.label "为适合侧栏优化布局">
-<!ENTITY misc.dm.overlay "改变侧栏行为的选项">
 <!ENTITY misc.dm.autoopen.label "下载文件时显示下载侧栏">
 <!ENTITY misc.dm.autoclose.label "下载完成时关闭下载侧栏">
 <!ENTITY misc.colors.label "基于当前状态启用彩色背景">

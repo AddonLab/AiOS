@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Kenar çubuğunun menü verilerini etkisizleştir">
 <!ENTITY misc.enablesidebar.label "Kenar çubuğunda göster">
 <!ENTITY misc.layout.label "Kenar çubuğu iyileştirmesi">
-<!ENTITY misc.dm.overlay "Kenar çubuğu davranışı için seçenekleri değiştir">
 <!ENTITY misc.dm.autoopen.label "Bir dosya indirirken İndirilenler kenar çubuğunu göster">
 <!ENTITY misc.dm.autoclose.label "Tüm indirilenler bitince kapat">
 <!ENTITY misc.colors.label "Renkli alanlar güncel durumda aktif">

@@ -78,7 +78,6 @@
 <!ENTITY menus.sidebar.entrydeac "Ընթացիկ վահանակի կոճակը փակել">
 <!ENTITY misc.enablesidebar.label "Բացել կողավահանակում">
 <!ENTITY misc.layout.label "Հարմարեցնել տեսքը կողավահանակին">
-<!ENTITY misc.dm.overlay "Փոխել կողավահանակի վարքի ընտրանքները">
 <!ENTITY misc.dm.autoopen.label "Ցույց տալ պատուհանը քաշելու ժամանակ">
 <!ENTITY misc.dm.autoclose.label "Փակել ավարտից հետո">
 <!ENTITY misc.colors.label "Թույլտարել ֆոնի գունավորումը">

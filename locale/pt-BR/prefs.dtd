@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Desabilitar a opção do painel ativo no menu">
 <!ENTITY misc.enablesidebar.label "Abrir no painel">
 <!ENTITY misc.layout.label "Otimização para o painel">
-<!ENTITY misc.dm.overlay "Alterar opções do funcionamento do painel">
 <!ENTITY misc.dm.autoopen.label "Exibir painel ao iniciar downloads">
 <!ENTITY misc.dm.autoclose.label "Fechar ao concluir todos os downloads">
 <!ENTITY misc.colors.label "Habilitar fundos coloridos baseados no estado atual">

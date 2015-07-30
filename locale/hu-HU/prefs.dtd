@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "A nyitott oldalsáv menüelemének kikapcsolása">
 <!ENTITY misc.enablesidebar.label "Megnyitás Oldalsávon">
 <!ENTITY misc.layout.label "Oldalsáv optimalizálása">
-<!ENTITY misc.dm.overlay "Oldalsáv viselkedésének megváltoztatása">
 <!ENTITY misc.dm.autoopen.label "Fájl letöltésekor a Letöltések oldalsáv megjelenítése">
 <!ENTITY misc.dm.autoclose.label "Letöltések befejezése után zárja be az ablakot">
 <!ENTITY misc.colors.label "Színezett hátterek engedélyezése a jelenlegi állapot alapján">

@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Disattiva il menu relativo alla barra laterale attiva">
 <!ENTITY misc.enablesidebar.label "Apri nella barra laterale">
 <!ENTITY misc.layout.label "Ottimizzazioni per la barra laterale">
-<!ENTITY misc.dm.overlay "Cambia le opzioni relative alla barra laterale">
 <!ENTITY misc.dm.autoopen.label "Mostra la barra laterale quando si scarica un file">
 <!ENTITY misc.dm.autoclose.label "Chiudila quando tutti i download sono completati">
 <!ENTITY misc.colors.label "Attiva gli sfondi colorati in base allo stato attuale">

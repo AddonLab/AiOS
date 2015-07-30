@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Отключить выделение активной боковой панели">
 <!ENTITY misc.enablesidebar.label "Открывать в боковой панели">
 <!ENTITY misc.layout.label "Оптимизация для боковой панели">
-<!ENTITY misc.dm.overlay "Изменение параметров поведения боковой панели">
 <!ENTITY misc.dm.autoopen.label "Показывать боковую панель с загрузками, когда загружается файл">
 <!ENTITY misc.dm.autoclose.label "Закрывать её, когда все загрузки окончены">
 <!ENTITY misc.colors.label "Использовать цветные фоны, основанные на текущем состоянии">

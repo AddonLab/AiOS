@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Disable the Entry of the Active Sidebar">
 <!ENTITY misc.enablesidebar.label "Open in Sidebar">
 <!ENTITY misc.layout.label "Optimise Layout for the Sidebar">
-<!ENTITY misc.dm.overlay "Change options for the sidebar behaviour">
 <!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
 <!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Enable coloured backgrounds based on current state">

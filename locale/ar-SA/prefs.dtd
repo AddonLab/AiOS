@@ -77,7 +77,6 @@
 <!ENTITY menus.sidebar.entrydeac "تعطيل المدخل لاشريط الجانبي النشط">
 <!ENTITY misc.enablesidebar.label "افتح الشريط الجانبي">
 <!ENTITY misc.layout.label "تحسين تنسيق الشريط الجانبي">
-<!ENTITY misc.dm.overlay "تغيير الخيارات لسلوك الشريط الجانبي">
 <!ENTITY misc.dm.autoopen.label "إظهار الشريط الجانبي للتحميل عند تنزيل ملف">
 <!ENTITY misc.dm.autoclose.label "إغلقه عند إنهاء جميع التنزيلات">
 <!ENTITY misc.colors.label "تمكن الخلفيات الملونة على أساس الوضع الحالي">

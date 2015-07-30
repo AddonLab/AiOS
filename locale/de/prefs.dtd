@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Menüeintrag der aktiven Sidebar deaktivieren">
 <!ENTITY misc.enablesidebar.label "In der Sidebar öffnen">
 <!ENTITY misc.layout.label "Layout-Optimierung für die Sidebar">
-<!ENTITY misc.dm.overlay "Verhalten der Sidebar ändern">
 <!ENTITY misc.dm.autoopen.label "Die Download-Sidebar anzeigen, wenn ein Download startet">
 <!ENTITY misc.dm.autoclose.label "Die Download-Sidebar schließen, wenn alle Downloads abgeschlossen sind">
 <!ENTITY misc.colors.label "Einträge gemäß Status farblich markieren">

@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Se dezactivează opțiunea dacă panoul lateral este vizibil">
 <!ENTITY misc.enablesidebar.label "Se deschide în panoul lateral">
 <!ENTITY misc.layout.label "Se optimizează aspectul pentru panoul lateral">
-<!ENTITY misc.dm.overlay "Se modifică opțiunile privind comportamentul panoului lateral">
 <!ENTITY misc.dm.autoopen.label "Se afișează panoul când se descarcă un fișier">
 <!ENTITY misc.dm.autoclose.label "Se închide panoul la terminarea descărcărilor">
 <!ENTITY misc.colors.label "Se colorează fundalul pe baza stărilor curente">

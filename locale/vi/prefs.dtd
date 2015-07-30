@@ -78,7 +78,6 @@
 <!ENTITY menus.sidebar.entrydeac "Vô hiệu hoá mục của Thanh lề Đang hoạt động">
 <!ENTITY misc.enablesidebar.label "Mở trong Thanh Lề">
 <!ENTITY misc.layout.label "Tối ưu hoá Bố cục cho Thanh lề">
-<!ENTITY misc.dm.overlay "Thay đổi tùy chọn cho hành vi của thanh lề">
 <!ENTITY misc.dm.autoopen.label "Hiện thanh lề Tải xuống khi tải xuống một tập tin">
 <!ENTITY misc.dm.autoclose.label "Đóng nó khi tất cả các phiên tải xuống đã hoàn thành">
 <!ENTITY misc.colors.label "Kích hoạt nền có màu sắc dựa trên trạng thái hiện tại">

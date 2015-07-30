@@ -61,7 +61,6 @@
 <!ENTITY menus.icons.label "Trego Ikonat">
 <!ENTITY menus.entries.label "Trego Hyrjet">
 <!ENTITY misc.enablesidebar.label "Hape në Shiritin Anësor">
-<!ENTITY misc.dm.overlay "Ndrysho variantet e sjelljes së shiritit anësor">
 <!ENTITY misc.dm.autoopen.label "Shfaqe shiritin gjatë shkarkimit të një skede">
 <!ENTITY misc.dm.autoclose.label "Mbylle pasi të mbarojë shkarkimi">
 <!ENTITY misc.count.label "Shfaq numrin e artikujve">

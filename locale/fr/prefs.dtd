@@ -79,7 +79,6 @@
 <!ENTITY menus.sidebar.entrydeac "Désactiver l&apos;entrée dans le panneau latéral actif">
 <!ENTITY misc.enablesidebar.label "Ouvrir dans le panneau latéral">
 <!ENTITY misc.layout.label "Optimisation de l&apos;affichage du panneau latéral">
-<!ENTITY misc.dm.overlay "Modifier les options pour le comportement du panneau latéral">
 <!ENTITY misc.dm.autoopen.label "Afficher le panneau latéral de téléchargements pendant le téléchargement d&apos;un fichier">
 <!ENTITY misc.dm.autoclose.label "Le fermer quand tous les téléchargements sont terminés">
 <!ENTITY misc.colors.label "Autorise les fonds en couleur selon l&apos;état courant">
