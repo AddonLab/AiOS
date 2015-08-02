@@ -5,6 +5,7 @@
 <!ENTITY settings.advanced "Forma e Avansuar">
 <!ENTITY settings.import "Importo Parapëlqimet...">
 <!ENTITY settings.export "Eksporto Parapëlqimet">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Apliko">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Përgjithësi">
@@ -33,6 +34,7 @@
 <!ENTITY gen.width.min.hint "[Shift+Shtyp-Dy-herë] mbi titullin e shiriti anësor">
 <!ENTITY gen.width.def.hint "[Kliko-dy-herë] tek titulli i shiritit anësor">
 <!ENTITY gen.width.max.hint "[Ctrl+Shtyp-dy-herë] ose [Alt+Shtyp-dy-Herë] mbi titullin e shiritit anësor">
+<!ENTITY gen.init.caption "Browser Startup">
 <!ENTITY gen.init.label "Shiriti Anësor">
 <!ENTITY gen.init.toolbar.label "Shiriti i Mjeteve">
 <!ENTITY gen.init.toolbar.show.label "Paraqit Shiritin e Mjeteve">
@@ -40,31 +42,52 @@
 <!ENTITY gen.init.switch.show.label "Paraqit Ndryshuesin e shiritit anësor">
 <!ENTITY gen.init.switch.hide.label "Fshih Ndryshuesin e Shiritit Anësor">
 <!ENTITY gen.init.mode1 "Riktheje gjendjen e mbajtur mend">
+<!ENTITY gen.init.sidebar "Open Sidebar (Sidebar Switch, Toggle Button, Shortcut)">
 <!ENTITY gen.init.sidebar.restore "Riktheje Panelin e mbajtur mend">
 <!ENTITY gen.switch.autoshow "Paraqit/Fshih Shiritin Anësor automatikisht (kontakt me miun në vend se klikim me miun)">
+<!ENTITY gen.switch.onlymax "Only if Browser is Maximised or in Full Screen Mode">
 <!ENTITY gen.switch.delay "Paraqit">
 <!ENTITY gen.switch.delayUnit "milisekonda">
 <!ENTITY gen.switch.hide "Fshihe Shiritin Anësor nëse shenja e mausit...">
 <!ENTITY gen.switch.hideBar "largohet tek faqja">
+<!ENTITY gen.switch.hidePage "is held on the Sidebar Switch">
+<!ENTITY gen.switch.thin "Enable Thin Sidebar Switch">
+<!ENTITY gen.switch.width "Width of the Sidebar Switch">
+<!ENTITY gen.switch.twidth "Width of the Thin Sidebar Switch">
+<!ENTITY cmode.caption "Toggle Sidebar">
+<!ENTITY cmode.desc "Customize which elements should be affected if opening or closing the sidebar with different methods.">
 <!ENTITY cmode.key.label "Shkurtesat (F4)">
 <!ENTITY cmode.tbb.label "Pulla për AiOS">
 <!ENTITY cmode.close.label "Pulla për Mbyllje">
 <!ENTITY cmode.mode1.label "Vetëm Shiriti Anësor">
 <!ENTITY cmode.mode2.label "Shirti Anësor dhe Shiriti i Mjeteve">
+<!ENTITY cmode.mode3.label "The Sidebar, the Toolbar, and the Sidebar Switch">
+<!ENTITY cmode.mode4.label "Opera&apos;s Behavior">
+<!ENTITY gen.fs.off "Restore the State if Quitting the Full Screen Mode">
 <!ENTITY keyconfig.keyid "Emri">
 <!ENTITY keyconfig.id "ID">
 <!ENTITY keyconfig.apply "Apliko">
 <!ENTITY keyconfig.disable "Ç\'aktivizo">
 <!ENTITY keyconfig.reset "Ribëj">
+<!ENTITY keyconfig.warn "Changes affect only new windows">
 <!ENTITY keyconfig.onreset "Kërkohet rinisje e shfletuesit">
 <!ENTITY keyconfig.unrecognized "I/E pa njohur ($1)">
+<!ENTITY keyconfig.used "This key is already used by: \n\n\t$1\n\nIt might still work, though.">
+<!ENTITY menus.sidebar.desc "Customize the entries in the menu “View &gt; Sidebar” and in the dropdown menus of the sidebar buttons.">
 <!ENTITY menus.icons.label "Trego Ikonat">
 <!ENTITY menus.entries.label "Trego Hyrjet">
+<!ENTITY menus.sidebar.entrydeac "Disable the Entry of the Active Sidebar">
 <!ENTITY misc.enablesidebar.label "Hape në Shiritin Anësor">
+<!ENTITY misc.layout.label "Optimize Layout for the Sidebar">
 <!ENTITY misc.dm.overlay "Ndrysho variantet e sjelljes së shiritit anësor">
 <!ENTITY misc.dm.autoopen.label "Shfaqe shiritin gjatë shkarkimit të një skede">
 <!ENTITY misc.dm.autoclose.label "Mbylle pasi të mbarojë shkarkimi">
+<!ENTITY misc.colors.label "Enable colored backgrounds based on current state">
 <!ENTITY misc.count.label "Shfaq numrin e artikujve">
+<!ENTITY misc.enablelink.tooltip "Click here for more information (link to the FAQs)">
+<!ENTITY misc.paneltab.reverse "Swap Left-click and Middle-click Actions">
+<!ENTITY misc.bm.paneltab.desc "The button “PanelTab” can open the Bookmark Manager in a new tab instead of the Bookmark Panel.">
 <!ENTITY misc.bm.paneltab "Mundëso menaxhimin e faqeve favorite në një Tab të ri">
 <!ENTITY special.collapsing.caption "Kolapsi i shiritit anësor">
 <!ENTITY special.collapsing.label "Mundëso kolapsin e shiritit anësor">
+<!ENTITY special.collapsing.desc "The sidebar can collapse instead of closing. The advantage is that the sidebar content doesn&apos;t have to reload after re-opening so it responds faster.">
