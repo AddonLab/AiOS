@@ -3,11 +3,7 @@
 <!ENTITY menu.togglebar.label "Přepínač zobrazení postranních lišt">
 <!ENTITY menu.grippy.label "Táhlo postranních lišt">
 <!ENTITY toolbar.name "Lišta rozšíření „All-in-One Sidebar“">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
-<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
-<!ENTITY button.toggle.tooltip "Toggle elements controlled by All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Přepínač zobrazení postranního panelu a nástrojové lišty">
 <!ENTITY button.switch.tooltip2 "Přepínač zobrazení nástrojové lišty">
 <!ENTITY button.switch.tooltip3 "Přepínač zobrazení postranního panelu">

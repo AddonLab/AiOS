@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Kthimi i Shiritit Anësor">
 <!ENTITY menu.grippy.label "Kapja e Shiritit Anësor">
 <!ENTITY toolbar.name "Shiriti i Mjeteve të &quot;All-in-One Shiritit Anësorë&quot;">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Shiriti i Mjeteve të shiritit anësorë në kokë">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Elementet në bërryl të kontrolluara nga &quot;All-in-One Shiritit Anësor&quot;">
 <!ENTITY button.switch.tooltip1 "Shirit Mjetesh dhe Shirit Anësor në Bërryl">

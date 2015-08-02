@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Selector de Barra Lateral">
 <!ENTITY menu.grippy.label "Panel Lateral Grippy">
 <!ENTITY toolbar.name "Barra de Herramientas de All-in-One Sidebar">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Encabezado de la Barra Lateral de Herramientas">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Intercambia los elementos controlados por All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Alternar entre Barra Lateral y Barra de Herramientas">

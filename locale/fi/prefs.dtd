@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "Valikot">
 <!ENTITY tab.menus.sidebar "Sivupaneeli">
 <!ENTITY tab.keys "Oikotiet">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Paikoitus">
 <!ENTITY gen.orient.label "Näytä sivupaneeli">
 <!ENTITY gen.orient.left "vasemmalla puolella">

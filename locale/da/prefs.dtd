@@ -5,7 +5,6 @@
 <!ENTITY settings.advanced "Avanceret tilstand">
 <!ENTITY settings.import "Importer indstillinger…">
 <!ENTITY settings.export "Eksporter indstillinger…">
-<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Anvend">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Generel">
@@ -21,7 +20,6 @@
 <!ENTITY tab.menus "Menuer">
 <!ENTITY tab.menus.sidebar "Sidebjælke">
 <!ENTITY tab.keys "Genveje">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientering">
 <!ENTITY gen.orient.label "Vis sidebjælke på">
 <!ENTITY gen.orient.left "venstre side">
@@ -79,9 +77,6 @@
 <!ENTITY menus.sidebar.entrydeac "Slå elementet fra i den aktive sidebjælke">
 <!ENTITY misc.enablesidebar.label "Åbn i sidebjælke">
 <!ENTITY misc.layout.label "Optimer layout til sidebjælken">
-<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
-<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
-<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Slå farvede baggrunde til baseret på nuværende tilstand">
 <!ENTITY misc.count.label "Vis antal emner">
 <!ENTITY misc.enablelink.tooltip "Klik her for mere information (link til FAQ&apos;s)">

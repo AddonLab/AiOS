@@ -2,12 +2,9 @@
 <!ENTITY settings "Možnosti…">
 <!ENTITY close "Zavřít">
 <!ENTITY tab.about "Obecně">
-<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Vývoj">
 <!ENTITY tab.trans "Lokalizace">
-<!ENTITY about.desc "The All-in-One Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogues such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "vytvořil Ingo Wennemaring v Hamburku [Německo]">
-<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Domovská stránkka - mnoho informací na jednom místě">
 <!ENTITY about2.name "Vlastnosti - popis vlastností rozšíření All-in-One Sidebar">
 <!ENTITY about3.name "FAQ - často kladené dotazy a odpovědi">
@@ -18,8 +15,6 @@
 <!ENTITY contrib.desc "Děkuji těmto vývojářům za inspiraci a ústřižky kódu (abecední řazení):">
 <!ENTITY contrib.thanks "Děkuji i všem uživatelům, kteří pomáhali s testováním vývojových verzí, odhalovali jejich chyby, sdíleli své nápady či jen do fóra psali komentáře :-). Děkuji vám všem!">
 <!ENTITY trans.desc "Děkuji těmto lokalizátorům (abecední řazení dle zkráceného značení jazyka):">
-<!ENTITY trans.ar-SA.lang "Arabic">
-<!ENTITY trans.be-BY.lang "Belarusian">
 <!ENTITY trans.cs-CZ.lang "Čeština">
 <!ENTITY trans.da-DK.lang "Dánština">
 <!ENTITY trans.de-DE.lang "Němčina">
@@ -28,13 +23,11 @@
 <!ENTITY trans.en-US.lang "Angličtina (Spojené Státy Americké)">
 <!ENTITY trans.es-AR.lang "Španělština (Argentina)">
 <!ENTITY trans.es-ES.lang "Spanělština (Španělsko)">
-<!ENTITY trans.et-EE.lang "Estonian">
 <!ENTITY trans.fi-FI.lang "Finština">
 <!ENTITY trans.fr-FR.lang "Francouzština">
 <!ENTITY trans.he-IL.lang "Hebrejština">
 <!ENTITY trans.hr-HR.lang "Chorvatština">
 <!ENTITY trans.hu-HU.lang "Maďarština">
-<!ENTITY trans.hy-AM.lang "Armenian (Armenia)">
 <!ENTITY trans.it-IT.lang "Italština">
 <!ENTITY trans.ja-JP.lang "Japonština">
 <!ENTITY trans.ko-KR.lang "Korejština">
@@ -44,15 +37,11 @@
 <!ENTITY trans.pl-PL.lang "Polština">
 <!ENTITY trans.pt-BR.lang "Portugalština (Brazílie)">
 <!ENTITY trans.pt-PT.lang "Portugalština (Portugalsko)">
-<!ENTITY trans.ro-RO.lang "Romanian">
 <!ENTITY trans.ru-RU.lang "Ruština">
 <!ENTITY trans.sk-SK.lang "Slovenština">
-<!ENTITY trans.sq-AL.lang "Albanian">
-<!ENTITY trans.sr-RS.lang "Serbian (Cyrillic)">
 <!ENTITY trans.sv-SE.lang "Švédština">
 <!ENTITY trans.tr-TR.lang "Turečtina">
 <!ENTITY trans.uk-UA.lang "Ukrainian">
-<!ENTITY trans.vi-VN.lang "Vietnamese (Vietnam)">
 <!ENTITY trans.zh-CN.lang "Čínština (zjednodušená)">
 <!ENTITY trans.zh-TW.lang "Čínština (tradiční)">
 <!ENTITY trans.thanks "Děkuji samozřejmě i týmu překladatelů z BabelZilla.org za jejich skvělou práci!">

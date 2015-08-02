@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "Trình đơn">
 <!ENTITY tab.menus.sidebar "Thanh lề">
 <!ENTITY tab.keys "Phím tắt">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Chiều hướng">
 <!ENTITY gen.orient.label "Hiện thanh lề ở">
 <!ENTITY gen.orient.left "bên trái">

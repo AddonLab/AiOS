@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "메뉴">
 <!ENTITY tab.menus.sidebar "탐색 창">
 <!ENTITY tab.keys "단축키">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "위치">
 <!ENTITY gen.orient.label "탐색 창을">
 <!ENTITY gen.orient.left "왼쪽에 표시">

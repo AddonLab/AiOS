@@ -3,9 +3,7 @@
 <!ENTITY menu.togglebar.label "Botón panel lateral">
 <!ENTITY menu.grippy.label "Grippy del panel lateral">
 <!ENTITY toolbar.name "Barra de herramientas de All-in-One Sidebar">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Barra de herramientas del panel lateral">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "Activar panel lateral">
 <!ENTITY button.toggle.tooltip "Abrir/Cerrar panel lateral">
 <!ENTITY button.switch.tooltip1 "Activar panel lateral y barra de herramientas">

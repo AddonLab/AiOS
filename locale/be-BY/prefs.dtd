@@ -5,7 +5,6 @@
 <!ENTITY settings.advanced "Пашыраны рэжым">
 <!ENTITY settings.import "Імпарт налад…">
 <!ENTITY settings.export "Экспарт налад…">
-<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Ужыць">
 <!ENTITY gen.column1 "160">
 <!ENTITY tab.gen "Агульныя">
@@ -14,14 +13,12 @@
 <!ENTITY tab.gen.fullscreen "Поўнаэкранны рэжым">
 <!ENTITY tab.gen.special "Адмысловыя магчымасці">
 <!ENTITY tab.panels "Панэлі">
-<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "Дадаткова I">
 <!ENTITY tab.panels.other2 "Дадаткова II">
 <!ENTITY tab.panels.paneltab "Панэль укладак">
 <!ENTITY tab.menus "Меню">
 <!ENTITY tab.menus.sidebar "Бакавая панэль">
 <!ENTITY tab.keys "Гарачыя клавішы">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Размяшчэнне бакавой панэлі">
 <!ENTITY gen.orient.label "Адчыняць бакавую панэль">
 <!ENTITY gen.orient.left "злева">
@@ -54,9 +51,7 @@
 <!ENTITY gen.switch.thin "Выкарыстаць сціснуты перамыкач бакавой панэлі">
 <!ENTITY gen.switch.width "Шырыня перамыкача бакавой панэлі">
 <!ENTITY gen.switch.twidth "Шырыня сціснутага перамыкача бакавой панэлі">
-<!ENTITY cmode.caption "Toggle Sidebar">
 <!ENTITY cmode.desc "Налада элементаў, з дапамогай якіх можа быць адчыненая/зачыненая бакавая панэль.">
-<!ENTITY cmode.key.label "Shortcut (F4)">
 <!ENTITY cmode.tbb.label "Кнопка &amp;#8220;Бакавая панэль&amp;#8221;">
 <!ENTITY cmode.close.label "Кнопка &amp;#8220;Зачыніць&amp;#8221;">
 <!ENTITY cmode.mode1.label "Адчыняць/Зачыняць толькі бакавую панэль">
@@ -79,9 +74,6 @@
 <!ENTITY menus.sidebar.entrydeac "Адключыць вылучэнне актыўнай бакавой панэлі">
 <!ENTITY misc.enablesidebar.label "Адчыняць у бакавой панэлі">
 <!ENTITY misc.layout.label "Аптымізацыя для бакавой панэлі">
-<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
-<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
-<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Выкарыстаць каляровыя фоны, заснаваныя на бягучым стане">
 <!ENTITY misc.count.label "Паказваць лік элементаў">
 <!ENTITY misc.enablelink.tooltip "Націсніце тут, каб атрымаць больш інфармацыі (спасылка на FAQ)">

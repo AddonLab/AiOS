@@ -2,12 +2,9 @@
 <!ENTITY settings "設定">
 <!ENTITY close "閉じる">
 <!ENTITY tab.about "About">
-<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "貢献者">
 <!ENTITY tab.trans "翻訳者">
-<!ENTITY about.desc "The All-in-One Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogues such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "作成者： Ingo Wennemaring, ハンブルク [ドイツ]">
-<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "ホームページ - あらゆる情報を掲載">
 <!ENTITY about2.name "特徴 - All-in-One Sidebar のすべて">
 <!ENTITY about3.name "FAQ - よくある質問と回答">

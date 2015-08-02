@@ -6,15 +6,11 @@
 <!ENTITY about.tooltip "Rodo įvairią informaciją apie naršyklę">
 <!ENTITY about.config.tooltip "Leidžia peržiūrėti ir nustatyti daugybę naršyklės konfigūracijos kintamųjų">
 <!ENTITY about.plugins.tooltip "Rodo informaciją apie visus įdiegtus priedus">
-<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "Rodo informaciją apie podėlio tarnybą atmintinėje ir diske">
 <!ENTITY about.cache.disk.tooltip "Rodo atskirus įrašus diske">
 <!ENTITY about.cache.memory.tooltip "Rodo atskirus įrašus atmintinėje">
-<!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Rodo argumentus ir pasirinktis, naudotas naudojamos naršyklės kompiliavimui">
 <!ENTITY about.about.tooltip "Rodo versijos ir autorių teisių informaciją">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Rodo sąrašą žmonių, prisidėjusių prie Mozilla tobulinimo">
 <!ENTITY about.license.tooltip "Rodo Mozilla viešąją licenziją">
 <!ENTITY about.mozilla.tooltip "Rodo puslapį iš Mozilla knygos">

@@ -21,7 +21,6 @@
 <!ENTITY tab.menus "メニュー">
 <!ENTITY tab.menus.sidebar "サイドバー">
 <!ENTITY tab.keys "ショートカット">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "外観設定">
 <!ENTITY gen.orient.label "表示位置方向">
 <!ENTITY gen.orient.left "左側に置く">

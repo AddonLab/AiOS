@@ -5,7 +5,6 @@
 <!ENTITY settings.advanced "Zpřístupnit více možností nastavení">
 <!ENTITY settings.import "Importovat nastavení…">
 <!ENTITY settings.export "Exportovat nastavení…">
-<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Použít">
 <!ENTITY gen.column1 "140">
 <!ENTITY tab.gen "Obecné">
@@ -14,14 +13,12 @@
 <!ENTITY tab.gen.fullscreen "Celoobrazovkový režim">
 <!ENTITY tab.gen.special "Speciality">
 <!ENTITY tab.panels "Panely">
-<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "Další I.">
 <!ENTITY tab.panels.other2 "Další II.">
 <!ENTITY tab.panels.paneltab "Otevřít postranní lištu v panelu">
 <!ENTITY tab.menus "Nabídky">
 <!ENTITY tab.menus.sidebar "Nabídky nástrojových lišt">
 <!ENTITY tab.keys "Klávesové zkratky">
-<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Umístění">
 <!ENTITY gen.orient.label "Zobrazovat postranní lišty">
 <!ENTITY gen.orient.left "vlevo">
@@ -54,7 +51,6 @@
 <!ENTITY gen.switch.thin "Zúžit přepínač postranní lišty">
 <!ENTITY gen.switch.width "Šířka přepínaše postranní lišty">
 <!ENTITY gen.switch.twidth "Šířka zúženého přepínače postranní lišty">
-<!ENTITY cmode.caption "Toggle Sidebar">
 <!ENTITY cmode.desc "Zvolte prvky, které budou spolu s postranními lištami skrývány či zobrazovány v závislosti na způsobu jakým byla daná operace vyvolána.">
 <!ENTITY cmode.key.label "Klávesová zkratka (F4)">
 <!ENTITY cmode.tbb.label "AiOS tlačítko">
@@ -79,9 +75,6 @@
 <!ENTITY menus.sidebar.entrydeac "Potlačit položku právě zobrazené postranní lišty">
 <!ENTITY misc.enablesidebar.label "Otevřít v postranní liště">
 <!ENTITY misc.layout.label "Přizpůsobit rozvržení postranní liště">
-<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
-<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
-<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Povolit barevné pozadí odpovídající současnému stavu">
 <!ENTITY misc.count.label "Zobrazit počet položek">
 <!ENTITY misc.enablelink.tooltip "Pro zobrazení dalších informací klepněte zde (odkaz na FAQ)">

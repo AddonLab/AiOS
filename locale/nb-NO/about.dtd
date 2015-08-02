@@ -2,12 +2,9 @@
 <!ENTITY settings "Innstillinger…">
 <!ENTITY close "Lukk">
 <!ENTITY tab.about "Om">
-<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Bidragsytere">
 <!ENTITY tab.trans "Oversettere">
-<!ENTITY about.desc "The All-in-One Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogues such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "laget av Ingo Wennemaring, Hamburg [Tyskland]">
-<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Hjemmeside - masse informasjon på ett sted">
 <!ENTITY about2.name "Muligheter - alle mulighetene som All-in-One Sidebar har">
 <!ENTITY about3.name "OSP - ofte stilte spørsmål og svar">
@@ -34,7 +31,6 @@
 <!ENTITY trans.he-IL.lang "Hebraisk">
 <!ENTITY trans.hr-HR.lang "Kroatisk">
 <!ENTITY trans.hu-HU.lang "Ungarsk">
-<!ENTITY trans.hy-AM.lang "Armenian (Armenia)">
 <!ENTITY trans.it-IT.lang "Italiensk">
 <!ENTITY trans.ja-JP.lang "Japansk">
 <!ENTITY trans.ko-KR.lang "Koreansk">
@@ -44,15 +40,11 @@
 <!ENTITY trans.pl-PL.lang "Polsk">
 <!ENTITY trans.pt-BR.lang "Portugesisk (Brasil)">
 <!ENTITY trans.pt-PT.lang "Portugesisk (Portugal)">
-<!ENTITY trans.ro-RO.lang "Romanian">
 <!ENTITY trans.ru-RU.lang "Russisk">
 <!ENTITY trans.sk-SK.lang "Slovensk">
-<!ENTITY trans.sq-AL.lang "Albanian">
-<!ENTITY trans.sr-RS.lang "Serbian (Cyrillic)">
 <!ENTITY trans.sv-SE.lang "Svensk">
 <!ENTITY trans.tr-TR.lang "Tyrkisk">
 <!ENTITY trans.uk-UA.lang "Ukrainsk">
-<!ENTITY trans.vi-VN.lang "Vietnamese (Vietnam)">
 <!ENTITY trans.zh-CN.lang "Kinesisk (Forenklet)">
 <!ENTITY trans.zh-TW.lang "Kinesisk (Tradisjonelt)">
 <!ENTITY trans.thanks "Jeg takker selvfølgelig gjengen på BabelZilla.org for deres flotte arbeid!">

@@ -6,15 +6,11 @@
 <!ENTITY about.tooltip "Viser forskjellig informasjon om nettleseren">
 <!ENTITY about.config.tooltip "Viser en konsoll for å se og sette mange forskjellige innstillinger">
 <!ENTITY about.plugins.tooltip "Viser informasjon om alle installerte innstikk">
-<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "Viser informasjon om mellomlagerthjenesten for både minne og disk">
 <!ENTITY about.cache.disk.tooltip "Viser individuelle elementer på disken">
 <!ENTITY about.cache.memory.tooltip "Viser individuelle elementer i minnet">
-<!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Viser argumenter og valg som ble brukt for å kompilere versjonen som er i bruk">
 <!ENTITY about.about.tooltip "Viser informasjon om versjon og kopirettigheter">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Viser en liste over alle som har bidratt til Mozilla">
 <!ENTITY about.license.tooltip "Viser Mozilla offentlige lisens">
 <!ENTITY about.mozilla.tooltip "Viser en side fra den oppdiktede &quot;Boken av Mozilla&quot;">

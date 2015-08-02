@@ -3,9 +3,6 @@
 <!ENTITY menu.togglebar.label "Перамыкач бакавой панэлі">
 <!ENTITY menu.grippy.label "Кнопка “Згарнуць/Разгарнуць”">
 <!ENTITY toolbar.name "Бакавая панэль прылад">
-<!ENTITY toolbar.label "All-in-One-Sidebar">
-<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
-<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "Выклік бакавой панэлі">
 <!ENTITY button.toggle.tooltip "Адкрыць/Зачыніць бакавую панэль">
 <!ENTITY button.switch.tooltip1 "Адчыніць Sidebar і Toolbar">
@@ -18,8 +15,6 @@
 <!ENTITY sidebar.width.max "Максімальная шырыня">
 <!ENTITY button.menu.label "Бакавая панэль">
 <!ENTITY button.menu.tooltip "Спіс бакавых панэляў">
-<!ENTITY button.toolbar.label "AiOS-Toolbar">
-<!ENTITY button.toolbar.tooltip "Toggle AiOS-Toolbar">
 <!ENTITY button.paneltab.label "Адкрыць ва ўкладцы">
 <!ENTITY button.paneltab.tooltip1 "Адкрыць змесціва ўкладкі ў бакавой панэлі">
 <!ENTITY button.paneltab.tooltip2 "Адкрыць змесціва бакавой панэлі ў новай укладцы">
