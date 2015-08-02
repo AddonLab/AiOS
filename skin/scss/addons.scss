@@ -1,6 +1,14 @@
 page[aios-inSidebar] {
-
     padding: 0;
+
+    .main-content,
+    .view-pane > .list > scrollbox {
+        padding: 0;
+    }
+
+    #nav-header {
+        display: none;
+    }
 
     /* @group Navigation */
     > hbox {
@@ -36,7 +44,7 @@ page[aios-inSidebar] {
     /* @group Header */
     #header {
         margin: 0;
-        padding: 4px;
+        padding: 5px 5px 0 0 !important;
     }
 
     #header-utils-btn {
@@ -101,6 +109,12 @@ page[aios-inSidebar] {
         .error,
         .pending {
             margin-bottom: 5px;
+        }
+
+        .warning {
+            .text-link {
+                margin-left: 10px;
+            }
         }
 
         .pending {
@@ -181,6 +195,12 @@ page[aios-inSidebar] {
                 font-weight: bold;
             }
 
+            .warning {
+                > label {
+                    margin-left: 8px;
+                }
+            }
+
             .warning-icon,
             .error-icon,
             .pending-icon {
@@ -196,6 +216,7 @@ page[aios-inSidebar] {
             .description-container {
                 -moz-box-orient: vertical;
                 float: left;
+                margin-top: 5px;
 
                 .description {
                     display: block;
@@ -204,15 +225,26 @@ page[aios-inSidebar] {
                 .details {
                     margin-left: -2px;
                     padding: 0;
+
+                    .button-box {
+                        margin: 0 !important;
+                        padding: 0 !important;
+                    }
                 }
             }
 
-            .control-container > * {
-                margin-left: 2px;
-                min-width: 0;
+            .control-container {
+                > * {
+                    margin-left: 2px;
+                    min-width: 0;
 
-                &:first-child {
-                    margin-left: 0;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+
+                .button-box {
+                    padding: 0 3px !important;
                 }
             }
 
@@ -234,6 +266,8 @@ page[aios-inSidebar] {
 
     /* @group Detail-Ansicht */
     #detail-view {
+        margin: 0;
+
         vbox {
             font-size: 1em;
         }

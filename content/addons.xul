@@ -16,7 +16,7 @@
         <observes element="search-filter-radiogroup" attribute="value" onbroadcast="AiOS_Addons.setTitle(true);" />
     </richlistbox>
 
-    <hbox id="header">
+    <!-- <hbox id="header">
         <toolbarbutton id="back-btn">
             <observes element="back-btn" attribute="hidden" onbroadcast="document.getElementById('back-btn').setAttribute('hidden', false)" />
         </toolbarbutton>
@@ -26,9 +26,9 @@
         </toolbarbutton>
 
         <textbox id="header-search" flex="1" />
-    </hbox>
+    </hbox> -->
 
-    <hbox id="updates-container">
+    <!-- <hbox id="updates-container">
         <image class="spinner"/>
 
         <label id="updates-noneFound" >
@@ -59,6 +59,6 @@
 
         <toolbarbutton id="close-btn" class="close-icon" oncommand="AiOS_Addons.hideNotification();" style="display:none;" />
 
-    </hbox>
+    </hbox> -->
 
 </overlay>
