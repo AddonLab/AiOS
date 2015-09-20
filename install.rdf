@@ -9,6 +9,7 @@
 
         <em:id>{097d3191-e6fa-4728-9826-b533d755359d}</em:id>
         <em:type>2</em:type>
+        <em:multiprocessCompatible>true</em:multiprocessCompatible>
 
         <em:icon64URL>chrome://aios/skin/icons/icon64.png</em:icon64URL>
         <em:aboutURL>chrome://aios/content/about.xul</em:aboutURL>
