@@ -53,18 +53,13 @@ page[aios-inSidebar] {
     }
 
     #updates-container {
-        padding: 5px 0;
+        padding: 10px 0;
 
         .button-box {
-            padding-left: 0;
-            padding-right: 0;
+            padding: 0 !important;
         }
 
-        button.button-link {
-            margin-left: 5px;
-        }
-
-        #close-btn {
+        #updates-close-btn {
             display: block !important;
         }
     }
@@ -195,7 +190,8 @@ page[aios-inSidebar] {
                 font-weight: bold;
             }
 
-            .warning {
+            .warning,
+            .pending {
                 > label {
                     margin-left: 8px;
                 }
@@ -675,7 +671,7 @@ page[aios-inSidebar] {
             #updates-container {
                 margin: 5px 0 0 0;
 
-                #close-btn {
+                #updates-close-btn {
                     margin: 0 5px 0 0;
                     padding: 0;
                 }

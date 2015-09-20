@@ -28,7 +28,7 @@
         <textbox id="header-search" flex="1" />
     </hbox> -->
 
-    <!-- <hbox id="updates-container">
+    <hbox id="updates-container">
         <image class="spinner"/>
 
         <label id="updates-noneFound" >
@@ -57,8 +57,8 @@
 
         <spacer flex="1" />
 
-        <toolbarbutton id="close-btn" class="close-icon" oncommand="AiOS_Addons.hideNotification();" style="display:none;" />
+        <toolbarbutton id="updates-close-btn" class="close-icon" oncommand="AiOS_Addons.hideNotification();" style="display:none;" />
 
-    </hbox> -->
+    </hbox>
 
 </overlay>
