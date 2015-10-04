@@ -2,9 +2,12 @@
 <!ENTITY settings "إعدادات…">
 <!ENTITY close "إغلاق">
 <!ENTITY tab.about "حول">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "المساهمين">
 <!ENTITY tab.trans "المترجمين">
 <!ENTITY about.desc "The All-in-One Sidebar يمكنك من فتح نوافذ عدة كلوحة شريط جانبي, والتبديل بينهم بسرعة. بالإضافة إلى العلامات والتاريخ يمكنك من فتح نوافذ مثل التنزيلات الإضافات وأكثر في شريط جانبي.">
+<!ENTITY create.desc "created by Ingo Wennemaring, Hamburg [Germany]">
+<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "الصفحة الرئيسية - كثير من المعلومات في مكان واحد">
 <!ENTITY about2.name "المميزات - جميع مميزات All-in-One Sidebar">
 <!ENTITY about3.name "FAQ - الأسئلة والأجوبة الشائعة">
@@ -13,6 +16,43 @@
 <!ENTITY about6.name "Changelog - التعديلات على التطبيق">
 <!ENTITY about7.name "To-do - تطويرات للبرنامج">
 <!ENTITY contrib.desc "أشكر المطورين التالين على مساعدتهم وإلهامهم [بالترتيب الأبجدي]:">
+<!ENTITY contrib.thanks "Last but not least I thank all users who helped by testing the development builds, reporting bugs in the forum, sharing their ideas and suggestions or who writes just a nice comment. :-) Thank you very much!">
 <!ENTITY trans.desc "المترجمين لـ All-in-One Sidebar [ترتيب أبجدي]:">
 <!ENTITY trans.ar-SA.lang "العربية">
+<!ENTITY trans.be-BY.lang "Belarusian">
+<!ENTITY trans.cs-CZ.lang "Czech">
+<!ENTITY trans.da-DK.lang "Danish">
+<!ENTITY trans.de-DE.lang "German">
+<!ENTITY trans.el-GR.lang "Greek">
+<!ENTITY trans.en-GB.lang "English (Great Britain)">
+<!ENTITY trans.en-US.lang "English (USA)">
+<!ENTITY trans.es-AR.lang "Spanish (Argentina)">
+<!ENTITY trans.es-ES.lang "Spanish (Spain)">
+<!ENTITY trans.et-EE.lang "Estonian">
+<!ENTITY trans.fi-FI.lang "Finnish">
+<!ENTITY trans.fr-FR.lang "French">
+<!ENTITY trans.he-IL.lang "Hebrew">
+<!ENTITY trans.hr-HR.lang "Croatian">
+<!ENTITY trans.hu-HU.lang "Hungarian">
+<!ENTITY trans.hy-AM.lang "Armenian (Armenia)">
+<!ENTITY trans.it-IT.lang "Italian">
+<!ENTITY trans.ja-JP.lang "Japanese">
+<!ENTITY trans.ko-KR.lang "Korean">
+<!ENTITY trans.lt-LT.lang "Lithuanian">
+<!ENTITY trans.nb-NO.lang "Norwegian (Bokmål)">
+<!ENTITY trans.nl-NL.lang "Dutch">
+<!ENTITY trans.pl-PL.lang "Polish">
+<!ENTITY trans.pt-BR.lang "Portuguese (Brazil)">
+<!ENTITY trans.pt-PT.lang "Portuguese (Portugal)">
+<!ENTITY trans.ro-RO.lang "Romanian">
+<!ENTITY trans.ru-RU.lang "Russian">
+<!ENTITY trans.sk-SK.lang "Slovak">
+<!ENTITY trans.sq-AL.lang "Albanian">
+<!ENTITY trans.sr-RS.lang "Serbian (Cyrillic)">
+<!ENTITY trans.sv-SE.lang "Swedish">
+<!ENTITY trans.tr-TR.lang "Turkish">
+<!ENTITY trans.uk-UA.lang "Ukrainian">
+<!ENTITY trans.vi-VN.lang "Vietnamese (Vietnam)">
+<!ENTITY trans.zh-CN.lang "Chinese (Simplified)">
+<!ENTITY trans.zh-TW.lang "Chinese (Traditional)">
 <!ENTITY trans.thanks "أشكر أيضا فريق BabelZilla.org لعملهم العظيم!">

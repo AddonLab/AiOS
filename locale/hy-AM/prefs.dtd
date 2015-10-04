@@ -21,6 +21,7 @@
 <!ENTITY tab.menus "Մենյուներ">
 <!ENTITY tab.menus.sidebar "Կողավահանակ">
 <!ENTITY tab.keys "Կոճակներ">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Դիրքը">
 <!ENTITY gen.orient.label "Կողավահանակը">
 <!ENTITY gen.orient.left "ձախից">

@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Sidestolpe bryter">
 <!ENTITY menu.grippy.label "Sidestolpe klebrig">
 <!ENTITY toolbar.name "All-in-One sidestolpe verktøylinje">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Håndter elementer som kontrolleres av All-in-One sidestolpe">
 <!ENTITY button.switch.tooltip1 "Håndter sidestolpe og verktøylinje">
