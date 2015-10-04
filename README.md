@@ -40,12 +40,6 @@ Links
 [Setting up an extension development environment](https://developer.mozilla.org/docs/Setting_up_extension_development_environment)
 
 
-Support & Feedback
-------------------
-
-[Please use the forum for generic support](http://firefox.exxile.net/forum/)
-
-
 Issues
 -------
 
