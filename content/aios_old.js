@@ -1,7 +1,8 @@
 
 window.addEventListener("load", aios_initSidebar, false);
 window.addEventListener("resize", aios_checkThinSwitch, false);
-window.addEventListener("mozfullscreenchange", aios_BrowserFullScreen, false);
+window.addEventListener("fullscreen", aios_BrowserFullScreen, false);
+//window.addEventListener("mozfullscreenchange", aios_BrowserFullScreen, false);
 
 // sonst werden neu definierte Shortcuts bei Browser-Neustart zurueckgesetzt
 extLoad.add(30, function() {
@@ -720,7 +721,7 @@ function aios_BrowserFullScreen() {
 
     // Fullscreen an
     //  => Elemente ausblenden
-    if(document.mozFullScreenElement) {
+    if(document.mozFullScreenElement || window.fullScreen) {
 
         // Fix für mehrmaliges feuern des mozfullscreenchange events
         aios_leaveFullScreen = 0;

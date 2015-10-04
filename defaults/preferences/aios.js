@@ -45,7 +45,7 @@ pref("extensions.aios.cmode.close", 1);
 
 pref("extensions.aios.fs.sidebar", true);
 pref("extensions.aios.fs.toolbar", true);
-pref("extensions.aios.fs.switch", false);
+pref("extensions.aios.fs.switch", true);
 pref("extensions.aios.fs.restore", true);
 
 
