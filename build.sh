@@ -2,7 +2,7 @@
 
 XPI_FILE=all_in_one_sidebar-dev-build-fx
 
-echo - "Removing old xpi file"
+echo "- Removing old xpi file"
 rm $XPI_FILE.xpi
 
 echo "- Deleting .DS_Store files"
