@@ -703,9 +703,11 @@
                             <caption label="&pageInfoCmd.label;" />
                             <checkbox preference="PIOpen" label="&misc.enablesidebar.label; *" aiosChilds="PILayout" oncommand="aios_checkboxObserver(this);" />
 
+<!--
                             <vbox class="indent" aiosAdvanced="true">
                                 <checkbox id="obj-PILayout" preference="PILayout" label="&misc.layout.label;" />
                             </vbox>
+-->
                         </groupbox>
 
                     </vbox>
