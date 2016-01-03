@@ -2,10 +2,12 @@
 <!ENTITY settings "Asetukset…">
 <!ENTITY close "Sulje">
 <!ENTITY tab.about "Tietoa">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Kehittäjät">
 <!ENTITY tab.trans "Kääntäjät">
 <!ENTITY about.desc "AIOS -sivupalkki mahdollistaa erinäisten ikkunoitten avaamisen paneeleina sivupalkissa ja nopean siirtymisen niiden välillä. Se on siis piste ikkunakaaokselle! Kirjanmerkkien ja sivuhistorian lisäksi voidaan avata esimerkiksi lataukset ja laajennukset ikkuna.">
 <!ENTITY create.desc "luonut Ingo Wennemaring, Hampuri [Saksa]">
+<!ENTITY help.desc "You will find many information about this addon on the website:">
 <!ENTITY about1.name "Kotisivu - paljon tietoa yhdessä paikassa">
 <!ENTITY about2.name "Ominaisuudet - kaikki All-in-One Sidebarin ominaisuudet">
 <!ENTITY about3.name "UKK - usein kysyttyjä kysymyksiä ja vastauksia">
