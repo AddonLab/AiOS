@@ -1,6 +1,29 @@
 
 # Changelog
 
+### 0.7.29 (07.08.2016)
+
+##### fixed
+* sidebar panels open in new windows
+
+##### notice
+* the option “Open in Sidebar” for all panels has no effect
+
+---
+
+### 0.7.28 (03.01.2016)
+
+##### changed
+* update localizations
+
+##### fixed
+* page info shows no information when opened in a window
+
+##### notice
+* page info still shows no information when opened in the sidebar
+
+---
+
 ### 0.7.27 (04.10.2015)
 
 ##### changed
