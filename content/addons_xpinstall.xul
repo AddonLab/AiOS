@@ -20,7 +20,7 @@
                     => !AiOS_HELPER.mostRecentWindow.aiosIsWindow => nicht explizit im Fenster (z.B. durch Shift+Linksklick auf Toolbarbutton)
             */
             if(enable_sidebar && !top.document.getElementById('sidebar') && top.toString() != "[object Window]" && !AiOS_HELPER.mostRecentWindow.aiosIsWindow) {
-                AiOS_HELPER.mostRecentWindow.toggleSidebar("viewAddonsSidebar", true);
+                AiOS_HELPER.mostRecentWindow.SidebarUI.show("viewAddonsSidebar");
             }
 
             //document.documentElement.getButton("cancel").focus();

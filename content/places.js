@@ -283,7 +283,7 @@ var AiOS_Places = {};
         {
             e.stopPropagation();
             e.preventDefault();
-            top.toggleSidebar();
+            top.SidebarUI.toggle();
         }*/
 
     };

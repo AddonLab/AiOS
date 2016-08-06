@@ -136,8 +136,14 @@ function aios_initSidebar() {
 
         // sonst ist nach Deaktivieren/Aktivieren die Sidebar sichtbar aber leer
         lp = document.getElementById('sidebar-box').getAttribute("aiosLastPanel");
+
+        if(document.getElementById(lp)) {
+            lp = document.getElementById(lp).getAttribute('command');
+        }
+
         if(aios_getBoolean(document.getElementById('main-window'), 'aiosOpen') && lp != "") {
-            toggleSidebar(lp, true);
+            SidebarUI.show(lp);
+
             document.getElementById('sidebar-splitter').hidden = false;
             document.getElementById('sidebar-splitter').setAttribute('state', 'open');
         }
@@ -157,11 +163,14 @@ function aios_initSidebar() {
         var switchInit = AiOS_HELPER.prefBranchAiOS.getIntPref('gen.switch.init');
 
         // Sidebar beim Start oeffnen
-        if(sidebarInit == "open") toggleSidebar(fx_sidebarBox.getAttribute('aiosLastPanel'), true);
+        if(sidebarInit == "open") {
+            SidebarUI.show(fx_sidebarBox.getAttribute('aiosLastPanel'));
+        }
 
         // Sidebar beim Start schliessen
         if(sidebarInit == "close" && !aios_isSidebarHidden()) {
-            toggleSidebar();
+            SidebarUI.hide();
+
             if(aios_collapseSidebar) {
                 document.getElementById('sidebar-box').setAttribute('collapsed', true);
                 // CollapseByStyle-Methode document.getElementById('sidebar-box').setAttribute('style', 'display:none;');
@@ -170,7 +179,9 @@ function aios_initSidebar() {
 
         // bestimmte Sidebar beim Start oeffnen
         if(sidebarInit != "rem" && sidebarInit != "open" && sidebarInit != "close") {
-            if(document.getElementById(sidebarInit)) toggleSidebar(sidebarInit, true);
+            if(document.getElementById(sidebarInit)) {
+                SidebarUI.show(sidebarInit);
+            }
         }
 
         if(toolbarInit != 2) aios_toolbar.setAttribute('hidden', !toolbarInit);
@@ -404,6 +415,10 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
     if(openPanel == "") openPanel = "viewBookmarksSidebar";                             // Lesezeichen wenn keine Sidebar geoeffnet war
     if(aForcePanel) openPanel = aForcePanel;                                            // bestimmte Sidebar gewuenscht (bei jedem oeffnen)
 
+    if(document.getElementById(openPanel)) {
+        openPanel = document.getElementById(openPanel).getAttribute('command');
+    }
+
     // vertikaler Toolbar-Modus
     if(aios_toolbar.orient == "vertical") {
 
@@ -414,7 +429,7 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
             if(!aios_isSidebarHidden() && !aForceOpen) {
                 fx_sidebarBox.setAttribute("aiosShouldOpen", true);                         // Zustand der Sidebar merken (sichtbar)
                 document.persist(fx_sidebarBox.id, 'aiosShouldOpen');
-                toggleSidebar();                                                            // Sidebar ausblenden
+                SidebarUI.hide();                                                           // Sidebar ausblenden
             }
             else {
                 fx_sidebarBox.setAttribute("aiosShouldOpen", false);                        // Zustand der Sidebar merken (unsichtbar)
@@ -433,7 +448,9 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
             //aios_toolbar.setAttribute('hidden', false);
 
             // wenn Sidebar angezeigt werden soll (Status vor dem letzten Schliessen) oder die Toolbar abgeschaltet wurde
-            if(aios_getBoolean(fx_sidebarBox, 'aiosShouldOpen') || !showToolbar) toggleSidebar(openPanel);
+            if(aios_getBoolean(fx_sidebarBox, 'aiosShouldOpen') || !showToolbar) {
+                SidebarUI.show(openPanel);
+            }
         }
     }
     // horizontaler Toolbar-Modus
@@ -442,10 +459,12 @@ function aios_toggleOperaMode(aForcePanel, aForceOpen) {
         if(!aios_isSidebarHidden()) {
             fx_sidebarBox.setAttribute("aiosShouldOpen", true);                         // Zustand der Sidebar merken (sichtbar)
             document.persist(fx_sidebarBox.id, 'aiosShouldOpen');
-            toggleSidebar();                                                            // Sidebar ausblenden
+            SidebarUI.hide();                                                           // Sidebar ausblenden
         }
         else {
-            if(lastPanel == "") toggleSidebar(openPanel);
+            if(lastPanel == ""){
+                SidebarUI.show(openPanel);
+            }
 
         //if(showToolbar) aios_toolbar.setAttribute('hidden', false);
         }
@@ -586,12 +605,11 @@ function aios_toggleSidebar(aMode, aForceOpen) {
         if(aMode === 3) mode = 3;
         if(aMode === 4) mode = 4;
 
-
         // bestimmtes Panel laden?
-        var forcePanel;
+        var forcePanel = false;
+        var closeNow = false;
         var openPanel = AiOS_HELPER.prefBranchAiOS.getCharPref("gen.open.init");
         if(openPanel != "rem" && (prefstring == "key" || prefstring == "switch" || prefstring == "tbb")) forcePanel = openPanel;
-        else forcePanel = false;
 
         if(mode == 4) {
             aios_toggleOperaMode(forcePanel, aForceOpen);
@@ -605,11 +623,19 @@ function aios_toggleSidebar(aMode, aForceOpen) {
             if(aios_collapseSidebar && forcePanel && fx_sidebarBox.getAttribute('aiosLastPanel') != forcePanel && !aios_isSidebarHidden()) var closeNow = true;
 
             var tmpcmd = (forcePanel) ? forcePanel : fx_sidebarBox.getAttribute('aiosLastPanel');
-            toggleSidebar(tmpcmd, aForceOpen);
+
+            if(document.getElementById(tmpcmd)) {
+                tmpcmd = document.getElementById(tmpcmd).getAttribute('command');
+            }
+
+            if(aForceOpen) {
+                SidebarUI.show(tmpcmd);
+            } else {
+                SidebarUI.toggle(tmpcmd);
+            }
 
             // Sidebar schliessen, wenn die obigen Bedingungen erfuellt sind
-            if(closeNow) toggleSidebar(tmpcmd, aForceOpen);
-
+            if(closeNow) SidebarUI.hide();
 
             if((mode == 2 || mode == 3) && toolBox_enabled) {
                 //aios_toolbar.setAttribute('hidden', aios_isSidebarHidden());
@@ -685,6 +711,11 @@ function aios_checkThinSwitch() {
     => Aufruf durch onClick() des Umschalters
 */
 function aios_controlSwitch(ev, which) {
+    var panel = fx_sidebarBox.getAttribute('aiosLastPanel');
+
+    if(document.getElementById(panel)) {
+        panel = document.getElementById(panel).getAttribute('command');
+    }
 
     // Linksklick => metaKey = Mac
     if(ev.button == 0 && (!ev.shiftKey && !ev.ctrlKey && !ev.metaKey)) {
@@ -699,8 +730,12 @@ function aios_controlSwitch(ev, which) {
 
     // Rechtsklick / Shift+Linksklick
     if(ev.button == 2 || (ev.button == 0 && ev.shiftKey)) {
-        if(aios_isSidebarHidden()) toggleSidebar(fx_sidebarBox.getAttribute('aiosLastPanel'), true);
-        else toggleSidebar();
+        if(aios_isSidebarHidden()) {
+            SidebarUI.show(panel);
+        }
+        else {
+            SidebarUI.toggle(panel);
+        }
     }
 }
 
@@ -711,6 +746,12 @@ function aios_controlSwitch(ev, which) {
 */
 function aios_BrowserFullScreen() {
     aios_getObjects();
+
+    var panel = fx_sidebarBox.getAttribute('aiosLastPanel');
+
+    if(document.getElementById(panel)) {
+        panel = document.getElementById(panel).getAttribute('command');
+    }
 
     try {
         var enable_restore = AiOS_HELPER.prefBranchAiOS.getBoolPref('fs.restore');
@@ -751,7 +792,9 @@ function aios_BrowserFullScreen() {
         aios_toggleBox.setAttribute('fsSidebar', rem_sidebarHidden);
 
         // Soll-Zustaende herstellen (SidebarSwitch und Toolbar werden standardmaessig ausgeblendet)
-        if(close_sidebar && !rem_sidebarHidden) toggleSidebar();
+        if(close_sidebar && !rem_sidebarHidden) {
+            SidebarUI.toggle();
+        }
 
         aios_toggleBar.setAttribute("moz-collapsed", false);
         if(close_switch && !rem_switchHidden) aios_toggleBox.hidden = true;
@@ -784,8 +827,12 @@ function aios_BrowserFullScreen() {
         }
 
         if(enable_restore) {
-            if(!aios_getBoolean(aios_toggleBox, 'fsSidebar')) toggleSidebar(fx_sidebarBox.getAttribute('aiosLastPanel'), true);
-            else if(!aios_isSidebarHidden()) toggleSidebar();
+            if(!aios_getBoolean(aios_toggleBox, 'fsSidebar')) {
+                SidebarUI.show(panel);
+            }
+            else if(!aios_isSidebarHidden()) {
+                SidebarUI.toggle(panel);
+            }
 
             //onViewToolbarCommand(aios_getBoolean(aios_toggleBox, 'fsToolbar'));
             aios_toggleToolbar(aios_getBoolean(aios_toggleBox, 'fsToolbar'));

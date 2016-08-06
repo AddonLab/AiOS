@@ -22,7 +22,7 @@
 
     <script type="application/x-javascript" src="chrome://aios/content/aios.js" />
     <script type="application/x-javascript" src="chrome://aios/content/aios_old.js" />
-    <script type="application/x-javascript" src="chrome://aios/content/aios_fx.js" />
+    <!--<script type="application/x-javascript" src="chrome://aios/content/aios_fx.js" />-->
     <script type="application/x-javascript" src="chrome://aios/content/aios_tbx.js" />
     <script type="application/x-javascript" src="chrome://aios/content/aios_compatibility.js" />
 
@@ -35,17 +35,14 @@
     <broadcasterset id="mainBroadcasterSet">
 
         <broadcaster id="viewBookmarksSidebar"
-            onclick="aios_contextEvent(event, this);"
-            oncommand="toggleSidebar('viewBookmarksSidebar');" />
+            oncommand="SidebarUI.toggle('viewBookmarksSidebar');" />
 
         <broadcaster id="viewHistorySidebar" label="&historyButton.label;"
-            onclick="aios_contextEvent(event, this);"
-            oncommand="toggleSidebar('viewHistorySidebar');" />
+            oncommand="SidebarUI.toggle('viewHistorySidebar');" />
 
         <broadcaster id="viewDownloadsSidebar" autoCheck="false" type="checkbox" group="sidebar"
             sidebartitle="&downloads.label;" sidebarurl="about:downloads"
-            onclick="aios_contextEvent(event, this);"
-            oncommand="toggleSidebar('viewDownloadsSidebar');"
+            oncommand="SidebarUI.toggle('viewDownloadsSidebar');"
             ondragdrop="nsDragAndDrop.drop(event, DownloadsButtonDNDObserver); event.stopPropagation();"
             ondragover="nsDragAndDrop.dragOver(event, DownloadsButtonDNDObserver); event.stopPropagation();"
             ondragenter="nsDragAndDrop.dragEnter(event, DownloadsButtonDNDObserver); event.stopPropagation();"
@@ -54,26 +51,22 @@
 
         <broadcaster id="viewAddonsSidebar" autoCheck="false" type="checkbox" group="sidebar"
             sidebartitle="&button.addons.label;" sidebarurl="about:addons"
-            onclick="aios_contextEvent(event, this);"
-            oncommand="toggleSidebar('viewAddonsSidebar');"
+            oncommand="SidebarUI.toggle('viewAddonsSidebar');"
             label="&button.addons.label;" tooltiptext="&button.addons.tooltip;" />
 
         <broadcaster id="viewWebPanelsSidebar" autoCheck="false" type="checkbox" group="sidebar"
             sidebartitle="&button.multipanel.label;" sidebarurl="chrome://browser/content/web-panels.xul"
-            onclick="aios_contextEvent(event, this);"
-            oncommand="toggleSidebar('viewWebPanelsSidebar');"
+            oncommand="SidebarUI.toggle('viewWebPanelsSidebar');"
             label="&button.multipanel.label;" tooltiptext="&button.multipanel.tooltip;" />
 
         <broadcaster id="viewPageInfoSidebar" autoCheck="false" type="checkbox" group="sidebar"
             sidebartitle="&pageInfoCmd.label;" sidebarurl="chrome://browser/content/pageinfo/pageInfo.xul"
-            onclick="aios_contextEvent(event, this);"
-            oncommand="toggleSidebar('viewPageInfoSidebar');"
+            oncommand="SidebarUI.toggle('viewPageInfoSidebar');"
             label="&pageInfoCmd.label;" tooltiptext="&button.pageinfo.tooltip;" />
 
         <broadcaster id="viewConsoleSidebar" autoCheck="false" type="checkbox" group="sidebar"
             sidebartitle="&button.console.label;" sidebarurl="chrome://global/content/console.xul"
-            onclick="aios_contextEvent(event, this);"
-            oncommand="toggleSidebar('viewConsoleSidebar');"
+            oncommand="SidebarUI.toggle('viewConsoleSidebar');"
             label="&button.console.label;" tooltiptext="&button.console.tooltip;" />
 
 
@@ -97,9 +90,6 @@
 
     <!-- Kommandos -->
     <commandset id="mainCommandSet">
-        <command id="View:Bookmarks" oncommand="aios_openDialog('bookmarks');" />
-        <command id="View:History" oncommand="aios_openDialog('history');" />
-        <command id="Tools:MultiPanel" oncommand="aios_openDialog('multipanel');" />
         <command id="Tools:Console" oncommand="toJavaScriptConsole();" />
 
         <command id="aiosCmd_panelTab1" oncommand="aios_panelTab('sidebar');" />
@@ -159,49 +149,49 @@
 
         <toolbarbutton id="bookmarks-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
             label="&bookmarksButton.label;" tooltip="bookmarks-tooltip" tooltiptext="&bookmarksButton.label;"
-            command="View:Bookmarks">
+            command="viewBookmarksSidebar">
             <observes element="viewBookmarksSidebar" attribute="checked" />
             <observes element="viewBookmarksSidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="history-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
             label="&historyButton.label;" tooltip="history-tooltip" tooltiptext="&historyButton.label;"
-            command="View:History">
+            command="viewHistorySidebar">
             <observes element="viewHistorySidebar" attribute="checked" />
             <observes element="viewHistorySidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="downloads-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
             label="&downloads.label;" tooltip="downloads-tooltip" tooltiptext="&downloads.label;"
-            command="Tools:Downloads">
+            command="viewDownloadsSidebar">
             <observes element="viewDownloadsSidebar" attribute="checked" />
             <observes element="viewDownloadsSidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="addons-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            command="Tools:Addons"
-            ondragenter="toggleSidebar('viewAddonsSidebar', true);"
+            command="viewAddonsSidebar"
+            ondragenter="SidebarUI.show('viewAddonsSidebar');"
             label="&button.addons.label;" tooltip="addons-tooltip" tooltiptext="&button.addons.tooltip;">
             <observes element="viewAddonsSidebar" attribute="checked" />
             <observes element="viewAddonsSidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="multipanel-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            command="Tools:MultiPanel"
+            command="viewWebPanelsSidebar"
             label="&button.multipanel.label;" tooltip="multipanel-tooltip" tooltiptext="&button.multipanel.tooltip;">
             <observes element="viewWebPanelsSidebar" attribute="checked" />
             <observes element="viewWebPanelsSidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="pageinfo-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            command="View:PageInfo"
+            command="viewPageInfoSidebar"
             label="&pageInfoCmd.label;" tooltip="pageinfo-tooltip" tooltiptext="&button.pageinfo.tooltip;">
             <observes element="viewPageInfoSidebar" attribute="checked" />
             <observes element="viewPageInfoSidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="console-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            command="Tools:Console"
+            command="viewConsoleSidebar"
             label="&button.console.label;" tooltip="console-tooltip" tooltiptext="&button.console.tooltip;">
             <observes element="viewConsoleSidebar" attribute="checked" />
             <observes element="viewConsole2Sidebar" attribute="checked" />

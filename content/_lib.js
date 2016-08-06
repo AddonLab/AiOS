@@ -228,7 +228,7 @@ function aios_panelTab(event) {
 
             // bei "richtigem" Sidebar-Panel den Sidebar-Toggle-Befehl anwenden
             if(theSidebar) {
-                toggleSidebar(theSidebar, true);
+                SidebarUI.show(theSidebar);
             }
             // keine Sidebar (aber chrome://)
             else {
@@ -387,7 +387,8 @@ function aios_contextEvent(event, which) {
     // Befehl ausfuehren
     switch(mode) {
         case "sidebar":
-            toggleSidebar(cmdObj.getAttribute('aios_sbCmd'));
+            SidebarUI.toggle(cmdObj.getAttribute('aios_sbCmd'));
+
             break;
 
         case "window":      // wird zur Abfrage in addons/downloads_....xul und downloads.js benoetigt
@@ -611,14 +612,18 @@ var aios_DownloadObserver = {
                 var comElem = document.getElementById('Tools:Downloads');
                 if(autoOpen && comElem.getAttribute('oncommand').indexOf('viewDownloadsSidebar') >= 0) {
                     // AiOS_HELPER.windowWatcher.activeWindow verhindert, dass die Sidebar in jedem Fenster geoeffnet wird
-                    if(typeof AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar == "function") AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar("viewDownloadsSidebar", true);
+                    if(typeof AiOS_HELPER.windowWatcher.activeWindow.SidebarUI.toggle == "function") {
+                        AiOS_HELPER.windowWatcher.activeWindow.SidebarUI.show("viewDownloadsSidebar");
+                    }
                 }
                 break;
 
             case "dl-done":
                 var sideSrc = document.getElementById('sidebar').getAttribute('src');
                 if(autoOpen && autoClose && sideSrc.indexOf('downloads.xul') >= 0) {
-                    if(typeof AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar == "function") AiOS_HELPER.windowWatcher.activeWindow.toggleSidebar();
+                    if(typeof AiOS_HELPER.windowWatcher.activeWindow.SidebarUI.toggle == "function") {
+                        AiOS_HELPER.windowWatcher.activeWindow.SidebarUI.toggle();
+                    }
                 }
                 break;
         }
