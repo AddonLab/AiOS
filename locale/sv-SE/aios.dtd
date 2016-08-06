@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sidopanelsomkopplare">
 <!ENTITY menu.grippy.label "Sidopanelsgrepp">
 <!ENTITY toolbar.name "All-in-One Sidebars verktygsfält">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebar verktygsfält">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Aktivera/Avaktivera objekt styrt av All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Visa/dölj sidopanel och verktygsfält">

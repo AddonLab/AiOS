@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "탐색 창 스위치">
 <!ENTITY menu.grippy.label "탐색 창 손잡이">
 <!ENTITY toolbar.name "All-In-One Sidebar 도구 모음">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "탐색 창 헤더 도구 모음">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "All-in-One Sidebar가 통제하는 요소들을 보이거나 숨깁니다.">
 <!ENTITY button.switch.tooltip1 "탐색 창과 도구 모음을 보이거나 숨깁니다.">

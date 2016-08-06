@@ -7,6 +7,7 @@
 <!ENTITY key.shift "Klávesa Shift">
 <!ENTITY menu.tools.label "Nástroje">
 <!ENTITY closeFolder.label "Zavřít všechny složky">
+<!ENTITY show.closeFolder.label "'Close All Folders' Button">
 <!ENTITY enable.autoClose.label "Automaticky zavřít ostatní složky">
 <!ENTITY enable.scrollToFolder.label "Automaticky přejít ke zvolené složce">
 <!ENTITY enable.rememberFolder.label "Pamatovat si a vždy přejít k naposled vybrané složce">

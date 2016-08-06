@@ -6,11 +6,15 @@
 <!ENTITY about.tooltip "顯示關於此瀏覽器的其他資訊">
 <!ENTITY about.config.tooltip "開啟「可檢視或設定多種的組態變數的介面」">
 <!ENTITY about.plugins.tooltip "顯示所有已安裝的 Plug-ins 資訊">
+<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "顯示記憶體與磁碟的快取服務(Cache Service)資訊">
 <!ENTITY about.cache.disk.tooltip "顯示磁碟的 individual entries">
 <!ENTITY about.cache.memory.tooltip "顯示記憶體的 individual entries">
+<!ENTITY about.cache.offline.tooltip "List offline cache entries">
+<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "顯示目前版本用來編譯的引數及選項">
 <!ENTITY about.about.tooltip "顯示版本與版權資訊">
+<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "顯示 Mozilla 的貢獻者列表">
 <!ENTITY about.license.tooltip "顯示 Mozilla Public License (MPL)">
 <!ENTITY about.mozilla.tooltip "顯示來自 the fictional Book of Mozilla 的頁面">
