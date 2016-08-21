@@ -569,7 +569,7 @@ function aios_setTargets() {
 
 
     // Oeffnen des Download-Fensters verhindern, wenn die Sidebar genutzt werden soll
-    if(AiOS_HELPER.prefBranchAiOS.getBoolPref('dm.sidebar')) AiOS_HELPER.prefService.setBoolPref("browser.download.manager.showWhenStarting", false);
+    if(AiOS_HELPER.prefBranchAiOS.getBoolPref('dm.sidebar')) AiOS_HELPER.prefBranchAiOS.setBoolPref("browser.download.manager.showWhenStarting", false);
 
 
     // Download-Observer hinzufuegen, falls Downloads in der Sidebar geoeffnet werden sollen
