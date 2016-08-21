@@ -1,6 +1,21 @@
 
 # Changelog
 
+### 0.7.30 (21.08.2016)
+
+##### changed
+* disable sidebar collapsing by default (temporarily as quickfix)
+
+##### fixed
+* apply and ok button in preferences not working
+* small code fixes
+
+##### notice
+* if you still have problems opening the sidebar, please try to open the bookmarks sidebar once by clicking von View > Sidebar > Bookmarks
+* otherwise follow these instructions: https://github.com/AddonLab/AiOS/issues/122#issuecomment-241235403
+
+---
+
 ### 0.7.29 (07.08.2016)
 
 ##### fixed
