@@ -187,7 +187,7 @@ function aios_exportSettings(aMode) {
         if(fp.show() != fp.returnCancel) {
 
             if(fp.file.exists()) fp.file.remove(true);
-            fp.file.create(fp.file.NORMAL_FILE_TYPE, 0666);
+            fp.file.create(fp.file.NORMAL_FILE_TYPE, 0o666);
             stream.init(fp.file, 0x02, 0x200, null);
 
             stream.write(aiosExportString, aiosExportString.length);
@@ -283,7 +283,7 @@ function aios_loadFromFile() {
 
     if(fp.show() != fp.returnCancel) {
 
-        stream.init(fp.file, 0x01, 0444, null);
+        stream.init(fp.file, 0x01, 0o444, null);
         streamIO.init(stream);
 
         var input = streamIO.read(stream.available());
