@@ -11,7 +11,7 @@
 * small code fixes
 
 ##### notice
-* if you still have problems opening the sidebar, please try to open the bookmarks sidebar once by clicking von View > Sidebar > Bookmarks
+* if you still have problems opening the sidebar, please try to open the bookmarks sidebar once by clicking on View > Sidebar > Bookmarks
 * otherwise follow these instructions: https://github.com/AddonLab/AiOS/issues/122#issuecomment-241235403
 
 ---
