@@ -425,12 +425,14 @@ function aios_setTargets() {
     var objects, i;
 
     // weise den Menueelementen der Fehlerkonsole, des Seitenquelltextes und der Seiteninformationen die entsprechenden commands zu
-    document.getElementById('javascriptConsole').removeAttribute('oncommand');
-    document.getElementById('javascriptConsole').setAttribute('command', 'Tools:Console');
+    if( document.getElementById('javascriptConsole') ) {
+        document.getElementById('javascriptConsole').removeAttribute('oncommand');
+        document.getElementById('javascriptConsole').setAttribute('command', 'Tools:Console');
 
-    if(document.getElementById('key_errorConsole')) {
-        document.getElementById('key_errorConsole').removeAttribute('oncommand');
-        document.getElementById('key_errorConsole').setAttribute('command', 'Tools:Console');
+        if(document.getElementById('key_errorConsole')) {
+            document.getElementById('key_errorConsole').removeAttribute('oncommand');
+            document.getElementById('key_errorConsole').setAttribute('command', 'Tools:Console');
+        }
     }
 
     document.getElementById('context-viewinfo').removeAttribute('oncommand');
