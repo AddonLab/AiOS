@@ -6,6 +6,7 @@
 <!ENTITY about.tooltip "브라우저에 대한 또 다른 정보를 보여줍니다.">
 <!ENTITY about.config.tooltip "다양한 환경 설정 값을 보고 변경할 수 있는 화면을 보여줍니다.">
 <!ENTITY about.plugins.tooltip "모든 설치된 플러그인에 대한 정보를 보여줍니다.">
+<!ENTITY about.support.tooltip "Shows application basics, extensions, and modified preferences">
 <!ENTITY about.cache.tooltip "메모리와 디스크 캐시에 대한 정보를 보여줍니다.">
 <!ENTITY about.cache.disk.tooltip "디스크 캐시 목록입니다.">
 <!ENTITY about.cache.memory.tooltip "메모리 캐시 목록입니다.">
