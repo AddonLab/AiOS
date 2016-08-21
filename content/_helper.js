@@ -304,29 +304,6 @@ function aios_openDialog(which, args) {
 
 
 /*
-    prueft welche Elemente angezeigt werden sollen
-        => Aufruf jeweils durch Initialisierung
-*/
-function aios_synchElements(aElems) {
-    var elem, child, childElems, childMode;
-
-    for(var i = 0; i < aElems.length; i++) {
-        elem = document.getElementById(aElems[i]);
-
-        if(elem) {
-
-            childElems = elem.getAttribute('aiosChilds');
-
-            if(childElems) {
-                childMode = !aios_getBoolean(elem, 'checked');
-                aios_toggleChilds(childElems, childMode);
-            }
-        }
-    }
-}
-
-
-/*
     toggelt einen Menuepunkt und das/die zugehoerige/n Element/e
         => Aufruf durch die menuitems in der aios.xul
 */
