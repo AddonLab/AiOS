@@ -624,7 +624,7 @@ function aios_toggleSidebar(aMode, aForceOpen) {
 
             var tmpcmd = (forcePanel) ? forcePanel : fx_sidebarBox.getAttribute('aiosLastPanel');
 
-            if(document.getElementById(tmpcmd)) {
+            if(document.getElementById(tmpcmd) && tmpcmd.indexOf('view') !== 0) {
                 tmpcmd = document.getElementById(tmpcmd).getAttribute('command');
             }
 
