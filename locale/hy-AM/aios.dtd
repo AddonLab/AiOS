@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Կողավահանակի Փոխանջատիչ">
 <!ENTITY menu.grippy.label "Կողավահանակի բռնակ">
 <!ENTITY toolbar.name "All-in-One Sidebar Գործիքաշար">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Կողավահանակի վերնագրի Գործիքաշար">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Փոխանջատել">
 <!ENTITY button.switch.tooltip1 "Կողավահանակը և Գործիքաշարը">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "ԲազմաՎահանակ">
 <!ENTITY button.multipanel.tooltip "Ցույց տալ էջը, նրա կոդը և հատկությունները">
 <!ENTITY button.pageinfo.tooltip "Ցույց մանրամասն տեղեկություն էջի մասին">
+<!ENTITY button.console.label "Սխալների Պատուհան">
+<!ENTITY button.console.tooltip "Բացել Սխալների Պատուհանը">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

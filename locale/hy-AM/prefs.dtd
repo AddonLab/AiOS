@@ -15,11 +15,13 @@
 <!ENTITY tab.gen.special "Հատուկ">
 <!ENTITY tab.panels "Վահանակներ">
 <!ENTITY tab.panels.places "Էջադիրներ/Պատմություն">
-<!ENTITY tab.panels.other1 "Այլ">
+<!ENTITY tab.panels.other1 "Այլ Ա">
+<!ENTITY tab.panels.other2 "Այլ Բ">
 <!ENTITY tab.panels.paneltab "Վահանակից Tab">
 <!ENTITY tab.menus "Մենյուներ">
 <!ENTITY tab.menus.sidebar "Կողավահանակ">
 <!ENTITY tab.keys "Կոճակներ">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Դիրքը">
 <!ENTITY gen.orient.label "Կողավահանակը">
 <!ENTITY gen.orient.left "ձախից">

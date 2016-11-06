@@ -15,7 +15,8 @@
 <!ENTITY tab.gen.special "Speciale">
 <!ENTITY tab.panels "Elemente panou">
 <!ENTITY tab.panels.places "Semne de carte/Istoric">
-<!ENTITY tab.panels.other1 "Diverse">
+<!ENTITY tab.panels.other1 "Diverse I">
+<!ENTITY tab.panels.other2 "Diverse II">
 <!ENTITY tab.panels.paneltab "File în panoul lateral">
 <!ENTITY tab.menus "Meniuri">
 <!ENTITY tab.menus.sidebar "Panou lateral">

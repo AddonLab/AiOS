@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Перамыкач бакавой панэлі">
 <!ENTITY menu.grippy.label "Кнопка “Згарнуць/Разгарнуць”">
 <!ENTITY toolbar.name "Бакавая панэль прылад">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "Выклік бакавой панэлі">
 <!ENTITY button.toggle.tooltip "Адкрыць/Зачыніць бакавую панэль">
 <!ENTITY button.switch.tooltip1 "Адчыніць Sidebar і Toolbar">
@@ -15,6 +18,8 @@
 <!ENTITY sidebar.width.max "Максімальная шырыня">
 <!ENTITY button.menu.label "Бакавая панэль">
 <!ENTITY button.menu.tooltip "Спіс бакавых панэляў">
+<!ENTITY button.toolbar.label "AiOS-Toolbar">
+<!ENTITY button.toolbar.tooltip "Toggle AiOS-Toolbar">
 <!ENTITY button.paneltab.label "Адкрыць ва ўкладцы">
 <!ENTITY button.paneltab.tooltip1 "Адкрыць змесціва ўкладкі ў бакавой панэлі">
 <!ENTITY button.paneltab.tooltip2 "Адкрыць змесціва бакавой панэлі ў новай укладцы">
@@ -31,6 +36,8 @@
 <!ENTITY button.multipanel.label "Мультипанель">
 <!ENTITY button.multipanel.tooltip "Паказаць вэб-сайт, зыходны код старонкі або інфармацыю аб браўзэры">
 <!ENTITY button.pageinfo.tooltip "Паказаць усю інфармацыю аб дадзенай старонцы">
+<!ENTITY button.console.label "Кансоль памылак">
+<!ENTITY button.console.tooltip "Адкрыць кансоль, якая адлюстроўвае праблемы зыходнага кода">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

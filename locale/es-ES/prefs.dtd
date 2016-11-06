@@ -15,11 +15,13 @@
 <!ENTITY tab.gen.special "Especial">
 <!ENTITY tab.panels "Paneles">
 <!ENTITY tab.panels.places "Marcadores/Historial">
-<!ENTITY tab.panels.other1 "Otro">
+<!ENTITY tab.panels.other1 "Otro I">
+<!ENTITY tab.panels.other2 "Otro II">
 <!ENTITY tab.panels.paneltab "PanelTab">
 <!ENTITY tab.menus "Menús">
 <!ENTITY tab.menus.sidebar "Panel lateral">
 <!ENTITY tab.keys "Combinaciones de teclas">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientación">
 <!ENTITY gen.orient.label "Mostrar el panel en">
 <!ENTITY gen.orient.left "parte izquierda">

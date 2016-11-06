@@ -36,6 +36,8 @@
 <!ENTITY button.multipanel.label "Panelhalmozás">
 <!ENTITY button.multipanel.tooltip "Webhely, oldalforrás és böngészőinformációkat jelenít meg">
 <!ENTITY button.pageinfo.tooltip "Információk, Űrlapok, Hivatkozások, Média és Biztonság">
+<!ENTITY button.console.label "Hibanaplózó konzol">
+<!ENTITY button.console.tooltip "Hibanaplózó konzol, amely fényt derít az oldal forrásának hibáira">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

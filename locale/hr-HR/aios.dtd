@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Prebacivanje rubnog stupca">
 <!ENTITY menu.grippy.label "Sidebar Grippy">
 <!ENTITY toolbar.name "All-in-One Sidebar alatna traka">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebarheader Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Promijeni elemente koje kontrolira All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Promjena rubnog stupca i alatne trake">
@@ -33,6 +36,8 @@
 <!ENTITY button.multipanel.label "Više panoa">
 <!ENTITY button.multipanel.tooltip "Prikaži npr. web stranicu, izvorni kod i informacije o pregledniku">
 <!ENTITY button.pageinfo.tooltip "Prikaz opsežnih informacija o web stranici">
+<!ENTITY button.console.label "Konzola s greškama">
+<!ENTITY button.console.tooltip "Otvaranje konzole s greškama koja prati probleme s izvornim kodom">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

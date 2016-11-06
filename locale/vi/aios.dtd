@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Công tắc Thanh lề">
 <!ENTITY menu.grippy.label "Thanh lề Grippy">
 <!ENTITY toolbar.name "Thanh All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Thanh công cụ Đầu đề Thanh lề">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Bật tắt các phần tử được All-in-One Sidebar điều khiển">
 <!ENTITY button.switch.tooltip1 "Bật tắt Thanh lề và Thanh công cụ">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "ĐaBảng">
 <!ENTITY button.multipanel.tooltip "Hiển thị một trang web, mã nguồn, và thông tin trình duyệt">
 <!ENTITY button.pageinfo.tooltip "Hiển thị thông tin mở rộng của một trang web">
+<!ENTITY button.console.label "Bảng kiểm soát Lỗi">
+<!ENTITY button.console.tooltip "Mở Bảng kiểm soát Lỗi để theo dõi các vấn đề trong mã nguồn">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

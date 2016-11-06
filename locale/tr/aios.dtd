@@ -36,6 +36,8 @@
 <!ENTITY button.multipanel.label "Çoklu Panel">
 <!ENTITY button.multipanel.tooltip "Display e.g. a website, source code and browser information">
 <!ENTITY button.pageinfo.tooltip "Sayfa bilgilerini açar">
+<!ENTITY button.console.label "Consol hatası">
+<!ENTITY button.console.tooltip "Hata konsolunu aç,kaynak koduyla kangi parçalar hatalı">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

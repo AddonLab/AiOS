@@ -15,11 +15,13 @@
 <!ENTITY tab.gen.special "특수">
 <!ENTITY tab.panels "패널">
 <!ENTITY tab.panels.places "북마크/방문 기록">
-<!ENTITY tab.panels.other1 "기타">
+<!ENTITY tab.panels.other1 "기타 1">
+<!ENTITY tab.panels.other2 "기타 2">
 <!ENTITY tab.panels.paneltab "패널탭">
 <!ENTITY tab.menus "메뉴">
 <!ENTITY tab.menus.sidebar "탐색 창">
 <!ENTITY tab.keys "단축키">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "위치">
 <!ENTITY gen.orient.label "탐색 창을">
 <!ENTITY gen.orient.left "왼쪽에 표시">

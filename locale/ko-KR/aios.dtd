@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "탐색 창 스위치">
 <!ENTITY menu.grippy.label "탐색 창 손잡이">
 <!ENTITY toolbar.name "All-In-One Sidebar 도구 모음">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "탐색 창 헤더 도구 모음">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "All-in-One Sidebar가 통제하는 요소들을 보이거나 숨깁니다.">
 <!ENTITY button.switch.tooltip1 "탐색 창과 도구 모음을 보이거나 숨깁니다.">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "멀티패널">
 <!ENTITY button.multipanel.tooltip "예를 들면 웹사이트, 소스 코드, 브라우저 정보 등을 보여줍니다.">
 <!ENTITY button.pageinfo.tooltip "웹 페이지에 대한 다양한 정보를 보여줍니다.">
+<!ENTITY button.console.label "오류 콘솔">
+<!ENTITY button.console.tooltip "소스 코드의 문제를 추적하는 오류 콘솔을 엽니다.">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

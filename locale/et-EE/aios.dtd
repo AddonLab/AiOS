@@ -36,6 +36,8 @@
 <!ENTITY button.multipanel.label "MultiPaneel">
 <!ENTITY button.multipanel.tooltip "Näita, näiteks veebilehte, lähtekoodi või brauseri infot">
 <!ENTITY button.pageinfo.tooltip "Näita veebilehe kohta laiendatud informatsiooni">
+<!ENTITY button.console.label "VeaKonsool">
+<!ENTITY button.console.tooltip "Ava veakonsool, lähtekoodi veajälitusega">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

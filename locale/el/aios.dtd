@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Διακόπτης πλευρικής στήλης">
 <!ENTITY menu.grippy.label "Λαβή πλευρικής στήλης">
 <!ENTITY toolbar.name "Εργαλειοθήκη All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Εργαλειοθήκη κεφαλίδας πλευρικής στήλης">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AIOS">
 <!ENTITY button.toggle.tooltip "Εναλλαγή κατάστασης των στοιχείων που διαμορφώνει το All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Εναλλαγή πλευρικής στήλης και εργαλειοθήκης">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "Πολύπλευρο πλαίσιο">
 <!ENTITY button.multipanel.tooltip "Εμφάνιση ιστοσελίδων και πληροφοριών περιηγητή">
 <!ENTITY button.pageinfo.tooltip "Εμφάνιση περισσότερων πληροφοριών για ιστοσελίδες">
+<!ENTITY button.console.label "Κονσόλα σφαλμάτων">
+<!ENTITY button.console.tooltip "Άνοιγμα της κονσόλας σφαλμάτων, η οποία παρακολουθεί προβλήματα που υπάρχουν στον πηγαίο κώδικα">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

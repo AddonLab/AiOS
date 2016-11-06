@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Selector de Barra Lateral">
 <!ENTITY menu.grippy.label "Panel Lateral Grippy">
 <!ENTITY toolbar.name "Barra de Herramientas de All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Encabezado de la Barra Lateral de Herramientas">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Intercambia los elementos controlados por All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Alternar entre Barra Lateral y Barra de Herramientas">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Mostrar por ejemplo un sitio web, el código fuente y la información del navegador">
 <!ENTITY button.pageinfo.tooltip "Ver informaciones, Formularios, Enlaces, Contenido y Seguridad">
+<!ENTITY button.console.label "Consola de Errores">
+<!ENTITY button.console.tooltip "Abrir la Consola de Errores, que nos muestra los problemas con el código fuente">
 <!ENTITY keys.modifiers "acelerar cambio">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

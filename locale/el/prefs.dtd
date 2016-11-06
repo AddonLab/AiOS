@@ -15,7 +15,8 @@
 <!ENTITY tab.gen.special "Ειδικά">
 <!ENTITY tab.panels "Πλαίσια">
 <!ENTITY tab.panels.places "Σελιδοδείκτες/Ιστορικό">
-<!ENTITY tab.panels.other1 "Άλλο">
+<!ENTITY tab.panels.other1 "Άλλο I">
+<!ENTITY tab.panels.other2 "Άλλο II">
 <!ENTITY tab.panels.paneltab "Καρτέλα πλαισίου">
 <!ENTITY tab.menus "Μενού">
 <!ENTITY tab.menus.sidebar "Μενού πλευρικής στήλης">

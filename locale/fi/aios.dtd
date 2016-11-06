@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sivupaneelin vaihto">
 <!ENTITY menu.grippy.label "Sivupaneelin kahva">
 <!ENTITY toolbar.name "All-in-One Sidebar työkalupalkki">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sivupaneelin otsikkopalkki">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Kytke All-in-One Sidebarin hallitsemat elementit">
 <!ENTITY button.switch.tooltip1 "Kytke sivupaneeli ja työkalupalkki">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "Multipaneeli">
 <!ENTITY button.multipanel.tooltip "Näytä esim. sivu, lähdekoodi ja selaintietoa">
 <!ENTITY button.pageinfo.tooltip "Näytä syventävää tietoa sivusta">
+<!ENTITY button.console.label "Virhe Konsoli">
+<!ENTITY button.console.tooltip "Avaa Virhe Konsoli, joka jäljittää ongelmia lähdekoodissa">
 <!ENTITY keys.modifiers "pika Vaihto">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

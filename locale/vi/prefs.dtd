@@ -15,11 +15,13 @@
 <!ENTITY tab.gen.special "Đặc biệt">
 <!ENTITY tab.panels "Bảng điều khiển">
 <!ENTITY tab.panels.places "Đánh dấu/Lược sử">
-<!ENTITY tab.panels.other1 "Khác">
+<!ENTITY tab.panels.other1 "Khác I">
+<!ENTITY tab.panels.other2 "Khác II">
 <!ENTITY tab.panels.paneltab "ThẻBảng">
 <!ENTITY tab.menus "Trình đơn">
 <!ENTITY tab.menus.sidebar "Thanh lề">
 <!ENTITY tab.keys "Phím tắt">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Chiều hướng">
 <!ENTITY gen.orient.label "Hiện thanh lề ở">
 <!ENTITY gen.orient.left "bên trái">

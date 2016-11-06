@@ -36,6 +36,8 @@
 <!ENTITY button.multipanel.label "МультиПанель">
 <!ENTITY button.multipanel.tooltip "Показати сайт, код сторінки та інформацію браузера">
 <!ENTITY button.pageinfo.tooltip "Показати розширену інформацію про веб-сторінку">
+<!ENTITY button.console.label "Консоль помилок">
+<!ENTITY button.console.tooltip "Відкрити консоль помилок, яка фіксує проблеми з кодом">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Botón panel lateral">
 <!ENTITY menu.grippy.label "Grippy del panel lateral">
 <!ENTITY toolbar.name "Barra de herramientas de All-in-One Sidebar">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Barra de herramientas del panel lateral">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "Activar panel lateral">
 <!ENTITY button.toggle.tooltip "Abrir/Cerrar panel lateral">
 <!ENTITY button.switch.tooltip1 "Activar panel lateral y barra de herramientas">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "Panel múltiple">
 <!ENTITY button.multipanel.tooltip "Muestra por ej. una página web, el código fuente y la información del navegador">
 <!ENTITY button.pageinfo.tooltip "Mostrar información completa sobre la página">
+<!ENTITY button.console.label "Consola de errores">
+<!ENTITY button.console.tooltip "Abre la consola de errores, que permite tener más información del código fuente">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

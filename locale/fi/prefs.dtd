@@ -15,11 +15,13 @@
 <!ENTITY tab.gen.special "Erityis">
 <!ENTITY tab.panels "Paneelit">
 <!ENTITY tab.panels.places "Kirjanmerkit/Historia">
-<!ENTITY tab.panels.other1 "Muut">
+<!ENTITY tab.panels.other1 "Muut 1">
+<!ENTITY tab.panels.other2 "Muut 2">
 <!ENTITY tab.panels.paneltab "Paneelivälilehti">
 <!ENTITY tab.menus "Valikot">
 <!ENTITY tab.menus.sidebar "Sivupaneeli">
 <!ENTITY tab.keys "Oikotiet">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Paikoitus">
 <!ENTITY gen.orient.label "Näytä sivupaneeli">
 <!ENTITY gen.orient.left "vasemmalla puolella">

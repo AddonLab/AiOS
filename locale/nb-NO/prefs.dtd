@@ -5,6 +5,7 @@
 <!ENTITY settings.advanced "Avansert modus">
 <!ENTITY settings.import "Imorter innstillinger…">
 <!ENTITY settings.export "Eksporter innstillinger…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Bruk">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Generelt">
@@ -14,11 +15,13 @@
 <!ENTITY tab.gen.special "Spesielt">
 <!ENTITY tab.panels "Paneler">
 <!ENTITY tab.panels.places "Bokmerker/Historikk">
-<!ENTITY tab.panels.other1 "Andre">
+<!ENTITY tab.panels.other1 "Andre I">
+<!ENTITY tab.panels.other2 "Andre II">
 <!ENTITY tab.panels.paneltab "Panelfane">
 <!ENTITY tab.menus "Menyer">
 <!ENTITY tab.menus.sidebar "Sidestolpe">
 <!ENTITY tab.keys "Snarveier">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientering">
 <!ENTITY gen.orient.label "Vis sidestolpe på">
 <!ENTITY gen.orient.left "venstre side">
@@ -76,6 +79,9 @@
 <!ENTITY menus.sidebar.entrydeac "Deaktiver elementer på den aktive sidestolpen">
 <!ENTITY misc.enablesidebar.label "Åpne i sidestolpen">
 <!ENTITY misc.layout.label "Forbedre sidestolpens utseende">
+<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Aktiver farget bakgrunn basert på nåværende tilstand">
 <!ENTITY misc.count.label "Vis nummer på elementene">
 <!ENTITY misc.enablelink.tooltip "Klikk her for mer informasjon (lenke til FAQ&apos;s)">

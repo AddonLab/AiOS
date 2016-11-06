@@ -15,7 +15,8 @@
 <!ENTITY tab.gen.special "Spéciales">
 <!ENTITY tab.panels "Panneaux">
 <!ENTITY tab.panels.places "Marque-pages / Historique">
-<!ENTITY tab.panels.other1 "Autres">
+<!ENTITY tab.panels.other1 "Autres (1)">
+<!ENTITY tab.panels.other2 "Autres (2)">
 <!ENTITY tab.panels.paneltab "OngletDePanneau">
 <!ENTITY tab.menus "Menus">
 <!ENTITY tab.menus.sidebar "Panneau latéral">

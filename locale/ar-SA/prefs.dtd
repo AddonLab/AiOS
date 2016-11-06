@@ -14,11 +14,14 @@
 <!ENTITY tab.gen.fullscreen "نمط ملء الشاشة">
 <!ENTITY tab.gen.special "خاص">
 <!ENTITY tab.panels "لوحات">
+<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "آخر 1">
+<!ENTITY tab.panels.other2 "آخر 2">
 <!ENTITY tab.panels.paneltab "لسان اللوحات">
 <!ENTITY tab.menus "القوائم">
 <!ENTITY tab.menus.sidebar "الشريط الجانبي">
 <!ENTITY tab.keys "اختصارات">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "التحويل">
 <!ENTITY gen.orient.label "اظهر شريط الأدوات على">
 <!ENTITY gen.orient.left "الجانب الأيسر">

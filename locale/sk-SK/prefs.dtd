@@ -5,6 +5,7 @@
 <!ENTITY settings.advanced "Režim pre pokročilých">
 <!ENTITY settings.import "Importovať nastavenia…">
 <!ENTITY settings.export "Exportovať nastavenia">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Použiť">
 <!ENTITY gen.column1 "200">
 <!ENTITY tab.gen "Všeobecné">
@@ -14,11 +15,13 @@
 <!ENTITY tab.gen.special "Špeciality">
 <!ENTITY tab.panels "Karty">
 <!ENTITY tab.panels.places "Záložky/História">
-<!ENTITY tab.panels.other1 "Iné">
+<!ENTITY tab.panels.other1 "Iné 1">
+<!ENTITY tab.panels.other2 "Iné 2">
 <!ENTITY tab.panels.paneltab "Otvoriť bočný panel v karte">
 <!ENTITY tab.menus "Ponuky">
 <!ENTITY tab.menus.sidebar "Bočný panel">
 <!ENTITY tab.keys "Klávesové skratky">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Umiestnenie">
 <!ENTITY gen.orient.label "Zobraziť bočný panel">
 <!ENTITY gen.orient.left "vľavo">
@@ -76,6 +79,9 @@
 <!ENTITY menus.sidebar.entrydeac "Zakázať položky práve zobrazeného bočného panela.">
 <!ENTITY misc.enablesidebar.label "Otvoriť v bočnom paneli">
 <!ENTITY misc.layout.label "Optimalizovať vzhľad pre bočný panel">
+<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Povoliť farebné pozadia založené na súčasnom stave">
 <!ENTITY misc.count.label "Zobraziť počet položiek">
 <!ENTITY misc.enablelink.tooltip "Kliknite sem pre viac informácií">

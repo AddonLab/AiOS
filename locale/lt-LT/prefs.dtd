@@ -5,6 +5,7 @@
 <!ENTITY settings.advanced "Sudėtingesnis režimas">
 <!ENTITY settings.import "Importuoti nustatymus…">
 <!ENTITY settings.export "Eksportuoti nustatymus…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Pritaikyti">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Bendra">
@@ -14,11 +15,13 @@
 <!ENTITY tab.gen.special "Kita">
 <!ENTITY tab.panels "Skydeliai">
 <!ENTITY tab.panels.places "Žymelės/Istorija">
-<!ENTITY tab.panels.other1 "Kita">
+<!ENTITY tab.panels.other1 "Kita 1">
+<!ENTITY tab.panels.other2 "Kita 2">
 <!ENTITY tab.panels.paneltab "Skydelio kortelė">
 <!ENTITY tab.menus "Meniu">
 <!ENTITY tab.menus.sidebar "Parankinė">
 <!ENTITY tab.keys "Trumpiniai">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientacija">
 <!ENTITY gen.orient.label "Rodyti parankinę">
 <!ENTITY gen.orient.left "kairėje pusėje">
@@ -76,6 +79,9 @@
 <!ENTITY menus.sidebar.entrydeac "Išjungti aktyvios parankinės įrašą">
 <!ENTITY misc.enablesidebar.label "Atverti parankinėje">
 <!ENTITY misc.layout.label "Optimizuoti parankinės išdėstymą">
+<!ENTITY misc.dm.overlay "Change options for the sidebar behavior">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
 <!ENTITY misc.colors.label "Įjungti spalvotus fonus pagal dabartinę būseną">
 <!ENTITY misc.count.label "Rodyti elementų skaičių">
 <!ENTITY misc.enablelink.tooltip "Spragtelkite čia norėdami gauti daugiau informacijos (nuoroda į DUK)">

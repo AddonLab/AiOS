@@ -15,7 +15,8 @@
 <!ENTITY tab.gen.special "Specjalne">
 <!ENTITY tab.panels "Panele">
 <!ENTITY tab.panels.places "Zakładki/Historia">
-<!ENTITY tab.panels.other1 "Różne">
+<!ENTITY tab.panels.other1 "Różne I">
+<!ENTITY tab.panels.other2 "Różne II">
 <!ENTITY tab.panels.paneltab "PanelTab">
 <!ENTITY tab.menus "Menu">
 <!ENTITY tab.menus.sidebar "Panel boczny">

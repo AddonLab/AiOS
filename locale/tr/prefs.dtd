@@ -15,7 +15,8 @@
 <!ENTITY tab.gen.special "Özel">
 <!ENTITY tab.panels "Paneller">
 <!ENTITY tab.panels.places "Yer İmleri/Geçmiş">
-<!ENTITY tab.panels.other1 "Diğer">
+<!ENTITY tab.panels.other1 "Diğer 1">
+<!ENTITY tab.panels.other2 "Diğer 2">
 <!ENTITY tab.panels.paneltab "Panel tab">
 <!ENTITY tab.menus "Menüler">
 <!ENTITY tab.menus.sidebar "Kenar çubuğu">

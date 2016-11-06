@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sidopanelsomkopplare">
 <!ENTITY menu.grippy.label "Sidopanelsgrepp">
 <!ENTITY toolbar.name "All-in-One Sidebars verktygsfält">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebar verktygsfält">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Aktivera/Avaktivera objekt styrt av All-in-One Sidebar">
 <!ENTITY button.switch.tooltip1 "Visa/dölj sidopanel och verktygsfält">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "Multipanel">
 <!ENTITY button.multipanel.tooltip "Visa webbplatser och webbläsarinformation">
 <!ENTITY button.pageinfo.tooltip "Visa omfattande information om en webbsida">
+<!ENTITY button.console.label "Felkonsol">
+<!ENTITY button.console.tooltip "Öppna felkonsolen för att visa problem med källkoden">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

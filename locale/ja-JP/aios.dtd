@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "サイドバースイッチ">
 <!ENTITY menu.grippy.label "サイドバーグリップ">
 <!ENTITY toolbar.name "All-in-One Sidebar ツールバー">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "サイドバーヘッダー　ツールバー">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "All-in-One Sidebar のトグル機能">
 <!ENTITY button.switch.tooltip1 "サイドバーとツールバーの開閉">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "マルチパネル">
 <!ENTITY button.multipanel.tooltip "マルチパネルを表示します">
 <!ENTITY button.pageinfo.tooltip "ページの情報を表示します">
+<!ENTITY button.console.label "エラーコンソール">
+<!ENTITY button.console.tooltip "エラーコンソールを表示します(ソースコードの問題を追跡します)">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

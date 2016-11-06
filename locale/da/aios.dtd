@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sidebjælke-kontakt">
 <!ENTITY menu.grippy.label "Sidebjælke Grippy">
 <!ENTITY toolbar.name "Alt-I-En Sidebjælke værktøjslinje">
+<!ENTITY toolbar.label "All-in-One-Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebjælkeheader værktøjslinje">
+<!ENTITY sbhtoolbar.label "Sidebarheader">
 <!ENTITY button.toggle.label "AiOS">
 <!ENTITY button.toggle.tooltip "Slå elementer kontrolleret af AiOS til/fra">
 <!ENTITY button.switch.tooltip1 "Slå sidebjælke og værktøjslinje til/fra">
@@ -34,6 +36,8 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Viser f.eks. et website, kildekode og browserinformation">
 <!ENTITY button.pageinfo.tooltip "Viser informationer, formularer, links, medier og sikkerhed">
+<!ENTITY button.console.label "Fejlkonsol">
+<!ENTITY button.console.tooltip "Åbn fejlkonsollen, som sporer problemer med kildekoden">
 <!ENTITY keys.modifiers "accel skift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

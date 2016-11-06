@@ -15,7 +15,8 @@
 <!ENTITY tab.gen.special "Специальные возможности">
 <!ENTITY tab.panels "Панели">
 <!ENTITY tab.panels.places "Закладки/Журнал">
-<!ENTITY tab.panels.other1 "Дополнительно">
+<!ENTITY tab.panels.other1 "Дополнительно I">
+<!ENTITY tab.panels.other2 "Дополнительно II">
 <!ENTITY tab.panels.paneltab "Панель вкладок">
 <!ENTITY tab.menus "Меню">
 <!ENTITY tab.menus.sidebar "Боковая панель">
