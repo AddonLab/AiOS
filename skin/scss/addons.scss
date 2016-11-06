@@ -34,8 +34,7 @@ page[aios-inSidebar] {
     #category-search[disabled="true"],
     #category-availableUpdates[disabled="true"],
     #category-recentUpdates[disabled="true"],
-    .category-name,
-    .category-badge {
+    .category-name {
         display: none;
     }
     /* @end */
@@ -51,20 +50,6 @@ page[aios-inSidebar] {
         margin: 0 5px;
         min-width: 0;
     }
-
-    #updates-container {
-        padding: 10px 0;
-
-        .button-box {
-            padding: 0 !important;
-        }
-
-        #updates-close-btn {
-            display: block !important;
-        }
-    }
-    /* @end */
-
 
     /* @group Content */
     .view-header {
@@ -171,7 +156,6 @@ page[aios-inSidebar] {
             .relnotes-toggle {
                 display: none;
             }
-
         }
         /* @end */
 
@@ -242,6 +226,11 @@ page[aios-inSidebar] {
                 .button-box {
                     padding: 0 3px !important;
                 }
+            }
+
+            .addon-control.update {
+                margin-left: 5px;
+                margin-bottom: 3px;
             }
 
             /*.relnotes H2 {
@@ -418,12 +407,6 @@ page[aios-inSidebar] {
 
         #header {
             border-top: 1px solid ThreedHighlight;
-            border-bottom: 1px solid ThreedShadow;
-        }
-
-        #updates-container {
-            color: infotext;
-            background-color: infobackground;
             border-bottom: 1px solid ThreedShadow;
         }
 
@@ -666,15 +649,6 @@ page[aios-inSidebar] {
                 padding: 11px 3px 6px 5px;
                 border-top: none;
                 border-bottom: none;
-            }
-
-            #updates-container {
-                margin: 5px 0 0 0;
-
-                #updates-close-btn {
-                    margin: 0 5px 0 0;
-                    padding: 0;
-                }
             }
 
             .view-header,

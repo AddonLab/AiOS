@@ -34,14 +34,10 @@ var AiOS_Addons = {};
     this.setSidebarLayout = function() {
 
         var self = AiOS_Addons,
-            before,
-            insertedElement,
             nav_tmp,
             nav,
-            updatesBox,
             managerWindow = document.getElementById("addons-page");
 
-        self.checkNotification();
         self.setTitle(true);
 
         // fuer CSS-Zwecke speichern
@@ -55,33 +51,6 @@ var AiOS_Addons = {};
         nav = nav_tmp.ownerDocument.getAnonymousNodes(nav_tmp);
         nav[0].setAttribute("orient", "horizontal");
         nav[0].setAttribute("style", "overflow:hidden;");
-
-        // Toolbar mit Suchfeld usw. verschieben
-        // before = document.getElementById("view-port-container");
-        // insertedElement = before.parentNode.insertBefore(document.getElementById("header"), before);
-
-        // Label bei Suche ohne Suchergebnisse kuerzen
-        // document.getElementById("search-list-empty").childNodes[1].childNodes[0].setAttribute("crop", "end");
-
-        // Container mit Update-Meldungen verschieben => ansonsten werden die Meldungen im Header angezeigt
-        before = document.getElementById("header");
-        insertedElement = before.parentNode.insertBefore(document.getElementById("updates-container"), before);
-
-        // Inhalt der gelben Notificationbox vertikal anordnen
-        updatesBox = document.createElement("vbox");
-        updatesBox.setAttribute("align", "left");
-        updatesBox.appendChild(document.getElementById("updates-noneFound"));
-        updatesBox.appendChild(document.getElementById("updates-manualUpdatesFound-btn"));
-        updatesBox.appendChild(document.getElementById("updates-progress"));
-        updatesBox.appendChild(document.getElementById("updates-installed"));
-        updatesBox.appendChild(document.getElementById("updates-downloaded"));
-        updatesBox.appendChild(document.getElementById("updates-restart-btn"));
-        document.getElementById("updates-container").insertBefore(updatesBox, document.getElementById("updates-container").childNodes[1]);
-
-        // Navigationsbuttons immer sichtbar machen
-        // document.getElementById('back-btn').setAttribute('hidden', false);
-        // document.getElementById('forward-btn').setAttribute('hidden', false);
-
     };
 
 
@@ -130,33 +99,6 @@ var AiOS_Addons = {};
 
         // Detail-Ansicht: Buttons in der Spenden-Box rechts ausrichten
         document.getElementById("detail-contributions").childNodes[1].removeAttribute("align");
-
-    };
-
-
-    // gelbe Notification-Box abhaengig von vorhandenen Notifications ein- oder ausblenden
-    this.checkNotification = function() {
-
-        if( !document.getElementById('updates-noneFound').hidden ||
-            !document.getElementById('updates-manualUpdatesFound-btn').hidden ||
-            !document.getElementById('updates-progress').hidden ||
-            !document.getElementById('updates-installed').hidden ||
-            !document.getElementById('updates-downloaded').hidden ||
-            !document.getElementById('updates-restart-btn').hidden) {
-
-            document.getElementById('updates-container').hidden = false;
-        }
-        else {
-            document.getElementById('updates-container').hidden = true;
-        }
-
-    };
-
-
-    // gelbe Notification-Box ausblenden
-    this.hideNotification = function() {
-
-        document.getElementById('updates-container').hidden = true;
 
     };
 
