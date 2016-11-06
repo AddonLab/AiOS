@@ -11,7 +11,7 @@ var AiOS_Addons = {};
     };
 
 
-    this.isInSidebar = (top.document.getElementById('sidebar-box') || debug) ? true : false;
+    this.isInSidebar = (top.document.getElementById('sidebar-box') || debug === true) ? true : false;
 
     // Initialization
     this.initialize = function() {
