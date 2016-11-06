@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Speciális">
 <!ENTITY tab.panels "Panelek">
 <!ENTITY tab.panels.places "Könyvjelzők/Előzmények">
-<!ENTITY tab.panels.other1 "Egyéb I">
-<!ENTITY tab.panels.other2 "Egyéb II">
+<!ENTITY tab.panels.other1 "Egyéb">
 <!ENTITY tab.panels.paneltab "Panellap">
 <!ENTITY tab.menus "Menük">
 <!ENTITY tab.menus.sidebar "Oldalsáv">

@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Speciale">
 <!ENTITY tab.panels "Pannelli">
 <!ENTITY tab.panels.places "Segnalibri/Cronologia">
-<!ENTITY tab.panels.other1 "Varie I">
-<!ENTITY tab.panels.other2 "Varie II">
+<!ENTITY tab.panels.other1 "Varie">
 <!ENTITY tab.panels.paneltab "Pannelli">
 <!ENTITY tab.menus "Menu">
 <!ENTITY tab.menus.sidebar "Barra laterale">

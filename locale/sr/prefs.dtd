@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Посебно">
 <!ENTITY tab.panels "Панели">
 <!ENTITY tab.panels.places "Забелешке/Историјат">
-<!ENTITY tab.panels.other1 "Остало I">
-<!ENTITY tab.panels.other2 "Остало II">
+<!ENTITY tab.panels.other1 "Остало">
 <!ENTITY tab.panels.paneltab "Језичак панела">
 <!ENTITY tab.menus "Менији">
 <!ENTITY tab.menus.sidebar "Бочна трака">

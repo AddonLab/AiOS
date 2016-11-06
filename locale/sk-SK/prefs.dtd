@@ -14,8 +14,7 @@
 <!ENTITY tab.gen.special "Špeciality">
 <!ENTITY tab.panels "Karty">
 <!ENTITY tab.panels.places "Záložky/História">
-<!ENTITY tab.panels.other1 "Iné 1">
-<!ENTITY tab.panels.other2 "Iné 2">
+<!ENTITY tab.panels.other1 "Iné">
 <!ENTITY tab.panels.paneltab "Otvoriť bočný panel v karte">
 <!ENTITY tab.menus "Ponuky">
 <!ENTITY tab.menus.sidebar "Bočný panel">

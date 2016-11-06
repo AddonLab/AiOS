@@ -14,8 +14,7 @@
 <!ENTITY tab.gen.special "Spesielt">
 <!ENTITY tab.panels "Paneler">
 <!ENTITY tab.panels.places "Bokmerker/Historikk">
-<!ENTITY tab.panels.other1 "Andre I">
-<!ENTITY tab.panels.other2 "Andre II">
+<!ENTITY tab.panels.other1 "Andre">
 <!ENTITY tab.panels.paneltab "Panelfane">
 <!ENTITY tab.menus "Menyer">
 <!ENTITY tab.menus.sidebar "Sidestolpe">

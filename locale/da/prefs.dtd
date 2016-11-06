@@ -14,8 +14,7 @@
 <!ENTITY tab.gen.special "Speciel">
 <!ENTITY tab.panels "Paneler">
 <!ENTITY tab.panels.places "Bogmærker/Historik">
-<!ENTITY tab.panels.other1 "Andet I">
-<!ENTITY tab.panels.other2 "Andet II">
+<!ENTITY tab.panels.other1 "Andet">
 <!ENTITY tab.panels.paneltab "PanelFane">
 <!ENTITY tab.menus "Menuer">
 <!ENTITY tab.menus.sidebar "Sidebjælke">

@@ -589,7 +589,6 @@
                 <tab label="&downloads.label;" />
                 <tab label="&button.addons.label;" />
                 <tab label="&tab.panels.other1;" />
-                <tab label="&tab.panels.other2;" />
             </tabs>
 
             <tabs onclick="aios_synchTabs(this);" aiosAdvanced="true">
@@ -597,7 +596,6 @@
                 <tab label="&downloads.label;" />
                 <tab label="&button.addons.label;" />
                 <tab label="&tab.panels.other1;" />
-                <tab label="&tab.panels.other2;" />
                 <tab label="&tab.panels.paneltab;" class="aiosAdvanced" />
             </tabs>
 

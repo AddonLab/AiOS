@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Erilist">
 <!ENTITY tab.panels "Paneelid">
 <!ENTITY tab.panels.places "Järjehoidjad/Ajalugu">
-<!ENTITY tab.panels.other1 "Muud I">
-<!ENTITY tab.panels.other2 "Muud II">
+<!ENTITY tab.panels.other1 "Muud">
 <!ENTITY tab.panels.paneltab "Paneeli tab">
 <!ENTITY tab.menus "Menüüd">
 <!ENTITY tab.menus.sidebar "Külgpaan">

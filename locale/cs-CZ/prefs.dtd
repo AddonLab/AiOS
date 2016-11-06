@@ -13,8 +13,7 @@
 <!ENTITY tab.gen.fullscreen "Celoobrazovkový režim">
 <!ENTITY tab.gen.special "Speciality">
 <!ENTITY tab.panels "Panely">
-<!ENTITY tab.panels.other1 "Další I.">
-<!ENTITY tab.panels.other2 "Další II.">
+<!ENTITY tab.panels.other1 "Další">
 <!ENTITY tab.panels.paneltab "Otevřít postranní lištu v panelu">
 <!ENTITY tab.menus "Nabídky">
 <!ENTITY tab.menus.sidebar "Nabídky nástrojových lišt">

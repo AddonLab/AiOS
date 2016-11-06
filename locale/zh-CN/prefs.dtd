@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "特殊">
 <!ENTITY tab.panels "面板">
 <!ENTITY tab.panels.places "书签 / 历史">
-<!ENTITY tab.panels.other1 "其他 I">
-<!ENTITY tab.panels.other2 "其他 II">
+<!ENTITY tab.panels.other1 "其他">
 <!ENTITY tab.panels.paneltab "面板标签页">
 <!ENTITY tab.menus "菜单">
 <!ENTITY tab.menus.sidebar "侧栏菜单">

@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Especial">
 <!ENTITY tab.panels "Paneles">
 <!ENTITY tab.panels.places "Marcadores/Historial">
-<!ENTITY tab.panels.other1 "Otros I">
-<!ENTITY tab.panels.other2 "Otros II">
+<!ENTITY tab.panels.other1 "Otros">
 <!ENTITY tab.panels.paneltab "PanelTab">
 <!ENTITY tab.menus "Menues">
 <!ENTITY tab.menus.sidebar "Barra Lateral">

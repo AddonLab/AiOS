@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Speciaal">
 <!ENTITY tab.panels "Panelen">
 <!ENTITY tab.panels.places "Bladwijzers/Geschiedenis">
-<!ENTITY tab.panels.other1 "Overige I">
-<!ENTITY tab.panels.other2 "Overige II">
+<!ENTITY tab.panels.other1 "Overige">
 <!ENTITY tab.panels.paneltab "Paneeltabblad">
 <!ENTITY tab.menus "Menu’s">
 <!ENTITY tab.menus.sidebar "Zijbalk">

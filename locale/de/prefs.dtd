@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Spezial">
 <!ENTITY tab.panels "Paneele">
 <!ENTITY tab.panels.places "Lesezeichen/Chronik">
-<!ENTITY tab.panels.other1 "Andere I">
-<!ENTITY tab.panels.other2 "Andere II">
+<!ENTITY tab.panels.other1 "Andere">
 <!ENTITY tab.panels.paneltab "PanelTab">
 <!ENTITY tab.menus "Menüs">
 <!ENTITY tab.menus.sidebar "Sidebarmenüs">

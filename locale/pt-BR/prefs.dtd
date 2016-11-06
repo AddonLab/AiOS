@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Especial">
 <!ENTITY tab.panels "Painéis">
 <!ENTITY tab.panels.places "Favoritos/Histórico">
-<!ENTITY tab.panels.other1 "Outros I">
-<!ENTITY tab.panels.other2 "Outros II">
+<!ENTITY tab.panels.other1 "Outros">
 <!ENTITY tab.panels.paneltab "Aba de Painel">
 <!ENTITY tab.menus "Menus">
 <!ENTITY tab.menus.sidebar "Painel">

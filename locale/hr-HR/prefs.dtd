@@ -13,8 +13,7 @@
 <!ENTITY tab.gen.fullscreen "Mod cijelog ekrana">
 <!ENTITY tab.gen.special "Posebno">
 <!ENTITY tab.panels "Panoi">
-<!ENTITY tab.panels.other1 "Ostalo I">
-<!ENTITY tab.panels.other2 "Ostalo II">
+<!ENTITY tab.panels.other1 "Ostalo">
 <!ENTITY tab.panels.paneltab "Kartica panoa">
 <!ENTITY tab.menus "Izbornici">
 <!ENTITY tab.menus.sidebar "Rubni stupac">

@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "特 殊">
 <!ENTITY tab.panels "パネル">
 <!ENTITY tab.panels.places "ブックマーク/履歴">
-<!ENTITY tab.panels.other1 "その他 I">
-<!ENTITY tab.panels.other2 "その他 II">
+<!ENTITY tab.panels.other1 "その他">
 <!ENTITY tab.panels.paneltab "パネルタブ">
 <!ENTITY tab.menus "メニュー">
 <!ENTITY tab.menus.sidebar "サイドバー">

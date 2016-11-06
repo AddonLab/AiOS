@@ -13,8 +13,7 @@
 <!ENTITY tab.gen.fullscreen "Поўнаэкранны рэжым">
 <!ENTITY tab.gen.special "Адмысловыя магчымасці">
 <!ENTITY tab.panels "Панэлі">
-<!ENTITY tab.panels.other1 "Дадаткова I">
-<!ENTITY tab.panels.other2 "Дадаткова II">
+<!ENTITY tab.panels.other1 "Дадаткова">
 <!ENTITY tab.panels.paneltab "Панэль укладак">
 <!ENTITY tab.menus "Меню">
 <!ENTITY tab.menus.sidebar "Бакавая панэль">

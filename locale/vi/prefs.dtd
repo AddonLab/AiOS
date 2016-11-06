@@ -15,8 +15,7 @@
 <!ENTITY tab.gen.special "Đặc biệt">
 <!ENTITY tab.panels "Bảng điều khiển">
 <!ENTITY tab.panels.places "Đánh dấu/Lược sử">
-<!ENTITY tab.panels.other1 "Khác I">
-<!ENTITY tab.panels.other2 "Khác II">
+<!ENTITY tab.panels.other1 "Khác">
 <!ENTITY tab.panels.paneltab "ThẻBảng">
 <!ENTITY tab.menus "Trình đơn">
 <!ENTITY tab.menus.sidebar "Thanh lề">

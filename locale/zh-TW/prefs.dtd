@@ -14,8 +14,7 @@
 <!ENTITY tab.gen.special "其他">
 <!ENTITY tab.panels "面板">
 <!ENTITY tab.panels.places "書籤/瀏覽紀錄">
-<!ENTITY tab.panels.other1 "其他一">
-<!ENTITY tab.panels.other2 "其他二">
+<!ENTITY tab.panels.other1 "其他">
 <!ENTITY tab.panels.paneltab "面板分頁">
 <!ENTITY tab.menus "選單">
 <!ENTITY tab.menus.sidebar "側邊欄">
