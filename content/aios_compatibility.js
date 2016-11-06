@@ -20,13 +20,6 @@ var AiOS_Compatibility = {};
             fn.apply(ns);
         }
 
-        // Console2
-        if(document.getElementById('viewConsole2Sidebar') || document.getElementById('console2-button')) {
-            window.setTimeout(function() {
-                AiOS_Compatibility.console2();
-            }, 500);
-        }
-
         // MinimizeToTray
         if(document.getElementById('extensions.mook.minimizetotray.traypopup')) {
             window.setTimeout(function() {
@@ -76,36 +69,6 @@ var AiOS_Compatibility = {};
 
             }
 
-        }
-
-    };
-
-
-    // Anpassungen fuer Console2
-    this.console2 = function() {
-
-        var broadcaster,
-            button = document.getElementById('console2-button');
-
-        // meinen Sidebar-Menue-Eintrag der Console2 zuweisen
-        if(document.getElementById('console-mitem')) {
-            document.getElementById('console-mitem').setAttribute('observes', 'viewConsole2Sidebar');
-        }
-
-        // meinen Broadcaster loeschen > keine Auswahlmoeglichkeit in den Prefs
-        if(document.getElementById('viewConsoleSidebar')) {
-            broadcaster = document.getElementById('viewConsoleSidebar');
-            broadcaster.parentNode.removeChild(broadcaster);
-        }
-
-        // Console2-Button
-        if(button) {
-            if(button.parentNode.tagName === "toolbarpaletteitem") {
-                button.parentNode.parentNode.removeChild(button.parentNode);
-            }
-            else {
-                button.parentNode.removeChild(button);
-            }
         }
 
     };

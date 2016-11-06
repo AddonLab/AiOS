@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "멀티패널">
 <!ENTITY button.multipanel.tooltip "예를 들면 웹사이트, 소스 코드, 브라우저 정보 등을 보여줍니다.">
 <!ENTITY button.pageinfo.tooltip "웹 페이지에 대한 다양한 정보를 보여줍니다.">
-<!ENTITY button.console.label "오류 콘솔">
-<!ENTITY button.console.tooltip "소스 코드의 문제를 추적하는 오류 콘솔을 엽니다.">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

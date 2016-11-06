@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "多用面板">
 <!ENTITY button.multipanel.tooltip "显示多种信息，例如访问网站，查看源代码或浏览器信息等等">
 <!ENTITY button.pageinfo.tooltip "查看页面信息">
-<!ENTITY button.console.label "JavaScript 控制台">
-<!ENTITY button.console.tooltip "打开 JavaScript 控制台，JavaScript 控制台可以跟踪 JavaScript 代码出现的问题">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

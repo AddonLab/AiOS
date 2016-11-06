@@ -31,8 +31,6 @@
 <!ENTITY button.multipanel.label "Мультипанель">
 <!ENTITY button.multipanel.tooltip "Паказаць вэб-сайт, зыходны код старонкі або інфармацыю аб браўзэры">
 <!ENTITY button.pageinfo.tooltip "Паказаць усю інфармацыю аб дадзенай старонцы">
-<!ENTITY button.console.label "Кансоль памылак">
-<!ENTITY button.console.tooltip "Адкрыць кансоль, якая адлюстроўвае праблемы зыходнага кода">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

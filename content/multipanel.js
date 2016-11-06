@@ -7,7 +7,7 @@ if(document.getElementById('web-panels-browser')) webPanel = document.getElement
 
 /*
     Initialisierung
-        => Aufruf durch onload in console.xul
+        => Aufruf durch onload in multipanel.xul
 */
 function aios_init() {
     // Sidebar-/Fenster-Titel setzen

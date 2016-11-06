@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "ĐaBảng">
 <!ENTITY button.multipanel.tooltip "Hiển thị một trang web, mã nguồn, và thông tin trình duyệt">
 <!ENTITY button.pageinfo.tooltip "Hiển thị thông tin mở rộng của một trang web">
-<!ENTITY button.console.label "Bảng kiểm soát Lỗi">
-<!ENTITY button.console.tooltip "Mở Bảng kiểm soát Lỗi để theo dõi các vấn đề trong mã nguồn">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

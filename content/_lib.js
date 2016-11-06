@@ -71,7 +71,7 @@ function aios_modSidebarMenu() {
     }
 
     // var mitemsep1 = document.getElementById('aios-sidebar-mitem-sep1');
-    // if(mitemsep1.nextSibling.id == "aios-sidebar-mitem-sep0" || mitemsep1.nextSibling.getAttribute('observes') == "viewConsole2Sidebar" || mitemsep1.nextSibling.getAttribute('observes') == "viewDmtSidebar")
+    // if(mitemsep1.nextSibling.id == "aios-sidebar-mitem-sep0" ||  mitemsep1.nextSibling.getAttribute('observes') == "viewDmtSidebar")
     //     mitemsep1.setAttribute('hidden', true);
 
 
@@ -424,17 +424,7 @@ function aios_contextEvent(event, which) {
 function aios_setTargets() {
     var objects, i;
 
-    // weise den Menueelementen der Fehlerkonsole, des Seitenquelltextes und der Seiteninformationen die entsprechenden commands zu
-    if( document.getElementById('javascriptConsole') ) {
-        document.getElementById('javascriptConsole').removeAttribute('oncommand');
-        document.getElementById('javascriptConsole').setAttribute('command', 'Tools:Console');
-
-        if(document.getElementById('key_errorConsole')) {
-            document.getElementById('key_errorConsole').removeAttribute('oncommand');
-            document.getElementById('key_errorConsole').setAttribute('command', 'Tools:Console');
-        }
-    }
-
+    // weise den Menueelementen des Seitenquelltextes und der Seiteninformationen die entsprechenden commands zu
     document.getElementById('context-viewinfo').removeAttribute('oncommand');
     document.getElementById('context-viewinfo').setAttribute('command', 'View:PageInfo');
 
@@ -446,10 +436,6 @@ function aios_setTargets() {
     targets['ad'] = new Array('Tools:Addons',       'viewAddonsSidebar',        'addons');
     targets['mp'] = new Array('Tools:MultiPanel',   'viewWebPanelsSidebar',     'multipanel');
     targets['pi'] = new Array('View:PageInfo',      'viewPageInfoSidebar',      'pageinfo');
-    targets['co'] = new Array('Tools:Console',      'viewConsoleSidebar',       'console');
-
-    if(document.getElementById('viewConsole2Sidebar'))
-        targets['co'] = new Array('Tools:Console', 'viewConsole2Sidebar', 'console');
 
     // informative Tooltips und Funktionsumkehrung (PanelTab) aktivieren?
     var prefInfotip = false;

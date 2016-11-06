@@ -363,7 +363,7 @@ function aios_toggleChilds(childElems, childMode) {
 /**
  *  Tastaturkuerzel entfernen, um nicht die des Hauptbrowsers zu blockieren
  *
- *      => Aufruf in downloads.js, pageinfo.js, console.js
+ *      => Aufruf in downloads.js, pageinfo.js
  **/
 function aios_removeAccesskeys() {
     var keys = document.getElementsByAttribute('accesskey', '*');

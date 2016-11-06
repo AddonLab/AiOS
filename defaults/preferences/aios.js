@@ -74,10 +74,6 @@ pref("extensions.aios.pi.sidebar", false);
 pref("extensions.aios.pi.layout", true);
 pref("extensions.aios.pi.layoutall", false);
 
-pref("extensions.aios.co.sidebar", true);
-pref("extensions.aios.co.layout", true);
-pref("extensions.aios.co.layoutall", false);
-
 
 /*
  *  Menus

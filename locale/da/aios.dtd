@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Viser f.eks. et website, kildekode og browserinformation">
 <!ENTITY button.pageinfo.tooltip "Viser informationer, formularer, links, medier og sikkerhed">
-<!ENTITY button.console.label "Fejlkonsol">
-<!ENTITY button.console.tooltip "Åbn fejlkonsollen, som sporer problemer med kildekoden">
 <!ENTITY keys.modifiers "accel skift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

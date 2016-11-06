@@ -64,11 +64,6 @@
             oncommand="SidebarUI.toggle('viewPageInfoSidebar');"
             label="&pageInfoCmd.label;" tooltiptext="&button.pageinfo.tooltip;" />
 
-        <broadcaster id="viewConsoleSidebar" autoCheck="false" type="checkbox" group="sidebar"
-            sidebartitle="&button.console.label;" sidebarurl="chrome://global/content/console.xul"
-            oncommand="SidebarUI.toggle('viewConsoleSidebar');"
-            label="&button.console.label;" tooltiptext="&button.console.tooltip;" />
-
 
         <!-- broadcaster mit gespeichertem Wunsch-Toolbar-Zustand, gespeichert durch onpopupshowing-Handler im menuitem des toolbar-Menues -->
         <broadcaster id="aios-viewToolbar" type="checkbox" checked="true" persist="checked"
@@ -90,8 +85,6 @@
 
     <!-- Kommandos -->
     <commandset id="mainCommandSet">
-        <command id="Tools:Console" oncommand="toJavaScriptConsole();" />
-
         <command id="aiosCmd_panelTab1" oncommand="aios_panelTab('sidebar');" />
         <command id="aiosCmd_panelTab2" oncommand="aios_panelTab('tab');" />
         <command id="aiosCmd_prefs" oncommand="aios_openDialog('prefs');" />
@@ -188,14 +181,6 @@
             label="&pageInfoCmd.label;" tooltip="pageinfo-tooltip" tooltiptext="&button.pageinfo.tooltip;">
             <observes element="viewPageInfoSidebar" attribute="checked" />
             <observes element="viewPageInfoSidebar" attribute="onclick" />
-        </toolbarbutton>
-
-        <toolbarbutton id="console-button" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-            command="viewConsoleSidebar"
-            label="&button.console.label;" tooltip="console-tooltip" tooltiptext="&button.console.tooltip;">
-            <observes element="viewConsoleSidebar" attribute="checked" />
-            <observes element="viewConsole2Sidebar" attribute="checked" />
-            <observes element="viewConsoleSidebar" attribute="onclick" />
         </toolbarbutton>
 
         <toolbarbutton id="sidebars-button" type="menu" class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
@@ -372,10 +357,6 @@
                 <label value="&button.pageinfo.tooltip;" />
             </tooltip>
 
-            <tooltip id="console-tooltip">
-                <label value="&button.console.tooltip;" />
-            </tooltip>
-
         </popupset>
 
     </window>
@@ -408,8 +389,6 @@
         <menuitem id="pageinfo-mitem" observes="viewPageInfoSidebar" position="7" key="aiosKey_pageInfo" />
 
         <menuseparator id="addons_sep" position="8" />
-
-        <menuitem id="console-mitem" observes="viewConsoleSidebar" position="9" key="key_errorConsole" />
 
         <!-- <menuseparator id="aios-sidebar-mitem-sep1" position="10" /> -->
 

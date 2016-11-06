@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "Више панела">
 <!ENTITY button.multipanel.tooltip "Прикажи нпр. страницу, изворни код и информације о претраживачу">
 <!ENTITY button.pageinfo.tooltip "Опсежни приказ информација о страници">
-<!ENTITY button.console.label "Конзола са грешкама">
-<!ENTITY button.console.tooltip "Отвори конзолу са грешкама која прати грешке у изворном коду">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

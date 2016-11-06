@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "Πολύπλευρο πλαίσιο">
 <!ENTITY button.multipanel.tooltip "Εμφάνιση ιστοσελίδων και πληροφοριών περιηγητή">
 <!ENTITY button.pageinfo.tooltip "Εμφάνιση περισσότερων πληροφοριών για ιστοσελίδες">
-<!ENTITY button.console.label "Κονσόλα σφαλμάτων">
-<!ENTITY button.console.tooltip "Άνοιγμα της κονσόλας σφαλμάτων, η οποία παρακολουθεί προβλήματα που υπάρχουν στον πηγαίο κώδικα">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

@@ -41,10 +41,6 @@ window:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
         -moz-image-region: rect(0, 96px, 16px, 80px);
     }
 
-    #console-button {
-        -moz-image-region: rect(0, 112px, 16px, 96px);
-    }
-
     #paneltab-button {
         -moz-image-region: rect(0, 128px, 16px, 112px);
     }
@@ -182,13 +178,6 @@ window:not([aios-appOS="WINNT"]):not([aios-appOS="Darwin"]) {
 //     }
 //     toolbar[iconsize="small"] #pageinfo-button {
 //         -moz-image-region: rect(24px, 48px, 40px, 32px);
-//     }
-
-//     #console-button {
-//         -moz-image-region: rect(0, 120px, 24px, 96px);
-//     }
-//     toolbar[iconsize="small"] #console-button {
-//         -moz-image-region: rect(24px, 80px, 40px, 64px);
 //     }
 
 //     #paneltab-button {

@@ -33,8 +33,6 @@
 <!ENTITY button.multipanel.label "Više panoa">
 <!ENTITY button.multipanel.tooltip "Prikaži npr. web stranicu, izvorni kod i informacije o pregledniku">
 <!ENTITY button.pageinfo.tooltip "Prikaz opsežnih informacija o web stranici">
-<!ENTITY button.console.label "Konzola s greškama">
-<!ENTITY button.console.tooltip "Otvaranje konzole s greškama koja prati probleme s izvornim kodom">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

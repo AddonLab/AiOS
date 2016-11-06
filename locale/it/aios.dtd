@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "Multipannello">
 <!ENTITY button.multipanel.tooltip "Mostra ad es. un sito web, il codice sorgente e le informazioni sul browser">
 <!ENTITY button.pageinfo.tooltip "Mostra informazioni dettagliate sulla pagina web attuale">
-<!ENTITY button.console.label "Console degli errori">
-<!ENTITY button.console.tooltip "Tiene traccia dei problemi inerenti al codice sorgente con la Console degli errori">
 <!ENTITY keys.modifiers "accel maiusc">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

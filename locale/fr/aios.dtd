@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "MultiPanneau">
 <!ENTITY button.multipanel.tooltip "Affiche des infos sur les sites Web et le navigateur">
 <!ENTITY button.pageinfo.tooltip "Affiche des informations étendues sur la page Web">
-<!ENTITY button.console.label "Console d'erreur">
-<!ENTITY button.console.tooltip "Ouvre la console d'erreur, montrant les problèmes et le code source">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

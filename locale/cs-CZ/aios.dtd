@@ -32,8 +32,6 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Zobrazí např. stránku, zdrojový kód a informace o prohlížeči">
 <!ENTITY button.pageinfo.tooltip "Zobrazí obecné informace o stránce, formuláře, odkazy, média a informace o zabezpečení">
-<!ENTITY button.console.label "Konzole chyb">
-<!ENTITY button.console.tooltip "Otevře konzoli chyb, která zaznamenává problémy při interpretaci programového kódu">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

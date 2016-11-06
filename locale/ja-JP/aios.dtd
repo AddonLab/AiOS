@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "マルチパネル">
 <!ENTITY button.multipanel.tooltip "マルチパネルを表示します">
 <!ENTITY button.pageinfo.tooltip "ページの情報を表示します">
-<!ENTITY button.console.label "エラーコンソール">
-<!ENTITY button.console.tooltip "エラーコンソールを表示します(ソースコードの問題を追跡します)">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

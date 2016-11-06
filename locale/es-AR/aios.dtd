@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Mostrar por ejemplo un sitio web, el código fuente y la información del navegador">
 <!ENTITY button.pageinfo.tooltip "Ver informaciones, Formularios, Enlaces, Contenido y Seguridad">
-<!ENTITY button.console.label "Consola de Errores">
-<!ENTITY button.console.tooltip "Abrir la Consola de Errores, que nos muestra los problemas con el código fuente">
 <!ENTITY keys.modifiers "acelerar cambio">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

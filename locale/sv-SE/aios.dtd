@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "Multipanel">
 <!ENTITY button.multipanel.tooltip "Visa webbplatser och webbläsarinformation">
 <!ENTITY button.pageinfo.tooltip "Visa omfattande information om en webbsida">
-<!ENTITY button.console.label "Felkonsol">
-<!ENTITY button.console.tooltip "Öppna felkonsolen för att visa problem med källkoden">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

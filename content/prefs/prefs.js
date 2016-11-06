@@ -517,11 +517,19 @@ function aios_savePrefs() {
         AiOS_HELPER.mostRecentWindow.document.getElementById('paneltab-button').setAttribute('tooltip', ptTooltip);
     }
 
-    if(AiOS_HELPER.mostRecentWindow.aios_setTargets) AiOS_HELPER.mostRecentWindow.aios_setTargets();
+    if(AiOS_HELPER.mostRecentWindow.aios_setTargets) {
+        AiOS_HELPER.mostRecentWindow.aios_setTargets();
+    }
 
     AiOS_HELPER.mostRecentWindow.aios_checkThinSwitch();
-    if(AiOS_HELPER.mostRecentWindow.aios_setSidebarOrient) AiOS_HELPER.mostRecentWindow.aios_setSidebarOrient();
-    if(AiOS_HELPER.mostRecentWindow.aios_initAutohide) AiOS_HELPER.mostRecentWindow.aios_initAutohide();
+
+    if(AiOS_HELPER.mostRecentWindow.aios_setSidebarOrient) {
+        AiOS_HELPER.mostRecentWindow.aios_setSidebarOrient();
+    }
+
+    if(AiOS_HELPER.mostRecentWindow.aios_initAutohide) {
+        AiOS_HELPER.mostRecentWindow.aios_initAutohide();
+    }
 
     // Bugfix...
     // sonst wird das Kontextmenue der Erweiterung angezeigt,
@@ -678,7 +686,7 @@ function aios_checkApply(aPref) {
 */
 function aios_deleteOldPrefs() {
 
-    var oldPrefs = new Array('em.layout', 'em.layoutall', 'em.slim', 'em.colors', 'dm.slim', 'dm.colors', 'co.slim', 'co.colors', 'bm.layout', 'bm.layoutall', 'hi.layout', 'hi.layoutall');
+    var oldPrefs = new Array('em.layout', 'em.layoutall', 'em.slim', 'em.colors', 'dm.slim', 'dm.colors', 'co.slim', 'co.sidebar', 'co.layout', 'co.colors', 'bm.layout', 'bm.layoutall', 'hi.layout', 'hi.layoutall');
 
     for(var i = 0; i < oldPrefs.length; i++) {
         try {

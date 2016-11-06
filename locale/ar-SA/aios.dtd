@@ -33,8 +33,6 @@
 <!ENTITY button.multipanel.label "لوحة ثنائية">
 <!ENTITY button.multipanel.tooltip "عرض مثال صفحة, المصدر, ومعلومات المتصفح">
 <!ENTITY button.pageinfo.tooltip "عرض معلومات واسعة عن صفحة ويب">
-<!ENTITY button.console.label "لوحة الأخطاء">
-<!ENTITY button.console.tooltip "فتح لوحة الأخطاء, لتتبع أخطاء المصدر في الصفحة">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

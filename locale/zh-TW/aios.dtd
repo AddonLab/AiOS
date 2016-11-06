@@ -33,8 +33,6 @@
 <!ENTITY button.multipanel.label "多功能面板">
 <!ENTITY button.multipanel.tooltip "顯示「網頁內容、原始碼及瀏覽器資訊」">
 <!ENTITY button.pageinfo.tooltip "檢視網頁的表單、鏈結、多媒體或是安全相關資訊">
-<!ENTITY button.console.label "Error 主控台">
-<!ENTITY button.console.tooltip "開啟 Error 主控台，追蹤原始碼的問題">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

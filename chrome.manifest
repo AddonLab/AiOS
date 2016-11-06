@@ -74,7 +74,4 @@ style       chrome://global/content/config.xul                         chrome://
 overlay     chrome://browser/content/pageinfo/pageInfo.xul             chrome://aios/content/pageinfo.xul
 style       chrome://browser/content/pageinfo/pageInfo.xul             chrome://aios/skin/css/pageinfo.css
 
-overlay     chrome://global/content/console.xul                        chrome://aios/content/console.xul
-overlay     chrome://console2/content/console2.xul                     chrome://aios/content/console.xul
-
 style       chrome://aios/content/about.xul                            chrome://aios/skin/css/prefs.css

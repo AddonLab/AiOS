@@ -577,8 +577,6 @@
             <preference id="PILayout"       type="bool"     name="extensions.aios.pi.layout" />
 
             <preference id="MPOpen"         type="bool"     name="extensions.aios.mp.sidebar" />
-            <preference id="COOpen"         type="bool"     name="extensions.aios.co.sidebar" />
-            <preference id="COLayout"       type="bool"     name="extensions.aios.co.layout" />
 
             <preference id="PanelTabReverse"    type="bool"     name="extensions.aios.paneltab.reverse" />
             <preference id="PanelTabBMM"    type="bool"     name="extensions.aios.paneltab.bm" />
@@ -689,7 +687,7 @@
                 </tabpanel>
 
 
-<!-- TAB: Andere I -->
+<!-- TAB: Andere -->
 
                 <tabpanel orient="vertical">
                     <vbox class="aiosSizeBox" restart="true">
@@ -708,28 +706,6 @@
                                 <checkbox id="obj-PILayout" preference="PILayout" label="&misc.layout.label;" />
                             </vbox>
 -->
-                        </groupbox>
-
-                    </vbox>
-
-                    <spacer flex="1" />
-                    <description value="* &restart;" style="margin-top: 10px;" />
-
-                </tabpanel>
-
-
-<!-- TAB: Andere II -->
-
-                <tabpanel orient="vertical">
-                    <vbox class="aiosSizeBox" restart="true">
-
-                        <groupbox>
-                            <caption label="&button.console.label;" />
-                            <checkbox preference="COOpen" label="&misc.enablesidebar.label; *" aiosChilds="COLayout" oncommand="aios_checkboxObserver(this);" />
-
-                            <vbox class="indent" aiosAdvanced="true">
-                                <checkbox preference="COLayout" label="&misc.layout.label;" />
-                            </vbox>
                         </groupbox>
 
                     </vbox>
