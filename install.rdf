@@ -3,7 +3,7 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
         <em:name>All-in-One Sidebar</em:name>
-        <em:version>dev-build</em:version>
+        <em:version>0.7.31</em:version>
         <em:description>Sidebar control with award-winning user experience!</em:description>
         <em:creator>Ingo Wennemaring</em:creator>
 
