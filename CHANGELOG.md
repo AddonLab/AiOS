@@ -1,6 +1,22 @@
 
 # Changelog
 
+### 0.7.31 (06.11.2016)
+
+##### changed
+* remove support for deprecated error console
+
+##### fixed
+* sidebar close button doesn’t work with third-party extensions
+* addon panel is displayed wrong when opened in a tab
+* update notification in addon panel doesn’t appear
+
+##### notice
+* if you still have problems opening the sidebar, please try to open the bookmarks sidebar once by clicking on View > Sidebar > Bookmarks
+* otherwise follow these instructions: https://github.com/AddonLab/AiOS/issues/122#issuecomment-241235403
+
+---
+
 ### 0.7.30 (21.08.2016)
 
 ##### changed
