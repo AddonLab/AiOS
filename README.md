@@ -1,6 +1,12 @@
 All-in-One Sidebar (AiOS) - a sidebar extension for Mozilla Firefox
 ===================================================================
 
+ATTENTION!
+----------
+The development of this extension has been discontinued. The All-in-One Sidebar will stop working in November 2017 with the release of Firefox 57. Please read my statement [on the website](http://firefox.exxile.net/aios/end_of_development.php).
+
+---------
+
 This is the repository of the sidebar extension called All-in-One Sidebar which is hosted at [addons.mozilla.org/firefox/addon/all-in-one-sidebar/](https://addons.mozilla.org/firefox/addon/all-in-one-sidebar/)
 
 More information available on the [project homepage](http://firefox.exxile.net/aios/index.php). There is also a [forum for comments, bug reports and more](http://firefox.exxile.net/forum/).
